@@ -1,7 +1,7 @@
 # CSS guidelines
 
 ## Goals
-* Maintainable CSS components
+* Maintainable OOCSS components
 * Scalable code
 
 ## Naming
@@ -125,4 +125,17 @@ $ModalOverlayBg: rgba(0,0,0, .7);
   .Modal-footer {
     ...
   }
+```
+
+## Else
+ * Never use IDs
+ * No magic number
+ * Only use `!important` on utility classes
+ * Max nesting level: 3
+ * Formatte rgba stuff
+```css
+.Component {
+  color: rgba(255,255,255, .8);
+  background-color: rgba(0,0,0, .5);
+}
 ```
