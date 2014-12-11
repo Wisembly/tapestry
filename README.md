@@ -54,3 +54,75 @@
     }
   }
 ```
+
+## Comments
+ * Use "big" comment for block declaration.
+ * Use "small" comment for precision
+```css
+/*
+ * This is a comment
+ */
+ 
+ // This is a small comment
+```
+
+## Component file structure
+ * Use 3 empty lines between block types
+```
+/*
+ * ComponentName
+ * 
+ * Component variables
+ * Component placeholders
+ * Component mixins
+ *
+ * ComponentChild
+ * ComponentOtherChild
+ */
+```
+Example
+```css
+/*
+ * Modal
+ * 
+ * Modal variables
+ * Modal mixins
+ *
+ * Modal-header
+ * Modal-body
+ * Modal-header
+ */
+ 
+ 
+ 
+$ModalOverlayBg: rgba(0,0,0, .7);
+ 
+ 
+ 
+@mixin Modal--splash {
+  color: #fff;
+  background-color: transparent;
+  padding: 0;
+}
+
+
+
+.Modal {
+ ...
+}
+.Modal.has-overlay {
+  ...
+}
+
+  .Modal-header {
+    ...
+  }
+  
+  .Modal-body {
+    ...
+  }
+  
+  .Modal-footer {
+    ...
+  }
+```
