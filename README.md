@@ -62,7 +62,7 @@
 /*
  * This is a comment
  */
- 
+
  // This is a small comment
 ```
 
@@ -71,7 +71,7 @@
 ```
 /*
  * ComponentName
- * 
+ *
  * Component variables
  * Component placeholders
  * Component mixins
@@ -84,7 +84,7 @@ Example
 ```css
 /*
  * Modal
- * 
+ *
  * Modal variables
  * Modal mixins
  *
@@ -92,13 +92,13 @@ Example
  * Modal-body
  * Modal-header
  */
- 
- 
- 
+
+
+
 $ModalOverlayBg: rgba(0,0,0, .7);
- 
- 
- 
+
+
+
 @mixin Modal--splash {
   color: #fff;
   background-color: transparent;
@@ -117,11 +117,11 @@ $ModalOverlayBg: rgba(0,0,0, .7);
   .Modal-header {
     ...
   }
-  
+
   .Modal-body {
     ...
   }
-  
+
   .Modal-footer {
     ...
   }
