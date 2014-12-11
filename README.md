@@ -7,7 +7,7 @@
 ## Naming
 * BEM
 * PascaleCase for component name
-* cascaleCase for component childs
+* camelCase for component childs
 ```html
 <div class="Component Component--modifier">
   <div class="Component-child"></div>
