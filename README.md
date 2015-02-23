@@ -74,8 +74,7 @@
 ## Component file structure
  * Use 3 empty lines between block types
 ```
-/*
- * ComponentName
+/* ComponentName
  *
  * Component variables
  * Component placeholders
@@ -87,8 +86,7 @@
 ```
 Example
 ```css
-/*
- * Modal
+/* Modal
  *
  * Modal variables
  * Modal mixins
@@ -115,6 +113,7 @@ $ModalOverlayBg: rgba(0,0,0, .7);
 .Modal {
  ...
 }
+
 .Modal.has-overlay {
   ...
 }
