@@ -1,3 +1,6 @@
+exclude:
+  - src/utils/_colors.scss
+
 linters:
   BangFormat:
     enabled: true
