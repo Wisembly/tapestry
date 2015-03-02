@@ -2,7 +2,6 @@ var gulp = require('gulp');
 var sass = require('gulp-sass');
 var bs = require('browser-sync');
 var linter  = require('gulp-scss-lint');
-var plumber = require('gulp-plumber');
 var Styleguide = require('styleguide-generator');
 
 var MyStyleguide = new Styleguide({
@@ -16,41 +15,42 @@ var MyStyleguide = new Styleguide({
 	}
 });
 
-
-
-gulp.task('lint', function () {
-  return gulp.src('./src/**/*.scss')
-    .pipe(linter({
-      'config': './scss-lint.yml',
-    }));
-});
+function handleError (error) {
+	console.log('Error: ' + error);
+	this.emit('end');
+}
 
 gulp.task('sass', function () {
   return gulp.src('./src/**/*.scss')
-    .pipe(plumber())
+		.pipe(linter({
+      'config': './scss-lint.yml'
+    }))
+		.on('error', handleError)
     .pipe(sass())
+		.on('error', handleError)
     .pipe(gulp.dest('./dist'));
 });
 
 gulp.task('styleguide', function () {
-  return MyStyleguide.generate( function () {
+  return MyStyleguide.generate(function () {
 		return console.log('✓ Styleguide generated');
    });
 });
 
 gulp.task('serve', function() {
-	bs({
+	return bs({
+		files: ['./dist/app.css', './styleguide/**'],
+		startPath: '/styleguide/index.html',
 		server: {
 			baseDir: './'
-		},
-		startPath: '/styleguide/index.html'
+		}
 	});
 });
 
 
 gulp.task('watch', function () {
-  gulp.watch(['./src/**/*.scss'], ['sass', 'lint', 'styleguide', bs.reload]);
-  gulp.watch(['./src/**/*.md'],   ['styleguide', bs.reload]);
+  gulp.watch(['./src/**/*.scss'], ['sass']);
+  gulp.watch(['./src/**/*.md'],   ['styleguide']);
 });
 
-gulp.task('default', ['sass', 'lint', 'styleguide', 'watch', 'serve']);
+gulp.task('default', ['sass', 'styleguide', 'watch', 'serve']);
