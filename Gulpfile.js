@@ -49,8 +49,8 @@ gulp.task('serve', function() {
 
 
 gulp.task('watch', function () {
-  gulp.watch(['./src/**/*.scss'], ['sass', 'styleguide', bs.reload]);
+  gulp.watch(['./src/**/*.scss'], ['sass', 'lint', 'styleguide', bs.reload]);
   gulp.watch(['./src/**/*.md'],   ['styleguide', bs.reload]);
 });
 
-gulp.task('default', ['sass', 'styleguide', 'watch', 'serve']);
+gulp.task('default', ['sass', 'lint', 'styleguide', 'watch', 'serve']);
