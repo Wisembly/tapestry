@@ -1,0 +1,43 @@
+.Btn--navy {
+  background-color: $navy;
+
+  &:hover {
+    background-color: $navy--hover;
+  }
+}
+
+.Btn--blue:not {
+  background-color: $blue;
+
+  &:hover {
+    background-color: $blue--hover;
+  }
+}
+
+.Btn--green {
+  background-color: $green;
+
+  &:hover {
+    background-color: $green--hover;
+  }
+}
+
+.Btn--yellow {
+  background-color: $yellow;
+
+  &:hover {
+    background-color: $yellow--hover;
+  }
+}
+
+.Btn--red {
+  background-color: $red;
+
+  &:hover {
+    background-color: $red--hover;
+  }
+}
+
+.Btn--red.Btn--outline {
+  background-color: transparent;
+}

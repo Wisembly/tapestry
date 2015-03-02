@@ -1,1 +1,8 @@
-@import "components/button/button";
+@import "utils/mixins";
+@import "utils/functions";
+@import "utils/vars";
+@import "utils/colors";
+
+@import "core/type";
+
+@import "components/button/core";
