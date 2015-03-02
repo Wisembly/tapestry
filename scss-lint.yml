@@ -9,7 +9,7 @@ linters:
     convention: zero
 
   ColorKeyword:
-    enabled: false
+    enabled: true
 
   ColorVariable:
     enabled: true
@@ -78,7 +78,7 @@ linters:
     force_nesting: false
 
   NameFormat:
-    enabled: false
+    enabled: true
     allow_leading_underscore: true
     convention: hyphenated_lowercase
 
@@ -197,7 +197,7 @@ linters:
     max_depth: 3
 
   SelectorFormat:
-    enabled: true
+    enabled: false
     convention: hyphenated_lowercase
 
   Shorthand:
