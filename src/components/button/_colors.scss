@@ -1,43 +1,34 @@
-.Btn--navy {
-  background-color: $navy;
+$button-name-colors: "-navy" "-blue" "-green" "-yellow" "-red";
+$button-base-colors: $navy $blue $green $yellow $red;
+$button-hover-colors: $navy--hover $blue--hover $green--hover $yellow--hover $red--hover;
 
-  &:hover {
-    background-color: $navy--hover;
+@for $i from 1 to length($button-base-colors) + 1 {
+  $color-name: nth($button-name-colors, $i);
+  $color-value: nth($button-base-colors, $i);
+  $hover-color: nth($button-hover-colors, $i);
+
+  .Btn-#{$color-name} {
+    background-color: $color-value;
+
+    &:hover {
+      background-color: $hover-color;
+    }
+  }
+
+  .Btn--outline.Btn-#{$color-name} {
+    color: $color-value;
+    border-color: $color-value;
+
+    &:hover {
+      color: $hover-color;
+      border-color: $hover-color;
+    }
   }
 }
 
-.Btn--blue:not {
-  background-color: $blue;
 
-  &:hover {
-    background-color: $blue--hover;
-  }
-}
-
-.Btn--green {
-  background-color: $green;
-
-  &:hover {
-    background-color: $green--hover;
-  }
-}
-
-.Btn--yellow {
-  background-color: $yellow;
-
-  &:hover {
-    background-color: $yellow--hover;
-  }
-}
-
-.Btn--red {
-  background-color: $red;
-
-  &:hover {
-    background-color: $red--hover;
-  }
-}
-
-.Btn--red.Btn--outline {
-  background-color: transparent;
+.Btn--outline,
+.Btn--outline:hover,
+.Btn--outline:active, {
+  background-color: $white;
 }
