@@ -9,6 +9,7 @@ var MyStyleguide = new Styleguide({
 	srcFolder: 'src/',
 	distFolder: 'styleguide',
 	layoutPath: 'styleguide/layout.html',
+	colorsPath: 'src/utils/_colors.scss',
 	components: {
 		folder: '',
 		filesExtension: 'html'

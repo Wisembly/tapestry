@@ -1,24 +1,37 @@
-$white: #fff;
+// Color name based on Name That color project http://chir.ag/projects/name-that-color/
+// Please order colors from light to dark
 
-// Blues
-$blue: #289BC4;
-$blue--hover: #258AAE;
-
-$navy: #07698D;
-$navy--hover: #0D5C7C;
+$white: #FFF !default;
+$black: #000 !default;
 
 // Greys
-$grey: #708189;
-$grey--medium: #A1A9AE;
+$alabaster: #F7F7F7;
+$porcelain: #EBEEEF;
+$iron: #D5D9DA;
+$gray-chateau: #A1A9AE;
+$slate-gray: #708189;
+$limed-spruce: #3A434C;
+
+// Blues
+$regent-st-blue: #AED7E8;
+$curious-blue: #289BC4;
+$eastern-blue: #258AAE;
+$venice-blue: #07698D;
+$atoll: #0D5C7C;
+$deep-sea-green: #084D66;
 
 // Greens
-$green: #46B489;
-$green--hover: #41A07A;
+$emerald: #52C699;
+$mint: #46B489;
+$ocean-green: #41A07A;
 
 // Yellows
-$yellow: #F1BC33;
-$yellow--hover: #D5A82D;
+$saffron: #F1BC33;
+$galliano: #D5A82D;
+
+// Orange
+$salmon: #F7896D;
 
 // Reds
-$red: #E25C5B;
-$red--hover: #C85450;
+$mandy: #E25C5B;
+$fuzzy-wuzzy-brown: #C85450;
