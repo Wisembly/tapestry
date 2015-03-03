@@ -1,0 +1,21 @@
+$meter-radius: $base-radius *2;
+
+.Meter {
+  position: relative;
+  width: 100%;
+  height: $base-line-height/2;
+  background: $alabaster;
+}
+
+.Meter-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: $curious-blue;
+}
+
+.Meter,
+.Meter-bar {
+  border-radius: $meter-radius;
+}
