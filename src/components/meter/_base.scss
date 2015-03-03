@@ -1,9 +1,9 @@
-$meter-radius: $base-radius *2;
+$meter-radius: $base-radius * 2;
 
 .Meter {
   position: relative;
   width: 100%;
-  height: $base-line-height/2;
+  height: $base-line-height / 2;
   background: $porcelain;
 }
 
