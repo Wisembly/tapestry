@@ -2,17 +2,17 @@
   padding: $base-padding--s $base-padding;
   font-size: $base-font-size;
   color: $white;
-  background-color: $grey--medium;
+  background-color: $gray-chateau;
   border: 1px solid transparent;
   border-radius: 3px;
   outline: 0;
   transition: all .2s ease-out;
 
   &:hover {
-    background-color: $grey;
+    background-color: $slate-gray;
   }
 
   &:active {
-    box-shadow: inset 0 1px 4px 0 rgba(58, 67, 76, .5);
+    box-shadow: inset 0 1px 4px 0 rgba($limed-spruce, .5);
   }
 }

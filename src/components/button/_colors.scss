@@ -1,6 +1,6 @@
-$button-name-colors: "-navy" "-blue" "-green" "-yellow" "-red";
-$button-base-colors: $navy $blue $green $yellow $red;
-$button-hover-colors: $navy--hover $blue--hover $green--hover $yellow--hover $red--hover;
+$button-name-colors: "-primary" "-alt" "-validate" "-info" "-error";
+$button-base-colors: $venice-blue $curious-blue $mint $saffron $mandy;
+$button-hover-colors: $atoll $eastern-blue $ocean-green $galliano $fuzzy-wuzzy-brown;
 
 @for $i from 1 to length($button-base-colors) + 1 {
   $color-name: nth($button-name-colors, $i);

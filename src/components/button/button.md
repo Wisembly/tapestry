@@ -9,21 +9,21 @@
 ## Types
 
 ```html
-<button class="Btn Btn--blue Btn--has-icon">Button with icon</button>
+<button class="Btn Btn--alt Btn--has-icon">Button with icon</button>
 ```
 
 ## Colors
 
 ```html
-<button class="Btn Btn--navy">Navy button</button>
-<button class="Btn Btn--blue">Blue button</button>
-<button class="Btn Btn--green">Green button</button>
-<button class="Btn Btn--yellow">Yellow button</button>
-<button class="Btn Btn--red">Red button</button>
+<button class="Btn Btn--primary">primary button</button>
+<button class="Btn Btn--alt">alt button</button>
+<button class="Btn Btn--validate">validate button</button>
+<button class="Btn Btn--info">info button</button>
+<button class="Btn Btn--error">error button</button>
 <br><br>
-<button class="Btn Btn--outline Btn--navy">Navy button</button>
-<button class="Btn Btn--outline Btn--blue">Blue button</button>
-<button class="Btn Btn--outline Btn--green">Green button</button>
-<button class="Btn Btn--outline Btn--yellow">Yellow button</button>
-<button class="Btn Btn--outline Btn--red">Red button</button>
+<button class="Btn Btn--primary Btn--outline">primary button</button>
+<button class="Btn Btn--alt Btn--outline">alt button</button>
+<button class="Btn Btn--validate Btn--outline">validate button</button>
+<button class="Btn Btn--info Btn--outline">info button</button>
+<button class="Btn Btn--error Btn--outline">error button</button>
 ```
