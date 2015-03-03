@@ -8,7 +8,7 @@ $switch-space-around: 4px;
   width: rem($switch-width);
   height: rem($switch-height);
   background-color: $white;
-  border: 1px solid $iron;
+  border: 1px solid $base-border-color;
   border-radius: rem($switch-height);
   cursor: pointer;
 
