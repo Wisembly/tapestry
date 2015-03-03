@@ -22,6 +22,7 @@ $switch-space-around: 4px;
     margin-top: (-$switch-height / 2) + $switch-space-around / 2;
     background-color: $gray-chateau;
     border-radius: 50%;
+    transition: left .1s ease-out;
   }
 }
 
@@ -29,8 +30,7 @@ $switch-space-around: 4px;
   background-color: $curious-blue;
 
   &:after {
-    right: $switch-space-around / 2;
-    left: initial;
+    left: rem($switch-width - $switch-height + ($switch-space-around / 2));
     background-color: $white;
   }
 }
