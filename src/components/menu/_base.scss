@@ -1,0 +1,24 @@
+.Menu {
+  display: block;
+  margin: rem(24px) 0;
+}
+
+.Menu-item {
+  // needed to overide link default color
+  display: block;
+  padding-top: rem(20px);
+  font-size: rem(15px);
+  font-weight: 600;
+  text-transform: uppercase;
+  color: inherit;
+}
+
+.MenuItem-icon {
+  width: 30px;
+  line-height: 1;
+}
+
+.Menu-separator {
+  margin-top: rem(20px);
+  border-bottom: 1px solid $deep-sea-green;
+}
