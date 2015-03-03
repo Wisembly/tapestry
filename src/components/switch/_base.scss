@@ -1,11 +1,11 @@
-$swich-width: 50px;
+$switch-width: 50px;
 $switch-height: 25px;
 $switch-space-around: 4px;
 
 .Switch {
   display: block;
   position: relative;
-  width: rem($swich-width);
+  width: rem($switch-width);
   height: rem($switch-height);
   background-color: $white;
   border: 1px solid $iron;
