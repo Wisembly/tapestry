@@ -1,0 +1,14 @@
+@mixin bg-green {
+  color: $white;
+  background-color: $mint;
+}
+
+@mixin bg-orange {
+  color: $white;
+  background-color: $saffron;
+}
+
+@mixin bg-red {
+  color: $white;
+  background-color: $mandy;
+}
