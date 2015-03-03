@@ -1,0 +1,41 @@
+.Tabs {
+  margin: 0;
+  padding: 0 $base-padding;
+  font-size: 0;
+  text-align: left;
+  list-style: none;
+  border-bottom: 1px solid $base-border-color;
+}
+
+.Tab {
+  display: inline-block;
+  margin: 0 $base-margin--s;
+  padding: $base-padding 0;
+  font-size: $base-font-size;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  font-weight: 600;
+  color: $slate-gray;
+
+  &:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    right: 50%;
+    background: $base-tab-hover-color;
+    height: rem(4px);
+    transition: all .1s ease-out;
+  }
+
+  &:hover,
+  &.is-selected {
+    color: $venice-blue;
+
+    &:after {
+      left: 0;
+      right: 0;
+    }
+  }
+}
