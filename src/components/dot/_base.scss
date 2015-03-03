@@ -1,0 +1,13 @@
+$dot-width: 10px;
+
+.Dot {
+  display: inline-block;
+  width: rem($dot-width);
+  height: rem($dot-width);
+  background-color: $gray-chateau;
+  border-radius: $dot-width;
+
+  &.Dot--actionnable {
+    cursor: pointer;
+  }
+}
