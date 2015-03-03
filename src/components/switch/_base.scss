@@ -26,7 +26,7 @@ $switch-space-around: 4px;
   }
 }
 
-.Switch.is-active {
+input:checked + .Switch {
   background-color: $curious-blue;
 
   &:after {

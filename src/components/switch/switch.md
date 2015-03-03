@@ -1,13 +1,6 @@
 # Switch
 
-## Initial
-
 ```html
-<div class="Switch"></div>
-```
-
-## Active
-
-```html
-<div class="Switch is-active"></div>
+<input id="switch_example" class="u-vhidden" type="checkbox" />
+<label class="Switch" for="switch_example"></label>
 ```
