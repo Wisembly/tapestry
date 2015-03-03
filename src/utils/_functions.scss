@@ -1,5 +1,6 @@
-/* rem()
- * Convert a px unit into a REM one */
+// rem()
+// Convert a px unit into a REM one
+
 @function rem($size) {
   $rem-size: $size / $base-font-size;
   @return $rem-size * 1rem;
