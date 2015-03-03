@@ -1,5 +1,6 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
+var prefix = require('gulp-autoprefixer');
 var bs = require('browser-sync');
 var linter  = require('gulp-scss-lint');
 var Styleguide = require('styleguide-generator');
@@ -29,6 +30,9 @@ gulp.task('sass', function () {
 		.on('error', handleError)
     .pipe(sass())
 		.on('error', handleError)
+    .pipe(prefix({
+      browsers: ['last 2 versions']
+    }))
     .pipe(gulp.dest('./dist'));
 });
 
