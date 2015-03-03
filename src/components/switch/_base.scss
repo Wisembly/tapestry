@@ -1,0 +1,36 @@
+$swich-width: 50px;
+$switch-height: 25px;
+$switch-space-around: 4px;
+
+.Switch {
+  display: block;
+  position: relative;
+  width: rem($swich-width);
+  height: rem($switch-height);
+  background-color: $white;
+  border: 1px solid $iron;
+  border-radius: 20px;
+  cursor: pointer;
+
+  &:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%; left: $switch-space-around / 2;
+    width: rem($switch-height - $switch-space-around);
+    height: rem($switch-height - $switch-space-around);
+    margin-top: (-$switch-height / 2) + $switch-space-around / 2;
+    background-color: $gray-chateau;
+    border-radius: 50%;
+  }
+}
+
+.Switch.is-active {
+  background-color: $curious-blue;
+
+  &:after {
+    right: $switch-space-around / 2;
+    left: initial;
+    background-color: $white;
+  }
+}
