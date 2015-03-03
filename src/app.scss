@@ -2,6 +2,7 @@
 @import "utils/functions";
 @import "utils/vars";
 @import "utils/colors";
+@import "utils/colors-aliases";
 @import "utils/classes";
 
 @import "core/type";
@@ -12,3 +13,4 @@
 @import "components/meter/core";
 @import "components/pellet/core";
 @import "components/switch/core";
+@import "components/tabs/core";
