@@ -9,7 +9,7 @@ $switch-space-around: 4px;
   height: rem($switch-height);
   background-color: $white;
   border: 1px solid $iron;
-  border-radius: 20px;
+  border-radius: rem($switch-height);
   cursor: pointer;
 
   &:after {
@@ -21,7 +21,7 @@ $switch-space-around: 4px;
     height: rem($switch-height - $switch-space-around);
     margin-top: (-$switch-height / 2) + $switch-space-around / 2;
     background-color: $gray-chateau;
-    border-radius: 50%;
+    border-radius: rem($switch-height - $switch-space-around);
     transition: left .1s ease-out;
   }
 }
