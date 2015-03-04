@@ -1,6 +1,6 @@
 .Menu {
   display: block;
-  margin: rem(24px) 0; // should be $padding--l, waiting for new _vars
+  margin: $base-margin 0;
   padding: 0 0 $base-padding;
   font-size: $base-font-size;
   text-align: left;
