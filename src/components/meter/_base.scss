@@ -5,6 +5,7 @@ $meter-radius: $base-radius * 2;
   width: 100%;
   height: $base-line-height / 2;
   background: $porcelain;
+  overflow: hidden;
 }
 
 .Meter-bar {
@@ -13,6 +14,7 @@ $meter-radius: $base-radius * 2;
   left: 0;
   height: 100%;
   background: $curious-blue;
+  transition: width .3s ease-out;
 }
 
 .Meter,

@@ -11,6 +11,7 @@ $switch-space-around: 4px;
   border: 1px solid $base-border-color;
   border-radius: rem($switch-height);
   cursor: pointer;
+  transition: background-color .05s ease;
 
   &:after {
     content: "";
