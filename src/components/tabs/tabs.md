@@ -2,8 +2,20 @@
 
 ```html
 <ul class="Tabs">
-  <li class="Tab is-selected">Foo selected</li>
-  <li class="Tab">Bar thing thing</li>
-  <li class="Tab">Baz thing thing</li>
+  <li class="Tab-item">
+    <a class="Tab-link is-selected" aria-selected="true" tabindex="0" href="#foo">
+      Foo selected
+    </a>
+  </li>
+  <li class="Tab-item">
+    <a class="Tab-link" aria-selected="false" tabindex="-1" href="#bar">
+      Bar thing thing
+    </a>
+  </li>
+  <li class="Tab-item">
+    <a class="Tab-link" aria-selected="false" tabindex="-1" href="#baz">
+      Baz thing thing
+    </a>
+  </li>
 </ul>
 ```
