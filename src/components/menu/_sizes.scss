@@ -1,6 +1,3 @@
 .Menu-item--s {
-  font-size: rem(13px);
-  font-weight: 600;
-  text-transform: uppercase;
-  cursor: pointer;
+  font-size: rem(13px); // should be $font-size--s, waiting for news _vars
 }

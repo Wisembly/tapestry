@@ -3,35 +3,41 @@
 ## Basic
 
 ```html
-<div class="Menu">
-	<div class="Menu-item">
+<ul class="Menu">
+	<li class="Menu-item">
 		<span class="MenuItem-icon">-</span>
-		<span>Menu item #1</span>
-	</div>
-	<div class="Menu-item">
-		<span class="MenuItem-icon">•</span>
-		<span>Menu item #2</span>
-	</div>
-</div>
+		<span>Simple menu item</span>
+	</li>
+	<li class="Menu-itemWrap">
+		<a href="#" class="Menu-item">
+			<span class="MenuItem-icon">-</span>
+			<span>Linked menu item</span>
+		</a>
+	</li>
+</ul>
 ```
 
 ## Size
 
 ```html
-<div class="Menu">
-	<div class="Menu-item Menu-item--s">
+<ul class="Menu">
+	<li class="Menu-item Menu-item--s">
 		<span class="MenuItem-icon">-</span>
-		<span>Menu item #1</span>
-	</div>
-	<div class="Menu-item Menu-item--s">
-		<span class="MenuItem-icon">-</span>
-		<span>Menu item #1</span>
-	</div>
-</div>
+		<span>Simple menu item</span>
+	</li>
+	<li class="Menu-itemWrap">
+		<a href="#" class="Menu-item Menu-item--s">
+			<span class="MenuItem-icon">-</span>
+			<span>Linked menu item</span>
+		</a>
+	</li>
+</ul>
 ```
 
 ## Add-ons
 
 ```html
-<div class="Menu-separator"></div>
+<ul class="Menu">
+	<li class="Menu-separator"></li>
+</ul>
 ```
