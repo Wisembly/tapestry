@@ -9,23 +9,23 @@
 
 .Tab {
   display: inline-block;
+  position: relative;
   margin: 0 $base-margin--s;
   padding: $base-padding 0;
   font-size: $base-font-size;
-  text-decoration: none;
-  position: relative;
-  cursor: pointer;
   font-weight: 600;
+  text-decoration: none;
   color: $slate-gray;
+  cursor: pointer;
 
   &:after {
-    content: '';
+    content: "";
     position: absolute;
+    right: 50%;
     bottom: 0;
     left: 50%;
-    right: 50%;
-    background: $base-tab-hover-color;
     height: rem(4px);
+    background: $base-tab-hover-color;
     transition: all .1s ease-out;
   }
 
@@ -34,8 +34,8 @@
     color: $venice-blue;
 
     &:after {
-      left: 0;
       right: 0;
+      left: 0;
     }
   }
 }
