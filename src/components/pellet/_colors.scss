@@ -1,0 +1,11 @@
+.Pellet--success {
+  @include bg-green;
+}
+
+.Pellet--medium {
+  @include bg-orange;
+}
+
+.Pellet--fail {
+  @include bg-red;
+}
