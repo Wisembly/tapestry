@@ -7,8 +7,12 @@
   border-bottom: 1px solid $base-border-color;
 }
 
-.Tab {
+.Tab-item {
   display: inline-block;
+}
+
+.Tab-link {
+  display: block;
   position: relative;
   margin: 0 $base-margin--s;
   padding: $base-padding 0;
@@ -17,6 +21,7 @@
   text-decoration: none;
   color: $slate-gray;
   cursor: pointer;
+  outline: 0;
 
   &:after {
     content: "";
