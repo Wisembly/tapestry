@@ -4,7 +4,6 @@
   right: 0;
   margin: $base-padding--s;
   padding: $base-padding--s;
-  font-weight: 600;
   list-style: none;
   color: $limed-spruce;
   background: $porcelain;
@@ -15,7 +14,7 @@
 .Dropdown-item {
   display: block;
   padding: $base-padding--s $base-padding;
-  font-weight: 600;
+  font-weight: $font-weight--strong;
   text-align: center;
   text-decoration: none;
   color: inherit;
