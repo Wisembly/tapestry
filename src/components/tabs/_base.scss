@@ -1,0 +1,45 @@
+.Tabs {
+  margin: 0;
+  padding: 0 $base-padding;
+  font-size: 0;
+  text-align: left;
+  list-style: none;
+  border-bottom: 1px solid $base-border-color;
+}
+
+.Tab-item {
+  display: inline-block;
+}
+
+.Tab-link {
+  display: block;
+  position: relative;
+  margin: 0 $base-margin--s;
+  padding: $base-padding 0;
+  font-size: $base-font-size;
+  font-weight: 600;
+  text-decoration: none;
+  color: $slate-gray;
+  cursor: pointer;
+  outline: 0;
+
+  &:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 0;
+    background: $venice-blue;
+    transition: height .15s ease-out;
+  }
+
+  &:hover,
+  &.is-selected {
+    color: $venice-blue;
+
+    &:after {
+      height: rem(4px);
+    }
+  }
+}

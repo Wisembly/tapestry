@@ -19,16 +19,3 @@ $meter-radius: $base-radius * 2;
 .Meter-bar {
   border-radius: $meter-radius;
 }
-
-[data-threshold="75"] {
-  .Meter-bar {
-    background: $saffron;
-  }
-}
-
-
-[data-threshold="99"] {
-  .Meter-bar {
-    background: $mandy;
-  }
-}
