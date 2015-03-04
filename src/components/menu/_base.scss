@@ -1,0 +1,33 @@
+.Menu {
+  display: block;
+  margin: rem(24px) 0; // should be $padding--l, waiting for new _vars
+  padding: 0 0 $base-padding;
+  font-size: $base-font-size;
+  text-align: left;
+  border-bottom: 1px solid $deep-sea-green;
+}
+
+.Menu-item {
+  // needed to overide link default color
+  display: block;
+  padding-top: $base-padding;
+  font-weight: $font-weight--strong;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.Menu-itemWrap,
+.Menu-item,
+.Menu-separator {
+  margin: 0;
+  list-style: none;
+}
+
+.Menu-itemIcon {
+  display: inline-block;
+  width: rem(38px);
+  line-height: 1;
+  text-align: center;
+}
