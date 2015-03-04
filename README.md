@@ -37,4 +37,3 @@ See https://github.com/Wisembly/tapestry/blob/master/scss-lint.yml
  * No magic number
  * Only use `!important` on utility classes
  * Max nesting level: 3
-
