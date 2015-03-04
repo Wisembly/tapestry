@@ -1,15 +1,16 @@
 .Menu {
   display: block;
   margin: rem(24px) 0; // should be $padding--l, waiting for new _vars
-  padding: 0;
+  padding: 0 0 $base-padding;
+  font-size: $base-font-size;
   text-align: left;
+  border-bottom: 1px solid $deep-sea-green;
 }
 
 .Menu-item {
   // needed to overide link default color
   display: block;
   padding-top: $base-padding;
-  font-size: $base-font-size;
   font-weight: $font-weight--strong;
   text-transform: uppercase;
   text-decoration: none;
@@ -24,14 +25,9 @@
   list-style: none;
 }
 
-.MenuItem-icon {
+.Menu-itemIcon {
   display: inline-block;
   width: rem(38px);
   line-height: 1;
   text-align: center;
-}
-
-.Menu-separator {
-  margin-top: $base-padding;
-  border-bottom: 1px solid $deep-sea-green;
 }
