@@ -12,3 +12,25 @@
   color: $white;
   background-color: $mandy;
 }
+
+// Media queries
+
+@mixin bp($point) {
+
+  @if $point == tablet {
+    @media (min-width: #{$breakTablet}) { @content; }
+  }
+
+  @else if $point == phablet {
+    @media (min-width: #{$breakPhablet}) { @content; }
+  }
+
+  @else if $point == laptop {
+    @media (min-width: #{$breakLaptop}) { @content; }
+  }
+
+  @else if $point == desktop {
+    @media (min-width: #{$breakDesktop}) { @content; }
+  }
+
+}
