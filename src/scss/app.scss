@@ -6,6 +6,7 @@
 @import "utils/colors";
 @import "utils/colors-aliases";
 @import "utils/classes";
+@import "utils/js";
 
 @import "core/type";
 
@@ -18,3 +19,4 @@
 @import "components/pellet/core";
 @import "components/switch/core";
 @import "components/tabs/core";
+@import "components/tooltip/core";
