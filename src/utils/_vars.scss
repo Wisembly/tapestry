@@ -1,7 +1,10 @@
+$font-family-sans-serif: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+$font-family-serif: Georgia, Cambria, "Times New Roman", Times, serif;
 $base-font-size: 15px !default;
 $base-font-size--s: 13px !default;
-
 $base-line-height: rem($base-font-size * 24/15) !default; // Sketch line-height * 2 values ~= 1,3235
+$font-weight--strong: 600;
+
 
 $base-padding: $base-line-height;
 $base-padding--s: $base-padding / 2;
@@ -14,7 +17,10 @@ $base-margin--l: $base-margin * 2;
 
 $base-radius: rem(3px) !default;
 
-$font-weight--strong: 600;
 
-$font-family-sans-serif: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-$font-family-serif: Georgia, Cambria, "Times New Roman", Times, serif;
+// Breakpoints
+
+$breakPhablet: 414px; // iPhone6+ width in Portrait mode
+$breakTablet: 768px;
+$breakLaptop: 1024px;
+$breakDesktop: 1280px;
