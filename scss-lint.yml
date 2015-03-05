@@ -1,6 +1,6 @@
 exclude:
-  - src/utils/_colors.scss
-  - src/core/_normalize.scss
+  - src/scss/utils/_colors.scss
+  - src/scss/vendors/_normalize.scss
 
 linters:
   BangFormat:
