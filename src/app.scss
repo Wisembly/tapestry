@@ -1,3 +1,4 @@
+@import "vendors/normalize";
 
 @import "utils/mixins";
 @import "utils/functions";
@@ -6,7 +7,6 @@
 @import "utils/colors-aliases";
 @import "utils/classes";
 
-@import "core/normalize";
 @import "core/type";
 
 @import "components/button/core";
