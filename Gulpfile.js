@@ -1,9 +1,10 @@
-var gulp = require('gulp');
-var sass = require('gulp-sass');
-var deploy = require('gulp-gh-pages');
-var prefix = require('gulp-autoprefixer');
 var bs = require('browser-sync');
+var deploy = require('gulp-gh-pages');
+var gulp = require('gulp');
 var linter  = require('gulp-scss-lint');
+var prefix = require('gulp-autoprefixer');
+var sass = require('gulp-sass');
+var sourcemaps = require('gulp-sourcemaps');
 var Styleguide = require('styleguide-generator');
 
 var MyStyleguide = new Styleguide({
@@ -29,8 +30,10 @@ gulp.task('sass', function () {
       'config': './scss-lint.yml'
     }))
 		.on('error', handleError)
+		.pipe(sourcemaps.init())
     .pipe(sass())
 		.on('error', handleError)
+		.pipe(sourcemaps.write())
     .pipe(prefix({
       browsers: ['last 2 versions']
     }))
@@ -46,9 +49,8 @@ gulp.task('styleguide', function () {
 gulp.task('serve', function() {
 	return bs({
 		files: ['./dist/**/*'],
-		startPath: 'dist/index.html',
 		server: {
-			baseDir: './'
+			baseDir: './dist/'
 		}
 	});
 });
