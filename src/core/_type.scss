@@ -2,3 +2,7 @@ html,
 :root {
   font-size: $base-font-size / 16px * 100%; // sets rem base at 15px;
 }
+
+body {
+  font-family: $font-family-sans-serif;
+}
