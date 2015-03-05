@@ -8,12 +8,12 @@
 }
 
 .Menu-item {
-  // needed to overide link default color
   display: block;
-  padding-top: $base-padding;
+  padding: $base-padding--s 0;
   font-weight: $font-weight--strong;
   text-transform: uppercase;
   text-decoration: none;
+  // needed to overide link default color
   color: inherit;
   cursor: pointer;
 }
