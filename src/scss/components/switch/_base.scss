@@ -1,14 +1,14 @@
 $switch-width: 50px;
 $switch-height: 25px;
-$switch-space-around: 4px;
+$switch-space-around: 6px;
 
 .Switch {
   display: block;
   position: relative;
   width: rem($switch-width);
   height: rem($switch-height);
-  background-color: $white;
-  border: 1px solid $base-border-color;
+  background-color: $gray-chateau;
+  //border: 1px solid $base-border-color;
   border-radius: rem($switch-height);
   cursor: pointer;
   transition: background-color .05s ease;
@@ -17,11 +17,12 @@ $switch-space-around: 4px;
     content: "";
     display: block;
     position: absolute;
-    top: 50%; left: $switch-space-around / 2;
+    top: 50%;
+    left: rem($switch-space-around / 2);
     width: rem($switch-height - $switch-space-around);
     height: rem($switch-height - $switch-space-around);
-    margin-top: (-$switch-height / 2) + $switch-space-around / 2;
-    background-color: $gray-chateau;
+    margin-top: rem((-$switch-height / 2) + $switch-space-around / 2);
+    background-color: $white;
     border-radius: rem($switch-height - $switch-space-around);
     transition: left .1s ease-out;
   }
