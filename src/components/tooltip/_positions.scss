@@ -1,8 +1,8 @@
 .Tooltip--l {
   right: 100%;
   left: auto;
-  margin-left: auto;
   margin-right: $tooltip-arrow-size;
+  margin-left: auto;
 
   &:after {
     right: auto;

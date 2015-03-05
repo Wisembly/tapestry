@@ -1,4 +1,4 @@
-$tooltip-arrow-size: 8px;
+$tooltip-arrow-size: rem(8px);
 
 .has-tooltip {
   display: inline-block;
@@ -9,7 +9,7 @@ $tooltip-arrow-size: 8px;
   position: absolute;
   top: 50%;
   left: 100%;
- 	margin-left: $tooltip-arrow-size;
+  margin-left: $tooltip-arrow-size;
   padding: $base-padding--s $base-padding;
   font-size: $base-font-size--s;
   line-height: 1;
