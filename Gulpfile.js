@@ -9,10 +9,10 @@ var Styleguide = require('styleguide-generator');
 
 var MyStyleguide = new Styleguide({
 	onePage: true,
-	srcFolder: 'src/',
+	srcFolder: 'src/scss/',
 	distFolder: 'dist/',
 	layoutPath: 'styleguide/layout.html',
-	colorsPath: 'src/utils/_colors.scss',
+	colorsPath: 'src/scss/utils/_colors.scss',
 	components: {
 		folder: '',
 		filesExtension: 'html'
@@ -25,7 +25,7 @@ function handleError (error) {
 }
 
 gulp.task('sass', function () {
-  return gulp.src('./src/**/*.scss')
+  return gulp.src('./src/scss/**/*.scss')
 		.pipe(linter({
       'config': './scss-lint.yml'
     }))
@@ -61,7 +61,7 @@ gulp.task('deploy', function () {
 });
 
 gulp.task('watch', function () {
-  gulp.watch(['./src/**/*.scss'], ['sass']);
+  gulp.watch(['./src/scss/**/*.scss'], ['sass']);
   gulp.watch(['./src/**/*.md'],   ['styleguide']);
 });
 
