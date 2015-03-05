@@ -1,5 +1,6 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
+var deploy = require('gulp-gh-pages');
 var prefix = require('gulp-autoprefixer');
 var bs = require('browser-sync');
 var linter  = require('gulp-scss-lint');
@@ -8,7 +9,7 @@ var Styleguide = require('styleguide-generator');
 var MyStyleguide = new Styleguide({
 	onePage: true,
 	srcFolder: 'src/',
-	distFolder: 'styleguide',
+	distFolder: 'dist/',
 	layoutPath: 'styleguide/layout.html',
 	colorsPath: 'src/utils/_colors.scss',
 	components: {
@@ -44,14 +45,18 @@ gulp.task('styleguide', function () {
 
 gulp.task('serve', function() {
 	return bs({
-		files: ['./dist/app.css', './styleguide/**'],
-		startPath: '/styleguide/index.html',
+		files: ['./dist/**/*'],
+		startPath: 'dist/index.html',
 		server: {
 			baseDir: './'
 		}
 	});
 });
 
+gulp.task('deploy', function () {
+	return gulp.src(['dist/**/*'])
+		.pipe(deploy());
+});
 
 gulp.task('watch', function () {
   gulp.watch(['./src/**/*.scss'], ['sass']);
