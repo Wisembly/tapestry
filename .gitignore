@@ -1,4 +1,4 @@
-dist
+dist/index.html
 node_modules
 
 styleguide/index.html
