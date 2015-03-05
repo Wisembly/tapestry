@@ -1,0 +1,42 @@
+h2,
+h3,
+h4,
+h5,
+.Heading-title--2,
+.Heading-title--3,
+.Heading-title--4,
+.Heading-title--5 {
+  margin-top: $base-line-height;
+  margin-bottom: $base-line-height;
+  font-weight: $font-weight--strong;
+  line-height: $base-line-height;
+}
+
+h1,
+.Heading-title--1 {
+  margin-top: $line-height--l;
+  margin-bottom: $line-height--l;
+  font-size: $font-size--giga;
+  font-weight: $base-font-weight;
+  line-height: $line-height--l;
+}
+
+h2,
+.Heading-title--2 {
+  font-size: $font-size--xxl;
+}
+
+h3,
+.Heading-title--3 {
+  font-size: $font-size--xl;
+}
+
+h4,
+.Heading-title--4 {
+  font-size: $font-size--l;
+}
+
+h5,
+.Heading-title--5 {
+  font-size: rem(15px);
+}
