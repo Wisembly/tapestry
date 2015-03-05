@@ -1,18 +1,20 @@
 {
   "name": "tapestry",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "homepage": "https://github.com/Wisembly/tapestry",
   "description": "Wisembly - UI Elements",
   "keywords": [
     "uikit",
     "wisembly"
   ],
+  "main": [
+    "dist/css/wisembly-tapestry.css",
+    "src/app.scss",
+  ],
   "license": "MIT",
   "ignore": [
     "**/.*",
     "node_modules",
-    "bower_components",
-    "test",
-    "tests"
+    "bower_components"
   ]
 }
