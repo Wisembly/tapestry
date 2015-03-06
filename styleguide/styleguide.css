@@ -1,14 +1,11 @@
-/* Normalize */
-html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:700}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type="button"],/* 1 */ input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button{height:auto}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:700}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
-
 body {
-	background: #FFF;
+	background: #fff;
+	font-family: 'Open Sans', 'Georgia', sans-serif;
 }
 
 
 /* Styleguide generals
- * Styleguide-title
- * Styleguide-wrapper */
+ * Styleguide-title */
 
 .Styleguide-title {
 	padding-bottom: .4em;
@@ -16,15 +13,9 @@ body {
 	font-weight: 400;
 }
 
-.Styleguide-description {
-	color: #fff;
-	margin: 0;
-}
-
-.Styleguide-wrapper {
-	width: 80%;
-	max-width: 1100px;
-	margin: 0 auto;
+.Styleguide-modulesContainer {
+	padding: 5em 0 0 25%;
+	text-align: left;
 }
 
 
@@ -33,19 +24,27 @@ body {
  * Styleguide-headerTitle */
 
 .Styleguide-header {
-	font-family: Helvetica, Arial, sans-serif;
-	margin-bottom: 1em;
-	padding: 3.5em 0 3.6em 0;
-	text-align: center;
+	position: fixed;
+	top: 0; right: 0; left: 0;
+	font-family: 'Open Sans', 'Georgia', sans-serif;
+	padding: 1em 3em;
+	text-align: left;
 	background-color: #009788;
+	z-index: 10;
 }
 
 	.Styleguide-headerTitle {
 		margin: 0; padding: 0;
-		font-weight: 300;
-		line-height: 1.8;
+		font-size: 1.2em;
+		text-transform: uppercase;
+		font-weight: 600;
 		color: #fff;
-		border-bottom: 0;
+	}
+
+	.Styleguide-headerDescription {
+		color: #fff;
+		margin: 0;
+		font-weight: 300;
 	}
 
 
@@ -54,40 +53,70 @@ body {
 * Styleguide-moduleTitle */
 
 .Styleguide-module {
-	font-family: Helvetica, Arial, sans-serif;
-	padding-top: 2em;
-	padding-bottom: 2em;
-	text-align: center;
-	border-bottom: 1px solid #ccc;
+	padding: 8em 2em .8em 2em;
+	background-color: #fff;
+	border-radius: 3px;
 }
 
-	.Styleguide-module h1,
-	.Styleguide-module h2,
-	.Styleguide-module h3 {
+.Styleguide-module:first-child {
+	padding-top: 2em;
+}
+
+	.Styleguide-title--1,
+	.Styleguide-title--2,
+	.Styleguide-title--3,
+	.Styleguide-title--4 {
+		font-weight: 600;
+		color: #484848;
+		font-family: "Open Sans","Helvetica Neue",Arial,Helvetica,Verdana,sans-serif;
+		outline: 0;
+	}
+
+
+	.Styleguide-title--1 {
+		margin: 0 0 1.2em 0;
+		font-size: 2.8em;
 		font-weight: 400;
 	}
 
-	.Styleguide-module h1 {
-		margin: 0 0 .8em 0;
-		font-size: 2em;
+	.Styleguide-title--2 {
+		margin-top: 2em;
+		margin-bottom: 1em;
+		font-size: 1.8em;
 	}
 
-	.Styleguide-module h2 {
-		margin-top: 1.5em;
+	.Styleguide-title--3 {
+		font-size: 1.5em;
+		margin-top: 2em;
+		font-weight: 400;
 	}
 
 	.Styleguide-module pre {
-		padding: 1em;
+		position: relative;
+		margin: 1.5em auto;
+		padding: 3em 1em 1em;
 		font-size: .9em;
 		line-height: 1.6;
 		text-align: left;
-		background-color: #eaeaea;
+		background-color: #fafafa;
 		border-radius: 2px;
-    max-height: 10%;
+		border: 1px solid #ededed;
 	}
-  .Styleguide-module pre:hover {
-    max-height: 100%;
-  }
+
+	.Styleguide-module pre:before {
+		content: "code";
+		position: absolute;
+		top: 0; left: 0; right: 0;
+		display: block;
+		padding: .5em 1em;
+		font-family: 'Open Sans', 'Georgia', sans-serif;
+		font-size: .8em;
+		font-weight: 600;
+		text-transform: uppercase;
+		background-color: #ededed;
+		color: #fff;
+	}
+
 
 
 /* Styleguide colors
@@ -97,30 +126,29 @@ body {
  * Styleguide-colorItem
  * Styleguide-colorDescription */
 
-.Styleguide-colors {
-	margin: 0; padding: 0;
+.Styleguide-module--colors {
 }
 
 	.Styleguide-colorWrapper {
 		display: inline-block;
-		width: 8em;
-		margin: 0 .5em .5em 0;
+		width: 23.5%;
+		margin: 0 1% 2% 0;
 		list-style-type: none;
 	}
 
 		.Styleguide-colorItem {
-			height: 100px;
-			width: 100px;
-			border-radius: 50%;
-			box-shadow: inset 0 0 5px rgba(0,0,0,.2);
+			height: 8em;
+			border-top-left-radius: 3px;
+			border-top-right-radius: 3px;
 		}
 
 		.Styleguide-colorDescription {
-			padding: .5em 0;
-			color: #555;
-			font-size: .8rem;
+			font-size: 1em;
 			line-height: 1.4;
-			width: 100px;
+			color: #999;
+			border-bottom: 1px solid #ededed;
+			padding: .5em;
+			font-weight: 300;
 		}
 
 
@@ -130,20 +158,28 @@ body {
  * Styleguide-navLink */
 
 .Styleguide-navWrapper {
+	position: fixed;
+	top: 6em; bottom: 0;
+	overflow-y: scroll;
+	width: 25%;
 	margin: 0;
-	padding: 1em 0 0 0;
+	padding: 1em;
 }
 
 	.Styleguide-navItem {
-		display: inline-block;
+		list-style-type: none;
 	}
 
 		.Styleguide-navLink {
 			display: block;
-			padding: .5em 1em;
+			padding: .8em;
 			font-size: 1.2em;
-			line-height: 1.5;
-			font-weight: lighter;
 			text-decoration: none;
-			color: #fff;
+			border-radius: 5px;
+			color: #888;
+		}
+
+		.Styleguide-navLink:hover {
+			background-color: #eee;
+			color: #444;
 		}
