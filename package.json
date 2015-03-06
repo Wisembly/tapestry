@@ -11,7 +11,7 @@
     "gulp-sass": "^1.3.3",
     "gulp-scss-lint": "^0.1.9",
     "gulp-sourcemaps": "^1.5.0",
-    "styleguide-generator": "^0.2.5"
+    "styleguide-generator": "^0.3.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -43,6 +43,7 @@ body {
 	.Styleguide-headerTitle {
 		margin: 0; padding: 0;
 		font-weight: 300;
+		line-height: 1.8;
 		color: #fff;
 		border-bottom: 0;
 	}
@@ -118,5 +119,31 @@ body {
 			padding: .5em 0;
 			color: #555;
 			font-size: .8rem;
+			line-height: 1.4;
 			width: 100px;
+		}
+
+
+
+/* Styleguide-navWrapper
+ * Styleguide-navItem
+ * Styleguide-navLink */
+
+.Styleguide-navWrapper {
+	margin: 0;
+	padding: 1em 0 0 0;
+}
+
+	.Styleguide-navItem {
+		display: inline-block;
+	}
+
+		.Styleguide-navLink {
+			display: block;
+			padding: .5em 1em;
+			font-size: 1.2em;
+			line-height: 1.5;
+			font-weight: lighter;
+			text-decoration: none;
+			color: #fff;
 		}
