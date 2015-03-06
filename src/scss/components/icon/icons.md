@@ -116,13 +116,13 @@
     <span class="glyph-codepoint">E016</span>
   </li>
   <li class="Card">
-    <span class="icon icon-open-issue"></span>
-    <span class="glyph-name">open-issue</span>
+    <span class="icon icon-office365"></span>
+    <span class="glyph-name">office365</span>
     <span class="glyph-codepoint">E017</span>
   </li>
   <li class="Card">
-    <span class="icon icon-office365"></span>
-    <span class="glyph-name">office365</span>
+    <span class="icon icon-open-issue"></span>
+    <span class="glyph-name">open-issue</span>
     <span class="glyph-codepoint">E018</span>
   </li>
   <li class="Card">
