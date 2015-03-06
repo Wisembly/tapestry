@@ -1,0 +1,14 @@
+.Tooltip--l {
+  right: 100%;
+  left: auto;
+  margin-right: $tooltip-arrow-size;
+  margin-left: auto;
+
+  &:after {
+    right: auto;
+    left: 100%;
+    border-width: $tooltip-arrow-size 0 $tooltip-arrow-size $tooltip-arrow-size;
+    border-color: $transparent $transparent $transparent $gray-chateau;
+  }
+
+}
