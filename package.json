@@ -20,7 +20,7 @@
     "gulp-svg-sprites": "^2.0.1",
     "gulp-svg2png": "^0.3.0",
     "lodash": "^3.3.1",
-    "styleguide-generator": "^0.2.5"
+    "styleguide-generator": "^0.3.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
