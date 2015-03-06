@@ -9,7 +9,7 @@
   ],
   "main": [
     "dist/css/wisembly-tapestry.css",
-    "src/scss/app.scss",
+    "src/scss/app.scss"
   ],
   "license": "MIT",
   "ignore": [
