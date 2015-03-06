@@ -8,14 +8,22 @@ var sourcemaps = require('gulp-sourcemaps');
 var Styleguide = require('styleguide-generator');
 
 var MyStyleguide = new Styleguide({
-	onePage: true,
-	srcFolder: 'src/scss/',
-	distFolder: 'dist/',
-	layoutPath: 'styleguide/layout.html',
-	colorsPath: 'src/scss/utils/_colors.scss',
+	files: {
+		src: 'src/scss',
+		dist: 'dist/',
+		colors: 'src/scss/utils/_colors.scss'
+	},
+	type: 'onepage',
+	onepage: {
+		layout: 'styleguide/layout.html',
+		stylesheets: [
+			'styleguide/styleguide.css',
+			'styleguide/code-style.css',
+			'dist/app.css'
+		]
+	},
 	components: {
-		folder: '',
-		filesExtension: 'html'
+		extension: 'html'
 	}
 });
 
@@ -62,7 +70,8 @@ gulp.task('deploy', function () {
 
 gulp.task('watch', function () {
   gulp.watch(['./src/scss/**/*.scss'], ['sass']);
-  gulp.watch(['./src/**/*.md'],   ['styleguide']);
+  gulp.watch(['./src/**/*.md'], ['styleguide']);
+  gulp.watch(['./styleguide/**'], ['styleguide']);
 });
 
 gulp.task('default', ['sass', 'styleguide', 'watch', 'serve']);
