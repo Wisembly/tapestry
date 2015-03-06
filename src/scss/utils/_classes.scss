@@ -10,6 +10,10 @@
   clip: rect(0 0 0 0);
 }
 
+.u-cf {
+  @include cf();
+}
+
 .is-hidden {
   display: none;
 }
