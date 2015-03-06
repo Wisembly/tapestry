@@ -1,7 +1,5 @@
 # Dropdown
 
-## Basic
-
 ```html
 <div style="position: relative; border: 1px dashed #aaa; height: 50px;">
 	<ul class="Dropdown">

@@ -1,7 +1,5 @@
 # Menu
 
-## Basic
-
 ```html
 <ul class="Menu">
 	<li class="Menu-item">

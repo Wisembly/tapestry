@@ -1,12 +1,11 @@
 # Collection
 
 ```html
-<ul class="Collection">
+<ul class="Collection" style="margin-bottom: 10px;">
   <li class="Collection-item">A</li>
   <li class="Collection-item">B</li>
   <li class="Collection-item">C</li>
 </ul>
-<hr>
 <ul class="Collection Collection--actionnable">
   <li class="Collection-item">A</li>
   <li class="Collection-item is-active">B</li>
