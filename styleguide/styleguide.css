@@ -14,7 +14,7 @@ body {
 }
 
 .Styleguide-modulesContainer {
-	padding: 5em 0 0 25%;
+	padding: 0 0 0 25%;
 	text-align: left;
 }
 
@@ -56,10 +56,6 @@ body {
 	padding: 8em 2em .8em 2em;
 	background-color: #fff;
 	border-radius: 3px;
-}
-
-.Styleguide-module:first-child {
-	padding-top: 2em;
 }
 
 	.Styleguide-title--1,
