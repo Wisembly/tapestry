@@ -1,0 +1,20 @@
+.Btn--block {
+  display: block;
+  width: 100%;
+}
+
+.Btn-blockContainer {
+  @include cf;
+
+  .Btn {
+    width: 49%;
+
+    &:first-child {
+      float: left;
+    }
+
+    &:last-child {
+      float: right;
+    }
+  }
+}

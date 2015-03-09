@@ -4,10 +4,17 @@
 <button class="Btn">default button</button>
 ```
 
-## Types
+## Sizes
 
 ```html
-<button class="Btn Btn--alt Btn--has-icon">Button with icon</button>
+<button class="Btn Btn--alt Btn--block">Block button</button>
+```
+
+```html
+<div class="Btn-blockContainer">
+  <button class="Btn Btn--error">Block button</button>
+  <button class="Btn Btn--validate">Block button</button>
+</div>
 ```
 
 ## Colors
