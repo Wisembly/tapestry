@@ -1,0 +1,29 @@
+.Pellet--success {
+  .Popover {
+    @include bg-green;
+
+    &:after {
+      border-bottom-color: $mint;
+    }
+  }
+}
+
+.Pellet--medium {
+  .Popover {
+    @include bg-orange;
+
+    &:after {
+      border-bottom-color: $saffron;
+    }
+  }
+}
+
+.Pellet--fail {
+  .Popover {
+    @include bg-red;
+
+    &:after {
+      border-bottom-color: $mandy;
+    }
+  }
+}

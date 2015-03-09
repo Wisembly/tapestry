@@ -6,23 +6,13 @@ $tooltip-arrow-size: rem(8px);
 }
 
 .Tooltip {
-  position: absolute;
+  @include tooltip-core;
   top: 50%;
   left: 100%;
   margin-left: $tooltip-arrow-size;
-  padding: $base-padding--s $base-padding;
-  font-size: $font-size--s;
-  line-height: 1;
-  white-space: nowrap;
-  color: $white;
-  background: $gray-chateau;
-  border-radius: $base-radius;
-  box-shadow: 0 1px 1.5px 0 rgba($gray-chateau, .5);
   transform: translateY(-50%);
 
   &:after {
-    content: "";
-    position: absolute;
     top: 50%;
     right: 100%;
     width: 0;
@@ -32,5 +22,4 @@ $tooltip-arrow-size: rem(8px);
     border-style: solid;
     transform: translateY(-50%);
   }
-
 }
