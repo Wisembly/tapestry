@@ -1,4 +1,0 @@
-# Popovers
-
-```html
-```
