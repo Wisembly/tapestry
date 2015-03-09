@@ -18,7 +18,6 @@
 // Media queries
 
 @mixin bp($point) {
-
   @if $point == tablet {
     @media (min-width: #{$breakTablet}) { @content; }
   }
@@ -68,6 +67,7 @@
   box-shadow: 0 1px 1.5px 0 rgba($gray-chateau, .5);
   border-radius: $base-radius;
   background: $gray-chateau;
+  z-index: 1;
 
   &:after {
     content: "";
