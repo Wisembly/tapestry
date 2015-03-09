@@ -1,0 +1,16 @@
+.Btn--block {
+  display: block;
+  width: 100%;
+}
+
+.Btn-blockContainer {
+  @include cf;
+  .Btn {
+    float: right;
+    width: 49%;
+
+    &:first-child {
+      float: left;
+    }
+  }
+}

@@ -1,6 +1,7 @@
 .Btn {
   padding: $base-padding--s $base-padding;
   font-size: $base-font-size;
+  font-weight: $font-weight--strong;
   line-height: 1;
   color: $white;
   background-color: $gray-chateau;
@@ -16,4 +17,18 @@
   &:active {
     box-shadow: inset 0 1px 4px 0 rgba($limed-spruce, .5);
   }
+
+  &[disabled],
+  &.is-disabled {
+    color: $gray-chateau;
+    background-color: $iron;
+    cursor: not-allowed;
+
+    &:hover {
+      color: $gray-chateau;
+      background: $iron;
+    }
+
+  }
+
 }
