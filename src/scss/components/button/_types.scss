@@ -6,6 +6,7 @@ $btn-icon-width: $base-margin--s + 2 * $base-margin;
   border: 1px solid $gray-chateau;
 
   &:hover {
+    color: $slate-gray;
     background-color: $white;
     border-color: $slate-gray;
   }
@@ -16,10 +17,27 @@ $btn-icon-width: $base-margin--s + 2 * $base-margin;
 
 }
 
+.Btn--raw {
+  color: $gray-chateau;
+  background-color: $transparent;
+  border: 0;
+
+  &:hover {
+    color: $slate-gray;
+    background-color: $transparent;
+  }
+
+  &:active {
+    background-color: $white;
+    box-shadow: none;
+  }
+
+}
+
 .Btn--split {
 
-  padding-left: $btn-icon-width;
   position: relative;
+  padding-left: $btn-icon-width;
   text-align: center;
 
   .Btn-icon {

@@ -21,6 +21,10 @@
 
 ## Types
 ```html
+<button class="Btn Btn--raw">Raw button</button>
+```
+
+```html
 <button class="Btn Btn--split">
   <span class="Btn-icon i i-apple"></span>
   Button with icon
