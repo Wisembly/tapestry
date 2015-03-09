@@ -1,0 +1,21 @@
+.Btn--split {
+
+  display: flex;
+  padding: 0;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
+  .Btn-icon {
+    margin: $base-margin--s / 2 $base-margin $base-margin--s / 2 $base-margin--s;
+    padding: $base-padding--s / 2 $base-padding--s $base-padding--s / 2 0;
+    border-right: 1px solid $white;
+  }
+
+  .Btn-label {
+    margin-right: $base-margin;
+    text-align: center;
+    flex-grow: 1;
+  }
+
+}

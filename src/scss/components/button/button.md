@@ -17,6 +17,14 @@
 </div>
 ```
 
+## Types
+```html
+<button class="Btn Btn--split">
+  <span class="Btn-icon i i-apple"></span>
+  <span class="Btn-label">Button with icon</span>
+</button>
+```
+
 ## Colors
 
 ```html
