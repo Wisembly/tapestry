@@ -2,6 +2,8 @@
 
 ```html
 <button class="Btn">default button</button>
+<button class="Btn Btn--outline">default outlined button</button>
+<button class="Btn is-disabled">disabled button</button>
 ```
 
 ## Sizes
