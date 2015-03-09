@@ -1,3 +1,5 @@
+$btn-icon-width: $base-margin--s + 2 * $base-margin;
+
 .Btn--outline {
   color: $gray-chateau;
   background-color: $white;
@@ -16,7 +18,9 @@
 
 .Btn--split {
 
+  padding-left: $btn-icon-width;
   position: relative;
+  text-align: center;
 
   .Btn-icon {
     position: absolute;
@@ -25,11 +29,6 @@
     margin: $base-margin--s / 2 0 $base-margin--s;
     padding: $base-padding--s / 2 $base-padding--s;
     border-right: 1px solid $white;
-  }
-
-  .Btn-label {
-    margin: 0 0 0 calc(#{$base-margin--s} + #{$base-margin});
-    text-align: center;
   }
 
 }
