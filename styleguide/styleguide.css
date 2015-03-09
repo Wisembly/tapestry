@@ -1,3 +1,7 @@
+.Styleguide-navWrapper ~ .Styleguide-navItem {
+	display: none;
+}
+
 body {
 	background: #fff;
 	font-family: 'Open Sans', 'Georgia', sans-serif;
@@ -159,7 +163,7 @@ body {
 	overflow-y: scroll;
 	width: 25%;
 	margin: 0;
-	padding: 1em;
+	padding: 0 1em 1em 2em;
 }
 
 	.Styleguide-navItem {
