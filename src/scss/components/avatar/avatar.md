@@ -22,12 +22,3 @@
 	<span class"p p-apple"></span>
 </div>
 ```
-
-## Centered
-```html
-<img class="Avatar Avatar--centered" src="https://upload.wikimedia.org/wikipedia/en/6/69/Ember.js_Logo_and_Mascot.png" />
-<div class="Avatar Avatar--color4 Avatar-initials Avatar--centered">CB</div>
-<div class="Avatar Avatar--l Avatar--empty Avatar--centered">
-	<span class"p p-apple"></span>
-</div>
-```
