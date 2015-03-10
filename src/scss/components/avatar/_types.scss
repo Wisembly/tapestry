@@ -1,0 +1,8 @@
+.Avatar--empty {
+  text-align: center;
+  border: 1px solid $gray-chateau;
+
+  &:before {
+    margin-left: 1px;
+  }
+}
