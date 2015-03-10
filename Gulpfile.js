@@ -26,8 +26,7 @@ var MyStyleguide = new Styleguide({
 		layout: 'styleguide/layout.html',
 		stylesheets: [
 			'styleguide/styleguide.css',
-			'styleguide/code-style.css',
-			'dist/app.css'
+			'styleguide/code-style.css'
 		]
 	},
 	components: {
