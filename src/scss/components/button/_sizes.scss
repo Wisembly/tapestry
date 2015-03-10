@@ -3,14 +3,11 @@
   width: 100%;
 }
 
-.Btn-blockContainer {
-  @include cf;
-  .Btn {
-    float: right;
-    width: 49%;
+.Btn-expandContainer {
+  display: flex;
+  flex-direction: row;
+}
 
-    &:first-child {
-      float: left;
-    }
-  }
+.Btn--expand {
+  flex-grow: 1;
 }
