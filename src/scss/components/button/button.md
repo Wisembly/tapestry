@@ -13,9 +13,9 @@
 ```
 
 ```html
-<div class="Btn-blockContainer">
-  <button class="Btn Btn--error">Block button</button>
-  <button class="Btn Btn--validate">Block button</button>
+<div class="Btn-container">
+  <button class="Btn Btn--expand">Expanded button</button>
+  <button class="Btn Btn--validate">Button</button>
 </div>
 ```
 
