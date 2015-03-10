@@ -1,4 +1,4 @@
-$btn-icon-width: $base-margin--s + 2 * $base-margin;
+$btn-icon-width: $margin--s + 2 * $base-margin;
 
 .Btn--outline {
   color: $gray-chateau;
@@ -44,8 +44,8 @@ $btn-icon-width: $base-margin--s + 2 * $base-margin;
     position: absolute;
     top: 0;
     left: 0;
-    margin: $base-margin--s / 2 0;
-    padding: $base-padding--s / 2 $base-padding--s;
+    margin: $margin--s / 2 0;
+    padding: $padding--s / 2 $padding--s;
     border-right: 1px solid $white;
   }
 

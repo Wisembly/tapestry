@@ -59,7 +59,7 @@
 
 @mixin tooltip-core {
   position: absolute;
-  padding: $base-padding--s $base-padding;
+  padding: $padding--s $base-padding;
   font-size: $font-size--s;
   line-height: 1;
   color: $white;

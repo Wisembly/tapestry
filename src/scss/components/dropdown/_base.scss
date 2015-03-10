@@ -3,8 +3,8 @@
   top: 100%;
   right: 0;
   z-index: 1;
-  margin: $base-padding--s;
-  padding: $base-padding--s;
+  margin: $padding--s;
+  padding: $padding--s;
   list-style: none;
   color: $limed-spruce;
   background: $porcelain;
@@ -14,7 +14,7 @@
 
 .Dropdown-item {
   display: block;
-  padding: $base-padding--s $base-padding;
+  padding: $padding--s $base-padding;
   font-weight: $font-weight--strong;
   text-align: center;
   text-decoration: none;

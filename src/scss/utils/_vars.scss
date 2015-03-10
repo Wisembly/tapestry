@@ -15,13 +15,12 @@ $base-font-weight: 400;
 $font-weight--strong: 600;
 
 $base-padding: $base-line-height;
-$base-padding--s: $base-padding / 2;
-$base-padding--l: $base-padding * 2;
+$padding--s: $base-padding / 2;
+$padding--l: $base-padding * 2;
 
 $base-margin: $base-line-height;
-$base-margin--s: $base-margin / 2;
-$base-margin--l: $base-margin * 2;
-
+$margin--s: $base-margin / 2;
+$margin--l: $base-margin * 2;
 
 $base-radius: rem(3px) !default;
 
