@@ -13,7 +13,7 @@
 ```
 
 ```html
-<div class="Btn-container">
+<div class="Btn-expandContainer">
   <button class="Btn Btn--expand">Expanded button</button>
   <button class="Btn Btn--validate">Button</button>
 </div>

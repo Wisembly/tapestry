@@ -3,11 +3,11 @@
   width: 100%;
 }
 
-.Btn-container {
+.Btn-expandContainer {
   display: flex;
   flex-direction: row;
+}
 
-  .Btn--expand {
-    flex-grow: 1;
-  }
+.Btn--expand {
+  flex-grow: 1;
 }
