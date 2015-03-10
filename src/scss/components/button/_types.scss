@@ -1,4 +1,4 @@
-$btn-icon-width: $margin--s + 2 * $base-margin;
+$btn-icon-width: $padding--s * 2 + rem($base-font-size) + $base-padding;
 
 .Btn--outline {
   color: $gray-chateau;
