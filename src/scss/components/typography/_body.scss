@@ -1,0 +1,13 @@
+p,
+.BodyText {
+  margin-top: $base-margin;
+  margin-bottom: $base-margin;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+}
+
+small,
+.BodyText--smaller {
+  font-size: $font-size--s;
+  line-height: $base-line-height;
+}
