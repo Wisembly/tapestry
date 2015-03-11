@@ -1,14 +1,14 @@
 .Avatar {
-  width: $base-line-height * 3 * 1rem;
-  height: $base-line-height * 3 * 1rem;
-  line-height: $base-line-height * 3 * 1rem;
+  display: inline-block;
+  width: $base-line-height * 3;
+  height: $base-line-height * 3;
+  line-height: $base-line-height * 3;
   border-radius: 50%;
   overflow: hidden;
-  display: inline-block;
 }
 
 .Avatar-initials {
-  height: $base-line-height * 3 * 1rem;
+  height: $base-line-height * 3;
   font-size: $base-font-size;
   text-align: center;
   color: $white;

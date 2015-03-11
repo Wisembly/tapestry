@@ -9,7 +9,7 @@ $font-size--l: rem(17px) !default;
 $font-size--xl: rem(24px) !default;
 $font-size--xxl: rem(27px) !default;
 
-$base-line-height: 22/14 !default; // Sketch line-height * 2 values ~= 1,3235
+$base-line-height: rem($base-font-size * 22/14) !default; // Sketch line-height * 2 values ~= 1,57
 $line-height--s: $base-line-height / 2;
 $line-height--l: $base-line-height * 2;
 
