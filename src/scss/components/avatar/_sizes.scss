@@ -1,17 +1,28 @@
-.Avatar--s {
-  width: $base-line-height * 2;
-  height: $base-line-height * 2;
+.Avatar--xs {
+  width: $base-line-height * 1rem;
+  height: $base-line-height * 1rem;
   font-size: $font-size--s;
-  line-height: $base-line-height * 2;
+  line-height: $base-line-height * 1rem;
 
   &.Avatar-initials {
-    height: $base-line-height * 2;
+    height: $base-line-height * 1rem;
+  }
+}
+
+.Avatar--s {
+  width: $base-line-height * 2 * 1rem;
+  height: $base-line-height * 2 * 1rem;
+  font-size: $font-size--s;
+  line-height: $base-line-height * 2 * 1rem;
+
+  &.Avatar-initials {
+    height: $base-line-height * 2 * 1rem;
   }
 }
 
 .Avatar--l {
-  width: $base-line-height * 4;
-  height: $base-line-height * 4;
+  width: $base-line-height * 4 * 1rem;
+  height: $base-line-height * 4 * 1rem;
   font-size: $font-size--l;
-  line-height: $base-line-height * 4;
+  line-height: $base-line-height * 4 * 1rem;
 }

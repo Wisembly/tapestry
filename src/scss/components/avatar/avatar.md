@@ -13,6 +13,7 @@
 <div class="Avatar Avatar--color1 Avatar-initials">UO</div>
 <div class="Avatar Avatar--color2 Avatar--l Avatar-initials">AB</div>
 <div class="Avatar Avatar--color3 Avatar--s Avatar-initials">GC</div>
+<div class="Avatar Avatar--color3 Avatar--xs Avatar-initials">AB</div>
 ```
 
 ## Empty
