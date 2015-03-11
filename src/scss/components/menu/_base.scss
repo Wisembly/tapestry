@@ -1,7 +1,7 @@
 .Menu {
   display: block;
-  margin: $base-margin 0;
-  padding: 0 0 $base-padding;
+  margin: 0;
+  padding: $padding--s 0;
   font-size: $base-font-size;
   text-align: left;
   border-bottom: 1px solid $deep-sea-green;
@@ -27,7 +27,8 @@
 
 .Menu-itemIcon {
   display: inline-block;
-  width: rem(38px);
+  width: $font-size--xl;
+  margin-right: $margin--s;
   line-height: 1;
   text-align: center;
 }
