@@ -1,12 +1,12 @@
-.container {
+.Container {
   width: 100%;
 }
 
-.row {
+.Row {
   @include cf();
 }
 
-.c {
+.Column {
   position: relative;
   float: left;
   min-height: 1px;
@@ -17,7 +17,7 @@
 
 @for $i from 1 to ($column-number + 1) {
 
-  .c-#{$i} {
+  .Column-#{$i} {
     width: percentage(($i/$column-number));
 
     @if $i == 12 {
