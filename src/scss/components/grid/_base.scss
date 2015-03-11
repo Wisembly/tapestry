@@ -1,0 +1,28 @@
+.Container {
+  width: 100%;
+}
+
+.Row {
+  @include cf();
+}
+
+.Column {
+  position: relative;
+  float: left;
+  min-height: 1px;
+  word-wrap: break-word;
+}
+
+// Generate columns
+
+@for $i from 1 to ($column-number + 1) {
+
+  .Column-#{$i} {
+    width: percentage(($i/$column-number));
+
+    @if $i == 12 {
+      float: none;
+      width: auto;
+    }
+  }
+}

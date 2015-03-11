@@ -30,6 +30,10 @@ $margin--l: $base-margin * 2;
 
 $base-radius: rem(3px) !default;
 
+// Grid
+
+$column-number: 12;
+
 // Breakpoints
 
 $break-phablet: 414px; // iPhone6+ width in Portrait mode

@@ -117,7 +117,16 @@ body {
 		color: #fff;
 	}
 
-
+  .Styleguide-module--grid .Column {
+    background: #AED7E8;
+    text-align: center;
+    padding: 1rem 0;
+    border-right: 1px solid #FFF;
+    border-top: 1px solid #FFF;
+  }
+  .Styleguide-module--grid .Column:last-child {
+    border-right: 0;
+  }
 
 /* Styleguide colors
  * Styleguide-module--colors
