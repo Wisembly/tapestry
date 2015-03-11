@@ -1,7 +1,7 @@
 # Dropdown
 
 ```html
-<div style="position: relative; border: 1px dashed #aaa; height: 50px;">
+<div class="has-dropdown" style="border: 1px dashed #aaa; height: 50px;">
 	<ul class="Dropdown">
 	  <li class="Dropdown-item">
 	    Simple label
@@ -20,7 +20,7 @@
 ### Top-left
 
 ```html
-<div style="position: relative; border: 1px dashed #aaa; height: 50px;">
+<div class="has-dropdown" style="border: 1px dashed #aaa; height: 50px;">
 	<ul class="Dropdown Dropdown--tl">
 	  <li class="Dropdown-item">
 	    Simple label
@@ -37,7 +37,7 @@
 ### Top-right
 
 ```html
-<div style="position: relative; border: 1px dashed #aaa; height: 50px;">
+<div class="has-dropdown" style="border: 1px dashed #aaa; height: 50px;">
 	<ul class="Dropdown Dropdown--tr">
 	  <li class="Dropdown-item">
 	    Simple label
@@ -54,7 +54,7 @@
 ### Bottom-left
 
 ```html
-<div style="position: relative; border: 1px dashed #aaa; height: 50px;">
+<div class="has-dropdown" style="border: 1px dashed #aaa; height: 50px;">
 	<ul class="Dropdown Dropdown--bl">
 	  <li class="Dropdown-item">
 	    Simple label
