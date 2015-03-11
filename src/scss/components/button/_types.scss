@@ -32,6 +32,10 @@ $btn-icon-width: $padding--s * 2 + rem($base-font-size) + $base-padding;
     box-shadow: none;
   }
 
+  &[disabled] {
+    background: none;
+  }
+
 }
 
 .Btn--split {
