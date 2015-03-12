@@ -1,0 +1,22 @@
+.Table {
+  display: table;
+  width: 100%;
+  color: $slate-gray;
+  border-collapse: collapse;
+}
+
+.Table-heading {
+  font-weight: $base-font-weight;
+}
+
+.Table-heading,
+.Table-cell {
+  display: table-cell;
+  padding: $base-padding;
+  text-align: center;
+  border: 1px solid $base-border-color;
+}
+
+.Table-cell {
+  color: $limed-spruce;
+}
