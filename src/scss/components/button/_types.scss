@@ -4,8 +4,6 @@ $btn-icon-width: $padding--s * 2 + rem($base-font-size) + $base-padding;
   color: $gray-chateau;
   background-color: $white;
   border: 1px solid $gray-chateau;
-  padding-top: $padding--s - rem(1px);
-  padding-bottom: $padding--s - rem(1px);
 
   &:hover {
     color: $slate-gray;
