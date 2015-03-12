@@ -4,12 +4,16 @@ $font-family-sans-serif: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 $font-family-serif: Georgia, Cambria, "Times New Roman", Times, serif;
 
 $base-font-size: 15px !default;
+
 $font-size--s: rem(13px) !default;
+$font-size--m: rem($base-font-size) !default;
 $font-size--l: rem(17px) !default;
 $font-size--xl: rem(24px) !default;
 $font-size--xxl: rem(27px) !default;
 
-$base-line-height: 24/15 !default; // Sketch line-height * 2 values ~= 1,57
+$rhythm-ratio: 24/15 !default; // Sketch line-height * 2 values = 1,6
+$base-line-height: $rhythm-ratio * 1rem;
+
 $line-height--s: $base-line-height / 2;
 $line-height--l: $base-line-height * 2;
 
@@ -18,11 +22,11 @@ $font-weight--strong: 600;
 
 // Spaces
 
-$base-padding: $base-line-height * 1rem;
+$base-padding: $base-line-height;
 $padding--s: $base-padding / 2;
 $padding--l: $base-padding * 2;
 
-$base-margin: $base-line-height * 1rem;
+$base-margin: $base-line-height;
 $margin--s: $base-margin / 2;
 $margin--l: $base-margin * 2;
 
