@@ -1,0 +1,16 @@
+.has-flash {
+  position: relative;
+}
+
+.Flash {
+  position: absolute;
+  top: $base-line-height * 1rem;
+  left: 50%;
+  padding: $padding--s $base-padding;
+  color: $white;
+  background: $mint;
+  border-radius: $base-radius;
+  box-shadow: 0 1px 1.5px 0 rgba($gray-chateau, .5);
+  transform: translateX(-50%);
+  z-index: 1;
+}
