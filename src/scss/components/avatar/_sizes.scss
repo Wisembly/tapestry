@@ -13,7 +13,7 @@
   width: $avatar-size * 2;
   height: $avatar-size * 2;
   font-size: $font-size--s;
-  line-height: $base-line-height * 2;
+  line-height: $avatar-size * 2;
 
   &.Avatar-initials {
     height: $avatar-size * 2;
