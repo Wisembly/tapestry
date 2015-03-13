@@ -1,3 +1,10 @@
+h1,
+h2,
+.Heading-title--1,
+.Heading-title--2 {
+  line-height: $line-height--l;
+}
+
 h2,
 h3,
 h4,
@@ -9,6 +16,14 @@ h5,
   margin-top: $base-line-height;
   margin-bottom: $base-line-height;
   font-weight: $font-weight--strong;
+}
+
+h3,
+h4,
+h5,
+.Heading-title--3,
+.Heading-title--4,
+.Heading-title--5 {
   line-height: $base-line-height;
 }
 
@@ -18,7 +33,6 @@ h1,
   margin-bottom: $line-height--l;
   font-size: rem(40px);
   font-weight: $base-font-weight;
-  line-height: $line-height--l;
 }
 
 h2,
