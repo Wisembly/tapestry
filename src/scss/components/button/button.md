@@ -29,6 +29,10 @@
   <i class="Btn-icon i i-apple"></i>
   Button with icon
 </button>
+<button class="Btn">
+  <i class="Btn-icon i i-apple"></i>
+  Button with icon
+</button>
 ```
 
 ## Colors
