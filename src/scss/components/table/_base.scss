@@ -8,7 +8,7 @@
 .Table-heading,
 .Table-cell {
   display: table-cell;
-  padding: $padding--s - rem(1px) $padding--s;
+  padding: calc(#{$padding--s} - 1px) $padding--s;
   text-align: center;
   border: 1px solid $base-border-color;
   border-right-color: transparent;
