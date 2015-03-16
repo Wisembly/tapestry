@@ -3,9 +3,11 @@
 
   .Btn {
     margin-left: -1px;
+    padding-top: $padding--s - rem(1px);
+    padding-bottom: $padding--s - rem(1px);
     color: $gray-chateau;
     background-color: $porcelain;
-    border-color: $iron;
+    border: 1px solid $iron;
     border-radius: 0;
 
     &:first-child {
