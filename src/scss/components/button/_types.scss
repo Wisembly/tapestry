@@ -16,7 +16,6 @@ $btn-icon-width: $padding--s * 2 + rem($base-font-size) + $base-padding;
   &:active {
     background-color: $white;
   }
-
 }
 
 .Btn--raw {
@@ -37,11 +36,9 @@ $btn-icon-width: $padding--s * 2 + rem($base-font-size) + $base-padding;
   &[disabled] {
     background: none;
   }
-
 }
 
-.Btn--split {
-
+.Btn.has-icon {
   position: relative;
   padding-left: $btn-icon-width;
   text-align: center;
@@ -54,5 +51,4 @@ $btn-icon-width: $padding--s * 2 + rem($base-font-size) + $base-padding;
     padding: $padding--s / 2 $padding--s;
     border-right: 1px solid $white;
   }
-
 }
