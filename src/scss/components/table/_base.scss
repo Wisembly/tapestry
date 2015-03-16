@@ -2,7 +2,7 @@
   display: table;
   width: 100%;
   color: $slate-gray;
-  border-collapse: collapse;
+  //border-collapse: collapse;
 }
 
 .Table-heading {
@@ -15,6 +15,8 @@
   padding: $padding--s;
   text-align: center;
   border: 1px solid $base-border-color;
+  border-right-color: transparent;
+  border-top-color: transparent;
 }
 
 .Table-cell {
