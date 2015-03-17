@@ -5,6 +5,7 @@ var linter      = require('gulp-scss-lint');
 var prefix      = require('gulp-autoprefixer');
 var sass        = require('gulp-sass');
 var sourcemaps  = require('gulp-sourcemaps');
+var checkCSS    = require( 'gulp-check-unused-css' );
 var Styleguide  = require('styleguide-generator');
 var sketch      = require('gulp-sketch');
 var iconfont    = require('gulp-iconfont');
@@ -40,7 +41,7 @@ function handleError (error) {
 }
 
 gulp.task('sass', function () {
-  return gulp.src('./src/scss/**/*.scss')
+  gulp.src('./src/scss/**/*.scss')
 		.pipe(linter({
       'config': './scss-lint.yml'
     }))
@@ -53,6 +54,13 @@ gulp.task('sass', function () {
       browsers: ['last 2 versions']
     }))
     .pipe(gulp.dest('./dist'));
+
+	return gulp.start('uncss');
+});
+
+gulp.task('uncss', function () {
+	gulp.src(['dist/app.css', 'dist/index.html' ])
+    .pipe(checkCSS());
 });
 
 gulp.task('icons', function(){
