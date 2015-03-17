@@ -20,23 +20,32 @@ $line-height--l: $base-line-height * 2;
 $base-font-weight: 400;
 $font-weight--strong: 600;
 
+
+
 // Spaces
 
 $base-padding: $base-line-height;
 $padding--s: $base-padding / 2;
+$padding--m: $base-padding;
 $padding--l: $base-padding * 2;
 
 $base-margin: $base-line-height;
 $margin--s: $base-margin / 2;
+$margin--m: $base-margin;
 $margin--l: $base-margin * 2;
 
-// Radius
 
+
+// Radius
 $base-radius: rem(3px) !default;
+
+
 
 // Grid
 
 $column-number: 12;
+
+
 
 // Breakpoints
 
