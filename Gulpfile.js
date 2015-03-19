@@ -12,6 +12,7 @@ var consolidate = require('gulp-consolidate');
 var svgSprite   = require('gulp-svg-sprites');
 var filter      = require('gulp-filter');
 var svg2png     = require('gulp-svg2png');
+var stylestats  = require('gulp-stylestats');
 var rename      = require('gulp-rename');
 var urlAdjuster = require('gulp-css-url-adjuster');
 
@@ -110,6 +111,11 @@ gulp.task('serve', function() {
 			baseDir: './dist/'
 		}
 	});
+});
+
+gulp.task('stylestats', function () {
+  gulp.src('./dist/*.css')
+    .pipe(stylestats());
 });
 
 gulp.task('deploy', function () {
