@@ -194,3 +194,22 @@ body {
 			background-color: #eee;
 			color: #444;
 		}
+
+
+/* Styleguide-love */
+
+.Styleguide-love {
+  position: fixed;
+  bottom: .8rem;
+  left: 3rem;
+  font-size: .8rem;
+  color: #888;
+}
+
+  .Styleguide-socialLink {
+    color: #888;
+  }
+
+  .Styleguide-socialLink:hover {
+    color: #444;
+  }
