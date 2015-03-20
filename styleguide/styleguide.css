@@ -31,7 +31,7 @@ body {
 	position: fixed;
 	top: 0; right: 0; left: 0;
 	font-family: 'Open Sans', 'Georgia', sans-serif;
-	padding: 1em 3em;
+	padding: .8rem 3em;
 	text-align: left;
 	background-color: #009788;
 	z-index: 10;
@@ -74,8 +74,9 @@ body {
 
 
 	.Styleguide-title--1 {
-		margin: 0 0 1.2em 0;
-		font-size: 2.8em;
+		margin: 0 0 1.6rem 0;
+    font-size: 2.4rem;
+		line-height: 3.2rem;
 		font-weight: 400;
 	}
 
@@ -94,7 +95,7 @@ body {
 	.Styleguide-module pre {
 		position: relative;
 		margin: 1.5em auto;
-		padding: 3em 1em 1em;
+		padding: 3.2rem 1em 1.6rem;
 		font-size: .9em;
 		line-height: 1.6;
 		text-align: left;
@@ -141,22 +142,22 @@ body {
 	.Styleguide-colorWrapper {
 		display: inline-block;
 		width: 23.5%;
-		margin: 0 1% 2% 0;
+		margin: 0 1% 1.6rem 0;
 		list-style-type: none;
 	}
 
 		.Styleguide-colorItem {
-			height: 8em;
+			height: 6.4rem;
 			border-top-left-radius: 3px;
 			border-top-right-radius: 3px;
 		}
 
 		.Styleguide-colorDescription {
 			font-size: 1em;
-			line-height: 1.4;
+			line-height: 1.6rem;
 			color: #999;
 			border-bottom: 1px solid #ededed;
-			padding: .5em;
+			padding: .8rem;
 			font-weight: 300;
 		}
 
@@ -168,11 +169,12 @@ body {
 
 .Styleguide-navWrapper {
 	position: fixed;
-	top: 6em; bottom: 0;
+	top: 6.4rem;
+  bottom: 0;
 	overflow-y: scroll;
 	width: 25%;
 	margin: 0;
-	padding: 0 1em 1em 2em;
+	padding: 0 1em .8rem 2em;
 }
 
 	.Styleguide-navItem {
@@ -181,8 +183,8 @@ body {
 
 		.Styleguide-navLink {
 			display: block;
-			padding: .8em;
-			font-size: 1.2em;
+			padding: 0 .8rem;
+			line-height: 1.6rem;
 			text-decoration: none;
 			border-radius: 5px;
 			color: #888;
