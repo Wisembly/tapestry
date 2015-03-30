@@ -1,6 +1,6 @@
 .Badge {
-  float: right;
-  padding: 0 $base-padding;
+  display: inline-block;
+  padding: 0 $padding--s;
   font-size: $font-size--s;
   line-height: $base-line-height;
   color: $white;
