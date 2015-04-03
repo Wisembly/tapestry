@@ -8,7 +8,7 @@
 
 ```html
 <div class="has-flash">
-	<div class="Flash Flash--alert">Productive and actionable meetings, every time.</div>
+	<div class="Flash Flash--error">Productive and actionable meetings, every time.</div>
 </div>
 ```
 
