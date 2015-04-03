@@ -44,7 +44,7 @@ $btn-icon-width: $padding--s * 2 + rem($base-font-size) + $base-padding;
   text-align: center;
 
   .Btn-icon {
-    @include position(a 0 null null 0);
+    @include pos(a 0 null null 0);
     margin: $margin--s / 2 0;
     padding: $padding--s / 2 $padding--s;
     border-right: 1px solid $white;

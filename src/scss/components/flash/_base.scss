@@ -3,7 +3,7 @@
 }
 
 .Flash {
-  @include position(a $base-line-height null null 50%);
+  @include pos(a $base-line-height null null 50%);
   z-index: 1;
   padding: $padding--s $base-padding;
   color: $white;

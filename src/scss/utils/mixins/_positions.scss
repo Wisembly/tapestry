@@ -1,9 +1,9 @@
-// @include position(a 20%);
-// @include position(a 20% 50%);
-// @include position(a 10% 20% 30% 40%);
-// @include position(a 10% 20% null 40%);
+// @include pos(a 20%);
+// @include pos(a 20% 50%);
+// @include pos(a 10% 20% 30% 40%);
+// @include pos(a 10% 20% null 40%);
 
-@mixin position ($args) {
+@mixin pos ($args) {
   $count: length($args);
   $type: nth($args, 1);
 

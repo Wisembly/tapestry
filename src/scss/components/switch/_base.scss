@@ -14,7 +14,7 @@ $switch-space-around: 6px;
   transition: background-color .05s ease;
 
   &:after {
-    @include position(a 50% null null rem($switch-space-around / 2));
+    @include pos(a 50% null null rem($switch-space-around / 2));
     content: "";
     display: block;
     width: rem($switch-height - $switch-space-around);
