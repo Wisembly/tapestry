@@ -14,11 +14,9 @@ $switch-space-around: 6px;
   transition: background-color .05s ease;
 
   &:after {
+    @include position(a 50% null null rem($switch-space-around / 2));
     content: "";
     display: block;
-    position: absolute;
-    top: 50%;
-    left: rem($switch-space-around / 2);
     width: rem($switch-height - $switch-space-around);
     height: rem($switch-height - $switch-space-around);
     margin-top: rem((-$switch-height / 2) + $switch-space-around / 2);
