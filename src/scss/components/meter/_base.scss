@@ -9,9 +9,7 @@ $meter-radius: $base-radius * 2;
 }
 
 .Meter-bar {
-  position: absolute;
-  top: 0;
-  left: 0;
+  @include pos(a 0 null null 0);
   height: 100%;
   background: $curious-blue;
   transition: width .3s ease-out;

@@ -1,0 +1,5 @@
+@mixin bp($bp) {
+  @media (min-width: $bp) {
+    @content;
+  }
+}

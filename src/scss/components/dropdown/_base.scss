@@ -3,9 +3,7 @@
 }
 
 .Dropdown {
-  position: absolute;
-  top: 100%;
-  right: 0;
+  @include pos(a 100% 0 null null);
   z-index: 1;
   margin: $padding--s;
   padding: $padding--s;
