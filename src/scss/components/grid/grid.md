@@ -71,3 +71,41 @@ You can overide the `$column-number` variable
   </div>
 </div>
 ```
+
+## Columns alignment
+
+### Align top
+
+```html
+<div class="Container">
+  <div class="Row">
+    <div class="Column Column-4 Column--alignTop">Sorry boss but there's only two men I trust. One of them's me. The other's not you.</div>
+    <div class="Column Column-4">Put... the bunny... back... in the box.</div>
+    <div class="Column Column-4">I'm gonna save the fuckin' day!</div>
+  </div>
+</div>
+```
+
+### Align middle
+
+```html
+<div class="Container">
+  <div class="Row">
+    <div class="Column Column-4 Column--alignMiddle">Sorry boss but there's only two men I trust. One of them's me. The other's not you.</div>
+    <div class="Column Column-4 Column--alignMiddle">Put... the bunny... back... in the box.</div>
+    <div class="Column Column-4 ">Sorry boss but there's only two men I trust. One of them's me. The other's not you.</div>
+  </div>
+</div>
+```
+
+### Align bottom
+
+```html
+<div class="Container">
+  <div class="Row">
+    <div class="Column Column-4">Sorry boss but there's only two men I trust. One of them's me. The other's not you.</div>
+    <div class="Column Column-4 Column--alignBottom">Put... the bunny... back... in the box.</div>
+    <div class="Column Column-4">I'm gonna save the fuckin' day!</div>
+  </div>
+</div>
+```

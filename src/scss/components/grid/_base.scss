@@ -1,3 +1,5 @@
+$column-number: 12;
+
 .Container {
   width: 100%;
 }
@@ -12,13 +14,25 @@
   min-height: 1px;
   font-size: 1rem;
   word-wrap: break-word;
+  vertical-align: top;
 }
 
 // Generate columns
 
 @for $i from 1 to ($column-number + 1) {
-
   .Column-#{$i} {
     width: percentage(($i/$column-number));
   }
+}
+
+.Column--alignTop {
+  vertical-align: top;
+}
+
+.Column--alignMiddle {
+  vertical-align: middle;
+}
+
+.Column--alignBottom {
+  vertical-align: bottom;
 }
