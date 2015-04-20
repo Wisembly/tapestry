@@ -8,7 +8,7 @@
 .Table-heading,
 .Table-cell {
   display: table-cell;
-  padding: calc(#{$padding--s} - 1px) $padding--s;
+  padding: calc(#{$pd--s} - 1px) $pd--s;
   text-align: center;
   border: 1px solid $base-border-color;
   border-right-color: transparent;
@@ -16,7 +16,7 @@
 }
 
 .Table-heading {
-  font-weight: $base-font-weight;
+  font-weight: $base-fw;
   border-top-color: $base-border-color;
 
   &:last-child {

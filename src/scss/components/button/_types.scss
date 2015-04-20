@@ -1,8 +1,8 @@
-$btn-icon-width: $padding--s * 2 + rem($base-font-size) + $base-padding;
+$btn-icon-width: $pd--s * 2 + rem($base-fz) + $base-pd;
 
 .Btn--outline {
-  padding-top: $padding--s - rem(1px);
-  padding-bottom: $padding--s - rem(1px);
+  padding-top: $pd--s - rem(1px);
+  padding-bottom: $pd--s - rem(1px);
   color: $gray-chateau;
   background-color: $white;
   border: 1px solid $gray-chateau;
@@ -45,8 +45,8 @@ $btn-icon-width: $padding--s * 2 + rem($base-font-size) + $base-padding;
 
   .Btn-icon {
     @include pos(a 0 null null 0);
-    margin: $margin--s / 2 0;
-    padding: $padding--s / 2 $padding--s;
+    margin: $mg--s / 2 0;
+    padding: $pd--s / 2 $pd--s;
     border-right: 1px solid $white;
   }
 }

@@ -1,0 +1,18 @@
+$ff--ss-serif: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+$ff--serif: Georgia, Cambria, "Times New Roman", Times, serif;
+
+$base-fz: 15px !default;
+$base-lh: 24/15 * 1rem; // Sketch line-height * 2 values = 1,6
+$base-fw: 400;
+
+$fz--s: rem(13px) !default;
+$fz--m: rem($base-fz) !default;
+$fz--l: rem(17px) !default;
+$fz--xl: rem(24px) !default;
+$fz--xxl: rem(27px) !default;
+
+$lh--s: $base-lh / 2;
+$lh--m: $base-lh;
+$lh--l: $base-lh * 2;
+
+$fw--bolder: 600;

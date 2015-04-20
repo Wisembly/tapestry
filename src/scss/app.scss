@@ -1,11 +1,9 @@
 @import "vendors/normalize";
 
-@import "utils/mixins/core";
-@import "utils/functions";
-@import "utils/vars";
-@import "utils/colors";
-@import "utils/colors-aliases";
-@import "utils/classes";
+@import "utils/function/core";
+@import "utils/var/core";
+@import "utils/mixin/core";
+@import "utils/class/core";
 
 @import "core/type";
 

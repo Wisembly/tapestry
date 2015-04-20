@@ -20,7 +20,7 @@ var MyStyleguide = new Styleguide({
 	files: {
 		src: 'src/scss',
 		dist: 'dist/',
-		colors: 'src/scss/utils/_colors.scss'
+		colors: 'src/scss/utils/var/_color-values.scss'
 	},
 	type: 'onepage',
 	onepage: {

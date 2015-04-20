@@ -5,8 +5,8 @@
 .Dropdown {
   @include pos(a 100% 0 null null);
   z-index: 1;
-  margin: $padding--s;
-  padding: $padding--s;
+  margin: $pd--s;
+  padding: $pd--s;
   list-style: none;
   color: $limed-spruce;
   background: $porcelain;
@@ -16,8 +16,8 @@
 
 .Dropdown-item {
   display: block;
-  padding: $padding--s $base-padding;
-  font-weight: $font-weight--strong;
+  padding: $pd--s $base-pd;
+  font-weight: $fw--bolder;
   text-align: center;
   text-decoration: none;
   color: inherit;

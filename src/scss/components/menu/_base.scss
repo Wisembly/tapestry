@@ -1,15 +1,15 @@
 .Menu {
   display: block;
   margin: 0;
-  padding: $padding--s 0;
-  font-size: $base-font-size;
+  padding: $pd--s 0;
+  font-size: $base-fz;
   border-bottom: 1px solid $deep-sea-green;
 }
 
 .Menu-item {
   display: block;
-  padding: $padding--s 0;
-  font-weight: $font-weight--strong;
+  padding: $pd--s 0;
+  font-weight: $fw--bolder;
   text-transform: uppercase;
   text-decoration: none;
   // needed to overide link default color
@@ -26,8 +26,8 @@
 
 .Menu-itemIcon {
   display: inline-block;
-  width: $font-size--xl;
-  margin-right: $margin--s;
+  width: $fz--xl;
+  margin-right: $mg--s;
   line-height: 1;
   text-align: center;
 }
