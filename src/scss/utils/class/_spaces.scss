@@ -1,0 +1,40 @@
+$directions-letter: ("t", "r", "b", "l");
+$directions: ("top", "right", "bottom", "left");
+
+@for $i from 1 to length($directions-letter) + 1 {
+  $direction-letter: nth($directions-letter, $i);
+  $direction: nth($directions, $i);
+
+  // paddings
+  .u-pd#{$direction-letter}--s {
+    padding-#{$direction}: $pd--s !important;
+  }
+
+  .u-pd#{$direction-letter}--m {
+    padding-#{$direction}: $pd--m !important;
+  }
+
+  .u-pd#{$direction-letter}--l {
+    padding-#{$direction}: $pd--l !important;
+  }
+
+  // margins
+  .u-mg#{$direction-letter}--s {
+    margin-#{$direction}: $mg--s !important;
+  }
+
+  .u-mg#{$direction-letter}--m {
+    margin-#{$direction}: $mg--m !important;
+  }
+
+  .u-mg#{$direction-letter}--l {
+    margin-#{$direction}: $mg--l !important;
+  }
+}
+
+/*
+  .u-pdt--s { padding-top: $pd--s !important; }
+  .u-pdt--m { padding-top: $pd--m !important; }
+  .u-pdt--l { padding-top: $pd--m !important; }
+  ...
+*/
