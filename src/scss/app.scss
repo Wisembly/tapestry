@@ -1,4 +1,3 @@
-@import "vendors/normalize";
 
 @import "utils/function/core";
 @import "utils/var/core";
@@ -7,20 +6,74 @@
 
 @import "core/type";
 
-@import "components/avatar/core";
-@import "components/badge/core";
-@import "components/button/core";
-@import "components/button-group/core";
-@import "components/collection/core";
-@import "components/dropdown/core";
-@import "components/flash/core";
-@import "components/grid/core";
-@import "components/menu/core";
-@import "components/meter/core";
-@import "components/pellet/core";
-@import "components/popovers/core";
-@import "components/switch/core";
-@import "components/table/core";
-@import "components/tabs/core";
-@import "components/tooltip/core";
-@import "components/typography/core";
+@if $import-normalize {
+  @import "vendors/normalize";
+}
+
+@if $import-avatar {
+  @import "components/avatar/core";
+}
+
+@if $import-badge {
+  @import "components/badge/core";
+}
+
+@if $import-button {
+  @import "components/button/core";
+}
+
+@if $import-button-group {
+  @import "components/button-group/core";
+}
+
+@if $import-collection {
+  @import "components/collection/core";
+}
+
+@if $import-dropdown {
+  @import "components/dropdown/core";
+}
+
+@if $import-flash {
+  @import "components/flash/core";
+}
+
+@if $import-grid {
+  @import "components/grid/core";
+}
+
+@if $import-menu {
+  @import "components/menu/core";
+}
+
+@if $import-meter {
+  @import "components/meter/core";
+}
+
+@if $import-pellet {
+  @import "components/pellet/core";
+}
+
+@if $import-popovers {
+  @import "components/popovers/core";
+}
+
+@if $import-switch {
+  @import "components/switch/core";
+}
+
+@if $import-table {
+  @import "components/table/core";
+}
+
+@if $import-tabs {
+  @import "components/tabs/core";
+}
+
+@if $import-tooltip {
+  @import "components/tooltip/core";
+}
+
+@if $import-typography {
+  @import "components/typography/core";
+}
