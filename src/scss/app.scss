@@ -4,7 +4,9 @@
 @import "utils/mixin/core";
 @import "utils/class/core";
 
-@import "core/type";
+@if $import-typography {
+  @import "core/typography";
+}
 
 @if $import-normalize {
   @import "vendors/normalize";
@@ -72,8 +74,4 @@
 
 @if $import-tooltip {
   @import "components/tooltip/core";
-}
-
-@if $import-typography {
-  @import "components/typography/core";
 }
