@@ -3,7 +3,7 @@ $meter-radius: $base-radius * 2;
 .Meter {
   position: relative;
   width: 100%;
-  height: $base-line-height / 2;
+  height: $base-lh / 2;
   background: $porcelain;
   overflow: hidden;
 }

@@ -1,7 +1,7 @@
 @mixin tooltip-core {
   position: absolute;
-  padding: $padding--s $base-padding;
-  font-size: $font-size--s;
+  padding: $pd--s $base-pd;
+  font-size: $fz--s;
   line-height: 1;
   color: $white;
   white-space: nowrap;

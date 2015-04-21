@@ -1,9 +1,9 @@
 .Badge {
   display: inline-block;
-  padding: 0 $padding--s;
-  font-size: $font-size--s;
-  line-height: $base-line-height;
+  padding: 0 $pd--s;
+  font-size: $fz--s;
+  line-height: $base-lh;
   color: $white;
   background-color: $mandy;
-  border-radius: $base-line-height;
+  border-radius: $base-lh;
 }

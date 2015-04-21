@@ -2,7 +2,7 @@ h1,
 h2,
 .Heading-title--1,
 .Heading-title--2 {
-  line-height: $line-height--l;
+  line-height: $lh--l;
 }
 
 h2,
@@ -13,9 +13,9 @@ h5,
 .Heading-title--3,
 .Heading-title--4,
 .Heading-title--5 {
-  margin-top: $base-line-height;
-  margin-bottom: $base-line-height;
-  font-weight: $font-weight--strong;
+  margin-top: $base-lh;
+  margin-bottom: $base-lh;
+  font-weight: $fw--bolder;
 }
 
 h3,
@@ -24,30 +24,30 @@ h5,
 .Heading-title--3,
 .Heading-title--4,
 .Heading-title--5 {
-  line-height: $base-line-height;
+  line-height: $base-lh;
 }
 
 h1,
 .Heading-title--1 {
-  margin-top: $line-height--l;
-  margin-bottom: $line-height--l;
+  margin-top: $lh--l;
+  margin-bottom: $lh--l;
   font-size: rem(40px);
-  font-weight: $base-font-weight;
+  font-weight: $base-fw;
 }
 
 h2,
 .Heading-title--2 {
-  font-size: $font-size--xxl;
+  font-size: $fz--xxl;
 }
 
 h3,
 .Heading-title--3 {
-  font-size: $font-size--xl;
+  font-size: $fz--xl;
 }
 
 h4,
 .Heading-title--4 {
-  font-size: $font-size--l;
+  font-size: $fz--l;
 }
 
 h5,

@@ -1,6 +1,6 @@
 .Tabs {
   margin: 0;
-  padding: 0 $base-padding;
+  padding: 0 $base-pd;
   font-size: 0;
   text-align: left;
   list-style: none;
@@ -14,10 +14,10 @@
 .Tab-link {
   display: block;
   position: relative;
-  margin: 0 $margin--s;
-  padding: $base-padding 0;
-  font-size: $base-font-size;
-  font-weight: $font-weight--strong;
+  margin: 0 $mg--s;
+  padding: $base-pd 0;
+  font-size: $base-fz;
+  font-weight: $fw--bolder;
   text-decoration: none;
   color: $slate-gray;
   cursor: pointer;
