@@ -1,18 +1,22 @@
-$ff--ss-serif: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-$ff--serif: Georgia, Cambria, "Times New Roman", Times, serif;
+$ff--ss-serif: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif !default;
+$ff--serif: Georgia, Cambria, "Times New Roman", Times, serif !default;
 
 $base-fz: 15px !default;
-$base-lh: 24/15 * 1rem; // Sketch line-height * 2 values = 1,6
-$base-fw: 400;
+$base-fz--stripped: $base-fz / ($base-fz * 0 + 1);
+$base-fz--rem: rem($base-fz);
 
-$fz--s: rem(13px) !default;
-$fz--m: rem($base-fz) !default;
-$fz--l: rem(17px) !default;
-$fz--xl: rem(24px) !default;
-$fz--xxl: rem(27px) !default;
+$sketch-lh: 12 !default;
+$base-lh: ($sketch-lh * 2) / $base-fz--stripped * 1rem !default;
+
+$fz--s: $base-fz--rem * .8666666667;
+$fz--m: $base-fz--rem;
+$fz--l: $base-fz--rem * 1.1333333333;
+$fz--xl: $base-fz--rem * 1.6;
+$fz--xxl: $base-fz--rem * 1.8;
 
 $lh--s: $base-lh / 2;
 $lh--m: $base-lh;
 $lh--l: $base-lh * 2;
 
+$base-fw: 400;
 $fw--semi-bold: 600;

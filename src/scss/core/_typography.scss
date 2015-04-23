@@ -1,3 +1,12 @@
+html,
+:root {
+  font-size: $base-fz / 16px * 100%; // sets rem base at 15px;
+}
+
+body {
+  font-family: $ff--ss-serif;
+}
+
 h1,
 h2,
 .Heading-title--1,
@@ -53,4 +62,18 @@ h4,
 h5,
 .Heading-title--5 {
   font-size: rem(15px);
+}
+
+p,
+.BodyText {
+  margin-top: $base-mg;
+  margin-bottom: $base-mg;
+  font-size: $base-fz;
+  line-height: $base-lh;
+}
+
+small,
+.BodyText--smaller {
+  font-size: $fz--s;
+  line-height: $base-lh;
 }
