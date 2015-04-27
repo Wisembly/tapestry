@@ -1,25 +1,42 @@
-$tooltip-arrow-size: rem(8px);
+$tooltip-arrow-size: rem(5px);
+$tooltip-bg: rgba(0, 0, 0, .8);
 
 .has-tooltip {
   display: inline-block;
   position: relative;
-}
-
-.Tooltip {
-  @include tooltip-core;
-  top: 50%;
-  left: 100%;
-  margin-left: $tooltip-arrow-size;
-  transform: translateY(-50%);
 
   &:after {
-    top: 50%;
-    right: 100%;
-    width: 0;
-    height: 0;
-    border-width: $tooltip-arrow-size $tooltip-arrow-size $tooltip-arrow-size 0;
-    border-color: $transparent $gray-chateau $transparent $transparent;
+    @include pos(a null null 100% 50%);
+    content: attr(aria-label);
+    display: none;
+    margin-bottom: $tooltip-arrow-size;
+    padding: 2px $pd--s;
+    font-size: $fz--s * .8;
+    text-align: center;
+    word-wrap: break-word;
+    white-space: pre;
+    color: $white;
+    background-color: $tooltip-bg;
+    border-radius: $base-radius;
+    cursor: default;
+    pointer-events: none;
+    transform: translateX(-50%);
+  }
+
+  &:before {
+    @include pos(a null null 100% 50%);
+    content: "";
+    display: none;
+    border-width: $tooltip-arrow-size $tooltip-arrow-size 0;
+    border-color: $tooltip-bg $transparent $transparent;
     border-style: solid;
-    transform: translateY(-50%);
+    transform: translateX(-50%);
+  }
+
+  &:hover {
+    &:before,
+    &:after {
+      display: block;
+    }
   }
 }
