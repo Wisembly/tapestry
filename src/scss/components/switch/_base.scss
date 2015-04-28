@@ -1,27 +1,29 @@
-$switch-width: 50px;
-$switch-height: 25px;
-$switch-space-around: 6px;
+$switch-width: rem(50px);
+$switch-height: $base-lh;
+$switch-space-around: rem(6px);
 
 .Switch {
   display: block;
   position: relative;
-  width: rem($switch-width);
-  height: rem($switch-height);
+  width: $switch-width;
+  height: $switch-height;
   background-color: $gray-chateau;
   //border: 1px solid $base-border-color;
-  border-radius: rem($switch-height);
+  border-radius: $switch-height;
   cursor: pointer;
   transition: background-color .05s ease;
 
   &:after {
-    @include pos(a 50% null null rem($switch-space-around / 2));
     content: "";
     display: block;
-    width: rem($switch-height - $switch-space-around);
-    height: rem($switch-height - $switch-space-around);
-    margin-top: rem((-$switch-height / 2) + $switch-space-around / 2);
+    position: absolute;
+    top: 50%;
+    left: $switch-space-around / 2;
+    width: $switch-height - $switch-space-around;
+    height: $switch-height - $switch-space-around;
+    margin-top: (-$switch-height / 2) + $switch-space-around / 2;
     background-color: $white;
-    border-radius: rem($switch-height - $switch-space-around);
+    border-radius: $switch-height - $switch-space-around;
     transition: left .1s ease-out;
   }
 }
@@ -30,7 +32,7 @@ input:checked + .Switch {
   background-color: $curious-blue;
 
   &:after {
-    left: rem($switch-width - $switch-height + ($switch-space-around / 2));
+    left: $switch-width - $switch-height + ($switch-space-around / 2);
     background-color: $white;
   }
 }
