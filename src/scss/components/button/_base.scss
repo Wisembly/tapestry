@@ -1,8 +1,11 @@
 .Btn {
+  display: inline-block;
   padding: $pd--s $base-pd;
   font-size: $base-fz;
   font-weight: $fw--semi-bold;
   line-height: 1;
+  text-align: center;
+  vertical-align: middle;
   color: $white;
   background-color: $gray-chateau;
   border: 0;
