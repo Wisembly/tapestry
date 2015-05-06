@@ -7,7 +7,7 @@
 	    Simple label
 	  </li>
 	  <li>
-	    <a href="#" class="Dropdown-item">
+	    <a href="#" class="Dropdown-item is-active">
 	      Linked label
 	    </a>
 	  </li>
