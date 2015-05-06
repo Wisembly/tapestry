@@ -1,6 +1,6 @@
 {
   "name": "tapestry",
-  "version": "0.8.2",
+  "version": "0.8.5",
   "description": "Wisembly UI elements",
   "main": "Gulpfile.js",
   "devDependencies": {
