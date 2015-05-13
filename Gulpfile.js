@@ -122,4 +122,4 @@ gulp.task('watch', function () {
   gulp.watch(['./styleguide/**'], ['styleguide']);
 });
 
-gulp.task('default', ['sass', 'icons', 'styleguide', 'watch', 'serve']);
+gulp.task('default', ['sass', 'styleguide', 'watch', 'serve']);
