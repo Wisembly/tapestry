@@ -171,6 +171,7 @@ body {
 	position: fixed;
 	top: 6.4rem;
   bottom: 0;
+  left: 0;
 	overflow-y: scroll;
 	width: 25%;
 	margin: 0;
@@ -196,20 +197,55 @@ body {
 		}
 
 
-/* Styleguide-love */
+/* Styleguide credits
+ * Styleguide-credits
+ * Styleguide-creditsLink */
 
-.Styleguide-love {
+.Styleguide-credits {
   position: fixed;
   bottom: .8rem;
-  left: 3rem;
-  font-size: .8rem;
+  left: 0;
+ 	width: 25%;
+	padding-left: 3.6em;
+  font-size: .8em;
+  line-height: 1.5em;
   color: #888;
 }
 
-  .Styleguide-socialLink {
+  .Styleguide-creditsLink {
+    line-height: 1;
     color: #888;
   }
 
-  .Styleguide-socialLink:hover {
+  .Styleguide-creditsLink:hover {
     color: #444;
+  }
+
+/* Styleguide icons
+ * Styleguide-icons
+ * Styleguide-iconWrapper
+ * Styleguide-iconDescription */
+
+.Styleguide-iconWrapper {
+	display: inline-block;
+  width: 9em;
+  margin: .5em;
+}
+
+  .Styleguide-iconItem {
+    padding: 1em 0;
+    display: block;
+    background: #ededed;
+    text-align: center;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+  }
+
+  .Styleguide-iconDescription {
+    display: block;
+    color: #999;
+    padding: 1em 0;
+    font-size: .8em;
+    text-align: center;
+    border-bottom: 1px solid #ededed;
   }

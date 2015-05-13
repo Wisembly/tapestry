@@ -43,6 +43,10 @@
   @import "components/grid/core";
 }
 
+@if $import-icons {
+  @import "components/icons/core";
+}
+
 @if $import-menu {
   @import "components/menu/core";
 }
