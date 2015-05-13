@@ -1,6 +1,6 @@
 @font-face {
   font-family: "icons";
-  src: url("/fonts/icons.woff?v=1431525677638") format('woff');
+  src: url("#{$f-path}/icons.woff") format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -74,11 +74,11 @@
   content: "\e00d";
 }
 
-.icon-bell:before {
+.icon-board:before {
   content: "\e00e";
 }
 
-.icon-board:before {
+.icon-bell:before {
   content: "\e00f";
 }
 
@@ -130,11 +130,11 @@
   content: "\e01b";
 }
 
-.icon-document:before {
+.icon-display-settings:before {
   content: "\e01c";
 }
 
-.icon-display-settings:before {
+.icon-document:before {
   content: "\e01d";
 }
 
@@ -266,11 +266,11 @@
   content: "\e03d";
 }
 
-.icon-minus:before {
+.icon-more:before {
   content: "\e03e";
 }
 
-.icon-more:before {
+.icon-minus:before {
   content: "\e03f";
 }
 
@@ -370,11 +370,11 @@
   content: "\e057";
 }
 
-.icon-solid:before {
+.icon-star-half:before {
   content: "\e058";
 }
 
-.icon-star-half:before {
+.icon-solid:before {
   content: "\e059";
 }
 

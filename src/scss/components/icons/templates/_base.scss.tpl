@@ -1,6 +1,6 @@
 @font-face {
   font-family: "<%= fontName %>";
-  src: url('<%= fontPath %><%= fontName %>.woff') format('woff');
+  src: url('#{$f-path}/<%= fontName %>.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }

@@ -1,6 +1,8 @@
 $ff--ss-serif: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif !default;
 $ff--serif: Georgia, Cambria, "Times New Roman", Times, serif !default;
 
+$f-path: unquote("/fonts") !default;
+
 $base-fz: 15px !default;
 $base-fz--stripped: $base-fz / ($base-fz * 0 + 1);
 $base-fz--rem: rem($base-fz);

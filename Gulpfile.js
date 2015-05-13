@@ -12,7 +12,6 @@ var consolidate = require('gulp-consolidate');
 var filter      = require('gulp-filter');
 var stylestats  = require('gulp-stylestats');
 var rename      = require('gulp-rename');
-var urlAdjuster = require('gulp-css-url-adjuster');
 
 var MyStyleguide = new Styleguide({
 	files: {
@@ -74,20 +73,15 @@ gulp.task('icons', function(){
         .pipe(consolidate('lodash', {
           glyphs: codepoints,
           fontName: 'icons',
-          fontPath: '/fonts/',
           className: 'icon'
         }))
       .pipe(rename('_base.scss'))
-      .pipe(urlAdjuster({
-        append: "?v="+(new Date()).getTime()
-      }))
       .pipe(gulp.dest('src/scss/components/icons/'))
 
       gulp.src('src/scss/components/icons/templates/_icons.md.tpl')
         .pipe(consolidate('lodash', {
           glyphs: codepoints,
           fontName: 'icons',
-          fontPath: '/fonts/',
           className: 'icon'
         }))
         .pipe(rename('icons.md'))

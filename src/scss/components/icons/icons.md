@@ -128,19 +128,19 @@
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="icon icon-bell"></i>
+    <i class="icon icon-board"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    bell
+    board
   </div>
 </div>
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="icon icon-board"></i>
+    <i class="icon icon-bell"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    board
+    bell
   </div>
 </div>
 
@@ -254,19 +254,19 @@
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="icon icon-document"></i>
+    <i class="icon icon-display-settings"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    document
+    display-settings
   </div>
 </div>
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="icon icon-display-settings"></i>
+    <i class="icon icon-document"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    display-settings
+    document
   </div>
 </div>
 
@@ -560,19 +560,19 @@
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="icon icon-minus"></i>
+    <i class="icon icon-more"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    minus
+    more
   </div>
 </div>
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="icon icon-more"></i>
+    <i class="icon icon-minus"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    more
+    minus
   </div>
 </div>
 
@@ -794,19 +794,19 @@
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="icon icon-solid"></i>
+    <i class="icon icon-star-half"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    solid
+    star-half
   </div>
 </div>
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="icon icon-star-half"></i>
+    <i class="icon icon-solid"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    star-half
+    solid
   </div>
 </div>
 
