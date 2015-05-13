@@ -1,13 +1,12 @@
 @font-face {
   font-family: "icons";
-  src: url("#{$f-path}/icons.woff") format('woff');
+  src: url("#{$f-path}/icons.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 .icon:before {
   display: inline-block;
-  vertical-align: middle;
   font-family: "icons";
   font-size: $base-fz;
   font-weight: normal;
@@ -15,11 +14,12 @@
   line-height: 1;
   text-transform: none;
   text-decoration: inherit;
+  vertical-align: middle;
   color: inherit;
   speak: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
 .icon-action-item:before {
@@ -34,11 +34,11 @@
   content: "\e003";
 }
 
-.icon-archive:before {
+.icon-arrow-back:before {
   content: "\e004";
 }
 
-.icon-arrow-back:before {
+.icon-archive:before {
   content: "\e005";
 }
 
@@ -58,11 +58,11 @@
   content: "\e009";
 }
 
-.icon-arrow-up:before {
+.icon-assignee:before {
   content: "\e00a";
 }
 
-.icon-assignee:before {
+.icon-arrow-up:before {
   content: "\e00b";
 }
 
@@ -74,11 +74,11 @@
   content: "\e00d";
 }
 
-.icon-board:before {
+.icon-bell:before {
   content: "\e00e";
 }
 
-.icon-bell:before {
+.icon-board:before {
   content: "\e00f";
 }
 
@@ -146,15 +146,15 @@
   content: "\e01f";
 }
 
-.icon-drag-horizontal:before {
+.icon-drag-vertical:before {
   content: "\e020";
 }
 
-.icon-drag-vertical:before {
+.icon-dropdown:before {
   content: "\e021";
 }
 
-.icon-dropdown:before {
+.icon-drag-horizontal:before {
   content: "\e022";
 }
 
@@ -266,19 +266,19 @@
   content: "\e03d";
 }
 
-.icon-more:before {
+.icon-minus:before {
   content: "\e03e";
 }
 
-.icon-minus:before {
+.icon-more:before {
   content: "\e03f";
 }
 
-.icon-open-issue:before {
+.icon-open-issue-dashed:before {
   content: "\e040";
 }
 
-.icon-open-issue-dashed:before {
+.icon-open-issue:before {
   content: "\e041";
 }
 
@@ -370,11 +370,11 @@
   content: "\e057";
 }
 
-.icon-star-half:before {
+.icon-solid:before {
   content: "\e058";
 }
 
-.icon-solid:before {
+.icon-star-half:before {
   content: "\e059";
 }
 
@@ -402,11 +402,11 @@
   content: "\e05f";
 }
 
-.icon-task:before {
+.icon-title:before {
   content: "\e060";
 }
 
-.icon-title:before {
+.icon-task:before {
   content: "\e061";
 }
 
@@ -445,3 +445,4 @@
 .icon-wisembly:before {
   content: "\e06a";
 }
+
