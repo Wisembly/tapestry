@@ -22,7 +22,7 @@
   text-rendering: optimizeLegibility;
 }
 
-<% _.each(glyphs, function(glyph) { %>.<%= className %>-<%= glyph.name %>:before {
+<% _.each(glyphs, function(glyph) { %>.<%= className %>--<%= glyph.name %>:before {
   content: "\<%= glyph.codepoint.toString(16) %>";
 }
 

@@ -3,15 +3,15 @@
 ## Generic syntax
 
 ```html
-<i class="icon icon-wisembly"></i>
+<i class="Icon Icon--wisembly"></i>
 ```
 
 ## List
-```html
+```list
 <% _.each(glyphs, function (glyph) { %>
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="icon icon-<%= glyph.name %>"></i>
+    <i class="Icon Icon--<%= glyph.name %>"></i>
   </div>
   <div class="Styleguide-iconDescription">
     <%= glyph.name %>

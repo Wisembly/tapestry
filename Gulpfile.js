@@ -73,7 +73,7 @@ gulp.task('icons', function(){
         .pipe(consolidate('lodash', {
           glyphs: codepoints,
           fontName: 'icons',
-          className: 'icon'
+          className: 'Icon'
         }))
       .pipe(rename('_base.scss'))
       .pipe(gulp.dest('src/scss/components/icons/'))
@@ -82,7 +82,7 @@ gulp.task('icons', function(){
         .pipe(consolidate('lodash', {
           glyphs: codepoints,
           fontName: 'icons',
-          className: 'icon'
+          className: 'Icon'
         }))
         .pipe(rename('icons.md'))
         .pipe(gulp.dest('src/scss/components/icons/'))
