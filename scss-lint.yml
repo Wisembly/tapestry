@@ -185,6 +185,7 @@ linters:
       - -webkit-overflow-scrolling
       - -webkit-appearance
       - box-sizing
+      - speak
 
   PropertySpelling:
     enabled: true

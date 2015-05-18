@@ -9,12 +9,9 @@ var Styleguide  = require('styleguide-generator');
 var sketch      = require('gulp-sketch');
 var iconfont    = require('gulp-iconfont');
 var consolidate = require('gulp-consolidate');
-var svgSprite   = require('gulp-svg-sprites');
 var filter      = require('gulp-filter');
-var svg2png     = require('gulp-svg2png');
 var stylestats  = require('gulp-stylestats');
 var rename      = require('gulp-rename');
-var urlAdjuster = require('gulp-css-url-adjuster');
 
 var MyStyleguide = new Styleguide({
 	files: {
@@ -62,37 +59,33 @@ gulp.task('icons', function(){
       export: 'slices',
       formats: 'svg',
       compact: 'yes',
-      saveForWeb: 'no'
+      saveForWeb: 'yes'
     }))
     .pipe(iconfont({
       fontName: 'icons',
       appendCodepoints: false,
       normalize: true,
       centerHorizontally: true,
-      fontHeight: 1000
+      fontHeight: 100
     }))
     .on('codepoints', function(codepoints, options) {
-      gulp.src('src/css-templates/icon-template.css')
+      gulp.src('src/scss/components/icons/templates/_base.scss.tpl')
         .pipe(consolidate('lodash', {
           glyphs: codepoints,
           fontName: 'icons',
-          fontPath: '../fonts/',
-          className: 'icon'
+          className: 'Icon'
         }))
       .pipe(rename('_base.scss'))
-      .pipe(urlAdjuster({
-        append: "?v="+(new Date()).getTime()
-      }))
-      .pipe(gulp.dest('src/scss/components/icon/'))
-      gulp.src('src/css-templates/icon-template.tpl')
+      .pipe(gulp.dest('src/scss/components/icons/'))
+
+      gulp.src('src/scss/components/icons/templates/_icons.md.tpl')
         .pipe(consolidate('lodash', {
           glyphs: codepoints,
           fontName: 'icons',
-          fontPath: '../fonts/',
-          className: 'icon'
+          className: 'Icon'
         }))
         .pipe(rename('icons.md'))
-        .pipe(gulp.dest('src/scss/components/icon/'))
+        .pipe(gulp.dest('src/scss/components/icons/'))
     })
     .pipe(gulp.dest('dist/fonts/'))
 })
