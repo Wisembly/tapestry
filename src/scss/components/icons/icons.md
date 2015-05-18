@@ -56,19 +56,19 @@
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--arrowDown"></i>
+    <i class="Icon Icon--arrowFirst"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    arrowDown
+    arrowFirst
   </div>
 </div>
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--arrowFirst"></i>
+    <i class="Icon Icon--arrowDown"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    arrowFirst
+    arrowDown
   </div>
 </div>
 
@@ -101,19 +101,19 @@
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--azure"></i>
+    <i class="Icon Icon--assignee"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    azure
+    assignee
   </div>
 </div>
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--assignee"></i>
+    <i class="Icon Icon--azure"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    assignee
+    azure
   </div>
 </div>
 
@@ -164,19 +164,19 @@
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--bulletItemDashed"></i>
+    <i class="Icon Icon--calendar"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    bulletItemDashed
+    calendar
   </div>
 </div>
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--calendar"></i>
+    <i class="Icon Icon--bulletItemDashed"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    calendar
+    bulletItemDashed
   </div>
 </div>
 
@@ -362,19 +362,19 @@
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--facebook"></i>
+    <i class="Icon Icon--externalLink"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    facebook
+    externalLink
   </div>
 </div>
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--externalLink"></i>
+    <i class="Icon Icon--facebook"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    externalLink
+    facebook
   </div>
 </div>
 
@@ -452,19 +452,19 @@
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--level"></i>
+    <i class="Icon Icon--label"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    level
+    label
   </div>
 </div>
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--label"></i>
+    <i class="Icon Icon--level"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    label
+    level
   </div>
 </div>
 
@@ -605,15 +605,6 @@
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--pellet"></i>
-  </div>
-  <div class="Styleguide-iconDescription">
-    pellet
-  </div>
-</div>
-
-<div class="Styleguide-iconWrapper">
-  <div class="Styleguide-iconItem">
     <i class="Icon Icon--pause"></i>
   </div>
   <div class="Styleguide-iconDescription">
@@ -623,10 +614,28 @@
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
+    <i class="Icon Icon--pellet"></i>
+  </div>
+  <div class="Styleguide-iconDescription">
+    pellet
+  </div>
+</div>
+
+<div class="Styleguide-iconWrapper">
+  <div class="Styleguide-iconItem">
     <i class="Icon Icon--pelletCheck"></i>
   </div>
   <div class="Styleguide-iconDescription">
     pelletCheck
+  </div>
+</div>
+
+<div class="Styleguide-iconWrapper">
+  <div class="Styleguide-iconItem">
+    <i class="Icon Icon--pelletClose"></i>
+  </div>
+  <div class="Styleguide-iconDescription">
+    pelletClose
   </div>
 </div>
 
@@ -645,15 +654,6 @@
   </div>
   <div class="Styleguide-iconDescription">
     phone
-  </div>
-</div>
-
-<div class="Styleguide-iconWrapper">
-  <div class="Styleguide-iconItem">
-    <i class="Icon Icon--pelletClose"></i>
-  </div>
-  <div class="Styleguide-iconDescription">
-    pelletClose
   </div>
 </div>
 
@@ -830,19 +830,19 @@
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--subtitle"></i>
+    <i class="Icon Icon--sunrise"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    subtitle
+    sunrise
   </div>
 </div>
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--sunrise"></i>
+    <i class="Icon Icon--subtitle"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    sunrise
+    subtitle
   </div>
 </div>
 
