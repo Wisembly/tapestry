@@ -7,7 +7,7 @@
 ```
 
 ## List
-```list
+```esc
 <% _.each(glyphs, function (glyph) { %>
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
