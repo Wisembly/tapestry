@@ -1,15 +1,15 @@
 $tooltip-arrow-size: rem(5px);
-$tooltip-bg: rgba(0, 0, 0, .8);
+$tooltip-bg: $gray-chateau;
 
 .has-tooltip {
   display: inline-block;
   position: relative;
 
   &:after {
-    @include pos(a null null 100% 50%);
+    @include pos(a 50% 100% null null);
     content: attr(aria-label);
     display: none;
-    margin-bottom: $tooltip-arrow-size;
+    margin-right: $tooltip-arrow-size;
     padding: 2px $pd--s;
     font-size: $fz--s * .8;
     text-align: center;
@@ -18,19 +18,20 @@ $tooltip-bg: rgba(0, 0, 0, .8);
     color: $white;
     background-color: $tooltip-bg;
     border-radius: $base-radius;
+    box-shadow: 0 1px 1.5px 0 rgba($gray-chateau, .5);
     cursor: default;
     pointer-events: none;
-    transform: translateX(-50%);
+    transform: translateY(-50%);
   }
 
   &:before {
-    @include pos(a null null 100% 50%);
+    @include pos(a 50% 100% null null);
     content: "";
     display: none;
-    border-width: $tooltip-arrow-size $tooltip-arrow-size 0;
-    border-color: $tooltip-bg $transparent $transparent;
+    border-width: $tooltip-arrow-size 0 $tooltip-arrow-size $tooltip-arrow-size;
+    border-color: $transparent $transparent $transparent $tooltip-bg;
     border-style: solid;
-    transform: translateX(-50%);
+    transform: translateY(-50%);
   }
 
   &:hover {
