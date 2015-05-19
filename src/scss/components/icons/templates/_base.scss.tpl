@@ -5,7 +5,7 @@
   font-style: normal;
 }
 
-.<%= className %>:before {
+.<%= className %> {
   display: inline-block;
   font-family: "<%= fontName %>";
   font-size: $base-fz;

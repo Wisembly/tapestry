@@ -5,7 +5,7 @@
   font-style: normal;
 }
 
-.Icon:before {
+.Icon {
   display: inline-block;
   font-family: "icons";
   font-size: $base-fz;
@@ -42,11 +42,11 @@
   content: "\e005";
 }
 
-.Icon--arrowFirst:before {
+.Icon--arrowDown:before {
   content: "\e006";
 }
 
-.Icon--arrowDown:before {
+.Icon--arrowFirst:before {
   content: "\e007";
 }
 
@@ -74,27 +74,27 @@
   content: "\e00d";
 }
 
-.Icon--board:before {
+.Icon--bell:before {
   content: "\e00e";
 }
 
-.Icon--bell:before {
+.Icon--bulletDay:before {
   content: "\e00f";
 }
 
-.Icon--bulletDay:before {
+.Icon--bulletItem:before {
   content: "\e010";
 }
 
-.Icon--bulletItem:before {
+.Icon--board:before {
   content: "\e011";
 }
 
-.Icon--calendar:before {
+.Icon--bulletItemDashed:before {
   content: "\e012";
 }
 
-.Icon--bulletItemDashed:before {
+.Icon--calendar:before {
   content: "\e013";
 }
 
@@ -230,15 +230,15 @@
   content: "\e034";
 }
 
-.Icon--linkedin:before {
+.Icon--lock:before {
   content: "\e035";
 }
 
-.Icon--live:before {
+.Icon--linkedin:before {
   content: "\e036";
 }
 
-.Icon--lock:before {
+.Icon--live:before {
   content: "\e037";
 }
 
@@ -246,91 +246,91 @@
   content: "\e038";
 }
 
-.Icon--mail:before {
+.Icon--message:before {
   content: "\e039";
 }
 
-.Icon--meetingList:before {
+.Icon--messageSettings:before {
   content: "\e03a";
 }
 
-.Icon--menu:before {
+.Icon--minus:before {
   content: "\e03b";
 }
 
-.Icon--message:before {
+.Icon--more:before {
   content: "\e03c";
 }
 
-.Icon--messageSettings:before {
+.Icon--openIssue:before {
   content: "\e03d";
 }
 
-.Icon--minus:before {
+.Icon--openIssueDashed:before {
   content: "\e03e";
 }
 
-.Icon--more:before {
+.Icon--paragraph:before {
   content: "\e03f";
 }
 
-.Icon--openIssue:before {
+.Icon--pause:before {
   content: "\e040";
 }
 
-.Icon--openIssueDashed:before {
+.Icon--pellet:before {
   content: "\e041";
 }
 
-.Icon--paragraph:before {
+.Icon--pelletCheck:before {
   content: "\e042";
 }
 
-.Icon--pause:before {
+.Icon--pelletClose:before {
   content: "\e043";
 }
 
-.Icon--pellet:before {
+.Icon--pelletMinus:before {
   content: "\e044";
 }
 
-.Icon--pelletCheck:before {
+.Icon--phone:before {
   content: "\e045";
 }
 
-.Icon--pelletClose:before {
+.Icon--picture:before {
   content: "\e046";
 }
 
-.Icon--pelletMinus:before {
+.Icon--play:before {
   content: "\e047";
 }
 
-.Icon--phone:before {
+.Icon--plus:before {
   content: "\e048";
 }
 
-.Icon--picture:before {
+.Icon--popup:before {
   content: "\e049";
 }
 
-.Icon--play:before {
+.Icon--public:before {
   content: "\e04a";
 }
 
-.Icon--plus:before {
+.Icon--recurring:before {
   content: "\e04b";
 }
 
-.Icon--popup:before {
+.Icon--meetingList:before {
   content: "\e04c";
 }
 
-.Icon--public:before {
+.Icon--menu:before {
   content: "\e04d";
 }
 
-.Icon--recurring:before {
+.Icon--mail:before {
   content: "\e04e";
 }
 
@@ -386,11 +386,11 @@
   content: "\e05b";
 }
 
-.Icon--sunrise:before {
+.Icon--subtitle:before {
   content: "\e05c";
 }
 
-.Icon--subtitle:before {
+.Icon--sunrise:before {
   content: "\e05d";
 }
 
@@ -410,19 +410,19 @@
   content: "\e061";
 }
 
-.Icon--trash:before {
+.Icon--triangleDown:before {
   content: "\e062";
 }
 
-.Icon--triangleDown:before {
+.Icon--trash:before {
   content: "\e063";
 }
 
-.Icon--triangleUp:before {
+.Icon--twitter:before {
   content: "\e064";
 }
 
-.Icon--twitter:before {
+.Icon--triangleUp:before {
   content: "\e065";
 }
 
