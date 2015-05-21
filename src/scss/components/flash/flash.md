@@ -14,6 +14,12 @@
 
 ```html
 <div class="has-flash">
+  <div class="Flash Flash--warning">Productive and actionable meetings, every time.</div>
+</div>
+```
+
+```html
+<div class="has-flash">
   <div class="Flash Flash--error">Productive and actionable meetings, every time.</div>
 </div>
 ```
