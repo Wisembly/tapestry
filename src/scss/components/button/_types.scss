@@ -35,6 +35,10 @@ $btn-icon-width: $pd--s * 2 + rem($base-fz) + $base-pd;
 
   &[disabled] {
     background: none;
+
+    &:hover {
+      background: none;
+    }
   }
 }
 
