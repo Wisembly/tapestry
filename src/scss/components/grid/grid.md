@@ -71,3 +71,18 @@ You can overide the `$column-number` variable
   </div>
 </div>
 ```
+
+## Centered Columns
+
+Center your columns by adding a class of `Column-centered` to your `Column`.
+
+```html
+<div class="Container">
+  <div class="Row">
+    <div class="Column Column-3 Column--centered">3 centered</div>
+  </div>
+  <div class="Row">
+    <div class="Column Column-6 Column--centered">6 centered</div>
+  </div>
+</div>
+```
