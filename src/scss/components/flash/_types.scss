@@ -2,6 +2,14 @@
   position: fixed;
 }
 
+.Flash--success {
+  background: $mint;
+}
+
+.Flash--warning {
+  background: $saffron;
+}
+
 .Flash--error {
   background: $mandy;
 }
