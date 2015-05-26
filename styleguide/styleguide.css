@@ -94,7 +94,7 @@ body {
 
 	.Styleguide-module pre {
 		position: relative;
-		margin: 1.5em auto;
+		margin: 1.5em auto 4rem auto;
 		padding: 3.2rem 1em 1.6rem;
 		font-size: .9em;
 		line-height: 1.6;
