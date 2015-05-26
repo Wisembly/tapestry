@@ -3,9 +3,9 @@
 ```html
 <table class="Table">
   <thead class="Table-head">
-    <th class="Table-cell Table-cell--heading u-tal">Name</th>
-    <th class="Table-cell Table-cell--heading">First column</th>
-    <th class="Table-cell Table-cell--heading">Second and last column</th>
+    <th class="Table-cell Table-cell--header u-tal">Name</th>
+    <th class="Table-cell Table-cell--header">First column</th>
+    <th class="Table-cell Table-cell--header">Second and last column</th>
   </thead>
   <tbody class="Table-body">
     <tr class="Table-row">
@@ -28,9 +28,9 @@
 ```html
 <table class="Table Table--actionnable">
   <thead class="Table-head">
-    <th class="Table-cell Table-cell--heading u-tal">Name</th>
-    <th class="Table-cell Table-cell--heading">First column</th>
-    <th class="Table-cell Table-cell--heading">Second and last column</th>
+    <th class="Table-cell Table-cell--header u-tal">Name</th>
+    <th class="Table-cell Table-cell--header">First column</th>
+    <th class="Table-cell Table-cell--header">Second and last column</th>
   </thead>
   <tbody class="Table-body">
     <tr class="Table-row">
