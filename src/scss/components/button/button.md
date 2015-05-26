@@ -19,17 +19,23 @@
 </div>
 ```
 
+```html
+<button class="Btn Btn--squared">?</button>
+
+```
+
 ## Types
+
 ```html
 <button class="Btn Btn--raw">Raw button</button>
 ```
 
 ```html
-<button class="Btn has-icon">
+<button class="Btn">
   <i class="Btn-icon i i-apple"></i>
   Button with icon
 </button>
-<button class="Btn">
+<button class="Btn has-icon">
   <i class="Btn-icon i i-apple"></i>
   Button with icon
 </button>
