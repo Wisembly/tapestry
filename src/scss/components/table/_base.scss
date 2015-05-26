@@ -2,38 +2,7 @@
   display: table;
   width: 100%;
   color: $slate-gray;
+  border-right: 1px solid $base-border-color;
+  border-left: 1px solid $base-border-color;
   border-collapse: separate;
-}
-
-.Table-heading,
-.Table-cell {
-  display: table-cell;
-  padding: calc(#{$pd--s} - 1px) $pd--s;
-  text-align: center;
-  border: 1px solid $base-border-color;
-  border-right-color: transparent;
-  border-top-color: transparent;
-}
-
-.Table-heading {
-  font-weight: $base-fw;
-  border-top-color: $base-border-color;
-
-  &:last-child {
-    border-right-color: $base-border-color;
-  }
-}
-
-.Table-row {
-  .Table-heading {
-    border-top-color: transparent;
-  }
-}
-
-.Table-cell {
-  color: $limed-spruce;
-
-  &:last-child {
-    border-right-color: $base-border-color;
-  }
 }
