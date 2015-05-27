@@ -1,0 +1,17 @@
+.Table--actionnable {
+  .Table-row {
+    cursor: pointer;
+    transition: background-color .1s ease-out;
+
+    &:hover,
+    &.is-selected {
+      background-color: $alabaster;
+    }
+
+    .Table-rowSelector {
+      position: relative;
+      top: -1px; // visual adjustement
+      margin-right: $mg--s;
+    }
+  }
+}
