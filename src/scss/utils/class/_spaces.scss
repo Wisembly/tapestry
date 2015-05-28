@@ -1,11 +1,20 @@
 $directions-letter: ("t", "r", "b", "l");
 $directions: ("top", "right", "bottom", "left");
 
+// .u-pdt--s { padding-top: $pd--s !important; }
+// .u-pdt--m { padding-top: $pd--m !important; }
+// .u-pdt--l { padding-top: $pd--m !important; }
+// ...
+
 @for $i from 1 to length($directions-letter) + 1 {
   $direction-letter: nth($directions-letter, $i);
   $direction: nth($directions, $i);
 
   // paddings
+  .u-pd#{$direction-letter}--0 {
+    padding-#{$direction}: 0 !important;
+  }
+
   .u-pd#{$direction-letter}--s {
     padding-#{$direction}: $pd--s !important;
   }
@@ -19,6 +28,10 @@ $directions: ("top", "right", "bottom", "left");
   }
 
   // margins
+  .u-mg#{$direction-letter}--0 {
+    margin-#{$direction}: 0 !important;
+  }
+
   .u-mg#{$direction-letter}--s {
     margin-#{$direction}: $mg--s !important;
   }
@@ -32,9 +45,12 @@ $directions: ("top", "right", "bottom", "left");
   }
 }
 
-/*
-  .u-pdt--s { padding-top: $pd--s !important; }
-  .u-pdt--m { padding-top: $pd--m !important; }
-  .u-pdt--l { padding-top: $pd--m !important; }
-  ...
-*/
+// do not forget 'around' spaces
+
+.u-pd--0 {
+  padding: 0 !important;
+}
+
+.u-mg--0 {
+  margin: 0 !important;
+}
