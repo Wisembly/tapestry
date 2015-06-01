@@ -1,0 +1,57 @@
+{
+  "viewports": [
+    {
+      "name": "desktop",
+      "width": 1024,
+      "height": 768
+    }
+  ],
+  "scenarios": [
+    {
+      "label": "Tapestry",
+      "url": "../../dist/index.html",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [
+        ".Avatar-initials",
+        ".Avatar--empty",
+
+        ".Badge",
+
+        ".BtnGroup",
+
+        ".Btn",
+        ".Btn--outline",
+        ".Btn.is-disabled",
+        ".Btn--block",
+        ".Btn--squared",
+        ".Btn--raw",
+        ".Btn.has-icon",
+
+        ".Collection",
+        ".Collection-item.is-active",
+
+        ".Dropdown",
+        ".Dropdown-item",
+
+        ".Flash",
+
+        ".Meter",
+
+        ".Pellet",
+
+        ".Popover",
+
+        ".Switch",
+        ".Switch--s",
+
+        ".Table",
+        ".Table--actionnable",
+
+        ".Tabs"
+      ],
+      "readyEvent": null,
+      "delay": 500
+    }
+  ]
+}

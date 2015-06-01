@@ -12,6 +12,7 @@ var consolidate = require('gulp-consolidate');
 var filter      = require('gulp-filter');
 var stylestats  = require('gulp-stylestats');
 var rename      = require('gulp-rename');
+var execsync    = require('execsync');
 
 var MyStyleguide = new Styleguide({
 	files: {
@@ -120,6 +121,16 @@ gulp.task('watch', function () {
   gulp.watch(['./src/scss/**/*.scss'], ['sass']);
   gulp.watch(['./src/**/*.md'], ['styleguide']);
   gulp.watch(['./styleguide/**'], ['styleguide']);
+});
+
+gulp.task('default', ['sass', 'styleguide', 'watch', 'serve']);
+
+gulp.task('vtests:ref', function () {
+	return execsync('cd ./node_modules/backstopjs && gulp reference');
+});
+
+gulp.task('vtests:compare', ['sass', 'styleguide'], function () {
+	return execsync('cd ./node_modules/backstopjs && gulp test');
 });
 
 gulp.task('default', ['sass', 'styleguide', 'watch', 'serve']);

@@ -1,5 +1,24 @@
 # CSS guidelines
 
+## Visual tests
+
+### Installation
+```
+ npm install
+ sudo npm install -g phantomjs
+ sudo npm install -g casperjs
+```
+
+### Gulp scripts
+```js
+  // build references
+  gulp vtests:ref
+
+  // compare references with actual HEAD
+  gulp vtests:compare
+```
+
+
 ## Goals
 * Maintainable OOCSS components
 * Scalable code
