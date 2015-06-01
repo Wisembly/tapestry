@@ -9,6 +9,12 @@
  sudo npm install -g casperjs
 ```
 
+### Pre-commit commands
+
+```
+cp pre-commit.sh .git/hooks/pre-commit && chmod 777 .git/hooks/pre-commit
+```
+
 ### Gulp scripts
 ```js
   // build references
