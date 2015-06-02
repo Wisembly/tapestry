@@ -9,13 +9,23 @@
  sudo npm install -g casperjs
 ```
 
-### Pre-commit commands
+### Pre-commit
+
+#### Installation
 
 ```
 cp pre-commit.sh .git/hooks/pre-commit && chmod 777 .git/hooks/pre-commit
 ```
 
+#### Bypass
+To bypass the pre-commit, just add `-n` option.
+```
+git ci -n
+git ci -nm "My commit message"
+```
+
 ### Gulp scripts
+
 ```js
   // build references
   gulp vtests:ref
@@ -46,6 +56,7 @@ cp pre-commit.sh .git/hooks/pre-commit && chmod 777 .git/hooks/pre-commit
  * Space after `:` property declaration
  * Space before `{` rule declaration
  * Closing braces on a new line
+
 ```css
 .Component {
   display: inline-block;
