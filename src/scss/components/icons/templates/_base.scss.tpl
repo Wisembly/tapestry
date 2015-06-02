@@ -5,7 +5,7 @@
   font-style: normal;
 }
 
-.<%= className %> {
+%<%= className %> {
   display: inline-block;
   font-family: "<%= fontName %>";
   font-size: $base-fz;
@@ -22,8 +22,16 @@
   text-rendering: optimizeLegibility;
 }
 
-<% _.each(glyphs, function(glyph) { %>.<%= className %>--<%= glyph.name %>:before {
+.<%= className %> {
+  @extend %<%= className %>;
+}
+
+<% _.each(glyphs, function(glyph) { %>
+%<%= className %>--<%= glyph.name %> {
   content: "\<%= glyph.codepoint.toString(16) %>";
 }
 
+.<%= className %>--<%= glyph.name %>:before {
+  @extend %<%= className %>--<%= glyph.name %>;
+}
 <% }); %>
