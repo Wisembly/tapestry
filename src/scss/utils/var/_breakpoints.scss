@@ -1,4 +1,6 @@
-$bp--phablet: 414px;
-$bp--tablet: 768px;
-$bp--laptop: 1024px;
-$bp--desktop: 1280px;
+$breakpoints: (
+  'phablet': (min-width: 414px),
+  'tablet': (min-width: 768px),
+  'laptop': (min-width: 1024px),
+  'desktop': (min-width: 1280px),
+) !default;
