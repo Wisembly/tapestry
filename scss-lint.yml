@@ -82,7 +82,7 @@ linters:
     force_nesting: false
 
   NameFormat:
-    enabled: true
+    enabled: false
     allow_leading_underscore: true
     convention: hyphenated_lowercase
 
