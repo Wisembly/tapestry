@@ -1,0 +1,19 @@
+.Tab-item {
+  display: inline-block;
+  position: relative;
+
+  &:after {
+    @include pos(a null $mg--s 0 $mg--s);
+    content: "";
+    height: 0;
+    background: $venice-blue;
+    transition: height .2s ease;
+  }
+
+  &:hover,
+  &.is-selected {
+    &:after {
+      height: rem(4px);
+    }
+  }
+}

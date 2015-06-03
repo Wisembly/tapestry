@@ -2,8 +2,8 @@
 
 ```html
 <ul class="Tabs">
-  <li class="Tab-item">
-    <a class="Tab-link is-selected" aria-selected="true" tabindex="0" href="#foo">
+  <li class="Tab-item is-selected" aria-selected="true">
+    <a class="Tab-link" tabindex="0" href="#foo">
       Foo selected
     </a>
   </li>

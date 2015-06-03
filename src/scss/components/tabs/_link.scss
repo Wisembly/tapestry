@@ -1,0 +1,19 @@
+.Tab-link {
+  display: block;
+  position: relative;
+  margin: 0 $mg--s;
+  padding: $base-pd 0;
+  font-size: $base-fz;
+  font-weight: $fw--semi-bold;
+  text-decoration: none;
+  color: $slate-gray;
+  cursor: pointer;
+  outline: 0;
+}
+
+.Tab-item:hover,
+.Tab-item.is-selected {
+  .Tab-link {
+    color: $venice-blue;
+  }
+}
