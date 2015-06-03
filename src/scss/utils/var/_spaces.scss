@@ -1,10 +1,14 @@
 $base-pd: $base-lh;
 $base-mg: $base-lh;
 
+$pd--xs: $base-pd / 4;
 $pd--s: $base-pd / 2;
 $pd--m: $base-pd;
 $pd--l: $base-pd * 2;
+$pd--xl: $base-pd * 4;
 
+$mg--xs: $base-mg / 4;
 $mg--s: $base-mg / 2;
 $mg--m: $base-mg;
 $mg--l: $base-mg * 2;
+$mg--xl: $base-mg * 4;
