@@ -1,0 +1,17 @@
+$textarea-height: ($pd--s * 2) + $base-lh;
+
+.Textarea {
+  width: 100%;
+  height: $textarea-height;
+  padding: $pd--s $base-pd;
+  line-height: $base-lh;
+  color: $limed-spruce;
+  background: $white;
+  border: 1px solid $gray-chateau;
+  border-radius: $base-radius;
+  resize: none;
+
+  &:focus {
+    outline: none;
+  }
+}

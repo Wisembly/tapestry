@@ -1,0 +1,14 @@
+.Textarea--count {
+  position: relative;
+  padding-right: $base-pd + 2rem;
+}
+
+.Textarea-counter {
+  position: relative;
+  z-index: 2;
+  float: right;
+  margin-top: -($textarea-height / 2 + $base-fz--rem);
+  padding-right: $base-pd;
+  font-weight: $fw--semi-bold;
+  color: $gray-chateau;
+}

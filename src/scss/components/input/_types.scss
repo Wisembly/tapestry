@@ -1,0 +1,36 @@
+.InputWrapper {
+  display: flex;
+}
+
+.Input-prependAddOn,
+.Input-appendAddOn {
+  flex: 0 1 auto;
+  padding: $pd--s $base-pd;
+  line-height: $base-lh;
+  border: 1px solid $gray-chateau;
+  border-radius: $base-radius;
+}
+
+.Input-prependAddOn {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.Input-appendAddOn {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.Input--prepended {
+  flex: 1 1 auto;
+  border-left: 0;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.Input--appended {
+  flex: 1 1 auto;
+  border-right: 0;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
