@@ -18,15 +18,15 @@
 
 ```html
 <div class="InputWrapper">
-  <div class="Input-prependAddOn">@</div>
-  <input class="Input Input--prepended" type="text" id="input3" placeholder="Input">
+  <div class="Input-addOn">@</div>
+  <input class="Input" type="text" id="input3" placeholder="Input">
 </div>
 ```
 
 ```html
 <div class="InputWrapper">
   <input class="Input Input--appended" type="text" id="input3" placeholder="Input">
-  <div class="Input-appendAddOn">.com</div>
+  <div class="Input-addOn">.com</div>
 </div>
 ```
 
