@@ -107,6 +107,7 @@ linters:
       - extend
       - content
       - display
+      - flex
       - flex-direction
       - flex-grow
       - visibility

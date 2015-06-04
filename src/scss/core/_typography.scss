@@ -77,3 +77,16 @@ small,
   font-size: $fz--s;
   line-height: $base-lh;
 }
+
+label,
+.Label {
+  display: block;
+  width: 100%;
+  line-height: $base-lh;
+}
+
+.Label--inline {
+  display: inline-block;
+  width: auto;
+  vertical-align: middle;
+}

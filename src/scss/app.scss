@@ -27,6 +27,10 @@
   @import "components/button-group/core";
 }
 
+@if $import-checkbox {
+  @import "components/form/checkbox/core";
+}
+
 @if $import-collection {
   @import "components/collection/core";
 }
@@ -47,6 +51,14 @@
   @import "components/icons/core";
 }
 
+@if $import-input {
+  @import "components/form/input/core";
+}
+
+@if $import-input-group {
+  @import "components/form/input-group/core";
+}
+
 @if $import-menu {
   @import "components/menu/core";
 }
@@ -63,6 +75,10 @@
   @import "components/popovers/core";
 }
 
+@if $import-radio {
+  @import "components/form/radio/core";
+}
+
 @if $import-switch {
   @import "components/switch/core";
 }
@@ -73,6 +89,10 @@
 
 @if $import-tabs {
   @import "components/tabs/core";
+}
+
+@if $import-textarea {
+  @import "components/form/textarea/core";
 }
 
 @if $import-tooltip {

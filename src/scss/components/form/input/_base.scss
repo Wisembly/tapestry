@@ -1,0 +1,19 @@
+.Input {
+  width: 100%;
+  padding: $pd--s $base-pd;
+  line-height: $base-lh;
+  color: $gray-chateau;
+  background: $white;
+  border: 1px solid $gray-chateau;
+  border-radius: $base-radius;
+  box-sizing: border-box;
+
+  &:focus {
+    color: $limed-spruce;
+    outline: none;
+  }
+}
+
+.has-placeholder {
+  display: none;
+}

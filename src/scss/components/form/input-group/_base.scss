@@ -1,0 +1,31 @@
+.InputGroup {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  border-spacing: 0;
+  border-collapse: separate;
+}
+
+.InputGroup-itemWrapper {
+  display: table-cell;
+  width: auto;
+  border: 1px solid $gray-chateau;
+  border-left: 0;
+  border-radius: 0;
+
+  &:first-child {
+    border-left: 1px solid $gray-chateau;
+    border-bottom-left-radius: $base-radius;
+    border-top-left-radius: $base-radius;
+  }
+
+  &:last-child {
+    border-top-right-radius: $base-radius;
+    border-bottom-right-radius: $base-radius;
+  }
+
+}
+
+.InputGroup-item {
+  border: 0;
+}
