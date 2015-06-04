@@ -7,7 +7,7 @@
   position: relative;
   z-index: 2;
   float: right;
-  margin-top: -($textarea-height / 2 + $base-fz--rem);
+  margin-top: -($base-lh + $pd--s + rem(1px));
   padding-right: $base-pd;
   font-weight: $fw--semi-bold;
   color: $gray-chateau;
