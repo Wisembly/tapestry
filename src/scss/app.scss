@@ -28,7 +28,7 @@
 }
 
 @if $import-checkbox {
-  @import "components/checkbox/core";
+  @import "components/form/checkbox/core";
 }
 
 @if $import-collection {
@@ -52,11 +52,11 @@
 }
 
 @if $import-input {
-  @import "components/input/core";
+  @import "components/form/input/core";
 }
 
 @if $import-input-group {
-  @import "components/input-group/core";
+  @import "components/form/input-group/core";
 }
 
 @if $import-menu {
@@ -76,7 +76,7 @@
 }
 
 @if $import-radio {
-  @import "components/radio/core";
+  @import "components/form/radio/core";
 }
 
 @if $import-switch {
@@ -92,7 +92,7 @@
 }
 
 @if $import-textarea {
-  @import "components/textarea/core";
+  @import "components/form/textarea/core";
 }
 
 @if $import-tooltip {
