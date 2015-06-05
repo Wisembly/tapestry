@@ -4,7 +4,8 @@
 
 .Input-addOn {
   flex: 0 1 auto;
-  padding: $pd--s $base-pd;
+  margin: $mg--xs 0;
+  padding: $pd--xs $pd--s;
   line-height: $base-lh;
   border: 1px solid $gray-chateau;
   border-radius: $base-radius;
@@ -13,7 +14,7 @@
 }
 
 .Input-addOn + .Input {
-  flex: 1 1 auto;
+  flex: 1;
   border-left: 0;
   border-bottom-left-radius: 0;
   border-top-left-radius: 0;

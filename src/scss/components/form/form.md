@@ -7,13 +7,6 @@
 <input class="Input" type="text" id="input1" placeholder="Input">
 ```
 
-### Sizes
-
-```html
-<label class="Label" for="largeInput">Label</label>
-<input class="Input Input--s" type="text" id="largeInput" placeholder="Input">
-```
-
 ### Types
 
 ```html
