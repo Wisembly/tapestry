@@ -20,7 +20,9 @@
 ```
 
 ```html
-<button class="Btn Btn--squared">?</button>
+<button class="Btn Btn--squared">
+  <i class="Icon Icon--like"></i>
+</button>
 
 ```
 
@@ -32,11 +34,11 @@
 
 ```html
 <button class="Btn">
-  <i class="Btn-icon i i-apple"></i>
+  <i class="Btn-icon Icon Icon--like"></i>
   Button with icon
 </button>
 <button class="Btn has-icon">
-  <i class="Btn-icon i i-apple"></i>
+  <i class="Btn-icon Icon Icon--like"></i>
   Button with icon
 </button>
 ```
