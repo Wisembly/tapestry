@@ -59,6 +59,10 @@
   @import "components/form/input-group/core";
 }
 
+@if $import-media {
+  @import "components/media/core";
+}
+
 @if $import-menu {
   @import "components/menu/core";
 }
