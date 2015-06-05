@@ -1,16 +1,18 @@
-$avatar-size: $base-lh;
+$avatar-size: $base-lh + $base-lh/2;
 
 .Avatar {
   display: inline-block;
-  width: $base-lh * 3;
-  height: $base-lh * 3;
-  line-height: $base-lh * 3;
+  width: $avatar-size;
+  height: $avatar-size;
+  margin: $mg--xs 0;
+  line-height: $avatar-size;
+  vertical-align: middle;
   border-radius: 50%;
   overflow: hidden;
 }
 
 .Avatar-initials {
-  height: $base-lh * 3;
+  height: $avatar-size;
   font-size: $base-fz;
   text-align: center;
   color: $white;
