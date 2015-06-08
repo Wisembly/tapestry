@@ -6,6 +6,7 @@ $avatar-size: $base-lh * 1.5;
   height: $avatar-size;
   line-height: $avatar-size;
   vertical-align: middle;
+  background-color: $white;
   border-radius: 50%;
   overflow: hidden;
 }
