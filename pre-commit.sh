@@ -4,11 +4,11 @@ exec < /dev/tty
 
 
 
-# Build refs
+# Build and compare refs
 
-read -p "Build refs? (y/n)" BUILD_REF
+read -p "Build and compare refs? (y/n)" COMPARE_REFS
 
-if [ "$BUILD_REF" == "y" ]; then
+if [ "$COMPARE_REFS" == "y" ]; then
   echo "Building refs...";
 
   echo "> git stash -q --keep-index";
@@ -19,28 +19,12 @@ if [ "$BUILD_REF" == "y" ]; then
 
   echo "> git stash pop -q"
   git stash pop -q
-fi
 
-
-
-# Compare refs
-
-echo "";
-read -p "Compare refs? (y/n)" COMPARE_REFS
-
-if [ "$COMPARE_REFS" == "y" ]; then
   echo "Comparing refs...";
   echo "> gulp vtests:compare";
 
   gulp vtests:compare
 
-  echo "";
-  read -p "Continue? (y/n)" CONTINUE
-
-  if [ "$CONTINUE" == "n" ]; then
-    exit 1;
-  fi
-else
   echo "";
   read -p "Continue? (y/n)" CONTINUE
 
