@@ -26,21 +26,9 @@
   @extend %Icon;
 }
 
-.Icon--s {
-  font-size: $base-fz * .8;
-}
-
-
-%Icon--actionItem {
-  content: "\e001";
-}
-
-.Icon--actionItem:before {
-  @extend %Icon--actionItem;
-}
 
 %Icon--add {
-  content: "\e002";
+  content: "\e001";
 }
 
 .Icon--add:before {
@@ -48,11 +36,19 @@
 }
 
 %Icon--alert {
-  content: "\e003";
+  content: "\e002";
 }
 
 .Icon--alert:before {
   @extend %Icon--alert;
+}
+
+%Icon--actionItem {
+  content: "\e003";
+}
+
+.Icon--actionItem:before {
+  @extend %Icon--actionItem;
 }
 
 %Icon--archive {
@@ -303,20 +299,20 @@
   @extend %Icon--dragHorizontal;
 }
 
-%Icon--dragVertical {
-  content: "\e023";
-}
-
-.Icon--dragVertical:before {
-  @extend %Icon--dragVertical;
-}
-
 %Icon--dropdown {
-  content: "\e024";
+  content: "\e023";
 }
 
 .Icon--dropdown:before {
   @extend %Icon--dropdown;
+}
+
+%Icon--dragVertical {
+  content: "\e024";
+}
+
+.Icon--dragVertical:before {
+  @extend %Icon--dragVertical;
 }
 
 %Icon--dueDate {
@@ -335,8 +331,16 @@
   @extend %Icon--dumbell;
 }
 
-%Icon--duplicate {
+%Icon--evernote {
   content: "\e027";
+}
+
+.Icon--evernote:before {
+  @extend %Icon--evernote;
+}
+
+%Icon--duplicate {
+  content: "\e028";
 }
 
 .Icon--duplicate:before {
@@ -344,19 +348,11 @@
 }
 
 %Icon--externalLink {
-  content: "\e028";
+  content: "\e029";
 }
 
 .Icon--externalLink:before {
   @extend %Icon--externalLink;
-}
-
-%Icon--evernote {
-  content: "\e029";
-}
-
-.Icon--evernote:before {
-  @extend %Icon--evernote;
 }
 
 %Icon--facebook {
@@ -415,20 +411,20 @@
   @extend %Icon--grid;
 }
 
-%Icon--help {
-  content: "\e031";
-}
-
-.Icon--help:before {
-  @extend %Icon--help;
-}
-
 %Icon--group {
-  content: "\e032";
+  content: "\e031";
 }
 
 .Icon--group:before {
   @extend %Icon--group;
+}
+
+%Icon--help {
+  content: "\e032";
+}
+
+.Icon--help:before {
+  @extend %Icon--help;
 }
 
 %Icon--home {
@@ -511,20 +507,20 @@
   @extend %Icon--mail;
 }
 
-%Icon--meetingList {
-  content: "\e03d";
-}
-
-.Icon--meetingList:before {
-  @extend %Icon--meetingList;
-}
-
 %Icon--menu {
-  content: "\e03e";
+  content: "\e03d";
 }
 
 .Icon--menu:before {
   @extend %Icon--menu;
+}
+
+%Icon--meetingList {
+  content: "\e03e";
+}
+
+.Icon--meetingList:before {
+  @extend %Icon--meetingList;
 }
 
 %Icon--message {
@@ -583,20 +579,20 @@
   @extend %Icon--paragraph;
 }
 
-%Icon--pellet {
-  content: "\e046";
-}
-
-.Icon--pellet:before {
-  @extend %Icon--pellet;
-}
-
 %Icon--pause {
-  content: "\e047";
+  content: "\e046";
 }
 
 .Icon--pause:before {
   @extend %Icon--pause;
+}
+
+%Icon--pellet {
+  content: "\e047";
+}
+
+.Icon--pellet:before {
+  @extend %Icon--pellet;
 }
 
 %Icon--pelletCheck {
@@ -615,20 +611,20 @@
   @extend %Icon--pelletClose;
 }
 
-%Icon--pencil {
-  content: "\e04a";
-}
-
-.Icon--pencil:before {
-  @extend %Icon--pencil;
-}
-
 %Icon--pelletMinus {
-  content: "\e04b";
+  content: "\e04a";
 }
 
 .Icon--pelletMinus:before {
   @extend %Icon--pelletMinus;
+}
+
+%Icon--pencil {
+  content: "\e04b";
+}
+
+.Icon--pencil:before {
+  @extend %Icon--pencil;
 }
 
 %Icon--phone {
@@ -639,20 +635,20 @@
   @extend %Icon--phone;
 }
 
-%Icon--play {
-  content: "\e04d";
-}
-
-.Icon--play:before {
-  @extend %Icon--play;
-}
-
 %Icon--picture {
-  content: "\e04e";
+  content: "\e04d";
 }
 
 .Icon--picture:before {
   @extend %Icon--picture;
+}
+
+%Icon--play {
+  content: "\e04e";
+}
+
+.Icon--play:before {
+  @extend %Icon--play;
 }
 
 %Icon--plus {
@@ -767,20 +763,20 @@
   @extend %Icon--star;
 }
 
-%Icon--stop {
-  content: "\e05d";
-}
-
-.Icon--stop:before {
-  @extend %Icon--stop;
-}
-
 %Icon--starHalf {
-  content: "\e05e";
+  content: "\e05d";
 }
 
 .Icon--starHalf:before {
   @extend %Icon--starHalf;
+}
+
+%Icon--stop {
+  content: "\e05e";
+}
+
+.Icon--stop:before {
+  @extend %Icon--stop;
 }
 
 %Icon--subtitle {
@@ -855,20 +851,20 @@
   @extend %Icon--triangleUp;
 }
 
-%Icon--user {
-  content: "\e068";
-}
-
-.Icon--user:before {
-  @extend %Icon--user;
-}
-
 %Icon--twitter {
-  content: "\e069";
+  content: "\e068";
 }
 
 .Icon--twitter:before {
   @extend %Icon--twitter;
+}
+
+%Icon--user {
+  content: "\e069";
+}
+
+.Icon--user:before {
+  @extend %Icon--user;
 }
 
 %Icon--voice {
@@ -887,18 +883,18 @@
   @extend %Icon--vote;
 }
 
-%Icon--wisemblyFull {
-  content: "\e06c";
-}
-
-.Icon--wisemblyFull:before {
-  @extend %Icon--wisemblyFull;
-}
-
 %Icon--wisembly {
-  content: "\e06d";
+  content: "\e06c";
 }
 
 .Icon--wisembly:before {
   @extend %Icon--wisembly;
+}
+
+%Icon--wisemblyFull {
+  content: "\e06d";
+}
+
+.Icon--wisemblyFull:before {
+  @extend %Icon--wisemblyFull;
 }
