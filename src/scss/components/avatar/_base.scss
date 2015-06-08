@@ -4,7 +4,6 @@ $avatar-size: $base-lh + $base-lh / 2;
   display: inline-block;
   width: $avatar-size;
   height: $avatar-size;
-  margin: $mg--xs 0;
   line-height: $avatar-size;
   vertical-align: middle;
   border-radius: 50%;

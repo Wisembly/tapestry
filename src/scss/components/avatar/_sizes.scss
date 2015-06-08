@@ -16,7 +16,6 @@ $avatar-size--xl: $base-lh * 4;
 .Avatar--l {
   width: $avatar-size--l;
   height: $avatar-size--l;
-  margin: 0;
   font-size: $fz--l;
   line-height: $avatar-size--l;
 }
@@ -24,7 +23,6 @@ $avatar-size--xl: $base-lh * 4;
 .Avatar--xl {
   width: $avatar-size--xl;
   height: $avatar-size--xl;
-  margin: 0;
   font-size: $fz--l;
   line-height: $avatar-size--xl;
 }
