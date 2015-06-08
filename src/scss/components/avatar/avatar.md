@@ -2,10 +2,10 @@
 
 ## Sizes
 ```html
-<img class="Avatar Avatar--s" src="https://upload.wikimedia.org/wikipedia/en/6/69/Ember.js_Logo_and_Mascot.png" />
-<img class="Avatar" src="https://upload.wikimedia.org/wikipedia/en/6/69/Ember.js_Logo_and_Mascot.png" />
-<img class="Avatar Avatar--l" src="https://upload.wikimedia.org/wikipedia/en/6/69/Ember.js_Logo_and_Mascot.png" />
-<img class="Avatar Avatar--xl" src="https://upload.wikimedia.org/wikipedia/en/6/69/Ember.js_Logo_and_Mascot.png" />
+<img class="Avatar Avatar--s" src="https://upload.wikimedia.org/wikipedia/en/6/69/Ember.js_Logo_and_Mascot.png" alt=" " />
+<img class="Avatar" src="https://upload.wikimedia.org/wikipedia/en/6/69/Ember.js_Logo_and_Mascot.png" alt=" " />
+<img class="Avatar Avatar--l" src="https://upload.wikimedia.org/wikipedia/en/6/69/Ember.js_Logo_and_Mascot.png" alt=" " />
+<img class="Avatar Avatar--xl" src="https://upload.wikimedia.org/wikipedia/en/6/69/Ember.js_Logo_and_Mascot.png" alt=" " />
 ```
 
 ## With initials
