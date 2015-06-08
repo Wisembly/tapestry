@@ -1,31 +1,30 @@
 .InputGroup {
-  display: table;
-  width: 100%;
-  table-layout: fixed;
+  display: flex;
   border-spacing: 0;
   border-collapse: separate;
+  font-size: 0;
+
+  + .InputGroup {
+    margin-top: $mg--s;
+  }
 }
 
-.InputGroup-itemWrapper {
-  display: table-cell;
+.InputGroup-item {
+  flex: 1;
   width: auto;
-  border: 1px solid $gray-chateau;
-  border-left: 0;
-  border-radius: 0;
+  font-size: $base-fz;
+  vertical-align: top;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
 
-  &:first-child {
-    border-left: 1px solid $gray-chateau;
-    border-bottom-left-radius: $base-radius;
-    border-top-left-radius: $base-radius;
+  + .InputGroup-item {
+    border-radius: 0;
+    margin-top: 0;
+    border-left-width: 0;
   }
 
   &:last-child {
     border-top-right-radius: $base-radius;
     border-bottom-right-radius: $base-radius;
   }
-
-}
-
-.InputGroup-item {
-  border: 0;
 }
