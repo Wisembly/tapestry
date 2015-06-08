@@ -4,28 +4,23 @@
 
 ```html
 <label class="Label" for="input1">Label</label>
-<input class="Input" type="text" id="input1" placeholder="Input">
+<input class="Input" type="text" id="input1" placeholder="Input" aria-label="Input item">
 ```
-
-### Sizes
-
-```html
-<label class="Label" for="largeInput">Label</label>
-<input class="Input Input--s" type="text" id="largeInput" placeholder="Input">
-```
+NB: `aria-label` is an attribute that can be used with an input when it is not possible to include a HTML label element.
+`aria-label` must not be used when there is a visible label.
 
 ### Types
 
 ```html
-<div class="InputWrapper">
+<div class="InputGroup">
   <div class="Input-addOn">@</div>
-  <input class="Input" type="text" id="input3" placeholder="Input">
+  <input class="Input" type="text" id="input3" placeholder="Input" aria-label="Input item">
 </div>
 ```
 
 ```html
-<div class="InputWrapper">
-  <input class="Input Input--appended" type="text" id="input3" placeholder="Input">
+<div class="InputGroup">
+  <input class="Input Input--appended" type="text" id="input3" placeholder="Input" aria-label="Input item">
   <div class="Input-addOn">.com</div>
 </div>
 ```
@@ -40,14 +35,12 @@
 ## Input-group
 
 ```html
-<table class="InputGroup">
-  <tr>
-    <td class="InputGroup-itemWrapper"><input class="Input InputGroup-item" id="InputGrouped1" placeholder="input"></td>
-    <td class="InputGroup-itemWrapper"><input class="Input InputGroup-item" id="InputGrouped2" placeholder="input"></td>
-    <td class="InputGroup-itemWrapper"><input class="Input InputGroup-item" id="InputGrouped3" placeholder="input"></td>
-    <td class="InputGroup-itemWrapper"><input class="Input InputGroup-item" id="InputGrouped4" placeholder="input"></td>
-  </tr>
-</table>
+<div class="InputGroup">
+    <input class="Input InputGroup-item" id="InputGrouped1" placeholder="input" aria-label="Input item 1">
+    <input class="Input InputGroup-item" id="InputGrouped2" placeholder="input" aria-label="Input item 2">
+    <input class="Input InputGroup-item" id="InputGrouped3" placeholder="input" aria-label="Input item 3">
+    <input class="Input InputGroup-item" id="InputGrouped4" placeholder="input" aria-label="Input item 4">
+</div>
 ```
 
 ## Radio

@@ -1,10 +1,7 @@
-.InputWrapper {
-  display: flex;
-}
-
 .Input-addOn {
   flex: 0 1 auto;
-  padding: $pd--s $base-pd;
+  padding: $pd--xs $pd--s;
+  font-size: $base-fz;
   line-height: $base-lh;
   border: 1px solid $gray-chateau;
   border-radius: $base-radius;
@@ -13,7 +10,8 @@
 }
 
 .Input-addOn + .Input {
-  flex: 1 1 auto;
+  flex: 1;
+  margin-bottom: 0;
   border-left: 0;
   border-bottom-left-radius: 0;
   border-top-left-radius: 0;
