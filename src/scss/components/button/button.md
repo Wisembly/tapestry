@@ -8,10 +8,17 @@
 
 ## Sizes
 
+### Small
+```html
+<button class="Btn Btn--s">S button</button>
+```
+
+### Block
 ```html
 <button class="Btn Btn--alt Btn--block">Block button</button>
 ```
 
+### Expand
 ```html
 <div class="Btn-expandContainer">
   <button class="Btn Btn--expand">Expanded button</button>
@@ -19,6 +26,7 @@
 </div>
 ```
 
+### Squared
 ```html
 <button class="Btn Btn--squared">
   <i class="Icon Icon--like"></i>

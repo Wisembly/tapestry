@@ -3,6 +3,12 @@
   width: 100%;
 }
 
+.Btn--s {
+  padding: $pd--xs;
+  font-size: $fz--s;
+  line-height: $base-lh / 2;
+}
+
 .Btn-expandContainer {
   display: flex;
   flex-direction: row;
