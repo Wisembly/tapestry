@@ -1,6 +1,8 @@
 .Input {
   width: 100%;
+  margin-bottom: $mg--s;
   padding: $pd--xs - rem(1px) $pd--s;
+  font-size: $base-fz;
   line-height: $base-lh;
   vertical-align: middle;
   color: $gray-chateau;
@@ -12,10 +14,6 @@
   &:focus {
     color: $limed-spruce;
     outline: none;
-  }
-
-  + .Input {
-    margin-top: $mg--s;
   }
 }
 

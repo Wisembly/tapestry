@@ -1,11 +1,10 @@
 .InputGroup {
   display: flex;
-  border-spacing: 0;
-  border-collapse: separate;
+  margin-bottom: $mg--s;
   font-size: 0;
 
-  + .InputGroup {
-    margin-top: $mg--s;
+  .Input {
+    margin-bottom: 0;
   }
 }
 
@@ -18,8 +17,8 @@
   border-bottom-right-radius: 0;
 
   + .InputGroup-item {
-    border-radius: 0;
     margin-top: 0;
+    border-radius: 0;
     border-left-width: 0;
   }
 

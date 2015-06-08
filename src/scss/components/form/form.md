@@ -12,14 +12,14 @@ NB: `aria-label` is an attribute that can be used with an input when it is not p
 ### Types
 
 ```html
-<div class="InputWrapper">
+<div class="InputGroup">
   <div class="Input-addOn">@</div>
   <input class="Input" type="text" id="input3" placeholder="Input" aria-label="Input item">
 </div>
 ```
 
 ```html
-<div class="InputWrapper">
+<div class="InputGroup">
   <input class="Input Input--appended" type="text" id="input3" placeholder="Input" aria-label="Input item">
   <div class="Input-addOn">.com</div>
 </div>
