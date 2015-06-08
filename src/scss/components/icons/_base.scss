@@ -26,6 +26,10 @@
   @extend %Icon;
 }
 
+.Icon--s {
+  font-size: $base-fz * .8;
+}
+
 
 %Icon--actionItem {
   content: "\e001";
