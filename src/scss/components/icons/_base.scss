@@ -30,6 +30,14 @@
   font-size: $base-fz * .8;
 }
 
+.Icon--l {
+  font-size: $fz--l;
+}
+
+.Icon--xl {
+  font-size: $fz--xl;
+}
+
 
 %Icon--actionItem {
   content: "\e001";

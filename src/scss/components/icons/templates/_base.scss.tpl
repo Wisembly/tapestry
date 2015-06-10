@@ -30,6 +30,14 @@
   font-size: $base-fz * .8;
 }
 
+.<%= className %>--l {
+  font-size: $fz--l;
+}
+
+.<%= className %>--xl {
+  font-size: $fz--xl;
+}
+
 <% _.each(glyphs, function(glyph) { %>
 %<%= className %>--<%= glyph.name %> {
   content: "\<%= glyph.codepoint.toString(16) %>";
