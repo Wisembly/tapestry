@@ -26,9 +26,21 @@
   @extend %Icon;
 }
 
+.Icon--s {
+  font-size: $base-fz * .8;
+}
+
+
+%Icon--actionItem {
+  content: "\e001";
+}
+
+.Icon--actionItem:before {
+  @extend %Icon--actionItem;
+}
 
 %Icon--add {
-  content: "\e001";
+  content: "\e002";
 }
 
 .Icon--add:before {
@@ -36,19 +48,11 @@
 }
 
 %Icon--alert {
-  content: "\e002";
+  content: "\e003";
 }
 
 .Icon--alert:before {
   @extend %Icon--alert;
-}
-
-%Icon--actionItem {
-  content: "\e003";
-}
-
-.Icon--actionItem:before {
-  @extend %Icon--actionItem;
 }
 
 %Icon--archive {
@@ -299,20 +303,20 @@
   @extend %Icon--dragHorizontal;
 }
 
-%Icon--dropdown {
-  content: "\e023";
-}
-
-.Icon--dropdown:before {
-  @extend %Icon--dropdown;
-}
-
 %Icon--dragVertical {
-  content: "\e024";
+  content: "\e023";
 }
 
 .Icon--dragVertical:before {
   @extend %Icon--dragVertical;
+}
+
+%Icon--dropdown {
+  content: "\e024";
+}
+
+.Icon--dropdown:before {
+  @extend %Icon--dropdown;
 }
 
 %Icon--dueDate {
@@ -331,20 +335,20 @@
   @extend %Icon--dumbell;
 }
 
-%Icon--evernote {
-  content: "\e027";
-}
-
-.Icon--evernote:before {
-  @extend %Icon--evernote;
-}
-
 %Icon--duplicate {
-  content: "\e028";
+  content: "\e027";
 }
 
 .Icon--duplicate:before {
   @extend %Icon--duplicate;
+}
+
+%Icon--evernote {
+  content: "\e028";
+}
+
+.Icon--evernote:before {
+  @extend %Icon--evernote;
 }
 
 %Icon--externalLink {
@@ -507,20 +511,20 @@
   @extend %Icon--mail;
 }
 
-%Icon--menu {
-  content: "\e03d";
-}
-
-.Icon--menu:before {
-  @extend %Icon--menu;
-}
-
 %Icon--meetingList {
-  content: "\e03e";
+  content: "\e03d";
 }
 
 .Icon--meetingList:before {
   @extend %Icon--meetingList;
+}
+
+%Icon--menu {
+  content: "\e03e";
+}
+
+.Icon--menu:before {
+  @extend %Icon--menu;
 }
 
 %Icon--message {

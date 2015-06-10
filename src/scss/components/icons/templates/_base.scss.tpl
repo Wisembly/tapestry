@@ -26,6 +26,10 @@
   @extend %<%= className %>;
 }
 
+.<%= className %>--s {
+  font-size: $base-fz * .8;
+}
+
 <% _.each(glyphs, function(glyph) { %>
 %<%= className %>--<%= glyph.name %> {
   content: "\<%= glyph.codepoint.toString(16) %>";

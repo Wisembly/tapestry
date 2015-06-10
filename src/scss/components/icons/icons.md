@@ -11,6 +11,15 @@
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
+    <i class="Icon Icon--actionItem"></i>
+  </div>
+  <div class="Styleguide-iconDescription">
+    actionItem
+  </div>
+</div>
+
+<div class="Styleguide-iconWrapper">
+  <div class="Styleguide-iconItem">
     <i class="Icon Icon--add"></i>
   </div>
   <div class="Styleguide-iconDescription">
@@ -24,15 +33,6 @@
   </div>
   <div class="Styleguide-iconDescription">
     alert
-  </div>
-</div>
-
-<div class="Styleguide-iconWrapper">
-  <div class="Styleguide-iconItem">
-    <i class="Icon Icon--actionItem"></i>
-  </div>
-  <div class="Styleguide-iconDescription">
-    actionItem
   </div>
 </div>
 
@@ -317,19 +317,19 @@
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--dropdown"></i>
+    <i class="Icon Icon--dragVertical"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    dropdown
+    dragVertical
   </div>
 </div>
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--dragVertical"></i>
+    <i class="Icon Icon--dropdown"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    dragVertical
+    dropdown
   </div>
 </div>
 
@@ -353,19 +353,19 @@
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--evernote"></i>
+    <i class="Icon Icon--duplicate"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    evernote
+    duplicate
   </div>
 </div>
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--duplicate"></i>
+    <i class="Icon Icon--evernote"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    duplicate
+    evernote
   </div>
 </div>
 
@@ -551,19 +551,19 @@
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--menu"></i>
+    <i class="Icon Icon--meetingList"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    menu
+    meetingList
   </div>
 </div>
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--meetingList"></i>
+    <i class="Icon Icon--menu"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    meetingList
+    menu
   </div>
 </div>
 
