@@ -1003,5 +1003,5 @@
 ## Animation
 
 ```html
-<i class="Icon Icon--refresh Icon--spin"></i>
+<i class="Icon Icon--refresh is-rotating"></i>
 ```
