@@ -31,5 +31,5 @@
 ## Animations
 
 ```html
-<i class="Icon Icon--refresh is-rotating"></i>
+<i class="Icon Icon--refresh is-spinning"></i>
 ```
