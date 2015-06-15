@@ -999,3 +999,9 @@
 </div>
 
 ```
+
+## Animation
+
+```html
+<i class="Icon Icon--refresh is-spinning"></i>
+```

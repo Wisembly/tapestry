@@ -11,6 +11,10 @@
   @import "vendors/normalize";
 }
 
+@if $import-animations {
+  @import "components/animations/core";
+}
+
 @if $import-avatar {
   @import "components/avatar/core";
 }
