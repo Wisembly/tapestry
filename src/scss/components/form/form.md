@@ -57,19 +57,3 @@ NB: `aria-label` is an attribute that can be used with an input when it is not p
 <label class="Label" for="textarea1">Label</label>
 <textarea class="Textarea" placeholder="Textarea" id="textarea1"></textarea>
 ```
-
-### Types
-
-```html
-<label class="Label has-placeholder" for="textarea2">Label</label>
-<textarea class="Textarea Textarea--count" placeholder="Textarea" id="textarea2"></textarea>
-<span class="Textarea-counter">140</span>
-```
-
-## Options
-
-You may not need to display labels and placeholders. Easy to fallback with IE lte 8.
-```html
-<label class="Label has-placeholder" for="input2">Label</label>
-<input class="Input" type="text" id="input2" placeholder="Input">
-```
