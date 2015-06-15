@@ -1,0 +1,10 @@
+// zi("notification")
+$zi-layers: (
+  "notification":        9000,
+  "modal":               8000,
+  "panel":               7000,
+  "overlay":             6000,
+  "dropdown":            1000,
+  "base":                1,
+  "below":               -1
+);
