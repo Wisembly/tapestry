@@ -19,19 +19,19 @@
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--actionItem"></i>
+    <i class="Icon Icon--add"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    actionItem
+    add
   </div>
 </div>
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--add"></i>
+    <i class="Icon Icon--actionItem"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    add
+    actionItem
   </div>
 </div>
 
@@ -226,19 +226,19 @@
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--clip"></i>
+    <i class="Icon Icon--clock"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    clip
+    clock
   </div>
 </div>
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--clock"></i>
+    <i class="Icon Icon--clip"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    clock
+    clip
   </div>
 </div>
 
@@ -289,15 +289,6 @@
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--displaySettings"></i>
-  </div>
-  <div class="Styleguide-iconDescription">
-    displaySettings
-  </div>
-</div>
-
-<div class="Styleguide-iconWrapper">
-  <div class="Styleguide-iconItem">
     <i class="Icon Icon--document"></i>
   </div>
   <div class="Styleguide-iconDescription">
@@ -316,19 +307,19 @@
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--dragHorizontal"></i>
+    <i class="Icon Icon--dragVertical"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    dragHorizontal
+    dragVertical
   </div>
 </div>
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--dragVertical"></i>
+    <i class="Icon Icon--dragHorizontal"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    dragVertical
+    dragHorizontal
   </div>
 </div>
 
@@ -388,19 +379,19 @@
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--facebook"></i>
+    <i class="Icon Icon--filters"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    facebook
+    filters
   </div>
 </div>
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--filters"></i>
+    <i class="Icon Icon--facebook"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    filters
+    facebook
   </div>
 </div>
 
@@ -586,15 +577,6 @@
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--messageSettings"></i>
-  </div>
-  <div class="Styleguide-iconDescription">
-    messageSettings
-  </div>
-</div>
-
-<div class="Styleguide-iconWrapper">
-  <div class="Styleguide-iconItem">
     <i class="Icon Icon--minus"></i>
   </div>
   <div class="Styleguide-iconDescription">
@@ -703,19 +685,19 @@
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--picture"></i>
+    <i class="Icon Icon--play"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    picture
+    play
   </div>
 </div>
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--play"></i>
+    <i class="Icon Icon--picture"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    play
+    picture
   </div>
 </div>
 
@@ -739,19 +721,19 @@
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--public"></i>
+    <i class="Icon Icon--recurring"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    public
+    recurring
   </div>
 </div>
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--recurring"></i>
+    <i class="Icon Icon--public"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    recurring
+    public
   </div>
 </div>
 
@@ -788,24 +770,6 @@
   </div>
   <div class="Styleguide-iconDescription">
     results
-  </div>
-</div>
-
-<div class="Styleguide-iconWrapper">
-  <div class="Styleguide-iconItem">
-    <i class="Icon Icon--sessionAdd"></i>
-  </div>
-  <div class="Styleguide-iconDescription">
-    sessionAdd
-  </div>
-</div>
-
-<div class="Styleguide-iconWrapper">
-  <div class="Styleguide-iconItem">
-    <i class="Icon Icon--sessionRemove"></i>
-  </div>
-  <div class="Styleguide-iconDescription">
-    sessionRemove
   </div>
 </div>
 
@@ -874,19 +838,19 @@
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--sunrise"></i>
+    <i class="Icon Icon--sunset"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    sunrise
+    sunset
   </div>
 </div>
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--sunset"></i>
+    <i class="Icon Icon--sunrise"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    sunset
+    sunrise
   </div>
 </div>
 
@@ -910,19 +874,19 @@
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--title"></i>
+    <i class="Icon Icon--trash"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    title
+    trash
   </div>
 </div>
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--trash"></i>
+    <i class="Icon Icon--title"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    trash
+    title
   </div>
 </div>
 
@@ -1000,7 +964,7 @@
 
 ```
 
-## Animation
+## Animations
 
 ```html
 <i class="Icon Icon--refresh is-spinning"></i>
