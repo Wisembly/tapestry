@@ -1,0 +1,35 @@
+.Notification--fixed {
+  @extend %u-posf;
+  z-index: zi("notification");
+}
+
+.Notification--success {
+  background: $mint;
+}
+
+.Notification--warning {
+  background: $saffron;
+}
+
+.Notification--error {
+  background: $mandy;
+}
+
+.Notification--tc {
+  top: $mg--s;
+  right: auto;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.Notification--bl {
+  right: auto;
+  bottom: $mg--s;
+  left: $mg--s;
+}
+
+.Notification--br {
+  right: $mg--s;
+  bottom: $mg--s;
+  left: auto;
+}
