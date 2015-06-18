@@ -2,7 +2,7 @@ $tooltip-arrow-size: rem(5px);
 $tooltip-bg: $gray-chateau;
 
 .has-tooltip {
-  position: relative;
+  @extend %u-posr;
 
   &:after {
     @include pos(a 50% 100% null null);

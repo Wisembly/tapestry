@@ -1,10 +1,10 @@
 .has-dropdown {
-  position: relative;
+  @extend %u-posr;
 }
 
 .Dropdown {
   @include pos(a 100% 0 null null);
-  z-index: 1;
+  z-index: zi("dropdown");
   margin: $pd--s;
   padding: $pd--s;
   list-style: none;

@@ -1,7 +1,7 @@
 @import "utils/function/core";
 @import "utils/var/core";
+@import "utils/placeholder/core";
 @import "utils/mixin/core";
-@import "utils/class/core";
 
 @if $import-typography {
   @import "core/typography";
@@ -44,7 +44,8 @@
 }
 
 @if $import-flash {
-  @import "components/flash/core";
+  @warn "Class .Flash is deprecated, please use .Notification instead, it will be removed in the next major release";
+  @warn "Class .has-flash is deprecated, please use .has-notification instead, it will be removed in the next major release";
 }
 
 @if $import-grid {
@@ -73,6 +74,10 @@
 
 @if $import-meter {
   @import "components/meter/core";
+}
+
+@if $import-notification {
+  @import "components/notification/core";
 }
 
 @if $import-pellet {
@@ -106,3 +111,5 @@
 @if $import-tooltip {
   @import "components/tooltip/core";
 }
+
+@import "utils/class/core";

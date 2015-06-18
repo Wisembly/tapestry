@@ -1,14 +1,12 @@
-.has-flash {
-  position: relative;
+.has-notification {
+  @extend %u-posr;
 }
 
-.Flash {
-  @include pos(a $base-lh null null 50%);
-  z-index: 1;
+.Notification {
+  display: inline-block;
   padding: $pd--s $base-pd;
   color: $white;
   background: $venice-blue;
   border-radius: $base-radius;
   box-shadow: 0 1px 1.5px 0 rgba($gray-chateau, .5);
-  transform: translateX(-50%);
 }
