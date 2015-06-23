@@ -40,7 +40,7 @@
 
 <% _.each(glyphs, function(glyph) { %>
 %<%= className %>--<%= glyph.name %> {
-  content: "\<%= glyph.codepoint.toString(16) %>";
+  content: "\<%= glyph.unicode[0].charCodeAt(0).toString(16) %>";
 }
 
 .<%= className %>--<%= glyph.name %>:before {
