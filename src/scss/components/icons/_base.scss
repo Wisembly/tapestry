@@ -1,6 +1,7 @@
 @font-face {
   font-family: "icons";
-  src: url("#{$f-path}/icons.woff") format("woff");
+  src: url("#{$f-path}/icons.woff2#iefix") format("woff2"),
+       url("#{$f-path}/icons.woff#iefix") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -47,8 +48,16 @@
   @extend %Icon--actionItem;
 }
 
-%Icon--alert {
+%Icon--add {
   content: "\ea02";
+}
+
+.Icon--add:before {
+  @extend %Icon--add;
+}
+
+%Icon--alert {
+  content: "\ea03";
 }
 
 .Icon--alert:before {
@@ -56,7 +65,7 @@
 }
 
 %Icon--archive {
-  content: "\ea03";
+  content: "\ea04";
 }
 
 .Icon--archive:before {
@@ -64,19 +73,11 @@
 }
 
 %Icon--arrowBack {
-  content: "\ea04";
+  content: "\ea05";
 }
 
 .Icon--arrowBack:before {
   @extend %Icon--arrowBack;
-}
-
-%Icon--add {
-  content: "\ea05";
-}
-
-.Icon--add:before {
-  @extend %Icon--add;
 }
 
 %Icon--arrowDown {
@@ -199,20 +200,20 @@
   @extend %Icon--bulletItem;
 }
 
-%Icon--checked {
-  content: "\ea15";
-}
-
-.Icon--checked:before {
-  @extend %Icon--checked;
-}
-
 %Icon--calendar {
-  content: "\ea16";
+  content: "\ea15";
 }
 
 .Icon--calendar:before {
   @extend %Icon--calendar;
+}
+
+%Icon--checked {
+  content: "\ea16";
+}
+
+.Icon--checked:before {
+  @extend %Icon--checked;
 }
 
 %Icon--checkmark {
@@ -231,20 +232,20 @@
   @extend %Icon--clip;
 }
 
-%Icon--cog {
-  content: "\ea19";
-}
-
-.Icon--cog:before {
-  @extend %Icon--cog;
-}
-
 %Icon--clock {
-  content: "\ea1a";
+  content: "\ea19";
 }
 
 .Icon--clock:before {
   @extend %Icon--clock;
+}
+
+%Icon--cog {
+  content: "\ea1a";
+}
+
+.Icon--cog:before {
+  @extend %Icon--cog;
 }
 
 %Icon--cross {
@@ -407,52 +408,52 @@
   @extend %Icon--google;
 }
 
-%Icon--grid {
-  content: "\ea2f";
-}
-
-.Icon--grid:before {
-  @extend %Icon--grid;
-}
-
 %Icon--group {
-  content: "\ea30";
+  content: "\ea2f";
 }
 
 .Icon--group:before {
   @extend %Icon--group;
 }
 
-%Icon--help {
-  content: "\ea31";
+%Icon--grid {
+  content: "\ea30";
 }
 
-.Icon--help:before {
-  @extend %Icon--help;
+.Icon--grid:before {
+  @extend %Icon--grid;
 }
 
 %Icon--home {
-  content: "\ea32";
+  content: "\ea31";
 }
 
 .Icon--home:before {
   @extend %Icon--home;
 }
 
-%Icon--label {
-  content: "\ea33";
+%Icon--help {
+  content: "\ea32";
 }
 
-.Icon--label:before {
-  @extend %Icon--label;
+.Icon--help:before {
+  @extend %Icon--help;
 }
 
 %Icon--like {
-  content: "\ea34";
+  content: "\ea33";
 }
 
 .Icon--like:before {
   @extend %Icon--like;
+}
+
+%Icon--label {
+  content: "\ea34";
+}
+
+.Icon--label:before {
+  @extend %Icon--label;
 }
 
 %Icon--linkedin {
@@ -519,20 +520,20 @@
   @extend %Icon--meetingList;
 }
 
-%Icon--message {
-  content: "\ea3d";
-}
-
-.Icon--message:before {
-  @extend %Icon--message;
-}
-
 %Icon--menu {
-  content: "\ea3e";
+  content: "\ea3d";
 }
 
 .Icon--menu:before {
   @extend %Icon--menu;
+}
+
+%Icon--message {
+  content: "\ea3e";
+}
+
+.Icon--message:before {
+  @extend %Icon--message;
 }
 
 %Icon--minus {
@@ -551,20 +552,20 @@
   @extend %Icon--more;
 }
 
-%Icon--openIssue {
-  content: "\ea41";
-}
-
-.Icon--openIssue:before {
-  @extend %Icon--openIssue;
-}
-
 %Icon--openIssue--dashed {
-  content: "\ea42";
+  content: "\ea41";
 }
 
 .Icon--openIssue--dashed:before {
   @extend %Icon--openIssue--dashed;
+}
+
+%Icon--openIssue {
+  content: "\ea42";
+}
+
+.Icon--openIssue:before {
+  @extend %Icon--openIssue;
 }
 
 %Icon--paragraph {
@@ -631,20 +632,20 @@
   @extend %Icon--phone;
 }
 
-%Icon--picture {
-  content: "\ea4b";
-}
-
-.Icon--picture:before {
-  @extend %Icon--picture;
-}
-
 %Icon--play {
-  content: "\ea4c";
+  content: "\ea4b";
 }
 
 .Icon--play:before {
   @extend %Icon--play;
+}
+
+%Icon--picture {
+  content: "\ea4c";
+}
+
+.Icon--picture:before {
+  @extend %Icon--picture;
 }
 
 %Icon--plus {
@@ -767,20 +768,20 @@
   @extend %Icon--subtitle;
 }
 
-%Icon--sunrise {
-  content: "\ea5c";
-}
-
-.Icon--sunrise:before {
-  @extend %Icon--sunrise;
-}
-
 %Icon--sunset {
-  content: "\ea5d";
+  content: "\ea5c";
 }
 
 .Icon--sunset:before {
   @extend %Icon--sunset;
+}
+
+%Icon--sunrise {
+  content: "\ea5d";
+}
+
+.Icon--sunrise:before {
+  @extend %Icon--sunrise;
 }
 
 %Icon--target {
