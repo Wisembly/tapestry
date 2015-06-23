@@ -10,7 +10,7 @@ $base-fz--rem: rem($base-fz);
 $sketch-lh: 12 !default;
 $base-lh: ($sketch-lh * 2) / $base-fz--stripped * 1rem !default;
 
-$fz--s: $base-fz--rem * .8666666667;
+$fz--s: $base-fz--rem * .8;
 $fz--m: $base-fz--rem;
 $fz--l: $base-fz--rem * 1.1333333333;
 $fz--xl: $base-fz--rem * 1.6;
