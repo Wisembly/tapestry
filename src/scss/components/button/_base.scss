@@ -15,12 +15,14 @@
               box-shadow .05s ease-out,
               color .1s ease-out;
 
-  &:hover {
-    background-color: $slate-gray;
-  }
+  @if $import-button-pseudo-class {
+    &:hover {
+      background-color: $slate-gray;
+    }
 
-  &:active {
-    box-shadow: inset 0 1px 4px 0 rgba($limed-spruce, .5);
+    &:active {
+      box-shadow: inset 0 1px 4px 0 rgba($limed-spruce, .5);
+    }
   }
 
   &[disabled],
@@ -29,13 +31,16 @@
     background-color: $iron;
     cursor: not-allowed;
 
-    &:hover {
-      color: $gray-chateau;
-      background: $iron;
-    }
+    @if $import-button-pseudo-class {
 
-    &:active {
-      box-shadow: inset 0 0 0 0 $transparent;
+      &:hover {
+        color: $gray-chateau;
+        background: $iron;
+      }
+
+      &:active {
+        box-shadow: inset 0 0 0 0 $transparent;
+      }
     }
   }
 
