@@ -18,6 +18,7 @@
 
 .Dropdown-item {
   display: block;
+  position: relative;
   margin: $mg--xs;
   padding: $pd--xs $pd--s;
   font-size: $fz--s;
@@ -31,6 +32,16 @@
   &:hover,
   &.is-active {
     background: $porcelain;
+  }
+
+  &[aria-selected="true"] {
+    background: $porcelain;
+
+    &:after {
+      @include pos(a $mg--xs $mg--s null null);
+      @extend %Icon--checkmark;
+      font-family: icons;
+    }
   }
 
   &:focus {

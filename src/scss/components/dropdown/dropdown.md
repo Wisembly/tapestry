@@ -119,25 +119,26 @@
 </div>
 ```
 
-## Multi-list
+## Multi-select
 
 ```html
 <div class="has-dropdown" style="border: 1px dashed #aaa; height: 50px;">
 	<ul class="Dropdown Dropdown--bl">
-	  <li class="Dropdown-item">
-	    Simple label
-	  </li>
-	  <li>
-	    <a href="#" class="Dropdown-item">
-	      Linked label
-	    </a>
+    <li class="Dropdown-item" aria-selected="false">
+      Simple label 1
+    </li>
+    <li class="Dropdown-item" aria-selected="true">
+      Simple label 2
+    </li>
+    <li class="Dropdown-item" aria-selected="true">
+	    Simple label 3
 	  </li>
     <li class="Dropdown-hr"></li>
     <li class="Dropdown-item">
-      Simple label
+      Apply
     </li>
     <li class="Dropdown-item">
-      Simple label
+      Cancel
     </li>
 	</ul>
 </div>
