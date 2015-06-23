@@ -12,14 +12,14 @@
     "gulp-consolidate": "0.1.2",
     "gulp-filter": "2.0.2",
     "gulp-gh-pages": "0.4.0",
-    "gulp-iconfont": "1.0.0",
+    "gulp-iconfont": "3.0.2",
     "gulp-rename": "1.2.0",
     "gulp-sass": "2.0.1",
     "gulp-scss-lint": "^0.1.9",
     "gulp-sketch": "0.0.9",
     "gulp-sourcemaps": "1.5.2",
     "gulp-stylestats": "0.6.0",
-    "lodash": "3.8.0",
+    "lodash": "3.9.3",
     "styleguide-generator": "0.4.0"
   },
   "scripts": {
