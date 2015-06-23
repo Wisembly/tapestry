@@ -5,6 +5,13 @@
   left: 0;
 }
 
+.Dropdown--tc {
+  top: auto;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 100%;
+}
+
 .Dropdown--tr {
   top: auto;
   right: 0;
@@ -13,4 +20,15 @@
 
 .Dropdown--bl {
   right: auto;
+}
+
+.Dropdown--bc {
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: auto;
+}
+
+.Dropdown--br {
+  left: auto;
 }

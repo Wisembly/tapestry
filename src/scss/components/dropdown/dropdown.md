@@ -17,11 +17,79 @@
 
 ## Positions
 
+
+### Bottom-left
+
+```html
+<div class="has-dropdown" style="border: 1px dashed #aaa; height: 50px;">
+  <ul class="Dropdown Dropdown--bl">
+    <li class="Dropdown-item">
+      Simple label
+    </li>
+    <li>
+      <a href="#" class="Dropdown-item">
+        Linked label
+      </a>
+    </li>
+  </ul>
+</div>
+```
+
+### Bottom-centered
+
+```html
+<div class="has-dropdown" style="border: 1px dashed #aaa; height: 50px;">
+  <ul class="Dropdown Dropdown--bc">
+    <li class="Dropdown-item">
+      Simple label
+    </li>
+    <li>
+      <a href="#" class="Dropdown-item">
+        Linked label
+      </a>
+    </li>
+  </ul>
+</div>
+```
+
+### Bottom-right
+
+```html
+<div class="has-dropdown" style="border: 1px dashed #aaa; height: 50px;">
+  <ul class="Dropdown Dropdown--br">
+    <li class="Dropdown-item">
+      Simple label
+    </li>
+    <li>
+      <a href="#" class="Dropdown-item">
+        Linked label
+      </a>
+    </li>
+  </ul>
+</div>
+```
+
 ### Top-left
 
 ```html
 <div class="has-dropdown" style="border: 1px dashed #aaa; height: 50px;">
-	<ul class="Dropdown Dropdown--tl">
+  <ul class="Dropdown Dropdown--tl">
+    <li class="Dropdown-item">
+      Simple label
+    </li>
+    <li>
+      <a href="#" class="Dropdown-item">
+        Linked label
+      </a>
+    </li>
+  </ul>
+</div>
+```
+### Top-centered
+
+```html
+<div class="has-dropdown" style="border: 1px dashed #aaa; height: 50px;">
+	<ul class="Dropdown Dropdown--tc">
 	  <li class="Dropdown-item">
 	    Simple label
 	  </li>
@@ -38,20 +106,20 @@
 
 ```html
 <div class="has-dropdown" style="border: 1px dashed #aaa; height: 50px;">
-	<ul class="Dropdown Dropdown--tr">
-	  <li class="Dropdown-item">
-	    Simple label
-	  </li>
-	  <li>
-	    <a href="#" class="Dropdown-item">
-	      Linked label
-	    </a>
-	  </li>
-	</ul>
+  <ul class="Dropdown Dropdown--tr">
+    <li class="Dropdown-item">
+      Simple label
+    </li>
+    <li>
+      <a href="#" class="Dropdown-item">
+        Linked label
+      </a>
+    </li>
+  </ul>
 </div>
 ```
 
-### Bottom-left
+## Multi-list
 
 ```html
 <div class="has-dropdown" style="border: 1px dashed #aaa; height: 50px;">
@@ -64,6 +132,14 @@
 	      Linked label
 	    </a>
 	  </li>
+    <li class="Dropdown-hr"></li>
+    <li class="Dropdown-item">
+      Simple label
+    </li>
+    <li class="Dropdown-item">
+      Simple label
+    </li>
 	</ul>
 </div>
 ```
+
