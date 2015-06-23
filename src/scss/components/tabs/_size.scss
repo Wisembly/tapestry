@@ -1,0 +1,13 @@
+.Tabs--s {
+  .Tab-link {
+    padding: $pd--s 0;
+    font-size: $fz--s;
+  }
+
+  .Tab-item:hover,
+  .Tab-item.is-selected {
+    &:after {
+      height: rem(2px);
+    }
+  }
+}
