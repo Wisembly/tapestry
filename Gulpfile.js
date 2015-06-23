@@ -69,10 +69,10 @@ gulp.task('icons', function(){
       centerHorizontally: true,
       fontHeight: 100
     }))
-    .on('codepoints', function(codepoints, options) {
+    .on('glyphs', function(glyphs, options) {
       gulp.src('src/scss/components/icons/templates/_base.scss.tpl')
         .pipe(consolidate('lodash', {
-          glyphs: codepoints,
+          glyphs: glyphs,
           fontName: 'icons',
           className: 'Icon'
         }))
@@ -81,7 +81,7 @@ gulp.task('icons', function(){
 
       gulp.src('src/scss/components/icons/templates/_icons.md.tpl')
         .pipe(consolidate('lodash', {
-          glyphs: codepoints,
+          glyphs: glyphs,
           fontName: 'icons',
           className: 'Icon'
         }))

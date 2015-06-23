@@ -1,6 +1,7 @@
 @font-face {
   font-family: "<%= fontName %>";
-  src: url("#{$f-path}/<%= fontName %>.woff") format("woff");
+  src: url("#{$f-path}/<%= fontName %>.woff2#iefix") format("woff2"),
+       url("#{$f-path}/<%= fontName %>.woff#iefix") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -40,7 +41,7 @@
 
 <% _.each(glyphs, function(glyph) { %>
 %<%= className %>--<%= glyph.name %> {
-  content: "\<%= glyph.codepoint.toString(16) %>";
+  content: "\<%= glyph.unicode[0].charCodeAt(0).toString(16) %>";
 }
 
 .<%= className %>--<%= glyph.name %>:before {
