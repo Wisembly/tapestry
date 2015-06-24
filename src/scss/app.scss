@@ -3,6 +3,10 @@
 @import "utils/placeholder/core";
 @import "utils/mixin/core";
 
+@if $import-utility-classes {
+  @import "utils/class/core";
+}
+
 @if $import-typography {
   @import "core/typography";
 }
@@ -111,5 +115,3 @@
 @if $import-tooltip {
   @import "components/tooltip/core";
 }
-
-@import "utils/class/core";
