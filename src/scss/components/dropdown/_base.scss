@@ -1,5 +1,6 @@
 .has-dropdown {
   @extend %u-posr;
+  display: inline-block;
 }
 
 .Dropdown {
@@ -7,13 +8,13 @@
   z-index: zi("dropdown");
   min-width: $base-lh * 7;
   max-width: $base-lh * 9;
-  margin: $mg--s;
+  margin: $mg--xs 0;
   padding: 0;
   list-style: none;
   color: $gray-chateau;
   background: $white;
-  border-radius: $base-radius;
-  box-shadow: 1px 1px 2px 0 rgba($slate-gray, .4);
+  border: 1px solid $iron;
+  box-shadow: 0 0 10px 0 rgba($slate-gray, .3);
 }
 
 .Dropdown-item {

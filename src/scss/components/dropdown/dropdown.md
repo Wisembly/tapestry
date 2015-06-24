@@ -1,8 +1,9 @@
 # Dropdown
 
 ```html
-<div class="has-dropdown" style="border: 1px dashed #aaa; height: 50px;">
-	<ul class="Dropdown">
+<div class="has-dropdown">
+  <button class="Btn" data-dropdown="dropdownBottomCentered" aria-expanded="false">Call to action</button>
+	<ul id="dropdownBottomLeft" class="Dropdown">
 	  <li class="Dropdown-item">
 	    Simple label
 	  </li>
@@ -21,8 +22,9 @@
 ### Bottom-left
 
 ```html
-<div class="has-dropdown" style="border: 1px dashed #aaa; height: 50px;">
-  <ul class="Dropdown Dropdown--bl">
+<div class="has-dropdown">
+  <button class="Btn" data-dropdown="dropdownBottomLeft" aria-expanded="false">Call to action</button>
+  <ul id="dropdownBottomLeft" class="Dropdown Dropdown--bl">
     <li class="Dropdown-item">
       Simple label
     </li>
@@ -38,8 +40,9 @@
 ### Bottom-centered
 
 ```html
-<div class="has-dropdown" style="border: 1px dashed #aaa; height: 50px;">
-  <ul class="Dropdown Dropdown--bc">
+<div class="has-dropdown">
+  <button class="Btn" data-dropdown="dropdownBottomCentered" aria-expanded="false">Call to action</button>
+  <ul id="dropdownBottomCentered" class="Dropdown Dropdown--bc">
     <li class="Dropdown-item">
       Simple label
     </li>
@@ -55,8 +58,9 @@
 ### Bottom-right
 
 ```html
-<div class="has-dropdown" style="border: 1px dashed #aaa; height: 50px;">
-  <ul class="Dropdown Dropdown--br">
+<div class="has-dropdown">
+  <button class="Btn" data-dropdown="dropdownBottomRight" aria-expanded="false">Call to action</button>
+  <ul id="dropdownBottomRight" class="Dropdown Dropdown--br">
     <li class="Dropdown-item">
       Simple label
     </li>
@@ -72,8 +76,9 @@
 ### Top-left
 
 ```html
-<div class="has-dropdown" style="border: 1px dashed #aaa; height: 50px;">
-  <ul class="Dropdown Dropdown--tl">
+<div class="has-dropdown">
+  <button class="Btn" data-dropdown="dropdownTopLeft" aria-expanded="false">Call to action</button>
+  <ul id="dropdownTopLeft" class="Dropdown Dropdown--tl">
     <li class="Dropdown-item">
       Simple label
     </li>
@@ -88,8 +93,9 @@
 ### Top-centered
 
 ```html
-<div class="has-dropdown" style="border: 1px dashed #aaa; height: 50px;">
-	<ul class="Dropdown Dropdown--tc">
+<div class="has-dropdown">
+  <button class="Btn" data-dropdown="dropdownTopCentered" aria-expanded="false">Call to action</button>
+	<ul id="dropdownTopCentered" class="Dropdown Dropdown--tc">
 	  <li class="Dropdown-item">
 	    Simple label
 	  </li>
@@ -105,8 +111,9 @@
 ### Top-right
 
 ```html
-<div class="has-dropdown" style="border: 1px dashed #aaa; height: 50px;">
-  <ul class="Dropdown Dropdown--tr">
+<div class="has-dropdown">
+  <button class="Btn" data-dropdown="dropdownTopRight" aria-expanded="false">Call to action</button>
+  <ul id="dropdownTopRight" class="Dropdown Dropdown--tr">
     <li class="Dropdown-item">
       Simple label
     </li>
@@ -119,11 +126,38 @@
 </div>
 ```
 
-## Multi-select
+## Divider
 
 ```html
-<div class="has-dropdown" style="border: 1px dashed #aaa; height: 50px;">
-	<ul class="Dropdown Dropdown--bl">
+<div class="has-dropdown">
+  <button class="Btn" data-dropdown="dropdownDividerExemple" aria-expanded="false">Call to action</button>
+  <ul id="dropdownDividerExemple" class="Dropdown Dropdown--bl" aria-labelledby="dropdownMenuDivider">
+    <li class="Dropdown-item">
+      Simple label 1
+    </li>
+    <li class="Dropdown-item">
+      Simple label 2
+    </li>
+    <li class="Dropdown-item">
+      Simple label 3
+    </li>
+    <li role="separator" class="Dropdown-hr"></li>
+    <li class="Dropdown-item">
+      Apply
+    </li>
+    <li class="Dropdown-item">
+      Cancel
+    </li>
+  </ul>
+</div>
+```
+
+## Selectable options
+
+```html
+<div class="has-dropdown">
+  <button class="Btn" data-dropdown="dropdownDividerExemple" aria-expanded="false">Call to action</button>
+	<ul id="dropdownDividerExemple" class="Dropdown Dropdown--bl" aria-labelledby="dropdownMenuDivider">
     <li class="Dropdown-item" aria-selected="false">
       Simple label 1
     </li>
@@ -133,13 +167,6 @@
     <li class="Dropdown-item" aria-selected="true">
 	    Simple label 3
 	  </li>
-    <li class="Dropdown-hr"></li>
-    <li class="Dropdown-item">
-      Apply
-    </li>
-    <li class="Dropdown-item">
-      Cancel
-    </li>
 	</ul>
 </div>
 ```
