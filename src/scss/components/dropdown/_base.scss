@@ -39,8 +39,8 @@
     background: $porcelain;
 
     &:after {
-      @include pos(a $mg--xs $mg--s null null);
       @extend %Icon--checkmark;
+      @include pos(a $mg--xs $mg--s null null);
       font-family: icons;
     }
   }
@@ -52,6 +52,6 @@
 }
 
 .Dropdown-hr {
-  border-top: 1px solid $porcelain;
   margin: $mg--xs 0;
+  border-top: 1px solid $porcelain;
 }
