@@ -24,14 +24,14 @@ git ci -n
 git ci -nm "My commit message"
 ```
 
-### Gulp scripts
+### NPM scripts
 
 ```js
   // build references
-  gulp vtests:ref
+  npm run vt:refs
 
   // compare references with actual HEAD
-  gulp vtests:compare
+  npm run vt:compare
 ```
 
 
