@@ -1,24 +1,29 @@
 .has-dropdown {
   @extend %u-posr;
+  display: inline-block;
 }
 
 .Dropdown {
   @include pos(a 100% 0 null null);
   z-index: zi("dropdown");
-  margin: $pd--s;
-  padding: $pd--s;
+  min-width: $base-lh * 7;
+  max-width: $base-lh * 9;
+  margin: $mg--xs 0;
+  padding: 0;
   list-style: none;
-  color: $limed-spruce;
-  background: $porcelain;
-  border-radius: $base-radius;
-  box-shadow: 1px 1px 2px 0 rgba($slate-gray, .5);
+  color: $gray-chateau;
+  background: $white;
+  border: 1px solid $iron;
+  box-shadow: 0 0 10px 0 rgba($slate-gray, .3);
 }
 
 .Dropdown-item {
   display: block;
-  padding: $pd--s $base-pd;
+  position: relative;
+  margin: $mg--xs;
+  padding: $pd--xs $pd--s;
+  font-size: $fz--s;
   font-weight: $fw--semi-bold;
-  text-align: center;
   text-decoration: none;
   color: inherit;
   border-radius: $base-radius;
@@ -27,12 +32,26 @@
 
   &:hover,
   &.is-active {
-    background: $iron;
+    background: $porcelain;
+  }
+
+  &[aria-selected="true"] {
+    background: $porcelain;
+
+    &:after {
+      @include pos(a $mg--xs $mg--s null null);
+      @extend %Icon--checkmark;
+      font-family: icons;
+    }
   }
 
   &:focus {
-    background: $iron;
-    box-shadow: inset 0 1px 2px 0 rgba($limed-spruce, .3);
+    background: $porcelain;
     outline: none;
   }
+}
+
+.Dropdown-hr {
+  border-top: 1px solid $porcelain;
+  margin: $mg--xs 0;
 }
