@@ -7,7 +7,7 @@
   z-index: zi("dropdown");
   min-width: $base-lh * 7;
   max-width: $base-lh * 9;
-  margin: $pd--s;
+  margin: $mg--s;
   padding: 0;
   list-style: none;
   color: $gray-chateau;
@@ -48,7 +48,6 @@
     background: $porcelain;
     outline: none;
   }
-
 }
 
 .Dropdown-hr {
