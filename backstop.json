@@ -34,9 +34,9 @@
         ".Dropdown",
         ".Dropdown-item",
 
-        ".Flash",
-
         ".Meter",
+
+        ".Notification",
 
         ".Pellet",
 

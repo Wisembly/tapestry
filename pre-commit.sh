@@ -14,16 +14,16 @@ if [ "$COMPARE_REFS" == "y" ]; then
   echo "> git stash -q --keep-index";
   git stash -q --keep-index
 
-  echo "> gulp vtests:ref";
-  gulp vtests:ref
+  echo "> npm run vt:refs";
+  npm run vt:refs
 
   echo "> git stash pop -q"
   git stash pop -q
 
   echo "Comparing refs...";
-  echo "> gulp vtests:compare";
+  echo "> npm run vt:compare";
 
-  gulp vtests:compare
+  npm run vt:compare
 
   echo "";
   read -p "Continue? (y/n)" CONTINUE
