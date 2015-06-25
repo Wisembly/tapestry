@@ -1,0 +1,17 @@
+.Overlay {
+  @include pos(f 0);
+  content: "";
+  visibility: hidden;
+  z-index: zi("overlay");
+  background: rgba($deep-sea-green, .8);
+  opacity: 0;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  transition: opacity .25s ease-out;
+  transition-delay: .25s;
+
+  &[aria-hidden="false"] {
+    visibility: visible;
+    opacity: 1;
+  }
+}

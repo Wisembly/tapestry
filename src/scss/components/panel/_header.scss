@@ -1,0 +1,14 @@
+.Panel-header {
+  @extend %u-cr;
+  padding: 0 $pd--s;
+  line-height: $base-lh * 2;
+  color: $white;
+  background: $deep-sea-green;
+}
+
+.PanelHeader-button {
+  padding: 0 $pd--s;
+  line-height: $base-lh * 2;
+  vertical-align: top;
+  color: $regent-st-blue;
+}

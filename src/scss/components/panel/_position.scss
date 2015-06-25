@@ -1,0 +1,56 @@
+.Panel--fixed {
+  @extend %u-posf;
+  z-index: zi("panel");
+  transform: translateZ(0);
+  backface-visibility: hidden;
+
+  &[aria-hidden="true"] {
+    &:before {
+      visibility: hidden;
+      opacity: 0;
+    }
+  }
+}
+
+.Panel--vertical {
+  width: $base-lh * 20;
+  overflow-y: auto;
+
+  &:before {
+    top: 0;
+    bottom: 0;
+  }
+}
+
+.Panel--tr {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: auto;
+  transition: right .25s ease-out;
+
+  &:before {
+    right: $base-lh * 20;
+    left: 0;
+  }
+
+  &[aria-hidden="true"] {
+    right: -100%;
+  }
+}
+
+.Panel--tl {
+  right: auto;
+  left: 0;
+  transition: left .25s ease-out;
+
+  &:before {
+    right: 0;
+    left: $base-lh * 20;
+    transition: opacity .25s ease-out;
+  }
+
+  &[aria-hidden="true"] {
+    left: -100%;
+  }
+}
