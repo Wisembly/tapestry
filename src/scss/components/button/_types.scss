@@ -1,8 +1,9 @@
-$btn-icon-width: $pd--s * 2 + rem($base-fz) + $base-pd;
+$btn-icon-width: $pd--s * 3 + $fz--m;
+$btn-base-mg-vertical: $mg--s;
 
 .Btn--outline {
-  padding-top: $pd--xs - rem(1px);
-  padding-bottom: $pd--xs - rem(1px);
+  padding-top: $btn-base-pd-vertical - rem(1px);
+  padding-bottom: $btn-base-pd-vertical - rem(1px);
   color: $gray-chateau;
   background-color: $white;
   border: 1px solid $gray-chateau;
@@ -49,8 +50,12 @@ $btn-icon-width: $pd--s * 2 + rem($base-fz) + $base-pd;
 
   .Btn-icon {
     @include pos(a 0 null null 0);
-    margin: $mg--xs 0;
-    padding: $pd--xs $pd--s;
+    margin: $btn-base-mg-vertical 0;
+    padding: $btn-base-pd-vertical/2 $pd--s;
     border-right: 1px solid $white;
   }
+}
+
+.Btn--rounded {
+  border-radius: 50%;
 }

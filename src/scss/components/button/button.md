@@ -26,28 +26,33 @@
 </div>
 ```
 
-### Squared
-```html
-<button class="Btn Btn--squared">
-  <i class="Icon Icon--like"></i>
-</button>
 
-```
 
 ## Types
 
+### Raw
 ```html
 <button class="Btn Btn--raw">Raw button</button>
 ```
 
+### Rounded
+```html
+<button class="Btn Btn--rounded">
+  <i class="Icon Icon--like"></i>
+</button>
+```
+
 ```html
 <button class="Btn">
-  <i class="Btn-icon Icon Icon--like"></i>
-  Button with icon
+  <i class="Icon Icon--like"></i>
+</button>
+<button class="Btn">
+  <i class="Icon Icon--like"></i>
+  Icon and label
 </button>
 <button class="Btn has-icon">
   <i class="Btn-icon Icon Icon--like"></i>
-  Button with icon
+  Icon fixed on left, centered label
 </button>
 ```
 
