@@ -1,6 +1,9 @@
+$btn-base-pd-vertical: $pd--s;
+$btn-base-pd-horizontal: $pd--m - ($fz--m/2);
+
 .Btn {
   display: inline-block;
-  padding: $pd--xs $base-pd;
+  padding: $btn-base-pd-vertical $btn-base-pd-horizontal;
   font-size: $fz--m;
   font-weight: $fw--semi-bold;
   line-height: $base-lh;
