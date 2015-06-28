@@ -2,7 +2,7 @@
 
 ```html
 <div class="has-dropdown">
-  <button class="Btn" data-dropdown="dropdownBottomCentered" aria-expanded="false">Call to action</button>
+  <button class="Btn" data-dropdown="dropdownBottomLeft" aria-expanded="false">Call to action</button>
 	<ul id="dropdownBottomLeft" class="Dropdown">
 	  <li class="Dropdown-item">
 	    Simple label
@@ -17,25 +17,6 @@
 ```
 
 ## Positions
-
-
-### Bottom-left
-
-```html
-<div class="has-dropdown">
-  <button class="Btn" data-dropdown="dropdownBottomLeft" aria-expanded="false">Call to action</button>
-  <ul id="dropdownBottomLeft" class="Dropdown Dropdown--bl">
-    <li class="Dropdown-item">
-      Simple label
-    </li>
-    <li>
-      <a href="#" class="Dropdown-item">
-        Linked label
-      </a>
-    </li>
-  </ul>
-</div>
-```
 
 ### Bottom-centered
 
