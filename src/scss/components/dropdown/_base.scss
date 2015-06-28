@@ -4,7 +4,7 @@
 }
 
 .Dropdown {
-  @include pos(a 100% 0 null null);
+  @include pos(a 100% null null 0);
   z-index: zi("dropdown");
   min-width: $base-lh * 7;
   max-width: $base-lh * 9;
