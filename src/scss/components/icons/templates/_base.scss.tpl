@@ -9,7 +9,7 @@
 %<%= className %> {
   display: inline-block;
   font-family: "<%= fontName %>";
-  font-size: $base-fz;
+  font-size: $fz--m;
   font-weight: normal;
   font-style: normal;
   line-height: 1;
@@ -28,7 +28,7 @@
 }
 
 .<%= className %>--s {
-  font-size: $base-fz * .8;
+  font-size: $fz--m * .8;
 }
 
 .<%= className %>--l {
