@@ -4,6 +4,14 @@ exec < /dev/tty
 
 
 
+# Lint SCSS files
+
+echo "Linting SCSS files...";
+scss-lint src/scss/** --config .scss-lint.yml
+echo "";
+
+
+
 # Build and compare refs
 
 read -p "Build and compare refs? (y/n)" COMPARE_REFS
