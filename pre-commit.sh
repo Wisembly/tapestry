@@ -7,8 +7,13 @@ exec < /dev/tty
 # Lint SCSS files
 
 echo "Linting SCSS files...";
-scss-lint src/scss/** --config .scss-lint.yml
-echo "";
+npm run lint
+
+read -p "Continue? (y/n)" CONTINUE_AFTER_LINT
+
+if [ "$CONTINUE_AFTER_LINT" == "n" ]; then
+  exit 1;
+fi
 
 
 
