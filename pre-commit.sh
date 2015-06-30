@@ -4,6 +4,19 @@ exec < /dev/tty
 
 
 
+# Lint SCSS files
+
+echo "Linting SCSS files...";
+npm run lint
+
+read -p "Continue? (y/n)" CONTINUE_AFTER_LINT
+
+if [ "$CONTINUE_AFTER_LINT" == "n" ]; then
+  exit 1;
+fi
+
+
+
 # Build and compare refs
 
 read -p "Build and compare refs? (y/n)" COMPARE_REFS
