@@ -13,7 +13,6 @@
     "gulp-iconfont": "3.0.2",
     "gulp-rename": "1.2.0",
     "gulp-sass": "2.0.3",
-    "gulp-scss-lint": "^0.1.9",
     "gulp-sketch": "0.0.9",
     "gulp-sourcemaps": "1.5.2",
     "gulp-stylestats": "0.6.0",
