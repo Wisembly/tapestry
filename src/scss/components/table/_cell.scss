@@ -1,16 +1,12 @@
 .Table-cell {
   display: table-cell;
-  padding: calc(#{$pd--s} - 1px) $base-pd;
+  padding: $pd--s $base-pd;
   font-size: $base-fz;
   font-weight: $base-fw;
   line-height: $base-lh;
   text-align: center;
   color: $slate-gray;
-  border-bottom: 1px solid $base-border-color;
-
-  &:last-child {
-    border-right-color: $base-border-color;
-  }
+  border: 1px solid $base-border-color;
 }
 
 .Table-cell--important {
@@ -22,6 +18,5 @@
   .Table-cell {
     font-size: $fz--s;
     color: $gray-chateau;
-    border-top: 1px solid $base-border-color;
   }
 }

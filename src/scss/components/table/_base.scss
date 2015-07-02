@@ -2,7 +2,5 @@
   display: table;
   width: 100%;
   color: $slate-gray;
-  border-right: 1px solid $base-border-color;
-  border-left: 1px solid $base-border-color;
-  border-collapse: separate;
+  border-collapse: collapse;
 }
