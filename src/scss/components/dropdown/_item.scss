@@ -1,0 +1,39 @@
+.Dropdown-item {
+  display: block;
+  position: relative;
+  margin: $mg--xs;
+  padding: $pd--xs $pd--s;
+  font-size: $fz--s;
+  font-weight: $fw--semi-bold;
+  text-decoration: none;
+  white-space: nowrap;
+  color: inherit;
+  border-radius: $base-radius;
+  cursor: pointer;
+  transition: background .15s ease-out;
+
+  &:hover,
+  &.is-active {
+    background: $porcelain;
+  }
+
+  &[aria-selected="true"] {
+    background: $porcelain;
+
+    &:after {
+      @extend %Icon--checkmark;
+      @include pos(a $mg--xs $mg--s null null);
+      font-family: icons;
+    }
+  }
+
+  &:focus {
+    background: $porcelain;
+    outline: none;
+  }
+}
+
+.Dropdown-hr {
+  margin: $mg--xs 0;
+  border-top: 1px solid $porcelain;
+}
