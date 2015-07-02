@@ -18,10 +18,6 @@
   bottom: 100%;
 }
 
-.Dropdown--bl {
-  right: auto;
-}
-
 .Dropdown--bc {
   top: 100%;
   bottom: auto;
@@ -30,5 +26,6 @@
 }
 
 .Dropdown--br {
+  right: 0;
   left: auto;
 }
