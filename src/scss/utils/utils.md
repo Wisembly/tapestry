@@ -100,7 +100,7 @@ Utility classes help you to add some common behaviors to elements. We decided to
   <tbody class="Table-body">
     <tr class="Table-row">
       <td class="Table-cell Table-cell--important u-tal"><code>.u + -property (+ direction) + --size</code></td>
-      <td class="Table-cell"><code>.u-mgs--l</code></td>
+      <td class="Table-cell"><code>.u-mg--l</code></td>
     </tr>
     <tr class="Table-row">
       <td class="Table-cell Table-cell--important u-tal"><code>.u-mg--0</code></td>
