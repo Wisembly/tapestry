@@ -2,7 +2,7 @@
 
 ```html
 <div class="has-dropdown">
-  <button class="Btn" data-dropdown="dropdownBottomLeft" aria-expanded="true">Call to action</button>
+  <button class="Btn" aria-controls="dropdownBottomLeft" aria-expanded="true">Call to action</button>
 	<ul id="dropdownBottomLeft" class="Dropdown">
 	  <li class="Dropdown-item">
 	    Simple label
@@ -22,7 +22,7 @@
 
 ```html
 <div class="has-dropdown">
-  <button class="Btn" data-dropdown="dropdownBottomCentered" aria-expanded="true">Call to action</button>
+  <button class="Btn" aria-controls="dropdownBottomCentered" aria-expanded="true">Call to action</button>
   <ul id="dropdownBottomCentered" class="Dropdown Dropdown--bc">
     <li class="Dropdown-item">
       Simple label
@@ -40,7 +40,7 @@
 
 ```html
 <div class="has-dropdown">
-  <button class="Btn" data-dropdown="dropdownBottomRight" aria-expanded="true">Call to action</button>
+  <button class="Btn" aria-controls="dropdownBottomRight" aria-expanded="true">Call to action</button>
   <ul id="dropdownBottomRight" class="Dropdown Dropdown--br">
     <li class="Dropdown-item">
       Simple label
@@ -58,7 +58,7 @@
 
 ```html
 <div class="has-dropdown">
-  <button class="Btn" data-dropdown="dropdownTopLeft" aria-expanded="true">Call to action</button>
+  <button class="Btn" aria-controls="dropdownTopLeft" aria-expanded="true">Call to action</button>
   <ul id="dropdownTopLeft" class="Dropdown Dropdown--tl">
     <li class="Dropdown-item">
       Simple label
@@ -75,7 +75,7 @@
 
 ```html
 <div class="has-dropdown">
-  <button class="Btn" data-dropdown="dropdownTopCentered" aria-expanded="true">Call to action</button>
+  <button class="Btn" aria-controls="dropdownTopCentered" aria-expanded="true">Call to action</button>
 	<ul id="dropdownTopCentered" class="Dropdown Dropdown--tc">
 	  <li class="Dropdown-item">
 	    Simple label
@@ -93,7 +93,7 @@
 
 ```html
 <div class="has-dropdown">
-  <button class="Btn" data-dropdown="dropdownTopRight" aria-expanded="true">Call to action</button>
+  <button class="Btn" aria-controls="dropdownTopRight" aria-expanded="true">Call to action</button>
   <ul id="dropdownTopRight" class="Dropdown Dropdown--tr">
     <li class="Dropdown-item">
       Simple label
@@ -111,7 +111,7 @@
 
 ```html
 <div class="has-dropdown">
-  <button class="Btn" data-dropdown="dropdownDividerExemple" aria-expanded="true">Call to action</button>
+  <button class="Btn" aria-controls="dropdownDividerExemple" aria-expanded="true">Call to action</button>
   <ul id="dropdownDividerExemple" class="Dropdown Dropdown--bl" aria-labelledby="dropdownMenuDivider">
     <li class="Dropdown-item">
       Simple label 1
@@ -137,7 +137,7 @@
 
 ```html
 <div class="has-dropdown">
-  <button class="Btn" data-dropdown="dropdownDividerExemple" aria-expanded="true">Call to action</button>
+  <button class="Btn" aria-controls="dropdownDividerExemple" aria-expanded="true">Call to action</button>
 	<ul id="dropdownDividerExemple" class="Dropdown Dropdown--bl" aria-labelledby="dropdownMenuDivider">
     <li class="Dropdown-item" aria-selected="false">
       Simple label 1
