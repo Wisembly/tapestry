@@ -3,7 +3,7 @@ $switch-height: $base-lh;
 $switch-space-around: rem(6px);
 
 .Switch {
-  display: block;
+  display: inline-block;
   position: relative;
   width: $switch-width;
   height: $switch-height;
