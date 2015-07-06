@@ -2,7 +2,7 @@
   @include pos(f 0);
   visibility: hidden;
   z-index: zi("overlay");
-  background: rgba($limed-spruce, .6);
+  background: rgba($limed-spruce, .8);
   opacity: 0;
   transform: translateZ(0);
   backface-visibility: hidden;
