@@ -1,5 +1,4 @@
 var sass       = require('gulp-sass');
-var linter     = require('gulp-scss-lint');
 var prefix     = require('gulp-autoprefixer');
 var sourcemaps = require('gulp-sourcemaps');
 
