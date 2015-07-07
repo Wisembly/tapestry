@@ -27,12 +27,12 @@
   @import "components/badge/core";
 }
 
-@if $import-button {
-  @import "components/button/core";
-}
-
 @if $import-button-group {
   @import "components/button-group/core";
+}
+
+@if $import-button {
+  @import "components/button/core";
 }
 
 @if $import-checkbox {

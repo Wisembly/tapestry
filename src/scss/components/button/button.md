@@ -1,5 +1,7 @@
 # Buttons
 
+You can overide button size with 2 variables `$btn--pdv` & `$btn--pdh` for vertical & horizontal sizing.
+
 ```html
 <button class="Btn">default button</button>
 <button class="Btn Btn--outline">default outlined button</button>
@@ -20,7 +22,7 @@
 
 ### Expand
 ```html
-<div class="Btn-expandContainer">
+<div class="BtnGroup Btn-expandContainer">
   <button class="Btn Btn--expand">Expanded button</button>
   <button class="Btn Btn--validate">Button</button>
 </div>
@@ -29,6 +31,15 @@
 ### Squared
 ```html
 <button class="Btn Btn--squared">
+  <i class="Icon Icon--like"></i>
+</button>
+
+```
+
+
+### Circle
+```html
+<button class="Btn Btn--circle">
   <i class="Icon Icon--like"></i>
 </button>
 

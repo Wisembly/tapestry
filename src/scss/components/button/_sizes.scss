@@ -4,7 +4,7 @@
 }
 
 .Btn--s {
-  padding: $pd--xs;
+  padding: ($btn-pdv / 2) ($btn-pdh / 2);
   font-size: $fz--s;
   line-height: $base-lh / 2;
 }
@@ -17,10 +17,17 @@
 
 .Btn--expand {
   flex-grow: 1;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .Btn--squared {
-  width: $base-lh + rem($base-fz);
-  padding-right: 0;
-  padding-left: 0;
+  width: $btn-pdh + $base-lh;
+  padding: $btn-pdv 0;
+}
+
+.Btn--circle {
+  width: $btn-pdh + $base-lh;
+  padding: $btn-pdv 0;
+  border-radius: 50%;
 }

@@ -1,6 +1,6 @@
 .Btn {
   display: inline-block;
-  padding: $pd--xs $base-pd;
+  padding: $btn-pdv $btn-pdh;
   font-size: $fz--m;
   font-weight: $fw--semi-bold;
   line-height: $base-lh;
@@ -37,5 +37,11 @@
     &:active {
       box-shadow: inset 0 0 0 0 $transparent;
     }
+  }
+
+  .Icon {
+    display: inline-block;
+    line-height: $base-lh;
+    vertical-align: top;
   }
 }
