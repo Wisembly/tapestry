@@ -1,11 +1,7 @@
-$button-name-colors: "-primary" "-alt" "-validate" "-info" "-error";
-$button-base-colors: $venice-blue $curious-blue $mint $saffron $mandy;
-$button-hover-colors: $atoll $eastern-blue $ocean-green $galliano $fuzzy-wuzzy-brown;
-
-@for $i from 1 to length($button-base-colors) + 1 {
-  $color-name: nth($button-name-colors, $i);
-  $color-value: nth($button-base-colors, $i);
-  $hover-color: nth($button-hover-colors, $i);
+@for $i from 1 to length($btn-base-colors) + 1 {
+  $color-name: nth($btn-name-colors, $i);
+  $color-value: nth($btn-base-colors, $i);
+  $hover-color: nth($btn-hover-colors, $i);
 
   .Btn-#{$color-name} {
     background-color: $color-value;
