@@ -36,6 +36,15 @@ You can overide button size with 2 variables `$btn--pdv` & `$btn--pdh` for verti
 
 ```
 
+
+### Circle
+```html
+<button class="Btn Btn--circle">
+  <i class="Icon Icon--like"></i>
+</button>
+
+```
+
 ## Types
 
 ```html

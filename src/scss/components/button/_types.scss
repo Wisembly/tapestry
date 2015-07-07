@@ -1,5 +1,5 @@
 .Btn--outline {
-  padding: ($btn--pdv - rem(1px)) ($btn--pdh - rem(1px));
+  padding: ($btn-pdv - rem(1px)) ($btn-pdh - rem(1px));
   color: $gray-chateau;
   background-color: $white;
   border: 1px solid $gray-chateau;
@@ -41,13 +41,13 @@
 
 .Btn.has-icon {
   position: relative;
-  padding-left: $btn--pdh + ($btn--pdh / 2) + $fz--m;
+  padding-left: $btn-pdh + ($btn-pdh / 2) + $fz--m;
   text-align: center;
 
   .Btn-icon {
     @include pos(a 0 null null 0);
-    margin: ($btn--mgv/2) 0;
-    padding: ($btn--pdv/2) ($btn--pdh/2);
+    margin: ($btn-mgv / 2) 0;
+    padding: ($btn-pdv / 2) ($btn-pdh / 2);
     border-right: 1px solid $white;
   }
 }
