@@ -16,7 +16,8 @@
     background: $porcelain;
   }
 
-  &[aria-selected="true"] {
+  &[aria-selected="true"],
+  &.is-selected {
     background: $porcelain;
 
     &:after {
