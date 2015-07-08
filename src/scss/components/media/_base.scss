@@ -1,3 +1,11 @@
+.Media {
+  display: flex;
+}
+
+.Media-img {
+  flex-shrink: 0;
+}
+
 .Media-img,
 .Media-content {
   display: inline-block;
