@@ -1,72 +1,24 @@
-$directions-letter: ("t", "r", "b", "l");
-$directions: ("top", "right", "bottom", "left");
+$directions-letter: ("", "t", "r", "b", "l");
+$css-directions: ("", "-top", "-right", "-bottom", "-left");
+$tapestry-spacers: ("0", "xs", "s", "m", "l", "xl");
 
-// .u-pdt--s { padding-top: $pd--s !important; }
-// .u-pdt--m { padding-top: $pd--m !important; }
-// .u-pdt--l { padding-top: $pd--m !important; }
-// ...
+$pd--0: 0;
+$mg--0: 0;
 
 @for $i from 1 to length($directions-letter) + 1 {
   $direction-letter: nth($directions-letter, $i);
-  $direction: nth($directions, $i);
+  $css-direction: nth($css-directions, $i);
 
-  // paddings
-  .u-pd#{$direction-letter}--0 {
-    padding-#{$direction}: 0 !important;
+  @for $i from 1 to length($tapestry-spacers) + 1 {
+    $tapestry-spacer: nth($tapestry-spacers, $i);
+
+    .u-pd#{$direction-letter}--#{$tapestry-spacer} {
+      padding#{$css-direction}: #{"$pd--" + #{$tapestry-spacer}} !important;
+    }
+
+    .u-mg#{$direction-letter}--#{$tapestry-spacer} {
+      margin#{$css-direction}: #{"$mg--" + #{$tapestry-spacer}} !important;
+    }
+
   }
-
-  .u-pd#{$direction-letter}--xs {
-    padding-#{$direction}: $pd--xs !important;
-  }
-
-  .u-pd#{$direction-letter}--s {
-    padding-#{$direction}: $pd--s !important;
-  }
-
-  .u-pd#{$direction-letter}--m {
-    padding-#{$direction}: $pd--m !important;
-  }
-
-  .u-pd#{$direction-letter}--l {
-    padding-#{$direction}: $pd--l !important;
-  }
-
-  .u-pd#{$direction-letter}--xl {
-    padding-#{$direction}: $pd--xl !important;
-  }
-
-  // margins
-  .u-mg#{$direction-letter}--0 {
-    margin-#{$direction}: 0 !important;
-  }
-
-  .u-mg#{$direction-letter}--xs {
-    margin-#{$direction}: $mg--xs !important;
-  }
-
-  .u-mg#{$direction-letter}--s {
-    margin-#{$direction}: $mg--s !important;
-  }
-
-  .u-mg#{$direction-letter}--m {
-    margin-#{$direction}: $mg--m !important;
-  }
-
-  .u-mg#{$direction-letter}--l {
-    margin-#{$direction}: $mg--l !important;
-  }
-
-  .u-mg#{$direction-letter}--xl {
-    margin-#{$direction}: $mg--xl !important;
-  }
-}
-
-// do not forget 'around' spaces
-
-.u-pd--0 {
-  padding: 0 !important;
-}
-
-.u-mg--0 {
-  margin: 0 !important;
 }
