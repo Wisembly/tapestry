@@ -1,24 +1,57 @@
 $directions-letter: ("", "t", "r", "b", "l");
 $css-directions: ("", "-top", "-right", "-bottom", "-left");
-$tapestry-spacers: ("0", "xs", "s", "m", "l", "xl");
-
-$pd--0: 0;
-$mg--0: 0;
 
 @for $i from 1 to length($directions-letter) + 1 {
   $direction-letter: nth($directions-letter, $i);
   $css-direction: nth($css-directions, $i);
 
-  @for $i from 1 to length($tapestry-spacers) + 1 {
-    $tapestry-spacer: nth($tapestry-spacers, $i);
+  // paddings
+  .u-pd#{$direction-letter}--0 {
+    padding#{$css-direction}: 0 !important;
+  }
 
-    .u-pd#{$direction-letter}--#{$tapestry-spacer} {
-      padding#{$css-direction}: #{"$pd--" + #{$tapestry-spacer}} !important;
-    }
+  .u-pd#{$direction-letter}--xs {
+    padding#{$css-direction}: $pd--xs !important;
+  }
 
-    .u-mg#{$direction-letter}--#{$tapestry-spacer} {
-      margin#{$css-direction}: #{"$mg--" + #{$tapestry-spacer}} !important;
-    }
+  .u-pd#{$direction-letter}--s {
+    padding#{$css-direction}: $pd--s !important;
+  }
 
+  .u-pd#{$direction-letter}--m {
+    padding#{$css-direction}: $pd--m !important;
+  }
+
+  .u-pd#{$direction-letter}--l {
+    padding#{$css-direction}: $pd--l !important;
+  }
+
+  .u-pd#{$direction-letter}--xl {
+    padding#{$css-direction}: $pd--xl !important;
+  }
+
+  // margins
+  .u-mg#{$direction-letter}--0 {
+    margin#{$css-direction}: 0 !important;
+  }
+
+  .u-mg#{$direction-letter}--xs {
+    margin#{$css-direction}: $mg--xs !important;
+  }
+
+  .u-mg#{$direction-letter}--s {
+    margin#{$css-direction}: $mg--s !important;
+  }
+
+  .u-mg#{$direction-letter}--m {
+    margin#{$css-direction}: $mg--m !important;
+  }
+
+  .u-mg#{$direction-letter}--l {
+    margin#{$css-direction}: $mg--l !important;
+  }
+
+  .u-mg#{$direction-letter}--xl {
+    margin#{$css-direction}: $mg--xl !important;
   }
 }
