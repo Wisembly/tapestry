@@ -40,20 +40,20 @@
 }
 
 
-%Icon--add {
+%Icon--actionItem {
   content: "\ea01";
+}
+
+.Icon--actionItem:before {
+  @extend %Icon--actionItem;
+}
+
+%Icon--add {
+  content: "\ea02";
 }
 
 .Icon--add:before {
   @extend %Icon--add;
-}
-
-%Icon--alert {
-  content: "\ea02";
-}
-
-.Icon--alert:before {
-  @extend %Icon--alert;
 }
 
 %Icon--archive {
@@ -64,12 +64,12 @@
   @extend %Icon--archive;
 }
 
-%Icon--actionItem {
+%Icon--alert {
   content: "\ea04";
 }
 
-.Icon--actionItem:before {
-  @extend %Icon--actionItem;
+.Icon--alert:before {
+  @extend %Icon--alert;
 }
 
 %Icon--arrowBack {
@@ -112,8 +112,16 @@
   @extend %Icon--arrowNext;
 }
 
-%Icon--assignee {
+%Icon--arrowUp {
   content: "\ea0a";
+}
+
+.Icon--arrowUp:before {
+  @extend %Icon--arrowUp;
+}
+
+%Icon--assignee {
+  content: "\ea0b";
 }
 
 .Icon--assignee:before {
@@ -121,19 +129,11 @@
 }
 
 %Icon--azure {
-  content: "\ea0b";
+  content: "\ea0c";
 }
 
 .Icon--azure:before {
   @extend %Icon--azure;
-}
-
-%Icon--arrowUp {
-  content: "\ea0c";
-}
-
-.Icon--arrowUp:before {
-  @extend %Icon--arrowUp;
 }
 
 %Icon--badge {
@@ -216,20 +216,20 @@
   @extend %Icon--checked;
 }
 
-%Icon--checkmark {
-  content: "\ea17";
-}
-
-.Icon--checkmark:before {
-  @extend %Icon--checkmark;
-}
-
 %Icon--clip {
-  content: "\ea18";
+  content: "\ea17";
 }
 
 .Icon--clip:before {
   @extend %Icon--clip;
+}
+
+%Icon--checkmark {
+  content: "\ea18";
+}
+
+.Icon--checkmark:before {
+  @extend %Icon--checkmark;
 }
 
 %Icon--clock {
@@ -544,20 +544,20 @@
   @extend %Icon--more;
 }
 
-%Icon--openIssue--dashed {
-  content: "\ea40";
-}
-
-.Icon--openIssue--dashed:before {
-  @extend %Icon--openIssue--dashed;
-}
-
 %Icon--openIssue {
-  content: "\ea41";
+  content: "\ea40";
 }
 
 .Icon--openIssue:before {
   @extend %Icon--openIssue;
+}
+
+%Icon--openIssue--dashed {
+  content: "\ea41";
+}
+
+.Icon--openIssue--dashed:before {
+  @extend %Icon--openIssue--dashed;
 }
 
 %Icon--paragraph {
@@ -568,20 +568,20 @@
   @extend %Icon--paragraph;
 }
 
-%Icon--pause {
-  content: "\ea43";
-}
-
-.Icon--pause:before {
-  @extend %Icon--pause;
-}
-
 %Icon--pellet {
-  content: "\ea44";
+  content: "\ea43";
 }
 
 .Icon--pellet:before {
   @extend %Icon--pellet;
+}
+
+%Icon--pause {
+  content: "\ea44";
+}
+
+.Icon--pause:before {
+  @extend %Icon--pause;
 }
 
 %Icon--pelletCheck {
@@ -616,20 +616,20 @@
   @extend %Icon--pencil;
 }
 
-%Icon--picture {
-  content: "\ea49";
-}
-
-.Icon--picture:before {
-  @extend %Icon--picture;
-}
-
 %Icon--phone {
-  content: "\ea4a";
+  content: "\ea49";
 }
 
 .Icon--phone:before {
   @extend %Icon--phone;
+}
+
+%Icon--picture {
+  content: "\ea4a";
+}
+
+.Icon--picture:before {
+  @extend %Icon--picture;
 }
 
 %Icon--play {
@@ -664,20 +664,20 @@
   @extend %Icon--public;
 }
 
-%Icon--refresh {
-  content: "\ea4f";
-}
-
-.Icon--refresh:before {
-  @extend %Icon--refresh;
-}
-
 %Icon--recurring {
-  content: "\ea50";
+  content: "\ea4f";
 }
 
 .Icon--recurring:before {
   @extend %Icon--recurring;
+}
+
+%Icon--refresh {
+  content: "\ea50";
+}
+
+.Icon--refresh:before {
+  @extend %Icon--refresh;
 }
 
 %Icon--reply {
@@ -816,20 +816,20 @@
   @extend %Icon--trash;
 }
 
-%Icon--triangleDown {
-  content: "\ea62";
-}
-
-.Icon--triangleDown:before {
-  @extend %Icon--triangleDown;
-}
-
 %Icon--triangleUp {
-  content: "\ea63";
+  content: "\ea62";
 }
 
 .Icon--triangleUp:before {
   @extend %Icon--triangleUp;
+}
+
+%Icon--triangleDown {
+  content: "\ea63";
+}
+
+.Icon--triangleDown:before {
+  @extend %Icon--triangleDown;
 }
 
 %Icon--twitter {
