@@ -11,7 +11,7 @@
   }
 
   &:hover,
-  &.is-selected {
+  &[aria-selected="true"] {
     &:after {
       height: rem(4px);
     }
