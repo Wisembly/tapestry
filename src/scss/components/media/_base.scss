@@ -6,8 +6,8 @@
   flex-shrink: 0;
 }
 
-.Media-img,
-.Media-content {
+.Media-img:not(.Column),
+.Media-content:not(.Column) {
   display: inline-block;
   vertical-align: middle;
 }
