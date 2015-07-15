@@ -248,3 +248,18 @@ body {
     text-align: center;
     border-bottom: 1px solid #ededed;
   }
+
+	/* Styleguide list */
+
+	.Styleguide-modulesContainer ul {
+		margin: 0 0 1.5em;
+		padding: 0;
+		list-style-type: circle;
+		list-style-position: inside;
+	}
+
+	/* Styleguide code separator */
+
+	.Styleguide-codeSeparator {
+		margin-bottom: 1em;
+	}
