@@ -111,5 +111,3 @@ In the other hand, if the classic `<select`> does not suit you, if you need to c
   </ul>
 </div>
 ```
-
-
