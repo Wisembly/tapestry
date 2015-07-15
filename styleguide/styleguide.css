@@ -7,6 +7,18 @@ body {
 	font-family: 'Open Sans', 'Georgia', sans-serif;
 }
 
+p code {
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  padding: 0 .8rem;
+  text-align: left;
+  background-color: #FAFAFA;
+  border-radius: 2px;
+  border: 1px solid #EDEDED;
+  font-family: Courier, sans-serif;
+}
+
 
 /* Styleguide generals
  * Styleguide-title */
