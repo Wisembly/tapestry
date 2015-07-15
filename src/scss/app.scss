@@ -72,10 +72,6 @@
   @import "components/media/core";
 }
 
-@if $import-menu {
-  @import "components/menu/core";
-}
-
 @if $import-meter {
   @import "components/meter/core";
 }
