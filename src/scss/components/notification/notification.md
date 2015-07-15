@@ -1,5 +1,7 @@
 # Notification
 
+* A `Notification` is horizontally centered, based on its parent width. Add `Notification--fixed` class if you need a fixed position.
+
 ```html
 <div class="has-notification">
 	<div class="Notification">Productive and actionable meetings, every time.</div>
@@ -24,15 +26,8 @@
 </div>
 ```
 
-`Notification` is horizontally centered, based on its parent width. Add `Notification--fixed` class if you need a fixed position.
-
-
 ## Positions
 
-```html
-  <div class="Notification Notification--fixed Notification--bottom">Productive and actionable meetings, every time.</div>
-```
-
-```html
-  <div class="Notification Notification--fixed Notification--bottom Notification--pull">Productive and actionable meetings, every time.</div>
-```
+To fix your Notification, simply add
+* `.Notification--fixed` class
+* The direction wanted "`tc | bl | br`"
