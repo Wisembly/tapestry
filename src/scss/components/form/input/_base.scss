@@ -1,8 +1,8 @@
 .Input {
   width: 100%;
   margin-bottom: $mg--s;
-  padding: $pd--xs - rem(1px) $pd--s;
-  font-size: $base-fz;
+  padding: ($pd--s - rem(1px)) $pd--s;
+  font-size: $fz--m;
   line-height: $base-lh;
   vertical-align: middle;
   color: $gray-chateau;
