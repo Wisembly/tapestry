@@ -1,7 +1,7 @@
 # Dropdown
 
 ```html
-<div class="has-dropdown">
+<div class="Dropdown" data-tapestry="dropdown">
   <button class="Btn" aria-controls="dropdownBottomLeft" aria-expanded="true">Call to action</button>
 	<ul id="dropdownBottomLeft" class="Dropdown-list">
 	  <li class="Dropdown-item">
@@ -53,7 +53,7 @@ example: `<ul id="dropdownTopLeft" class="Dropdown-list Dropdown-list--tl">∞</
 ## Divider
 
 ```html
-<div class="has-dropdown">
+<div class="Dropdown">
   <button class="Btn" aria-controls="dropdownDividerExemple" aria-expanded="true">Call to action</button>
   <ul id="dropdownDividerExemple" class="Dropdown-list" aria-labelledby="dropdownMenuDivider">
     <li class="Dropdown-item">
@@ -79,7 +79,7 @@ example: `<ul id="dropdownTopLeft" class="Dropdown-list Dropdown-list--tl">∞</
 ## Selectable options
 
 ```html
-<div class="has-dropdown">
+<div class="Dropdown">
   <button class="Btn" aria-controls="dropdownDividerExemple" aria-expanded="true">Call to action</button>
 	<ul id="dropdownDividerExemple" class="Dropdown-list" aria-labelledby="dropdownMenuDivider">
     <li class="Dropdown-item" aria-selected="false">
