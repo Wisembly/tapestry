@@ -1,31 +1,31 @@
-.Dropdown--tl {
+.Dropdown-list--tl {
   top: auto;
   right: auto;
   bottom: 100%;
   left: 0;
 }
 
-.Dropdown--tc {
+.Dropdown-list--tc {
   top: auto;
   bottom: 100%;
   left: 50%;
   transform: translateX(-50%);
 }
 
-.Dropdown--tr {
+.Dropdown-list--tr {
   top: auto;
   right: 0;
   bottom: 100%;
 }
 
-.Dropdown--bc {
+.Dropdown-list--bc {
   top: 100%;
   bottom: auto;
   left: 50%;
   transform: translateX(-50%);
 }
 
-.Dropdown--br {
+.Dropdown-list--br {
   right: 0;
   left: auto;
 }

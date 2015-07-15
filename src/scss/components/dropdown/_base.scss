@@ -3,7 +3,7 @@
   display: inline-block;
 }
 
-.Dropdown {
+.Dropdown-list {
   @include pos(a 100% null null 0);
   display: none;
   z-index: zi("dropdown");
@@ -17,6 +17,6 @@
   box-shadow: 0 0 10px 0 rgba($slate-gray, .3);
 }
 
-[aria-expanded="true"] + .Dropdown {
+[aria-expanded="true"] + .Dropdown-list {
   display: block;
 }
