@@ -68,6 +68,10 @@
   @import "components/form/input-group/core";
 }
 
+@if $import-label {
+  @import "components/form/label/core";
+}
+
 @if $import-media {
   @import "components/media/core";
 }
