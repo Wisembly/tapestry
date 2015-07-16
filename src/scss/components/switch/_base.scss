@@ -1,14 +1,9 @@
-$switch-width: rem(50px);
-$switch-height: $base-lh;
-$switch-space-around: rem(6px);
-
 .Switch {
   display: inline-block;
   position: relative;
   width: $switch-width;
   height: $switch-height;
   background-color: $gray-chateau;
-  //border: 1px solid $base-border-color;
   border-radius: $switch-height;
   cursor: pointer;
   transition: background-color .05s ease;
