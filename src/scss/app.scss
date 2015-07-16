@@ -47,6 +47,10 @@
   @import "components/dropdown/core";
 }
 
+@if $import-fieldset {
+  @import "components/form/fieldset/core";
+}
+
 @if $import-flash {
   @warn "Class .Flash is deprecated, please use .Notification instead, it will be removed in the next major release";
   @warn "Class .has-flash is deprecated, please use .has-notification instead, it will be removed in the next major release";

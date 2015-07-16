@@ -1,4 +1,10 @@
 .Label {
   display: inline-block;
   line-height: $base-lh;
+  vertical-align: middle;
+  cursor: pointer;
+
+  + .Input {
+    margin-left: $mg--xs;
+  }
 }

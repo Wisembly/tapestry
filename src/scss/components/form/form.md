@@ -1,30 +1,5 @@
 # Form
 
-## Inputs
-
-```html
-<label class="Label" for="input1">Label</label>
-<input class="Input" type="text" id="input1" placeholder="Input" aria-label="Input item">
-```
-NB: `aria-label` is an attribute that can be used with an input when it is not possible to include a HTML label element.
-`aria-label` must not be used when there is a visible label.
-
-### Types
-
-```html
-<div class="InputGroup">
-  <div class="Input-addOn">@</div>
-  <input class="Input" type="text" id="input3" placeholder="Input" aria-label="Input item">
-</div>
-```
-
-```html
-<div class="InputGroup">
-  <input class="Input Input--appended" type="text" id="input3" placeholder="Input" aria-label="Input item">
-  <div class="Input-addOn">.com</div>
-</div>
-```
-
 ## Checkbox
 
 ```html
@@ -36,10 +11,10 @@ NB: `aria-label` is an attribute that can be used with an input when it is not p
 
 ```html
 <div class="InputGroup">
-    <input class="Input InputGroup-item" id="InputGrouped1" placeholder="input" aria-label="Input item 1">
-    <input class="Input InputGroup-item" id="InputGrouped2" placeholder="input" aria-label="Input item 2">
-    <input class="Input InputGroup-item" id="InputGrouped3" placeholder="input" aria-label="Input item 3">
-    <input class="Input InputGroup-item" id="InputGrouped4" placeholder="input" aria-label="Input item 4">
+  <input class="Input InputGroup-item" id="InputGrouped1" placeholder="input" aria-label="Input item 1">
+  <input class="Input InputGroup-item" id="InputGrouped2" placeholder="input" aria-label="Input item 2">
+  <input class="Input InputGroup-item" id="InputGrouped3" placeholder="input" aria-label="Input item 3">
+  <input class="Input InputGroup-item" id="InputGrouped4" placeholder="input" aria-label="Input item 4">
 </div>
 ```
 
