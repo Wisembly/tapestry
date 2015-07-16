@@ -47,6 +47,10 @@
   @import "components/dropdown/core";
 }
 
+@if $import-fieldset {
+  @import "components/form/fieldset/core";
+}
+
 @if $import-flash {
   @warn "Class .Flash is deprecated, please use .Notification instead, it will be removed in the next major release";
   @warn "Class .has-flash is deprecated, please use .has-notification instead, it will be removed in the next major release";
@@ -68,12 +72,12 @@
   @import "components/form/input-group/core";
 }
 
-@if $import-media {
-  @import "components/media/core";
+@if $import-label {
+  @import "components/form/label/core";
 }
 
-@if $import-menu {
-  @import "components/menu/core";
+@if $import-media {
+  @import "components/media/core";
 }
 
 @if $import-meter {

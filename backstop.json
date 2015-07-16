@@ -13,42 +13,51 @@
       "hideSelectors": [],
       "removeSelectors": [],
       "selectors": [
-        ".Avatar-initials",
+        ".Avatar",
+        ".Avatar--s",
+        ".Avatar--l",
         ".Avatar--empty",
-
         ".Badge",
-
-        ".BtnGroup",
-
         ".Btn",
-        ".Btn--outline",
-        ".Btn.is-disabled",
-        ".Btn--block",
+        ".Btn--s",
+        ".Btn-expandContainer",
         ".Btn--squared",
+        ".Btn--circle",
+        ".Btn--outline",
         ".Btn--raw",
         ".Btn.has-icon",
-
+        ".Btn.is-disabled",
+        ".Btn--block",
+        ".BtnGroup",
         ".Collection",
-        ".Collection-item.is-active",
-
+        ".Collection--actionnable .Collection-item.is-active",
         ".Dropdown",
+        "[aria-expanded=true] + .Dropdown",
+        ".Dropdown-hr",
         ".Dropdown-item",
-
+        ".Input",
+        ".InputGroup",
+        ".InputGroup-item",
+        ".InputGroup .Input",
+        ".Label",
+        ".Textarea",
+        ".Media",
+        ".Media .Media-img",
+        ".Media .Media-img",
+        ".Media .Media-img:not(.Column)",
+        ".Media .Media-content",
         ".Meter",
-
         ".Notification",
-
+        ".Panel",
+        ".Panel-header",
         ".Pellet",
-
         ".Popover",
-
         ".Switch",
         ".Switch--s",
-
         ".Table",
         ".Table--actionnable",
-
-        ".Tabs"
+        ".Tabs",
+        ".Tabs--s"
       ],
       "readyEvent": null,
       "delay": 500

@@ -5,6 +5,7 @@
   }
 
   .Tab-item:hover,
+  .Tab-item[aria-selected="true"],
   .Tab-item.is-selected {
     &:after {
       height: rem(2px);

@@ -1,18 +1,22 @@
 .Input {
-  width: 100%;
-  margin-bottom: $mg--s;
-  padding: ($pd--s - rem(1px)) $pd--s;
-  font-size: $fz--m;
-  line-height: $base-lh;
-  vertical-align: middle;
-  color: $gray-chateau;
-  background: $white;
-  border: 1px solid $gray-chateau;
-  border-radius: $base-radius;
-  box-sizing: border-box;
+  @extend %Input-core;
 
   &:focus {
     color: $limed-spruce;
     outline: none;
   }
+
+  &.Input--prefixed {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  &.Input--suffixed {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+}
+
+.Input--block {
+  width: 100%;
 }
