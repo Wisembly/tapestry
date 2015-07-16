@@ -1,0 +1,20 @@
+.Column {
+  display: inline-block;
+  position: relative;
+  min-height: 1px;
+  font-size: 1rem;
+  word-wrap: break-word;
+  vertical-align: top;
+
+  &.Column--centered {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@for $i from 1 to ($column-number + 1) {
+  .Column-#{$i} {
+    width: percentage(($i/$column-number));
+  }
+}
