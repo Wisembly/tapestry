@@ -7,10 +7,6 @@ $avatar-size--xl: $base-lh * 4;
   height: $avatar-size--s;
   font-size: $fz--s;
   line-height: $avatar-size--s;
-
-  &.Avatar-initials {
-    height: $avatar-size--s;
-  }
 }
 
 .Avatar--l {

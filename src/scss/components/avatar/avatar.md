@@ -11,10 +11,10 @@
 ## With initials
 
 ```html
-<div class="Avatar Avatar--color1 Avatar--s Avatar-initials">AB</div>
-<div class="Avatar Avatar--color2 Avatar-initials">UO</div>
-<div class="Avatar Avatar--color3 Avatar--l Avatar-initials">GC</div>
-<div class="Avatar Avatar--color4 Avatar--xl Avatar-initials">GP</div>
+<div class="Avatar Avatar--color1 Avatar--s">AB</div>
+<div class="Avatar Avatar--color2">UO</div>
+<div class="Avatar Avatar--color3 Avatar--l">GC</div>
+<div class="Avatar Avatar--color4 Avatar--xl">GP</div>
 ```
 
 ## Empty

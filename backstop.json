@@ -13,7 +13,7 @@
       "hideSelectors": [],
       "removeSelectors": [],
       "selectors": [
-        ".Avatar-initials",
+        ".Avatar",
         ".Avatar--empty",
 
         ".Badge",
