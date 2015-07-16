@@ -2,6 +2,26 @@
 
 exec < /dev/tty
 
+function buildRefs {
+  echo "Building refs...";
+
+  echo "> git stash -q --keep-index";
+  git stash -q --keep-index
+
+  echo "> npm run vt:refs";
+  npm run vt:refs
+
+  echo "> git stash pop -q"
+  git stash pop -q
+}
+
+function compareRefs {
+  echo "Comparing refs...";
+  echo "> npm run vt:compare";
+
+  npm run vt:compare
+}
+
 
 
 # Lint SCSS files
@@ -22,28 +42,20 @@ fi
 read -p "Build and compare refs? (y/n)" COMPARE_REFS
 
 if [ "$COMPARE_REFS" == "y" ]; then
-  echo "Building refs...";
-
-  echo "> git stash -q --keep-index";
-  git stash -q --keep-index
-
-  echo "> npm run vt:refs";
-  npm run vt:refs
-
-  echo "> git stash pop -q"
-  git stash pop -q
-
-  echo "Comparing refs...";
-  echo "> npm run vt:compare";
-
-  npm run vt:compare
-
-  echo "";
-  read -p "Continue? (y/n)" CONTINUE
-
-  if [ "$CONTINUE" == "n" ]; then
-    exit 1;
-  fi
+  buildRefs
+  compareRefs
 fi
 
-exit 0;
+
+
+# Continue and deploy
+
+echo "";
+read -p "Continue and deploy? (y/n)" CONTINUE_AND_DEPLOY
+
+if [ "$CONTINUE_AND_DEPLOY" == "n" ]; then
+  exit 1;
+else
+  gulp deploy;
+  exit 0;
+fi
