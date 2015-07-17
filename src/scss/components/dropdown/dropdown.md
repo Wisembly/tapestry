@@ -144,7 +144,7 @@ In the other hand, if the classic `<select`> does not suit you, if you need to c
       <td class="Table-cell Table-cell--important u-tal"><code>wheel</code></td>
       <td class="Table-cell">Boolean</td>
       <td class="Table-cell">false</td>
-      <td class="Table-cell">Enable mouse wheel controls.</td>
+      <td class="Table-cell">Enable mouse wheel controls. (Experimental)</td>
     </tr>
   </tbody>
 </table>
