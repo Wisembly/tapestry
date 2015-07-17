@@ -17,7 +17,7 @@
 
   var classNames = {
     dropdown: 'Dropdown',
-    toggle: 'Dropdown-toggle',
+    toggle: 'Dropdown-toggle Btn',
     value: 'Dropdown-value',
     list: 'Dropdown-list',
     item: 'Dropdown-item'
@@ -25,7 +25,7 @@
 
   var selectors = {
     dropdown: '.' + classNames.dropdown,
-    toggle: '.' + classNames.toggle,
+    toggle: '.Dropdown-toggle',
     value: '.' + classNames.value,
     list: '.' + classNames.list,
     item: '.' + classNames.item

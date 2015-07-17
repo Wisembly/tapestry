@@ -17,11 +17,12 @@
 
   &[aria-selected="true"],
   &.is-selected {
+    padding-right: $pd--m;
     background: $porcelain;
 
     &:after {
       @extend %Icon--checkmark;
-      @include pos(a $mg--xs $mg--s null null);
+      @include pos(a $mg--xs $mg--xs null null);
       font-family: icons;
     }
   }
@@ -29,6 +30,12 @@
   &:focus {
     background: $porcelain;
     outline: none;
+  }
+
+  .Icon {
+    margin-right: $mg--xs;
+    line-height: $base-lh;
+    vertical-align: top;
   }
 }
 

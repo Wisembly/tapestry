@@ -78,6 +78,20 @@ example: `<ul id="dropdownTopLeft" class="Dropdown-list Dropdown-list--tl">∞</
 
 ## Dropdown Select
 
+The easiest way to create a `<select>` is, indeed, to use the classic `<select>`, it will be transformed into a custom select with the Tapestry look & feel.<br>
+The `data-label` attribute will display a custom value.
+You can also use an `<option>` to create a placeholder.
+
+```html
+<select name="">
+  <option value="">Chose a foobar option</option>
+  <option value="foo" selected>foo</option>
+  <option value="bar" data-label="Foo Label">bar</option>
+  <option value="baz">baz</option>
+</select>
+```
+In the other hand, if the classic `<select`> does not suit you, if you need to create complexe dropdowns, you can use the following code, it uses the same options, the only thing you will need to do is add an HTML element with the following class `.Dropdown-value`.
+
 ```html
 <div class="Dropdown" data-tapestry="dropdown-select">
   <input name="" hidden>
@@ -89,7 +103,7 @@ example: `<ul id="dropdownTopLeft" class="Dropdown-list Dropdown-list--tl">∞</
       Simple label 1
     </li>
     <li class="Dropdown-item" data-value="bar" aria-selected="true">
-      Simple label 2 <i class="Icon Icon--calendar"></i>
+      Simple label 2
     </li>
     <li class="Dropdown-item" data-value="baz" data-label="Custom label 3">
       Simple label 3
@@ -98,80 +112,4 @@ example: `<ul id="dropdownTopLeft" class="Dropdown-list Dropdown-list--tl">∞</
 </div>
 ```
 
-## Native select
 
-```html
-<select name="">
-  <option value="foo" selected>foo</option>
-  <option value="bar" >bar</option>
-  <option value="baz">baz</option>
-</select>
-```
-
-## Native select with placeholder
-
-```html
-<select name="">
-  <option value="">My Placeholder</option>
-  <option value="foo">foo</option>
-  <option value="bar">bar</option>
-  <option value="baz">baz</option>
-</select>
-```
-
-## Native select with custom label
-
-```html
-<select name="">
-  <option value="foo" data-label="Foo Label">foo</option>
-  <option value="bar" data-label="Bar Label">bar</option>
-  <option value="baz" data-label="Baz Label">baz</option>
-</select>
-```
-
-## Many options
-
-```html
-<select name="">
-  <option value="value0">label 0</option>
-  <option value="value1">label 1</option>
-  <option value="value2">label 2</option>
-  <option value="value3">label 3</option>
-  <option value="value4">label 4</option>
-  <option value="value5">label 5</option>
-  <option value="value6">label 6</option>
-  <option value="value7">label 7</option>
-  <option value="value8">label 8</option>
-  <option value="value9">label 9</option>
-  <option value="value10">label 10</option>
-  <option value="value11">label 11</option>
-  <option value="value12">label 12</option>
-  <option value="value13">label 13</option>
-  <option value="value14">label 14</option>
-  <option value="value15">label 15</option>
-  <option value="value16">label 16</option>
-  <option value="value17">label 17</option>
-  <option value="value18">label 18</option>
-  <option value="value19">label 19</option>
-  <option value="value20">label 20</option>
-  <option value="value21">label 21</option>
-  <option value="value22">label 22</option>
-  <option value="value23">label 23</option>
-  <option value="value24">label 24</option>
-  <option value="value25">label 25</option>
-  <option value="value26">label 26</option>
-  <option value="value27">label 27</option>
-  <option value="value28">label 28</option>
-  <option value="value29">label 29</option>
-  <option value="value30">label 30</option>
-  <option value="value31">label 31</option>
-  <option value="value32">label 32</option>
-  <option value="value33">label 33</option>
-  <option value="value34">label 34</option>
-  <option value="value35">label 35</option>
-  <option value="value36">label 36</option>
-  <option value="value37">label 37</option>
-  <option value="value38">label 38</option>
-  <option value="value39">label 39</option>
-</select>
-```
