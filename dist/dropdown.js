@@ -35,23 +35,35 @@
    * ======== */
 
   var Dropdown = Object.extend({
-    constructor: function (el) {
-      this.init(el);
+    constructor: function (el, options) {
+      this.init(el, options);
     },
 
-    init: function (el) {
+    init: function (el, options) {
       this.el = el;
       this.updateReferences();
+      this.$el.attr('tabindex', this.$el.attr('tabindex') || -1);
+      this.setOptions($.extend(this.$el.data(), options));
       this.bind();
+    },
+
+    setOptions: function (options) {
+      this.options = $.extend({
+        keyboard: true
+      }, this.options, options);
+      return this.options;
     },
 
     updateReferences: function () {
       this.$el = $(this.el);
       this.$toggle = $(selectors.toggle, this.$el);
+      this.$list = $(selectors.list, this.$el);
+      this.$items = $(selectors.item, this.$list);
     },
 
     bind: function () {
       this.$el.on('click.dropdown.tapestry', selectors.toggle, $.proxy(this.onToggle, this));
+      this.$el.on('keydown.dropdown.tapestry', $.proxy(this.onKeyDown, this));
     },
 
     isOpened: function () {
@@ -62,6 +74,7 @@
       if (this.$toggle.is(':disabled'))
         return;
       Dropdown.closeAll();
+      this.activeItem();
       this.$toggle.attr('aria-expanded', true);
       this.$el.focus();
     },
@@ -78,9 +91,68 @@
         this.open();
     },
 
+    getActiveItem: function () {
+      return this.$items.filter('.is-active');
+    },
+
+    activeItem: function (item) {
+      var $item = $(item);
+      this.$items.removeClass('is-active');
+      return $item.addClass('is-active');
+    },
+
+    activeItemNext: function (item) {
+      var $item = $(item),
+          index = this.$items.index($item),
+          $next = this.$items.eq(index + 1);
+      if ($next.length)
+        return this.activeItem($next);
+      return $next;
+    },
+
+    activeItemPrev: function (item) {
+      var $item = $(item),
+          index = this.$items.index($item),
+          $prev = this.$items.eq(Math.max(0, index - 1));
+      if ($prev.length)
+        return this.activeItem($prev);
+      return $prev;
+    },
+
     onToggle: function (event) {
       event.stopPropagation();
       this.toggle();
+    },
+
+    onKeyDown: function (event) {
+      if (this.options.keyboard !== true)
+        return;
+      event.preventDefault();
+      var keycode = event.which || event.keyCode;
+
+      if (this.isOpened()) {
+        var $item = this.getActiveItem();
+
+        switch (keycode) {
+          case 13: // <ENTER>
+            if ($item.length)
+              $item.click();
+            else
+              this.close();
+            break;
+          case 27: // <ECHAP>
+            this.close();
+            break;
+          case 38: // <KEY UP>
+            this.activeItemPrev($item);
+            break;
+          case 40: // <KEY DOWN>
+            this.activeItemNext($item);
+            break;
+        }
+      } else if (keycode === 13) {
+        this.open();
+      }
     }
   });
 
@@ -95,10 +167,20 @@
    * =============== */
 
   var DropdownSelect = Dropdown.extend({
-    init: function (el) {
+    init: function (el, options) {
+      options = $.extend($(el).data(), options);
       el = el.nodeName === 'SELECT' ? this.buildFromSelect(el) : el;
-      this.__super__.init.call(this, el);
-      this.setValue(this.getValue());
+      this.__super__.init.call(this, el, options);
+      this.value = this.getValue();
+      this.setValue(this.value);
+    },
+
+    setOptions: function (options) {
+      return this.__super__.setOptions.call(this, $.extend({
+          placeholder: '',
+          wheel: false,
+          scroll: false
+        }, this.options, options));
     },
 
     buildFromSelect: function (select) {
@@ -154,8 +236,6 @@
     updateReferences: function () {
       Dropdown.prototype.updateReferences.apply(this, arguments);
       this.$value = $(selectors.value, this.$el);
-      this.$list = $(selectors.list, this.$el);
-      this.$items = $(selectors.item, this.$list);
       this.$input = $(':input', this.$el).not('button, :input[type=button]');
     },
 
@@ -163,31 +243,32 @@
       Dropdown.prototype.bind.apply(this, arguments);
       this.$el.on('click.dropdown.tapestry', selectors.item, $.proxy(this.onSelect, this));
       this.$el.on('change.dropdown.tapestry', this.$input, $.proxy(this.onChanged, this));
-      this.$el.on('keydown.dropdown.tapestry', $.proxy(this.onKeyDown, this));
       this.$el.on('wheel mousewheel DOMMouseScroll', selectors.list, $.proxy(this.onWheel, this));
     },
 
     getValue: function () {
-      this.value = this.value || this.getSelectedItem().attr('data-value') || null;
-      return this.value;
+      var value = this.$input.val() || this.getSelectedItem().attr('data-value') || null;
+      if (!value && !this.options.placeholder)
+        value = this.$items.eq(0).attr('data-value');
+      return value;
     },
 
     setValue: function (value) {
         this.selectItem(value ? this.$items.filter('[data-value=' + value + ']') : null);
     },
 
-    itemIsVisible: function (item) {
+    itemIsVisible: function (item, direction) {
       item = $(item).get(0);
-      var rect = item.getBoundingClientRect();
-      return rect.top >= 0 && rect.left >= 0 && rect.bottom <= $(window).height() && rect.right <= $(window).width();
+      if (!item)
+        return false;
+      var rect = item.getBoundingClientRect(),
+          horizontal = rect.left >= 0 && rect.right <= $(window).width(),
+          vertical = rect.top >= 0 && rect.bottom <= $(window).height();
+      return direction === 'vertical' ? vertical : (direction === 'horizontal' ? horizontal : vertical && horizontal);
     },
 
     getSelectedItem: function () {
       return this.$items.filter('[aria-selected=true]');
-    },
-
-    getActiveItem: function () {
-      return this.$items.filter('.is-active');
     },
 
     getScrolledToItem: function () {
@@ -199,7 +280,7 @@
           value = $item.attr('data-value') || null;
 
       // update value label
-      this.$value.html($item.attr('data-label') || $item.html() || this.$el.attr('data-placeholder'));
+      this.$value.html($item.attr('data-label') || $item.html() || this.options.placeholder);
 
       // update selected item
       this.$items.removeAttr('aria-selected');
@@ -219,60 +300,66 @@
 
       // close dropdown
       this.close();
-    },
 
-    activeItem: function (item) {
-      var $item = $(item);
-      this.$items.removeClass('is-active');
-      $item.addClass('is-active');
+      return $item;
     },
 
     activeItemNext: function (item) {
-      var $item = $(item),
-          $next = $item.length ? $item.next() : this.$items.eq(0);
-      if ($next.length) {
-        this.activeItem($next);
-        if (!this.itemIsVisible($next)) {
+      var $next = Dropdown.prototype.activeItemNext.apply(this, arguments);
+      if ($next.length && !this.itemIsVisible($next, 'vertical')) {
           var $scrollToItem = this.getScrolledToItem();
-          this.scrollToItem($scrollToItem.length ? $scrollToItem.next() : this.$items.eq(0));
-        }
+          this.scrollToItem($scrollToItem.length ? $scrollToItem.nextAll(selectors.item).eq(0) : this.$items.eq(0));
       }
+      return $next;
     },
 
     activeItemPrev: function (item) {
-      var $item = $(item),
-          $prev = $item.prev();
-      if ($prev.length) {
-        this.activeItem($prev);
-        if (!this.itemIsVisible($prev)) {
-          this.scrollToItem(this.getScrolledToItem().prev());
-        }
-      }
+      var $prev = Dropdown.prototype.activeItemPrev.apply(this, arguments);
+      if ($prev.length && !this.itemIsVisible($prev, 'vertical'))
+        this.scrollToItem(this.getScrolledToItem().prevAll(selectors.item).eq(0));
+      return $prev;
     },
 
     scrollToItem: function (item) {
-      if (!this.isOpened())
-        return;
       var $item = $(item);
+      if (this.options.scroll === true && this.isOpened()) {
+        // store item
+        this.$scrolledToItem = $item;
 
-      // store item
-      this.$scrolledToItem = $item;
-
-      // reset
-      this.$list.css({ top: 0 });
-      // calc new offset
-      this.$list.css({ top: $item.length ? this.$value.offset().top - $item.offset().top : 'inherit' });
+        // reset
+        this.$list.css({ top: 0 });
+        // calc new offset
+        this.$list.css({ top: $item.length ? this.$value.offset().top - $item.offset().top : 'inherit' });
+      }
+      return $item;
     },
 
     open: function () {
+      Dropdown.prototype.open.apply(this, arguments);
       var $item = this.getSelectedItem();
       this.activeItem($item);
-      Dropdown.prototype.open.apply(this, arguments);
       this.scrollToItem($item);
+    },
+
+    onSelect: function (event) {
+      event.stopPropagation();
+      this.selectItem(event.target);
+    },
+
+    onChanged: function (event) {
+      this.updateReferences();
+      this.value = $(event.target).val() || null;
+      this.setValue(this.value);
     },
 
     /* EXPERIMENTAL */
     onWheel: function (event) {
+      if (this.options.wheel !== true)
+        return;
+      var $first = this.$items.filter(':first'),
+          $last = this.$items.filter(':last');
+      if (this.itemIsVisible($first, 'vertical') && this.itemIsVisible($last, 'vertical'))
+        return;
       event.preventDefault();
       this._wheelDelta = isNaN(this._wheelDelta) ? 0 : this._wheelDelta;
       this._wheelDelta += ((event.originalEvent.wheelDelta || 0) / 120);
@@ -286,44 +373,6 @@
             this.activeItemNext($item);
         this._wheelDelta = 0;
       }
-    },
-
-    onKeyDown: function (event) {
-      event.preventDefault();
-
-      var keycode = event.which || event.keyCode;
-
-      if (this.isOpened()) {
-        var $item = this.getActiveItem();
-
-        switch (keycode) {
-          case 13: // <ENTER>
-            this.selectItem($item);
-            break;
-          case 27: // <ECHAP>
-            this.close();
-            break;
-          case 38: // <KEY UP>
-            this.activeItemPrev($item);
-            break;
-          case 40: // <KEY DOWN>
-            this.activeItemNext($item);
-            break;
-        }
-      } else if (keycode === 13) {
-        this.open();
-      }
-    },
-
-    onSelect: function (event) {
-      event.stopPropagation();
-      this.selectItem(event.target);
-    },
-
-    onChanged: function (event) {
-      this.updateReferences();
-      this.value = $(event.target).val() || null;
-      this.setValue(this.value);
     }
 
   });
@@ -331,17 +380,25 @@
   /* PLUGIN DEFINITION
    * ================= */
 
-  $.fn.dropdown = function () {
+  $.fn.dropdown = function (options) {
     return this.each(function () {
-      var $this = $(this);
-      $(this).data('dropdown', $(this).data('dropdown') || Dropdown.create(this));
+      var $this = $(this),
+          component = $(this).data('dropdown');
+      if (component)
+        component.setOptions(options);
+      else
+        $(this).data('dropdown', Dropdown.create(this, options));
     });
   };
 
-  $.fn.dropdownSelect = function () {
+  $.fn.dropdownSelect = function (options) {
     return this.each(function () {
-      var $this = $(this);
-      $this.data('dropdown-select', $this.data('dropdown-select') || DropdownSelect.create(this));
+      var $this = $(this),
+          component = $(this).data('dropdown-select');
+      if (component)
+        component.setOptions(options);
+      else
+        $(this).data('dropdown-select', DropdownSelect.create(this, options));
     });
   };
 

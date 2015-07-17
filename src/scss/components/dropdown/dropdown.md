@@ -94,7 +94,7 @@ In the other hand, if the classic `<select`> does not suit you, if you need to c
 
 ```html
 <div class="Dropdown" data-tapestry="dropdown-select">
-  <input name="" hidden>
+  <input name="" value="bar" hidden>
   <button class="Dropdown-toggle Btn" aria-controls="dropdownSelectExample" aria-expanded="true">
     <span class="Dropdown-value"></span>
   </button>
@@ -110,4 +110,58 @@ In the other hand, if the classic `<select`> does not suit you, if you need to c
     </li>
   </ul>
 </div>
+```
+
+## Options
+```esc
+<table class="Table">
+  <thead class="Table-head">
+    <th class="Table-cell Table-cell--header u-tal">Name</th>
+    <th class="Table-cell Table-cell--header">Type</th>
+    <th class="Table-cell Table-cell--header">Default</th>
+    <th class="Table-cell Table-cell--header">Description</th>
+  </thead>
+  <tbody class="Table-body">
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal"><code>placeholder</code></td>
+      <td class="Table-cell">String</td>
+      <td class="Table-cell">""</td>
+      <td class="Table-cell">Display a placholder when needed.</td>
+    </tr>
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal"><code>scroll</code></td>
+      <td class="Table-cell">Boolean</td>
+      <td class="Table-cell">false</td>
+      <td class="Table-cell">auto-scroll list to the selected item.</td>
+    </tr>
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal"><code>keyboard</code></td>
+      <td class="Table-cell">Boolean</td>
+      <td class="Table-cell">true</td>
+      <td class="Table-cell">Enable keyboard controls.</td>
+    </tr>
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal"><code>wheel</code></td>
+      <td class="Table-cell">Boolean</td>
+      <td class="Table-cell">false</td>
+      <td class="Table-cell">Enable mouse wheel controls. (Experimental)</td>
+    </tr>
+  </tbody>
+</table>
+```
+Options can be set both using `data-xxx` attributes or through `$.fn.dropddownSelect`
+
+```html
+  <div class="Dropdown" data-keyboard="true" data-placeholder="My Placeholder"></div>
+```
+
+```javascript
+  <script>
+    $(".my-dropdown-select").dropdownSelect({
+      placeholder: "My Placeholder",
+      keyboard: true,
+      wheel: true,
+      scroll: true
+    });
+  </script>
 ```
