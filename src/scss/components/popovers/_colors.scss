@@ -1,29 +1,23 @@
-.Pellet--success {
-  .Popover {
-    @include bg-green;
+.Popover--success {
+  @include bg-green;
 
-    &:after {
-      border-bottom-color: $mint;
-    }
+  &:after {
+    border-bottom-color: $mint;
   }
 }
 
-.Pellet--medium {
-  .Popover {
-    @include bg-orange;
+.Popover--medium {
+  @include bg-orange;
 
-    &:after {
-      border-bottom-color: $saffron;
-    }
+  &:after {
+    border-bottom-color: $saffron;
   }
 }
 
-.Pellet--fail {
-  .Popover {
-    @include bg-red;
+.Popover--fail {
+  @include bg-red;
 
-    &:after {
-      border-bottom-color: $mandy;
-    }
+  &:after {
+    border-bottom-color: $mandy;
   }
 }
