@@ -34,7 +34,7 @@ body {
 	padding: .8rem 3em;
 	text-align: left;
 	background-color: #009788;
-	z-index: 10;
+	z-index: 1001;
 }
 
 	.Styleguide-headerTitle {
