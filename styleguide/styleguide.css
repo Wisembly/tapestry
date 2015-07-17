@@ -169,7 +169,7 @@ body {
 .Styleguide-navWrapper {
 	position: fixed;
 	top: 6.4rem;
-  bottom: 0;
+  bottom: 5rem;
   left: 0;
 	overflow-y: scroll;
 	width: 25%;
