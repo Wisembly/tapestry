@@ -35,15 +35,23 @@
    * ======== */
 
   var Dropdown = Object.extend({
-    constructor: function (el) {
-      this.init(el);
+    constructor: function (el, options) {
+      this.init(el, options);
     },
 
-    init: function (el) {
+    init: function (el, options) {
       this.el = el;
       this.updateReferences();
       this.$el.attr('tabindex', this.$el.attr('tabindex') || -1);
+      this.setOptions($.extend(this.$el.data(), options));
       this.bind();
+    },
+
+    setOptions: function (options) {
+      this.options = $.extend({
+        keyboard: true
+      }, this.options, options);
+      return this.options;
     },
 
     updateReferences: function () {
@@ -115,8 +123,9 @@
     },
 
     onKeyDown: function (event) {
+      if (this.options.keyboard !== true)
+        return;
       event.preventDefault();
-
       var keycode = event.which || event.keyCode;
 
       if (this.isOpened()) {
@@ -156,10 +165,20 @@
    * =============== */
 
   var DropdownSelect = Dropdown.extend({
-    init: function (el) {
+    init: function (el, options) {
+      options = $.extend($(el).data(), options);
       el = el.nodeName === 'SELECT' ? this.buildFromSelect(el) : el;
-      this.__super__.init.call(this, el);
-      this.setValue(this.getValue());
+      this.__super__.init.call(this, el, options);
+      this.value = this.getValue();
+      this.setValue(this.value);
+    },
+
+    setOptions: function (options) {
+      return this.__super__.setOptions.call(this, $.extend({
+          placeholder: '',
+          wheel: false,
+          scroll: false
+        }, this.options, options));
     },
 
     buildFromSelect: function (select) {
@@ -226,18 +245,24 @@
     },
 
     getValue: function () {
-      this.value = this.value || this.getSelectedItem().attr('data-value') || null;
-      return this.value;
+      var value = this.$input.val() || this.getSelectedItem().attr('data-value') || null;
+      if (!value && !this.options.placeholder)
+        value = this.$items.eq(0).attr('data-value');
+      return value;
     },
 
     setValue: function (value) {
         this.selectItem(value ? this.$items.filter('[data-value=' + value + ']') : null);
     },
 
-    itemIsVisible: function (item) {
+    itemIsVisible: function (item, direction) {
       item = $(item).get(0);
-      var rect = item.getBoundingClientRect();
-      return rect.top >= 0 && rect.left >= 0 && rect.bottom <= $(window).height() && rect.right <= $(window).width();
+      if (!item)
+        return false;
+      var rect = item.getBoundingClientRect(),
+          horizontal = rect.left >= 0 && rect.right <= $(window).width(),
+          vertical = rect.top >= 0 && rect.bottom <= $(window).height();
+      return direction === 'vertical' ? vertical : (direction === 'horizontal' ? horizontal : vertical && horizontal);
     },
 
     getSelectedItem: function () {
@@ -253,7 +278,7 @@
           value = $item.attr('data-value') || null;
 
       // update value label
-      this.$value.html($item.attr('data-label') || $item.html() || this.$el.attr('data-placeholder'));
+      this.$value.html($item.attr('data-label') || $item.html() || this.options.placeholder);
 
       // update selected item
       this.$items.removeAttr('aria-selected');
@@ -279,7 +304,7 @@
 
     activeItemNext: function (item) {
       var $next = Dropdown.prototype.activeItemNext.apply(this, arguments);
-      if ($next.length && !this.itemIsVisible($next)) {
+      if ($next.length && !this.itemIsVisible($next, 'vertical')) {
           var $scrollToItem = this.getScrolledToItem();
           this.scrollToItem($scrollToItem.length ? $scrollToItem.nextAll(selectors.item).eq(0) : this.$items.eq(0));
       }
@@ -288,14 +313,14 @@
 
     activeItemPrev: function (item) {
       var $prev = Dropdown.prototype.activeItemPrev.apply(this, arguments);
-      if ($prev.length && !this.itemIsVisible($prev))
+      if ($prev.length && !this.itemIsVisible($prev, 'vertical'))
         this.scrollToItem(this.getScrolledToItem().prevAll(selectors.item).eq(0));
       return $prev;
     },
 
     scrollToItem: function (item) {
       var $item = $(item);
-      if (this.isOpened()) {
+      if (this.options.scroll === true && this.isOpened()) {
         // store item
         this.$scrolledToItem = $item;
 
@@ -327,9 +352,11 @@
 
     /* EXPERIMENTAL */
     onWheel: function (event) {
+      if (this.options.wheel !== true)
+        return;
       var $first = this.$items.filter(':first'),
           $last = this.$items.filter(':last');
-      if (this.itemIsVisible($first) && this.itemIsVisible($last))
+      if (this.itemIsVisible($first, 'vertical') && this.itemIsVisible($last, 'vertical'))
         return;
       event.preventDefault();
       this._wheelDelta = isNaN(this._wheelDelta) ? 0 : this._wheelDelta;
@@ -344,24 +371,32 @@
             this.activeItemNext($item);
         this._wheelDelta = 0;
       }
-    },
+    }
 
   });
 
   /* PLUGIN DEFINITION
    * ================= */
 
-  $.fn.dropdown = function () {
+  $.fn.dropdown = function (options) {
     return this.each(function () {
-      var $this = $(this);
-      $(this).data('dropdown', $(this).data('dropdown') || Dropdown.create(this));
+      var $this = $(this),
+          component = $(this).data('dropdown');
+      if (component)
+        component.setOptions(options);
+      else
+        $(this).data('dropdown', Dropdown.create(this, options));
     });
   };
 
-  $.fn.dropdownSelect = function () {
+  $.fn.dropdownSelect = function (options) {
     return this.each(function () {
-      var $this = $(this);
-      $this.data('dropdown-select', $this.data('dropdown-select') || DropdownSelect.create(this));
+      var $this = $(this),
+          component = $(this).data('dropdown-select');
+      if (component)
+        component.setOptions(options);
+      else
+        $(this).data('dropdown-select', DropdownSelect.create(this, options));
     });
   };
 
@@ -372,24 +407,34 @@
 
   $.fn.tapestry = function () {
     return this.each(function () {
-      var $this = $(this);
-      $('[data-tapestry]', $this).each(function (index, el) {
-        var $el = $(el);
-        switch ($el.attr('data-tapestry')) {
-          case 'dropdown':
-            $el.dropdown();
-            break;
-          case 'dropdown-select':
-            $el.dropdownSelect();
-            break;
-        }
-      });
+      var $this = $(this),
+          fnInit = function (el) {
+            var $el = $(el);
+            switch ($el.attr('data-tapestry')) {
+              case 'dropdown':
+                $el.dropdown();
+                break;
+              case 'dropdown-select':
+                $el.dropdownSelect();
+                break;
+            }
+          };
 
-      $('select', $this).each(function (index, select) {
-        var $select = $(select);
-        if (!$select.parents().is('[data-tapestry=dropdown-select]'))
-          $select.dropdownSelect();
-      });
+      if ($this.attr('data-tapestry')) {
+        fnInit(this);
+      } else {
+        $('[data-tapestry]', $this).each(function (index, el) { fnInit(el); });
+      }
+
+      if (this.nodeName === 'SELECT') {
+        $this.dropdownSelect();
+      } else {
+        $('select', $this).each(function (index, select) {
+          var $select = $(select);
+          if (!$select.parents().is('[data-tapestry=dropdown-select]'))
+            $select.dropdownSelect();
+        });
+      }
     });
   };
 
@@ -397,15 +442,7 @@
   * ====================== */
 
   $(document).on('ready', function () {
-    // TMP TMP
-    $(document).on('change', '[data-tapestry=dropdown-select]', function (event) {
-      console.log('Dropdown-select has changed', event.currentTarget, event.target, $(event.target).val());
-    });
-    // TMP TMP
-
     $(document).tapestry();
-
-
   });
 
 }(window.jQuery);
