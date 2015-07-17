@@ -1,18 +1,22 @@
 .Panel-header {
-  @extend %u-cr;
+  @extend %u-cf;
   padding: 0 $pd--s;
-  line-height: $base-lh * 2;
+  line-height: $panel-header-height;
   color: $white;
   background: $deep-sea-green;
 }
 
 .PanelHeader-button {
   padding: 0 $pd--s;
-  line-height: $base-lh * 2;
+  line-height: $panel-header-height;
   vertical-align: top;
   color: $regent-st-blue;
 
   &:hover {
     color: $eastern-blue;
+  }
+
+  .Icon {
+    vertical-align: middle;
   }
 }
