@@ -242,8 +242,8 @@
     bind: function () {
       Dropdown.prototype.bind.apply(this, arguments);
       this.$el.on('click.dropdown.tapestry', selectors.item, $.proxy(this.onSelect, this));
-      this.$el.on('change.dropdown.tapestry', this.$input, $.proxy(this.onChanged, this));
       this.$el.on('wheel mousewheel DOMMouseScroll', selectors.list, $.proxy(this.onWheel, this));
+      this.$input.on('change.dropdown.tapestry', $.proxy(this.onChanged, this));
     },
 
     getValue: function () {
@@ -343,13 +343,16 @@
 
     onSelect: function (event) {
       event.stopPropagation();
-      this.selectItem(event.target);
+      this.selectItem(event.currentTarget);
     },
 
     onChanged: function (event) {
       this.updateReferences();
-      this.value = $(event.target).val() || null;
-      this.setValue(this.value);
+      var value = $(event.currentTarget).val() || null;
+      if (value !== this.value) {
+        this.value = value;
+        this.setValue(this.value);
+      }
     },
 
     /* EXPERIMENTAL */
