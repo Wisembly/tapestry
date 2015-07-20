@@ -103,7 +103,8 @@
 
     activeItemNext: function (item) {
       var $item = $(item),
-          $next = $item.length ? $item.nextAll(selectors.item).eq(0) : this.$items.eq(0);
+          index = this.$items.index($item),
+          $next = this.$items.eq(index + 1);
       if ($next.length)
         return this.activeItem($next);
       return $next;
@@ -111,7 +112,8 @@
 
     activeItemPrev: function (item) {
       var $item = $(item),
-          $prev = $item.prevAll(selectors.item).eq(0);
+          index = this.$items.index($item),
+          $prev = this.$items.eq(Math.max(0, index - 1));
       if ($prev.length)
         return this.activeItem($prev);
       return $prev;
