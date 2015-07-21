@@ -22,13 +22,23 @@ function compareRefs {
   npm run vt:compare
 }
 
+function lastContinue {
+  echo "";
+  read -p "Continue? (y/n)" CONTINUE
+
+  if [ "$CONTINUE" == "n" ]; then
+    exit 1;
+  fi
+}
+
 
 
 # Lint SCSS files
 
 echo "Linting SCSS files...";
-npm run lint
+scss-lint src/scss/** --config .scss-lint.yml
 
+echo ""
 read -p "Continue? (y/n)" CONTINUE_AFTER_LINT
 
 if [ "$CONTINUE_AFTER_LINT" == "n" ]; then
@@ -45,18 +55,5 @@ read -p "Build and compare refs? (y/n)" COMPARE_REFS
 if [ "$COMPARE_REFS" == "y" ]; then
   buildRefs
   compareRefs
-fi
-
-
-
-# Continue and deploy
-
-echo "";
-read -p "Continue and deploy? (y/n)" CONTINUE_AND_DEPLOY
-
-if [ "$CONTINUE_AND_DEPLOY" == "n" ]; then
-  exit 1;
-else
-  gulp deploy;
-  exit 0;
+  lastContinue
 fi
