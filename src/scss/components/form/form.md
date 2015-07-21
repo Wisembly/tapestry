@@ -37,17 +37,44 @@ A form displays a set of related user input fields in a structured way
   <div class="FormRow Row">
     <div class="Column Column-6">
       <label class="Label">State</label>
-      <select>
-        <option>Foo</option>
-        <option>Bar</option>
-      </select>
+      <div class="Dropdown Dropdown--block" data-tapestry="dropdown-select">
+        <input name="" value="bar" hidden>
+        <button class="Dropdown-toggle Dropdown-selectInput" aria-controls="dropdownSelectExample" aria-expanded="true">
+          <span class="Dropdown-value"></span>
+        </button>
+        <ul id="dropdownSelectExample" class="Dropdown-list">
+          <li class="Dropdown-item" data-value="foo">
+            Simple label 1
+          </li>
+          <li class="Dropdown-item" data-value="bar" aria-selected="true">
+            Simple label 2
+          </li>
+          <li class="Dropdown-item" data-value="baz" data-label="Custom label 3">
+            Simple label 3
+          </li>
+        </ul>
+      </div>
     </div>
     <div class="Column Column-6">
       <label class="Label">Country</label>
-      <select>
-        <option>Foo</option>
-        <option>Bar</option>
-      </select>
+      <div class="Dropdown Dropdown--block" data-tapestry="dropdown-select">
+        <input name="" value="bar" hidden>
+        <button class="Dropdown-toggle Dropdown-selectInput" aria-controls="dropdownSelectExample" aria-expanded="true">
+          <span class="Dropdown-value"></span>
+
+        </button>
+        <ul id="dropdownSelectExample" class="Dropdown-list">
+          <li class="Dropdown-item" data-value="foo">
+            Simple label 1
+          </li>
+          <li class="Dropdown-item" data-value="bar" aria-selected="true">
+            Simple label 2
+          </li>
+          <li class="Dropdown-item" data-value="baz" data-label="Custom label 3">
+            Simple label 3
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
   <div class="FormRow Row">
