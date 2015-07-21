@@ -1,4 +1,8 @@
 .Dropdown {
   @extend %u-posr;
   display: inline-block;
+
+  &:focus {
+    outline: none;
+  }
 }
