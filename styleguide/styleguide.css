@@ -263,18 +263,18 @@ p code {
 
 	/* Styleguide list */
 
-	.Styleguide-modulesContainer ul {
+	.Styleguide-modulesContainer .Styleguide-list {
 		margin: 0;
 		padding: 0;
 		list-style-type: circle;
 		list-style-position: inside;
 	}
 
-	.Styleguide-modulesContainer ul:not(:last-child) {
+	.Styleguide-modulesContainer .Styleguide-list:not(:last-child) {
 		margin: 0 0 1.5em;
 	}
 
-	.Styleguide-modulesContainer p + ul {
+	.Styleguide-modulesContainer p + .Styleguide-list {
 		margin-top: -1rem;
 	}
 
