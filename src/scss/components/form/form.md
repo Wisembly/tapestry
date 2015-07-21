@@ -8,11 +8,11 @@ A form displays a set of related user input fields in a structured way
     <div class="Column Column-12">
       <input name="title" id="mr" type="radio" class="Radio Input--inline" id="radioInput">
       <label for="mr" class="Label Label--inline" for="radioInput">Mr</label>
-      <input name="title" id="mrs" for="" type="radio" class="Radio Input--inline" id="radioInput">
+      <input name="title" id="mrs" type="radio" class="Radio Input--inline" id="radioInput">
       <label for="mrs" class="Label Label--inline" for="radioInput">Mrs</label>
-      <input name="title" id="ms" for="" type="radio" class="Radio Input--inline" id="radioInput">
+      <input name="title" id="ms" type="radio" class="Radio Input--inline" id="radioInput">
       <label for="ms" class="Label Label--inline" for="radioInput">Ms</label>
-      <input name="title" id="mx" for="" type="radio" class="Radio Input--inline" id="radioInput">
+      <input name="title" id="mx" type="radio" class="Radio Input--inline" id="radioInput">
       <label for="mx" class="Label Label--inline" for="radioInput">Mx</label>
     </div>
   </div>
@@ -38,7 +38,7 @@ A form displays a set of related user input fields in a structured way
     <div class="Column Column-6">
       <label class="Label">State</label>
       <div class="Dropdown Dropdown--block" data-tapestry="dropdown-select">
-        <input name="" value="bar" hidden>
+        <input name="" value="bar" type="hidden">
         <button class="Dropdown-toggle Dropdown-selectInput" aria-controls="dropdownSelectExample" aria-expanded="true">
           <span class="Dropdown-value"></span>
         </button>
