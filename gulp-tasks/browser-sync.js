@@ -5,6 +5,9 @@ module.exports = function () {
 		files: ['./dist/**/*'],
 		server: {
 			baseDir: './dist/'
-		}
+		},
+    ghostMode: {
+     scroll: false
+    }
 	});
 };
