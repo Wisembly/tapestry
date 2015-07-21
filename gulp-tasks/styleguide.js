@@ -15,7 +15,14 @@ var styleguide  = new Styleguide({
 	},
 	components: {
 		extension: 'html'
-	}
+	},
+  mdConverter: {
+    list: function (body) {
+      var _class = 'Styleguide-list';
+
+      return '<ul class="' + _class + '">' + body + '</ul>';
+    }
+  }
 });
 
 module.exports = function () {

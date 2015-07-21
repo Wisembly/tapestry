@@ -1,10 +1,16 @@
 .Label {
   display: inline-block;
+  margin-bottom: $mg--xs;
+  font-size: $fz--m;
   line-height: $base-lh;
   vertical-align: middle;
   cursor: pointer;
 
-  + .Input:not(.Input--block) {
+  + .Input--inline {
     margin-left: $mg--xs;
   }
+}
+
+.Label--inline {
+  margin-bottom: 0;
 }

@@ -31,10 +31,6 @@
   @import "components/button-group/core";
 }
 
-@if $import-button {
-  @import "components/button/core";
-}
-
 @if $import-checkbox {
   @import "components/form/checkbox/core";
 }
@@ -45,6 +41,10 @@
 
 @if $import-dropdown {
   @import "components/dropdown/core";
+}
+
+@if $import-form-row {
+  @import "components/form/row/core";
 }
 
 @if $import-fieldset {
@@ -70,6 +70,10 @@
 
 @if $import-input-group {
   @import "components/form/input-group/core";
+}
+
+@if $import-button {
+  @import "components/button/core";
 }
 
 @if $import-label {

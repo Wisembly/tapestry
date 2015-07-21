@@ -17,6 +17,15 @@
   }
 }
 
-.Input--block {
-  width: 100%;
+.Input--inline {
+  width: auto;
+
+  + .Label {
+    margin-right: $mg--s;
+    margin-bottom: 0;
+  }
+
+  + .Label--inline {
+    margin-left: $mg--xs;
+  }
 }

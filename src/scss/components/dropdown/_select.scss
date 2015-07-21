@@ -1,0 +1,29 @@
+.Dropdown-selectInput {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  padding: ($mg--s - rem(1px)) ($mg--l - rem(1px)) ($mg--s - rem(1px)) ($mg--s - rem(1px));
+  font-size: $fz--m;
+  line-height: $base-lh;
+  text-align: left;
+  vertical-align: middle;
+  color: $limed-spruce;
+  background-color: $white;
+  border: 1px solid $gray-chateau;
+  border-radius: $base-radius;
+  outline: 0;
+
+  &:focus {
+    outline: none;
+  }
+
+  &:after {
+    @extend %Icon;
+    @extend %Icon--triangleDown;
+    @include pos(a ($mg--s + ($fz--m / 2)) $mg--s null null);
+  }
+
+  + .Dropdown-list {
+    width: 100%;
+  }
+}
