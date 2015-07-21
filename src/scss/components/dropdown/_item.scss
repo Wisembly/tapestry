@@ -10,14 +10,23 @@
   border-radius: $base-radius;
   cursor: pointer;
 
-  &:hover,
-  &.is-active {
+  &:hover {
     background: $porcelain;
+  }
+
+  &.is-active {
+    background: $iron;
+  }
+
+  &:focus,
+  &:active {
+    background: $iron;
+    outline: none;
   }
 
   &[aria-selected="true"],
   &.is-selected {
-    background: $porcelain;
+    background: $regent-st-blue;
 
     &:after {
       @extend %Icon--checkmark;
@@ -26,10 +35,7 @@
     }
   }
 
-  &:focus {
-    background: $porcelain;
-    outline: none;
-  }
+
 }
 
 .Dropdown-hr {
