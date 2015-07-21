@@ -20,11 +20,10 @@
   &:after {
     @extend %Icon;
     @extend %Icon--triangleDown;
-    @include pos(a ($mg--s + ($fz--m/2)) $mg--s null null);
+    @include pos(a ($mg--s + ($fz--m / 2)) $mg--s null null);
   }
 
   + .Dropdown-list {
     width: 100%;
   }
-
 }
