@@ -1,5 +1,6 @@
 %Input-core {
   display: inline-block;
+  width: 100%;
   padding: ($pd--s - rem(1px)) $pd--s;
   font-size: $fz--m;
   line-height: $base-lh;
@@ -8,5 +9,4 @@
   background: $white;
   border: 1px solid $gray-chateau;
   border-radius: $base-radius;
-  box-sizing: border-box;
 }
