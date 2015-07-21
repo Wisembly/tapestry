@@ -2,8 +2,8 @@
 
 ```html
 <div class="Dropdown" data-tapestry="dropdown">
-  <button class="Dropdown-toggle Btn" aria-controls="dropdownBottomLeft" aria-expanded="true">Call to action</button>
-  <ul id="dropdownBottomLeft" class="Dropdown-list">
+  <button class="Dropdown-toggle Btn" aria-controls="" aria-expanded="false">Call to action</button>
+  <ul id="" class="Dropdown-list">
     <li class="Dropdown-item">
       Simple label
     </li>
@@ -54,7 +54,7 @@ example: `<ul id="dropdownTopLeft" class="Dropdown-list Dropdown-list--tl">∞</
 
 ```html
 <div class="Dropdown" data-tapestry="dropdown">
-  <button class="Dropdown-toggle Btn" aria-controls="dropdownDividerExample" aria-expanded="true">Call to action</button>
+  <button class="Dropdown-toggle Btn" aria-controls="dropdownDividerExample" aria-expanded="false">Call to action</button>
   <ul id="dropdownDividerExample" class="Dropdown-list" aria-labelledby="dropdownMenuDivider">
     <li class="Dropdown-item">
       Simple label 1
@@ -95,7 +95,7 @@ In the other hand, if the classic `<select`> does not suit you, if you need to c
 ```html
 <div class="Dropdown" data-tapestry="dropdown-select">
   <input name="" value="bar" hidden>
-  <button class="Dropdown-toggle Dropdown-selectInput" aria-controls="dropdownSelectExample" aria-expanded="true">
+  <button class="Dropdown-toggle Dropdown-selectInput" aria-controls="dropdownSelectExample" aria-expanded="false">
     <span class="Dropdown-value"></span>
   </button>
   <ul id="dropdownSelectExample" class="Dropdown-list">
