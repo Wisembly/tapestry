@@ -19,15 +19,6 @@
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--actionItem"></i>
-  </div>
-  <div class="Styleguide-iconDescription">
-    actionItem
-  </div>
-</div>
-
-<div class="Styleguide-iconWrapper">
-  <div class="Styleguide-iconItem">
     <i class="Icon Icon--add"></i>
   </div>
   <div class="Styleguide-iconDescription">
@@ -37,10 +28,10 @@
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--archive"></i>
+    <i class="Icon Icon--actionItem"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    archive
+    actionItem
   </div>
 </div>
 
@@ -59,6 +50,15 @@
   </div>
   <div class="Styleguide-iconDescription">
     arrowBack
+  </div>
+</div>
+
+<div class="Styleguide-iconWrapper">
+  <div class="Styleguide-iconItem">
+    <i class="Icon Icon--archive"></i>
+  </div>
+  <div class="Styleguide-iconDescription">
+    archive
   </div>
 </div>
 
@@ -154,19 +154,19 @@
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--board"></i>
+    <i class="Icon Icon--brush"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    board
+    brush
   </div>
 </div>
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--brush"></i>
+    <i class="Icon Icon--board"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    brush
+    board
   </div>
 </div>
 
@@ -217,15 +217,6 @@
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--clip"></i>
-  </div>
-  <div class="Styleguide-iconDescription">
-    clip
-  </div>
-</div>
-
-<div class="Styleguide-iconWrapper">
-  <div class="Styleguide-iconItem">
     <i class="Icon Icon--checkmark"></i>
   </div>
   <div class="Styleguide-iconDescription">
@@ -239,6 +230,15 @@
   </div>
   <div class="Styleguide-iconDescription">
     clock
+  </div>
+</div>
+
+<div class="Styleguide-iconWrapper">
+  <div class="Styleguide-iconItem">
+    <i class="Icon Icon--clip"></i>
+  </div>
+  <div class="Styleguide-iconDescription">
+    clip
   </div>
 </div>
 
@@ -424,19 +424,19 @@
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--grid"></i>
+    <i class="Icon Icon--group"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    grid
+    group
   </div>
 </div>
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--group"></i>
+    <i class="Icon Icon--grid"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    group
+    grid
   </div>
 </div>
 
@@ -523,19 +523,19 @@
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--locked"></i>
+    <i class="Icon Icon--mail"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    locked
+    mail
   </div>
 </div>
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--mail"></i>
+    <i class="Icon Icon--locked"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    mail
+    locked
   </div>
 </div>
 
@@ -586,19 +586,19 @@
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--openIssue"></i>
+    <i class="Icon Icon--openIssue--dashed"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    openIssue
+    openIssue--dashed
   </div>
 </div>
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--openIssue--dashed"></i>
+    <i class="Icon Icon--openIssue"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    openIssue--dashed
+    openIssue
   </div>
 </div>
 
@@ -613,19 +613,19 @@
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--pellet"></i>
+    <i class="Icon Icon--pause"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    pellet
+    pause
   </div>
 </div>
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--pause"></i>
+    <i class="Icon Icon--pellet"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    pause
+    pellet
   </div>
 </div>
 
@@ -892,19 +892,19 @@
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--triangleUp"></i>
+    <i class="Icon Icon--triangleDown"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    triangleUp
+    triangleDown
   </div>
 </div>
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--triangleDown"></i>
+    <i class="Icon Icon--triangleUp"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    triangleDown
+    triangleUp
   </div>
 </div>
 

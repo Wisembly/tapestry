@@ -40,32 +40,24 @@
 }
 
 
-%Icon--actionItem {
-  content: "\ea01";
-}
-
-.Icon--actionItem:before {
-  @extend %Icon--actionItem;
-}
-
 %Icon--add {
-  content: "\ea02";
+  content: "\ea01";
 }
 
 .Icon--add:before {
   @extend %Icon--add;
 }
 
-%Icon--archive {
-  content: "\ea03";
+%Icon--actionItem {
+  content: "\ea02";
 }
 
-.Icon--archive:before {
-  @extend %Icon--archive;
+.Icon--actionItem:before {
+  @extend %Icon--actionItem;
 }
 
 %Icon--alert {
-  content: "\ea04";
+  content: "\ea03";
 }
 
 .Icon--alert:before {
@@ -73,11 +65,19 @@
 }
 
 %Icon--arrowBack {
-  content: "\ea05";
+  content: "\ea04";
 }
 
 .Icon--arrowBack:before {
   @extend %Icon--arrowBack;
+}
+
+%Icon--archive {
+  content: "\ea05";
+}
+
+.Icon--archive:before {
+  @extend %Icon--archive;
 }
 
 %Icon--arrowDown {
@@ -160,20 +160,20 @@
   @extend %Icon--bell;
 }
 
-%Icon--board {
-  content: "\ea10";
-}
-
-.Icon--board:before {
-  @extend %Icon--board;
-}
-
 %Icon--brush {
-  content: "\ea11";
+  content: "\ea10";
 }
 
 .Icon--brush:before {
   @extend %Icon--brush;
+}
+
+%Icon--board {
+  content: "\ea11";
+}
+
+.Icon--board:before {
+  @extend %Icon--board;
 }
 
 %Icon--bulletDay {
@@ -216,16 +216,8 @@
   @extend %Icon--checked;
 }
 
-%Icon--clip {
-  content: "\ea17";
-}
-
-.Icon--clip:before {
-  @extend %Icon--clip;
-}
-
 %Icon--checkmark {
-  content: "\ea18";
+  content: "\ea17";
 }
 
 .Icon--checkmark:before {
@@ -233,11 +225,19 @@
 }
 
 %Icon--clock {
-  content: "\ea19";
+  content: "\ea18";
 }
 
 .Icon--clock:before {
   @extend %Icon--clock;
+}
+
+%Icon--clip {
+  content: "\ea19";
+}
+
+.Icon--clip:before {
+  @extend %Icon--clip;
 }
 
 %Icon--cog {
@@ -400,20 +400,20 @@
   @extend %Icon--google;
 }
 
-%Icon--grid {
-  content: "\ea2e";
-}
-
-.Icon--grid:before {
-  @extend %Icon--grid;
-}
-
 %Icon--group {
-  content: "\ea2f";
+  content: "\ea2e";
 }
 
 .Icon--group:before {
   @extend %Icon--group;
+}
+
+%Icon--grid {
+  content: "\ea2f";
+}
+
+.Icon--grid:before {
+  @extend %Icon--grid;
 }
 
 %Icon--help {
@@ -488,20 +488,20 @@
   @extend %Icon--lock;
 }
 
-%Icon--locked {
-  content: "\ea39";
-}
-
-.Icon--locked:before {
-  @extend %Icon--locked;
-}
-
 %Icon--mail {
-  content: "\ea3a";
+  content: "\ea39";
 }
 
 .Icon--mail:before {
   @extend %Icon--mail;
+}
+
+%Icon--locked {
+  content: "\ea3a";
+}
+
+.Icon--locked:before {
+  @extend %Icon--locked;
 }
 
 %Icon--meetingList {
@@ -544,20 +544,20 @@
   @extend %Icon--more;
 }
 
-%Icon--openIssue {
-  content: "\ea40";
-}
-
-.Icon--openIssue:before {
-  @extend %Icon--openIssue;
-}
-
 %Icon--openIssue--dashed {
-  content: "\ea41";
+  content: "\ea40";
 }
 
 .Icon--openIssue--dashed:before {
   @extend %Icon--openIssue--dashed;
+}
+
+%Icon--openIssue {
+  content: "\ea41";
+}
+
+.Icon--openIssue:before {
+  @extend %Icon--openIssue;
 }
 
 %Icon--paragraph {
@@ -568,20 +568,20 @@
   @extend %Icon--paragraph;
 }
 
-%Icon--pellet {
-  content: "\ea43";
-}
-
-.Icon--pellet:before {
-  @extend %Icon--pellet;
-}
-
 %Icon--pause {
-  content: "\ea44";
+  content: "\ea43";
 }
 
 .Icon--pause:before {
   @extend %Icon--pause;
+}
+
+%Icon--pellet {
+  content: "\ea44";
+}
+
+.Icon--pellet:before {
+  @extend %Icon--pellet;
 }
 
 %Icon--pelletCheck {
@@ -816,20 +816,20 @@
   @extend %Icon--trash;
 }
 
-%Icon--triangleUp {
-  content: "\ea62";
-}
-
-.Icon--triangleUp:before {
-  @extend %Icon--triangleUp;
-}
-
 %Icon--triangleDown {
-  content: "\ea63";
+  content: "\ea62";
 }
 
 .Icon--triangleDown:before {
   @extend %Icon--triangleDown;
+}
+
+%Icon--triangleUp {
+  content: "\ea63";
+}
+
+.Icon--triangleUp:before {
+  @extend %Icon--triangleUp;
 }
 
 %Icon--twitter {
