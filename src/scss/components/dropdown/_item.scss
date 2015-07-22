@@ -2,7 +2,7 @@
   display: block;
   position: relative;
   margin: $mg--xs;
-  padding: $pd--xs $pd--s;
+  padding: $pd--xs;
   font-size: $fz--s;
   font-weight: $fw--semi-bold;
   text-decoration: none;
@@ -14,10 +14,6 @@
     background: $porcelain;
   }
 
-  &.is-active {
-    background: $iron;
-  }
-
   &:focus,
   &:active {
     background: $iron;
@@ -26,7 +22,6 @@
 
   &[aria-selected="true"],
   &.is-selected {
-    background: $regent-st-blue;
 
     &:after {
       @extend %Icon--checkmark;
