@@ -9,7 +9,7 @@
   vertical-align: middle;
   color: $limed-spruce;
   background-color: $white;
-  border: 1px solid $gray-chateau;
+  border: 1px solid $base-border-color;
   border-radius: $base-radius;
   outline: 0;
 
@@ -18,9 +18,11 @@
   }
 
   &:after {
-    @extend %Icon;
     @extend %Icon--triangleDown;
-    @include pos(a ($mg--s + ($fz--m / 2)) $mg--s null null);
+    @include pos(a ($mg--s) $mg--s null null);
+    font-family: icons;
+    font-size: $fz--s;
+    color: $gray-chateau;
   }
 
   + .Dropdown-list {
