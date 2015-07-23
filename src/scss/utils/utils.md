@@ -86,6 +86,21 @@ Utility classes help you to add some common behaviors to elements. We decided to
 </table>
 ```
 
+## Reset default style
+
+You can reset styles for `<ul>`
+
+```html
+<ul>
+  <li>Default ul list</li>
+</ul>
+
+<ul class="u-resetList">
+  <li>ul reseted</li>
+</ul>
+```
+
+
 ## Spacing
 
 - Size values: <code>0</code> | <code>xs</code> | <code>s</code> | <code>m</code> | <code>l</code> | <code>xl</code>
