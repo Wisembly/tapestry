@@ -80,7 +80,7 @@ A form displays a set of related user input fields in a structured way
   <div class="FormRow Row">
     <div class="Column Column-12">
       <label class="Label" for="textarea1">Details</label>
-      <textarea class="Textarea" placeholder="Give more details about your shipping informations" id="textarea1"></textarea>
+      <textarea class="Textarea" placeholder="Give more details about your shipping informations" id="textarea1" disabled></textarea>
     </div>
   </div>
   <label class="Label">Newsletter</label>
