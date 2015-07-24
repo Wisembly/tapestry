@@ -12,4 +12,9 @@
   &:focus {
     outline: none;
   }
+
+  &[disabled] {
+    color: $iron;
+    background: $alabaster;
+  }
 }
