@@ -6,6 +6,11 @@
     outline: none;
   }
 
+  &[disabled] {
+    color: $gray-chateau;
+    background: $alabaster;
+  }
+
   &.Input--prefixed {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;

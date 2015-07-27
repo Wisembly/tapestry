@@ -7,6 +7,11 @@
   text-align: center;
   color: $slate-gray;
   border: 1px solid $base-border-color;
+
+  [aria-disabled=true] & {
+    color: $iron;
+  }
+
 }
 
 .Table-cell--important {

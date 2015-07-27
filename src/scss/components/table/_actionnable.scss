@@ -7,8 +7,14 @@
     transition: background-color .1s ease-out;
 
     &:hover,
-    &.is-selected {
+    &.is-selected,
+    &[aria-selected="true"] {
       background-color: $alabaster;
+    }
+
+    &[aria-disabled="true"] {
+      background-color: $alabaster;
+      cursor: default;
     }
   }
 
