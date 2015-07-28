@@ -20,4 +20,12 @@
       border-color: $hover-color;
     }
   }
+
+  .Btn--raw.Btn-#{$color-name} {
+    color: $color-value;
+
+    &:hover {
+      color: $hover-color;
+    }
+  }
 }
