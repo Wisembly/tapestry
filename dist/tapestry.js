@@ -202,7 +202,7 @@
 
       var $toggle = $('<button/>');
       $toggle.addClass(classNames.toggle);
-      $toggle.attr('aria-control', this.guid);
+      $toggle.attr('type', 'button').attr('aria-control', this.guid);
       $el.append($toggle);
 
       var $value = $('<span/>');
