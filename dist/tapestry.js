@@ -36,6 +36,11 @@
 
   var Dropdown = Object.extend({
     constructor: function (el, options) {
+      this.guid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+        var r = Math.random() * 16 | 0,
+            v = c == 'x' ? r : r & 0x3 | 0x8;
+        return v.toString(16);
+      });
       this.init(el, options);
     },
 
@@ -62,6 +67,7 @@
     },
 
     bind: function () {
+      this.$el.off('.dropdown.tapestry');
       this.$el.on('click.dropdown.tapestry', selectors.toggle, $.proxy(this.onToggle, this));
       this.$el.on('keydown.dropdown.tapestry', $.proxy(this.onKeyDown, this));
     },
@@ -184,12 +190,6 @@
     },
 
     buildFromSelect: function (select) {
-      var guid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
-        var r = Math.random() * 16 | 0,
-            v = c == 'x' ? r : r & 0x3 | 0x8;
-        return v.toString(16);
-      });
-
       var $el = $('<div/>');
       $el.addClass(select.className).addClass(classNames.dropdown);
       $el.attr('data-tapestry', 'dropdown-select');
@@ -202,7 +202,7 @@
 
       var $toggle = $('<button/>');
       $toggle.addClass(classNames.toggle);
-      $toggle.attr('aria-control', guid);
+      $toggle.attr('aria-control', this.guid);
       $el.append($toggle);
 
       var $value = $('<span/>');
@@ -210,7 +210,7 @@
       $toggle.append($value);
 
       var $list = $('<ul/>');
-      $list.attr('id', guid);
+      $list.attr('id', this.guid);
       $list.addClass(classNames.list);
       $el.append($list);
 
@@ -242,7 +242,7 @@
     bind: function () {
       Dropdown.prototype.bind.apply(this, arguments);
       this.$el.on('click.dropdown.tapestry', selectors.item, $.proxy(this.onSelect, this));
-      this.$el.on('wheel mousewheel DOMMouseScroll', selectors.list, $.proxy(this.onWheel, this));
+      this.$el.on('wheel.dropdown.tapestry mousewheel.dropdown.tapestry DOMMouseScroll.dropdown.tapestry', selectors.list, $.proxy(this.onWheel, this));
       this.$input.on('change.dropdown.tapestry', $.proxy(this.onChanged, this));
     },
 
