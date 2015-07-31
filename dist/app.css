@@ -1431,7 +1431,10 @@ th {
 .Media {
   display: -webkit-flex;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  -webkit-flex: 1 0 auto;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto; }
 
 .Media-img {
   -webkit-flex-shrink: 0;
