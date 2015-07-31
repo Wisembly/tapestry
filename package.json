@@ -17,7 +17,6 @@
     "gulp-rename": "1.2.0",
     "gulp-sass": "2.0.3",
     "gulp-sketch": "0.0.9",
-    "gulp-sourcemaps": "1.5.2",
     "gulp-stylestats": "0.6.0",
     "lodash": "3.9.3",
     "styleguide-generator": "0.5.0"
