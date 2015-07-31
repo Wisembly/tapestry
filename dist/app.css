@@ -1154,13 +1154,14 @@ th {
   font-size: 1rem;
   line-height: 1.71429rem;
   vertical-align: middle;
-  color: #a1a9ae;
+  color: #3a434c;
   background: #fff;
   border: 1px solid #d5d9da;
   border-radius: 0.21429rem; }
 
 .Input:focus {
   color: #3a434c;
+  border-color: #a1a9ae;
   outline: none; }
 
 .Input[disabled] {
@@ -1215,6 +1216,8 @@ th {
     margin-top: 0;
     border-radius: 0;
     border-left-width: 0; }
+  .InputGroup-item:focus {
+    border-color: #d5d9da; }
   .InputGroup-item:last-child {
     border-top-right-radius: 0.21429rem;
     border-bottom-right-radius: 0.21429rem; }
@@ -1803,12 +1806,14 @@ input:checked + .Switch--s {
   height: 5.28571rem;
   padding: 0.85714rem;
   line-height: 1.71429rem;
-  color: #a1a9ae;
+  color: #3a434c;
   background: #fff;
   border: 1px solid #d5d9da;
   border-radius: 0.21429rem;
   resize: none; }
   .Textarea:focus {
+    color: #3a434c;
+    border-color: #a1a9ae;
     outline: none; }
   .Textarea[disabled] {
     color: #a1a9ae;

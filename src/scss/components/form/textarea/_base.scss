@@ -10,6 +10,8 @@
   resize: none;
 
   &:focus {
+    color: $limed-spruce;
+    border-color: $gray-chateau;
     outline: none;
   }
 

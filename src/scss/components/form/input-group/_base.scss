@@ -21,6 +21,10 @@
     border-left-width: 0;
   }
 
+  &:focus {
+    border-color: $base-border-color;
+  }
+
   &:last-child {
     border-top-right-radius: $base-radius;
     border-bottom-right-radius: $base-radius;
