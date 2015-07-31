@@ -3,6 +3,11 @@
   z-index: zi("notification");
 }
 
+.Notification--block {
+  display: block;
+  width: 100%;
+}
+
 .Notification--tc {
   top: $mg--s;
   right: auto;

@@ -45,6 +45,10 @@ To fix your Notification, simply add
       <td class="Table-cell">Will add a position fixed to `.Notification`</td>
     </tr>
     <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal">`.Notification--block`</td>
+      <td class="Table-cell">Will display `.Notification` as block</td>
+    </tr>
+    <tr class="Table-row">
       <td class="Table-cell Table-cell--important u-tal">`.Notification--tc`</td>
       <td class="Table-cell">Top Center window position</td>
     </tr>
