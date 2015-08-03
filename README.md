@@ -67,7 +67,7 @@ git ci -nm "My commit message"
 
 
 ## Declaration order
-See https://github.com/Wisembly/tapestry/blob/master/scss-lint.yml
+See https://github.com/Wisembly/tapestry/blob/master/.scss-lint.yml
 
 ## Else
  * Never use IDs
