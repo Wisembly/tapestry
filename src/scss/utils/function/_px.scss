@@ -1,6 +1,7 @@
 // px()
 // Convert a rem unit into a px one
 // Based on $base-fz
+$px-only: true;
 
 @function px($values) {
   $list: ();
