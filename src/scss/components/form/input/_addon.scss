@@ -1,6 +1,7 @@
 .Input-addOn {
   @extend %Input-core;
   width: auto;
+  flex-shrink: 0;
 
   &.Input-addOn--prefix {
     border-right: 0;
