@@ -682,12 +682,15 @@ th {
   .Dropdown-item:active {
     background: #d5d9da;
     outline: none; }
-  .Dropdown-item[aria-selected="true"]:after,
-  .Dropdown-item.is-selected:after {
-    position: absolute;
-    top: 0.42857rem;
-    right: 0.85714rem;
-    font-family: icons; }
+  .Dropdown-item[aria-selected="true"],
+  .Dropdown-item.is-selected {
+    padding-right: 2.57143rem; }
+    .Dropdown-item[aria-selected="true"]:after,
+    .Dropdown-item.is-selected:after {
+      position: absolute;
+      top: 0.42857rem;
+      right: 0.85714rem;
+      font-family: icons; }
 
 .Dropdown-hr {
   margin: 0.42857rem 0;
@@ -1185,7 +1188,10 @@ th {
     margin-left: 0.42857rem; }
 
 .Input-addOn {
-  width: auto; }
+  width: auto;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0; }
   .Input-addOn.Input-addOn--prefix {
     border-right: 0;
     border-top-right-radius: 0;
