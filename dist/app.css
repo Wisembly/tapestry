@@ -1790,7 +1790,7 @@ input:checked + .Switch--s {
   display: block;
   position: relative;
   padding: 1.71429rem 0.85714rem;
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: 600;
   text-decoration: none;
   color: #708189;
@@ -1800,6 +1800,25 @@ input:checked + .Switch--s {
 .Tab-item:hover .Tab-link,
 .Tab-item.is-selected .Tab-link {
   color: #07698d; }
+
+.Tabs--vertical {
+  margin-left: 0; }
+  .Tabs--vertical .Tab-item {
+    display: block; }
+    .Tabs--vertical .Tab-item:after {
+      position: absolute;
+      top: 0.42857rem;
+      right: auto;
+      bottom: 0.42857rem;
+      left: 0;
+      width: 0;
+      height: auto; }
+    .Tabs--vertical .Tab-item:hover:after,
+    .Tabs--vertical .Tab-item[aria-selected="true"]:after {
+      width: 0.28571rem;
+      height: auto; }
+  .Tabs--vertical .Tab-link {
+    padding: 0.42857rem 0.85714rem 0.42857rem 1.71429rem; }
 
 .Tabs--s .Tab-link {
   padding: 0.42857rem 0.85714rem;
