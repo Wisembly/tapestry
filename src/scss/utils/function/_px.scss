@@ -11,16 +11,16 @@ $px-only: true;
     $unit : unit($value);
     $val  : parseInt($value);
 
-    @if ($px-only) and ($unit == 'rem') {
+    @if ($px-only) and ($unit == "rem") {
       $list: append($list, floor(($val * $base-fz)));
     }
 
-    @else if ($unit == 'px') or ($unit == 'rem') {
+    @else if ($unit == "px") or ($unit == "rem") {
       $list: append($list, $value);
     }
 
     @else {
-      @warn 'There is no unit conversion for #{$unit}';
+      @warn "There is no unit conversion for #{$unit}";
     }
   }
 
