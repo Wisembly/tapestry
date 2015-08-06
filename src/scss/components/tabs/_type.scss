@@ -1,0 +1,23 @@
+.Tabs--vertical {
+  margin-left: 0;
+
+  .Tab-item {
+    display: block;
+
+    &:after {
+      @include pos(a $mg--xs auto $mg--xs 0);
+      width: 0;
+      height: auto;
+    }
+
+    &:hover:after,
+    &[aria-selected="true"]:after {
+      width: rem(4px);
+      height: auto;
+    }
+  }
+
+  .Tab-link {
+    padding: $pd--xs $pd--s $pd--xs $pd--m;
+  }
+}
