@@ -32,7 +32,6 @@
         ".Collection",
         ".Collection--actionnable .Collection-item.is-active",
         ".Dropdown",
-        "[aria-expanded=true] + .Dropdown",
         ".Dropdown-hr",
         ".Dropdown-item",
         ".Input",
