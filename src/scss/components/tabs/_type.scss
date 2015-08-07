@@ -10,7 +10,6 @@
       height: auto;
     }
 
-    &:hover:after,
     &[aria-selected="true"]:after {
       width: rem(4px);
       height: auto;

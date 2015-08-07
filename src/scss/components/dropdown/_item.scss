@@ -10,16 +10,6 @@
   border-radius: $base-radius;
   cursor: pointer;
 
-  &:hover {
-    background: $porcelain;
-  }
-
-  &:focus,
-  &:active {
-    background: $iron;
-    outline: none;
-  }
-
   &[aria-selected="true"],
   &.is-selected {
     padding-right: ($mg--m + $mg--s);
@@ -30,8 +20,6 @@
       font-family: icons;
     }
   }
-
-
 }
 
 .Dropdown-hr {

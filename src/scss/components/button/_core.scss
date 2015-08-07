@@ -3,3 +3,10 @@
 @import "colors";
 @import "types";
 @import "sizes";
+
+@if $import-pseudo-classes {
+  @import "state/base";
+  @import "state/disable";
+  @import "state/color";
+  @import "state/type";
+}

@@ -31,10 +31,6 @@
   @import "components/button-group/core";
 }
 
-@if $import-checkbox {
-  @import "components/form/checkbox/core";
-}
-
 @if $import-collection {
   @import "components/collection/core";
 }
@@ -108,10 +104,6 @@
   @import "components/popovers/core";
 }
 
-@if $import-radio {
-  @import "components/form/radio/core";
-}
-
 @if $import-switch {
   @import "components/switch/core";
 }
@@ -128,6 +120,6 @@
   @import "components/form/textarea/core";
 }
 
-@if $import-tooltip {
+@if $import-tooltip and $import-pseudo-classes {
   @import "components/tooltip/core";
 }

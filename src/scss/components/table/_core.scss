@@ -2,3 +2,7 @@
 @import "cell";
 
 @import "actionnable";
+
+@if $import-pseudo-classes {
+  @import "state/actionnable";
+}

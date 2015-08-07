@@ -610,11 +610,14 @@ th {
 
 .Collection--actionnable .Collection-item {
   cursor: pointer; }
-  .Collection--actionnable .Collection-item:hover,
   .Collection--actionnable .Collection-item.is-active {
     background-color: #ebeeef; }
-  .Collection--actionnable .Collection-item:active {
-    box-shadow: inset 0 1px 4px 0 rgba(58, 67, 76, 0.5); }
+
+.Collection--actionnable .Collection-item:hover {
+  background-color: #ebeeef; }
+
+.Collection--actionnable .Collection-item:active {
+  box-shadow: inset 0 1px 4px 0 rgba(58, 67, 76, 0.5); }
 
 .Dropdown {
   display: inline-block; }
@@ -680,12 +683,6 @@ th {
   color: inherit;
   border-radius: 0.21429rem;
   cursor: pointer; }
-  .Dropdown-item:hover {
-    background: #ebeeef; }
-  .Dropdown-item:focus,
-  .Dropdown-item:active {
-    background: #d5d9da;
-    outline: none; }
   .Dropdown-item[aria-selected="true"],
   .Dropdown-item.is-selected {
     padding-right: 2.57143rem; }
@@ -728,6 +725,14 @@ th {
 .Dropdown-list--br {
   right: 0;
   left: auto; }
+
+.Dropdown-item:hover {
+  background: #ebeeef; }
+
+.Dropdown-item:focus,
+.Dropdown-item:active {
+  background: #d5d9da;
+  outline: none; }
 
 .FormRow {
   margin-bottom: 1.71429rem; }
@@ -1249,22 +1254,11 @@ th {
   border-radius: 0.21429rem;
   outline: 0;
   transition: background-color 0.2s ease-out, box-shadow 0.05s ease-out, color 0.1s ease-out; }
-  .Btn:hover {
-    background-color: #708189; }
-  .Btn:active {
-    box-shadow: inset 0 1px 4px 0 rgba(58, 67, 76, 0.5); }
   .Btn[disabled],
   .Btn.is-disabled {
     color: #a1a9ae;
     background-color: #d5d9da;
     cursor: not-allowed; }
-    .Btn[disabled]:hover,
-    .Btn.is-disabled:hover {
-      color: #a1a9ae;
-      background: #d5d9da; }
-    .Btn[disabled]:active,
-    .Btn.is-disabled:active {
-      box-shadow: inset 0 0 0 0 transparent; }
   .Btn .Icon {
     display: inline-block;
     line-height: 1.71429rem;
@@ -1272,115 +1266,64 @@ th {
 
 .Btn--primary {
   background-color: #07698d; }
-  .Btn--primary:hover {
-    background-color: #0d5c7c; }
 
 .Btn--outline.Btn--primary {
   color: #07698d;
   border-color: #07698d; }
-  .Btn--outline.Btn--primary:hover {
-    color: #0d5c7c;
-    border-color: #0d5c7c; }
 
 .Btn--raw.Btn--primary {
   color: #07698d; }
-  .Btn--raw.Btn--primary:hover {
-    color: #0d5c7c; }
 
 .Btn--alt {
   background-color: #289bc4; }
-  .Btn--alt:hover {
-    background-color: #258aae; }
 
 .Btn--outline.Btn--alt {
   color: #289bc4;
   border-color: #289bc4; }
-  .Btn--outline.Btn--alt:hover {
-    color: #258aae;
-    border-color: #258aae; }
 
 .Btn--raw.Btn--alt {
   color: #289bc4; }
-  .Btn--raw.Btn--alt:hover {
-    color: #258aae; }
 
 .Btn--validate {
   background-color: #46b489; }
-  .Btn--validate:hover {
-    background-color: #41a07a; }
 
 .Btn--outline.Btn--validate {
   color: #46b489;
   border-color: #46b489; }
-  .Btn--outline.Btn--validate:hover {
-    color: #41a07a;
-    border-color: #41a07a; }
 
 .Btn--raw.Btn--validate {
   color: #46b489; }
-  .Btn--raw.Btn--validate:hover {
-    color: #41a07a; }
 
 .Btn--info {
   background-color: #f1bc33; }
-  .Btn--info:hover {
-    background-color: #d5a82d; }
 
 .Btn--outline.Btn--info {
   color: #f1bc33;
   border-color: #f1bc33; }
-  .Btn--outline.Btn--info:hover {
-    color: #d5a82d;
-    border-color: #d5a82d; }
 
 .Btn--raw.Btn--info {
   color: #f1bc33; }
-  .Btn--raw.Btn--info:hover {
-    color: #d5a82d; }
 
 .Btn--error {
   background-color: #e25c5b; }
-  .Btn--error:hover {
-    background-color: #c85450; }
 
 .Btn--outline.Btn--error {
   color: #e25c5b;
   border-color: #e25c5b; }
-  .Btn--outline.Btn--error:hover {
-    color: #c85450;
-    border-color: #c85450; }
 
 .Btn--raw.Btn--error {
   color: #e25c5b; }
-  .Btn--raw.Btn--error:hover {
-    color: #c85450; }
 
 .Btn--outline {
   padding: 0.78571rem 1.64286rem;
   color: #a1a9ae;
   background-color: #fff;
   border: 1px solid #a1a9ae; }
-  .Btn--outline:hover {
-    color: #708189;
-    background-color: #fff;
-    border-color: #708189; }
-  .Btn--outline:active {
-    background-color: #fff; }
 
 .Btn--raw {
   color: #a1a9ae;
   background-color: transparent;
   border: 0; }
-  .Btn--raw:hover {
-    color: #708189;
-    background-color: transparent; }
-  .Btn--raw:active {
-    background-color: transparent;
-    box-shadow: none; }
-  .Btn--raw[disabled] {
-    background: none; }
-    .Btn--raw[disabled]:hover {
-      background: none; }
 
 .Btn.has-icon {
   position: relative;
@@ -1427,6 +1370,92 @@ th {
   width: 3.42857rem;
   padding: 0.85714rem 0;
   border-radius: 50%; }
+
+.Btn:hover {
+  background-color: #708189; }
+
+.Btn:active {
+  box-shadow: inset 0 1px 4px 0 rgba(58, 67, 76, 0.5); }
+
+.Btn[disabled]:hover,
+.Btn.is-disabled:hover {
+  color: #a1a9ae;
+  background: #d5d9da; }
+
+.Btn[disabled]:active,
+.Btn.is-disabled:active {
+  box-shadow: inset 0 0 0 0 transparent; }
+
+.Btn--primary:hover {
+  background-color: #0d5c7c; }
+
+.Btn--outline.Btn--primary:hover {
+  color: #0d5c7c;
+  border-color: #0d5c7c; }
+
+.Btn--raw.Btn--primary:hover {
+  color: #0d5c7c; }
+
+.Btn--alt:hover {
+  background-color: #258aae; }
+
+.Btn--outline.Btn--alt:hover {
+  color: #258aae;
+  border-color: #258aae; }
+
+.Btn--raw.Btn--alt:hover {
+  color: #258aae; }
+
+.Btn--validate:hover {
+  background-color: #41a07a; }
+
+.Btn--outline.Btn--validate:hover {
+  color: #41a07a;
+  border-color: #41a07a; }
+
+.Btn--raw.Btn--validate:hover {
+  color: #41a07a; }
+
+.Btn--info:hover {
+  background-color: #d5a82d; }
+
+.Btn--outline.Btn--info:hover {
+  color: #d5a82d;
+  border-color: #d5a82d; }
+
+.Btn--raw.Btn--info:hover {
+  color: #d5a82d; }
+
+.Btn--error:hover {
+  background-color: #c85450; }
+
+.Btn--outline.Btn--error:hover {
+  color: #c85450;
+  border-color: #c85450; }
+
+.Btn--raw.Btn--error:hover {
+  color: #c85450; }
+
+.Btn--outline:hover {
+  color: #708189;
+  background-color: #fff;
+  border-color: #708189; }
+
+.Btn--outline:active {
+  background-color: #fff; }
+
+.Btn--raw:hover {
+  color: #708189;
+  background-color: transparent; }
+
+.Btn--raw:active {
+  background-color: transparent;
+  box-shadow: none; }
+
+.Btn--raw[disabled] {
+  background: none; }
+  .Btn--raw[disabled]:hover {
+    background: none; }
 
 .Label {
   display: inline-block;
@@ -1563,8 +1592,6 @@ th {
   line-height: 3.42857rem;
   vertical-align: top;
   color: #aed7e8; }
-  .PanelHeader-button:hover {
-    color: #258aae; }
   .PanelHeader-button .Icon {
     vertical-align: middle; }
 
@@ -1610,6 +1637,9 @@ th {
     transition: opacity 0.25s ease-out; }
   .Panel--tl[aria-hidden="true"] {
     left: -100%; }
+
+.PanelHeader-button:hover {
+  color: #258aae; }
 
 .Pellet {
   display: inline-block;
@@ -1756,7 +1786,6 @@ input:checked + .Switch--s {
     border-top: 1px solid #d5d9da;
     cursor: pointer;
     transition: background-color 0.1s ease-out; }
-    .Table--actionnable .Table-row:hover,
     .Table--actionnable .Table-row.is-selected,
     .Table--actionnable .Table-row[aria-selected="true"] {
       background-color: #f7f7f7; }
@@ -1769,6 +1798,9 @@ input:checked + .Switch--s {
     margin-right: 0.85714rem; }
   .Table--actionnable .Table-cell {
     border: 0; }
+
+.Table--actionnable .Table-row:hover {
+  background-color: #f7f7f7; }
 
 .Tabs {
   margin: 0 0 0 -0.85714rem;
@@ -1789,7 +1821,6 @@ input:checked + .Switch--s {
     height: 0;
     background: #07698d;
     transition: height 0.2s ease; }
-  .Tab-item:hover:after,
   .Tab-item[aria-selected="true"]:after {
     height: 0.28571rem; }
 
@@ -1804,7 +1835,6 @@ input:checked + .Switch--s {
   cursor: pointer;
   outline: 0; }
 
-.Tab-item:hover .Tab-link,
 .Tab-item.is-selected .Tab-link {
   color: #07698d; }
 
@@ -1820,7 +1850,6 @@ input:checked + .Switch--s {
       left: 0;
       width: 0;
       height: auto; }
-    .Tabs--vertical .Tab-item:hover:after,
     .Tabs--vertical .Tab-item[aria-selected="true"]:after {
       width: 0.28571rem;
       height: auto; }
@@ -1831,10 +1860,22 @@ input:checked + .Switch--s {
   padding: 0.42857rem 0.85714rem;
   font-size: 0.86667rem; }
 
-.Tabs--s .Tab-item:hover:after,
 .Tabs--s .Tab-item[aria-selected="true"]:after,
 .Tabs--s .Tab-item.is-selected:after {
   height: 0.14286rem; }
+
+.Tab-item:hover:after {
+  height: 0.28571rem; }
+
+.Tab-item:hover .Tab-link {
+  color: #07698d; }
+
+.Tabs--s .Tab-item:hover:after {
+  height: 0.14286rem; }
+
+.Tabs--vertical .Tab-item:hover:after {
+  width: 0.28571rem;
+  height: auto; }
 
 .Textarea {
   width: 100%;

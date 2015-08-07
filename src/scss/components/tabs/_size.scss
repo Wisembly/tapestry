@@ -4,7 +4,6 @@
     font-size: $fz--s;
   }
 
-  .Tab-item:hover,
   .Tab-item[aria-selected="true"],
   .Tab-item.is-selected {
     &:after {

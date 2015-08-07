@@ -1,0 +1,7 @@
+.Tab-item {
+  &:hover {
+    &:after {
+      height: rem(4px);
+    }
+  }
+}

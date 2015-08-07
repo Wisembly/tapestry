@@ -10,7 +10,6 @@
     transition: height .2s ease;
   }
 
-  &:hover,
   &[aria-selected="true"] {
     &:after {
       height: rem(4px);
