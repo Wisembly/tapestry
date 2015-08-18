@@ -2,11 +2,6 @@
   @extend %u-posr;
 }
 
-.Notification--fixed {
-  @extend %u-posf;
-  z-index: zi("notification");
-}
-
 .Notification {
   display: inline-block;
   padding: $pd--s $base-pd;

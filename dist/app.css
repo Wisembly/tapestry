@@ -1520,9 +1520,6 @@ th {
 [data-threshold="99"] .Meter-bar {
   background: #e25c5b; }
 
-.Notification--fixed {
-  z-index: 9000; }
-
 .Notification {
   display: inline-block;
   padding: 0.85714rem 1.71429rem;
@@ -1539,6 +1536,13 @@ th {
 
 .Notification--error {
   background: #e25c5b; }
+
+.Notification--fixed {
+  z-index: 9000; }
+
+.Notification--block {
+  display: block;
+  width: 100%; }
 
 .Notification--tc {
   top: 0.85714rem;
