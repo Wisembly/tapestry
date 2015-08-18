@@ -3,3 +3,7 @@
 @import "list";
 @import "item";
 @import "positions";
+
+@if $import-pseudo-classes {
+  @import "state/item";
+}

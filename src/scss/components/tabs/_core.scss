@@ -3,3 +3,10 @@
 @import "link";
 @import "type";
 @import "size";
+
+@if $import-pseudo-classes {
+  @import "state/item";
+  @import "state/link";
+  @import "state/size";
+  @import "state/type";
+}

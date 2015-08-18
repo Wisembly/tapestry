@@ -1,0 +1,11 @@
+.Dropdown-item {
+  &:hover {
+    background: $porcelain;
+  }
+
+  &:focus,
+  &:active {
+    background: $iron;
+    outline: none;
+  }
+}

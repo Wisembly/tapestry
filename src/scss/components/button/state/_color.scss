@@ -4,15 +4,21 @@
   $hover-color: nth($btn-hover-colors, $i);
 
   .Btn-#{$color-name} {
-    background-color: $color-value;
+    &:hover {
+      background-color: $hover-color;
+    }
   }
 
   .Btn--outline.Btn-#{$color-name} {
-    color: $color-value;
-    border-color: $color-value;
+    &:hover {
+      color: $hover-color;
+      border-color: $hover-color;
+    }
   }
 
   .Btn--raw.Btn-#{$color-name} {
-    color: $color-value;
+    &:hover {
+      color: $hover-color;
+    }
   }
 }

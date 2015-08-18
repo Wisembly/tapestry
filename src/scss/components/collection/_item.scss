@@ -17,13 +17,8 @@
   .Collection-item {
     cursor: pointer;
 
-    &:hover,
     &.is-active {
       background-color: $porcelain;
-    }
-
-    &:active {
-      box-shadow: inset 0 1px 4px 0 rgba($limed-spruce, .5);
     }
   }
 }

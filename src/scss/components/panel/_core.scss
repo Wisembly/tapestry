@@ -3,3 +3,7 @@
 @import "header";
 @import "content";
 @import "position";
+
+@if $import-pseudo-classes {
+  @import "state/header";
+}

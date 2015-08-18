@@ -1,0 +1,8 @@
+.Tabs--vertical {
+  .Tab-item {
+    &:hover:after {
+      width: rem(4px);
+      height: auto;
+    }
+  }
+}

@@ -1,0 +1,31 @@
+.Btn--outline {
+  &:hover {
+    color: $slate-gray;
+    background-color: $white;
+    border-color: $slate-gray;
+  }
+
+  &:active {
+    background-color: $white;
+  }
+}
+
+.Btn--raw {
+  &:hover {
+    color: $slate-gray;
+    background-color: $transparent;
+  }
+
+  &:active {
+    background-color: $transparent;
+    box-shadow: none;
+  }
+
+  &[disabled] {
+    background: none;
+
+    &:hover {
+      background: none;
+    }
+  }
+}

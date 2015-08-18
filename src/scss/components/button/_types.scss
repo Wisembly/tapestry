@@ -3,40 +3,12 @@
   color: $gray-chateau;
   background-color: $white;
   border: 1px solid $gray-chateau;
-
-  &:hover {
-    color: $slate-gray;
-    background-color: $white;
-    border-color: $slate-gray;
-  }
-
-  &:active {
-    background-color: $white;
-  }
 }
 
 .Btn--raw {
   color: $gray-chateau;
   background-color: $transparent;
   border: 0;
-
-  &:hover {
-    color: $slate-gray;
-    background-color: $transparent;
-  }
-
-  &:active {
-    background-color: $transparent;
-    box-shadow: none;
-  }
-
-  &[disabled] {
-    background: none;
-
-    &:hover {
-      background: none;
-    }
-  }
 }
 
 .Btn.has-icon {

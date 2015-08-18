@@ -1,0 +1,11 @@
+.Btn[disabled],
+.Btn.is-disabled {
+  &:hover {
+    color: $gray-chateau;
+    background: $iron;
+  }
+
+  &:active {
+    box-shadow: inset 0 0 0 0 $transparent;
+  }
+}
