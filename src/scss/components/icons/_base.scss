@@ -1,7 +1,7 @@
 @font-face {
   font-family: "icons";
-  src: url("#{$f-path}/icons.woff2#iefix") format("woff2"),
-       url("#{$f-path}/icons.woff#iefix") format("woff");
+  src: url("#{$f-path}/icons.woff2") format("woff2"),
+       url("#{$f-path}/icons.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
