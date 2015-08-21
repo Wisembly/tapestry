@@ -11,7 +11,7 @@
 
   Function.prototype.create = function () {
     var instance = new this;
-    instance.constructor.apply(instance, arguments);
+    instance.construct.apply(instance, arguments);
     return instance;
   };
 
@@ -35,7 +35,7 @@
    * ======== */
 
   var Dropdown = Object.extend({
-    constructor: function (el, options) {
+    construct: function (el, options) {
       this.guid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
         var r = Math.random() * 16 | 0,
             v = c == 'x' ? r : r & 0x3 | 0x8;
@@ -126,6 +126,7 @@
     },
 
     onToggle: function (event) {
+      console.log('onToggle');
       event.stopPropagation();
       this.toggle();
     },
