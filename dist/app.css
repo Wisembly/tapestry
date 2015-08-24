@@ -1549,6 +1549,108 @@ th {
 [data-threshold="99"] .Meter-bar {
   background: #e25c5b; }
 
+.Modal {
+  position: fixed;
+  top: -100%;
+  right: 50%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  z-index: 8000;
+  width: 34.28571rem;
+  max-height: calc(100vh - 3.42857rem);
+  box-shadow: 0 0 10px 0 rgba(112, 129, 137, 0.3);
+  opacity: 0;
+  -webkit-transform: translateX(50%);
+          transform: translateX(50%);
+  transition: all 0.3s ease-in-out; }
+  .Modal[aria-hidden="false"] {
+    top: 1.71429rem;
+    opacity: 1; }
+
+.Modal-header {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  background: #07698d;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.ModalHeader-button {
+  padding: 0.85714rem 1.71429rem;
+  color: #aed7e8; }
+
+.ModalHeader-title {
+  margin: 0.85714rem 1.71429rem;
+  font-size: 1.13333rem;
+  font-weight: 600;
+  color: #fff; }
+
+.Modal-content {
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  color: #708189;
+  background: #fff;
+  overflow: auto; }
+
+.Modal-content--message {
+  margin: 0;
+  padding: 1.71429rem;
+  text-align: center; }
+
+.Modal-content--menu {
+  margin: 0;
+  padding: 0; }
+
+.Modal-contentItem {
+  padding: 1.71429rem;
+  list-style: none;
+  border-top: 1px solid #d5d9da;
+  cursor: pointer; }
+  .Modal-contentItem:first-child {
+    border-top: 0; }
+
+.Modal-footer {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1.71429rem;
+  background: #fff;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0; }
+  .Modal-content--message + .Modal-footer {
+    padding-top: 0; }
+  .Modal-content--menu + .Modal-footer {
+    border-top: 1px solid #d5d9da; }
+
+.Modal--centered {
+  -webkit-transform: translate(50%, -50%);
+          transform: translate(50%, -50%); }
+  .Modal--centered[aria-hidden="false"] {
+    top: 50%; }
+
+.Modal--expand {
+  bottom: 1.71429rem; }
+
+.ModalHeader-button:hover {
+  color: #258aae; }
+
+.Modal-contentItem:hover {
+  background: #f7f7f7; }
+
 .Notification {
   display: inline-block;
   padding: 0.78571rem 1.57143rem;

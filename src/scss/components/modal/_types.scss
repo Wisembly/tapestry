@@ -1,0 +1,11 @@
+.Modal--centered {
+  transform: translate(50%, -50%);
+
+  &[aria-hidden="false"] {
+    top: 50%;
+  }
+}
+
+.Modal--expand {
+  bottom: $mg--m;
+}

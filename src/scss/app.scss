@@ -84,6 +84,10 @@
   @import "components/meter/core";
 }
 
+@if $import-modal {
+  @import "components/modal/core";
+}
+
 @if $import-notification {
   @import "components/notification/core";
 }

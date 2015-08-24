@@ -1,0 +1,17 @@
+.Modal {
+  @include pos(f -100% 50% null null);
+  display: flex;
+  flex-direction: column;
+  z-index: zi("modal");
+  width: 20 * $base-lh;
+  max-height: calc(100vh - #{2 * $mg--m});
+  box-shadow: 0 0 10px 0 rgba($slate-gray, .3);
+  opacity: 0;
+  transform: translateX(50%);
+  transition: all .3s ease-in-out;
+
+  &[aria-hidden="false"] {
+    top: $mg--m;
+    opacity: 1;
+  }
+}

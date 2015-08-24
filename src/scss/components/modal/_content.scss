@@ -1,0 +1,28 @@
+.Modal-content {
+  flex-grow: 1;
+  color: $slate-gray;
+  background: $white;
+  overflow: auto;
+}
+
+.Modal-content--message {
+  margin: 0;
+  padding: $pd--m;
+  text-align: center;
+}
+
+.Modal-content--menu {
+  margin: 0;
+  padding: 0;
+}
+
+.Modal-contentItem {
+  padding: $pd--m;
+  list-style: none;
+  border-top: 1px solid $base-border-color;
+  cursor: pointer;
+
+  &:first-child {
+    border-top: 0;
+  }
+}
