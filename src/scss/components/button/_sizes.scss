@@ -1,6 +1,10 @@
 .Btn--block {
   display: block;
   width: 100%;
+
+  +.Btn--block {
+    margin-top: $mg--m;
+  }
 }
 
 .Btn--s {

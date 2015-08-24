@@ -591,6 +591,8 @@ th {
     .BtnGroup .Btn:last-child {
       border-top-right-radius: 0.21429rem;
       border-bottom-right-radius: 0.21429rem; }
+    .BtnGroup .Btn + .Btn:not(.Btn--block) {
+      margin-left: 0; }
 
 .Collection {
   margin: 0;
@@ -1287,6 +1289,8 @@ th {
     display: inline-block;
     line-height: 1.71429rem;
     vertical-align: top; }
+  .Btn + .Btn:not(.Btn--block) {
+    margin-left: 1.71429rem; }
 
 .Btn--primary {
   background-color: #07698d; }
@@ -1364,6 +1368,8 @@ th {
 .Btn--block {
   display: block;
   width: 100%; }
+  .Btn--block + .Btn--block {
+    margin-top: 1.71429rem; }
 
 .Btn--s {
   padding: 0.42857rem 0.85714rem;

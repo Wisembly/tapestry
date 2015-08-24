@@ -16,5 +16,9 @@
       border-top-right-radius: $base-radius;
       border-bottom-right-radius: $base-radius;
     }
+
+    + .Btn:not(.Btn--block) {
+      margin-left: 0;
+    }
   }
 }
