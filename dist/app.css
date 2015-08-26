@@ -814,7 +814,7 @@ th {
 
 @font-face {
   font-family: "icons";
-  src: url("fonts/icons.woff2#iefix") format("woff2"), url("fonts/icons.woff#iefix") format("woff");
+  src: url("fonts/icons.woff2") format("woff2"), url("fonts/icons.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 
@@ -1664,13 +1664,14 @@ th {
   color: #fff;
   background-color: #e25c5b; }
 
-.has-popover {
+.has-popover:hover .Popover {
   display: inline-block; }
 
 .Popover {
   position: absolute;
   top: 100%;
   left: -0.28571rem;
+  display: none;
   z-index: 1;
   margin-top: 1.14286rem;
   padding: 0.85714rem 1.71429rem;

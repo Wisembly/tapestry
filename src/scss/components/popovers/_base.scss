@@ -1,10 +1,16 @@
 .has-popover {
   @extend %u-posr;
-  display: inline-block;
+
+  &:hover {
+    .Popover {
+      display: inline-block;
+    }
+  }
 }
 
 .Popover {
   @include pos(a 100% null null (-$popover-arrow-size / 2));
+  display: none;
   z-index: zi("base");
   margin-top: $popover-arrow-size * 2;
   padding: $pd--s $base-pd;
