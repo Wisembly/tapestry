@@ -1862,7 +1862,7 @@ input:checked + .Switch--s {
     padding: 0.42857rem 0.85714rem 0.42857rem 1.71429rem; }
 
 .Tabs--s .Tab-link {
-  padding: 0.42857rem 0.85714rem;
+  padding: 0.85714rem;
   font-size: 0.86667rem; }
 
 .Tabs--s .Tab-item[aria-selected="true"]:after,
