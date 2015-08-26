@@ -45,7 +45,7 @@ p code {
 	font-family: 'Open Sans', 'Georgia', sans-serif;
 	padding: .8rem 3em;
 	text-align: left;
-	background-color: #009788;
+	background-color: #46b489;
 	z-index: 1001;
 }
 
@@ -225,11 +225,12 @@ p code {
 
   .Styleguide-creditsLink {
     line-height: 1;
-    color: #888;
+    color: #708189;
+		text-decoration: none;
   }
 
   .Styleguide-creditsLink:hover {
-    color: #444;
+    color: #3a434c;
   }
 
 /* Styleguide icons
