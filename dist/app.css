@@ -1670,7 +1670,7 @@ th {
 .Popover {
   position: absolute;
   top: 100%;
-  left: -0.28571rem;
+  left: calc(50% - 0.57143rem);
   display: none;
   z-index: 1;
   margin-top: 1.14286rem;
