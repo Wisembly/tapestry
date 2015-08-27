@@ -126,7 +126,6 @@
     },
 
     onToggle: function (event) {
-      console.log('onToggle');
       event.stopPropagation();
       this.toggle();
     },
