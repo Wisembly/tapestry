@@ -48,32 +48,56 @@
   @extend %Icon--actionItem;
 }
 
-%Icon--archive {
+%Icon--addUser {
   content: "\ea02";
 }
 
-.Icon--archive:before {
-  @extend %Icon--archive;
+.Icon--addUser:before {
+  @extend %Icon--addUser;
 }
 
-%Icon--alert {
+%Icon--admin {
   content: "\ea03";
 }
 
-.Icon--alert:before {
-  @extend %Icon--alert;
+.Icon--admin:before {
+  @extend %Icon--admin;
+}
+
+%Icon--alarmClock {
+  content: "\ea04";
+}
+
+.Icon--alarmClock:before {
+  @extend %Icon--alarmClock;
 }
 
 %Icon--add {
-  content: "\ea04";
+  content: "\ea05";
 }
 
 .Icon--add:before {
   @extend %Icon--add;
 }
 
+%Icon--alert {
+  content: "\ea06";
+}
+
+.Icon--alert:before {
+  @extend %Icon--alert;
+}
+
+%Icon--archive {
+  content: "\ea07";
+}
+
+.Icon--archive:before {
+  @extend %Icon--archive;
+}
+
 %Icon--arrowBack {
-  content: "\ea05";
+  content: "\ea08";
 }
 
 .Icon--arrowBack:before {
@@ -81,31 +105,31 @@
 }
 
 %Icon--arrowDown {
-  content: "\ea06";
+  content: "\ea09";
 }
 
 .Icon--arrowDown:before {
   @extend %Icon--arrowDown;
 }
 
-%Icon--arrowFirst {
-  content: "\ea07";
-}
-
-.Icon--arrowFirst:before {
-  @extend %Icon--arrowFirst;
-}
-
 %Icon--arrowLast {
-  content: "\ea08";
+  content: "\ea0a";
 }
 
 .Icon--arrowLast:before {
   @extend %Icon--arrowLast;
 }
 
+%Icon--arrowFirst {
+  content: "\ea0b";
+}
+
+.Icon--arrowFirst:before {
+  @extend %Icon--arrowFirst;
+}
+
 %Icon--arrowNext {
-  content: "\ea09";
+  content: "\ea0c";
 }
 
 .Icon--arrowNext:before {
@@ -113,7 +137,7 @@
 }
 
 %Icon--arrowUp {
-  content: "\ea0a";
+  content: "\ea0d";
 }
 
 .Icon--arrowUp:before {
@@ -121,7 +145,7 @@
 }
 
 %Icon--assignee {
-  content: "\ea0b";
+  content: "\ea0e";
 }
 
 .Icon--assignee:before {
@@ -129,7 +153,7 @@
 }
 
 %Icon--azure {
-  content: "\ea0c";
+  content: "\ea0f";
 }
 
 .Icon--azure:before {
@@ -137,7 +161,7 @@
 }
 
 %Icon--badge {
-  content: "\ea0d";
+  content: "\ea10";
 }
 
 .Icon--badge:before {
@@ -145,7 +169,7 @@
 }
 
 %Icon--bar {
-  content: "\ea0e";
+  content: "\ea11";
 }
 
 .Icon--bar:before {
@@ -153,7 +177,7 @@
 }
 
 %Icon--bell {
-  content: "\ea0f";
+  content: "\ea12";
 }
 
 .Icon--bell:before {
@@ -161,7 +185,7 @@
 }
 
 %Icon--board {
-  content: "\ea10";
+  content: "\ea13";
 }
 
 .Icon--board:before {
@@ -169,7 +193,7 @@
 }
 
 %Icon--brush {
-  content: "\ea11";
+  content: "\ea14";
 }
 
 .Icon--brush:before {
@@ -177,7 +201,7 @@
 }
 
 %Icon--bulletDay {
-  content: "\ea12";
+  content: "\ea15";
 }
 
 .Icon--bulletDay:before {
@@ -185,7 +209,7 @@
 }
 
 %Icon--bulletItem--dashed {
-  content: "\ea13";
+  content: "\ea16";
 }
 
 .Icon--bulletItem--dashed:before {
@@ -193,7 +217,7 @@
 }
 
 %Icon--bulletItem {
-  content: "\ea14";
+  content: "\ea17";
 }
 
 .Icon--bulletItem:before {
@@ -201,31 +225,31 @@
 }
 
 %Icon--calendar {
-  content: "\ea15";
+  content: "\ea18";
 }
 
 .Icon--calendar:before {
   @extend %Icon--calendar;
 }
 
-%Icon--checkmark {
-  content: "\ea16";
-}
-
-.Icon--checkmark:before {
-  @extend %Icon--checkmark;
-}
-
 %Icon--checked {
-  content: "\ea17";
+  content: "\ea19";
 }
 
 .Icon--checked:before {
   @extend %Icon--checked;
 }
 
+%Icon--checkmark {
+  content: "\ea1a";
+}
+
+.Icon--checkmark:before {
+  @extend %Icon--checkmark;
+}
+
 %Icon--clip {
-  content: "\ea18";
+  content: "\ea1b";
 }
 
 .Icon--clip:before {
@@ -233,7 +257,7 @@
 }
 
 %Icon--clock {
-  content: "\ea19";
+  content: "\ea1c";
 }
 
 .Icon--clock:before {
@@ -241,7 +265,7 @@
 }
 
 %Icon--cog {
-  content: "\ea1a";
+  content: "\ea1d";
 }
 
 .Icon--cog:before {
@@ -249,7 +273,7 @@
 }
 
 %Icon--cross {
-  content: "\ea1b";
+  content: "\ea1e";
 }
 
 .Icon--cross:before {
@@ -257,7 +281,7 @@
 }
 
 %Icon--decision--dashed {
-  content: "\ea1c";
+  content: "\ea1f";
 }
 
 .Icon--decision--dashed:before {
@@ -265,7 +289,7 @@
 }
 
 %Icon--decision {
-  content: "\ea1d";
+  content: "\ea20";
 }
 
 .Icon--decision:before {
@@ -273,7 +297,7 @@
 }
 
 %Icon--diagram {
-  content: "\ea1e";
+  content: "\ea21";
 }
 
 .Icon--diagram:before {
@@ -281,7 +305,7 @@
 }
 
 %Icon--document {
-  content: "\ea1f";
+  content: "\ea22";
 }
 
 .Icon--document:before {
@@ -289,7 +313,7 @@
 }
 
 %Icon--download {
-  content: "\ea20";
+  content: "\ea23";
 }
 
 .Icon--download:before {
@@ -297,7 +321,7 @@
 }
 
 %Icon--dragHorizontal {
-  content: "\ea21";
+  content: "\ea24";
 }
 
 .Icon--dragHorizontal:before {
@@ -305,7 +329,7 @@
 }
 
 %Icon--dragVertical {
-  content: "\ea22";
+  content: "\ea25";
 }
 
 .Icon--dragVertical:before {
@@ -313,7 +337,7 @@
 }
 
 %Icon--dropdown {
-  content: "\ea23";
+  content: "\ea26";
 }
 
 .Icon--dropdown:before {
@@ -321,7 +345,7 @@
 }
 
 %Icon--dueDate {
-  content: "\ea24";
+  content: "\ea27";
 }
 
 .Icon--dueDate:before {
@@ -329,7 +353,7 @@
 }
 
 %Icon--dumbell {
-  content: "\ea25";
+  content: "\ea28";
 }
 
 .Icon--dumbell:before {
@@ -337,7 +361,7 @@
 }
 
 %Icon--duplicate {
-  content: "\ea26";
+  content: "\ea29";
 }
 
 .Icon--duplicate:before {
@@ -345,7 +369,7 @@
 }
 
 %Icon--evernote {
-  content: "\ea27";
+  content: "\ea2a";
 }
 
 .Icon--evernote:before {
@@ -353,7 +377,7 @@
 }
 
 %Icon--externalLink {
-  content: "\ea28";
+  content: "\ea2b";
 }
 
 .Icon--externalLink:before {
@@ -361,7 +385,7 @@
 }
 
 %Icon--facebook {
-  content: "\ea29";
+  content: "\ea2c";
 }
 
 .Icon--facebook:before {
@@ -369,7 +393,7 @@
 }
 
 %Icon--filters {
-  content: "\ea2a";
+  content: "\ea2d";
 }
 
 .Icon--filters:before {
@@ -377,7 +401,7 @@
 }
 
 %Icon--form {
-  content: "\ea2b";
+  content: "\ea2e";
 }
 
 .Icon--form:before {
@@ -385,7 +409,7 @@
 }
 
 %Icon--fullscreen {
-  content: "\ea2c";
+  content: "\ea2f";
 }
 
 .Icon--fullscreen:before {
@@ -393,7 +417,7 @@
 }
 
 %Icon--glass {
-  content: "\ea2d";
+  content: "\ea30";
 }
 
 .Icon--glass:before {
@@ -401,7 +425,7 @@
 }
 
 %Icon--google {
-  content: "\ea2e";
+  content: "\ea31";
 }
 
 .Icon--google:before {
@@ -409,7 +433,7 @@
 }
 
 %Icon--grid {
-  content: "\ea2f";
+  content: "\ea32";
 }
 
 .Icon--grid:before {
@@ -417,7 +441,7 @@
 }
 
 %Icon--group {
-  content: "\ea30";
+  content: "\ea33";
 }
 
 .Icon--group:before {
@@ -425,7 +449,7 @@
 }
 
 %Icon--help {
-  content: "\ea31";
+  content: "\ea34";
 }
 
 .Icon--help:before {
@@ -433,7 +457,7 @@
 }
 
 %Icon--home {
-  content: "\ea32";
+  content: "\ea35";
 }
 
 .Icon--home:before {
@@ -441,7 +465,7 @@
 }
 
 %Icon--label {
-  content: "\ea33";
+  content: "\ea36";
 }
 
 .Icon--label:before {
@@ -449,7 +473,7 @@
 }
 
 %Icon--like {
-  content: "\ea34";
+  content: "\ea37";
 }
 
 .Icon--like:before {
@@ -457,7 +481,7 @@
 }
 
 %Icon--linkedin {
-  content: "\ea35";
+  content: "\ea38";
 }
 
 .Icon--linkedin:before {
@@ -465,7 +489,7 @@
 }
 
 %Icon--listCollapse {
-  content: "\ea36";
+  content: "\ea39";
 }
 
 .Icon--listCollapse:before {
@@ -473,7 +497,7 @@
 }
 
 %Icon--listExpand {
-  content: "\ea37";
+  content: "\ea3a";
 }
 
 .Icon--listExpand:before {
@@ -481,7 +505,7 @@
 }
 
 %Icon--live {
-  content: "\ea38";
+  content: "\ea3b";
 }
 
 .Icon--live:before {
@@ -489,7 +513,7 @@
 }
 
 %Icon--lock {
-  content: "\ea39";
+  content: "\ea3c";
 }
 
 .Icon--lock:before {
@@ -497,7 +521,7 @@
 }
 
 %Icon--locked {
-  content: "\ea3a";
+  content: "\ea3d";
 }
 
 .Icon--locked:before {
@@ -505,7 +529,7 @@
 }
 
 %Icon--mail {
-  content: "\ea3b";
+  content: "\ea3e";
 }
 
 .Icon--mail:before {
@@ -513,7 +537,7 @@
 }
 
 %Icon--meetingList {
-  content: "\ea3c";
+  content: "\ea3f";
 }
 
 .Icon--meetingList:before {
@@ -521,7 +545,7 @@
 }
 
 %Icon--menu {
-  content: "\ea3d";
+  content: "\ea40";
 }
 
 .Icon--menu:before {
@@ -529,55 +553,79 @@
 }
 
 %Icon--message {
-  content: "\ea3e";
+  content: "\ea41";
 }
 
 .Icon--message:before {
   @extend %Icon--message;
 }
 
-%Icon--more {
-  content: "\ea3f";
-}
-
-.Icon--more:before {
-  @extend %Icon--more;
-}
-
 %Icon--minus {
-  content: "\ea40";
+  content: "\ea42";
 }
 
 .Icon--minus:before {
   @extend %Icon--minus;
 }
 
+%Icon--more {
+  content: "\ea43";
+}
+
+.Icon--more:before {
+  @extend %Icon--more;
+}
+
 %Icon--openIssue--dashed {
-  content: "\ea41";
+  content: "\ea44";
 }
 
 .Icon--openIssue--dashed:before {
   @extend %Icon--openIssue--dashed;
 }
 
+%Icon--multipleChoice {
+  content: "\ea45";
+}
+
+.Icon--multipleChoice:before {
+  @extend %Icon--multipleChoice;
+}
+
 %Icon--openIssue {
-  content: "\ea42";
+  content: "\ea46";
 }
 
 .Icon--openIssue:before {
   @extend %Icon--openIssue;
 }
 
+%Icon--openQuestion {
+  content: "\ea47";
+}
+
+.Icon--openQuestion:before {
+  @extend %Icon--openQuestion;
+}
+
 %Icon--paragraph {
-  content: "\ea43";
+  content: "\ea48";
 }
 
 .Icon--paragraph:before {
   @extend %Icon--paragraph;
 }
 
+%Icon--participant {
+  content: "\ea49";
+}
+
+.Icon--participant:before {
+  @extend %Icon--participant;
+}
+
 %Icon--pause {
-  content: "\ea44";
+  content: "\ea4a";
 }
 
 .Icon--pause:before {
@@ -585,7 +633,7 @@
 }
 
 %Icon--pellet {
-  content: "\ea45";
+  content: "\ea4b";
 }
 
 .Icon--pellet:before {
@@ -593,7 +641,7 @@
 }
 
 %Icon--pelletCheck {
-  content: "\ea46";
+  content: "\ea4c";
 }
 
 .Icon--pelletCheck:before {
@@ -601,31 +649,31 @@
 }
 
 %Icon--pelletClose {
-  content: "\ea47";
+  content: "\ea4d";
 }
 
 .Icon--pelletClose:before {
   @extend %Icon--pelletClose;
 }
 
-%Icon--pencil {
-  content: "\ea48";
-}
-
-.Icon--pencil:before {
-  @extend %Icon--pencil;
-}
-
 %Icon--pelletMinus {
-  content: "\ea49";
+  content: "\ea4e";
 }
 
 .Icon--pelletMinus:before {
   @extend %Icon--pelletMinus;
 }
 
+%Icon--pencil {
+  content: "\ea4f";
+}
+
+.Icon--pencil:before {
+  @extend %Icon--pencil;
+}
+
 %Icon--phone {
-  content: "\ea4a";
+  content: "\ea50";
 }
 
 .Icon--phone:before {
@@ -633,7 +681,7 @@
 }
 
 %Icon--picture {
-  content: "\ea4b";
+  content: "\ea51";
 }
 
 .Icon--picture:before {
@@ -641,7 +689,7 @@
 }
 
 %Icon--play {
-  content: "\ea4c";
+  content: "\ea52";
 }
 
 .Icon--play:before {
@@ -649,7 +697,7 @@
 }
 
 %Icon--plus {
-  content: "\ea4d";
+  content: "\ea53";
 }
 
 .Icon--plus:before {
@@ -657,7 +705,7 @@
 }
 
 %Icon--popup {
-  content: "\ea4e";
+  content: "\ea54";
 }
 
 .Icon--popup:before {
@@ -665,7 +713,7 @@
 }
 
 %Icon--public {
-  content: "\ea4f";
+  content: "\ea55";
 }
 
 .Icon--public:before {
@@ -673,7 +721,7 @@
 }
 
 %Icon--recurring {
-  content: "\ea50";
+  content: "\ea56";
 }
 
 .Icon--recurring:before {
@@ -681,39 +729,47 @@
 }
 
 %Icon--refresh {
-  content: "\ea51";
+  content: "\ea57";
 }
 
 .Icon--refresh:before {
   @extend %Icon--refresh;
 }
 
-%Icon--reply {
-  content: "\ea52";
-}
-
-.Icon--reply:before {
-  @extend %Icon--reply;
-}
-
 %Icon--reset {
-  content: "\ea53";
+  content: "\ea58";
 }
 
 .Icon--reset:before {
   @extend %Icon--reset;
 }
 
+%Icon--reply {
+  content: "\ea59";
+}
+
+.Icon--reply:before {
+  @extend %Icon--reply;
+}
+
 %Icon--results {
-  content: "\ea54";
+  content: "\ea5a";
 }
 
 .Icon--results:before {
   @extend %Icon--results;
 }
 
+%Icon--singleChoice {
+  content: "\ea5b";
+}
+
+.Icon--singleChoice:before {
+  @extend %Icon--singleChoice;
+}
+
 %Icon--slack {
-  content: "\ea55";
+  content: "\ea5c";
 }
 
 .Icon--slack:before {
@@ -721,7 +777,7 @@
 }
 
 %Icon--solid {
-  content: "\ea56";
+  content: "\ea5d";
 }
 
 .Icon--solid:before {
@@ -729,7 +785,7 @@
 }
 
 %Icon--solidFull {
-  content: "\ea57";
+  content: "\ea5e";
 }
 
 .Icon--solidFull:before {
@@ -737,7 +793,7 @@
 }
 
 %Icon--star {
-  content: "\ea58";
+  content: "\ea5f";
 }
 
 .Icon--star:before {
@@ -745,7 +801,7 @@
 }
 
 %Icon--starHalf {
-  content: "\ea59";
+  content: "\ea60";
 }
 
 .Icon--starHalf:before {
@@ -753,7 +809,7 @@
 }
 
 %Icon--starOutlined {
-  content: "\ea5a";
+  content: "\ea61";
 }
 
 .Icon--starOutlined:before {
@@ -761,7 +817,7 @@
 }
 
 %Icon--stop {
-  content: "\ea5b";
+  content: "\ea62";
 }
 
 .Icon--stop:before {
@@ -769,7 +825,7 @@
 }
 
 %Icon--subtitle {
-  content: "\ea5c";
+  content: "\ea63";
 }
 
 .Icon--subtitle:before {
@@ -777,7 +833,7 @@
 }
 
 %Icon--sunrise {
-  content: "\ea5d";
+  content: "\ea64";
 }
 
 .Icon--sunrise:before {
@@ -785,7 +841,7 @@
 }
 
 %Icon--sunset {
-  content: "\ea5e";
+  content: "\ea65";
 }
 
 .Icon--sunset:before {
@@ -793,7 +849,7 @@
 }
 
 %Icon--target {
-  content: "\ea5f";
+  content: "\ea66";
 }
 
 .Icon--target:before {
@@ -801,15 +857,23 @@
 }
 
 %Icon--task {
-  content: "\ea60";
+  content: "\ea67";
 }
 
 .Icon--task:before {
   @extend %Icon--task;
 }
 
+%Icon--thems {
+  content: "\ea68";
+}
+
+.Icon--thems:before {
+  @extend %Icon--thems;
+}
+
 %Icon--title {
-  content: "\ea61";
+  content: "\ea69";
 }
 
 .Icon--title:before {
@@ -817,7 +881,7 @@
 }
 
 %Icon--trash {
-  content: "\ea62";
+  content: "\ea6a";
 }
 
 .Icon--trash:before {
@@ -825,7 +889,7 @@
 }
 
 %Icon--triangleDown {
-  content: "\ea63";
+  content: "\ea6b";
 }
 
 .Icon--triangleDown:before {
@@ -833,7 +897,7 @@
 }
 
 %Icon--triangleUp {
-  content: "\ea64";
+  content: "\ea6c";
 }
 
 .Icon--triangleUp:before {
@@ -841,7 +905,7 @@
 }
 
 %Icon--twitter {
-  content: "\ea65";
+  content: "\ea6d";
 }
 
 .Icon--twitter:before {
@@ -849,7 +913,7 @@
 }
 
 %Icon--user {
-  content: "\ea66";
+  content: "\ea6e";
 }
 
 .Icon--user:before {
@@ -857,7 +921,7 @@
 }
 
 %Icon--voice {
-  content: "\ea67";
+  content: "\ea6f";
 }
 
 .Icon--voice:before {
@@ -865,7 +929,7 @@
 }
 
 %Icon--vote {
-  content: "\ea68";
+  content: "\ea70";
 }
 
 .Icon--vote:before {
@@ -873,7 +937,7 @@
 }
 
 %Icon--wisembly {
-  content: "\ea69";
+  content: "\ea71";
 }
 
 .Icon--wisembly:before {
@@ -881,7 +945,7 @@
 }
 
 %Icon--wisemblyFull {
-  content: "\ea6a";
+  content: "\ea72";
 }
 
 .Icon--wisemblyFull:before {
