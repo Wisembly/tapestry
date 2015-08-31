@@ -1,56 +1,13 @@
-.Panel--fixed {
-  @extend %u-posf;
-  z-index: zi("panel");
-  transform: translateZ(0);
-  backface-visibility: hidden;
-
-  &[aria-hidden="true"] {
-    &:before {
-      visibility: hidden;
-      opacity: 0;
-    }
-  }
+.Panel--abs {
+  position: absolute;
 }
 
-.Panel--vertical {
-  width: $base-lh * 20;
-  overflow-y: auto;
-
-  &:before {
-    top: 0;
-    bottom: 0;
-  }
-}
-
-.Panel--tr {
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: auto;
-  transition: right .25s ease-out;
-
-  &:before {
-    right: $base-lh * 20;
-    left: 0;
-  }
-
-  &[aria-hidden="true"] {
-    right: -100%;
-  }
-}
-
-.Panel--tl {
+.Panel--l {
   right: auto;
   left: 0;
-  transition: left .25s ease-out;
-
-  &:before {
-    right: 0;
-    left: $base-lh * 20;
-    transition: opacity .25s ease-out;
-  }
+  box-shadow: 4px 0 5px 0 rgba($slate-gray, .4);
 
   &[aria-hidden="true"] {
-    left: -100%;
+    transform: translateX(-100%);
   }
 }
