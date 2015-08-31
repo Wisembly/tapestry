@@ -586,11 +586,11 @@ th {
     border-radius: 0; }
     .BtnGroup .Btn:first-child {
       margin-left: 0;
-      border-top-left-radius: 0.21429rem;
-      border-bottom-left-radius: 0.21429rem; }
+      border-top-left-radius: 0.28571rem;
+      border-bottom-left-radius: 0.28571rem; }
     .BtnGroup .Btn:last-child {
-      border-top-right-radius: 0.21429rem;
-      border-bottom-right-radius: 0.21429rem; }
+      border-top-right-radius: 0.28571rem;
+      border-bottom-right-radius: 0.28571rem; }
     .BtnGroup .Btn + .Btn:not(.Btn--block) {
       margin-left: 0; }
 
@@ -641,7 +641,7 @@ th {
   color: #3a434c;
   background-color: #fff;
   border: 1px solid #d5d9da;
-  border-radius: 0.21429rem;
+  border-radius: 0.28571rem;
   outline: 0; }
   .Dropdown-selectInput:focus {
     outline: none; }
@@ -668,7 +668,7 @@ th {
   color: #3a434c;
   background: #fff;
   border: 1px solid #d5d9da;
-  border-radius: 0.21429rem;
+  border-radius: 0.28571rem;
   box-shadow: 0 0 10px 0 rgba(112, 129, 137, 0.3); }
 
 [aria-expanded="true"] + .Dropdown-list {
@@ -683,7 +683,7 @@ th {
   font-weight: 600;
   text-decoration: none;
   color: inherit;
-  border-radius: 0.21429rem;
+  border-radius: 0.28571rem;
   cursor: pointer; }
   .Dropdown-item[aria-selected="true"],
   .Dropdown-item.is-selected {
@@ -1198,7 +1198,7 @@ th {
   color: #3a434c;
   background: #fff;
   border: 1px solid #d5d9da;
-  border-radius: 0.21429rem; }
+  border-radius: 0.28571rem; }
 
 .Input:focus {
   color: #3a434c;
@@ -1263,8 +1263,8 @@ th {
   .InputGroup-item:focus {
     border-color: #d5d9da; }
   .InputGroup-item:last-child {
-    border-top-right-radius: 0.21429rem;
-    border-bottom-right-radius: 0.21429rem; }
+    border-top-right-radius: 0.28571rem;
+    border-bottom-right-radius: 0.28571rem; }
 
 .Btn {
   display: inline-block;
@@ -1277,7 +1277,7 @@ th {
   color: #fff;
   background-color: #a1a9ae;
   border: 0;
-  border-radius: 0.21429rem;
+  border-radius: 0.28571rem;
   outline: 0;
   transition: background-color 0.2s ease-out, box-shadow 0.05s ease-out, color 0.1s ease-out; }
   .Btn[disabled],
@@ -1542,7 +1542,7 @@ th {
 
 .Meter,
 .Meter-bar {
-  border-radius: 0.42857rem; }
+  border-radius: 0.57143rem; }
 
 [data-threshold="75"] .Meter-bar {
   background: #f1bc33; }
@@ -1555,7 +1555,7 @@ th {
   padding: 0.85714rem 1.71429rem;
   color: #fff;
   background: #07698d;
-  border-radius: 0.21429rem;
+  border-radius: 0.28571rem;
   box-shadow: 0 1px 1.5px 0 rgba(161, 169, 174, 0.5); }
 
 .Notification--success {
@@ -1717,7 +1717,7 @@ th {
   white-space: nowrap;
   color: #fff;
   background: #a1a9ae;
-  border-radius: 0.21429rem;
+  border-radius: 0.28571rem;
   box-shadow: 0 1px 1.5px 0 rgba(161, 169, 174, 0.5); }
   .Popover:after {
     position: absolute;
@@ -1927,7 +1927,7 @@ input:checked + .Switch--s {
   color: #3a434c;
   background: #fff;
   border: 1px solid #d5d9da;
-  border-radius: 0.21429rem;
+  border-radius: 0.28571rem;
   resize: none; }
   .Textarea:focus {
     color: #3a434c;
@@ -1953,7 +1953,7 @@ input:checked + .Switch--s {
   white-space: pre;
   color: #fff;
   background-color: #a1a9ae;
-  border-radius: 0.21429rem;
+  border-radius: 0.28571rem;
   box-shadow: 0 1px 1.5px 0 rgba(161, 169, 174, 0.5);
   cursor: default;
   pointer-events: none; }
