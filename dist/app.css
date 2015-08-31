@@ -5,7 +5,7 @@
 .has-tooltip--left {
   position: relative; }
 
-.Notification--fixed, .Panel--fixed {
+.Notification--fixed {
   position: fixed; }
 
 .u-tal {
@@ -1606,8 +1606,24 @@ th {
     opacity: 1; }
 
 .Panel {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 7000;
+  width: 34.28571rem;
   background: #fff;
-  box-shadow: -4px 0 5px 0 rgba(112, 129, 137, 0.5); }
+  box-shadow: -4px 0 5px 0 rgba(112, 129, 137, 0.4);
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  transition: -webkit-transform 0.25s ease-out;
+  transition: transform 0.25s ease-out; }
+  .Panel[aria-hidden="true"] {
+    box-shadow: 0 0 0 0;
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%); }
 
 .Panel-header {
   padding: 0 0.85714rem;
@@ -1626,45 +1642,16 @@ th {
 .Panel-content {
   padding: 1.71429rem; }
 
-.Panel--fixed {
-  z-index: 7000;
-  -webkit-transform: translateZ(0);
-          transform: translateZ(0);
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden; }
-  .Panel--fixed[aria-hidden="true"]:before {
-    visibility: hidden;
-    opacity: 0; }
+.Panel--abs {
+  position: absolute; }
 
-.Panel--vertical {
-  width: 34.28571rem;
-  overflow-y: auto; }
-  .Panel--vertical:before {
-    top: 0;
-    bottom: 0; }
-
-.Panel--tr {
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: auto;
-  transition: right 0.25s ease-out; }
-  .Panel--tr:before {
-    right: 34.28571rem;
-    left: 0; }
-  .Panel--tr[aria-hidden="true"] {
-    right: -100%; }
-
-.Panel--tl {
+.Panel--l {
   right: auto;
   left: 0;
-  transition: left 0.25s ease-out; }
-  .Panel--tl:before {
-    right: 0;
-    left: 34.28571rem;
-    transition: opacity 0.25s ease-out; }
-  .Panel--tl[aria-hidden="true"] {
-    left: -100%; }
+  box-shadow: 4px 0 5px 0 rgba(112, 129, 137, 0.4); }
+  .Panel--l[aria-hidden="true"] {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%); }
 
 .PanelHeader-button:hover {
   color: #258aae; }

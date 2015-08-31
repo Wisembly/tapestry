@@ -1,4 +1,15 @@
 .Panel {
+  @include pos(f 0 0 0 null);
+  z-index: zi("panel");
+  width: $panel-width;
   background: $white;
-  box-shadow: -4px 0 5px 0 rgba($slate-gray, .5);
+  box-shadow: -4px 0 5px 0 rgba($slate-gray, .4);
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  transition: transform .25s ease-out;
+
+  &[aria-hidden="true"] {
+    box-shadow: 0 0 0 0;
+    transform: translateX(100%);
+  }
 }
