@@ -1581,6 +1581,13 @@ th {
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%); }
 
+.Notification--tr {
+  top: 0.85714rem;
+  right: 0.85714rem;
+  bottom: auto;
+  left: auto;
+  margin-left: 0.85714rem; }
+
 .Notification--bl {
   right: auto;
   bottom: 0.85714rem;

@@ -30,7 +30,7 @@
 
 To fix your Notification, simply add
 * `.Notification--fixed` class, because, it's a fixed position, it does not need the `.has-notification` wrapper.
-* The direction wanted "`tc | bl | br`"
+* The direction wanted "`tc | tr | bl | br`"
 
 ## Options
 ```esc
@@ -41,23 +41,27 @@ To fix your Notification, simply add
   </thead>
   <tbody class="Table-body">
     <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">`.Notification--fixed`</td>
+      <td class="Table-cell Table-cell--important u-tal">.Notification--fixed</td>
       <td class="Table-cell">Will add a position fixed to `.Notification`</td>
     </tr>
     <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">`.Notification--block`</td>
+      <td class="Table-cell Table-cell--important u-tal">.Notification--block</td>
       <td class="Table-cell">Will display `.Notification` as block</td>
     </tr>
     <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">`.Notification--tc`</td>
+      <td class="Table-cell Table-cell--important u-tal">.Notification--tc</td>
       <td class="Table-cell">Top Center window position</td>
     </tr>
     <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">`.Notification--bl`</td>
+      <td class="Table-cell Table-cell--important u-tal">.Notification--tr</td>
+      <td class="Table-cell">Top Right window position</td>
+    </tr>
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal">.Notification--bl</td>
       <td class="Table-cell">Bottom Left window position</td>
     </tr>
     <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">`.Notification--br`</td>
+      <td class="Table-cell Table-cell--important u-tal">.Notification--br</td>
       <td class="Table-cell">Bottom Right window position</td>
     </tr>
   </tbody>

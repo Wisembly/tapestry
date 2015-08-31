@@ -5,6 +5,14 @@
   transform: translateX(-50%);
 }
 
+.Notification--tr {
+  top: $mg--s;
+  right: $mg--s;
+  bottom: auto;
+  left: auto;
+  margin-left: $mg--s;
+}
+
 .Notification--bl {
   right: auto;
   bottom: $mg--s;
