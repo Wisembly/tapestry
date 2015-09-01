@@ -19,15 +19,6 @@
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--actionItem"></i>
-  </div>
-  <div class="Styleguide-iconDescription">
-    actionItem
-  </div>
-</div>
-
-<div class="Styleguide-iconWrapper">
-  <div class="Styleguide-iconItem">
     <i class="Icon Icon--addUser"></i>
   </div>
   <div class="Styleguide-iconDescription">
@@ -46,19 +37,28 @@
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--alarmClock"></i>
+    <i class="Icon Icon--add"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    alarmClock
+    add
   </div>
 </div>
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--add"></i>
+    <i class="Icon Icon--actionItem"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    add
+    actionItem
+  </div>
+</div>
+
+<div class="Styleguide-iconWrapper">
+  <div class="Styleguide-iconItem">
+    <i class="Icon Icon--alarmClock"></i>
+  </div>
+  <div class="Styleguide-iconDescription">
+    alarmClock
   </div>
 </div>
 
@@ -100,19 +100,19 @@
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--arrowLast"></i>
+    <i class="Icon Icon--arrowFirst"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    arrowLast
+    arrowFirst
   </div>
 </div>
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--arrowFirst"></i>
+    <i class="Icon Icon--arrowLast"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    arrowFirst
+    arrowLast
   </div>
 </div>
 
@@ -217,19 +217,19 @@
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--bulletItem"></i>
+    <i class="Icon Icon--calendar"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    bulletItem
+    calendar
   </div>
 </div>
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--calendar"></i>
+    <i class="Icon Icon--bulletItem"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    calendar
+    bulletItem
   </div>
 </div>
 
@@ -379,19 +379,19 @@
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--duplicate"></i>
+    <i class="Icon Icon--evernote"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    duplicate
+    evernote
   </div>
 </div>
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--evernote"></i>
+    <i class="Icon Icon--duplicate"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    evernote
+    duplicate
   </div>
 </div>
 
@@ -460,10 +460,10 @@
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--grid"></i>
+    <i class="Icon Icon--home"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    grid
+    home
   </div>
 </div>
 
@@ -487,10 +487,10 @@
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--home"></i>
+    <i class="Icon Icon--grid"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    home
+    grid
   </div>
 </div>
 
@@ -541,19 +541,19 @@
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--live"></i>
+    <i class="Icon Icon--lock"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    live
+    lock
   </div>
 </div>
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--lock"></i>
+    <i class="Icon Icon--live"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    lock
+    live
   </div>
 </div>
 
@@ -622,19 +622,19 @@
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--openIssue--dashed"></i>
+    <i class="Icon Icon--multipleChoice"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    openIssue--dashed
+    multipleChoice
   </div>
 </div>
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--multipleChoice"></i>
+    <i class="Icon Icon--openIssue--dashed"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    multipleChoice
+    openIssue--dashed
   </div>
 </div>
 
@@ -937,19 +937,19 @@
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--task"></i>
+    <i class="Icon Icon--themes"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    task
+    themes
   </div>
 </div>
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--thems"></i>
+    <i class="Icon Icon--task"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    thems
+    task
   </div>
 </div>
 

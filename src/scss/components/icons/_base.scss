@@ -40,16 +40,8 @@
 }
 
 
-%Icon--actionItem {
-  content: "\ea01";
-}
-
-.Icon--actionItem:before {
-  @extend %Icon--actionItem;
-}
-
 %Icon--addUser {
-  content: "\ea02";
+  content: "\ea01";
 }
 
 .Icon--addUser:before {
@@ -57,27 +49,35 @@
 }
 
 %Icon--admin {
-  content: "\ea03";
+  content: "\ea02";
 }
 
 .Icon--admin:before {
   @extend %Icon--admin;
 }
 
-%Icon--alarmClock {
-  content: "\ea04";
-}
-
-.Icon--alarmClock:before {
-  @extend %Icon--alarmClock;
-}
-
 %Icon--add {
-  content: "\ea05";
+  content: "\ea03";
 }
 
 .Icon--add:before {
   @extend %Icon--add;
+}
+
+%Icon--actionItem {
+  content: "\ea04";
+}
+
+.Icon--actionItem:before {
+  @extend %Icon--actionItem;
+}
+
+%Icon--alarmClock {
+  content: "\ea05";
+}
+
+.Icon--alarmClock:before {
+  @extend %Icon--alarmClock;
 }
 
 %Icon--alert {
@@ -112,20 +112,20 @@
   @extend %Icon--arrowDown;
 }
 
-%Icon--arrowLast {
-  content: "\ea0a";
-}
-
-.Icon--arrowLast:before {
-  @extend %Icon--arrowLast;
-}
-
 %Icon--arrowFirst {
-  content: "\ea0b";
+  content: "\ea0a";
 }
 
 .Icon--arrowFirst:before {
   @extend %Icon--arrowFirst;
+}
+
+%Icon--arrowLast {
+  content: "\ea0b";
+}
+
+.Icon--arrowLast:before {
+  @extend %Icon--arrowLast;
 }
 
 %Icon--arrowNext {
@@ -216,20 +216,20 @@
   @extend %Icon--bulletItem--dashed;
 }
 
-%Icon--bulletItem {
-  content: "\ea17";
-}
-
-.Icon--bulletItem:before {
-  @extend %Icon--bulletItem;
-}
-
 %Icon--calendar {
-  content: "\ea18";
+  content: "\ea17";
 }
 
 .Icon--calendar:before {
   @extend %Icon--calendar;
+}
+
+%Icon--bulletItem {
+  content: "\ea18";
+}
+
+.Icon--bulletItem:before {
+  @extend %Icon--bulletItem;
 }
 
 %Icon--checked {
@@ -360,20 +360,20 @@
   @extend %Icon--dumbell;
 }
 
-%Icon--duplicate {
-  content: "\ea29";
-}
-
-.Icon--duplicate:before {
-  @extend %Icon--duplicate;
-}
-
 %Icon--evernote {
-  content: "\ea2a";
+  content: "\ea29";
 }
 
 .Icon--evernote:before {
   @extend %Icon--evernote;
+}
+
+%Icon--duplicate {
+  content: "\ea2a";
+}
+
+.Icon--duplicate:before {
+  @extend %Icon--duplicate;
 }
 
 %Icon--externalLink {
@@ -432,12 +432,12 @@
   @extend %Icon--google;
 }
 
-%Icon--grid {
+%Icon--home {
   content: "\ea32";
 }
 
-.Icon--grid:before {
-  @extend %Icon--grid;
+.Icon--home:before {
+  @extend %Icon--home;
 }
 
 %Icon--group {
@@ -456,12 +456,12 @@
   @extend %Icon--help;
 }
 
-%Icon--home {
+%Icon--grid {
   content: "\ea35";
 }
 
-.Icon--home:before {
-  @extend %Icon--home;
+.Icon--grid:before {
+  @extend %Icon--grid;
 }
 
 %Icon--label {
@@ -504,20 +504,20 @@
   @extend %Icon--listExpand;
 }
 
-%Icon--live {
-  content: "\ea3b";
-}
-
-.Icon--live:before {
-  @extend %Icon--live;
-}
-
 %Icon--lock {
-  content: "\ea3c";
+  content: "\ea3b";
 }
 
 .Icon--lock:before {
   @extend %Icon--lock;
+}
+
+%Icon--live {
+  content: "\ea3c";
+}
+
+.Icon--live:before {
+  @extend %Icon--live;
 }
 
 %Icon--locked {
@@ -576,20 +576,20 @@
   @extend %Icon--more;
 }
 
-%Icon--openIssue--dashed {
-  content: "\ea44";
-}
-
-.Icon--openIssue--dashed:before {
-  @extend %Icon--openIssue--dashed;
-}
-
 %Icon--multipleChoice {
-  content: "\ea45";
+  content: "\ea44";
 }
 
 .Icon--multipleChoice:before {
   @extend %Icon--multipleChoice;
+}
+
+%Icon--openIssue--dashed {
+  content: "\ea45";
+}
+
+.Icon--openIssue--dashed:before {
+  @extend %Icon--openIssue--dashed;
 }
 
 %Icon--openIssue {
@@ -856,20 +856,20 @@
   @extend %Icon--target;
 }
 
-%Icon--task {
+%Icon--themes {
   content: "\ea67";
+}
+
+.Icon--themes:before {
+  @extend %Icon--themes;
+}
+
+%Icon--task {
+  content: "\ea68";
 }
 
 .Icon--task:before {
   @extend %Icon--task;
-}
-
-%Icon--thems {
-  content: "\ea68";
-}
-
-.Icon--thems:before {
-  @extend %Icon--thems;
 }
 
 %Icon--title {
