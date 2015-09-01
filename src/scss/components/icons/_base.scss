@@ -40,12 +40,12 @@
 }
 
 
-%Icon--addUser {
+%Icon--actionItem {
   content: "\ea01";
 }
 
-.Icon--addUser:before {
-  @extend %Icon--addUser;
+.Icon--actionItem:before {
+  @extend %Icon--actionItem;
 }
 
 %Icon--admin {
@@ -56,36 +56,36 @@
   @extend %Icon--admin;
 }
 
-%Icon--add {
+%Icon--alert {
   content: "\ea03";
 }
 
-.Icon--add:before {
-  @extend %Icon--add;
-}
-
-%Icon--actionItem {
-  content: "\ea04";
-}
-
-.Icon--actionItem:before {
-  @extend %Icon--actionItem;
+.Icon--alert:before {
+  @extend %Icon--alert;
 }
 
 %Icon--alarmClock {
-  content: "\ea05";
+  content: "\ea04";
 }
 
 .Icon--alarmClock:before {
   @extend %Icon--alarmClock;
 }
 
-%Icon--alert {
+%Icon--addUser {
+  content: "\ea05";
+}
+
+.Icon--addUser:before {
+  @extend %Icon--addUser;
+}
+
+%Icon--add {
   content: "\ea06";
 }
 
-.Icon--alert:before {
-  @extend %Icon--alert;
+.Icon--add:before {
+  @extend %Icon--add;
 }
 
 %Icon--archive {
@@ -216,20 +216,20 @@
   @extend %Icon--bulletItem--dashed;
 }
 
-%Icon--calendar {
-  content: "\ea17";
-}
-
-.Icon--calendar:before {
-  @extend %Icon--calendar;
-}
-
 %Icon--bulletItem {
-  content: "\ea18";
+  content: "\ea17";
 }
 
 .Icon--bulletItem:before {
   @extend %Icon--bulletItem;
+}
+
+%Icon--calendar {
+  content: "\ea18";
+}
+
+.Icon--calendar:before {
+  @extend %Icon--calendar;
 }
 
 %Icon--checked {
@@ -360,20 +360,20 @@
   @extend %Icon--dumbell;
 }
 
-%Icon--evernote {
-  content: "\ea29";
-}
-
-.Icon--evernote:before {
-  @extend %Icon--evernote;
-}
-
 %Icon--duplicate {
-  content: "\ea2a";
+  content: "\ea29";
 }
 
 .Icon--duplicate:before {
   @extend %Icon--duplicate;
+}
+
+%Icon--evernote {
+  content: "\ea2a";
+}
+
+.Icon--evernote:before {
+  @extend %Icon--evernote;
 }
 
 %Icon--externalLink {
@@ -432,12 +432,12 @@
   @extend %Icon--google;
 }
 
-%Icon--home {
+%Icon--grid {
   content: "\ea32";
 }
 
-.Icon--home:before {
-  @extend %Icon--home;
+.Icon--grid:before {
+  @extend %Icon--grid;
 }
 
 %Icon--group {
@@ -456,12 +456,12 @@
   @extend %Icon--help;
 }
 
-%Icon--grid {
+%Icon--home {
   content: "\ea35";
 }
 
-.Icon--grid:before {
-  @extend %Icon--grid;
+.Icon--home:before {
+  @extend %Icon--home;
 }
 
 %Icon--label {
@@ -504,20 +504,20 @@
   @extend %Icon--listExpand;
 }
 
-%Icon--lock {
-  content: "\ea3b";
-}
-
-.Icon--lock:before {
-  @extend %Icon--lock;
-}
-
 %Icon--live {
-  content: "\ea3c";
+  content: "\ea3b";
 }
 
 .Icon--live:before {
   @extend %Icon--live;
+}
+
+%Icon--lock {
+  content: "\ea3c";
+}
+
+.Icon--lock:before {
+  @extend %Icon--lock;
 }
 
 %Icon--locked {
@@ -736,20 +736,20 @@
   @extend %Icon--refresh;
 }
 
-%Icon--reset {
-  content: "\ea58";
-}
-
-.Icon--reset:before {
-  @extend %Icon--reset;
-}
-
 %Icon--reply {
-  content: "\ea59";
+  content: "\ea58";
 }
 
 .Icon--reply:before {
   @extend %Icon--reply;
+}
+
+%Icon--reset {
+  content: "\ea59";
+}
+
+.Icon--reset:before {
+  @extend %Icon--reset;
 }
 
 %Icon--results {
@@ -856,20 +856,20 @@
   @extend %Icon--target;
 }
 
-%Icon--themes {
-  content: "\ea67";
-}
-
-.Icon--themes:before {
-  @extend %Icon--themes;
-}
-
 %Icon--task {
-  content: "\ea68";
+  content: "\ea67";
 }
 
 .Icon--task:before {
   @extend %Icon--task;
+}
+
+%Icon--themes {
+  content: "\ea68";
+}
+
+.Icon--themes:before {
+  @extend %Icon--themes;
 }
 
 %Icon--title {

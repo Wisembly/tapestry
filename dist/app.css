@@ -845,22 +845,22 @@ th {
 .Icon--xl {
   font-size: 1.6rem; }
 
-.Icon--addUser:before {
+.Icon--actionItem:before {
   content: "\ea01"; }
 
 .Icon--admin:before {
   content: "\ea02"; }
 
-.Icon--add:before {
+.Icon--alert:before {
   content: "\ea03"; }
 
-.Icon--actionItem:before {
+.Icon--alarmClock:before {
   content: "\ea04"; }
 
-.Icon--alarmClock:before {
+.Icon--addUser:before {
   content: "\ea05"; }
 
-.Icon--alert:before {
+.Icon--add:before {
   content: "\ea06"; }
 
 .Icon--archive:before {
@@ -911,10 +911,10 @@ th {
 .Icon--bulletItem--dashed:before {
   content: "\ea16"; }
 
-.Icon--calendar:before {
+.Icon--bulletItem:before {
   content: "\ea17"; }
 
-.Icon--bulletItem:before {
+.Icon--calendar:before {
   content: "\ea18"; }
 
 .Icon--checked:before {
@@ -966,10 +966,10 @@ th {
 .Icon--dumbell:before {
   content: "\ea28"; }
 
-.Icon--evernote:before {
+.Icon--duplicate:before {
   content: "\ea29"; }
 
-.Icon--duplicate:before {
+.Icon--evernote:before {
   content: "\ea2a"; }
 
 .Icon--externalLink:before {
@@ -993,7 +993,7 @@ th {
 .Icon--google:before {
   content: "\ea31"; }
 
-.Icon--home:before {
+.Icon--grid:before {
   content: "\ea32"; }
 
 .Icon--group:before {
@@ -1002,7 +1002,7 @@ th {
 .Icon--help:before {
   content: "\ea34"; }
 
-.Icon--grid:before {
+.Icon--home:before {
   content: "\ea35"; }
 
 .Icon--label:before {
@@ -1020,10 +1020,10 @@ th {
 .Icon--listExpand:before {
   content: "\ea3a"; }
 
-.Icon--lock:before {
+.Icon--live:before {
   content: "\ea3b"; }
 
-.Icon--live:before {
+.Icon--lock:before {
   content: "\ea3c"; }
 
 .Icon--locked:before {
@@ -1107,10 +1107,10 @@ th {
 .Icon--refresh:before {
   content: "\ea57"; }
 
-.Icon--reset:before {
+.Icon--reply:before {
   content: "\ea58"; }
 
-.Icon--reply:before {
+.Icon--reset:before {
   content: "\ea59"; }
 
 .Icon--results:before {
@@ -1152,10 +1152,10 @@ th {
 .Icon--target:before {
   content: "\ea66"; }
 
-.Icon--themes:before {
+.Icon--task:before {
   content: "\ea67"; }
 
-.Icon--task:before {
+.Icon--themes:before {
   content: "\ea68"; }
 
 .Icon--title:before {
