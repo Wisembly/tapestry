@@ -254,7 +254,12 @@
     },
 
     setValue: function (value) {
-        this.selectItem(value ? this.$items.filter('[data-value=' + value + ']') : null);
+      var _item = value ? this.$items.filter('[data-value=' + value + ']') : null,
+          empty_value = this.$items.filter('[data-value=""]');
+      if(!_item && empty_value){
+        _item = empty_value;
+      }
+      this.selectItem(_item);
     },
 
     itemIsVisible: function (item, direction) {
