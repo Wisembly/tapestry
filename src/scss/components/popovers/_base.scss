@@ -9,10 +9,11 @@
 }
 
 .Popover {
-  @include pos(a 100% null null (calc(50% - #{$popover-arrow-size})));
+  @include pos(a 100% null null 50%);
   display: none;
   z-index: zi("base");
   margin-top: $popover-arrow-size * 2;
+  margin-left: -$popover-arrow-size;
   padding: $pd--s $base-pd;
   font-size: $fz--s;
   line-height: 1;

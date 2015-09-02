@@ -1694,10 +1694,11 @@ th {
 .Popover {
   position: absolute;
   top: 100%;
-  left: calc(50% - 0.57143rem);
+  left: 50%;
   display: none;
   z-index: 1;
   margin-top: 1.14286rem;
+  margin-left: -0.57143rem;
   padding: 0.85714rem 1.71429rem;
   font-size: 0.86667rem;
   line-height: 1;
