@@ -837,7 +837,7 @@ th {
   text-rendering: optimizeLegibility; }
 
 .Icon--s {
-  font-size: 0.8rem; }
+  font-size: 0.86667rem; }
 
 .Icon--l {
   font-size: 1.13333rem; }
@@ -848,43 +848,43 @@ th {
 .Icon--actionItem:before {
   content: "\ea01"; }
 
-.Icon--admin:before {
+.Icon--add:before {
   content: "\ea02"; }
 
-.Icon--alert:before {
+.Icon--addUser:before {
   content: "\ea03"; }
 
-.Icon--alarmClock:before {
+.Icon--admin:before {
   content: "\ea04"; }
 
-.Icon--addUser:before {
+.Icon--alarmClock:before {
   content: "\ea05"; }
 
-.Icon--add:before {
+.Icon--alert:before {
   content: "\ea06"; }
 
 .Icon--archive:before {
   content: "\ea07"; }
 
-.Icon--arrowBack:before {
+.Icon--arrowFirst:before {
   content: "\ea08"; }
 
-.Icon--arrowDown:before {
+.Icon--arrowBack:before {
   content: "\ea09"; }
 
-.Icon--arrowFirst:before {
+.Icon--arrowDown:before {
   content: "\ea0a"; }
 
 .Icon--arrowLast:before {
   content: "\ea0b"; }
 
-.Icon--arrowNext:before {
+.Icon--arrowUp:before {
   content: "\ea0c"; }
 
-.Icon--arrowUp:before {
+.Icon--arrowNext:before {
   content: "\ea0d"; }
 
-.Icon--assignee:before {
+.Icon--bar:before {
   content: "\ea0e"; }
 
 .Icon--azure:before {
@@ -893,7 +893,7 @@ th {
 .Icon--badge:before {
   content: "\ea10"; }
 
-.Icon--bar:before {
+.Icon--assignee:before {
   content: "\ea11"; }
 
 .Icon--bell:before {
@@ -902,10 +902,10 @@ th {
 .Icon--board:before {
   content: "\ea13"; }
 
-.Icon--brush:before {
+.Icon--bulletDay:before {
   content: "\ea14"; }
 
-.Icon--bulletDay:before {
+.Icon--brush:before {
   content: "\ea15"; }
 
 .Icon--bulletItem--dashed:before {

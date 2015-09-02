@@ -28,7 +28,7 @@
 }
 
 .<%= className %>--s {
-  font-size: $fz--m * .8;
+  font-size: $fz--s;
 }
 
 .<%= className %>--l {

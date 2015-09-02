@@ -28,28 +28,10 @@
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--admin"></i>
+    <i class="Icon Icon--add"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    admin
-  </div>
-</div>
-
-<div class="Styleguide-iconWrapper">
-  <div class="Styleguide-iconItem">
-    <i class="Icon Icon--alert"></i>
-  </div>
-  <div class="Styleguide-iconDescription">
-    alert
-  </div>
-</div>
-
-<div class="Styleguide-iconWrapper">
-  <div class="Styleguide-iconItem">
-    <i class="Icon Icon--alarmClock"></i>
-  </div>
-  <div class="Styleguide-iconDescription">
-    alarmClock
+    add
   </div>
 </div>
 
@@ -64,10 +46,28 @@
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--add"></i>
+    <i class="Icon Icon--admin"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    add
+    admin
+  </div>
+</div>
+
+<div class="Styleguide-iconWrapper">
+  <div class="Styleguide-iconItem">
+    <i class="Icon Icon--alarmClock"></i>
+  </div>
+  <div class="Styleguide-iconDescription">
+    alarmClock
+  </div>
+</div>
+
+<div class="Styleguide-iconWrapper">
+  <div class="Styleguide-iconItem">
+    <i class="Icon Icon--alert"></i>
+  </div>
+  <div class="Styleguide-iconDescription">
+    alert
   </div>
 </div>
 
@@ -77,6 +77,15 @@
   </div>
   <div class="Styleguide-iconDescription">
     archive
+  </div>
+</div>
+
+<div class="Styleguide-iconWrapper">
+  <div class="Styleguide-iconItem">
+    <i class="Icon Icon--arrowFirst"></i>
+  </div>
+  <div class="Styleguide-iconDescription">
+    arrowFirst
   </div>
 </div>
 
@@ -100,28 +109,10 @@
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--arrowFirst"></i>
-  </div>
-  <div class="Styleguide-iconDescription">
-    arrowFirst
-  </div>
-</div>
-
-<div class="Styleguide-iconWrapper">
-  <div class="Styleguide-iconItem">
     <i class="Icon Icon--arrowLast"></i>
   </div>
   <div class="Styleguide-iconDescription">
     arrowLast
-  </div>
-</div>
-
-<div class="Styleguide-iconWrapper">
-  <div class="Styleguide-iconItem">
-    <i class="Icon Icon--arrowNext"></i>
-  </div>
-  <div class="Styleguide-iconDescription">
-    arrowNext
   </div>
 </div>
 
@@ -136,10 +127,19 @@
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--assignee"></i>
+    <i class="Icon Icon--arrowNext"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    assignee
+    arrowNext
+  </div>
+</div>
+
+<div class="Styleguide-iconWrapper">
+  <div class="Styleguide-iconItem">
+    <i class="Icon Icon--bar"></i>
+  </div>
+  <div class="Styleguide-iconDescription">
+    bar
   </div>
 </div>
 
@@ -163,10 +163,10 @@
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--bar"></i>
+    <i class="Icon Icon--assignee"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    bar
+    assignee
   </div>
 </div>
 
@@ -190,19 +190,19 @@
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--brush"></i>
+    <i class="Icon Icon--bulletDay"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    brush
+    bulletDay
   </div>
 </div>
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--bulletDay"></i>
+    <i class="Icon Icon--brush"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    bulletDay
+    brush
   </div>
 </div>
 
