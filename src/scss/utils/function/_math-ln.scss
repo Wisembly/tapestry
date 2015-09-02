@@ -1,0 +1,16 @@
+// Natural logarithm
+
+@function math-ln($value) {
+  $ten-exp: 1;
+  $ln-ten: 2.30258509;
+
+  @while ($value > math-pow(10, $ten-exp)) {
+    $ten-exp: $ten-exp + 1;
+  }
+
+  $value: $value / math-pow(10, $ten-exp);
+
+  $result: math-summation(math-ln-maclaurin, $value, 1, 100);
+
+  @return $result + $ten-exp * $ln-ten;
+}

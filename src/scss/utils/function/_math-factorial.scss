@@ -1,0 +1,15 @@
+// Factorial function
+
+@function math-factorial($value) {
+  @if $value == 0 {
+    @return 1;
+  }
+
+  $result: 1;
+
+  @for $index from 1 through $value {
+    $result: $result * $index;
+  }
+
+  @return $result;
+}

@@ -5,14 +5,16 @@ You can overide button size with 2 variables `$btn--pdv` & `$btn--pdh` for verti
 ```html
 <button class="Btn">default button</button>
 <button class="Btn Btn--outline">default outlined button</button>
-<button class="Btn is-disabled">disabled button</button>
+<button class="Btn" aria-disabled="true" disabled>disabled button</button>
 ```
 
 ## Sizes
 
 ### Small
 ```html
-<button class="Btn Btn--s">S button</button>
+<button class="Btn Btn--s">Small button</button>
+<button class="Btn Btn--outline Btn--s">Small button</button>
+<button class="Btn Btn--s" aria-disabled="true" disabled>Small button</button>
 ```
 
 ### Block

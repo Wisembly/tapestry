@@ -1,0 +1,23 @@
+// Power function
+
+@function math-pow($number, $exp) {
+  @if (round($exp) != $exp) {
+    @return math-exp($exp * math-ln($number));
+  }
+
+  // Traditional method for integers
+  $value: 1;
+
+  @if $exp > 0 {
+    @for $i from 1 through $exp {
+     $value: $value * $number;
+    }
+  }
+  @else if $exp < 0 {
+    @for $i from 1 through -$exp {
+      $value: $value / $number;
+    }
+  }
+
+  @return $value;
+}

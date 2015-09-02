@@ -16,6 +16,7 @@
               color .1s ease-out;
 
   &[disabled],
+  &[aria-disabled="true"],
   &.is-disabled {
     color: $gray-chateau;
     background-color: $iron;
@@ -29,6 +30,6 @@
   }
 
   + .Btn:not(.Btn--block) {
-    margin-left: $mg--m;
+    margin-left: $mg--s;
   }
 }

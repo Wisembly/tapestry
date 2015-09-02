@@ -3,23 +3,36 @@ $ff--serif: Georgia, Cambria, "Times New Roman", Times, serif !default;
 
 $f-path: unquote("fonts") !default;
 
+// Base font size in pixels.
 $base-fz: 14px !default;
+
 $base-fz--stripped: $base-fz / ($base-fz * 0 + 1);
 $base-fz--rem: rem($base-fz);
 
-$sketch-lh: 12 !default;
-$base-lh: ($sketch-lh * 2) / $base-fz--stripped * 1rem !default;
+// Vertical Unit
+$base-vu: 5.5px !default;
 
-$fz--xs: $base-fz--rem * .73333333333;
-$fz--s: $base-fz--rem * .8666666666;
-$fz--m: $base-fz--rem;
-$fz--l: $base-fz--rem * 1.1333333333;
-$fz--xl: $base-fz--rem * 1.6;
-$fz--xxl: $base-fz--rem * 1.8;
+// Line Height Multiple
+$base-lhm: 4 !default;
 
-$lh--s: $base-lh / 2;
-$lh--m: $base-lh;
-$lh--l: $base-lh * 2;
+// Modular Scale Ratio
+$ms-ratio: 1.2 !default;
+
+// Base Line Height
+$base-lh: rem($base-vu * $base-lhm) !default;
+$lh--s: r(2);
+$lh--l: r(6);
+
+// Font sizes
+$fz--xxs: fz(-3);
+$fz--xs: fz(-2);
+$fz--s: fz(-1);
+$fz--m: fz(0);
+$fz--l: fz(1);
+$fz--xl: fz(2);
+$fz--xxl: fz(3);
+
+
 
 $base-fw: 400;
 $fw--semi-bold: 600;

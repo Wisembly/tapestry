@@ -1,0 +1,8 @@
+// Returns an REM value that is a multiple of our defined base vertical unit.
+
+@function r($lines: $base-lhm, $fz: $base-fz--rem, $silent: false) {
+  @if is-int($lines) == false and $silent == false {
+    @warn  #{$lines} + $not-integer-txt;
+  }
+  @return (parseInt($lines) * parseInt($base-vu)) / (parseInt($fz) * parseInt($base-fz)) + 0rem;
+}

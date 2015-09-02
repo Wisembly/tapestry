@@ -1,0 +1,6 @@
+// Exponential function
+
+@function math-exp($value) {
+  $result: math-summation(math-exp-maclaurin, $value, 0, 100);
+  @return $result;
+}

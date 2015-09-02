@@ -1,0 +1,6 @@
+// Natural logarithm Colin Maclaurin
+
+@function math-ln-maclaurin($x, $n) {
+  $result: (math-pow(-1, $n + 1) / $n) * (math-pow($x - 1, $n));
+  @return $result;
+}

@@ -1,0 +1,6 @@
+// Exponential function Colin Maclaurin
+
+@function math-exp-maclaurin($x, $n) {
+  $result: math-pow($x, $n) / math-factorial($n);
+  @return $result;
+}
