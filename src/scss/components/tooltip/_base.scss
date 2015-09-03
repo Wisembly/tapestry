@@ -9,8 +9,8 @@
     content: attr(aria-label);
     display: none;
     position: absolute;
-    padding: 2px $pd--s;
-    font-size: $fz--s * .8;
+    padding: ($pd--xs / $ms-ratio / $ms-ratio) $pd--s;
+    font-size: $fz--xs;
     line-height: $base-lh;
     text-align: center;
     word-wrap: break-word;

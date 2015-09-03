@@ -16,7 +16,7 @@
   margin-left: -$popover-arrow-size;
   padding: $pd--s $base-pd;
   font-size: $fz--s;
-  line-height: 1;
+  line-height: r(2, $fz--s);
   white-space: nowrap;
   color: $white;
   background: $gray-chateau;

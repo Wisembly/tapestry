@@ -1,0 +1,4 @@
+@function fz($pow: 1) {
+  $size: rem($base-fz) * math-pow($ms-ratio, $pow);
+  @return $size;
+}

@@ -1,7 +1,7 @@
 %Input-core {
   display: inline-block;
   width: 100%;
-  padding: ($pd--s - rem(1px)) $pd--s;
+  padding: rb(2) $pd--s;
   font-size: $fz--m;
   line-height: $base-lh;
   vertical-align: middle;

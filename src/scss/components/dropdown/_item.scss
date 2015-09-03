@@ -12,7 +12,7 @@
 
   &[aria-selected="true"],
   &.is-selected {
-    padding-right: ($mg--m + $mg--s);
+    padding-right: r(7);
 
     &:after {
       @extend %Icon--checkmark;

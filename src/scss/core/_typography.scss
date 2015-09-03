@@ -25,8 +25,8 @@ h5,
 .Heading-title--3,
 .Heading-title--4,
 .Heading-title--5 {
-  margin-top: $base-lh;
-  margin-bottom: $base-lh;
+  margin-top: r(4);
+  margin-bottom: r(4);
   font-weight: $fw--semi-bold;
 }
 
@@ -43,40 +43,42 @@ h1,
 .Heading-title--1 {
   margin-top: $lh--l;
   margin-bottom: $lh--l;
-  font-size: rem(40px);
+  font-size: fz(5);
   font-weight: $base-fw;
 }
 
 h2,
 .Heading-title--2 {
-  font-size: $fz--xxl;
+  font-size: fz(4);
 }
 
 h3,
 .Heading-title--3 {
-  font-size: $fz--xl;
+  font-size: fz(3);
 }
 
 h4,
 .Heading-title--4 {
-  font-size: $fz--l;
+  font-size: fz(2);
 }
 
 h5,
 .Heading-title--5 {
-  font-size: rem(15px);
+  font-size: fz(1);
 }
 
 p,
 .BodyText {
-  margin-top: $base-mg;
-  margin-bottom: $base-mg;
-  font-size: $fz--m;
+  margin-top: r(2);
+  margin-bottom: r(2);
+  font-size: fz(0);
   line-height: $base-lh;
+  font-feature-settings: 'kern' 1, 'onum' 1, 'liga' 1;
 }
 
 small,
 .BodyText--smaller {
+  display: inline-block;
   font-size: $fz--s;
-  line-height: $base-lh;
+  line-height: r(2);
 }

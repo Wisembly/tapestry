@@ -2,7 +2,7 @@
   display: inline-block;
   position: relative;
   width: 100%;
-  padding: ($mg--s - rem(1px)) ($mg--l - rem(1px)) ($mg--s - rem(1px)) ($mg--s - rem(1px));
+  padding: rb(2) rb(6) rb(2) rb(2);
   font-size: $fz--m;
   line-height: $base-lh;
   text-align: left;

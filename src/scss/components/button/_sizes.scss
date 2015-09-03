@@ -3,14 +3,14 @@
   width: 100%;
 
   +.Btn--block {
-    margin-top: $mg--m;
+    margin-top: $mg--s;
   }
 }
 
 .Btn--s {
-  padding: ($btn-pdv / 2) ($btn-pdh / 2);
+  padding: $btn-pdv--s $btn-pdh--s;
   font-size: $fz--s;
-  line-height: $base-lh / 2;
+  line-height: $lh--s;
 }
 
 .Btn-expandContainer {

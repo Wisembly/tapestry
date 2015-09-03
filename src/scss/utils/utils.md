@@ -128,3 +128,28 @@ You can reset styles for `<ul>`
   </tbody>
 </table>
 ```
+
+## Sass helpers
+
+```esc
+<table class="Table">
+  <thead class="Table-head">
+    <th class="Table-cell Table-cell--header u-tal">Syntax</th>
+    <th class="Table-cell Table-cell--header">Description</th>
+  </thead>
+  <tbody class="Table-body">
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal">r(x)</td>
+      <td class="Table-cell">To set vertical rhythm of a module, where X is an integer for vertical unit</td>
+    </tr>
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal">rb(x,y,z)</td>
+      <td class="Table-cell">To set vertical rhythm of a module if it has a border, where X is an integer for vertical unit, Y the border width and Z the font size  </td>
+    </tr>
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal">fz(x)</td>
+      <td class="Table-cell">To set font size if $fz--modifiers are not enough and keep vertical rhythm</td>
+    </tr>
+  </tbody>
+</table>
+```

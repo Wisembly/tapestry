@@ -1,7 +1,7 @@
 .Pellet {
   display: inline-block;
-  width: rem($pellet-width);
-  height: rem($pellet-width);
+  width: $pellet-width;
+  height: $pellet-width;
   background-color: $gray-chateau;
   border-radius: $pellet-width;
 }

@@ -1,3 +1,5 @@
+// Returns a number without a unit. For example 16px becomes 16
+
 @function parseInt($n) {
   @return $n / ($n * 0 + 1);
 }
