@@ -2,5 +2,5 @@
 // vertical grid unit. You will need to set border style and color rules.
 
 @function rb($lines: $base-lhm, $border-width: 1px, $fz: $base-fz--rem) {
-  @return (($lines * parseInt($base-vu)) - parseInt($border-width)) / (parseInt($fz) * parseInt($base-fz)) + 0rem;
+  @return (($lines * parseInt($base-vu)) - parseInt($border-width)) / (parseInt($fz) * parseInt($base-fz)) * 1rem;
 }

@@ -4,5 +4,5 @@
   @if is-int($lines) == false and $silent == false {
     @warn  #{$lines} + $not-integer-txt;
   }
-  @return (parseInt($lines) * parseInt($base-vu)) / (parseInt($fz) * parseInt($base-fz)) + 0rem;
+  @return (parseInt($lines) * parseInt($base-vu)) / (parseInt($fz) * parseInt($base-fz)) * 1rem;
 }
