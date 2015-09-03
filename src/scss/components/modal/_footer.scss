@@ -1,0 +1,14 @@
+.Modal-footer {
+  display: flex;
+  padding: $pd--m;
+  background: $white;
+  flex-shrink: 0;
+
+  .Modal-content--message + & {
+    padding-top: 0;
+  }
+
+  .Modal-content--menu + & {
+    border-top: 1px solid $base-border-color;
+  }
+}

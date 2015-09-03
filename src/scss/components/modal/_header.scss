@@ -1,0 +1,20 @@
+.Modal-header {
+  display: flex;
+  padding: 0;
+  background: $venice-blue;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: space-between;
+}
+
+.ModalHeader-btn {
+  color: $regent-st-blue;
+}
+
+.Modal-title {
+  margin: 0 $mg--m;
+  font-size: $fz--l;
+  font-weight: $fw--semi-bold;
+  line-height: $lh--l;
+  color: $white;
+}

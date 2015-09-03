@@ -1,0 +1,25 @@
+.Modal-content {
+  padding: $pd--m $pd--m 0;
+  color: $slate-gray;
+  background: $white;
+  overflow: auto;
+
+  &.has-collection {
+    padding: 0;
+  }
+
+  .Modal--expand & {
+    flex-grow: 1;
+  }
+}
+
+.Modal-collection {
+  .Collection-item {
+    border-right: 0;
+    border-left: 0;
+
+    &:first-child {
+      border-top: 0;
+    }
+  }
+}

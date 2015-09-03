@@ -1,0 +1,36 @@
+.Modal {
+  @include pos(f $mg--m 50% null null);
+  z-index: zi("modal");
+  width: 20 * $base-lh;
+  max-height: calc(100vh - #{2 * $mg--m});
+  box-shadow: 0 0 10px 0 rgba($slate-gray, .3);
+  opacity: 0;
+  overflow: auto;
+  transform: translate(50%, -100%);
+  transition: transform .3s ease-in-out,
+              opacity .3s ease-in-out;
+
+  &[aria-hidden="false"] {
+    opacity: 1;
+    transform: translate(50%, 0%);
+  }
+}
+
+.Modal--centered {
+  top: auto;
+
+  &[aria-hidden="false"] {
+    top: 50%;
+    transform: translate(50%, -50%);
+  }
+}
+
+.Modal--expand {
+  display: flex;
+  flex-direction: column;
+  bottom: $mg--m;
+}
+
+.has-modal {
+  overflow: hidden;
+}
