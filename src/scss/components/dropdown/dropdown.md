@@ -99,7 +99,7 @@ In the other hand, if the classic `<select`> does not suit you, if you need to c
     <span class="Dropdown-value"></span>
   </button>
   <ul id="dropdownSelectExample" class="Dropdown-list">
-    <li class="Dropdown-item" data-value="foo">
+    <li class="Dropdown-item" data-value="">
       Simple label 1
     </li>
     <li class="Dropdown-item" data-value="bar" aria-selected="true">
@@ -150,6 +150,7 @@ In the other hand, if the classic `<select`> does not suit you, if you need to c
 </table>
 ```
 Options can be set both using `data-xxx` attributes or through `$.fn.dropddownSelect`
+Update: 'data-value' can be null.
 
 ```html
   <div class="Dropdown" data-keyboard="true" data-placeholder="My Placeholder"></div>
