@@ -6,13 +6,4 @@
 @import "rhythm-border";
 @import "px";
 @import "zindex";
-
-// Math
-
-@import "math-exp",
-        "math-exp-maclaurin",
-        "math-ln",
-        "math-ln-maclaurin",
-        "math-factorial",
-        "math-summation",
-        "math-pow";
+@import "math";
