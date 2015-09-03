@@ -2,9 +2,7 @@
 @import "header";
 @import "content";
 @import "footer";
-@import "types";
 
 @if $import-pseudo-classes {
   @import "state/header";
-  @import "state/content";
 }

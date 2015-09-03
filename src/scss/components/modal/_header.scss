@@ -7,14 +7,14 @@
   justify-content: space-between;
 }
 
-.ModalHeader-button {
-  padding: $pd--s $pd--m;
+.ModalHeader-btn {
   color: $regent-st-blue;
 }
 
-.ModalHeader-title {
-  margin: $mg--s $mg--m;
+.Modal-title {
+  margin: 0 $mg--m;
   font-size: $fz--l;
   font-weight: $fw--semi-bold;
+  line-height: $lh--l;
   color: $white;
 }
