@@ -1949,21 +1949,20 @@ input:checked + .Switch--s {
     background: #07698d;
     transition: height 0.2s ease; }
   .Tab-item[aria-selected="true"]:after {
-    height: 0.28571rem; }
+    height: 0.21429rem; }
 
 .Tab-link {
   display: block;
   position: relative;
-  padding: 1.57143rem 0.78571rem;
+  padding: 1.57143rem 0.78571rem 0.78571rem;
   font-size: 1rem;
   font-weight: 600;
   text-decoration: none;
   color: #708189;
   cursor: pointer;
   outline: 0; }
-
-.Tab-item.is-selected .Tab-link {
-  color: #07698d; }
+  .Tab-item[aria-selected="true"] .Tab-link {
+    color: #07698d; }
 
 .Tabs--vertical {
   margin-left: 0; }
@@ -1992,7 +1991,7 @@ input:checked + .Switch--s {
   height: 0.14286rem; }
 
 .Tab-item:hover:after {
-  height: 0.28571rem; }
+  height: 0.21429rem; }
 
 .Tab-item:hover .Tab-link {
   color: #07698d; }
