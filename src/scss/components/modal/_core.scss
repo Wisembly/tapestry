@@ -1,8 +1,10 @@
 @import "base";
 @import "header";
 @import "content";
+@import "collection";
 @import "footer";
 
 @if $import-pseudo-classes {
   @import "state/header";
+  @import "state/collection";
 }

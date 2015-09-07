@@ -1,0 +1,11 @@
+.Modal-collection {
+  .Collection-item {
+    color: $gray-chateau;
+    border-right: 0;
+    border-left: 0;
+
+    &:first-child {
+      border-top: 0;
+    }
+  }
+}

@@ -1628,6 +1628,7 @@ th {
             flex-grow: 1; }
 
 .Modal-collection .Collection-item {
+  color: #a1a9ae;
   border-right: 0;
   border-left: 0; }
   .Modal-collection .Collection-item:first-child {
@@ -1649,6 +1650,9 @@ th {
 
 .ModalHeader-btn:hover {
   color: #258aae; }
+
+.Modal-collection .Collection-item:hover {
+  color: #708189; }
 
 .Notification {
   display: inline-block;
