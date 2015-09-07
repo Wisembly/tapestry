@@ -17,7 +17,7 @@
 
 ## Empty
 
-* `Avatar--s` should not be use with `Avatar--empty`
+`Avatar--s` should not be use with `Avatar--empty`
 
 ```html
 <div class="Avatar Avatar--empty">
