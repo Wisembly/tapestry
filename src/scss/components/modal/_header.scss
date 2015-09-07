@@ -8,17 +8,30 @@
 }
 
 .ModalHeader-btn {
+  width: $modal-button-width;
   color: $regent-st-blue;
 }
 
 .Modal-title {
+  @include ellipsis;
+  flex-grow: 1;
   margin: 0 $mg--m;
+  padding: 0 $modal-button-width;
   font-size: $fz--l;
   font-weight: $fw--semi-bold;
   line-height: $lh--l;
+  text-align: center;
   color: $white;
 
   .Icon {
     margin-right: $mg--xs;
+  }
+
+  .ModalHeader-btn + & {
+    padding-left: 0;
+  }
+
+  + .ModalHeader-btn {
+    margin-left: -$modal-button-width;
   }
 }

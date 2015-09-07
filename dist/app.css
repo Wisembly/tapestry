@@ -1604,16 +1604,29 @@ th {
           justify-content: space-between; }
 
 .ModalHeader-btn {
-  color: #aed7e8; }
+  color: #aed7e8;
+  width: 4.14286rem; }
 
 .Modal-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
   margin: 0 1.57143rem;
+  padding: 0 4.14286rem;
   font-size: 1.2rem;
   font-weight: 600;
   line-height: 3.14286rem;
-  color: #fff; }
+  color: #fff;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  text-align: center; }
   .Modal-title .Icon {
     margin-right: 0.39286rem; }
+  .ModalHeader-btn + .Modal-title {
+    padding-left: 0; }
+  .Modal-title + .ModalHeader-btn {
+    margin-left: -4.14286rem; }
 
 .Modal-content {
   padding: 1.57143rem 1.57143rem 0;
