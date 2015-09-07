@@ -1,7 +1,8 @@
 .Modal {
   @include pos(f $mg--m 50% null null);
   z-index: zi("modal");
-  width: 20 * $base-lh;
+  width: 100%;
+  max-width: 90%;
   max-height: calc(100vh - #{2 * $mg--m});
   box-shadow: 0 0 10px 0 rgba($slate-gray, .3);
   opacity: 0;
@@ -33,4 +34,12 @@
 
 .has-modal {
   overflow: hidden;
+}
+
+
+
+@include bp(phablet) {
+  .Modal {
+    width: 20 * $base-lh;
+  }
 }

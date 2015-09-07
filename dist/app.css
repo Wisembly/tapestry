@@ -1554,7 +1554,8 @@ th {
   top: 1.57143rem;
   right: 50%;
   z-index: 8000;
-  width: 31.42857rem;
+  width: 100%;
+  max-width: 90%;
   max-height: calc(100vh - 3.14286rem);
   box-shadow: 0 0 10px 0 rgba(112, 129, 137, 0.3);
   opacity: 0;
@@ -1587,6 +1588,10 @@ th {
 .has-modal {
   overflow: hidden; }
 
+@media (min-width: 414px) {
+  .Modal {
+    width: 31.42857rem; } }
+
 .Modal-header {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1604,23 +1609,23 @@ th {
           justify-content: space-between; }
 
 .ModalHeader-btn {
-  color: #aed7e8;
-  width: 4.14286rem; }
+  width: 4.14286rem;
+  color: #aed7e8; }
 
 .Modal-title {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
   margin: 0 1.57143rem;
   padding: 0 4.14286rem;
   font-size: 1.2rem;
   font-weight: 600;
   line-height: 3.14286rem;
-  color: #fff;
-  -webkit-flex-grow: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
-  text-align: center; }
+  text-align: center;
+  color: #fff; }
   .Modal-title .Icon {
     margin-right: 0.39286rem; }
   .ModalHeader-btn + .Modal-title {
