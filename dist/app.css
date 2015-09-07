@@ -1612,6 +1612,8 @@ th {
   font-weight: 600;
   line-height: 3.14286rem;
   color: #fff; }
+  .Modal-title .Icon {
+    margin-right: 0.39286rem; }
 
 .Modal-content {
   padding: 1.57143rem 1.57143rem 0;
