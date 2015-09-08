@@ -5,17 +5,7 @@ var styleguide  = new Styleguide({
 		dist: 'dist/',
 		colors: 'src/scss/utils/var/_color-values.scss'
 	},
-	type: 'onepage',
-	onepage: {
-		layout: 'styleguide/layout.html',
-		stylesheets: [
-			'styleguide/styleguide.css',
-			'styleguide/code-style.css'
-		]
-	},
-	components: {
-		extension: 'html'
-	},
+	type: 'components',
   mdConverter: {
     list: function (body) {
       var _class = 'Styleguide-list';

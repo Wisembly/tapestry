@@ -1,6 +1,9 @@
+var gulp = require('gulp');
+var bs = require('browser-sync');
+
 module.exports = function () {
-  gulp.watch(['./src/scss/**'], ['sass']);
-  gulp.watch(['./src/js/**'], ['scripts']);
-  gulp.watch(['./src/**/*.md'], ['styleguide']);
-  gulp.watch(['./styleguide/**'], ['styleguide']);
+  gulp.watch('website/views/**', ['bs:reload']);
+  // gulp.watch(['./src/scss/**'], ['sass']);
+  // gulp.watch(['./src/js/**'], ['scripts']);
+  // gulp.watch(['./src/**/*.md'], ['styleguide']);
 };

@@ -1,3 +1,4 @@
+var gulp        = require('gulp');
 var rename      = require('gulp-rename');
 var sketch      = require('gulp-sketch');
 var iconfont    = require('gulp-iconfont');
