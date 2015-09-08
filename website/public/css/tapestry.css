@@ -905,22 +905,22 @@ th {
 .Icon--bell:before {
   content: "\ea12"; }
 
-.Icon--board:before {
+.Icon--brush:before {
   content: "\ea13"; }
 
-.Icon--brush:before {
+.Icon--board:before {
   content: "\ea14"; }
 
-.Icon--bulletDay:before {
+.Icon--bulletItem--dashed:before {
   content: "\ea15"; }
 
-.Icon--bulletItem--dashed:before {
+.Icon--bulletDay:before {
   content: "\ea16"; }
 
-.Icon--bulletItem:before {
+.Icon--calendar:before {
   content: "\ea17"; }
 
-.Icon--calendar:before {
+.Icon--bulletItem:before {
   content: "\ea18"; }
 
 .Icon--checked:before {

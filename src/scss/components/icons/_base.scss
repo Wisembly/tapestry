@@ -128,21 +128,26 @@
   @extend %Icon--arrowBack;
 }
 
-%Icon--arrowDown {
-  content: "\ea09";
-}
-
-.Icon--arrowDown:before {
-  @extend %Icon--arrowDown;
-}
-
 %Icon--arrowFirst {
-  content: "\ea0a";
+  content: "\ea09";
 }
 
 .Icon--arrowFirst:before {
   @extend %Icon--arrowFirst;
+}
+
+%Icon--arrowDown {
+  content: "\ea0a";
+}
+
+<<<<<<< HEAD
+.Icon--arrowFirst:before {
+  @extend %Icon--arrowFirst;
 >>>>>>> NW | Reorganise files
+=======
+.Icon--arrowDown:before {
+  @extend %Icon--arrowDown;
+>>>>>>> NW | Do not re-generate icons each time on gulp
 }
 
 %Icon--alert {
@@ -473,20 +478,20 @@
   @extend %Icon--group;
 }
 
-%Icon--help {
-  content: "\ea34";
-}
-
-.Icon--help:before {
-  @extend %Icon--help;
-}
-
 %Icon--home {
-  content: "\ea35";
+  content: "\ea34";
 }
 
 .Icon--home:before {
   @extend %Icon--home;
+}
+
+%Icon--help {
+  content: "\ea35";
+}
+
+.Icon--help:before {
+  @extend %Icon--help;
 }
 
 %Icon--label {
@@ -953,20 +958,29 @@
   @extend %Icon--voice;
 }
 
-%Icon--vote {
+%Icon--wisembly {
   content: "\ea70";
 }
 
-.Icon--vote:before {
-  @extend %Icon--vote;
+.Icon--wisembly:before {
+  @extend %Icon--wisembly;
 }
 
+<<<<<<< HEAD
 %Icon--wisemblyFull {
   content: "\ea71";
 }
 
 .Icon--wisemblyFull:before {
   @extend %Icon--wisemblyFull;
+=======
+%Icon--vote {
+  content: "\ea71";
+}
+
+.Icon--vote:before {
+  @extend %Icon--vote;
+>>>>>>> NW | Do not re-generate icons each time on gulp
 }
 
 %Icon--wisembly {

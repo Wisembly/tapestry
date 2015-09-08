@@ -12,7 +12,7 @@ gulp.task('bs:reload', require('./gulp-tasks/bs-reload'));
 gulp.task('watch', require('./gulp-tasks/watch'));
 
 gulp.task('default', function (cb) {
-	return seq('icons', 'sass', 'scripts', 'styleguide', ['nodemon', 'bs:serve', 'watch'], cb);
+	return seq(/*'icons',*/ 'sass', 'scripts', 'styleguide', ['nodemon', 'bs:serve', 'watch'], cb);
 });
 
 

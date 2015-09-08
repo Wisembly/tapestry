@@ -99,6 +99,7 @@
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <i class="Icon Icon--arrowFirst"></i>
   </div>
   <div class="Styleguide-iconDescription">
@@ -109,11 +110,18 @@
   <div class="Styleguide-iconDescription">
     arrowDown
 >>>>>>> NW | Reorganise files
+=======
+    <i class="Icon Icon--arrowFirst"></i>
+  </div>
+  <div class="Styleguide-iconDescription">
+    arrowFirst
+>>>>>>> NW | Do not re-generate icons each time on gulp
   </div>
 </div>
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
+<<<<<<< HEAD
 <<<<<<< HEAD
     <i class="Icon Icon--arrowLast"></i>
   </div>
@@ -125,6 +133,12 @@
   <div class="Styleguide-iconDescription">
     arrowFirst
 >>>>>>> NW | Reorganise files
+=======
+    <i class="Icon Icon--arrowDown"></i>
+  </div>
+  <div class="Styleguide-iconDescription">
+    arrowDown
+>>>>>>> NW | Do not re-generate icons each time on gulp
   </div>
 </div>
 
@@ -499,19 +513,19 @@
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--help"></i>
+    <i class="Icon Icon--home"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    help
+    home
   </div>
 </div>
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--home"></i>
+    <i class="Icon Icon--help"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    home
+    help
   </div>
 </div>
 
@@ -1039,19 +1053,26 @@
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--vote"></i>
+    <i class="Icon Icon--wisembly"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    vote
+    wisembly
   </div>
 </div>
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
+<<<<<<< HEAD
     <i class="Icon Icon--wisemblyFull"></i>
   </div>
   <div class="Styleguide-iconDescription">
     wisemblyFull
+=======
+    <i class="Icon Icon--vote"></i>
+  </div>
+  <div class="Styleguide-iconDescription">
+    vote
+>>>>>>> NW | Do not re-generate icons each time on gulp
   </div>
 </div>
 
