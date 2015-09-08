@@ -7,6 +7,7 @@ handleError = function (error) {
 
 
 
+gulp.task('sass', require('./gulp-tasks/sass'));
 gulp.task('styleguide', require('./gulp-tasks/styleguide'));
 gulp.task('nodemon', require('./gulp-tasks/nodemon'));
 gulp.task('bs:serve', require('./gulp-tasks/bs-serve'));
@@ -15,12 +16,11 @@ gulp.task('watch', require('./gulp-tasks/watch'));
 
 
 
-gulp.task('default', ['styleguide', 'icons', 'nodemon', 'bs:serve', 'watch']);
+gulp.task('default', ['styleguide', 'sass', 'nodemon', 'bs:serve', 'watch']);
 
 
 // gulp.task('icons', require('./gulp-tasks/icons'));
 // gulp.task('scripts',    require('./gulp-tasks/scripts'));
-// gulp.task('sass',       require('./gulp-tasks/sass'));
 // gulp.task('stats',      require('./gulp-tasks/stats'));
 // gulp.task('deploy',     require('./gulp-tasks/deploy'));
 

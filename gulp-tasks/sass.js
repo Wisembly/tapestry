@@ -1,5 +1,7 @@
-var sass       = require('gulp-sass');
-var prefix     = require('gulp-autoprefixer');
+var gulp   = require('gulp');
+var sass   = require('gulp-sass');
+var rename = require('gulp-rename');
+var prefix = require('gulp-autoprefixer');
 
 module.exports = function () {
   return gulp.src('./src/scss/**/*.scss')
@@ -7,5 +9,7 @@ module.exports = function () {
     .pipe(prefix({
       browsers: ['last 2 versions']
     }))
-    .pipe(gulp.dest('./dist'));
+    .pipe(gulp.dest('./dist'))
+    .pipe(rename('tapestry.css'))
+    .pipe(gulp.dest('./website/public/'));
 };
