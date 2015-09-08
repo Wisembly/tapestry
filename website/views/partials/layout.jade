@@ -6,7 +6,7 @@ html
       link(href='css/tapestry.css', rel='stylesheet', type='text/css')
       link(href='css/styleguide.css', rel='stylesheet', type='text/css')
 
-  body
+  body(class="s-Page s-Page--#{currentPage}")
     .s-Header
       h1.s-Header-title Tapestry
       h2.s-Header-subTitle Wisembly™ UI elements
@@ -16,7 +16,6 @@ html
         a(href="/about", class=currentPage === 'about' ? 's-Nav-item is-active' : 's-Nav-item') About
         a(href="/getting-starter", class=currentPage === 'getting-starter' ? 's-Nav-item is-active' : 's-Nav-item') Getting started
         a(href="/components", class=currentPage === 'components' ? 's-Nav-item is-active' : 's-Nav-item') Components
-
     block content
 
     block scripts
