@@ -21,3 +21,7 @@ router.get('/about', function (req, res) {
     currentPage: 'about'
   });
 });
+
+router.get('*', function(req, res){
+  res.render(404);
+});
