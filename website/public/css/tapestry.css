@@ -874,11 +874,15 @@ th {
 .Icon--arrowBack:before {
   content: "\ea08"; }
 
-.Icon--arrowDown:before {
+.Icon--arrowFirst:before {
   content: "\ea09"; }
 
+<<<<<<< HEAD
 .Icon--arrowFirst:before {
 >>>>>>> NW | Reorganise files:website/public/css/tapestry.css
+=======
+.Icon--arrowDown:before {
+>>>>>>> NW | Inject Styleguide CSS
   content: "\ea0a"; }
 
 .Icon--alert:before {
@@ -905,22 +909,22 @@ th {
 .Icon--bell:before {
   content: "\ea12"; }
 
-.Icon--brush:before {
+.Icon--board:before {
   content: "\ea13"; }
 
-.Icon--board:before {
+.Icon--brush:before {
   content: "\ea14"; }
 
-.Icon--bulletItem--dashed:before {
+.Icon--bulletDay:before {
   content: "\ea15"; }
 
-.Icon--bulletDay:before {
+.Icon--bulletItem--dashed:before {
   content: "\ea16"; }
 
-.Icon--calendar:before {
+.Icon--bulletItem:before {
   content: "\ea17"; }
 
-.Icon--bulletItem:before {
+.Icon--calendar:before {
   content: "\ea18"; }
 
 .Icon--checked:before {
@@ -1005,10 +1009,10 @@ th {
 .Icon--group:before {
   content: "\ea33"; }
 
-.Icon--help:before {
+.Icon--home:before {
   content: "\ea34"; }
 
-.Icon--home:before {
+.Icon--help:before {
   content: "\ea35"; }
 
 .Icon--label:before {
@@ -1185,10 +1189,14 @@ th {
 .Icon--voice:before {
   content: "\ea6f"; }
 
-.Icon--vote:before {
+.Icon--wisembly:before {
   content: "\ea70"; }
 
+<<<<<<< HEAD
 .Icon--wisemblyFull:before {
+=======
+.Icon--vote:before {
+>>>>>>> NW | Inject Styleguide CSS
   content: "\ea71"; }
 
 .Icon--wisembly:before {
