@@ -38,5 +38,5 @@ module.exports = function () {
         .pipe(rename('icons.md'))
         .pipe(gulp.dest('src/scss/components/icons/'));
     })
-    .pipe(gulp.dest('dist/fonts/'));
+    .pipe(gulp.dest('website/public/fonts/'));
 };

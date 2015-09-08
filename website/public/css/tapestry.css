@@ -862,6 +862,7 @@ th {
 .Icon--arrowBack:before {
   content: "\ea07"; }
 
+<<<<<<< HEAD:dist/app.css
 .Icon--arrowDown:before {
   content: "\ea08"; }
 
@@ -869,6 +870,15 @@ th {
   content: "\ea09"; }
 
 .Icon--arrowLast:before {
+=======
+.Icon--arrowBack:before {
+  content: "\ea08"; }
+
+.Icon--arrowDown:before {
+  content: "\ea09"; }
+
+.Icon--arrowFirst:before {
+>>>>>>> NW | Reorganise files:website/public/css/tapestry.css
   content: "\ea0a"; }
 
 .Icon--alert:before {

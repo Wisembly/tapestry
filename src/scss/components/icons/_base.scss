@@ -96,6 +96,7 @@
   @extend %Icon--arrowBack;
 }
 
+<<<<<<< HEAD
 %Icon--arrowDown {
   content: "\ea08";
 }
@@ -118,6 +119,30 @@
 
 .Icon--arrowLast:before {
   @extend %Icon--arrowLast;
+=======
+%Icon--arrowBack {
+  content: "\ea08";
+}
+
+.Icon--arrowBack:before {
+  @extend %Icon--arrowBack;
+}
+
+%Icon--arrowDown {
+  content: "\ea09";
+}
+
+.Icon--arrowDown:before {
+  @extend %Icon--arrowDown;
+}
+
+%Icon--arrowFirst {
+  content: "\ea0a";
+}
+
+.Icon--arrowFirst:before {
+  @extend %Icon--arrowFirst;
+>>>>>>> NW | Reorganise files
 }
 
 %Icon--alert {

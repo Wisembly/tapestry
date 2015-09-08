@@ -6,5 +6,5 @@ module.exports = function () {
   return gulp.src('./src/js/*.js')
     // .pipe(uglify())
     .pipe(concat('tapestry.js'))
-    .pipe(gulp.dest('dist'));
+    .pipe(gulp.dest('website/public/js'));
 };
