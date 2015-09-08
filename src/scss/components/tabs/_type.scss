@@ -5,18 +5,19 @@
     display: block;
 
     &:after {
-      @include pos(a $mg--xs auto $mg--xs 0);
+      @include pos(a 0 auto 0 0);
       width: 0;
       height: auto;
     }
 
     &[aria-selected="true"]:after {
-      width: rem(4px);
+      width: rem(3px);
       height: auto;
     }
   }
 
   .Tab-link {
-    padding: $pd--xs $pd--s $pd--xs $pd--m;
+    padding: 0 $pd--s 0 $pd--m;
+    line-height: r(6);
   }
 }

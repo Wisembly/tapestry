@@ -1994,17 +1994,18 @@ input:checked + .Switch--s {
     display: block; }
     .Tabs--vertical .Tab-item:after {
       position: absolute;
-      top: 0.39286rem;
+      top: 0;
       right: auto;
-      bottom: 0.39286rem;
+      bottom: 0;
       left: 0;
       width: 0;
       height: auto; }
     .Tabs--vertical .Tab-item[aria-selected="true"]:after {
-      width: 0.28571rem;
+      width: 0.21429rem;
       height: auto; }
   .Tabs--vertical .Tab-link {
-    padding: 0.39286rem 0.78571rem 0.39286rem 1.57143rem; }
+    padding: 0 0.78571rem 0 1.57143rem;
+    line-height: 2.35714rem; }
 
 .Tabs--s .Tab-link {
   padding: 0.78571rem;
@@ -2024,7 +2025,7 @@ input:checked + .Switch--s {
   height: 0.14286rem; }
 
 .Tabs--vertical .Tab-item:hover:after {
-  width: 0.28571rem;
+  width: 0.21429rem;
   height: auto; }
 
 .Textarea {
