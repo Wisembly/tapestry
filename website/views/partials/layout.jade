@@ -1,0 +1,25 @@
+doctype html
+html
+  head
+    block head
+      title Tapestry
+      link(href='css/tapestry.css', rel='stylesheet', type='text/css')
+      link(href='css/styleguide.css', rel='stylesheet', type='text/css')
+
+  body
+    .s-Header
+      h1.s-Header-title Tapestry
+      h2.s-Header-subTitle Wisembly™ UI elements
+
+      nav.s-Nav
+        a(href="/", class=currentPage === 'home' ? 's-Nav-item is-active' : 's-Nav-item') Home
+        a(href="/about", class=currentPage === 'about' ? 's-Nav-item is-active' : 's-Nav-item') About
+        a(href="/getting-starter", class=currentPage === 'getting-starter' ? 's-Nav-item is-active' : 's-Nav-item') Getting started
+        a(href="/components", class=currentPage === 'components' ? 's-Nav-item is-active' : 's-Nav-item') Components
+
+    block content
+
+    block scripts
+      script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js')
+      script(src='js/tapestry.js')
+      script(async, src='http://localhost:4000/browser-sync/browser-sync-client.2.8.2.js')

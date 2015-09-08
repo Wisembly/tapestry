@@ -8,8 +8,16 @@ app.set('view engine', 'jade');
 app.use(express.static(__dirname + '/public'));
 app.use('/', router);
 
+app.listen(3000);
+
 router.get('/', function (req, res) {
-  res.render('index');
+  res.render('index', {
+    currentPage: 'home'
+  });
 });
 
-app.listen(3000);
+router.get('/about', function (req, res) {
+  res.render('about', {
+    currentPage: 'about'
+  });
+});

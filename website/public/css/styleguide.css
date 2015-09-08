@@ -1,7 +1,63 @@
-.s-Header {
+/*
+	- Colors
 
+	$alabaster: #f7f7f7;			$porcelain: #ebeeef;			$iron: #d5d9da;
+	$gray-chateau: #a1a9ae;		$slate-gray: #708189;			$limed-spruce: #3a434c;
+	$regent-st-blue: #aed7e8;	$curious-blue: #289bc4;		$eastern-blue: #258aae;
+	$venice-blue: #07698d;		$atoll: #0d5c7c;					$deep-sea-green: #084d66;
+	$emerald: #52c699;				$mint: #46b489;						$ocean-green: #41a07a;
+	$saffron: #f1bc33;				$galliano: #d5a82d;				$salmon: #f7896d;
+	$mandy: #e25c5b;					$fuzzy-wuzzy-brown: #c85450;
+*/
+
+
+
+body {
+	font-family: 'Proxima Nova', 'Open Sans', 'Georgia', sans-serif;
+}
+
+
+.s-Header {
+	padding: 3.2em 0 1em 0;
+	text-align: center;
+	color: #fff;
+	background-color: #084d66;
 }
 
 .s-Header-title {
 	margin: 0;
+	font-size: 2.5rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.03em;
+}
+
+.s-Header-subTitle {
+	font-size: 1rem;
+	line-height: 2;
+	font-weight: 600;
+	margin: 0;
+	opacity: .7;
+}
+
+
+
+.s-Nav {
+	margin-top: 2rem;
+}
+
+.s-Nav-item {
+	display: inline-block;
+	padding: .5rem 1rem;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 700;
+	opacity: .7;
+	transition: opacity .2s ease-out;
+}
+
+.s-Nav-item:hover,
+.s-Nav-item.is-active {
+	opacity: 1;
 }
