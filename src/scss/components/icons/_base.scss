@@ -56,20 +56,20 @@
   @extend %Icon--add;
 }
 
-%Icon--addUser {
-  content: "\ea03";
-}
-
-.Icon--addUser:before {
-  @extend %Icon--addUser;
-}
-
 %Icon--admin {
-  content: "\ea04";
+  content: "\ea03";
 }
 
 .Icon--admin:before {
   @extend %Icon--admin;
+}
+
+%Icon--addUser {
+  content: "\ea04";
+}
+
+.Icon--addUser:before {
+  @extend %Icon--addUser;
 }
 
 %Icon--alarmClock {
@@ -80,32 +80,16 @@
   @extend %Icon--alarmClock;
 }
 
-%Icon--alert {
-  content: "\ea06";
-}
-
-.Icon--alert:before {
-  @extend %Icon--alert;
-}
-
 %Icon--archive {
-  content: "\ea07";
+  content: "\ea06";
 }
 
 .Icon--archive:before {
   @extend %Icon--archive;
 }
 
-%Icon--arrowFirst {
-  content: "\ea08";
-}
-
-.Icon--arrowFirst:before {
-  @extend %Icon--arrowFirst;
-}
-
 %Icon--arrowBack {
-  content: "\ea09";
+  content: "\ea07";
 }
 
 .Icon--arrowBack:before {
@@ -113,43 +97,59 @@
 }
 
 %Icon--arrowDown {
-  content: "\ea0a";
+  content: "\ea08";
 }
 
 .Icon--arrowDown:before {
   @extend %Icon--arrowDown;
 }
 
+%Icon--arrowFirst {
+  content: "\ea09";
+}
+
+.Icon--arrowFirst:before {
+  @extend %Icon--arrowFirst;
+}
+
 %Icon--arrowLast {
-  content: "\ea0b";
+  content: "\ea0a";
 }
 
 .Icon--arrowLast:before {
   @extend %Icon--arrowLast;
 }
 
-%Icon--arrowUp {
-  content: "\ea0c";
+%Icon--alert {
+  content: "\ea0b";
 }
 
-.Icon--arrowUp:before {
-  @extend %Icon--arrowUp;
+.Icon--alert:before {
+  @extend %Icon--alert;
 }
 
 %Icon--arrowNext {
-  content: "\ea0d";
+  content: "\ea0c";
 }
 
 .Icon--arrowNext:before {
   @extend %Icon--arrowNext;
 }
 
-%Icon--bar {
+%Icon--arrowUp {
+  content: "\ea0d";
+}
+
+.Icon--arrowUp:before {
+  @extend %Icon--arrowUp;
+}
+
+%Icon--assignee {
   content: "\ea0e";
 }
 
-.Icon--bar:before {
-  @extend %Icon--bar;
+.Icon--assignee:before {
+  @extend %Icon--assignee;
 }
 
 %Icon--azure {
@@ -168,12 +168,12 @@
   @extend %Icon--badge;
 }
 
-%Icon--assignee {
+%Icon--bar {
   content: "\ea11";
 }
 
-.Icon--assignee:before {
-  @extend %Icon--assignee;
+.Icon--bar:before {
+  @extend %Icon--bar;
 }
 
 %Icon--bell {
@@ -192,20 +192,20 @@
   @extend %Icon--board;
 }
 
-%Icon--bulletDay {
-  content: "\ea14";
-}
-
-.Icon--bulletDay:before {
-  @extend %Icon--bulletDay;
-}
-
 %Icon--brush {
-  content: "\ea15";
+  content: "\ea14";
 }
 
 .Icon--brush:before {
   @extend %Icon--brush;
+}
+
+%Icon--bulletDay {
+  content: "\ea15";
+}
+
+.Icon--bulletDay:before {
+  @extend %Icon--bulletDay;
 }
 
 %Icon--bulletItem--dashed {
@@ -488,20 +488,20 @@
   @extend %Icon--linkedin;
 }
 
-%Icon--listCollapse {
-  content: "\ea39";
-}
-
-.Icon--listCollapse:before {
-  @extend %Icon--listCollapse;
-}
-
 %Icon--listExpand {
-  content: "\ea3a";
+  content: "\ea39";
 }
 
 .Icon--listExpand:before {
   @extend %Icon--listExpand;
+}
+
+%Icon--listCollapse {
+  content: "\ea3a";
+}
+
+.Icon--listCollapse:before {
+  @extend %Icon--listCollapse;
 }
 
 %Icon--live {
@@ -864,12 +864,12 @@
   @extend %Icon--task;
 }
 
-%Icon--themes {
+%Icon--thems {
   content: "\ea68";
 }
 
-.Icon--themes:before {
-  @extend %Icon--themes;
+.Icon--thems:before {
+  @extend %Icon--thems;
 }
 
 %Icon--title {
@@ -936,18 +936,18 @@
   @extend %Icon--vote;
 }
 
-%Icon--wisembly {
-  content: "\ea71";
-}
-
-.Icon--wisembly:before {
-  @extend %Icon--wisembly;
-}
-
 %Icon--wisemblyFull {
-  content: "\ea72";
+  content: "\ea71";
 }
 
 .Icon--wisemblyFull:before {
   @extend %Icon--wisemblyFull;
+}
+
+%Icon--wisembly {
+  content: "\ea72";
+}
+
+.Icon--wisembly:before {
+  @extend %Icon--wisembly;
 }

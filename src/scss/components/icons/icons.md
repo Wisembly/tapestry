@@ -37,19 +37,19 @@
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--addUser"></i>
+    <i class="Icon Icon--admin"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    addUser
+    admin
   </div>
 </div>
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--admin"></i>
+    <i class="Icon Icon--addUser"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    admin
+    addUser
   </div>
 </div>
 
@@ -64,28 +64,10 @@
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--alert"></i>
-  </div>
-  <div class="Styleguide-iconDescription">
-    alert
-  </div>
-</div>
-
-<div class="Styleguide-iconWrapper">
-  <div class="Styleguide-iconItem">
     <i class="Icon Icon--archive"></i>
   </div>
   <div class="Styleguide-iconDescription">
     archive
-  </div>
-</div>
-
-<div class="Styleguide-iconWrapper">
-  <div class="Styleguide-iconItem">
-    <i class="Icon Icon--arrowFirst"></i>
-  </div>
-  <div class="Styleguide-iconDescription">
-    arrowFirst
   </div>
 </div>
 
@@ -109,6 +91,15 @@
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
+    <i class="Icon Icon--arrowFirst"></i>
+  </div>
+  <div class="Styleguide-iconDescription">
+    arrowFirst
+  </div>
+</div>
+
+<div class="Styleguide-iconWrapper">
+  <div class="Styleguide-iconItem">
     <i class="Icon Icon--arrowLast"></i>
   </div>
   <div class="Styleguide-iconDescription">
@@ -118,10 +109,10 @@
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--arrowUp"></i>
+    <i class="Icon Icon--alert"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    arrowUp
+    alert
   </div>
 </div>
 
@@ -136,10 +127,19 @@
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--bar"></i>
+    <i class="Icon Icon--arrowUp"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    bar
+    arrowUp
+  </div>
+</div>
+
+<div class="Styleguide-iconWrapper">
+  <div class="Styleguide-iconItem">
+    <i class="Icon Icon--assignee"></i>
+  </div>
+  <div class="Styleguide-iconDescription">
+    assignee
   </div>
 </div>
 
@@ -163,10 +163,10 @@
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--assignee"></i>
+    <i class="Icon Icon--bar"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    assignee
+    bar
   </div>
 </div>
 
@@ -190,19 +190,19 @@
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--bulletDay"></i>
+    <i class="Icon Icon--brush"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    bulletDay
+    brush
   </div>
 </div>
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--brush"></i>
+    <i class="Icon Icon--bulletDay"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    brush
+    bulletDay
   </div>
 </div>
 
@@ -523,19 +523,19 @@
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--listCollapse"></i>
+    <i class="Icon Icon--listExpand"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    listCollapse
+    listExpand
   </div>
 </div>
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--listExpand"></i>
+    <i class="Icon Icon--listCollapse"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    listExpand
+    listCollapse
   </div>
 </div>
 
@@ -946,10 +946,10 @@
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--themes"></i>
+    <i class="Icon Icon--thems"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    themes
+    thems
   </div>
 </div>
 
@@ -1027,19 +1027,19 @@
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--wisembly"></i>
+    <i class="Icon Icon--wisemblyFull"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    wisembly
+    wisemblyFull
   </div>
 </div>
 
 <div class="Styleguide-iconWrapper">
   <div class="Styleguide-iconItem">
-    <i class="Icon Icon--wisemblyFull"></i>
+    <i class="Icon Icon--wisembly"></i>
   </div>
   <div class="Styleguide-iconDescription">
-    wisemblyFull
+    wisembly
   </div>
 </div>
 

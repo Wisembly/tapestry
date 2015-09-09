@@ -847,40 +847,40 @@ th {
 .Icon--add:before {
   content: "\ea02"; }
 
-.Icon--addUser:before {
+.Icon--admin:before {
   content: "\ea03"; }
 
-.Icon--admin:before {
+.Icon--addUser:before {
   content: "\ea04"; }
 
 .Icon--alarmClock:before {
   content: "\ea05"; }
 
-.Icon--alert:before {
+.Icon--archive:before {
   content: "\ea06"; }
 
-.Icon--archive:before {
+.Icon--arrowBack:before {
   content: "\ea07"; }
 
-.Icon--arrowFirst:before {
+.Icon--arrowDown:before {
   content: "\ea08"; }
 
-.Icon--arrowBack:before {
+.Icon--arrowFirst:before {
   content: "\ea09"; }
 
-.Icon--arrowDown:before {
+.Icon--arrowLast:before {
   content: "\ea0a"; }
 
-.Icon--arrowLast:before {
+.Icon--alert:before {
   content: "\ea0b"; }
 
-.Icon--arrowUp:before {
+.Icon--arrowNext:before {
   content: "\ea0c"; }
 
-.Icon--arrowNext:before {
+.Icon--arrowUp:before {
   content: "\ea0d"; }
 
-.Icon--bar:before {
+.Icon--assignee:before {
   content: "\ea0e"; }
 
 .Icon--azure:before {
@@ -889,7 +889,7 @@ th {
 .Icon--badge:before {
   content: "\ea10"; }
 
-.Icon--assignee:before {
+.Icon--bar:before {
   content: "\ea11"; }
 
 .Icon--bell:before {
@@ -898,10 +898,10 @@ th {
 .Icon--board:before {
   content: "\ea13"; }
 
-.Icon--bulletDay:before {
+.Icon--brush:before {
   content: "\ea14"; }
 
-.Icon--brush:before {
+.Icon--bulletDay:before {
   content: "\ea15"; }
 
 .Icon--bulletItem--dashed:before {
@@ -1010,10 +1010,10 @@ th {
 .Icon--linkedin:before {
   content: "\ea38"; }
 
-.Icon--listCollapse:before {
+.Icon--listExpand:before {
   content: "\ea39"; }
 
-.Icon--listExpand:before {
+.Icon--listCollapse:before {
   content: "\ea3a"; }
 
 .Icon--live:before {
@@ -1151,7 +1151,7 @@ th {
 .Icon--task:before {
   content: "\ea67"; }
 
-.Icon--themes:before {
+.Icon--thems:before {
   content: "\ea68"; }
 
 .Icon--title:before {
@@ -1178,10 +1178,10 @@ th {
 .Icon--vote:before {
   content: "\ea70"; }
 
-.Icon--wisembly:before {
+.Icon--wisemblyFull:before {
   content: "\ea71"; }
 
-.Icon--wisemblyFull:before {
+.Icon--wisembly:before {
   content: "\ea72"; }
 
 .Input, .Input-addOn {
