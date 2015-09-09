@@ -4,7 +4,7 @@
 
 body {
 	background: #fff;
-	font-family: 'Open Sans', 'Georgia', sans-serif;
+	font-family: 'Proxima Nova', 'Open Sans', 'Georgia', sans-serif;
 }
 
 p code {
@@ -20,6 +20,7 @@ p code {
 }
 
 
+
 /* Styleguide generals
  * Styleguide-title */
 
@@ -30,37 +31,37 @@ p code {
 }
 
 .Styleguide-modulesContainer {
-	padding: 0 0 2em 25%;
+	padding: 5rem 1rem 2rem 25%;
 	text-align: left;
 }
 
 
 
 /* Styleguide header
- * Styleguide-headerTitle */
+ * Styleguide-title */
 
 .Styleguide-header {
 	position: fixed;
 	top: 0; right: 0; left: 0;
-	font-family: 'Open Sans', 'Georgia', sans-serif;
-	padding: .8rem 3em;
+	padding: 2rem 3rem;
 	text-align: left;
-	background-color: #009788;
+	background-color: #084d66;
 	z-index: 1001;
 }
 
-	.Styleguide-headerTitle {
+	.Styleguide-title {
 		margin: 0; padding: 0;
-		font-size: 1.2em;
+		font-size: 1.8em;
+		line-height: 1.2;
 		text-transform: uppercase;
-		font-weight: 600;
+		font-weight: 800;
 		color: #fff;
 	}
 
-	.Styleguide-headerDescription {
+	.Styleguide-desc {
 		color: #fff;
 		margin: 0;
-		font-weight: 300;
+		font-weight: 400;
 	}
 
 
@@ -69,43 +70,31 @@ p code {
 * Styleguide-moduleTitle */
 
 .Styleguide-module {
-	padding: 8em 2em .8em 2em;
+	/*padding: 8em 2em .8em 2em;*/
 	background-color: #fff;
 	border-radius: 3px;
 }
 
-	.Styleguide-title--1,
-	.Styleguide-title--2,
-	.Styleguide-title--3,
-	.Styleguide-title--4 {
-		font-weight: 600;
-		color: #484848;
-		font-family: "Open Sans","Helvetica Neue",Arial,Helvetica,Verdana,sans-serif;
-		outline: 0;
-	}
-
-
 	.Styleguide-title--1 {
-		margin: 0 0 1.6rem 0;
-    font-size: 2.4rem;
-		line-height: 3.2rem;
-		font-weight: 400;
+		font-size: 2.5rem;
+		color: #3a434c;
+		margin: 10rem 0 2.5rem;
+		font-weight: 600;
 	}
 
 	.Styleguide-title--2 {
-		margin-bottom: 1em;
-		font-size: 1.8em;
-	}
-
-	.Styleguide-title--3 {
-		font-size: 1.5em;
-		margin-top: 2em;
-		font-weight: 400;
+		margin: 5rem 0 1rem;
+		color: #a1a9ae;
+		font-weight: 600;
+		font-size: 1.2rem;
+		line-height: 1.3;
+		letter-spacing: .04rem;
+		text-transform: uppercase;
 	}
 
 	.Styleguide-module pre {
 		position: relative;
-		margin: 1.5em auto 4rem auto;
+		margin: 2rem 0;
 		padding: 3.2rem 1em 1.6rem;
 		font-size: .9em;
 		line-height: 1.6;
@@ -113,6 +102,7 @@ p code {
 		background-color: #fafafa;
 		border-radius: 2px;
 		border: 1px solid #ededed;
+		word-wrap: break-word;
 	}
 
 	.Styleguide-module pre:before {
@@ -121,7 +111,6 @@ p code {
 		top: 0; left: 0; right: 0;
 		display: block;
 		padding: .5em 1em;
-		font-family: 'Open Sans', 'Georgia', sans-serif;
 		font-size: .8em;
 		font-weight: 600;
 		text-transform: uppercase;
@@ -130,11 +119,11 @@ p code {
 	}
 
   .Styleguide-module--grid .Column {
-    background: #AED7E8;
+    background: #aed7e8;
     text-align: center;
     padding: 1rem 0;
-    border-right: 1px solid #FFF;
-    border-top: 1px solid #FFF;
+    border-right: 1px solid #fff;
+    border-top: 1px solid #fff;
   }
   .Styleguide-module--grid .Column:last-child {
     border-right: 0;
@@ -180,7 +169,7 @@ p code {
 
 .Styleguide-navWrapper {
 	position: fixed;
-	top: 6.4rem;
+	top: 10rem;
   bottom: 5rem;
   left: 0;
 	overflow-y: scroll;
@@ -213,6 +202,11 @@ p code {
  * Styleguide-creditsLink */
 
 .Styleguide-credits {
+
+
+	display: none;
+
+
   position: fixed;
   bottom: .8rem;
   left: 0;
@@ -225,11 +219,12 @@ p code {
 
   .Styleguide-creditsLink {
     line-height: 1;
-    color: #888;
+    color: #708189;
+		text-decoration: none;
   }
 
   .Styleguide-creditsLink:hover {
-    color: #444;
+    color: #3a434c;
   }
 
 /* Styleguide icons
@@ -263,14 +258,14 @@ p code {
 
 	/* Styleguide list */
 
-	.Styleguide-modulesContainer .Styleguide-list {
+	.Styleguide-list {
 		margin: 0;
 		padding: 0;
 		list-style-type: circle;
 		list-style-position: inside;
 	}
 
-	.Styleguide-modulesContainer .Styleguide-list:not(:last-child) {
+	.Styleguide-list:not(:last-child) {
 		margin: 0 0 1.5em;
 	}
 
