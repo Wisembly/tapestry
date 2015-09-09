@@ -1914,7 +1914,7 @@ input:checked + .Switch--s {
 
 .Table-cell {
   display: table-cell;
-  padding: 0.78571rem 1.57143rem;
+  padding: 0.78571rem;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.57143rem;
