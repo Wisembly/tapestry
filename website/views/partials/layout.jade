@@ -6,16 +6,16 @@ html
       link(href='css/tapestry.css', rel='stylesheet', type='text/css')
       link(href='css/styleguide.css', rel='stylesheet', type='text/css')
 
-  body(class="s-Page s-Page--#{currentPage}")
+  body(class="s-Page s-Page--#{name}")
     .s-Header
       h1.s-Header-title Tapestry
       h2.s-Header-subTitle Wisembly™ UI elements
 
       nav.s-Nav
-        a(href="/", class=currentPage === 'index' ? 's-Nav-item is-active' : 's-Nav-item') Home
-        a(href="/about", class=currentPage === 'about' ? 's-Nav-item is-active' : 's-Nav-item') About
-        a(href="/components", class=currentPage === 'components' ? 's-Nav-item is-active' : 's-Nav-item') Components
-        a(href="/getting-started", class=currentPage === 'getting-started' ? 's-Nav-item is-active' : 's-Nav-item') Getting started
+        a(href="/", class=name === 'index' ? 's-Nav-item is-active' : 's-Nav-item') Home
+        a(href="/about", class=name === 'about' ? 's-Nav-item is-active' : 's-Nav-item') About
+        a(href="/components", class=name === 'components' ? 's-Nav-item is-active' : 's-Nav-item') Components
+        a(href="/getting-started", class=name === 'getting-started' ? 's-Nav-item is-active' : 's-Nav-item') Getting started
     block content
 
     script(async, src='http://localhost:4000/browser-sync/browser-sync-client.2.8.2.js')

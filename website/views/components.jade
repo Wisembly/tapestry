@@ -2,6 +2,8 @@ extends partials/layout
 
 block content
   h1 Hello, components
+  - each comp in components
+    li= comp
 
 block scripts
   script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js')
