@@ -1,3 +1,5 @@
 .Panel-content {
+  height: calc(100% - #{r(8)});
   padding: $pd--m;
+  overflow-y: auto;
 }

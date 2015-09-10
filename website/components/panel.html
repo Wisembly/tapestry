@@ -90,11 +90,17 @@
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;</code></pre><script>
+  var body = document.getElementsByTagName("body");
+
   document.getElementById("launchPanel--r").onclick = function () {
-    document.getElementById("panel--r").setAttribute("aria-hidden", "false")
+    document.getElementById("panel--r").setAttribute("aria-hidden", "false");
+    body[0].className += " u-ovh";
   }
   document.getElementById("closePanel--r").onclick = function(){
-    document.getElementById("panel--r").setAttribute("aria-hidden", "true")
+    document.getElementById("panel--r").setAttribute("aria-hidden", "true");
+    var className =  body[0].className;
+    className = className.substr(0, className.indexOf(" u-ovh"));
+    body[0].className = className;
   }
 
   document.getElementById("launchPanel--l").onclick = function () {

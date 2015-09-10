@@ -1010,10 +1010,10 @@ th {
 .Icon--linkedin:before {
   content: "\ea38"; }
 
-.Icon--listExpand:before {
+.Icon--listCollapse:before {
   content: "\ea39"; }
 
-.Icon--listCollapse:before {
+.Icon--listExpand:before {
   content: "\ea3a"; }
 
 .Icon--live:before {
@@ -1118,10 +1118,10 @@ th {
 .Icon--solidFull:before {
   content: "\ea5c"; }
 
-.Icon--star:before {
+.Icon--solidFull:before {
   content: "\ea5d"; }
 
-.Icon--starHalf:before {
+.Icon--solid:before {
   content: "\ea5e"; }
 
 .Icon--starOutlined:before {
@@ -1136,10 +1136,10 @@ th {
 .Icon--sunrise:before {
   content: "\ea62"; }
 
-.Icon--sunset:before {
+.Icon--sunrise:before {
   content: "\ea63"; }
 
-.Icon--target:before {
+.Icon--subtitle:before {
   content: "\ea64"; }
 
 .Icon--task:before {
@@ -1175,13 +1175,13 @@ th {
 .Icon--wisembly:before {
   content: "\ea6f"; }
 
-.Icon--wisemblyFull:before {
+.Icon--vote:before {
   content: "\ea70"; }
 
-.Icon--reply:before {
+.Icon--wisembly:before {
   content: "\ea71"; }
 
-.Icon--refresh:before {
+.Icon--wisemblyFull:before {
   content: "\ea72"; }
 
 .Input, .Input-addOn {
@@ -1775,7 +1775,9 @@ th {
     vertical-align: middle; }
 
 .Panel-content {
-  padding: 1.57143rem; }
+  height: calc(100% - 3.14286rem);
+  padding: 1.57143rem;
+  overflow-y: auto; }
 
 .Panel--abs {
   position: absolute; }
