@@ -14,10 +14,10 @@ html
       h2.s-Header-subTitle Wisembly™ UI elements
 
       nav.s-Nav
-        a(href="/", class=name === 'index' ? 's-Nav-item is-active' : 's-Nav-item') Home
-        a(href="/about", class=name === 'about' ? 's-Nav-item is-active' : 's-Nav-item') About
+        a(href="/", class=name === 'index' ? 's-Nav-item is-active' : 's-Nav-item is-hidden') Home
+        a(href="/about", class=name === 'about' ? 's-Nav-item is-active' : 's-Nav-item is-hidden') About
         a(href="/components", class=name === 'components' ? 's-Nav-item is-active' : 's-Nav-item') Components
-        a(href="/getting-started", class=name === 'getting-started' ? 's-Nav-item is-active' : 's-Nav-item') Getting started
+        a(href="/getting-started", class=name === 'getting-started' ? 's-Nav-item is-active' : 's-Nav-item is-hidden') Getting started
 
     .s-Container
       block content
