@@ -56,20 +56,20 @@
   @extend %Icon--add;
 }
 
-%Icon--admin {
-  content: "\ea03";
-}
-
-.Icon--admin:before {
-  @extend %Icon--admin;
-}
-
 %Icon--addUser {
-  content: "\ea04";
+  content: "\ea03";
 }
 
 .Icon--addUser:before {
   @extend %Icon--addUser;
+}
+
+%Icon--admin {
+  content: "\ea04";
+}
+
+.Icon--admin:before {
+  @extend %Icon--admin;
 }
 
 %Icon--alarmClock {
@@ -80,8 +80,16 @@
   @extend %Icon--alarmClock;
 }
 
-%Icon--archive {
+%Icon--alert {
   content: "\ea06";
+}
+
+.Icon--alert:before {
+  @extend %Icon--alert;
+}
+
+%Icon--archive {
+  content: "\ea07";
 }
 
 .Icon--archive:before {
@@ -89,16 +97,15 @@
 }
 
 %Icon--arrowBack {
-  content: "\ea07";
+  content: "\ea08";
 }
 
 .Icon--arrowBack:before {
   @extend %Icon--arrowBack;
 }
 
-<<<<<<< HEAD
 %Icon--arrowDown {
-  content: "\ea08";
+  content: "\ea09";
 }
 
 .Icon--arrowDown:before {
@@ -106,7 +113,7 @@
 }
 
 %Icon--arrowFirst {
-  content: "\ea09";
+  content: "\ea0a";
 }
 
 .Icon--arrowFirst:before {
@@ -114,48 +121,11 @@
 }
 
 %Icon--arrowLast {
-  content: "\ea0a";
+  content: "\ea0b";
 }
 
 .Icon--arrowLast:before {
   @extend %Icon--arrowLast;
-=======
-%Icon--arrowBack {
-  content: "\ea08";
-}
-
-.Icon--arrowBack:before {
-  @extend %Icon--arrowBack;
-}
-
-%Icon--arrowFirst {
-  content: "\ea09";
-}
-
-.Icon--arrowFirst:before {
-  @extend %Icon--arrowFirst;
-}
-
-%Icon--arrowDown {
-  content: "\ea0a";
-}
-
-<<<<<<< HEAD
-.Icon--arrowFirst:before {
-  @extend %Icon--arrowFirst;
->>>>>>> NW | Reorganise files
-=======
-.Icon--arrowDown:before {
-  @extend %Icon--arrowDown;
->>>>>>> NW | Do not re-generate icons each time on gulp
-}
-
-%Icon--alert {
-  content: "\ea0b";
-}
-
-.Icon--alert:before {
-  @extend %Icon--alert;
 }
 
 %Icon--arrowNext {
@@ -478,20 +448,20 @@
   @extend %Icon--group;
 }
 
-%Icon--home {
-  content: "\ea34";
-}
-
-.Icon--home:before {
-  @extend %Icon--home;
-}
-
 %Icon--help {
-  content: "\ea35";
+  content: "\ea34";
 }
 
 .Icon--help:before {
   @extend %Icon--help;
+}
+
+%Icon--home {
+  content: "\ea35";
+}
+
+.Icon--home:before {
+  @extend %Icon--home;
 }
 
 %Icon--label {
@@ -518,20 +488,20 @@
   @extend %Icon--linkedin;
 }
 
-%Icon--listExpand {
-  content: "\ea39";
-}
-
-.Icon--listExpand:before {
-  @extend %Icon--listExpand;
-}
-
 %Icon--listCollapse {
-  content: "\ea3a";
+  content: "\ea39";
 }
 
 .Icon--listCollapse:before {
   @extend %Icon--listCollapse;
+}
+
+%Icon--listExpand {
+  content: "\ea3a";
+}
+
+.Icon--listExpand:before {
+  @extend %Icon--listExpand;
 }
 
 %Icon--live {
@@ -806,20 +776,20 @@
   @extend %Icon--slack;
 }
 
-%Icon--solid {
-  content: "\ea5d";
-}
-
-.Icon--solid:before {
-  @extend %Icon--solid;
-}
-
 %Icon--solidFull {
-  content: "\ea5e";
+  content: "\ea5d";
 }
 
 .Icon--solidFull:before {
   @extend %Icon--solidFull;
+}
+
+%Icon--solid {
+  content: "\ea5e";
+}
+
+.Icon--solid:before {
+  @extend %Icon--solid;
 }
 
 %Icon--star {
@@ -854,20 +824,20 @@
   @extend %Icon--stop;
 }
 
-%Icon--subtitle {
-  content: "\ea63";
-}
-
-.Icon--subtitle:before {
-  @extend %Icon--subtitle;
-}
-
 %Icon--sunrise {
-  content: "\ea64";
+  content: "\ea63";
 }
 
 .Icon--sunrise:before {
   @extend %Icon--sunrise;
+}
+
+%Icon--subtitle {
+  content: "\ea64";
+}
+
+.Icon--subtitle:before {
+  @extend %Icon--subtitle;
 }
 
 %Icon--sunset {
@@ -958,35 +928,26 @@
   @extend %Icon--voice;
 }
 
-%Icon--wisembly {
-  content: "\ea70";
-}
-
-.Icon--wisembly:before {
-  @extend %Icon--wisembly;
-}
-
-<<<<<<< HEAD
-%Icon--wisemblyFull {
-  content: "\ea71";
-}
-
-.Icon--wisemblyFull:before {
-  @extend %Icon--wisemblyFull;
-=======
 %Icon--vote {
-  content: "\ea71";
+  content: "\ea70";
 }
 
 .Icon--vote:before {
   @extend %Icon--vote;
->>>>>>> NW | Do not re-generate icons each time on gulp
 }
 
 %Icon--wisembly {
-  content: "\ea72";
+  content: "\ea71";
 }
 
 .Icon--wisembly:before {
   @extend %Icon--wisembly;
+}
+
+%Icon--wisemblyFull {
+  content: "\ea72";
+}
+
+.Icon--wisemblyFull:before {
+  @extend %Icon--wisemblyFull;
 }
