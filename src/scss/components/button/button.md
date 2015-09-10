@@ -10,19 +10,18 @@ You can overide button size with 2 variables `$btn--pdv` & `$btn--pdh` for verti
 
 ## Sizes
 
-### Small
 ```html
 <button class="Btn Btn--s">Small button</button>
 <button class="Btn Btn--outline Btn--s">Small button</button>
 <button class="Btn Btn--s" aria-disabled="true" disabled>Small button</button>
 ```
 
-### Block
+## Block
 ```html
 <button class="Btn Btn--alt Btn--block">Block button</button>
 ```
 
-### Expand
+## Expand
 ```html
 <div class="BtnGroup Btn-expandContainer">
   <button class="Btn Btn--expand">Expanded button</button>
@@ -30,7 +29,7 @@ You can overide button size with 2 variables `$btn--pdv` & `$btn--pdh` for verti
 </div>
 ```
 
-### Squared
+## Squared
 ```html
 <button class="Btn Btn--squared">
   <i class="Icon Icon--like"></i>
@@ -39,7 +38,7 @@ You can overide button size with 2 variables `$btn--pdv` & `$btn--pdh` for verti
 ```
 
 
-### Circle
+## Circle
 ```html
 <button class="Btn Btn--circle">
   <i class="Icon Icon--like"></i>
