@@ -48,20 +48,20 @@
   @extend %Icon--actionItem;
 }
 
-%Icon--add {
-  content: "\ea02";
-}
-
-.Icon--add:before {
-  @extend %Icon--add;
-}
-
 %Icon--addUser {
-  content: "\ea03";
+  content: "\ea02";
 }
 
 .Icon--addUser:before {
   @extend %Icon--addUser;
+}
+
+%Icon--add {
+  content: "\ea03";
+}
+
+.Icon--add:before {
+  @extend %Icon--add;
 }
 
 %Icon--admin {
@@ -72,20 +72,20 @@
   @extend %Icon--admin;
 }
 
-%Icon--alarmClock {
-  content: "\ea05";
-}
-
-.Icon--alarmClock:before {
-  @extend %Icon--alarmClock;
-}
-
 %Icon--alert {
-  content: "\ea06";
+  content: "\ea05";
 }
 
 .Icon--alert:before {
   @extend %Icon--alert;
+}
+
+%Icon--alarmClock {
+  content: "\ea06";
+}
+
+.Icon--alarmClock:before {
+  @extend %Icon--alarmClock;
 }
 
 %Icon--archive {
@@ -104,20 +104,20 @@
   @extend %Icon--arrowBack;
 }
 
-%Icon--arrowDown {
-  content: "\ea09";
-}
-
-.Icon--arrowDown:before {
-  @extend %Icon--arrowDown;
-}
-
 %Icon--arrowFirst {
-  content: "\ea0a";
+  content: "\ea09";
 }
 
 .Icon--arrowFirst:before {
   @extend %Icon--arrowFirst;
+}
+
+%Icon--arrowDown {
+  content: "\ea0a";
+}
+
+.Icon--arrowDown:before {
+  @extend %Icon--arrowDown;
 }
 
 %Icon--arrowLast {
@@ -152,20 +152,20 @@
   @extend %Icon--assignee;
 }
 
-%Icon--azure {
-  content: "\ea0f";
-}
-
-.Icon--azure:before {
-  @extend %Icon--azure;
-}
-
 %Icon--badge {
-  content: "\ea10";
+  content: "\ea0f";
 }
 
 .Icon--badge:before {
   @extend %Icon--badge;
+}
+
+%Icon--azure {
+  content: "\ea10";
+}
+
+.Icon--azure:before {
+  @extend %Icon--azure;
 }
 
 %Icon--bar {
@@ -488,20 +488,20 @@
   @extend %Icon--linkedin;
 }
 
-%Icon--listExpand {
-  content: "\ea39";
-}
-
-.Icon--listExpand:before {
-  @extend %Icon--listExpand;
-}
-
 %Icon--listCollapse {
-  content: "\ea3a";
+  content: "\ea39";
 }
 
 .Icon--listCollapse:before {
   @extend %Icon--listCollapse;
+}
+
+%Icon--listExpand {
+  content: "\ea3a";
+}
+
+.Icon--listExpand:before {
+  @extend %Icon--listExpand;
 }
 
 %Icon--live {
@@ -536,20 +536,20 @@
   @extend %Icon--mail;
 }
 
-%Icon--menu {
-  content: "\ea3f";
-}
-
-.Icon--menu:before {
-  @extend %Icon--menu;
-}
-
 %Icon--meetingList {
-  content: "\ea40";
+  content: "\ea3f";
 }
 
 .Icon--meetingList:before {
   @extend %Icon--meetingList;
+}
+
+%Icon--menu {
+  content: "\ea40";
+}
+
+.Icon--menu:before {
+  @extend %Icon--menu;
 }
 
 %Icon--message {
@@ -696,20 +696,20 @@
   @extend %Icon--play;
 }
 
-%Icon--popup {
-  content: "\ea53";
-}
-
-.Icon--popup:before {
-  @extend %Icon--popup;
-}
-
 %Icon--plus {
-  content: "\ea54";
+  content: "\ea53";
 }
 
 .Icon--plus:before {
   @extend %Icon--plus;
+}
+
+%Icon--popup {
+  content: "\ea54";
+}
+
+.Icon--popup:before {
+  @extend %Icon--popup;
 }
 
 %Icon--public {
@@ -728,24 +728,40 @@
   @extend %Icon--recurring;
 }
 
-%Icon--results {
+%Icon--refresh {
   content: "\ea57";
 }
 
-.Icon--results:before {
-  @extend %Icon--results;
+.Icon--refresh:before {
+  @extend %Icon--refresh;
+}
+
+%Icon--reply {
+  content: "\ea58";
+}
+
+.Icon--reply:before {
+  @extend %Icon--reply;
 }
 
 %Icon--reset {
-  content: "\ea58";
+  content: "\ea59";
 }
 
 .Icon--reset:before {
   @extend %Icon--reset;
 }
 
+%Icon--results {
+  content: "\ea5a";
+}
+
+.Icon--results:before {
+  @extend %Icon--results;
+}
+
 %Icon--singleChoice {
-  content: "\ea59";
+  content: "\ea5b";
 }
 
 .Icon--singleChoice:before {
@@ -753,7 +769,7 @@
 }
 
 %Icon--slack {
-  content: "\ea5a";
+  content: "\ea5c";
 }
 
 .Icon--slack:before {
@@ -761,7 +777,7 @@
 }
 
 %Icon--solid {
-  content: "\ea5b";
+  content: "\ea5d";
 }
 
 .Icon--solid:before {
@@ -769,7 +785,7 @@
 }
 
 %Icon--solidFull {
-  content: "\ea5c";
+  content: "\ea5e";
 }
 
 .Icon--solidFull:before {
@@ -777,7 +793,7 @@
 }
 
 %Icon--star {
-  content: "\ea5d";
+  content: "\ea5f";
 }
 
 .Icon--star:before {
@@ -785,7 +801,7 @@
 }
 
 %Icon--starHalf {
-  content: "\ea5e";
+  content: "\ea60";
 }
 
 .Icon--starHalf:before {
@@ -793,7 +809,7 @@
 }
 
 %Icon--starOutlined {
-  content: "\ea5f";
+  content: "\ea61";
 }
 
 .Icon--starOutlined:before {
@@ -801,7 +817,7 @@
 }
 
 %Icon--stop {
-  content: "\ea60";
+  content: "\ea62";
 }
 
 .Icon--stop:before {
@@ -809,7 +825,7 @@
 }
 
 %Icon--subtitle {
-  content: "\ea61";
+  content: "\ea63";
 }
 
 .Icon--subtitle:before {
@@ -817,7 +833,7 @@
 }
 
 %Icon--sunrise {
-  content: "\ea62";
+  content: "\ea64";
 }
 
 .Icon--sunrise:before {
@@ -825,7 +841,7 @@
 }
 
 %Icon--sunset {
-  content: "\ea63";
+  content: "\ea65";
 }
 
 .Icon--sunset:before {
@@ -833,7 +849,7 @@
 }
 
 %Icon--target {
-  content: "\ea64";
+  content: "\ea66";
 }
 
 .Icon--target:before {
@@ -841,7 +857,7 @@
 }
 
 %Icon--task {
-  content: "\ea65";
+  content: "\ea67";
 }
 
 .Icon--task:before {
@@ -849,7 +865,7 @@
 }
 
 %Icon--thems {
-  content: "\ea66";
+  content: "\ea68";
 }
 
 .Icon--thems:before {
@@ -857,7 +873,7 @@
 }
 
 %Icon--title {
-  content: "\ea67";
+  content: "\ea69";
 }
 
 .Icon--title:before {
@@ -865,7 +881,7 @@
 }
 
 %Icon--trash {
-  content: "\ea68";
+  content: "\ea6a";
 }
 
 .Icon--trash:before {
@@ -873,7 +889,7 @@
 }
 
 %Icon--triangleDown {
-  content: "\ea69";
+  content: "\ea6b";
 }
 
 .Icon--triangleDown:before {
@@ -881,7 +897,7 @@
 }
 
 %Icon--triangleUp {
-  content: "\ea6a";
+  content: "\ea6c";
 }
 
 .Icon--triangleUp:before {
@@ -889,7 +905,7 @@
 }
 
 %Icon--twitter {
-  content: "\ea6b";
+  content: "\ea6d";
 }
 
 .Icon--twitter:before {
@@ -897,7 +913,7 @@
 }
 
 %Icon--user {
-  content: "\ea6c";
+  content: "\ea6e";
 }
 
 .Icon--user:before {
@@ -905,7 +921,7 @@
 }
 
 %Icon--voice {
-  content: "\ea6d";
+  content: "\ea6f";
 }
 
 .Icon--voice:before {
@@ -913,7 +929,7 @@
 }
 
 %Icon--vote {
-  content: "\ea6e";
+  content: "\ea70";
 }
 
 .Icon--vote:before {
@@ -921,7 +937,7 @@
 }
 
 %Icon--wisembly {
-  content: "\ea6f";
+  content: "\ea71";
 }
 
 .Icon--wisembly:before {
@@ -929,25 +945,9 @@
 }
 
 %Icon--wisemblyFull {
-  content: "\ea70";
+  content: "\ea72";
 }
 
 .Icon--wisemblyFull:before {
   @extend %Icon--wisemblyFull;
-}
-
-%Icon--reply {
-  content: "\ea71";
-}
-
-.Icon--reply:before {
-  @extend %Icon--reply;
-}
-
-%Icon--refresh {
-  content: "\ea72";
-}
-
-.Icon--refresh:before {
-  @extend %Icon--refresh;
 }

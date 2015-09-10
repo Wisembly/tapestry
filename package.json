@@ -1,8 +1,8 @@
 {
   "name": "tapestry",
-  "version": "0.22.0",
+  "version": "0.23.0",
   "description": "Wisembly UI elements",
-  "main": "Gulpfile.js",
+  "main": "dist/js/tapestry.js",
   "devDependencies": {
     "backstopjs": "^0.4.3",
     "browser-sync": "^2.9.3",
@@ -22,7 +22,8 @@
     "jade": "^1.11.0",
     "lodash": "3.9.3",
     "run-sequence": "^1.1.2",
-    "styleguide-generator": "0.6.0"
+    "styleguide-generator": "0.6.0",
+    "underscore": "^1.8.3"
   },
   "scripts": {
     "vt:refs": "cd ./node_modules/backstopjs && gulp reference && cd ../../",

@@ -23,13 +23,13 @@
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--add"></i>
-  add
+  <i class="Icon Icon--addUser"></i>
+  addUser
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--addUser"></i>
-  addUser
+  <i class="Icon Icon--add"></i>
+  add
 </div>
 
 <div class="s-Icon">
@@ -38,13 +38,13 @@
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--alarmClock"></i>
-  alarmClock
+  <i class="Icon Icon--alert"></i>
+  alert
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--alert"></i>
-  alert
+  <i class="Icon Icon--alarmClock"></i>
+  alarmClock
 </div>
 
 <div class="s-Icon">
@@ -58,13 +58,13 @@
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--arrowDown"></i>
-  arrowDown
+  <i class="Icon Icon--arrowFirst"></i>
+  arrowFirst
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--arrowFirst"></i>
-  arrowFirst
+  <i class="Icon Icon--arrowDown"></i>
+  arrowDown
 </div>
 
 <div class="s-Icon">
@@ -88,13 +88,13 @@
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--azure"></i>
-  azure
+  <i class="Icon Icon--badge"></i>
+  badge
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--badge"></i>
-  badge
+  <i class="Icon Icon--azure"></i>
+  azure
 </div>
 
 <div class="s-Icon">
@@ -298,13 +298,13 @@
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--listExpand"></i>
-  listExpand
+  <i class="Icon Icon--listCollapse"></i>
+  listCollapse
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--listCollapse"></i>
-  listCollapse
+  <i class="Icon Icon--listExpand"></i>
+  listExpand
 </div>
 
 <div class="s-Icon">
@@ -328,13 +328,13 @@
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--menu"></i>
-  menu
+  <i class="Icon Icon--meetingList"></i>
+  meetingList
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--meetingList"></i>
-  meetingList
+  <i class="Icon Icon--menu"></i>
+  menu
 </div>
 
 <div class="s-Icon">
@@ -428,13 +428,13 @@
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--popup"></i>
-  popup
+  <i class="Icon Icon--plus"></i>
+  plus
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--plus"></i>
-  plus
+  <i class="Icon Icon--popup"></i>
+  popup
 </div>
 
 <div class="s-Icon">
@@ -448,13 +448,23 @@
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--results"></i>
-  results
+  <i class="Icon Icon--refresh"></i>
+  refresh
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--reply"></i>
+  reply
 </div>
 
 <div class="s-Icon">
   <i class="Icon Icon--reset"></i>
   reset
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--results"></i>
+  results
 </div>
 
 <div class="s-Icon">
@@ -575,16 +585,6 @@
 <div class="s-Icon">
   <i class="Icon Icon--wisemblyFull"></i>
   wisemblyFull
-</div>
-
-<div class="s-Icon">
-  <i class="Icon Icon--reply"></i>
-  reply
-</div>
-
-<div class="s-Icon">
-  <i class="Icon Icon--refresh"></i>
-  refresh
 </div>
 
 ```

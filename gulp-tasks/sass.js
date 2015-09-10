@@ -10,5 +10,5 @@ module.exports = function () {
       browsers: ['last 2 versions']
     }))
     .pipe(rename('tapestry.css'))
-    .pipe(gulp.dest('./website/public/css'));
+    .pipe(gulp.dest('dist/css'));
 };

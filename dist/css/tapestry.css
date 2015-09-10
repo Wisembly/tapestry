@@ -844,19 +844,19 @@ th {
 .Icon--actionItem:before {
   content: "\ea01"; }
 
-.Icon--add:before {
+.Icon--addUser:before {
   content: "\ea02"; }
 
-.Icon--addUser:before {
+.Icon--add:before {
   content: "\ea03"; }
 
 .Icon--admin:before {
   content: "\ea04"; }
 
-.Icon--alarmClock:before {
+.Icon--alert:before {
   content: "\ea05"; }
 
-.Icon--alert:before {
+.Icon--alarmClock:before {
   content: "\ea06"; }
 
 .Icon--archive:before {
@@ -865,10 +865,10 @@ th {
 .Icon--arrowBack:before {
   content: "\ea08"; }
 
-.Icon--arrowDown:before {
+.Icon--arrowFirst:before {
   content: "\ea09"; }
 
-.Icon--arrowFirst:before {
+.Icon--arrowDown:before {
   content: "\ea0a"; }
 
 .Icon--arrowLast:before {
@@ -883,10 +883,10 @@ th {
 .Icon--assignee:before {
   content: "\ea0e"; }
 
-.Icon--azure:before {
+.Icon--badge:before {
   content: "\ea0f"; }
 
-.Icon--badge:before {
+.Icon--azure:before {
   content: "\ea10"; }
 
 .Icon--bar:before {
@@ -1028,10 +1028,10 @@ th {
 .Icon--mail:before {
   content: "\ea3e"; }
 
-.Icon--menu:before {
+.Icon--meetingList:before {
   content: "\ea3f"; }
 
-.Icon--meetingList:before {
+.Icon--menu:before {
   content: "\ea40"; }
 
 .Icon--message:before {
@@ -1088,10 +1088,10 @@ th {
 .Icon--play:before {
   content: "\ea52"; }
 
-.Icon--popup:before {
+.Icon--plus:before {
   content: "\ea53"; }
 
-.Icon--plus:before {
+.Icon--popup:before {
   content: "\ea54"; }
 
 .Icon--public:before {
@@ -1100,79 +1100,79 @@ th {
 .Icon--recurring:before {
   content: "\ea56"; }
 
-.Icon--results:before {
+.Icon--refresh:before {
   content: "\ea57"; }
 
-.Icon--reset:before {
+.Icon--reply:before {
   content: "\ea58"; }
 
-.Icon--singleChoice:before {
+.Icon--reset:before {
   content: "\ea59"; }
 
-.Icon--slack:before {
+.Icon--results:before {
   content: "\ea5a"; }
 
-.Icon--solid:before {
+.Icon--singleChoice:before {
   content: "\ea5b"; }
 
-.Icon--solidFull:before {
+.Icon--slack:before {
   content: "\ea5c"; }
 
-.Icon--solidFull:before {
+.Icon--solid:before {
   content: "\ea5d"; }
 
-.Icon--solid:before {
+.Icon--solidFull:before {
   content: "\ea5e"; }
 
-.Icon--starOutlined:before {
+.Icon--star:before {
   content: "\ea5f"; }
 
-.Icon--stop:before {
+.Icon--starHalf:before {
   content: "\ea60"; }
 
-.Icon--subtitle:before {
+.Icon--starOutlined:before {
   content: "\ea61"; }
 
-.Icon--sunrise:before {
+.Icon--stop:before {
   content: "\ea62"; }
 
-.Icon--sunrise:before {
+.Icon--subtitle:before {
   content: "\ea63"; }
 
-.Icon--subtitle:before {
+.Icon--sunrise:before {
   content: "\ea64"; }
 
-.Icon--task:before {
+.Icon--sunset:before {
   content: "\ea65"; }
 
-.Icon--thems:before {
+.Icon--target:before {
   content: "\ea66"; }
 
-.Icon--title:before {
+.Icon--task:before {
   content: "\ea67"; }
 
-.Icon--trash:before {
+.Icon--thems:before {
   content: "\ea68"; }
 
-.Dropdown-selectInput:after, .Icon--triangleDown:before {
+.Icon--title:before {
   content: "\ea69"; }
 
-.Icon--triangleUp:before {
+.Icon--trash:before {
   content: "\ea6a"; }
 
-.Icon--twitter:before {
+.Dropdown-selectInput:after, .Icon--triangleDown:before {
   content: "\ea6b"; }
 
-.Icon--user:before {
+.Icon--triangleUp:before {
   content: "\ea6c"; }
 
-.Icon--voice:before {
+.Icon--twitter:before {
   content: "\ea6d"; }
 
-.Icon--vote:before {
+.Icon--user:before {
   content: "\ea6e"; }
 
-.Icon--wisembly:before {
+.Icon--voice:before {
   content: "\ea6f"; }
 
 .Icon--vote:before {
