@@ -1,6 +1,7 @@
 # Avatar
 
 ## Sizes
+
 ```html
 <img class="Avatar Avatar--s" src="https://upload.wikimedia.org/wikipedia/en/6/69/Ember.js_Logo_and_Mascot.png" alt=" " />
 <img class="Avatar" src="https://upload.wikimedia.org/wikipedia/en/6/69/Ember.js_Logo_and_Mascot.png" alt=" " />
@@ -17,7 +18,7 @@
 
 ## Empty
 
-* `Avatar--s` should not be use with `Avatar--empty`
+`Avatar--s` should not be use with `Avatar--empty`
 
 ```html
 <div class="Avatar Avatar--empty">

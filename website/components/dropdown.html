@@ -1,0 +1,197 @@
+<div id="s-dropdown" class="s-Module s-Module--dropdown"><h1 id="dropdown" class="s-Title--1">Dropdown</h1><div class="Dropdown" data-tapestry="dropdown">
+  <button type="button" class="Dropdown-toggle Btn" aria-controls="" aria-expanded="false">Call to action</button>
+  <ul id="" class="Dropdown-list">
+    <li class="Dropdown-item">
+      Simple label
+    </li>
+    <li>
+      <a href="#" class="Dropdown-item">
+        Linked label
+      </a>
+    </li>
+  </ul>
+</div>
+<pre class="code"><code class="html">&lt;<span class="hljs-tag">div</span> class=<span class="hljs-string">"Dropdown"</span> data-tapestry=<span class="hljs-string">"dropdown"</span>&gt;
+  &lt;<span class="hljs-tag">button</span> type=<span class="hljs-string">"button"</span> class=<span class="hljs-string">"Dropdown-toggle Btn"</span> aria-controls=<span class="hljs-string">""</span> aria-expanded=<span class="hljs-string">"false"</span>&gt;Call to action&lt;/button&gt;
+  &lt;<span class="hljs-tag">ul</span> id=<span class="hljs-string">""</span> class=<span class="hljs-string">"Dropdown-list"</span>&gt;
+    &lt;<span class="hljs-tag">li</span> class=<span class="hljs-string">"Dropdown-item"</span>&gt;
+      Simple <span class="hljs-tag">label</span>
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;<span class="hljs-tag">a</span> href=<span class="hljs-string">"#"</span> class=<span class="hljs-string">"Dropdown-item"</span>&gt;
+        Linked <span class="hljs-tag">label</span>
+      &lt;/a&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;</code></pre><h2 id="positions" class="s-Title--2">Positions</h2><p>Add those classes to position the <code>Dropdown-list</code> <br/>
+example: <code>&lt;ul id=&quot;dropdownTopLeft&quot; class=&quot;Dropdown-list Dropdown-list--tl&quot;&gt;∞&lt;/ul&gt;</code></p>
+<table class="Table">
+  <thead class="Table-head">
+    <th class="Table-cell Table-cell--header u-tal">Class</th>
+    <th class="Table-cell Table-cell--header">Description</th>
+  </thead>
+  <tbody class="Table-body">
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal"><code>.Dropdown-list--tl</code></td>
+      <td class="Table-cell">Aligns dropdown on the top-left</td>
+    </tr>
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal"><code>.Dropdown-list--tc</code></td>
+      <td class="Table-cell">Aligns dropdown on the top-center</td>
+    </tr>
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal"><code>.Dropdown-list--tr</code></td>
+      <td class="Table-cell">Aligns dropdown on the top-right</td>
+    </tr>
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal"><code>.Dropdown-list--bc</code></td>
+      <td class="Table-cell">Aligns dropdown on the bottom-center</td>
+    </tr>
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal"><code>.Dropdown-list--br </code></td>
+      <td class="Table-cell">Aligns dropdown on the bottom-right</td>
+    </tr>
+  </tbody>
+</table>
+<h2 id="divider" class="s-Title--2">Divider</h2><div class="Dropdown" data-tapestry="dropdown">
+  <button type="button" class="Dropdown-toggle Btn" aria-controls="dropdownDividerExample" aria-expanded="false">Call to action</button>
+  <ul id="dropdownDividerExample" class="Dropdown-list" aria-labelledby="dropdownMenuDivider">
+    <li class="Dropdown-item">
+      Simple label 1
+    </li>
+    <li class="Dropdown-item">
+      Simple label 2
+    </li>
+    <li class="Dropdown-item">
+      Simple label 3
+    </li>
+    <li role="separator" class="Dropdown-hr"></li>
+    <li class="Dropdown-item">
+      Apply
+    </li>
+    <li class="Dropdown-item">
+      Cancel
+    </li>
+  </ul>
+</div>
+<pre class="code"><code class="html">&lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"Dropdown"</span> data-tapestry=<span class="hljs-string">"dropdown"</span>&gt;
+  &lt;button <span class="hljs-keyword">type</span>=<span class="hljs-string">"button"</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"Dropdown-toggle Btn"</span> aria-controls=<span class="hljs-string">"dropdownDividerExample"</span> aria-expanded=<span class="hljs-string">"false"</span>&gt;Call to action&lt;/button&gt;
+  &lt;ul id=<span class="hljs-string">"dropdownDividerExample"</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"Dropdown-list"</span> aria-labelledby=<span class="hljs-string">"dropdownMenuDivider"</span>&gt;
+    &lt;<span class="hljs-keyword">li</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"Dropdown-item"</span>&gt;
+      Simple <span class="hljs-keyword">label</span> 1
+    &lt;/<span class="hljs-keyword">li</span>&gt;
+    &lt;<span class="hljs-keyword">li</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"Dropdown-item"</span>&gt;
+      Simple <span class="hljs-keyword">label</span> 2
+    &lt;/<span class="hljs-keyword">li</span>&gt;
+    &lt;<span class="hljs-keyword">li</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"Dropdown-item"</span>&gt;
+      Simple <span class="hljs-keyword">label</span> 3
+    &lt;/<span class="hljs-keyword">li</span>&gt;
+    &lt;<span class="hljs-keyword">li</span> role=<span class="hljs-string">"separator"</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"Dropdown-hr"</span>&gt;&lt;/<span class="hljs-keyword">li</span>&gt;
+    &lt;<span class="hljs-keyword">li</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"Dropdown-item"</span>&gt;
+      Apply
+    &lt;/<span class="hljs-keyword">li</span>&gt;
+    &lt;<span class="hljs-keyword">li</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"Dropdown-item"</span>&gt;
+      Cancel
+    &lt;/<span class="hljs-keyword">li</span>&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;</code></pre><h2 id="dropdown-select" class="s-Title--2">Dropdown Select</h2><p>The easiest way to create a <code>&lt;select&gt;</code> is, indeed, to use the classic <code>&lt;select&gt;</code>, it will be transformed into a custom select with the Tapestry look &amp; feel.<br>
+The <code>data-label</code> attribute will display a custom value.
+You can also use an <code>&lt;option&gt;</code> to create a placeholder.</p>
+<select name="">
+  <option value="">Chose a foobar option</option>
+  <option value="foo" selected>foo</option>
+  <option value="bar" data-label="Foo Label">bar</option>
+  <option value="baz">baz</option>
+</select>
+<pre class="code"><code class="html">&lt;select name=<span class="hljs-string">""</span>&gt;
+  &lt;<span class="hljs-keyword">option</span> <span class="hljs-keyword">value</span>=<span class="hljs-string">""</span>&gt;Chose a foobar <span class="hljs-keyword">option</span>&lt;/<span class="hljs-keyword">option</span>&gt;
+  &lt;<span class="hljs-keyword">option</span> <span class="hljs-keyword">value</span>=<span class="hljs-string">"foo"</span> selected&gt;foo&lt;/<span class="hljs-keyword">option</span>&gt;
+  &lt;<span class="hljs-keyword">option</span> <span class="hljs-keyword">value</span>=<span class="hljs-string">"bar"</span> data-label=<span class="hljs-string">"Foo Label"</span>&gt;bar&lt;/<span class="hljs-keyword">option</span>&gt;
+  &lt;<span class="hljs-keyword">option</span> <span class="hljs-keyword">value</span>=<span class="hljs-string">"baz"</span>&gt;baz&lt;/<span class="hljs-keyword">option</span>&gt;
+&lt;/select&gt;</code></pre><p>In the other hand, if the classic <code>&lt;select</code>&gt; does not suit you, if you need to create complexe dropdowns, you can use the following code, it uses the same options, the only thing you will need to do is add an HTML element with the following class <code>.Dropdown-value</code>.</p>
+<div class="Dropdown" data-tapestry="dropdown-select">
+  <input name="" value="bar" hidden>
+  <button type="button" class="Dropdown-toggle Dropdown-selectInput" aria-controls="dropdownSelectExample" aria-expanded="false">
+    <span class="Dropdown-value"></span>
+  </button>
+  <ul id="dropdownSelectExample" class="Dropdown-list">
+    <li class="Dropdown-item" data-value="">
+      Simple label 1
+    </li>
+    <li class="Dropdown-item" data-value="bar" aria-selected="true">
+      Simple label 2
+    </li>
+    <li class="Dropdown-item" data-value="baz" data-label="Custom label 3">
+      Simple label 3
+    </li>
+  </ul>
+</div>
+<pre class="code"><code class="html">&lt;<span class="hljs-tag">div</span> class=<span class="hljs-string">"Dropdown"</span> data-tapestry=<span class="hljs-string">"dropdown-select"</span>&gt;
+  &lt;<span class="hljs-tag">input</span> name=<span class="hljs-string">""</span> value=<span class="hljs-string">"bar"</span> hidden&gt;
+  &lt;<span class="hljs-tag">button</span> type=<span class="hljs-string">"button"</span> class=<span class="hljs-string">"Dropdown-toggle Dropdown-selectInput"</span> aria-controls=<span class="hljs-string">"dropdownSelectExample"</span> aria-expanded=<span class="hljs-string">"false"</span>&gt;
+    &lt;<span class="hljs-tag">span</span> class=<span class="hljs-string">"Dropdown-value"</span>&gt;&lt;/span&gt;
+  &lt;/button&gt;
+  &lt;<span class="hljs-tag">ul</span> id=<span class="hljs-string">"dropdownSelectExample"</span> class=<span class="hljs-string">"Dropdown-list"</span>&gt;
+    &lt;<span class="hljs-tag">li</span> class=<span class="hljs-string">"Dropdown-item"</span> data-value=<span class="hljs-string">""</span>&gt;
+      Simple <span class="hljs-tag">label</span> <span class="hljs-number">1</span>
+    &lt;/li&gt;
+    &lt;<span class="hljs-tag">li</span> class=<span class="hljs-string">"Dropdown-item"</span> data-value=<span class="hljs-string">"bar"</span> aria-selected=<span class="hljs-string">"true"</span>&gt;
+      Simple <span class="hljs-tag">label</span> <span class="hljs-number">2</span>
+    &lt;/li&gt;
+    &lt;<span class="hljs-tag">li</span> class=<span class="hljs-string">"Dropdown-item"</span> data-value=<span class="hljs-string">"baz"</span> data-label=<span class="hljs-string">"Custom label 3"</span>&gt;
+      Simple <span class="hljs-tag">label</span> <span class="hljs-number">3</span>
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;</code></pre><h2 id="options" class="s-Title--2">Options</h2><table class="Table">
+  <thead class="Table-head">
+    <th class="Table-cell Table-cell--header u-tal">Name</th>
+    <th class="Table-cell Table-cell--header">Type</th>
+    <th class="Table-cell Table-cell--header">Default</th>
+    <th class="Table-cell Table-cell--header">Description</th>
+  </thead>
+  <tbody class="Table-body">
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal"><code>placeholder</code></td>
+      <td class="Table-cell">String</td>
+      <td class="Table-cell">""</td>
+      <td class="Table-cell">Display a placholder when needed.</td>
+    </tr>
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal"><code>scroll</code></td>
+      <td class="Table-cell">Boolean</td>
+      <td class="Table-cell">false</td>
+      <td class="Table-cell">auto-scroll list to the selected item.</td>
+    </tr>
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal"><code>keyboard</code></td>
+      <td class="Table-cell">Boolean</td>
+      <td class="Table-cell">true</td>
+      <td class="Table-cell">Enable keyboard controls.</td>
+    </tr>
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal"><code>wheel</code></td>
+      <td class="Table-cell">Boolean</td>
+      <td class="Table-cell">false</td>
+      <td class="Table-cell">Enable mouse wheel controls. (Experimental)</td>
+    </tr>
+  </tbody>
+</table>
+<p>Options can be set both using <code>data-xxx</code> attributes or through <code>$.fn.dropddownSelect</code>
+Update: &#39;data-value&#39; can be null.</p>
+  <div class="Dropdown" data-keyboard="true" data-placeholder="My Placeholder"></div>
+<pre class="code"><code class="html">  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Dropdown"</span> data-keyboard=<span class="hljs-string">"true"</span> data-placeholder=<span class="hljs-string">"My Placeholder"</span>&gt;&lt;/<span class="hljs-keyword">div</span>&gt;</code></pre>  <script>
+    $(".my-dropdown-select").dropdownSelect({
+      placeholder: "My Placeholder",
+      keyboard: true,
+      wheel: true,
+      scroll: true
+    });
+  </script>
+<pre class="code"><code class="javascript">  <span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">
+    $(<span class="hljs-string">".my-dropdown-select"</span>).dropdownSelect({
+      placeholder: <span class="hljs-string">"My Placeholder"</span>,
+      keyboard: <span class="hljs-literal">true</span>,
+      wheel: <span class="hljs-literal">true</span>,
+      scroll: <span class="hljs-literal">true</span>
+    });
+  </span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span></code></pre></div>

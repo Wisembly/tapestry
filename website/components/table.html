@@ -1,0 +1,103 @@
+<div id="s-table" class="s-Module s-Module--table"><h1 id="table" class="s-Title--1">Table</h1><table class="Table">
+  <thead class="Table-head">
+    <th class="Table-cell Table-cell--header u-tal">Name</th>
+    <th class="Table-cell Table-cell--header">Foo</th>
+    <th class="Table-cell Table-cell--header">Bar</th>
+  </thead>
+  <tbody class="Table-body">
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal">A name</td>
+      <td class="Table-cell">Baz</td>
+      <td class="Table-cell">FooBar</td>
+    </tr>
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal">Another name</td>
+      <td class="Table-cell">FooBaz</td>
+      <td class="Table-cell">FooBarBaz</td>
+    </tr>
+  </tbody>
+</table>
+<pre class="code"><code class="html"><span class="hljs-tag">&lt;<span class="hljs-title">table</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"Table"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">thead</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"Table-head"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">th</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"Table-cell Table-cell--header u-tal"</span>&gt;</span>Name<span class="hljs-tag">&lt;/<span class="hljs-title">th</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">th</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"Table-cell Table-cell--header"</span>&gt;</span>Foo<span class="hljs-tag">&lt;/<span class="hljs-title">th</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">th</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"Table-cell Table-cell--header"</span>&gt;</span>Bar<span class="hljs-tag">&lt;/<span class="hljs-title">th</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-title">thead</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">tbody</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"Table-body"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">tr</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"Table-row"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">td</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"Table-cell Table-cell--important u-tal"</span>&gt;</span>A name<span class="hljs-tag">&lt;/<span class="hljs-title">td</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">td</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"Table-cell"</span>&gt;</span>Baz<span class="hljs-tag">&lt;/<span class="hljs-title">td</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">td</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"Table-cell"</span>&gt;</span>FooBar<span class="hljs-tag">&lt;/<span class="hljs-title">td</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">tr</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">tr</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"Table-row"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">td</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"Table-cell Table-cell--important u-tal"</span>&gt;</span>Another name<span class="hljs-tag">&lt;/<span class="hljs-title">td</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">td</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"Table-cell"</span>&gt;</span>FooBaz<span class="hljs-tag">&lt;/<span class="hljs-title">td</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">td</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"Table-cell"</span>&gt;</span>FooBarBaz<span class="hljs-tag">&lt;/<span class="hljs-title">td</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">tr</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-title">tbody</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">table</span>&gt;</span></code></pre><h2 id="actionnable" class="s-Title--2">Actionnable</h2><table class="Table Table--actionnable">
+  <thead class="Table-head">
+    <th class="Table-cell Table-cell--header u-tal">Name</th>
+    <th class="Table-cell Table-cell--header">Foo</th>
+    <th class="Table-cell Table-cell--header">Bar</th>
+  </thead>
+  <tbody class="Table-body">
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal">
+        <input class="Table-rowSelector" type="checkbox">
+        A name
+      </td>
+      <td class="Table-cell">Baz</td>
+      <td class="Table-cell">FooBar</td>
+    </tr>
+    <tr class="Table-row" aria-selected="true">
+      <td class="Table-cell Table-cell--important u-tal">
+        <input class="Table-rowSelector" type="checkbox" checked>
+        Another name
+      </td>
+      <td class="Table-cell">FooBaz</td>
+      <td class="Table-cell">FooBarBaz</td>
+    </tr>
+    <tr class="Table-row" aria-disabled="true">
+      <td class="Table-cell Table-cell--important u-tal">
+        <input class="Table-rowSelector" type="checkbox" disabled>
+        Another name
+      </td>
+      <td class="Table-cell">Foo</td>
+      <td class="Table-cell">Bar</td>
+    </tr>
+  </tbody>
+</table>
+<pre class="code"><code class="html">&lt;table <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Table Table--actionnable"</span>&gt;
+  &lt;thead <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Table-head"</span>&gt;
+    &lt;th <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Table-cell Table-cell--header u-tal"</span>&gt;<span class="hljs-type">Name</span>&lt;/th&gt;
+    &lt;th <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Table-cell Table-cell--header"</span>&gt;<span class="hljs-type">Foo</span>&lt;/th&gt;
+    &lt;th <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Table-cell Table-cell--header"</span>&gt;<span class="hljs-type">Bar</span>&lt;/th&gt;
+  &lt;/thead&gt;
+  &lt;tbody <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Table-body"</span>&gt;
+    &lt;tr <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Table-row"</span>&gt;
+      &lt;td <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Table-cell Table-cell--important u-tal"</span>&gt;
+        &lt;input <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Table-rowSelector"</span> <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"checkbox"</span>&gt;
+        <span class="hljs-type">A</span> name
+      &lt;/td&gt;
+      &lt;td <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Table-cell"</span>&gt;<span class="hljs-type">Baz</span>&lt;/td&gt;
+      &lt;td <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Table-cell"</span>&gt;<span class="hljs-type">FooBar</span>&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Table-row"</span> aria-selected=<span class="hljs-string">"true"</span>&gt;
+      &lt;td <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Table-cell Table-cell--important u-tal"</span>&gt;
+        &lt;input <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Table-rowSelector"</span> <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"checkbox"</span> checked&gt;
+        <span class="hljs-type">Another</span> name
+      &lt;/td&gt;
+      &lt;td <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Table-cell"</span>&gt;<span class="hljs-type">FooBaz</span>&lt;/td&gt;
+      &lt;td <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Table-cell"</span>&gt;<span class="hljs-type">FooBarBaz</span>&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Table-row"</span> aria-disabled=<span class="hljs-string">"true"</span>&gt;
+      &lt;td <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Table-cell Table-cell--important u-tal"</span>&gt;
+        &lt;input <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Table-rowSelector"</span> <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"checkbox"</span> disabled&gt;
+        <span class="hljs-type">Another</span> name
+      &lt;/td&gt;
+      &lt;td <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Table-cell"</span>&gt;<span class="hljs-type">Foo</span>&lt;/td&gt;
+      &lt;td <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Table-cell"</span>&gt;<span class="hljs-type">Bar</span>&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</code></pre></div>
