@@ -1,0 +1,4 @@
+- each component in components
+  li.Tab-item(aria-selected="false")
+    - var url = component.name.toLowerCase();
+    a.Tab-link(href="/components/#{url}")= component.name

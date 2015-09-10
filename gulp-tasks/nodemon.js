@@ -8,7 +8,7 @@ var BROWSER_SYNC_RELOAD_DELAY = 500;
 module.exports = function (cb) {
   return nodemon({
     script: 'website/app.js',
-    watch: ['dist/**']
+    watch: ['dist/**', 'website/**']
   })
   .on('restart', function () {
     setTimeout(function () {
