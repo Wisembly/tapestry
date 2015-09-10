@@ -12,9 +12,10 @@
 
 
 
-body {
+.s-App {
 	font-family: 'Proxima Nova', 'Open Sans', 'Georgia', sans-serif;
 }
+
 
 
 .s-Header {
@@ -60,4 +61,23 @@ body {
 .s-Nav-item:hover,
 .s-Nav-item.is-active {
 	opacity: 1;
+}
+
+
+
+.s-Container {
+	overflow: hidden;
+	padding: 2rem 3rem 3rem 1rem;
+}
+
+.s-Modules-navContainer {
+	position: fixed;
+	left: 1rem;
+	width: 20%;
+}
+
+.s-Modules-container {
+	width: 80%;
+	float: right;
+	padding-left: 1rem;
 }

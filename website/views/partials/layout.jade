@@ -5,8 +5,10 @@ html
       title Tapestry
       link(href='css/tapestry.css', rel='stylesheet', type='text/css')
       link(href='css/styleguide.css', rel='stylesheet', type='text/css')
+      script(async, src='http://localhost:4000/browser-sync/browser-sync-client.2.8.2.js')
+      block scripts
 
-  body(class="s-Page s-Page--#{name}")
+  body(class="s-App s-Page s-Page--#{name}")
     .s-Header
       h1.s-Header-title Tapestry
       h2.s-Header-subTitle Wisembly™ UI elements
@@ -16,7 +18,6 @@ html
         a(href="/about", class=name === 'about' ? 's-Nav-item is-active' : 's-Nav-item') About
         a(href="/components", class=name === 'components' ? 's-Nav-item is-active' : 's-Nav-item') Components
         a(href="/getting-started", class=name === 'getting-started' ? 's-Nav-item is-active' : 's-Nav-item') Getting started
-    block content
 
-    script(async, src='http://localhost:4000/browser-sync/browser-sync-client.2.8.2.js')
-    block scripts
+    .s-Container
+      block content

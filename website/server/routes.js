@@ -1,3 +1,5 @@
+var components = require('./components');
+
 module.exports = [
   {
     hash: '/',
@@ -13,7 +15,7 @@ module.exports = [
     hash: '/components',
     opts: {
       name: 'components',
-      components: ['a', 'b', 'c']
+      components: components
     }
   }, {
     hash: '/getting-started',

@@ -1,9 +1,16 @@
 extends partials/layout
 
 block content
-  h1 Hello, components
-  - each comp in components
-    li= comp
+  nav.s-Modules-navContainer
+    ul.s-Modules-nav.Tabs.Tabs--vertical
+      - each component in components
+        li.Tab-item(aria-selected="false")
+          - var url = component.name.toLowerCase();
+          a.Tab-link(href="#s-#{url}")= component.name
+
+  .s-Modules-container
+    - each component in components
+      .s-Module!= component.data.html
 
 block scripts
   script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js')
