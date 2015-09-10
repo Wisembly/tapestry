@@ -17,13 +17,9 @@
 ## List
 ```esc
 <% _.each(glyphs, function (glyph) { %>
-<div class="s-iconWrapper">
-  <div class="s-iconItem">
-    <i class="Icon Icon--<%= glyph.name %>"></i>
-  </div>
-  <div class="s-iconDescription">
-    <%= glyph.name %>
-  </div>
+<div class="s-Icon">
+  <i class="Icon Icon--<%= glyph.name %>"></i>
+  <%= glyph.name %>
 </div>
 <% }); %>
 ```

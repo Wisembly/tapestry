@@ -847,45 +847,31 @@ th {
 .Icon--add:before {
   content: "\ea02"; }
 
-.Icon--admin:before {
+.Icon--addUser:before {
   content: "\ea03"; }
 
-.Icon--addUser:before {
+.Icon--admin:before {
   content: "\ea04"; }
 
 .Icon--alarmClock:before {
   content: "\ea05"; }
 
-.Icon--archive:before {
+.Icon--alert:before {
   content: "\ea06"; }
 
-.Icon--arrowBack:before {
+.Icon--archive:before {
   content: "\ea07"; }
 
-<<<<<<< HEAD:dist/app.css
-.Icon--arrowDown:before {
-  content: "\ea08"; }
-
-.Icon--arrowFirst:before {
-  content: "\ea09"; }
-
-.Icon--arrowLast:before {
-=======
 .Icon--arrowBack:before {
   content: "\ea08"; }
 
-.Icon--arrowFirst:before {
+.Icon--arrowDown:before {
   content: "\ea09"; }
 
-<<<<<<< HEAD
 .Icon--arrowFirst:before {
->>>>>>> NW | Reorganise files:website/public/css/tapestry.css
-=======
-.Icon--arrowDown:before {
->>>>>>> NW | Inject Styleguide CSS
   content: "\ea0a"; }
 
-.Icon--alert:before {
+.Icon--arrowLast:before {
   content: "\ea0b"; }
 
 .Icon--arrowNext:before {
@@ -1009,10 +995,10 @@ th {
 .Icon--group:before {
   content: "\ea33"; }
 
-.Icon--home:before {
+.Icon--help:before {
   content: "\ea34"; }
 
-.Icon--help:before {
+.Icon--home:before {
   content: "\ea35"; }
 
 .Icon--label:before {
@@ -1042,10 +1028,10 @@ th {
 .Icon--mail:before {
   content: "\ea3e"; }
 
-.Icon--meetingList:before {
+.Icon--menu:before {
   content: "\ea3f"; }
 
-.Icon--menu:before {
+.Icon--meetingList:before {
   content: "\ea40"; }
 
 .Icon--message:before {
@@ -1102,10 +1088,10 @@ th {
 .Icon--play:before {
   content: "\ea52"; }
 
-.Icon--plus:before {
+.Icon--popup:before {
   content: "\ea53"; }
 
-.Icon--popup:before {
+.Icon--plus:before {
   content: "\ea54"; }
 
 .Icon--public:before {
@@ -1114,92 +1100,88 @@ th {
 .Icon--recurring:before {
   content: "\ea56"; }
 
-.Icon--refresh:before {
+.Icon--results:before {
   content: "\ea57"; }
 
-.Icon--reply:before {
+.Icon--reset:before {
   content: "\ea58"; }
 
-.Icon--reset:before {
+.Icon--singleChoice:before {
   content: "\ea59"; }
 
-.Icon--results:before {
+.Icon--slack:before {
   content: "\ea5a"; }
 
-.Icon--singleChoice:before {
+.Icon--solid:before {
   content: "\ea5b"; }
 
-.Icon--slack:before {
+.Icon--solidFull:before {
   content: "\ea5c"; }
 
-.Icon--solid:before {
+.Icon--star:before {
   content: "\ea5d"; }
 
-.Icon--solidFull:before {
+.Icon--starHalf:before {
   content: "\ea5e"; }
 
-.Icon--star:before {
+.Icon--starOutlined:before {
   content: "\ea5f"; }
 
-.Icon--starHalf:before {
+.Icon--stop:before {
   content: "\ea60"; }
 
-.Icon--starOutlined:before {
+.Icon--subtitle:before {
   content: "\ea61"; }
 
-.Icon--stop:before {
+.Icon--sunrise:before {
   content: "\ea62"; }
 
-.Icon--subtitle:before {
+.Icon--sunset:before {
   content: "\ea63"; }
 
-.Icon--sunrise:before {
+.Icon--target:before {
   content: "\ea64"; }
 
-.Icon--sunset:before {
+.Icon--task:before {
   content: "\ea65"; }
 
-.Icon--target:before {
+.Icon--thems:before {
   content: "\ea66"; }
 
-.Icon--task:before {
+.Icon--title:before {
   content: "\ea67"; }
 
-.Icon--thems:before {
+.Icon--trash:before {
   content: "\ea68"; }
 
-.Icon--title:before {
+.Dropdown-selectInput:after, .Icon--triangleDown:before {
   content: "\ea69"; }
 
-.Icon--trash:before {
+.Icon--triangleUp:before {
   content: "\ea6a"; }
 
-.Dropdown-selectInput:after, .Icon--triangleDown:before {
+.Icon--twitter:before {
   content: "\ea6b"; }
 
-.Icon--triangleUp:before {
+.Icon--user:before {
   content: "\ea6c"; }
 
-.Icon--twitter:before {
+.Icon--voice:before {
   content: "\ea6d"; }
 
-.Icon--user:before {
+.Icon--vote:before {
   content: "\ea6e"; }
 
-.Icon--voice:before {
+.Icon--wisembly:before {
   content: "\ea6f"; }
 
-.Icon--wisembly:before {
+.Icon--wisemblyFull:before {
   content: "\ea70"; }
 
-<<<<<<< HEAD
-.Icon--wisemblyFull:before {
-=======
-.Icon--vote:before {
->>>>>>> NW | Inject Styleguide CSS
+.Icon--reply:before {
   content: "\ea71"; }
 
-.Icon--wisembly:before {
+.Icon--refresh:before {
   content: "\ea72"; }
 
 .Input, .Input-addOn {
