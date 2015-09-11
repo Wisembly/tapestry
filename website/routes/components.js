@@ -4,19 +4,15 @@ var components = require('../components');
 module.exports = function (app) {
   app.get('/components/:name?', function (req, res) {
     var name = req.params.name;
+    var component = name ? _.findWhere(components, {
+      name: _(name).capitalize()
+    }) : null;
 
-    if (name)
-      return res.render('component', {
-        name: 'components',
-        components: components,
-        component: _.findWhere(components, {
-          name: _(name).capitalize()
-        })
-      });
-
-    return res.render('components', {
-      name: 'components',
-      components: components
+    return res.render(name ? 'component' : 'components', {
+      currentPage: 'components',
+      currentComponent: component.name,
+      components: components,
+      component: component
     });
   });
 };

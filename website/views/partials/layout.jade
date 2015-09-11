@@ -8,16 +8,16 @@ html
       script(async, src='http://localhost:4000/browser-sync/browser-sync-client.2.9.3.js')
       block scripts
 
-  body(class="s-App s-Page s-Page--#{name}")
+  body(class="s-App s-Page s-Page--#{currentPage}")
     .s-Header
       h1.s-Header-title Tapestry
       h2.s-Header-subTitle Wisembly™ UI elements
 
       nav.s-Nav
-        a(href="/", class=name === 'index' ? 's-Nav-item is-active' : 's-Nav-item is-hidden') Home
-        a(href="/about", class=name === 'about' ? 's-Nav-item is-active' : 's-Nav-item is-hidden') About
-        a(href="/components", class=name === 'components' ? 's-Nav-item is-active' : 's-Nav-item') Components
-        a(href="/getting-started", class=name === 'getting-started' ? 's-Nav-item is-active' : 's-Nav-item is-hidden') Getting started
+        a(href="/", class=currentPage === 'index' ? 's-Nav-item is-active' : 's-Nav-item is-hidden') Home
+        a(href="/about", class=currentPage === 'about' ? 's-Nav-item is-active' : 's-Nav-item is-hidden') About
+        a(href="/components", class=currentPage === 'components' ? 's-Nav-item is-active' : 's-Nav-item') Components
+        a(href="/getting-started", class=currentPage === 'getting-started' ? 's-Nav-item is-active' : 's-Nav-item is-hidden') Getting started
 
     .s-Container
       block content
