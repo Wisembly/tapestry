@@ -28,7 +28,7 @@
 }
 
 @if $import-button-group {
-  @import "components/button-group/core";
+  @import "components/button/group";
 }
 
 @if $import-collection {
