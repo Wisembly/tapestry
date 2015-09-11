@@ -1,13 +1,9 @@
-var path = require('path');
 var _ = require('underscore');
 var express = require('express');
+var path = require('path');
 var app = express();
 
-_.mixin({
-  capitalize: function(string) {
-    return string.charAt(0).toUpperCase() + string.substring(1).toLowerCase();
-  }
-});
+require('./helpers/mixins');
 
 app.set('views', __dirname + '/views')
 app.set('view engine', 'jade');
