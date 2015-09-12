@@ -9,7 +9,7 @@ html
       block scripts
 
   body(class="s-App s-Page s-Page--#{currentPage}")
-    .s-Header
+    .s-Header#js-Header
       h1.s-Header-title Tapestry
       h2.s-Header-subTitle Wisembly™ UI elements
 
@@ -21,3 +21,6 @@ html
 
     .s-Container
       block content
+
+    script(src="//cdnjs.cloudflare.com/ajax/libs/headroom/0.7.0/headroom.min.js")
+    script(src="/js/app.js")

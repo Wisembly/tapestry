@@ -21,13 +21,31 @@
 
 
 .s-Header {
-	padding: 3.2em 0 1em 0;
+	position: fixed;
+	top: 0; right: 0; left: 0;
+	padding: 0 0 1em 0;
 	text-align: center;
 	color: #fff;
 	background-color: #084d66;
+	transition: transform .3s ease-out;
+	z-index: 100;
+}
+
+.s-Header--top {
+	padding-top: 3.2rem;
+}
+
+.s-Header--unpinned {
+	transform: translateY(-100%);
+}
+
+.s-Header--top .s-Header-title,
+.s-Header--top .s-Header-subTitle {
+	display: block;
 }
 
 .s-Header-title {
+	display: none;
 	margin: 0;
 	font-size: 2.5rem;
 	font-weight: 700;
@@ -36,6 +54,7 @@
 }
 
 .s-Header-subTitle {
+	display: none;
 	font-size: 1rem;
 	line-height: 2;
 	font-weight: 600;
@@ -46,7 +65,7 @@
 
 
 .s-Nav {
-	margin-top: 2rem;
+	margin-top: 1.5rem;
 }
 
 .s-Nav-item {
@@ -69,21 +88,30 @@
 
 .s-Container {
 	overflow: hidden;
-	padding: 0 3rem 3rem 1rem;
+	padding: 12rem 2rem 3rem 1rem;
 }
 
 .s-Modules-navContainer {
 	position: fixed;
-	left: 1rem;
+	top: 5.5rem; bottom: 0; left: 1rem;
 	width: 20%;
-	padding-top: 2rem;
+	padding-top: 1.5rem;
+	transition: top .3s ease-out;
+	overflow: auto;
+}
+
+.s-Header--top + .s-Container .s-Modules-navContainer {
+	top: 13.5rem
+}
+.s-Header--unpinned + .s-Container .s-Modules-navContainer {
+	top: 0;
 }
 
 .s-Modules-container {
 	width: 80%;
 	float: right;
 	margin-top: -5rem;
-	padding-left: 1rem;
+	padding-left: 4rem;
 }
 
 
