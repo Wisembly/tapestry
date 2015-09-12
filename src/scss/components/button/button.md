@@ -78,3 +78,13 @@ You can overide button size with 2 variables `$btn--pdv` & `$btn--pdh` for verti
 <button class="Btn Btn--info Btn--outline">info button</button>
 <button class="Btn Btn--error Btn--outline">error button</button>
 ```
+
+## Button group
+
+```html
+<div class="BtnGroup">
+  <button class="Btn">Button A</button>
+  <button class="Btn">Button B</button>
+  <button class="Btn">Button C</button>
+</div>
+```

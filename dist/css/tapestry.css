@@ -1400,6 +1400,22 @@ th {
   padding: 0.78571rem 0;
   border-radius: 50%; }
 
+.BtnGroup {
+  display: inline-block;
+  font-size: 0; }
+  .BtnGroup .Btn {
+    margin-left: -1px;
+    border-radius: 0; }
+    .BtnGroup .Btn:first-child {
+      margin-left: 0;
+      border-top-left-radius: 0.28571rem;
+      border-bottom-left-radius: 0.28571rem; }
+    .BtnGroup .Btn:last-child {
+      border-top-right-radius: 0.28571rem;
+      border-bottom-right-radius: 0.28571rem; }
+    .BtnGroup .Btn + .Btn:not(.Btn--block) {
+      margin-left: 0; }
+
 .Btn:hover {
   background-color: #708189; }
 
