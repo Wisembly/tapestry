@@ -17,6 +17,7 @@ require('./routes/index')(app);
 require('./routes/about')(app);
 require('./routes/getting-started')(app);
 require('./routes/components')(app);
+require('./routes/stats')(app);
 require('./routes/404')(app);
 
 app.listen(3000);
