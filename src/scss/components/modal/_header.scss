@@ -16,7 +16,7 @@
   @include ellipsis;
   flex-grow: 1;
   margin: 0 $mg--m;
-  padding: 0 $modal-button-width;
+  padding: r(2) $modal-button-width;
   font-size: $fz--l;
   font-weight: $fw--semi-bold;
   line-height: $lh--l;

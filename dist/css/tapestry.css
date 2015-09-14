@@ -1586,9 +1586,8 @@ th {
             transform: translate(50%, 0%); }
 
 .Modal--centered {
-  top: auto; }
+  top: 50%; }
   .Modal--centered[aria-hidden="false"] {
-    top: 50%;
     -webkit-transform: translate(50%, -50%);
             transform: translate(50%, -50%); }
 
@@ -1636,7 +1635,7 @@ th {
       -ms-flex-positive: 1;
           flex-grow: 1;
   margin: 0 1.57143rem;
-  padding: 0 4.14286rem;
+  padding: 0.78571rem 4.14286rem;
   font-size: 1.2rem;
   font-weight: 600;
   line-height: 3.14286rem;

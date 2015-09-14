@@ -18,10 +18,9 @@
 }
 
 .Modal--centered {
-  top: auto;
+  top: 50%;
 
   &[aria-hidden="false"] {
-    top: 50%;
     transform: translate(50%, -50%);
   }
 }
