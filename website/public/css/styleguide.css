@@ -91,18 +91,19 @@
 
 .s-Modules-navContainer {
 	position: fixed;
-	top: 5.5rem; bottom: 0; left: 1rem;
+	top: 13.5rem; bottom: 0; left: 1rem;
 	width: 20%;
 	padding-top: 1.5rem;
 	transition: top .3s ease-out;
 	overflow: auto;
 }
 
-.s-Header--top + .s-Container .s-Modules-navContainer {
-	top: 13.5rem
-}
 .s-Header--unpinned + .s-Container .s-Modules-navContainer {
 	top: 0;
+}
+
+.s-Header--pinned + .s-Container .s-Modules-navContainer {
+	top: 5.5rem;
 }
 
 .s-Modules-container {
