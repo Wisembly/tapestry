@@ -1,15 +1,15 @@
 # Panel
 
+```esc
+<button id="launchPanel--r" class="Btn Btn--primary Btn--outline">Launch panel on the right</button>
+```
+
 ```html
-<button id="launchPanel--r" class="Btn">Launch panel on the right</button>
 <div id="panel--r" class="Panel Panel--r" aria-labelledby="rightPanel" aria-hidden="true">
   <header class="Panel-header">
-    <button class="Btn Btn--raw PanelHeader-button u-pull u-mgr--s" aria-label="back">
-      <i class="Icon Icon--s Icon--arrowBack"></i>
-    </button>
-    Panel on the right
-    <button id="closePanel--r" class="Btn Btn--raw PanelHeader-button u-push" aria-label="close">
-      <i class="Icon Icon--s Icon--cross"></i>
+    <h3 class="Panel-title">Panel on the right</h3>
+    <button id="closePanel--r" class="Btn Btn--raw PanelHeader-btn u-push" aria-label="close">
+      <i class="Icon Icon--cross"></i>
     </button>
   </header>
   <div class="Panel-content">
@@ -21,16 +21,16 @@
 
 ## Positions
 
+```esc
+<button id="launchPanel--l" class="Btn Btn--primary Btn--outline">Launch panel on the left</button>
+```
+
 ```html
-<button id="launchPanel--l" class="Btn">Launch panel on the left</button>
 <div id="panel--l" class="Panel Panel--l" aria-labelledby="leftPanel" aria-hidden="true">
   <header class="Panel-header">
-    <button class="Btn Btn--raw PanelHeader-button u-pull u-mgr--s" aria-label="back">
-      <i class="Icon Icon--s Icon--arrowBack"></i>
-    </button>
-    Panel on the left
-    <button id="closePanel--l" class="Btn Btn--raw PanelHeader-button u-push" aria-label="close">
-      <i class="Icon Icon--s Icon--cross"></i>
+    <h3 class="Panel-title">Panel on the left</h3>
+    <button id="closePanel--l" class="Btn Btn--raw PanelHeader-btn u-push" aria-label="close">
+      <i class="Icon Icon--cross"></i>
     </button>
   </header>
   <div class="Panel-content">
@@ -39,17 +39,17 @@
 </div>
 ```
 
+```esc
+<button id="launchPanel--b" class="Btn Btn--primary Btn--outline u-mgb--m">Launch panel in the box</button>
+```
+
 ```html
 <div style="position: relative; height: 200px; border: 3px dashed #a1a9ae; overflow: hidden; line-height: 200px;">
-  <button id="launchPanel--b" class="Btn u-mgl--l">Launch panel in the box</button>
   <div id="panel--b" class="Panel Panel--abs" aria-labelledby="leftPanel" aria-hidden="true">
     <header class="Panel-header">
-      <button class="Btn Btn--raw PanelHeader-button u-pull u-mgr--s" aria-label="back">
-        <i class="Icon Icon--s Icon--arrowBack"></i>
-      </button>
-      Panel on the left
-      <button id="closePanel--b" class="Btn Btn--raw PanelHeader-button u-push" aria-label="close">
-        <i class="Icon Icon--s Icon--cross"></i>
+      <h3 class="Panel-title">Panel on the left</h3>
+      <button id="closePanel--b" class="Btn Btn--raw PanelHeader-btn u-push" aria-label="close">
+        <i class="Icon Icon--cross"></i>
       </button>
     </header>
     <div class="Panel-content">

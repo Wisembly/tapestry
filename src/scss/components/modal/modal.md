@@ -4,7 +4,7 @@
 Aims at including a simple caption or call-to-action.
 
 ```esc
-<button class="Btn Btn--primary" id="launchModalSimple">Open Modal with simple message</button>
+<button class="Btn Btn--primary Btn--outline" id="launchModalSimple">Open Modal with simple message</button>
 ```
 
 ```html
@@ -29,7 +29,7 @@ Aims at including a simple caption or call-to-action.
 Wraps a component collection.
 
 ```esc
-<button class="Btn Btn--primary" id="launchModalMenu">Open Modal with collection</button>
+<button class="Btn Btn--primary Btn--outline" id="launchModalMenu">Open Modal with collection</button>
 ```
 
 ```html

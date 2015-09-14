@@ -1586,9 +1586,8 @@ th {
             transform: translate(50%, 0%); }
 
 .Modal--centered {
-  top: auto; }
+  top: 50%; }
   .Modal--centered[aria-hidden="false"] {
-    top: 50%;
     -webkit-transform: translate(50%, -50%);
             transform: translate(50%, -50%); }
 
@@ -1636,7 +1635,7 @@ th {
       -ms-flex-positive: 1;
           flex-grow: 1;
   margin: 0 1.57143rem;
-  padding: 0 4.14286rem;
+  padding: 0.78571rem 4.14286rem;
   font-size: 1.2rem;
   font-weight: 600;
   line-height: 3.14286rem;
@@ -1777,18 +1776,42 @@ th {
             transform: translateX(100%); }
 
 .Panel-header {
-  padding: 0 0.78571rem;
-  line-height: 3.14286rem;
-  color: #fff;
-  background: #084d66; }
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  background: #07698d;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
 
-.PanelHeader-button {
-  padding: 0 0.78571rem;
+.PanelHeader-btn {
+  padding: 0.78571rem 0.78571rem;
   line-height: 3.14286rem;
-  vertical-align: top;
   color: #aed7e8; }
-  .PanelHeader-button .Icon {
+  .PanelHeader-btn .Icon {
     vertical-align: middle; }
+
+.Panel-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin: 0;
+  padding: 0 1.57143rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 3.14286rem;
+  text-align: left;
+  color: #fff; }
 
 .Panel-content {
   height: calc(100% - 3.14286rem);
@@ -1806,7 +1829,7 @@ th {
     -webkit-transform: translateX(-100%);
             transform: translateX(-100%); }
 
-.PanelHeader-button:hover {
+.PanelHeader-btn:hover {
   color: #258aae; }
 
 .Pellet {
