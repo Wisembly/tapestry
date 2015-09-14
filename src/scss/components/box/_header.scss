@@ -1,0 +1,15 @@
+.Box-header {
+  padding: $pd--m;
+  overflow: auto;
+
+  + .Box-content {
+    padding-top: 0;
+  }
+}
+
+.Box-title {
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0;
+  vertical-align: middle;
+}

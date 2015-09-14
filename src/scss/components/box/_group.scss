@@ -1,0 +1,15 @@
+.Boxes {
+  display: flex;
+
+  > .Box {
+    flex: 1;
+
+    + .Box {
+      border-left: 0;
+    }
+  }
+
+  + .Boxes {
+    margin-top: $mg--m;
+  }
+}

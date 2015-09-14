@@ -624,6 +624,41 @@ th {
     .BtnGroup .Btn + .Btn:not(.Btn--block) {
       margin-left: 0; }
 
+.Box {
+  background: #fff;
+  border: 1px solid #ebeeef; }
+  .Box > .Table {
+    border-width: 1px 0 0; }
+
+.Box-header {
+  padding: 1.57143rem;
+  overflow: auto; }
+  .Box-header + .Box-content {
+    padding-top: 0; }
+
+.Box-title {
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0;
+  vertical-align: middle; }
+
+.Box-content {
+  padding: 1.57143rem;
+  overflow: auto; }
+
+.Boxes {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  .Boxes > .Box {
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1; }
+    .Boxes > .Box + .Box {
+      border-left: 0; }
+  .Boxes + .Boxes {
+    margin-top: 1.57143rem; }
+
 .Collection {
   margin: 0;
   padding: 0; }
@@ -1984,17 +2019,22 @@ input:checked + .Switch--s:after {
   display: table;
   width: 100%;
   color: #708189;
+  border: 1px solid #d5d9da;
   border-collapse: collapse; }
+
+.Table-row,
+.Table-head {
+  border-bottom: 1px solid #d5d9da; }
 
 .Table-cell {
   display: table-cell;
-  padding: 0.78571rem;
+  padding: 0.78571rem 1.57143rem;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.57143rem;
   text-align: center;
   color: #708189;
-  border: 1px solid #d5d9da; }
+  border-left: 1px solid #d5d9da; }
   [aria-disabled=true] .Table-cell {
     color: #d5d9da; }
 
@@ -2005,24 +2045,23 @@ input:checked + .Switch--s:after {
 .Table-head .Table-cell {
   font-weight: 600; }
 
-.Table--actionnable {
-  border: 1px solid #d5d9da; }
-  .Table--actionnable .Table-row {
-    border-top: 1px solid #d5d9da;
-    cursor: pointer;
-    transition: background-color 0.1s ease-out; }
-    .Table--actionnable .Table-row.is-selected,
-    .Table--actionnable .Table-row[aria-selected="true"] {
-      background-color: #f7f7f7; }
-    .Table--actionnable .Table-row[aria-disabled="true"] {
-      background-color: #f7f7f7;
-      cursor: default; }
-  .Table--actionnable .Table-rowSelector {
-    position: relative;
-    top: -1px;
-    margin-right: 0.78571rem; }
-  .Table--actionnable .Table-cell {
-    border: 0; }
+.Table--actionnable .Table-row {
+  cursor: pointer;
+  transition: background-color 0.1s ease-out; }
+  .Table--actionnable .Table-row.is-selected,
+  .Table--actionnable .Table-row[aria-selected="true"] {
+    background-color: #f7f7f7; }
+  .Table--actionnable .Table-row[aria-disabled="true"] {
+    background-color: #f7f7f7;
+    cursor: default; }
+
+.Table--actionnable .Table-rowSelector {
+  position: relative;
+  top: -1px;
+  margin-right: 0.78571rem; }
+
+.Table--actionnable .Table-cell {
+  border: 0; }
 
 .Table--actionnable .Table-row:hover {
   background-color: #f7f7f7; }

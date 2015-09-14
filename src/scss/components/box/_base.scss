@@ -1,0 +1,9 @@
+.Box {
+  @extend %u-cf;
+  background: $white;
+  border: 1px solid $porcelain;
+
+  > .Table {
+    border-width: 1px 0 0;
+  }
+}
