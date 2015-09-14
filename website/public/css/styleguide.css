@@ -23,7 +23,7 @@
 .s-Header {
 	position: fixed;
 	top: 0; right: 0; left: 0;
-	padding: 0 0 1em 0;
+	padding: 3.2rem 0 1em 0;
 	text-align: center;
 	color: #fff;
 	background-color: #084d66;
@@ -31,21 +31,20 @@
 	z-index: 100;
 }
 
-.s-Header--top {
-	padding-top: 3.2rem;
-}
-
 .s-Header--unpinned {
 	transform: translateY(-100%);
 }
 
-.s-Header--top .s-Header-title,
-.s-Header--top .s-Header-subTitle {
-	display: block;
+.s-Header--not-top {
+	padding-top: 0;
+}
+
+.s-Header--not-top .s-Header-title,
+.s-Header--not-top .s-Header-subTitle {
+	display: none;
 }
 
 .s-Header-title {
-	display: none;
 	margin: 0;
 	font-size: 2.5rem;
 	font-weight: 700;
@@ -54,7 +53,6 @@
 }
 
 .s-Header-subTitle {
-	display: none;
 	font-size: 1rem;
 	line-height: 2;
 	font-weight: 600;

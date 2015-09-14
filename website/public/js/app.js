@@ -9,10 +9,11 @@ var headroom = new Headroom(Header.$el, {
     down: 5
   },
   classes: {
-    initial: "",
+    initial: "s-Header",
     pinned: "s-Header--pinned",
     unpinned: "s-Header--unpinned",
-    top: "s-Header--top"
+    top: "s-Header--top",
+    notTop : "s-Header--not-top"
   }
 });
 headroom.init();
