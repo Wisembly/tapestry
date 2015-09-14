@@ -1,4 +1,5 @@
 var Styleguide  = require('styleguide-generator');
+
 var styleguide  = new Styleguide({
 	files: {
 		src: 'src/scss',
@@ -16,8 +17,11 @@ var styleguide  = new Styleguide({
   }
 });
 
-module.exports = function () {
-  return styleguide.generate(function () {
-		return console.log('✓ Styleguide generated');
-   });
+module.exports = {
+  instance: styleguide,
+  task: function () {
+    return styleguide.generate(function () {
+  		return console.log('✓ Styleguide generated');
+    });
+  }
 };

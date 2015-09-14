@@ -1,10 +1,10 @@
 var _ = require('underscore');
-var components = require('../components');
+var styleguide = require('../../styleguide');
 
 module.exports = function (app) {
   app.get('/components/:name?', function (req, res) {
     var name = req.params.name;
-
+    var components = styleguide.instance._getComponents();
     var component = name ? _.findWhere(components, {
       name: _(name).capitalize()
     }) : null;
