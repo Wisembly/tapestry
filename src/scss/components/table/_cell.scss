@@ -1,12 +1,12 @@
 .Table-cell {
   display: table-cell;
-  padding: $pd--s;
+  padding: $pd--s $pd--m;
   font-size: $fz--m;
   font-weight: $base-fw;
   line-height: $base-lh;
   text-align: center;
   color: $slate-gray;
-  border: 1px solid $base-border-color;
+  border-left: 1px solid $base-border-color;
 
   [aria-disabled=true] & {
     color: $iron;

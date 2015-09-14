@@ -1,8 +1,6 @@
 .Table--actionnable {
-  border: 1px solid $base-border-color;
 
   .Table-row {
-    border-top: 1px solid $base-border-color;
     cursor: pointer;
     transition: background-color .1s ease-out;
 
