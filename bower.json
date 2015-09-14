@@ -9,7 +9,7 @@
   ],
   "main": [
     "dist/css/tapestry.css",
-    "dist/js/tapestry.js"
+    "dist/js/tapestry.js",
     "src/scss/app.scss"
   ],
   "license": "MIT",
