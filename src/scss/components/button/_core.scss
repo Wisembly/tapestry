@@ -1,9 +1,9 @@
 @import "vars";
+@import "group";
 @import "base";
 @import "colors";
 @import "types";
 @import "sizes";
-@import "group";
 
 @if $import-pseudo-classes {
   @import "state/base";
