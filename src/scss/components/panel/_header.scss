@@ -1,18 +1,30 @@
 .Panel-header {
-  @extend %u-cf;
-  padding: 0 $pd--s;
-  line-height: $panel-header-height;
-  color: $white;
-  background: $deep-sea-green;
+  display: flex;
+  padding: 0;
+  background: $venice-blue;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: space-between;
 }
 
-.PanelHeader-button {
-  padding: 0 $pd--s;
+.PanelHeader-btn {
+  padding: r(2) $pd--s;
   line-height: $panel-header-height;
-  vertical-align: top;
   color: $regent-st-blue;
 
   .Icon {
     vertical-align: middle;
   }
+}
+
+.Panel-title {
+  @include ellipsis;
+  flex-grow: 1;
+  margin: 0;
+  padding: 0 $base-pd;
+  font-size: $fz--l;
+  font-weight: $fw--semi-bold;
+  line-height: $panel-header-height;
+  text-align: left;
+  color: $white;
 }
