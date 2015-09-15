@@ -1401,9 +1401,9 @@ th {
   width: 100%; }
 
 .Btn--expand {
-  -webkit-flex-grow: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
   padding-right: 0;
   padding-left: 0; }
 
