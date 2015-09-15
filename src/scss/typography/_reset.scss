@@ -6,70 +6,12 @@ html,
 body {
   font-family: $ff--ss-serif;
   line-height: $base-lh;
+  color: $limed-spruce;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 }
 
-h1,
-h2,
-.Heading-title--1,
-.Heading-title--2 {
-  line-height: $lh--xl;
-}
-
-h2,
-h3,
-h4,
-h5,
-.Heading-title--2,
-.Heading-title--3,
-.Heading-title--4,
-.Heading-title--5 {
-  margin-top: r(4);
-  margin-bottom: r(4);
-  font-weight: $fw--semi-bold;
-}
-
-h3,
-h4,
-.Heading-title--3,
-.Heading-title--4 {
-  line-height: $lh--l;
-}
-
-h1,
-.Heading-title--1 {
-  margin-top: r(8);
-  margin-bottom: r(8);
-  font-size: fz(5);
-  font-weight: $base-fw;
-}
-
-h2,
-.Heading-title--2 {
-  font-size: fz(4);
-}
-
-h3,
-.Heading-title--3 {
-  font-size: fz(3);
-}
-
-h4,
-.Heading-title--4 {
-  font-size: fz(2);
-}
-
-h5,
-.Heading-title--5 {
-  margin-top: r(2);
-  margin-bottom: r(2);
-  font-size: fz(1);
-  line-height: $base-lh;
-}
-
-p,
-.BodyText {
+p {
   margin-top: 0;
   margin-bottom: r(2);
   font-size: fz(0);
@@ -77,9 +19,72 @@ p,
   font-feature-settings: 'kern' 1, 'onum' 1, 'liga' 1;
 }
 
-small,
-.BodyText--smaller {
+h1,
+h2 {
+  line-height: $lh--xl;
+}
+
+h2,
+h3,
+h4,
+h5 {
+  margin-top: r(4);
+  margin-bottom: r(4);
+  font-weight: $fw--semi-bold;
+}
+
+h3,
+h4 {
+  line-height: $lh--l;
+}
+
+h1 {
+  margin-top: r(8);
+  margin-bottom: r(8);
+  font-size: fz(5);
+  font-weight: $base-fw;
+}
+
+h2 {
+  font-size: fz(4);
+}
+
+h3 {
+  font-size: fz(3);
+}
+
+h4 {
+  font-size: fz(2);
+}
+
+h5 {
+  margin-top: r(2);
+  margin-bottom: r(2);
+  font-size: fz(1);
+  line-height: $base-lh;
+}
+
+small {
   display: inline-block;
   font-size: $fz--s;
   line-height: r(2);
+}
+
+strong {
+  font-weight: $fw--semi-bold;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  font-weight: $fw--semi-bold;
+  text-decoration: none;
+  color: $venice-blue;
 }

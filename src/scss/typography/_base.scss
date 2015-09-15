@@ -1,0 +1,34 @@
+.t-Headline {
+  margin: 0;
+  font-size: $fz--xl;
+  font-weight: $fw--semi-bold;
+  line-height: r(7);
+  color: $venice-blue;
+}
+
+.t-Subheadline {
+  margin: 0;
+  font-size: $fz--s;
+  line-height: r(2);
+  color: $regent-st-blue;
+}
+
+.t-SectionTitle {
+  margin: $mg--m 0;
+  font-size: r(3);
+  line-height: r(5);
+  text-transform: uppercase;
+  color: $slate-gray;
+}
+
+.t-Title {
+  font-size: $fz--l;
+  font-weight: $fw--semi-bold;
+  color: $limed-spruce;
+}
+
+.t-Caption {
+  font-size: $fz--s;
+  line-height: $lh--s;
+  color: $slate-gray;
+}

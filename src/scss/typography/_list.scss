@@ -1,0 +1,27 @@
+.t-List {
+  padding-left: $pd--m - $pd--xs;
+
+  + .t-List {
+    padding-top: $pd--m;
+  }
+}
+
+.t-ListItem {
+  padding-left: $pd--xs;
+  list-style: disc;
+}
+
+.t-List--inline {
+  padding: 0;
+
+  .t-ListItem {
+    display: inline-block;
+    padding-left: $base-pd;
+    list-style: none;
+
+    &:first-child {
+      padding: 0;
+    }
+  }
+
+}
