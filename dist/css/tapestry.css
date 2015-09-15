@@ -1930,6 +1930,9 @@ input:checked + .Switch {
     left: 1.78571rem;
     background-color: #fff; }
 
+.Switch-checkbox {
+  display: none; }
+
 .Switch--s {
   width: 1.96429rem;
   height: 1.12245rem;
