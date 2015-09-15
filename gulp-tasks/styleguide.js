@@ -6,7 +6,7 @@ var styleguide  = new Styleguide({
 		dist: 'website',
 		colors: 'src/scss/utils/var/_color-values.scss'
 	},
-	type: 'components',
+	json: 'website/components',
 	silent: true,
   mdConverter: {
     list: function (body) {
@@ -20,11 +20,8 @@ var styleguide  = new Styleguide({
   }
 });
 
-module.exports = {
-  instance: styleguide,
-  task: function () {
-    return styleguide.generate(function () {
-  		return console.log('✓ Styleguide generated');
-    });
-  }
+module.exports = function () {
+  return styleguide.generate(function () {
+		return console.log('✓ Styleguide generated');
+  });
 };

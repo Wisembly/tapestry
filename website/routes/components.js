@@ -1,10 +1,14 @@
 var _ = require('underscore');
-var styleguide = require('../../styleguide');
+var fs = require('fs')
+var path = require('path');
 
 module.exports = function (app) {
   app.get('/components/:name?', function (req, res) {
     var name = req.params.name;
-    var components = styleguide.instance._getComponents();
+    var components = fs.readFileSync(path.join(__dirname, '../components/components.json'), 'utf8');
+
+    components = JSON.parse(components).components;
+
     var component = name ? _.findWhere(components, {
       name: _(name).capitalize()
     }) : null;
