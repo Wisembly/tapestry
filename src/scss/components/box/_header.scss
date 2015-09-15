@@ -1,0 +1,10 @@
+.Box-header {
+  @include cf();
+  padding: $pd--m $pd--m $pd--s;
+}
+
+.Box-title {
+  display: inline-block;
+  margin: 0;
+  vertical-align: middle;
+}

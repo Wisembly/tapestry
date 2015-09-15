@@ -1,0 +1,10 @@
+.Box-content {
+  padding: $pd--m;
+  overflow: auto;
+}
+
+.Box-header {
+  + .Box-content {
+    padding-top: 0;
+  }
+}
