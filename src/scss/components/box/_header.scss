@@ -1,6 +1,6 @@
 .Box-header {
   @include cf();
-  padding: $pd--m;
+  padding: $pd--m $pd--m $pd--s;
 }
 
 .Box-title {

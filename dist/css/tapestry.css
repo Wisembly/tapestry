@@ -640,7 +640,7 @@ th {
     border-width: 1px 0 0; }
 
 .Box-header {
-  padding: 1.57143rem; }
+  padding: 1.57143rem 1.57143rem 0.78571rem; }
   .Box-header:before,
   .Box-header:after {
     content: "";
