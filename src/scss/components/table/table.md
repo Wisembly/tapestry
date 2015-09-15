@@ -22,7 +22,6 @@
 </table>
 ```
 
-
 ## Actionnable
 
 ```html
