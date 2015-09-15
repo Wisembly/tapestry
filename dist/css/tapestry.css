@@ -1941,11 +1941,8 @@ input:checked + .Switch {
     margin-top: -0.41837rem;
     border-radius: 0.83673rem; }
 
-input:checked + .Switch--s {
-  background-color: #289bc4; }
-  input:checked + .Switch--s:after {
-    left: 0.98469rem;
-    background-color: #fff; }
+input:checked + .Switch--s:after {
+  left: 0.98469rem; }
 
 .Table {
   display: table;

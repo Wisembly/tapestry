@@ -13,10 +13,7 @@
 }
 
 input:checked + .Switch--s {
-  background-color: $curious-blue;
-
   &:after {
     left: $switch-width--s - $switch-height--s + ($switch-space-around--s / 2);
-    background-color: $white;
   }
 }
