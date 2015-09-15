@@ -7,3 +7,22 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+@keyframes PopUp {
+  0% {
+    transform: scale(.9) translate(-50%, -50%);
+    transform-origin: top left;
+  }
+
+  75% {
+    transform: scale(1.2) translate(-50%, -50%);
+    transform-origin: top left;
+  }
+
+  100% {
+    transform: scale(1) translate(-50%, -50%);
+    transform-origin: top left;
+  }
+}

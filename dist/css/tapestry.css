@@ -519,6 +519,40 @@ th {
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg); } }
 
+@-webkit-keyframes PopUp {
+  0% {
+    -webkit-transform: scale(0.9) translate(-50%, -50%);
+            transform: scale(0.9) translate(-50%, -50%);
+    -webkit-transform-origin: top left;
+            transform-origin: top left; }
+  75% {
+    -webkit-transform: scale(1.2) translate(-50%, -50%);
+            transform: scale(1.2) translate(-50%, -50%);
+    -webkit-transform-origin: top left;
+            transform-origin: top left; }
+  100% {
+    -webkit-transform: scale(1) translate(-50%, -50%);
+            transform: scale(1) translate(-50%, -50%);
+    -webkit-transform-origin: top left;
+            transform-origin: top left; } }
+
+@keyframes PopUp {
+  0% {
+    -webkit-transform: scale(0.9) translate(-50%, -50%);
+            transform: scale(0.9) translate(-50%, -50%);
+    -webkit-transform-origin: top left;
+            transform-origin: top left; }
+  75% {
+    -webkit-transform: scale(1.2) translate(-50%, -50%);
+            transform: scale(1.2) translate(-50%, -50%);
+    -webkit-transform-origin: top left;
+            transform-origin: top left; }
+  100% {
+    -webkit-transform: scale(1) translate(-50%, -50%);
+            transform: scale(1) translate(-50%, -50%);
+    -webkit-transform-origin: top left;
+            transform-origin: top left; } }
+
 .Avatar {
   display: inline-block;
   width: 2.75rem;
@@ -1567,29 +1601,29 @@ th {
 
 .Modal {
   position: fixed;
-  top: 1.57143rem;
-  right: 50%;
+  top: 50%;
+  left: 50%;
+  visibility: hidden;
   z-index: 8000;
   width: 100%;
   max-width: 90%;
   max-height: calc(100vh - 3.14286rem);
-  box-shadow: 0 0 10px 0 rgba(112, 129, 137, 0.3);
   opacity: 0;
   overflow: auto;
-  -webkit-transform: translate(50%, -100%);
-          transform: translate(50%, -100%);
-  transition: -webkit-transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
-  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out; }
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  transition: top 0.7s ease-in-out, opacity 0.3s ease-in-out; }
   .Modal[aria-hidden="false"] {
+    visibility: visible;
     opacity: 1;
-    -webkit-transform: translate(50%, 0%);
-            transform: translate(50%, 0%); }
-
-.Modal--centered {
-  top: 50%; }
-  .Modal--centered[aria-hidden="false"] {
-    -webkit-transform: translate(50%, -50%);
-            transform: translate(50%, -50%); }
+    -webkit-animation-duration: .3s;
+            animation-duration: .3s;
+    -webkit-animation-name: PopUp;
+            animation-name: PopUp;
+    -webkit-animation-iteration-count: 1;
+            animation-iteration-count: 1;
+    -webkit-animation-direction: alternate;
+            animation-direction: alternate; }
 
 .Modal--expand {
   display: -webkit-flex;
@@ -1750,7 +1784,7 @@ th {
           transform: translateZ(0);
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
-  transition: opacity 0.25s ease-out; }
+  transition: opacity 0.4s ease-out; }
   .Overlay[aria-hidden="false"] {
     visibility: visible;
     opacity: 1; }

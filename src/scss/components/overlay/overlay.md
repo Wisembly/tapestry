@@ -1,6 +1,6 @@
 # Overlay
 
-To prevent background scrolling when a fixed modal/panel with an overlay is appaearing, you may consider adding `.u-noScroll` on HTML `<body>` tag.
+To prevent background scrolling when a fixed modal/panel with an overlay is appearing, you may consider setting hidden overflow on HTML `<body>` tag with `.u-ovh`.
 
 ```html
 <div id="Overlay" class="Overlay" aria-hidden="true"></div>
