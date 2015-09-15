@@ -3,7 +3,6 @@
   z-index: zi("panel");
   width: $panel-width;
   background: $white;
-  box-shadow: -4px 0 5px 0 rgba($slate-gray, .4);
   transform: translateZ(0);
   backface-visibility: hidden;
   transition: transform .25s ease-out;

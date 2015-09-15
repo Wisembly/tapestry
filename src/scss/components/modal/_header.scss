@@ -9,7 +9,13 @@
 
 .ModalHeader-btn {
   width: $modal-button-width;
+  padding: r(2) 0;
+  line-height: $lh--l;
   color: $regent-st-blue;
+
+  .Icon {
+    vertical-align: middle;
+  }
 }
 
 .Modal-title {

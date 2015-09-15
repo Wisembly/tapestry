@@ -1,11 +1,15 @@
 .Panel--abs {
   position: absolute;
+  box-shadow: -4px 0 5px 0 rgba($slate-gray, .4);
+
+  &.Panel--l {
+    box-shadow: 4px 0 5px 0 rgba($slate-gray, .4);
+  }
 }
 
 .Panel--l {
   right: auto;
   left: 0;
-  box-shadow: 4px 0 5px 0 rgba($slate-gray, .4);
 
   &[aria-hidden="true"] {
     transform: translateX(-100%);

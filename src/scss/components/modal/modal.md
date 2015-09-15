@@ -4,14 +4,14 @@
 Aims at including a simple caption or call-to-action.
 
 ```esc
-<button class="Btn Btn--primary Btn--outline" id="launchModalSimple">Open Modal with simple message</button>
+<button class="Btn Btn--primary Btn--outline" id="js-LaunchModalSimple">Open Modal with simple message</button>
 ```
 
 ```html
-<div class="Modal Modal--centered" aria-hidden="true" id="ModalSimple">
+<div class="Modal" aria-hidden="true" id="js-ModalSimple">
   <div class="Modal-header">
     <h3 class="Modal-title">Modal title</h3>
-    <button type="button" id="closeModalSimple" class="Btn Btn--raw ModalHeader-btn">
+    <button type="button" id="js-CloseModalSimple" class="Btn Btn--raw ModalHeader-btn">
       <i class="Icon Icon--cross"></i>
     </button>
   </div>
@@ -23,23 +23,24 @@ Aims at including a simple caption or call-to-action.
     <button type="button" class="Btn Btn--expand Btn--validate">OK</button>
   </div>
 </div>
+<div id="js-ModalSimpleOverlay" class="Overlay" aria-hidden="true"></div>
 ```
 
 ## Modal with collection
 Wraps a component collection.
 
 ```esc
-<button class="Btn Btn--primary Btn--outline" id="launchModalMenu">Open Modal with collection</button>
+<button class="Btn Btn--primary Btn--outline" id="js-LaunchModalMenu">Open Modal with collection</button>
 ```
 
 ```html
-<div class="Modal" aria-hidden="true" id="ModalMenu">
+<div class="Modal" aria-hidden="true" id="js-ModalMenu">
   <div class="Modal-header">
     <button type="button" class="Btn Btn--raw ModalHeader-btn">
       <i class="Icon Icon--arrowBack"></i>
     </button>
     <h3 class="Modal-title">Modal title</h3>
-    <button type="button" id="closeModalMenu" class="Btn Btn--raw ModalHeader-btn">
+    <button type="button" id="js-CloseModalMenu" class="Btn Btn--raw ModalHeader-btn">
       <i class="Icon Icon--cross"></i>
     </button>
   </div>
@@ -48,6 +49,16 @@ Wraps a component collection.
       <li class="Collection-item">A</li>
       <li class="Collection-item">B</li>
       <li class="Collection-item">C</li>
+      <li class="Collection-item">D</li>
+      <li class="Collection-item">E</li>
+      <li class="Collection-item">F</li>
+      <li class="Collection-item">G</li>
+      <li class="Collection-item">H</li>
+      <li class="Collection-item">I</li>
+      <li class="Collection-item">J</li>
+      <li class="Collection-item">K</li>
+      <li class="Collection-item">L</li>
+      <li class="Collection-item">M</li>
     </ul>
   </div>
   <div class="Modal-footer">
@@ -55,27 +66,7 @@ Wraps a component collection.
     <button type="button" class="Btn Btn--expand Btn--validate">OK</button>
   </div>
 </div>
-```
-
-## Options
-
-```esc
-<table class="Table">
-  <thead class="Table-head">
-    <th class="Table-cell Table-cell--header u-tal">Class</th>
-    <th class="Table-cell Table-cell--header">Description</th>
-  </thead>
-  <tbody class="Table-body">
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">.Modal--centered</td>
-      <td class="Table-cell">Centers modal horizontally and vertically.</td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">.Modal--expand</td>
-      <td class="Table-cell">Modal use the full vertical viewport.</td>
-    </tr>
-  </tbody>
-</table>
+<div id="js-ModalMenuOverlay" class="Overlay" aria-hidden="true"></div>
 ```
 
 ## Notes
@@ -86,28 +77,28 @@ Wraps a component collection.
 
 ```esc
 <script>
-  document.getElementById("launchModalSimple").onclick = function(){
-    document.getElementById("ModalSimple").setAttribute("aria-hidden","false");
-    document.getElementById("Overlay").setAttribute("aria-hidden","false");
-    document.body.classList.add("has-modal");
+  document.getElementById("js-LaunchModalSimple").onclick = function(){
+    document.getElementById("js-ModalSimple").setAttribute("aria-hidden","false");
+    document.getElementById("js-ModalSimpleOverlay").setAttribute("aria-hidden","false");
+    document.body.classList.add("u-ovh");
   }
 
-  document.getElementById("closeModalSimple").onclick = function(){
-    document.getElementById("ModalSimple").setAttribute("aria-hidden","true");
-    document.getElementById("Overlay").setAttribute("aria-hidden","true");
-    document.body.classList.remove("has-modal");
+  document.getElementById("js-CloseModalSimple").onclick = function(){
+    document.getElementById("js-ModalSimple").setAttribute("aria-hidden","true");
+    document.getElementById("js-ModalSimpleOverlay").setAttribute("aria-hidden","true");
+    document.body.classList.remove("u-ovh");
   }
 
-  document.getElementById("launchModalMenu").onclick = function(){
-    document.getElementById("ModalMenu").setAttribute("aria-hidden","false");
-    document.getElementById("Overlay").setAttribute("aria-hidden","false");
-    document.body.classList.add("has-modal");
+  document.getElementById("js-LaunchModalMenu").onclick = function(){
+    document.getElementById("js-ModalMenu").setAttribute("aria-hidden","false");
+    document.getElementById("js-ModalMenuOverlay").setAttribute("aria-hidden","false");
+    document.body.classList.add("u-ovh");
   }
 
-  document.getElementById("closeModalMenu").onclick = function(){
-    document.getElementById("ModalMenu").setAttribute("aria-hidden","true");
-    document.getElementById("Overlay").setAttribute("aria-hidden","true");
-    document.body.classList.remove("has-modal");
+  document.getElementById("js-CloseModalMenu").onclick = function(){
+    document.getElementById("js-ModalMenu").setAttribute("aria-hidden","true");
+    document.getElementById("js-ModalMenuOverlay").setAttribute("aria-hidden","true");
+    document.body.classList.remove("u-ovh");
   }
 </script>
 ```
