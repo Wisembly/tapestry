@@ -526,8 +526,8 @@ th {
     -webkit-transform-origin: top left;
             transform-origin: top left; }
   75% {
-    -webkit-transform: scale(1.2) translate(-50%, -50%);
-            transform: scale(1.2) translate(-50%, -50%);
+    -webkit-transform: scale(1.05) translate(-50%, -50%);
+            transform: scale(1.05) translate(-50%, -50%);
     -webkit-transform-origin: top left;
             transform-origin: top left; }
   100% {
@@ -543,8 +543,8 @@ th {
     -webkit-transform-origin: top left;
             transform-origin: top left; }
   75% {
-    -webkit-transform: scale(1.2) translate(-50%, -50%);
-            transform: scale(1.2) translate(-50%, -50%);
+    -webkit-transform: scale(1.05) translate(-50%, -50%);
+            transform: scale(1.05) translate(-50%, -50%);
     -webkit-transform-origin: top left;
             transform-origin: top left; }
   100% {
@@ -1612,12 +1612,12 @@ th {
   overflow: auto;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  transition: top 0.7s ease-in-out, opacity 0.3s ease-in-out; }
+  transition: top 0.4s ease-in-out, opacity 0.2s ease-in-out; }
   .Modal[aria-hidden="false"] {
     visibility: visible;
     opacity: 1;
-    -webkit-animation-duration: .3s;
-            animation-duration: .3s;
+    -webkit-animation-duration: .2s;
+            animation-duration: .2s;
     -webkit-animation-name: PopUp;
             animation-name: PopUp;
     -webkit-animation-iteration-count: 1;

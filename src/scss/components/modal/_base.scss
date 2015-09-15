@@ -8,13 +8,13 @@
   opacity: 0;
   overflow: auto;
   transform: translate(-50%, -50%);
-  transition: top .7s ease-in-out,
-              opacity .3s ease-in-out;
+  transition: top .4s ease-in-out,
+              opacity .2s ease-in-out;
 
   &[aria-hidden="false"] {
     visibility: visible;
     opacity: 1;
-    animation-duration: .3s;
+    animation-duration: .2s;
     animation-name: PopUp;
     animation-iteration-count: 1;
     animation-direction: alternate;
