@@ -26,7 +26,6 @@
         ".Btn--outline",
         ".Btn--raw",
         ".Btn.has-icon",
-        ".Btn.is-disabled",
         ".Btn--block",
         ".BtnGroup",
         ".Collection",

@@ -1423,12 +1423,12 @@ th {
   box-shadow: inset 0 1px 4px 0 rgba(58, 67, 76, 0.5); }
 
 .Btn[disabled]:hover,
-.Btn.is-disabled:hover {
+.Btn[aria-disabled="true"]:hover {
   color: #a1a9ae;
   background: #d5d9da; }
 
 .Btn[disabled]:active,
-.Btn.is-disabled:active {
+.Btn[aria-disabled="true"]:active {
   box-shadow: inset 0 0 0 0 transparent; }
 
 .Btn--primary:hover {
