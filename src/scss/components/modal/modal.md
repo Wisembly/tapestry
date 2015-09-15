@@ -49,6 +49,16 @@ Wraps a component collection.
       <li class="Collection-item">A</li>
       <li class="Collection-item">B</li>
       <li class="Collection-item">C</li>
+      <li class="Collection-item">D</li>
+      <li class="Collection-item">E</li>
+      <li class="Collection-item">F</li>
+      <li class="Collection-item">G</li>
+      <li class="Collection-item">H</li>
+      <li class="Collection-item">I</li>
+      <li class="Collection-item">J</li>
+      <li class="Collection-item">K</li>
+      <li class="Collection-item">L</li>
+      <li class="Collection-item">M</li>
     </ul>
   </div>
   <div class="Modal-footer">
@@ -57,23 +67,6 @@ Wraps a component collection.
   </div>
 </div>
 <div id="js-ModalMenuOverlay" class="Overlay" aria-hidden="true"></div>
-```
-
-## Options
-
-```esc
-<table class="Table">
-  <thead class="Table-head">
-    <th class="Table-cell Table-cell--header u-tal">Class</th>
-    <th class="Table-cell Table-cell--header">Description</th>
-  </thead>
-  <tbody class="Table-body">
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">.Modal--expand</td>
-      <td class="Table-cell">Modal use the full vertical viewport.</td>
-    </tr>
-  </tbody>
-</table>
 ```
 
 ## Notes

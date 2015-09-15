@@ -1603,6 +1603,12 @@ th {
   position: fixed;
   top: 50%;
   left: 50%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   visibility: hidden;
   z-index: 8000;
   width: 100%;
@@ -1612,7 +1618,7 @@ th {
   overflow: auto;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  transition: top 0.4s ease-in-out, opacity 0.2s ease-in-out; }
+  transition: opacity 0.2s ease-in-out; }
   .Modal[aria-hidden="false"] {
     visibility: visible;
     opacity: 1;
@@ -1624,15 +1630,6 @@ th {
             animation-iteration-count: 1;
     -webkit-animation-direction: alternate;
             animation-direction: alternate; }
-
-.Modal--expand {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  bottom: 1.57143rem; }
 
 @media (min-width: 414px) {
   .Modal {

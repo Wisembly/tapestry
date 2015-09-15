@@ -1,5 +1,7 @@
 .Modal {
   @include pos(f 50% null null 50%);
+  display: flex;
+  flex-direction: column;
   visibility: hidden;
   z-index: zi("modal");
   width: 100%;
@@ -8,8 +10,7 @@
   opacity: 0;
   overflow: auto;
   transform: translate(-50%, -50%);
-  transition: top .4s ease-in-out,
-              opacity .2s ease-in-out;
+  transition: opacity .2s ease-in-out;
 
   &[aria-hidden="false"] {
     visibility: visible;
@@ -19,12 +20,6 @@
     animation-iteration-count: 1;
     animation-direction: alternate;
   }
-}
-
-.Modal--expand {
-  display: flex;
-  flex-direction: column;
-  bottom: $mg--m;
 }
 
 
