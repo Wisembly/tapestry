@@ -13,7 +13,10 @@ var styleguide  = new Styleguide({
       var _class = 'Styleguide-list';
 
       return '<ul class="' + _class + '">' + body + '</ul>';
-    }
+    },
+		paragraph: function (str, a) {
+			return '<p class="s-Paragraph">' + str + '</p>';
+		}
   }
 });
 
