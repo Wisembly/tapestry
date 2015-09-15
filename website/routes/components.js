@@ -9,6 +9,9 @@ module.exports = function (app) {
       name: _(name).capitalize()
     }) : null;
 
+    if (name && !component)
+      return res.redirect('/404');
+
     return res.render(name ? 'component' : 'components', {
       currentPage: 'components',
       currentComponent: component ? component.name : null,
