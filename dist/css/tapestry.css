@@ -1634,9 +1634,6 @@ th {
           flex-direction: column;
   bottom: 1.57143rem; }
 
-.has-modal {
-  overflow: hidden; }
-
 @media (min-width: 414px) {
   .Modal {
     width: 31.42857rem; } }
@@ -1797,7 +1794,6 @@ th {
   z-index: 7000;
   width: 39.28571rem;
   background: #fff;
-  box-shadow: -4px 0 5px 0 rgba(112, 129, 137, 0.4);
   -webkit-transform: translateZ(0);
           transform: translateZ(0);
   -webkit-backface-visibility: hidden;
@@ -1853,12 +1849,14 @@ th {
   overflow-y: auto; }
 
 .Panel--abs {
-  position: absolute; }
+  position: absolute;
+  box-shadow: -4px 0 5px 0 rgba(112, 129, 137, 0.4); }
+  .Panel--abs.Panel--l {
+    box-shadow: 4px 0 5px 0 rgba(112, 129, 137, 0.4); }
 
 .Panel--l {
   right: auto;
-  left: 0;
-  box-shadow: 4px 0 5px 0 rgba(112, 129, 137, 0.4); }
+  left: 0; }
   .Panel--l[aria-hidden="true"] {
     -webkit-transform: translateX(-100%);
             transform: translateX(-100%); }
