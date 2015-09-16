@@ -1,29 +1,47 @@
+// Font
+
 $ff--ss-serif: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif !default;
 $ff--serif: Georgia, Cambria, "Times New Roman", Times, serif !default;
-
 $f-path: unquote("../fonts") !default;
 
-// Base font size in pixels.
-$base-fz: 14px !default;
 
+
+// Base font-sizes
+
+$base-fz: 14px !default;
 $base-fz--stripped: $base-fz / ($base-fz * 0 + 1);
 $base-fz--rem: rem($base-fz);
 
-// Vertical Unit
+
+
+// Vertical unit
+
 $base-vu: 5.5px !default;
 
-// Line Height Multiple
+
+
+// Line Height multiple
+
 $base-lhm: 4 !default;
 
-// Modular Scale Ratio
+
+
+// Modular Scale ratio
+
 $ms-ratio: 1.2 !default;
 
-// Base Line Height
+
+
+// Line heights
+
 $base-lh: rem($base-vu * $base-lhm) !default;
 $lh--s: r(2);
 $lh--l: r(8);
 
+
+
 // Font sizes
+
 $fz--xxs: fz(-3);
 $fz--xs: fz(-2);
 $fz--s: fz(-1);
@@ -33,6 +51,8 @@ $fz--xl: fz(2);
 $fz--xxl: fz(3);
 
 
+
+// Font weights
 
 $base-fw: 400;
 $fw--semi-bold: 600;

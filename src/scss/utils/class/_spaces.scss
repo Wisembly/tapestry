@@ -5,7 +5,7 @@ $css-directions: ("", "-top", "-right", "-bottom", "-left");
   $direction-letter: nth($directions-letter, $i);
   $css-direction: nth($css-directions, $i);
 
-  // paddings
+  // Paddings
 
   .u-pd#{$direction-letter}--0 {
     padding#{$css-direction}: 0 !important;
@@ -33,7 +33,7 @@ $css-directions: ("", "-top", "-right", "-bottom", "-left");
 
 
 
-  // margins
+  // Margins
 
   .u-mg#{$direction-letter}--0 {
     margin#{$css-direction}: 0 !important;

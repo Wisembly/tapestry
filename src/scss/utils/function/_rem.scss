@@ -1,7 +1,3 @@
-// rem()
-// Convert a px unit into a REM one
-
 @function rem($size, $context: $base-fz) {
-  $rem-size: $size / $base-fz;
-  @return $rem-size * 1rem;
+  @return ($size / $base-fz) * 1rem;
 }
