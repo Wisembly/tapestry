@@ -1,5 +1,5 @@
 .has-popover {
-  @extend %u-posr;
+  position: relative;
 
   &:hover {
     .Popover {

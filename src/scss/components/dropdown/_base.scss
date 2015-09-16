@@ -1,5 +1,5 @@
 .Dropdown {
-  @extend %u-posr;
+  position: relative;
   display: inline-block;
 
   &:focus {

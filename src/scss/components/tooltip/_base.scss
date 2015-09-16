@@ -3,7 +3,7 @@
 .has-tooltip--right,
 .has-tooltip--bottom,
 .has-tooltip--left {
-  @extend %u-posr;
+  position: relative;
 
   &:after {
     content: attr(aria-label);
