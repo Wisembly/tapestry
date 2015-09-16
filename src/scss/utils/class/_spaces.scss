@@ -6,6 +6,7 @@ $css-directions: ("", "-top", "-right", "-bottom", "-left");
   $css-direction: nth($css-directions, $i);
 
   // paddings
+
   .u-pd#{$direction-letter}--0 {
     padding#{$css-direction}: 0 !important;
   }
@@ -30,7 +31,10 @@ $css-directions: ("", "-top", "-right", "-bottom", "-left");
     padding#{$css-direction}: $pd--xl !important;
   }
 
+
+
   // margins
+
   .u-mg#{$direction-letter}--0 {
     margin#{$css-direction}: 0 !important;
   }
@@ -54,4 +58,150 @@ $css-directions: ("", "-top", "-right", "-bottom", "-left");
   .u-mg#{$direction-letter}--xl {
     margin#{$css-direction}: $mg--xl !important;
   }
+}
+
+
+
+// Horizontals margins
+
+.u-mgh--a {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.u-mgh--0 {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.u-mgh--xs {
+  margin-left: $mg--xs !important;
+  margin-right: $mg--xs !important;
+}
+
+.u-mgh--s {
+  margin-left: $mg--s !important;
+  margin-right: $mg--s !important;
+}
+
+.u-mgh--m {
+  margin-left: $mg--m !important;
+  margin-right: $mg--m !important;
+}
+
+.u-mgh--l {
+  margin-left: $mg--l !important;
+  margin-right: $mg--l !important;
+}
+
+.u-mgh--xl {
+  margin-left: $mg--xl !important;
+  margin-right: $mg--xl !important;
+}
+
+
+
+// Vertical margins
+
+.u-mgv--a {
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+}
+
+.u-mgv--0 {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.u-mgv--xs {
+  margin-top: $mg--xs !important;
+  margin-bottom: $mg--xs !important;
+}
+
+.u-mgv--s {
+  margin-top: $mg--s !important;
+  margin-bottom: $mg--s !important;
+}
+
+.u-mgv--m {
+  margin-top: $mg--m !important;
+  margin-bottom: $mg--m !important;
+}
+
+.u-mgv--l {
+  margin-top: $mg--l !important;
+  margin-bottom: $mg--l !important;
+}
+
+.u-mgv--xl {
+  margin-top: $mg--xl !important;
+  margin-bottom: $mg--xl !important;
+}
+
+
+
+// Horizontals paddings
+
+.u-pdh--0 {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.u-pdh--xs {
+  padding-left: $mg--xs !important;
+  padding-right: $mg--xs !important;
+}
+
+.u-pdh--s {
+  padding-left: $mg--s !important;
+  padding-right: $mg--s !important;
+}
+
+.u-pdh--m {
+  padding-left: $mg--m !important;
+  padding-right: $mg--m !important;
+}
+
+.u-pdh--l {
+  padding-left: $mg--l !important;
+  padding-right: $mg--l !important;
+}
+
+.u-pdh--xl {
+  padding-left: $mg--xl !important;
+  padding-right: $mg--xl !important;
+}
+
+
+
+// Vertical paddings
+
+.u-pdv--0 {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.u-pdv--xs {
+  padding-top: $mg--xs !important;
+  padding-bottom: $mg--xs !important;
+}
+
+.u-pdv--s {
+  padding-top: $mg--s !important;
+  padding-bottom: $mg--s !important;
+}
+
+.u-pdv--m {
+  padding-top: $mg--m !important;
+  padding-bottom: $mg--m !important;
+}
+
+.u-pdv--l {
+  padding-top: $mg--l !important;
+  padding-bottom: $mg--l !important;
+}
+
+.u-pdv--xl {
+  padding-top: $mg--xl !important;
+  padding-bottom: $mg--xl !important;
 }

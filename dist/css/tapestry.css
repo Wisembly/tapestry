@@ -239,6 +239,110 @@
 .u-mgl--xl {
   margin-left: 6.28571rem !important; }
 
+.u-mgh--a {
+  margin-left: auto !important;
+  margin-right: auto !important; }
+
+.u-mgh--0 {
+  margin-left: 0 !important;
+  margin-right: 0 !important; }
+
+.u-mgh--xs {
+  margin-left: 0.39286rem !important;
+  margin-right: 0.39286rem !important; }
+
+.u-mgh--s {
+  margin-left: 0.78571rem !important;
+  margin-right: 0.78571rem !important; }
+
+.u-mgh--m {
+  margin-left: 1.57143rem !important;
+  margin-right: 1.57143rem !important; }
+
+.u-mgh--l {
+  margin-left: 3.14286rem !important;
+  margin-right: 3.14286rem !important; }
+
+.u-mgh--xl {
+  margin-left: 6.28571rem !important;
+  margin-right: 6.28571rem !important; }
+
+.u-mgv--a {
+  margin-top: auto !important;
+  margin-bottom: auto !important; }
+
+.u-mgv--0 {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important; }
+
+.u-mgv--xs {
+  margin-top: 0.39286rem !important;
+  margin-bottom: 0.39286rem !important; }
+
+.u-mgv--s {
+  margin-top: 0.78571rem !important;
+  margin-bottom: 0.78571rem !important; }
+
+.u-mgv--m {
+  margin-top: 1.57143rem !important;
+  margin-bottom: 1.57143rem !important; }
+
+.u-mgv--l {
+  margin-top: 3.14286rem !important;
+  margin-bottom: 3.14286rem !important; }
+
+.u-mgv--xl {
+  margin-top: 6.28571rem !important;
+  margin-bottom: 6.28571rem !important; }
+
+.u-pdh--0 {
+  padding-left: 0 !important;
+  padding-right: 0 !important; }
+
+.u-pdh--xs {
+  padding-left: 0.39286rem !important;
+  padding-right: 0.39286rem !important; }
+
+.u-pdh--s {
+  padding-left: 0.78571rem !important;
+  padding-right: 0.78571rem !important; }
+
+.u-pdh--m {
+  padding-left: 1.57143rem !important;
+  padding-right: 1.57143rem !important; }
+
+.u-pdh--l {
+  padding-left: 3.14286rem !important;
+  padding-right: 3.14286rem !important; }
+
+.u-pdh--xl {
+  padding-left: 6.28571rem !important;
+  padding-right: 6.28571rem !important; }
+
+.u-pdv--0 {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important; }
+
+.u-pdv--xs {
+  padding-top: 0.39286rem !important;
+  padding-bottom: 0.39286rem !important; }
+
+.u-pdv--s {
+  padding-top: 0.78571rem !important;
+  padding-bottom: 0.78571rem !important; }
+
+.u-pdv--m {
+  padding-top: 1.57143rem !important;
+  padding-bottom: 1.57143rem !important; }
+
+.u-pdv--l {
+  padding-top: 3.14286rem !important;
+  padding-bottom: 3.14286rem !important; }
+
+.u-pdv--xl {
+  padding-top: 6.28571rem !important;
+  padding-bottom: 6.28571rem !important; }
+
 html,
 :root {
   font-size: 87.5%; }
