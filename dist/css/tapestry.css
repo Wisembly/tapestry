@@ -27,10 +27,10 @@
   vertical-align: bottom !important; }
 
 .u-push {
-  float: right; }
+  float: right !important; }
 
 .u-pull {
-  float: left; }
+  float: left !important; }
 
 .u-cf:before,
 .u-cf:after {
@@ -67,7 +67,7 @@
   list-style: none; }
 
 .u-ovh {
-  overflow: hidden; }
+  overflow: hidden !important; }
 
 .u-pd--0 {
   padding: 0 !important; }
