@@ -1,4 +1,4 @@
-// Check if value is an integer and returns true or false
+// Check if value is an integer
 
 @function is-int($n) {
   @return type-of($n) == number and floor(abs($n)) == abs($n);

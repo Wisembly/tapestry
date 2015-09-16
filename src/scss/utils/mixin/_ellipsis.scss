@@ -1,5 +1,5 @@
-@mixin ellipsis {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+@mixin ellipsis ($important: false) {
+  white-space: if($important, nowrap !important, nowrap);
+  overflow: if($important, hidden !important, hidden);
+  text-overflow: if($important, ellipsis !important, ellipsis);
 }

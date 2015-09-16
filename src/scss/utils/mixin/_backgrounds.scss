@@ -1,14 +1,14 @@
-@mixin bg-green {
-  color: $white;
-  background-color: $mint;
+@mixin bg-green($important: false) {
+  color: if($important, $white !important, $white);
+  background-color: if($important, $mint !important, $mint);
 }
 
-@mixin bg-orange {
-  color: $white;
-  background-color: $saffron;
+@mixin bg-orange($important: false) {
+  color: if($important, $white !important, $white);
+  background-color: if($important, $saffron !important, $saffron);
 }
 
-@mixin bg-red {
-  color: $white;
-  background-color: $mandy;
+@mixin bg-red($important: false) {
+  color: if($important, $white !important, $white);
+  background-color: if($important, $mandy !important, $mandy);
 }

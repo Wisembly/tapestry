@@ -1,16 +1,21 @@
 // Exponential function Colin Maclaurin
+
 @function math-exp-maclaurin($x, $n) {
-  $result: math-pow($x, $n) / math-factorial($n);
-  @return $result;
+  @return math-pow($x, $n) / math-factorial($n);
 }
+
+
 
 // Exponential function
+
 @function math-exp($value) {
-  $result: math-summation(math-exp-maclaurin, $value, 0, 100);
-  @return $result;
+  @return math-summation(math-exp-maclaurin, $value, 0, 100);
 }
 
+
+
 // Factorial function
+
 @function math-factorial($value) {
   @if $value == 0 {
     @return 1;
@@ -25,13 +30,18 @@
   @return $result;
 }
 
+
+
 // Natural logarithm Colin Maclaurin
+
 @function math-ln-maclaurin($x, $n) {
-  $result: (math-pow(-1, $n + 1) / $n) * (math-pow($x - 1, $n));
-  @return $result;
+  @return (math-pow(-1, $n + 1) / $n) * (math-pow($x - 1, $n));
 }
 
+
+
 // Natural logarithm
+
 @function math-ln($value) {
   $ten-exp: 1;
   $ln-ten: 2.30258509;
@@ -47,13 +57,15 @@
   @return $result + $ten-exp * $ln-ten;
 }
 
+
+
 // Power function
+
 @function math-pow($number, $exp) {
   @if (round($exp) != $exp) {
     @return math-exp($exp * math-ln($number));
   }
 
-  // Traditional method for integers
   $value: 1;
 
   @if $exp > 0 {
@@ -70,7 +82,10 @@
   @return $value;
 }
 
-// summation ∑
+
+
+// Summation ∑
+
 @function math-summation($iteratee, $input, $initial: 0, $limit: 100) {
   $sum: 0;
 

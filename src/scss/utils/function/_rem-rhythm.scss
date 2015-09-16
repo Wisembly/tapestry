@@ -1,4 +1,5 @@
-// Returns an REM value that is a multiple of our defined base vertical unit.
+// Returns an REM value
+// which is a multiple of base vertical unit.
 
 @function r($lines: $base-lhm, $fz: $base-fz--rem, $silent: false) {
   @if is-int($lines) == false and $silent == false {

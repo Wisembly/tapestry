@@ -1,5 +1,4 @@
-// Creates a pixel width border with padding that is a multiple of the base
-// vertical grid unit. You will need to set border style and color rules.
+// Include a border into the vertical rhythm.
 
 @function rb($lines: $base-lhm, $border-width: 1px, $fz: $base-fz--rem) {
   @return (($lines * parseInt($base-vu)) - parseInt($border-width)) / (parseInt($fz) * parseInt($base-fz)) * 1rem;
