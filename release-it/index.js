@@ -4,5 +4,6 @@ var async = require('async');
 
 async.waterfall([
   require('./get-latest-release'),
-  require('./choose-commit-to-tag')
+  require('./choose-commit-to-tag'),
+  require('./confirm-commit-to-tag')
 ]);
