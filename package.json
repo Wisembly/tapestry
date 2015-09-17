@@ -23,7 +23,8 @@
     "lodash": "3.9.3",
     "run-sequence": "^1.1.2",
     "styleguide-generator": "0.6.3",
-    "underscore": "^1.8.3"
+    "underscore": "^1.8.3",
+    "uo-node-utils": "^0.1.1"
   },
   "scripts": {
     "vt:refs": "cd ./node_modules/backstopjs && gulp reference && cd ../../",

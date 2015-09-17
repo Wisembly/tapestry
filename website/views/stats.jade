@@ -2,3 +2,6 @@ extends partials/layout
 
 block content
   h1 Hello, stats
+  - each stat in stats
+    - stat = JSON.parse(stat);
+    p= stat.published
