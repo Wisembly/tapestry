@@ -1,5 +1,5 @@
 module.exports = function (opts, cb) {
-  var question = 'Confirm that "' + opts.commits.toTag + '" is the commit to tag? (y/n)';
+  var question = 'Confirm that "' + opts.commit.toTag + '" is the commit to tag? (y/n)';
   var choice;
 
   prompt.get(question, function (err, data) {
@@ -14,7 +14,7 @@ module.exports = function (opts, cb) {
 
       prompt.get(question, function (err, data) {
         if (err) return 1;
-        opts.commits.toTag = data[question];
+        opts.commit.toTag = data[question];
         return cb(null, opts);
       });
     }

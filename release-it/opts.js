@@ -11,7 +11,7 @@ module.exports = {
     }
   },
 
-  commits: {
+  commit: {
     toTag: null
   }
 };
