@@ -1,18 +1,7 @@
 var log = require('./log');
 
 module.exports = function (cb) {
-  var opts = {
-    repo: 'Tapestry',
-    owner: 'Wisembly',
-    releases: {
-      last: {
-        name: null
-      }
-    },
-    commits: {
-      toTag: null
-    }
-  };
+  var opts = require('./opts');
 
   Gh.releases.getLatestRelease({
     owner: opts.owner,
