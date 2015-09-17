@@ -10,7 +10,7 @@ module.exports = function (cb) {
     if (err) return 1;
 
     log('Last release: ' + data.name);
-    opts.releases.last.name = data.name;
+    opts.release.last.name = data.name;
 
     return cb(null, opts);
   });

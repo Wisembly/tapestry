@@ -2,8 +2,11 @@ module.exports = {
   repo: 'Tapestry',
   owner: 'Wisembly',
 
-  releases: {
+  release: {
     last: {
+      name: null
+    },
+    next: {
       name: null
     }
   },

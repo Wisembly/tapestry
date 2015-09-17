@@ -1,5 +1,5 @@
 module.exports = function (opts, cb) {
-  var question = 'Confirm that "' + opts.commits.toTag + '" is the commit to tag? (y/n)';
+  var question = 'Confirm that "' + opts.release.next.name + '" will be the name of the next release? (y/n)';
   var choice;
 
   prompt.get(question, function (err, data) {
@@ -10,11 +10,11 @@ module.exports = function (opts, cb) {
       return cb(null, opts);
 
     else if (choice === 'N' || choice === 'n') {
-      question = 'Last chance fancy pants, which commit do you want to tag?';
+      question = 'Last chance fancy pants, what\'s the release\' name?';
 
       prompt.get(question, function (err, data) {
         if (err) return 1;
-        opts.commits.toTag = data[question];
+        opts.release.next.name = data[question];
         return cb(null, opts);
       });
     }
