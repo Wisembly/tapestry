@@ -9,6 +9,7 @@ async.waterfall([
   require('./choose-release-name'),
   require('./confirm-release-name'),
   require('./tag-commit'),
+  require('./push-tag'),
 
   function (opts, cb) {
     console.log(opts);
