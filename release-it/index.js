@@ -10,8 +10,5 @@ async.waterfall([
   require('./confirm-release-name'),
   require('./tag-commit'),
   require('./push-tag'),
-
-  function (opts, cb) {
-    console.log(opts);
-  }
+  require('./push-release')
 ]);

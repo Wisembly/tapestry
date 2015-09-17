@@ -1,4 +1,6 @@
 module.exports = {
+  env: require('../env'),
+
   repo: 'Tapestry',
   owner: 'Wisembly',
 
