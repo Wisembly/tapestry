@@ -1,9 +1,11 @@
 extends partials/layout
 
 block content
-  h1 Hello, stats
-  - each stat in stats
-    p= stat.published
+  //- - each stat in stats
+    //- p= stat.published
+
+  h1 Tapestry.css size
+  canvas#js-Stats(style="display: block; width: 100%; height: 300px;")
 
 block scripts
   script(src="https://code.jquery.com/jquery-2.1.4.min.js")
