@@ -3,5 +3,9 @@ extends partials/layout
 block content
   h1 Hello, stats
   - each stat in stats
-    - stat = JSON.parse(stat);
     p= stat.published
+
+block scripts
+  script(src="https://code.jquery.com/jquery-2.1.4.min.js")
+  script(src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js")
+  script(src="/js/stats.js")

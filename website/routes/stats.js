@@ -6,11 +6,14 @@ module.exports = function (app) {
   var paths = utils.read.folder(path.join(__dirname, '../../dist/stats'), 'utf8');
 
   paths.forEach(function (path) {
-    stats.push(utils.read.file(path));
+    var data = utils.read.file(path);
+    stats.push(JSON.parse(data));
   });
 
-  return app.get('/stats', function (req, res) {
-    res.render('stats', {
+  return app.get('/stats/:json?', function (req, res) {
+    var json = req.params.json;
+
+    return json ? res.json(stats) : res.render('stats', {
       currentPage: 'stats',
       stats: stats
     });
