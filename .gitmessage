@@ -1,0 +1,7 @@
+# Wisembly commit rules:
+#
+# - one action per commit
+# - make short commit message
+# - use following syntax: `Context | action #ref` (e.g: Git | add commit message #145)
+# - you can list more stuff after the commit message
+#
