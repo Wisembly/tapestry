@@ -1,25 +1,27 @@
-module.exports = function (opts, cb) {
-  var question = 'Confirm that "' + opts.commit.toTag + '" is the commit to tag? (y/n)';
+var opts = require('../opts');
+
+module.exports = function (cb) {
+  var question = 'Confirm that "' + opts.nextRelease.commitSha + '" is the commit to tag? (y/n)';
   var choice;
 
   prompt.get(question, function (err, data) {
-    if (err) return 1;
+    if (err) return false;
     var choice = data[question];
 
     if (choice === 'Y' || choice === 'y')
-      return cb(null, opts);
+      return cb(null);
 
     else if (choice === 'N' || choice === 'n') {
       question = 'Last chance fancy pants, which commit do you want to tag?';
 
       prompt.get(question, function (err, data) {
-        if (err) return 1;
-        opts.commit.toTag = data[question];
-        return cb(null, opts);
+        if (err) return false;
+        opts.nextRelease.commitSha = data[question];
+        return cb(null);
       });
     }
 
     else
-      return 1;
+      return false;
   });
 };

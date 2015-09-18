@@ -1,17 +1,16 @@
 var log = require('../log');
+var opts = require('../opts');
 
 module.exports = function (cb) {
-  var opts = require('../opts');
-
   Gh.releases.getLatestRelease({
     owner: opts.owner,
     repo: opts.repo
   }, function (err, data) {
-    if (err) return 1;
+    if (err) return false;
 
     log('Last release: ' + data.name);
-    opts.release.last.name = data.name;
+    opts.lastRelease.name = data.name;
 
-    return cb(null, opts);
+    return cb(null);
   });
 };

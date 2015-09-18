@@ -4,16 +4,12 @@ module.exports = {
   repo: 'Tapestry',
   owner: 'Wisembly',
 
-  release: {
-    last: {
-      name: null
-    },
-    next: {
-      name: null
-    }
+  nextRelease: {
+    name: null,
+    commitSha: null
   },
 
-  commit: {
-    toTag: null
+  lastRelease: {
+    name: null
   }
 };

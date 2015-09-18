@@ -8,7 +8,7 @@ async.waterfall([
   require('./commit-to-tag/confirm'),
   require('./release/new/choose-name'),
   require('./release/new/confirm-name'),
-  require('./tag/commit'),
+  require('./tag/create'),
   require('./tag/push'),
   require('./release/push')
 ]);

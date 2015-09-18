@@ -3,11 +3,11 @@ var opts = require('../opts');
 var exec = require('child_process').exec;
 
 module.exports = function (cb) {
-  var cmd = 'git push origin ' + opts.nextRelease.name;
+  var cmd = 'git tag -a ' + opts.nextRelease.name + ' ' + opts.nextRelease.commitSha + ' -m ""';
 
-  exec(cmd, function (err, data) {
+  exec(cmd, function (err) {
     if (err) return false;
-    log('Tag pushed ✓');
+    log('Tag created ✓');
     return cb(null);
   });
 };
