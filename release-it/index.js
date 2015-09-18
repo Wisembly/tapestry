@@ -3,12 +3,12 @@ require('./config');
 var async = require('async');
 
 async.waterfall([
-  require('./get-latest-release'),
-  require('./choose-commit-to-tag'),
-  require('./confirm-commit-to-tag'),
-  require('./choose-release-name'),
-  require('./confirm-release-name'),
-  require('./tag-commit'),
-  require('./push-tag'),
-  require('./push-release')
+  require('./release/get-latest'),
+  require('./commit-to-tag/choose'),
+  require('./commit-to-tag/confirm'),
+  require('./release/new/choose-name'),
+  require('./release/new/confirm-name'),
+  require('./tag/commit'),
+  require('./tag/push'),
+  require('./release/push')
 ]);

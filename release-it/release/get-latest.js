@@ -1,7 +1,7 @@
-var log = require('./log');
+var log = require('../log');
 
 module.exports = function (cb) {
-  var opts = require('./opts');
+  var opts = require('../opts');
 
   Gh.releases.getLatestRelease({
     owner: opts.owner,

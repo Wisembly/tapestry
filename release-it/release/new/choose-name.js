@@ -1,4 +1,4 @@
-var log = require('./log');
+var log = require('../../log');
 
 module.exports = function (opts, cb) {
   var question = 'Choose a release name:';
