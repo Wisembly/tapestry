@@ -6,7 +6,7 @@ module.exports = function () {
   gulp.watch('src/scss/**/*.scss', ['sass']);
   gulp.watch('src/js/**', ['scripts']);
   gulp.watch('src/**/*.md', ['styleguide']);
-  return gulp.watch('website/public/css/**', bs.reload({
+  gulp.watch('website/public/css/**', bs.reload({
     stream: true
   }));
 };

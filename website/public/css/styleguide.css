@@ -192,3 +192,23 @@
 	line-height: 1.7;
 	color: #3a434c;
 }
+
+
+
+
+.s-Module--grid .Column {
+	padding: 1rem;
+	color: #708189;
+	font-weight: bold;
+	text-align: center;
+	background-color: #ebeeef;
+	border: 1px solid #d5d9da;
+}
+
+.s-Module--grid .Column + .Column {
+	border-left: 0;
+}
+
+.s-Module--grid .Row + .Row {
+	margin-top: .5rem;
+}
