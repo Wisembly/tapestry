@@ -1,5 +1,6 @@
 node_modules
 website/components
+dist/stats
 
 env.js
 npm-debug.log
