@@ -212,3 +212,29 @@
 .s-Module--grid .Row + .Row {
 	margin-top: .5rem;
 }
+
+
+.s-Module--colors {
+}
+
+.s-Color-wrapper {
+	display: inline-block;
+	width: 23.5%;
+	margin: 0 1% 1.6rem 0;
+	list-style-type: none;
+}
+
+.s-Color {
+	height: 6.4rem;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+
+.s-Color-desc {
+	font-size: 1em;
+	line-height: 1.6rem;
+	color: #999;
+	border-bottom: 1px solid #ededed;
+	padding: .8rem;
+	font-weight: 300;
+}
