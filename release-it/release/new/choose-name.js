@@ -1,4 +1,3 @@
-var log = require('../../log');
 var opts = require('../../opts');
 
 module.exports = function (cb) {
