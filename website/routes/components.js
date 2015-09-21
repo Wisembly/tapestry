@@ -1,11 +1,12 @@
 var _ = require('underscore');
-var fs = require('fs')
+var utils = require('uo-node-utils');
 var path = require('path');
 
 module.exports = function (app) {
   app.get('/components/:name?', function (req, res) {
     var name = req.params.name;
-    var components = fs.readFileSync(path.join(__dirname, '../components/components.json'), 'utf8');
+    var componentsPath = path.join(__dirname, '../components/components.json');
+    var components = utils.read.file(componentsPath);
 
     components = JSON.parse(components).components;
 

@@ -16,4 +16,5 @@ var headroom = new Headroom(Header.$el, {
     notTop : "s-Header--not-top"
   }
 });
+
 headroom.init();
