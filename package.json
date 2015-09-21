@@ -4,10 +4,13 @@
   "description": "Wisembly UI elements",
   "main": "dist/js/tapestry.js",
   "devDependencies": {
+    "async": "^1.4.2",
     "backstopjs": "^0.4.3",
     "browser-sync": "^2.9.3",
+    "chalk": "^1.1.1",
     "compression": "^1.5.2",
     "express": "^4.13.3",
+    "github": "git://github.com/vcampitelli/node-github.git",
     "gulp": "3.9.0",
     "gulp-autoprefixer": "2.3.1",
     "gulp-concat": "2.6.0",
@@ -21,6 +24,7 @@
     "gulp-uglify": "1.2.0",
     "jade": "^1.11.0",
     "lodash": "3.9.3",
+    "prompt": "^0.2.14",
     "run-sequence": "^1.1.2",
     "styleguide-generator": "0.6.3",
     "underscore": "^1.8.3",
@@ -31,7 +35,8 @@
     "vt:compare": "cd ./node_modules/backstopjs && gulp test && cd ../../",
     "lint": "scss-lint src/scss/** --config .scss-lint.yml",
     "pre-commit": "cp pre-commit.sh .git/hooks/pre-commit && chmod 777 .git/hooks/pre-commit",
-    "pre-push": "cp pre-push.sh .git/hooks/pre-push && chmod 777 .git/hooks/pre-push"
+    "pre-push": "cp pre-push.sh .git/hooks/pre-push && chmod 777 .git/hooks/pre-push",
+    "release": "node release-it index.js"
   },
   "repository": {
     "type": "git",
