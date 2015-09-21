@@ -1,5 +1,5 @@
-var log = require('../log');
 var opts = require('../opts');
+var log = require('../tools/log');
 var exec = require('child_process').exec;
 
 module.exports = function (cb) {
