@@ -2279,18 +2279,20 @@ input:checked + .Switch--s:after {
 
 .has-tooltip {
   position: relative; }
+  .has-tooltip:before,
+  .has-tooltip:after {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.1s ease-out; }
   .has-tooltip:before {
     content: "";
-    display: none;
-    position: absolute;
     border-style: solid; }
   .has-tooltip:after {
     content: attr(aria-label);
-    display: none;
-    position: absolute;
     padding: 0.78571rem;
     font-size: 0.83333rem;
-    line-height: 1.57143rem;
+    font-weight: bold;
+    line-height: 1.17857rem;
     text-align: center;
     color: #fff;
     background-color: rgba(0, 0, 0, 0.8);
@@ -2299,7 +2301,7 @@ input:checked + .Switch--s:after {
     pointer-events: none; }
   .has-tooltip:hover:before,
   .has-tooltip:hover:after {
-    display: block; }
+    opacity: 1; }
 
 .has-tooltip:before,
 .has-tooltip:after,

@@ -1,20 +1,24 @@
 .has-tooltip {
   position: relative;
 
+  &:before,
+  &:after {
+    position: absolute;
+    opacity: 0;
+    transition: opacity .1s ease-out;
+  }
+
   &:before {
     content: "";
-    display: none;
-    position: absolute;
     border-style: solid;
   }
 
   &:after {
     content: attr(aria-label);
-    display: none;
-    position: absolute;
     padding: $pd--s;
     font-size: $fz--s;
-    line-height: $base-lh;
+    font-weight: bold;
+    line-height: r(3);
     text-align: center;
     color: $white;
     background-color: $tooltip-bg;
@@ -26,7 +30,7 @@
   &:hover {
     &:before,
     &:after {
-      display: block;
+      opacity: 1;
     }
   }
 }
