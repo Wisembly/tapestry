@@ -1,33 +1,26 @@
-.has-tooltip,
-.has-tooltip--top,
-.has-tooltip--right,
-.has-tooltip--bottom,
-.has-tooltip--left {
+.has-tooltip {
   position: relative;
-
-  &:after {
-    content: attr(aria-label);
-    display: none;
-    position: absolute;
-    padding: ($pd--xs / $ms-ratio / $ms-ratio) $pd--s;
-    font-size: $fz--xs;
-    line-height: $base-lh;
-    text-align: center;
-    word-wrap: break-word;
-    white-space: pre;
-    color: $white;
-    background-color: $tooltip-bg;
-    border-radius: $base-radius;
-    box-shadow: 0 1px 1.5px 0 rgba($gray-chateau, .5);
-    cursor: default;
-    pointer-events: none;
-  }
 
   &:before {
     content: "";
     display: none;
     position: absolute;
     border-style: solid;
+  }
+
+  &:after {
+    content: attr(aria-label);
+    display: none;
+    position: absolute;
+    padding: $pd--s;
+    font-size: $fz--s;
+    line-height: $base-lh;
+    text-align: center;
+    color: $white;
+    background-color: $tooltip-bg;
+    border-radius: $base-radius;
+    cursor: default;
+    pointer-events: none;
   }
 
   &:hover {
