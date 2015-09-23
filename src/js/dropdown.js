@@ -1,17 +1,17 @@
 !function ($) {
   "use strict"; // jshint ;_;
 
-  Function.prototype.extend = function (props) {
+  function extend(obj, props) {
     var constructor = function () {};
-    var prototype = constructor.prototype = new this;
+    var prototype = constructor.prototype = new obj;
     if (typeof props === "object") for (var key in props) prototype[key] = props[key];
-    prototype.__super__ = this.prototype;
+    prototype.__super__ = obj.prototype;
     return constructor;
   };
 
-  Function.prototype.create = function () {
-    var instance = new this;
-    instance.construct.apply(instance, arguments);
+  function create(obj) {
+    var instance = new obj;
+    instance.construct.apply(instance, Array.prototype.slice.call(arguments, 1));
     return instance;
   };
 
@@ -34,7 +34,7 @@
   /* DROPDOWN
    * ======== */
 
-  var Dropdown = Object.extend({
+  var Dropdown = extend(Object, {
     construct: function (el, options) {
       this.guid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
         var r = Math.random() * 16 | 0,
@@ -172,7 +172,7 @@
   /* DROPDOWN-SELECT
    * =============== */
 
-  var DropdownSelect = Dropdown.extend({
+  var DropdownSelect = extend(Dropdown, {
     init: function (el, options) {
       options = $.extend($(el).data(), options);
       el = el.nodeName === 'SELECT' ? this.buildFromSelect(el) : el;
@@ -391,7 +391,7 @@
       if (component)
         component.setOptions(options);
       else
-        $(this).data('dropdown', Dropdown.create(this, options));
+        $(this).data('dropdown', create(Dropdown, this, options));
     });
   };
 
@@ -402,7 +402,7 @@
       if (component)
         component.setOptions(options);
       else
-        $(this).data('dropdown-select', DropdownSelect.create(this, options));
+        $(this).data('dropdown-select', create(DropdownSelect, this, options));
     });
   };
 
