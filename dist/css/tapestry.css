@@ -1764,7 +1764,8 @@ th {
   overflow: auto;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  transition: opacity 0.2s ease-in-out; }
+  transition: opacity 0.2s ease-in-out;
+  -webkit-filter: blur(0); }
   .Modal[aria-hidden="false"] {
     visibility: visible;
     opacity: 1;

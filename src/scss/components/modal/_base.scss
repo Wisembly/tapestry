@@ -11,6 +11,7 @@
   overflow: auto;
   transform: translate(-50%, -50%);
   transition: opacity .2s ease-in-out;
+  -webkit-filter: blur(0);
 
   &[aria-hidden="false"] {
     visibility: visible;
