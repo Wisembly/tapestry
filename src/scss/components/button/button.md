@@ -1,11 +1,10 @@
 # Buttons
 
-You can overide button size with 2 variables `$btn--pdv` & `$btn--pdh` for vertical & horizontal sizing.
-
 ```html
 <button class="Btn">default button</button>
-<button class="Btn Btn--outline">default outlined button</button>
-<button class="Btn" aria-disabled="true" disabled>disabled button</button>
+<button class="Btn Btn--outline">Outlined button</button>
+<button class="Btn" aria-disabled="true" disabled>Disabled button</button>
+<button class="Btn Btn--raw">Raw button</button>
 ```
 
 ## Sizes

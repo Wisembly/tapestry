@@ -1544,7 +1544,7 @@ th {
     padding: 0.32143rem 0.71429rem; }
 
 .Btn--raw {
-  color: #a1a9ae;
+  color: #708189;
   background-color: transparent;
   border: 0; }
 
@@ -1670,7 +1670,7 @@ th {
   background-color: #fff; }
 
 .Btn--raw:hover {
-  color: #708189;
+  color: #3a434c;
   background-color: transparent; }
 
 .Btn--raw:active {
