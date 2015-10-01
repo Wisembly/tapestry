@@ -183,6 +183,12 @@ linters:
       - transform
       - transform-style
       - transform-origin
+      - animation
+      - animation-name
+      - animation-duration
+      - animation-ease
+      - animation-iteration-count
+      - animation-direction
       - backface-visibility
       - transition
       - -webkit-overflow-scrolling
