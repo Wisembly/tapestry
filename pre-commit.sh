@@ -49,11 +49,11 @@ fi
 
 # Build and compare refs
 
-echo "";
-read -p "Build and compare refs? (y/n)" COMPARE_REFS
+#echo "";
+#read -p "Build and compare refs? (y/n)" COMPARE_REFS
 
-if [ "$COMPARE_REFS" == "y" ]; then
-  buildRefs
-  compareRefs
-  lastContinue
-fi
+#if [ "$COMPARE_REFS" == "y" ]; then
+#  buildRefs
+#  compareRefs
+#  lastContinue
+#fi
