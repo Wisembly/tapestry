@@ -1761,18 +1761,19 @@ th {
   max-width: 90%;
   max-height: calc(100vh - 3.14286rem);
   opacity: 0;
+  -webkit-filter: blur(0);
+          filter: blur(0);
   overflow: auto;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  transition: opacity 0.2s ease-in-out;
-  -webkit-filter: blur(0); }
+  transition: opacity 0.2s ease-in-out; }
   .Modal[aria-hidden="false"] {
     visibility: visible;
     opacity: 1;
-    -webkit-animation-duration: .2s;
-            animation-duration: .2s;
     -webkit-animation-name: PopUp;
             animation-name: PopUp;
+    -webkit-animation-duration: .2s;
+            animation-duration: .2s;
     -webkit-animation-iteration-count: 1;
             animation-iteration-count: 1;
     -webkit-animation-direction: alternate;
@@ -1840,7 +1841,6 @@ th {
             flex-grow: 1; }
 
 .Modal-collection .Collection-item {
-  color: #a1a9ae;
   border-right: 0;
   border-left: 0; }
   .Modal-collection .Collection-item:first-child {
@@ -1862,9 +1862,6 @@ th {
 
 .ModalHeader-btn:hover {
   color: #258aae; }
-
-.Modal-collection .Collection-item:hover {
-  color: #708189; }
 
 .has-notification {
   position: relative; }
@@ -2283,6 +2280,7 @@ input:checked + .Switch--s:after {
   .has-tooltip:before,
   .has-tooltip:after {
     position: absolute;
+    z-index: 9000;
     opacity: 0;
     transition: opacity 0.1s ease-out; }
   .has-tooltip:before {
@@ -2316,8 +2314,8 @@ input:checked + .Switch--s:after {
 .has-tooltip--top:after,
 .has-tooltip--bottom:before,
 .has-tooltip--bottom:after {
-  left: 50%;
   top: auto;
+  left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%); }
 
