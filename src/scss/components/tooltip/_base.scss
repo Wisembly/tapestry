@@ -4,6 +4,7 @@
   &:before,
   &:after {
     position: absolute;
+    z-index: zi("tooltip");
     opacity: 0;
     transition: opacity .1s ease-out;
   }
