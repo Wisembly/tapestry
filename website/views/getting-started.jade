@@ -2,3 +2,37 @@ extends partials/layout
 
 block content
   h1.s-Header Getting-started
+  div.Box
+    div.Box-header
+      h2.Box-title Structure
+    div.Box-content
+      ul
+        li Built files are versionned into /dist folder
+        li Settings and variables are set into /utils/var and can be override
+
+  div.Box
+    div.Box-header
+      h2.Box-title Installation
+    div.Box-content
+      p Installation via GitHub and Bower are provided.
+      code bower install tapestry
+      code git clone git@github.com:Wisembly/tapestry.git
+
+  div.Box
+    div.Box-header
+      h2.Box-title Use
+    div.Box-content
+      p Standalone: install Tapestry and include the following line into your website
+      pre &lt;link href="__CHANGE_PATH__/dist/css/tapestry.css" rel="stylesheet" type="text/css"&gt;
+      p Sass: add the following line into your scss file
+      pre @import "__CHANGE_PATH__/src/scss/app.scss";
+
+  div.Box
+    div.Box-header
+      h2.Box-title Development
+    div.Box-content
+      p Install Node, BrowserSync and Gulp globally
+      p Install dependencies: 
+        code npm install
+      p Start Gulp: 
+        code gulp
