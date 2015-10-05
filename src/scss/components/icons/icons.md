@@ -23,13 +23,18 @@
 </div>
 
 <div class="s-Icon">
+  <i class="Icon Icon--add"></i>
+  add
+</div>
+
+<div class="s-Icon">
   <i class="Icon Icon--addUser"></i>
   addUser
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--add"></i>
-  add
+  <i class="Icon Icon--alarmClock"></i>
+  alarmClock
 </div>
 
 <div class="s-Icon">
@@ -43,11 +48,6 @@
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--alarmClock"></i>
-  alarmClock
-</div>
-
-<div class="s-Icon">
   <i class="Icon Icon--archive"></i>
   archive
 </div>
@@ -58,13 +58,13 @@
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--arrowFirst"></i>
-  arrowFirst
+  <i class="Icon Icon--arrowDown"></i>
+  arrowDown
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--arrowDown"></i>
-  arrowDown
+  <i class="Icon Icon--arrowFirst"></i>
+  arrowFirst
 </div>
 
 <div class="s-Icon">
@@ -88,13 +88,13 @@
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--badge"></i>
-  badge
+  <i class="Icon Icon--azure"></i>
+  azure
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--azure"></i>
-  azure
+  <i class="Icon Icon--badge"></i>
+  badge
 </div>
 
 <div class="s-Icon">
@@ -163,13 +163,13 @@
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--cross"></i>
-  cross
+  <i class="Icon Icon--decision--dashed"></i>
+  decision--dashed
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--decision--dashed"></i>
-  decision--dashed
+  <i class="Icon Icon--cross"></i>
+  cross
 </div>
 
 <div class="s-Icon">
@@ -193,13 +193,13 @@
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--dragHorizontal"></i>
-  dragHorizontal
+  <i class="Icon Icon--dragVertical"></i>
+  dragVertical
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--dragVertical"></i>
-  dragVertical
+  <i class="Icon Icon--dragHorizontal"></i>
+  dragHorizontal
 </div>
 
 <div class="s-Icon">
@@ -230,6 +230,11 @@
 <div class="s-Icon">
   <i class="Icon Icon--externalLink"></i>
   externalLink
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--eye"></i>
+  eye
 </div>
 
 <div class="s-Icon">
