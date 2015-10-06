@@ -1945,6 +1945,7 @@ th {
   bottom: 0;
   z-index: 7000;
   width: 39.28571rem;
+  max-width: 100%;
   background: #fff;
   -webkit-transform: translateZ(0);
           transform: translateZ(0);
