@@ -1975,7 +1975,7 @@ th {
           justify-content: space-between; }
 
 .PanelHeader-btn {
-  padding: 0.78571rem 0.78571rem;
+  padding: 0.78571rem 1.57143rem;
   line-height: 3.14286rem;
   color: #aed7e8; }
   .PanelHeader-btn .Icon {
@@ -2015,7 +2015,7 @@ th {
             transform: translateX(-100%); }
 
 .PanelHeader-btn:hover {
-  color: #258aae; }
+  color: #fff; }
 
 .Pellet {
   display: inline-block;
