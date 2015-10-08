@@ -1,8 +1,9 @@
 .Btn--outline {
   padding: rb(2) rb(4);
-  color: $gray-chateau;
+  color: $slate-gray;
   background-color: $white;
   border: 1px solid $base-border-color;
+  transition: .1s border-color ease-out;
 
   &.Btn--s {
     padding: rb(1) rb(2);

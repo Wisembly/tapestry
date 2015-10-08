@@ -1540,9 +1540,10 @@ th {
 
 .Btn--outline {
   padding: 0.71429rem 1.5rem;
-  color: #a1a9ae;
+  color: #708189;
   background-color: #fff;
-  border: 1px solid #d5d9da; }
+  border: 1px solid #d5d9da;
+  transition: .1s border-color ease-out; }
   .Btn--outline.Btn--s {
     padding: 0.32143rem 0.71429rem; }
 
@@ -1665,7 +1666,7 @@ th {
   color: #c85450; }
 
 .Btn--outline:hover {
-  color: #708189;
+  color: #3a434c;
   background-color: #fff;
   border-color: #708189; }
 
