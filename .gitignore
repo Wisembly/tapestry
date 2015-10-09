@@ -1,7 +1,9 @@
 node_modules
 website/components
+dist/fonts
 dist/stats
-dist/css/tapestry.css
+dist/css
+dist/js
 
 env.js
 npm-debug.log
