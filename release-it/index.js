@@ -10,5 +10,6 @@ async.waterfall([
   require('./commit/create'),
   require('./tag/push'),
   require('./commit/push'),
+  require('./release/publish'),
   require('./release/push')
 ]);
