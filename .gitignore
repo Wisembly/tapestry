@@ -1,6 +1,7 @@
 node_modules
 website/components
 dist/stats
+dist/css/tapestry.css
 
 env.js
 npm-debug.log
