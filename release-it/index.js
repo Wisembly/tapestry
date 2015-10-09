@@ -7,9 +7,12 @@ async.waterfall([
   require('./release/new/choose-name'),
   require('./release/new/confirm-name'),
   require('./tag/create'),
+  require('./commit/stats').generate,
+  require('./commit/stats').add,
+  require('./commit/dist').generate,
+  require('./commit/dist').add,
   require('./commit/create'),
   require('./tag/push'),
   require('./commit/push'),
-  require('./release/publish'),
-  require('./release/push')
+  require('./release/publish')
 ]);
