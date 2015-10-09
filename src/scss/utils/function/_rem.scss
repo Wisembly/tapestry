@@ -1,3 +1,0 @@
-@function rem($size, $context: $base-fz) {
-  @return ($size / $base-fz) * 1rem;
-}

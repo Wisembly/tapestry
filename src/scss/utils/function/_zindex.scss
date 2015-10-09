@@ -1,7 +1,0 @@
-@function zi($layer) {
-  @if not map-has-key($zi-layers, $layer) {
-    @warn "No layer found for `#{$layer}` in $zi-layers map. Property omitted.";
-  }
-
-  @return map-get($zi-layers, $layer);
-}

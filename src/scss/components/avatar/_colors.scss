@@ -1,9 +1,0 @@
-@for $i from 1 through length($avatar-colors) {
-  $color: nth($avatar-colors, $i);
-
-  .Avatar--color {
-    &#{$i} {
-      background-color: $color;
-    }
-  }
-}
