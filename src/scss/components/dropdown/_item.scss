@@ -5,24 +5,20 @@
   padding: $pd--xs;
   font-size: $fz--s;
   font-weight: $fw--semi-bold;
+  line-height: $base-lh;
+  text-align: left;
   text-decoration: none;
-  color: inherit;
+  white-space: nowrap;
   border-radius: $base-radius;
   cursor: pointer;
 
-  &[aria-selected="true"],
-  &.is-selected {
-    padding-right: r(7);
+  &[aria-selected="true"] {
+    padding-right: r(6);
 
     &:after {
       @extend %Icon--checkmark;
-      @include pos(a $mg--xs $mg--s null null);
+      @include pos(a $mg--xs $mg--xs null null);
       font-family: icons;
     }
   }
-}
-
-.Dropdown-hr {
-  margin: $mg--xs 0;
-  border-top: 1px solid $porcelain;
 }

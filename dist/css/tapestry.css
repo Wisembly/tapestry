@@ -857,18 +857,18 @@ th {
   padding: 0.39286rem;
   font-size: 0.83333rem;
   font-weight: 600;
+  line-height: 1.57143rem;
+  text-align: left;
   text-decoration: none;
-  color: inherit;
+  white-space: nowrap;
   border-radius: 0.28571rem;
   cursor: pointer; }
-  .Dropdown-item[aria-selected="true"],
-  .Dropdown-item.is-selected {
-    padding-right: 2.75rem; }
-    .Dropdown-item[aria-selected="true"]:after,
-    .Dropdown-item.is-selected:after {
+  .Dropdown-item[aria-selected="true"] {
+    padding-right: 2.35714rem; }
+    .Dropdown-item[aria-selected="true"]:after {
       position: absolute;
       top: 0.39286rem;
-      right: 0.78571rem;
+      right: 0.39286rem;
       font-family: icons; }
 
 .Dropdown-hr {
@@ -1096,8 +1096,7 @@ th {
 .Icon--checked:before {
   content: "\ea19"; }
 
-.Dropdown-item[aria-selected="true"]:after,
-.Dropdown-item.is-selected:after, .Icon--checkmark:before {
+.Dropdown-item[aria-selected="true"]:after, .Icon--checkmark:before {
   content: "\ea1a"; }
 
 .Icon--clip:before {
