@@ -6,6 +6,7 @@ module.exports = function (cb) {
 
   exec(cmd, function (err, data) {
     if (err) return false;
+    log('Release pushed ✓');
     return cb(null);
   });
 };
