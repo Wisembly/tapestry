@@ -1,4 +1,4 @@
-.t-Headline {
+.t-headline {
   margin: 0;
   font-size: $fz--xl;
   font-weight: $fw--semi-bold;
@@ -6,14 +6,14 @@
   color: $venice-blue;
 }
 
-.t-Subheadline {
+.t-subheadline {
   margin: 0;
   font-size: $fz--s;
   line-height: r(2);
   color: $regent-st-blue;
 }
 
-.t-SectionTitle {
+.t-sectionTitle {
   margin: $mg--m 0;
   font-size: r(3);
   line-height: r(5);
@@ -21,13 +21,13 @@
   color: $slate-gray;
 }
 
-.t-Title {
+.t-title {
   font-size: $fz--l;
   font-weight: $fw--semi-bold;
   color: $limed-spruce;
 }
 
-.t-Caption {
+.t-caption {
   font-size: $fz--s;
   line-height: $lh--s;
   color: $slate-gray;

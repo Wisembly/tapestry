@@ -19,43 +19,50 @@
 ```
 
 ## List
-`<ul>` and `<li>` are reset by default.
-
-### Regular list
+`<ul>` and `<li>` have a default style.
 
 ```html
-<ul class="t-List">
-  <li class="t-ListItem">Foo</li>
-  <li class="t-ListItem">Bar</li>
+<ul>
+  <li>Foo</li>
+  <li>Bar</li>
 </ul>
-<ul class="t-List">
-  <li class="t-ListItem">Baz</li>
-  <li class="t-ListItem">Foobar</li>
+```
+
+### Reset lists
+
+```html
+<ul class="t-rList">
+  <li class="t-rListItem">Foo</li>
+  <li class="t-rListItem">Bar</li>
+</ul>
+<ul class="t-rList">
+  <li class="t-rListItem">Baz</li>
+  <li class="t-rListItem">Foobar</li>
 </ul>
 ```
 
 ### Inlined list
 
 ```html
-<ul class="t-List--inline">
-  <li class="t-ListItem">Foo - FooBar</li>
-  <li class="t-ListItem"><a href="#">Bar - FooBaz</a></li>
+<ul class="t-rList t-rList--inline">
+  <li class="t-rListItem">Foo - FooBar</li>
+  <li class="t-rListItem"><a href="#">Bar - FooBaz</a></li>
 </ul>
 ```
 
 ### Headlines
 
 ```html
-<h2 class="t-SectionTitle">Overview</h2>
-<h1 class="t-Headline">Headline: I am supposed to be the title of the page.</h1>
-<h4 class="t-Subheadline">Subheadline: I am supposed to be under the title of the page.</h4>
+<h2 class="t-sectionTitle">Overview</h2>
+<h1 class="t-headline">Headline: I am supposed to be the title of the page.</h1>
+<h4 class="t-subheadline">Subheadline: I am supposed to be under the title of the page.</h4>
 ```
 
 ### Paragraph
 
 ```html
-<p class="t-Title">Coda codum codae</p>
-<p class="t-Caption">Published a few centuries ago by <a href="#">Julius Caesar</a>.</p>
+<p class="t-title">Coda codum codae</p>
+<p class="t-caption">Published a few centuries ago by <a href="#">Julius Caesar</a>.</p>
 <p>I am a regular paragraph: <strong>lorem ipsum dolor</strong> sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat: <a href="#">go to link</a></p>
 ```
 

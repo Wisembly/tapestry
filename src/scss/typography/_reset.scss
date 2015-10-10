@@ -75,12 +75,16 @@ strong {
 }
 
 ul {
-  margin: 0;
-  padding: 0;
+  padding-left: $pd--m - $pd--xs;
+
+  + ul {
+    padding-top: $pd--m;
+  }
 }
 
 li {
-  list-style: none;
+  padding-left: $pd--xs;
+  list-style: disc;
 }
 
 a {
