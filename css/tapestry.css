@@ -30,6 +30,22 @@
   clear: both;
   zoom: 1; }
 
+.u-neutral {
+  color: #fff;
+  background: #a1a9ae; }
+
+.u-validate {
+  color: #fff;
+  background: #46b489; }
+
+.u-info {
+  color: #fff;
+  background: #f1bc33; }
+
+.u-error {
+  color: #fff;
+  background: #e25c5b; }
+
 .u-vhidden {
   position: absolute !important;
   width: 1px !important;
@@ -447,6 +463,18 @@ a {
   font-size: 0.83333rem;
   line-height: 0.78571rem;
   color: #708189; }
+
+.t-neutral {
+  color: #a1a9ae; }
+
+.t-validate {
+  color: #46b489; }
+
+.t-info {
+  color: #f1bc33; }
+
+.t-error {
+  color: #e25c5b; }
 
 .t-List {
   padding-left: 1.17857rem; }
@@ -1141,16 +1169,16 @@ th {
 .Icon--actionItem:before {
   content: "\ea01"; }
 
-.Icon--add:before {
+.Icon--addUser:before {
   content: "\ea02"; }
 
-.Icon--addUser:before {
+.Icon--add:before {
   content: "\ea03"; }
 
-.Icon--admin:before {
+.Icon--alarmClock:before {
   content: "\ea04"; }
 
-.Icon--alarmClock:before {
+.Icon--admin:before {
   content: "\ea05"; }
 
 .Icon--alert:before {
@@ -1165,10 +1193,10 @@ th {
 .Icon--arrowDown:before {
   content: "\ea09"; }
 
-.Icon--arrowFirst:before {
+.Icon--arrowLast:before {
   content: "\ea0a"; }
 
-.Icon--arrowLast:before {
+.Icon--arrowFirst:before {
   content: "\ea0b"; }
 
 .Icon--arrowNext:before {
@@ -1264,7 +1292,11 @@ th {
 .Icon--duplicate:before {
   content: "\ea2a"; }
 
+<<<<<<< HEAD
 .Icon--evernote:before {
+=======
+.Icon--eye:before {
+>>>>>>> Colorizers | add classes for divs and text
   content: "\ea2b"; }
 
 .Icon--externalLink:before {
@@ -1273,10 +1305,10 @@ th {
 .Icon--facebook:before {
   content: "\ea2d"; }
 
-.Icon--filters:before {
+.Icon--form:before {
   content: "\ea2e"; }
 
-.Icon--form:before {
+.Icon--filters:before {
   content: "\ea2f"; }
 
 .Icon--fullscreen:before {
@@ -1318,10 +1350,10 @@ th {
 .Icon--live:before {
   content: "\ea3c"; }
 
-.Icon--lock:before {
+.Icon--mail:before {
   content: "\ea3d"; }
 
-.Icon--mail:before {
+.Icon--lock:before {
   content: "\ea3e"; }
 
 .Icon--meetingList:before {
@@ -1333,10 +1365,10 @@ th {
 .Icon--message:before {
   content: "\ea41"; }
 
-.Icon--minus:before {
+.Icon--more:before {
   content: "\ea42"; }
 
-.Icon--more:before {
+.Icon--minus:before {
   content: "\ea43"; }
 
 .Icon--multipleChoice:before {
