@@ -58,3 +58,12 @@
 <p class="t-Caption">Published a few centuries ago by <a href="#">Julius Caesar</a>.</p>
 <p>I am a regular paragraph: <strong>lorem ipsum dolor</strong> sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat: <a href="#">go to link</a></p>
 ```
+
+### Text colorizers
+
+```html
+<span class="t-neutral"><i class="Icon Icon--pellet"></i> Neutral</span>
+<span class="t-validate"><i class="Icon Icon--pellet"></i> Validate</span>
+<span class="t-info"><i class="Icon Icon--pellet"></i> Info</span>
+<span class="t-error"><i class="Icon Icon--pellet"></i> Error</span>
+```

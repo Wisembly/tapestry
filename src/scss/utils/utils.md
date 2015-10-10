@@ -153,3 +153,32 @@ You can reset styles for `<ul>`
   </tbody>
 </table>
 ```
+
+## Div colorizers
+
+```esc
+<table class="Table">
+  <thead class="Table-head">
+    <th class="Table-cell Table-cell--header u-tal">Syntax</th>
+    <th class="Table-cell Table-cell--header">Description</th>
+  </thead>
+  <tbody class="Table-body">
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal"><code>.u-neutral</code></td>
+      <td class="Table-cell">Adds a neutral layout: white text, grey background.</td>
+    </tr>
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal"><code>.u-validate</code></td>
+      <td class="Table-cell">Adds a validation-related layout: white text, green background.</td>
+    </tr>
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal"><code>.u-info</code></td>
+      <td class="Table-cell">Adds a informative layout: white text, orange background.</td>
+    </tr>
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal"><code>.u-error</code></td>
+      <td class="Table-cell">Adds a error-related layout: white text, red background.</td>
+    </tr>
+  </tbody>
+</table>
+```
