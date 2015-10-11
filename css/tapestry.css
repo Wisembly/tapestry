@@ -1030,10 +1030,10 @@ th {
 .Icon--addUser:before {
   content: "\ea03"; }
 
-.Icon--alarmClock:before {
+.Icon--admin:before {
   content: "\ea04"; }
 
-.Icon--admin:before {
+.Icon--alarmClock:before {
   content: "\ea05"; }
 
 .Icon--alert:before {
@@ -1108,10 +1108,10 @@ th {
 .Icon--cog:before {
   content: "\ea1d"; }
 
-.Icon--decision--dashed:before {
+.Icon--cross:before {
   content: "\ea1e"; }
 
-.Icon--cross:before {
+.Icon--decision--dashed:before {
   content: "\ea1f"; }
 
 .Icon--decision:before {
@@ -1126,10 +1126,10 @@ th {
 .Icon--download:before {
   content: "\ea23"; }
 
-.Icon--dragVertical:before {
+.Icon--dragHorizontal:before {
   content: "\ea24"; }
 
-.Icon--dragHorizontal:before {
+.Icon--dragVertical:before {
   content: "\ea25"; }
 
 .Icon--dropdown:before {
