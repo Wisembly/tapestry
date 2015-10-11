@@ -33,13 +33,13 @@
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--alarmClock"></i>
-  alarmClock
+  <i class="Icon Icon--admin"></i>
+  admin
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--admin"></i>
-  admin
+  <i class="Icon Icon--alarmClock"></i>
+  alarmClock
 </div>
 
 <div class="s-Icon">
@@ -163,13 +163,13 @@
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--decision--dashed"></i>
-  decision--dashed
+  <i class="Icon Icon--cross"></i>
+  cross
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--cross"></i>
-  cross
+  <i class="Icon Icon--decision--dashed"></i>
+  decision--dashed
 </div>
 
 <div class="s-Icon">
@@ -193,13 +193,13 @@
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--dragVertical"></i>
-  dragVertical
+  <i class="Icon Icon--dragHorizontal"></i>
+  dragHorizontal
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--dragHorizontal"></i>
-  dragHorizontal
+  <i class="Icon Icon--dragVertical"></i>
+  dragVertical
 </div>
 
 <div class="s-Icon">

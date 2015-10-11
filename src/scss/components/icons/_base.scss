@@ -64,20 +64,20 @@
   @extend %Icon--addUser;
 }
 
-%Icon--alarmClock {
-  content: "\ea04";
-}
-
-.Icon--alarmClock:before {
-  @extend %Icon--alarmClock;
-}
-
 %Icon--admin {
-  content: "\ea05";
+  content: "\ea04";
 }
 
 .Icon--admin:before {
   @extend %Icon--admin;
+}
+
+%Icon--alarmClock {
+  content: "\ea05";
+}
+
+.Icon--alarmClock:before {
+  @extend %Icon--alarmClock;
 }
 
 %Icon--alert {
@@ -272,20 +272,20 @@
   @extend %Icon--cog;
 }
 
-%Icon--decision--dashed {
-  content: "\ea1e";
-}
-
-.Icon--decision--dashed:before {
-  @extend %Icon--decision--dashed;
-}
-
 %Icon--cross {
-  content: "\ea1f";
+  content: "\ea1e";
 }
 
 .Icon--cross:before {
   @extend %Icon--cross;
+}
+
+%Icon--decision--dashed {
+  content: "\ea1f";
+}
+
+.Icon--decision--dashed:before {
+  @extend %Icon--decision--dashed;
 }
 
 %Icon--decision {
@@ -320,20 +320,20 @@
   @extend %Icon--download;
 }
 
-%Icon--dragVertical {
-  content: "\ea24";
-}
-
-.Icon--dragVertical:before {
-  @extend %Icon--dragVertical;
-}
-
 %Icon--dragHorizontal {
-  content: "\ea25";
+  content: "\ea24";
 }
 
 .Icon--dragHorizontal:before {
   @extend %Icon--dragHorizontal;
+}
+
+%Icon--dragVertical {
+  content: "\ea25";
+}
+
+.Icon--dragVertical:before {
+  @extend %Icon--dragVertical;
 }
 
 %Icon--dropdown {
