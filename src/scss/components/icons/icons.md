@@ -323,11 +323,6 @@
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--locked"></i>
-  locked
-</div>
-
-<div class="s-Icon">
   <i class="Icon Icon--mail"></i>
   mail
 </div>
@@ -565,6 +560,11 @@
 <div class="s-Icon">
   <i class="Icon Icon--twitter"></i>
   twitter
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--unlock"></i>
+  unlock
 </div>
 
 <div class="s-Icon">
