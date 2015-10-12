@@ -728,7 +728,8 @@ th {
   .Box:after {
     clear: both;
     zoom: 1; }
-  .Box + .Box {
+  .Box + .Box,
+  .Box + .Boxes {
     margin-top: 1.57143rem; }
   .Box > .Table {
     border-width: 1px 0 0; }
@@ -766,7 +767,8 @@ th {
     margin-top: 0; }
     .Boxes > .Box + .Box {
       border-left: 0; }
-  .Boxes + .Boxes {
+  .Boxes + .Boxes,
+  .Boxes + .Box {
     margin-top: 1.57143rem; }
 
 .Collection {
