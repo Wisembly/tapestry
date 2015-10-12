@@ -7,13 +7,15 @@ async.waterfall([
   require('./release/new/choose-name'),
   require('./release/new/confirm-name'),
 
-  require('./tag/check-remote'),
-  require('./tag/check-local'),
-  require('./tag/create'),
-  require('./tag/push'),
+  // require('./tag/check-remote'),
+  // require('./tag/check-local'),
+  // require('./tag/create'),
+  // require('./tag/push'),
 
-  // require('./commit/stats').generate,
-  // require('./commit/stats').add,
+  require('./stats/generate'),
+  require('./stats/check'),
+  require('./stats/add')
+
   // require('./commit/css').generate,
   // require('./commit/css').add,
   // require('./commit/js').generate,
