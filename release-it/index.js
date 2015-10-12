@@ -7,17 +7,16 @@ async.waterfall([
   require('./release/new/choose-name'),
   require('./release/new/confirm-name'),
 
-  // require('./tag/check-remote'),
-  // require('./tag/check-local'),
-  // require('./tag/create'),
-  // require('./tag/push'),
-
+  require('./tag/check-remote'),
+  require('./tag/check-local'),
+  require('./tag/create'),
+  require('./tag/push'),
 
   require('./assets/generate'),
   require('./assets/check'),
-  require('./assets/add')
+  require('./assets/add'),
 
-  // require('./commit/create'),
-  // require('./commit/push'),
-  // require('./release/publish')
+  require('./commit/create'),
+  require('./commit/push'),
+  require('./release/publish')
 ]);
