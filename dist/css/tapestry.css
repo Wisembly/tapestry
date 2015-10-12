@@ -417,7 +417,7 @@ h5 {
 small {
   display: inline-block;
   font-size: 0.83333rem;
-  line-height: 0.78571rem; }
+  line-height: 1.17857rem; }
 
 strong {
   font-weight: 600; }
@@ -463,7 +463,7 @@ a {
 
 .t-caption {
   font-size: 0.83333rem;
-  line-height: 0.78571rem;
+  line-height: 1.17857rem;
   color: #708189; }
 
 .t-neutral {
@@ -1725,7 +1725,7 @@ th {
 .Btn--s {
   padding: 0.39286rem 0.78571rem;
   font-size: 0.83333rem;
-  line-height: 0.78571rem; }
+  line-height: 1.17857rem; }
 
 .Btn-expandContainer {
   display: -webkit-flex;
@@ -1894,7 +1894,7 @@ th {
 .Meter {
   position: relative;
   width: 100%;
-  height: 0.78571rem;
+  height: 1.17857rem;
   background: #ebeeef;
   overflow: hidden; }
 
