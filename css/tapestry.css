@@ -1167,16 +1167,16 @@ th {
 .Icon--actionItem:before {
   content: "\ea01"; }
 
-.Icon--addUser:before {
+.Icon--add:before {
   content: "\ea02"; }
 
-.Icon--add:before {
+.Icon--addUser:before {
   content: "\ea03"; }
 
-.Icon--alarmClock:before {
+.Icon--admin:before {
   content: "\ea04"; }
 
-.Icon--admin:before {
+.Icon--alarmClock:before {
   content: "\ea05"; }
 
 .Icon--alert:before {
@@ -1191,10 +1191,10 @@ th {
 .Icon--arrowDown:before {
   content: "\ea09"; }
 
-.Icon--arrowLast:before {
+.Icon--arrowFirst:before {
   content: "\ea0a"; }
 
-.Icon--arrowFirst:before {
+.Icon--arrowLast:before {
   content: "\ea0b"; }
 
 .Icon--arrowNext:before {
@@ -1291,22 +1291,26 @@ th {
   content: "\ea2a"; }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .Icon--evernote:before {
 =======
 .Icon--eye:before {
 >>>>>>> Colorizers | add classes for divs and text
+=======
+.Icon--externalLink:before {
+>>>>>>> Icons | rebuild
   content: "\ea2b"; }
 
-.Icon--externalLink:before {
+.Icon--eye:before {
   content: "\ea2c"; }
 
 .Icon--facebook:before {
   content: "\ea2d"; }
 
-.Icon--form:before {
+.Icon--filters:before {
   content: "\ea2e"; }
 
-.Icon--filters:before {
+.Icon--form:before {
   content: "\ea2f"; }
 
 .Icon--fullscreen:before {
@@ -1348,10 +1352,10 @@ th {
 .Icon--live:before {
   content: "\ea3c"; }
 
-.Icon--mail:before {
+.Icon--lock:before {
   content: "\ea3d"; }
 
-.Icon--lock:before {
+.Icon--mail:before {
   content: "\ea3e"; }
 
 .Icon--meetingList:before {
@@ -1363,10 +1367,10 @@ th {
 .Icon--message:before {
   content: "\ea41"; }
 
-.Icon--more:before {
+.Icon--minus:before {
   content: "\ea42"; }
 
-.Icon--minus:before {
+.Icon--more:before {
   content: "\ea43"; }
 
 .Icon--multipleChoice:before {
