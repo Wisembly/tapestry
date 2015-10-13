@@ -1556,15 +1556,14 @@ th {
 
 .Btn.has-icon {
   position: relative;
-  padding-left: 3.35714rem;
+  padding-left: 4.14286rem;
   text-align: center; }
   .Btn.has-icon .Btn-icon {
     position: absolute;
     top: 0;
     left: 0;
-    margin: 0.39286rem 0;
-    padding: 0.39286rem 0.78571rem;
-    border-right: 1px solid #fff; }
+    padding: 0.78571rem 0.78571rem;
+    border-right: 1px solid rgba(255, 255, 255, 0.3); }
 
 .Btn--block {
   display: block;
