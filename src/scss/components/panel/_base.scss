@@ -2,7 +2,7 @@
   @include pos(f 0 0 0 null);
   z-index: zi("panel");
   width: $panel-width;
-  max-width: 100%;
+  max-width: 100vw;
   background: $white;
   transform: translateZ(0);
   backface-visibility: hidden;
