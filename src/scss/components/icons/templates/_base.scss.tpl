@@ -12,7 +12,7 @@
   font-size: $fz--m;
   font-weight: normal;
   font-style: normal;
-  line-height: 1;
+  line-height: $base-lh;
   text-transform: none;
   text-decoration: inherit;
   vertical-align: middle;
