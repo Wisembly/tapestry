@@ -1947,7 +1947,7 @@ th {
   bottom: 0;
   z-index: 7000;
   width: 39.28571rem;
-  max-width: 100%;
+  max-width: 100vw;
   background: #fff;
   -webkit-transform: translateZ(0);
           transform: translateZ(0);
