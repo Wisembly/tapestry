@@ -18,13 +18,12 @@
 
 .Btn.has-icon {
   position: relative;
-  padding-left: $btn-pdh + $btn-pdh--s + $fz--m;
+  padding-left: 2 * $btn-pdh + $fz--m;
   text-align: center;
 
   .Btn-icon {
     @include pos(a 0 null null 0);
-    margin: $btn-mgv--s 0;
-    padding: $btn-pdv--s $btn-pdh--s;
-    border-right: 1px solid $white;
+    padding: $btn-pdv $btn-pdh--s;
+    border-right: 1px solid rgba($white, .3);
   }
 }
