@@ -843,7 +843,6 @@ th {
   margin: 0.39286rem 0;
   padding: 0;
   list-style: none;
-  color: #3a434c;
   background: #fff;
   border: 1px solid #d5d9da;
   border-radius: 0.28571rem;
@@ -863,6 +862,7 @@ th {
   text-align: left;
   text-decoration: none;
   white-space: nowrap;
+  color: #3a434c;
   border-radius: 0.28571rem;
   cursor: pointer; }
   .Dropdown-item[aria-selected="true"] {
