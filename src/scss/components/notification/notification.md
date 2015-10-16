@@ -10,13 +10,13 @@
 
 ```html
 <div class="has-notification">
-  <div class="Notification Notification--success">Productive and actionable meetings, every time.</div>
+  <div class="Notification Notification--validate">Productive and actionable meetings, every time.</div>
 </div>
 ```
 
 ```html
 <div class="has-notification">
-  <div class="Notification Notification--warning">Productive and actionable meetings, every time.</div>
+  <div class="Notification Notification--info">Productive and actionable meetings, every time.</div>
 </div>
 ```
 

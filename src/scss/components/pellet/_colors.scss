@@ -1,11 +1,11 @@
-.Pellet--success {
+.Pellet--validate {
   @include bg-green;
 }
 
-.Pellet--medium {
+.Pellet--info {
   @include bg-orange;
 }
 
-.Pellet--fail {
+.Pellet--error {
   @include bg-red;
 }

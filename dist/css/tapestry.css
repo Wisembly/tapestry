@@ -699,7 +699,7 @@ th {
   font-size: 0.83333rem;
   line-height: 1.57143rem;
   color: #fff;
-  background-color: #e25c5b;
+  background: #a1a9ae;
   border-radius: 1.57143rem; }
 
 .BtnGroup {
@@ -1793,7 +1793,7 @@ th {
   display: -ms-flexbox;
   display: flex;
   padding: 0;
-  background: #07698d;
+  background: #084d66;
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
@@ -1879,10 +1879,10 @@ th {
   border-radius: 0.28571rem;
   box-shadow: 0 1px 1.5px 0 rgba(161, 169, 174, 0.5); }
 
-.Notification--success {
+.Notification--validate {
   background: #46b489; }
 
-.Notification--warning {
+.Notification--info {
   background: #f1bc33; }
 
 .Notification--error {
@@ -1965,7 +1965,7 @@ th {
   display: -ms-flexbox;
   display: flex;
   padding: 0;
-  background: #07698d;
+  background: #084d66;
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
@@ -2026,15 +2026,15 @@ th {
   background-color: #a1a9ae;
   border-radius: 0.78571rem; }
 
-.Pellet--success {
+.Pellet--validate {
   color: #fff;
   background-color: #46b489; }
 
-.Pellet--medium {
+.Pellet--info {
   color: #fff;
   background-color: #f1bc33; }
 
-.Pellet--fail {
+.Pellet--error {
   color: #fff;
   background-color: #e25c5b; }
 

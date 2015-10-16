@@ -2,7 +2,7 @@
 
 ```html
 <div class="Pellet"></div>
-<div class="Pellet Pellet--success"></div>
-<div class="Pellet Pellet--medium"></div>
-<div class="Pellet Pellet--fail"></div>
+<div class="Pellet Pellet--validate"></div>
+<div class="Pellet Pellet--info"></div>
+<div class="Pellet Pellet--error"></div>
 ```
