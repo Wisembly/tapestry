@@ -845,6 +845,7 @@ th {
   display: none;
   z-index: 1000;
   min-width: 11rem;
+  max-height: 11.78571rem;
   margin: 0.39286rem 0;
   padding: 0;
   list-style: none;
@@ -852,8 +853,7 @@ th {
   border: 1px solid #d5d9da;
   border-radius: 0.28571rem;
   box-shadow: 0 0 10px 0 rgba(112, 129, 137, 0.3);
-  max-height: 11.78571rem;
-  overflow-y: scroll; }
+  overflow-y: auto; }
 
 [aria-expanded="true"] + .Dropdown-list {
   display: block; }

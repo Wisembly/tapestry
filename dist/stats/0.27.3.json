@@ -1,20 +1,20 @@
 {
-  "published": "2015-10-20T10:05:39.984Z",
+  "published": "2015-10-20T12:46:37.745Z",
   "paths": [],
   "stylesheets": 0,
   "styleElements": 0,
-  "size": 46804,
+  "size": 47068,
   "dataUriSize": 0,
   "ratioOfDataUriSize": 0,
-  "gzippedSize": 8116,
-  "rules": 560,
-  "selectors": 652,
-  "declarations": 1202,
-  "simplicity": 0.8588957055214724,
-  "averageOfIdentifier": 1.6303680981595092,
+  "gzippedSize": 8135,
+  "rules": 564,
+  "selectors": 656,
+  "declarations": 1208,
+  "simplicity": 0.8597560975609756,
+  "averageOfIdentifier": 1.6356707317073171,
   "mostIdentifier": 4,
   "mostIdentifierSelector": "input:checked + .Switch:after",
-  "averageOfCohesion": 2.1464285714285714,
+  "averageOfCohesion": 2.141843971631206,
   "lowestCohesion": 21,
   "lowestCohesionSelector": [
     ".Modal"
@@ -98,11 +98,11 @@
     },
     {
       "property": "position",
-      "count": 31
+      "count": 33
     },
     {
       "property": "margin-left",
-      "count": 30
+      "count": 32
     },
     {
       "property": "background",
