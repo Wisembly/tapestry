@@ -86,4 +86,9 @@
   <button class="Btn">Button B</button>
   <button class="Btn">Button C</button>
 </div>
+<div class="BtnGroup">
+  <button class="Btn Btn--outline">Button A</button>
+  <button class="Btn Btn--outline">Button B</button>
+  <button class="Btn Btn--outline">Button C</button>
+</div>
 ```
