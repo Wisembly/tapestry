@@ -10,6 +10,8 @@
   border: 1px solid $iron;
   border-radius: $base-radius;
   box-shadow: 0 0 10px 0 rgba($slate-gray, .3);
+  max-height: r(30);
+  overflow-y: scroll;
 }
 
 [aria-expanded="true"] + .Dropdown-list {
