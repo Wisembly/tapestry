@@ -846,7 +846,9 @@ th {
   background: #fff;
   border: 1px solid #d5d9da;
   border-radius: 0.28571rem;
-  box-shadow: 0 0 10px 0 rgba(112, 129, 137, 0.3); }
+  box-shadow: 0 0 10px 0 rgba(112, 129, 137, 0.3);
+  max-height: 11.78571rem;
+  overflow-y: scroll; }
 
 [aria-expanded="true"] + .Dropdown-list {
   display: block; }
