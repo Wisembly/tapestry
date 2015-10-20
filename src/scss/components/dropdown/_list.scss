@@ -3,6 +3,7 @@
   display: none;
   z-index: zi("dropdown");
   min-width: $base-lh * 7;
+  max-height: r(30);
   margin: $mg--xs 0;
   padding: 0;
   list-style: none;
@@ -10,8 +11,7 @@
   border: 1px solid $iron;
   border-radius: $base-radius;
   box-shadow: 0 0 10px 0 rgba($slate-gray, .3);
-  max-height: r(30);
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 [aria-expanded="true"] + .Dropdown-list {
