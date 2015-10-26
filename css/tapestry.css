@@ -34,6 +34,10 @@
   color: #fff;
   background: #a1a9ae; }
 
+.u-primary {
+  color: #fff;
+  background: #07698d; }
+
 .u-validate {
   color: #fff;
   background: #46b489; }
@@ -68,8 +72,10 @@
 
 .u-resetList {
   margin: 0;
-  padding: 0;
-  list-style: none; }
+  padding: 0; }
+  .u-resetList > li {
+    padding: 0;
+    list-style: none; }
 
 .u-ovh {
   overflow: hidden !important; }
@@ -423,38 +429,30 @@ strong {
   font-weight: 600; }
 
 ul {
+  margin: 0;
   padding-left: 1.17857rem; }
-  ul + ul {
+  ul + ul,
+  ul + ol {
     padding-top: 1.57143rem; }
+  ul li {
+    list-style: disc; }
+
+ol {
+  margin: 0;
+  padding-left: 1.17857rem; }
+  ol + ul,
+  ol + ol {
+    padding-top: 1.57143rem; }
+  ol li {
+    list-style: decimal; }
 
 li {
-  padding-left: 0.39286rem;
-  list-style: disc; }
+  padding-left: 0.39286rem; }
 
 a {
   font-weight: 600;
   text-decoration: none;
   color: #07698d; }
-
-.t-headline {
-  margin: 0;
-  font-size: 1.44rem;
-  font-weight: 600;
-  line-height: 2.75rem;
-  color: #07698d; }
-
-.t-subheadline {
-  margin: 0;
-  font-size: 0.83333rem;
-  line-height: 0.78571rem;
-  color: #aed7e8; }
-
-.t-sectionTitle {
-  margin: 1.57143rem 0;
-  font-size: 1.17857rem;
-  line-height: 1.96429rem;
-  text-transform: uppercase;
-  color: #708189; }
 
 .t-title {
   font-size: 1.2rem;
@@ -469,6 +467,9 @@ a {
 .t-neutral {
   color: #a1a9ae; }
 
+.t-primary {
+  color: #07698d; }
+
 .t-validate {
   color: #46b489; }
 
@@ -478,19 +479,29 @@ a {
 .t-error {
   color: #e25c5b; }
 
-.t-rList {
-  margin: 0;
-  padding: 0; }
+.Line {
+  display: block;
+  margin: 0.78571rem 0;
+  border: 0;
+  border-top: 1px solid #d5d9da; }
 
-.t-rListItem {
-  padding: 0;
-  list-style: none; }
+.Line--labeled {
+  position: relative;
+  margin-top: 2.35714rem;
+  text-align: center; }
 
-.t-rList--inline .t-rListItem {
+.Line-label {
   display: inline-block;
-  padding-left: 1.57143rem; }
-  .t-rList--inline .t-rListItem:first-child {
-    padding: 0; }
+  padding: 0 0.78571rem;
+  font-size: 0.78571rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #a1a9ae;
+  background: #fff;
+  border: 1px solid #d5d9da;
+  border-radius: 0.78571rem;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%); }
 
 *,
 *:after,
@@ -1290,18 +1301,10 @@ th {
 .Icon--duplicate:before {
   content: "\ea2a"; }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 .Icon--evernote:before {
-=======
-.Icon--eye:before {
->>>>>>> Colorizers | add classes for divs and text
-=======
-.Icon--externalLink:before {
->>>>>>> Icons | rebuild
   content: "\ea2b"; }
 
-.Icon--eye:before {
+.Icon--externalLink:before {
   content: "\ea2c"; }
 
 .Icon--facebook:before {
