@@ -158,6 +158,11 @@
 </div>
 
 <div class="s-Icon">
+  <i class="Icon Icon--closedEye"></i>
+  closedEye
+</div>
+
+<div class="s-Icon">
   <i class="Icon Icon--cog"></i>
   cog
 </div>
@@ -230,11 +235,6 @@
 <div class="s-Icon">
   <i class="Icon Icon--externalLink"></i>
   externalLink
-</div>
-
-<div class="s-Icon">
-  <i class="Icon Icon--eye"></i>
-  eye
 </div>
 
 <div class="s-Icon">
@@ -370,6 +370,11 @@
 <div class="s-Icon">
   <i class="Icon Icon--openQuestion"></i>
   openQuestion
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--openedEye"></i>
+  openedEye
 </div>
 
 <div class="s-Icon">
