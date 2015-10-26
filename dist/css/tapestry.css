@@ -372,11 +372,9 @@ h5,
 
 h3,
 h4,
-h5,
 .Heading-title--3,
-.Heading-title--4,
-.Heading-title--5 {
-  line-height: 1.57143rem; }
+.Heading-title--4 {
+  line-height: 2.35714rem; }
 
 h1,
 .Heading-title--1 {
@@ -399,7 +397,10 @@ h4,
 
 h5,
 .Heading-title--5 {
-  font-size: 1.2rem; }
+  margin-top: 0.78571rem;
+  margin-bottom: 0.78571rem;
+  font-size: 1.2rem;
+  line-height: 1.57143rem; }
 
 p,
 .BodyText {

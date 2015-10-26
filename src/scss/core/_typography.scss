@@ -14,7 +14,7 @@ h1,
 h2,
 .Heading-title--1,
 .Heading-title--2 {
-  line-height: $lh--l;
+  line-height: $lh--xl;
 }
 
 h2,
@@ -32,17 +32,15 @@ h5,
 
 h3,
 h4,
-h5,
 .Heading-title--3,
-.Heading-title--4,
-.Heading-title--5 {
-  line-height: $base-lh;
+.Heading-title--4 {
+  line-height: $lh--l;
 }
 
 h1,
 .Heading-title--1 {
-  margin-top: $lh--l;
-  margin-bottom: $lh--l;
+  margin-top: r(8);
+  margin-bottom: r(8);
   font-size: fz(5);
   font-weight: $base-fw;
 }
@@ -64,7 +62,10 @@ h4,
 
 h5,
 .Heading-title--5 {
+  margin-top: r(2);
+  margin-bottom: r(2);
   font-size: fz(1);
+  line-height: $base-lh;
 }
 
 p,
