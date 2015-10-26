@@ -736,8 +736,6 @@ th {
   .Box + .Box,
   .Box + .Boxes {
     margin-top: 1.57143rem; }
-  .Box > .Table {
-    border-width: 1px 0 0; }
 
 .Box-header {
   padding: 1.57143rem 1.57143rem 0.78571rem; }
@@ -779,6 +777,8 @@ th {
 .Collection {
   margin: 0;
   padding: 0; }
+  .Collection + .Collection {
+    margin-top: 0.78571rem; }
 
 .Collection-item {
   margin-top: -1px;
@@ -1847,7 +1847,6 @@ th {
 
 .Modal-content {
   padding: 1.57143rem 1.57143rem 0;
-  color: #708189;
   background: #fff;
   overflow: auto; }
   .Modal-content.has-collection {
