@@ -3,9 +3,9 @@
 ## Sizes
 
 ```html
-<img class="Avatar Avatar--s" src="https://upload.wikimedia.org/wikipedia/en/6/69/Ember.js_Logo_and_Mascot.png" alt=" " />
-<img class="Avatar" src="https://upload.wikimedia.org/wikipedia/en/6/69/Ember.js_Logo_and_Mascot.png" alt=" " />
-<img class="Avatar Avatar--l" src="https://upload.wikimedia.org/wikipedia/en/6/69/Ember.js_Logo_and_Mascot.png" alt=" " />
+<img class="Avatar Avatar--s" src="http://assets-s3.usmagazine.com/uploads/assets/article_photos/tom-from-myspace-lg.jpg" alt=" " />
+<img class="Avatar" src="http://assets-s3.usmagazine.com/uploads/assets/article_photos/tom-from-myspace-lg.jpg" alt=" " />
+<img class="Avatar Avatar--l" src="http://assets-s3.usmagazine.com/uploads/assets/article_photos/tom-from-myspace-lg.jpg" alt=" " />
 ```
 
 ## With initials

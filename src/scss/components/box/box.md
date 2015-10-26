@@ -1,6 +1,6 @@
 # Box
-A Box is used to create a grouping of related content.
-By default, boxes don't have paddings, you need to structure them this way `box-header` and/or `box-content`
+A box is used to create a grouping of related content.
+By default, boxes don't have paddings, you need to structure with `Box-header` and/or `Box-content`
 
 ```html
 <div class="Box">

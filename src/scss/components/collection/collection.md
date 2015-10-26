@@ -1,7 +1,7 @@
 # Collection
 
 ```html
-<ul class="Collection" style="margin-bottom: 10px;">
+<ul class="Collection">
   <li class="Collection-item">A</li>
   <li class="Collection-item">B</li>
   <li class="Collection-item">C</li>

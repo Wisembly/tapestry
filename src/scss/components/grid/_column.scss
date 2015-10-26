@@ -15,6 +15,6 @@
 
 @for $i from 1 to ($column-number + 1) {
   .Column-#{$i} {
-    width: percentage(($i/$column-number));
+    width: percentage(($i / $column-number));
   }
 }
