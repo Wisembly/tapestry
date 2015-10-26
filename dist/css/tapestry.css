@@ -1737,6 +1737,21 @@ th {
   margin: 0;
   padding: 0 0 0 0.78571rem; }
 
+.Media--t {
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start; }
+
+.Media--c {
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.Media--b {
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end; }
+
 .Meter {
   position: relative;
   width: 100%;
