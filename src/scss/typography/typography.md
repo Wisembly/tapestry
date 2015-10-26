@@ -19,43 +19,30 @@
 ```
 
 ## List
-`<ul>` and `<li>` have a default style.
+`<ul>`, `<ol>` and `<li>` have a default style.
 
 ```html
 <ul>
   <li>Foo</li>
   <li>Bar</li>
 </ul>
+<ol>
+  <li>Foo</li>
+  <li>Bar</li>
+</ol>
 ```
 
 ### Reset lists
 
 ```html
-<ul class="t-rList">
-  <li class="t-rListItem">Foo</li>
-  <li class="t-rListItem">Bar</li>
+<ul class="u-resetList">
+  <li>Foo</li>
+  <li>Bar</li>
 </ul>
-<ul class="t-rList">
-  <li class="t-rListItem">Baz</li>
-  <li class="t-rListItem">Foobar</li>
+<ul class="u-resetList">
+  <li>Baz</li>
+  <li>Foobar</li>
 </ul>
-```
-
-### Inlined list
-
-```html
-<ul class="t-rList t-rList--inline">
-  <li class="t-rListItem">Foo - FooBar</li>
-  <li class="t-rListItem"><a href="#">Bar - FooBaz</a></li>
-</ul>
-```
-
-### Headlines
-
-```html
-<h2 class="t-sectionTitle">Overview</h2>
-<h1 class="t-headline">Headline: I am supposed to be the title of the page.</h1>
-<h4 class="t-subheadline">Subheadline: I am supposed to be under the title of the page.</h4>
 ```
 
 ### Paragraph
@@ -63,14 +50,27 @@
 ```html
 <p class="t-title">Coda codum codae</p>
 <p class="t-caption">Published a few centuries ago by <a href="#">Julius Caesar</a>.</p>
-<p>I am a regular paragraph: <strong>lorem ipsum dolor</strong> sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat: <a href="#">go to link</a></p>
+<p>Paragraph: <strong>lorem ipsum dolor</strong> sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat: <a href="#">go to link</a></p>
 ```
 
 ### Text colorizers
 
 ```html
 <span class="t-neutral"><i class="Icon Icon--pellet"></i> Neutral</span>
+<span class="t-primary"><i class="Icon Icon--pellet"></i> Primary</span>
 <span class="t-validate"><i class="Icon Icon--pellet"></i> Validate</span>
 <span class="t-info"><i class="Icon Icon--pellet"></i> Info</span>
 <span class="t-error"><i class="Icon Icon--pellet"></i> Error</span>
+```
+
+### Lines
+
+```html
+<hr class="Line">
+```
+
+```html
+<div class="Line Line--labeled">
+  <div class="Line-label">Section name</div>
+</div>
 ```

@@ -75,16 +75,35 @@ strong {
 }
 
 ul {
+  margin: 0;
   padding-left: $pd--m - $pd--xs;
 
-  + ul {
+  + ul,
+  + ol {
     padding-top: $pd--m;
+  }
+
+  li {
+    list-style: disc;
+  }
+}
+
+ol {
+  margin: 0;
+  padding-left: $pd--m - $pd--xs;
+
+  + ul,
+  + ol {
+    padding-top: $pd--m;
+  }
+
+  li {
+    list-style: decimal;
   }
 }
 
 li {
   padding-left: $pd--xs;
-  list-style: disc;
 }
 
 a {
