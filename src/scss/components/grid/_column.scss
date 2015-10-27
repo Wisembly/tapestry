@@ -11,6 +11,16 @@
     margin-right: auto;
     margin-left: auto;
   }
+
+  &:not(.Column-fr) {
+    .Row--flex & {
+      flex: 0 0 auto;
+    }
+  }
+}
+
+.Column-fr {
+  flex: 1 0 auto;
 }
 
 @for $i from 1 to ($column-number + 1) {
