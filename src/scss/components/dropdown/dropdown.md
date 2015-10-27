@@ -19,36 +19,20 @@
 ## Positions
 Add those classes to position the `Dropdown-list` <br/>
 example: `<ul id="dropdownTopLeft" class="Dropdown-list Dropdown-list--tl">∞</ul>`
-```esc
-<table class="Table">
-  <thead class="Table-head">
-    <th class="Table-cell Table-cell--header u-tal">Class</th>
-    <th class="Table-cell Table-cell--header">Description</th>
-  </thead>
-  <tbody class="Table-body">
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal"><code>.Dropdown-list--tl</code></td>
-      <td class="Table-cell">Aligns dropdown on the top-left</td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal"><code>.Dropdown-list--tc</code></td>
-      <td class="Table-cell">Aligns dropdown on the top-center</td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal"><code>.Dropdown-list--tr</code></td>
-      <td class="Table-cell">Aligns dropdown on the top-right</td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal"><code>.Dropdown-list--bc</code></td>
-      <td class="Table-cell">Aligns dropdown on the bottom-center</td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal"><code>.Dropdown-list--br </code></td>
-      <td class="Table-cell">Aligns dropdown on the bottom-right</td>
-    </tr>
-  </tbody>
-</table>
-```
+
+Modifiers available (starting points, Dropdown-list are never overlaying Dropdown-toggle, except in auto-scroll mode):
+- `-tl`: top-left,
+- `-tc`: top-center,
+- `-tr`: top-right,
+- `-bl`: [default] bottom-left,
+- `-bc`: bottom-center,
+- `-br`: bottom-right,
+- `-rt`: right-top,
+- `-rc`: right-center,
+- `-rb`: right-bottom,
+- `-lt`: left-top,
+- `-lc`: left-center,
+- `-lb`: left-bottom
 
 ## Divider
 

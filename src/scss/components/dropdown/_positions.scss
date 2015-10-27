@@ -16,6 +16,7 @@
   top: auto;
   right: 0;
   bottom: 100%;
+  left: auto;
 }
 
 .Dropdown-list--bc {
@@ -28,4 +29,47 @@
 .Dropdown-list--br {
   right: 0;
   left: auto;
+}
+
+.Dropdown-list--rt {
+  top: 0;
+  left: 100%;
+  margin: 0 $mg--xs;
+}
+
+.Dropdown-list--rc {
+  top: 50%;
+  left: 100%;
+  margin: 0 $mg--xs;
+  transform: translateY(-50%);
+}
+
+.Dropdown-list--rb {
+  top: auto;
+  bottom: 0;
+  left: 100%;
+  margin: 0 $mg--xs;
+}
+
+.Dropdown-list--lt {
+  top: 0;
+  right: 100%;
+  left: auto;
+  margin: 0 $mg--xs;
+}
+
+.Dropdown-list--lc {
+  top: 50%;
+  right: 100%;
+  left: auto;
+  margin: 0 $mg--xs;
+  transform: translateY(-50%);
+}
+
+.Dropdown-list--lb {
+  top: auto;
+  right: 100%;
+  bottom: 0;
+  left: auto;
+  margin: 0 $mg--xs;
 }

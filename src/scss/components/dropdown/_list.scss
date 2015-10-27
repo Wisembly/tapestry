@@ -1,4 +1,5 @@
-.Dropdown-list {
+.Dropdown-list,
+.Dropdown-list--bl {
   @include pos(a 100% null null 0);
   display: none;
   z-index: zi("dropdown");

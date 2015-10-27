@@ -836,7 +836,8 @@ th {
   .Dropdown-selectInput + .Dropdown-list {
     width: 100%; }
 
-.Dropdown-list {
+.Dropdown-list,
+.Dropdown-list--bl {
   position: absolute;
   top: 100%;
   left: 0;
@@ -898,7 +899,8 @@ th {
 .Dropdown-list--tr {
   top: auto;
   right: 0;
-  bottom: 100%; }
+  bottom: 100%;
+  left: auto; }
 
 .Dropdown-list--bc {
   top: 100%;
@@ -910,6 +912,45 @@ th {
 .Dropdown-list--br {
   right: 0;
   left: auto; }
+
+.Dropdown-list--rt {
+  top: 0;
+  left: 100%;
+  margin: 0 0.39286rem; }
+
+.Dropdown-list--rc {
+  top: 50%;
+  left: 100%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  margin: 0 0.39286rem; }
+
+.Dropdown-list--rb {
+  top: auto;
+  bottom: 0;
+  left: 100%;
+  margin: 0 0.39286rem; }
+
+.Dropdown-list--lt {
+  top: 0;
+  right: 100%;
+  left: auto;
+  margin: 0 0.39286rem; }
+
+.Dropdown-list--lc {
+  top: 50%;
+  right: 100%;
+  left: auto;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  margin: 0 0.39286rem; }
+
+.Dropdown-list--lb {
+  top: auto;
+  bottom: 0;
+  right: 100%;
+  left: auto;
+  margin: 0 0.39286rem; }
 
 .Dropdown-item:hover {
   background: #ebeeef; }
