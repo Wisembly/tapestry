@@ -6,6 +6,13 @@ var opts = require('../opts');
 module.exports = function (cb) {
   async.waterfall([
     function (_cb) {
+      exec('gulp icons', function (err, data) {
+        if (err) return false;
+        return _cb(null);
+      });
+    },
+
+    function (_cb) {
       exec('gulp sass', function (err, data) {
         if (err) return false;
         return _cb(null);
@@ -21,13 +28,6 @@ module.exports = function (cb) {
 
     function (_cb) {
       exec('gulp scripts', function (err, data) {
-        if (err) return false;
-        return _cb(null);
-      });
-    },
-
-    function (_cb) {
-      exec('gulp icons', function (err, data) {
         if (err) return false;
         return _cb(null);
       });
