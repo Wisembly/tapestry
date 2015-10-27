@@ -1,16 +1,11 @@
-.Row {
+.Grid {
   width: 100%;
   font-size: 0;
 }
 
-.Row--flex {
+.Grid--flex {
   display: flex;
   flex-direction: row;
   margin: 0 auto;
   align-items: flex-start;
-  justify-content: space-between;
-}
-
-.Row--c {
-  justify-content: center;
 }

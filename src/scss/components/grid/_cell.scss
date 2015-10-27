@@ -1,4 +1,4 @@
-.Column {
+.Grid-cell {
   display: inline-block;
   position: relative;
   min-height: 1px;
@@ -6,25 +6,25 @@
   word-wrap: break-word;
   vertical-align: top;
 
-  &.Column--centered {
+  &.Grid-cell--centered {
     display: block;
     margin-right: auto;
     margin-left: auto;
   }
 
-  &:not(.Column-fr) {
-    .Row--flex & {
+  &:not(.Grid-cell--fr) {
+    .Grid--flex & {
       flex: 0 0 auto;
     }
   }
 }
 
-.Column-fr {
+.Grid-cell--fr {
   flex: 1 0 auto;
 }
 
 @for $i from 1 to ($column-number + 1) {
-  .Column-#{$i} {
+  .Grid-cell--#{$i} {
     width: percentage(($i / $column-number));
   }
 }
