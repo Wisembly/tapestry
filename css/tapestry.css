@@ -985,56 +985,77 @@ th {
 .Container {
   width: 100%; }
 
-.Row {
+.Grid {
   width: 100%;
   font-size: 0; }
 
-.Column {
+.Grid--flex {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 0 auto;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start; }
+
+.Grid-cell {
   display: inline-block;
   position: relative;
   min-height: 1px;
   font-size: 1rem;
   word-wrap: break-word;
   vertical-align: top; }
-  .Column.Column--centered {
+  .Grid-cell.Grid-cell--centered {
     display: block;
     margin-right: auto;
     margin-left: auto; }
+  .Grid--flex .Grid-cell:not(.Grid-cell--fr) {
+    -webkit-flex: 0 0 auto;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto; }
 
-.Column-1 {
+.Grid-cell--fr {
+  -webkit-flex: 1 0 auto;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto; }
+
+.Grid-cell--1 {
   width: 8.33333%; }
 
-.Column-2 {
+.Grid-cell--2 {
   width: 16.66667%; }
 
-.Column-3 {
+.Grid-cell--3 {
   width: 25%; }
 
-.Column-4 {
+.Grid-cell--4 {
   width: 33.33333%; }
 
-.Column-5 {
+.Grid-cell--5 {
   width: 41.66667%; }
 
-.Column-6 {
+.Grid-cell--6 {
   width: 50%; }
 
-.Column-7 {
+.Grid-cell--7 {
   width: 58.33333%; }
 
-.Column-8 {
+.Grid-cell--8 {
   width: 66.66667%; }
 
-.Column-9 {
+.Grid-cell--9 {
   width: 75%; }
 
-.Column-10 {
+.Grid-cell--10 {
   width: 83.33333%; }
 
-.Column-11 {
+.Grid-cell--11 {
   width: 91.66667%; }
 
-.Column-12 {
+.Grid-cell--12 {
   width: 100%; }
 
 @font-face {
