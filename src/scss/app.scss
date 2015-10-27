@@ -8,7 +8,7 @@
 }
 
 @if $import-typography {
-  @import "core/typography";
+  @import "typography/core";
 }
 
 @if $import-normalize {
