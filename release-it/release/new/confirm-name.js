@@ -1,7 +1,7 @@
 var opts = require('../../opts');
 
 module.exports = function (cb) {
-  var question = 'Confirm that "' + opts.nextRelease.name + '" will be the name of the next release? (y/n)';
+  var question = 'Confirm that "' + opts.nextRelease.name + '" will be the name of the next release? (y/n)'[opts.env.promptColor || 'grey'];
   var choice;
 
   question = question[opts.env.promptColor || 'grey'];
