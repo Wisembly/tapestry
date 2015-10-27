@@ -197,7 +197,7 @@
 
 
 
-.s-Module--grid .Column {
+.s-Module--grid .Grid-cell {
 	padding: 1rem;
 	font-weight: bold;
 	text-align: center;
@@ -206,11 +206,11 @@
 	border: 1px solid #d5d9da;
 }
 
-.s-Module--grid .Column + .Column {
+.s-Module--grid .Grid-cell + .Grid-cell {
 	border-left: 0;
 }
 
-.s-Module--grid .Row + .Row {
+.s-Module--grid .Grid + .Grid {
 	margin-top: .5rem;
 }
 
