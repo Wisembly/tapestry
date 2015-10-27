@@ -4,6 +4,8 @@ module.exports = function (cb) {
   var question = 'Confirm that "' + opts.nextRelease.name + '" will be the name of the next release? (y/n)';
   var choice;
 
+  question = question[opts.env.promptColor || 'grey'];
+
   prompt.get(question, function (err, data) {
     if (err) return false;
     var choice = data[question];
@@ -12,7 +14,7 @@ module.exports = function (cb) {
       return cb(null);
 
     else if (choice === 'N' || choice === 'n') {
-      question = 'Last chance fancy pants, what\'s the release\' name?';
+      question = 'Last chance fancy pants, what\'s the release\' name?'[opts.env.promptColor || 'grey'];
 
       prompt.get(question, function (err, data) {
         if (err) return false;

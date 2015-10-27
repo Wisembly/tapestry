@@ -1,6 +1,7 @@
 var GitHubApi = require('github');
 var prompt = require('prompt');
 var chalk = require('chalk');
+var opts = require('./opts');
 
 global.Gh = new GitHubApi({
   version: '3.0.0',
@@ -17,5 +18,5 @@ global.Gh = new GitHubApi({
 global.prompt = prompt;
 
 prompt.start();
-prompt.message = chalk.gray('- ');
+prompt.message = chalk[opts.env.promptColor || 'gray']('- ');
 prompt.delimiter = "";
