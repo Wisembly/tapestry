@@ -70,10 +70,10 @@
   overflow: hidden;
   text-overflow: ellipsis; }
 
-.u-resetList {
+.r-list {
   margin: 0;
   padding: 0; }
-  .u-resetList > li {
+  .r-list > li {
     padding: 0;
     list-style: none; }
 

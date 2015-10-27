@@ -35,11 +35,11 @@
 ### Reset lists
 
 ```html
-<ul class="u-resetList">
+<ul class="r-list">
   <li>Foo</li>
   <li>Bar</li>
 </ul>
-<ul class="u-resetList">
+<ul class="r-list">
   <li>Baz</li>
   <li>Foobar</li>
 </ul>
