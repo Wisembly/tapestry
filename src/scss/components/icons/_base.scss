@@ -16,7 +16,6 @@
   text-transform: none;
   text-decoration: inherit;
   vertical-align: middle;
-  color: inherit;
   speak: none;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
