@@ -42,7 +42,7 @@
         ".Media",
         ".Media .Media-img",
         ".Media .Media-img",
-        ".Media .Media-img:not(.Column)",
+        ".Media .Media-img:not(.Grid-cell)",
         ".Media .Media-content",
         ".Meter",
         ".Notification",
