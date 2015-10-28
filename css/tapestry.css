@@ -1047,12 +1047,12 @@ th {
 
 .FormRow {
   margin-bottom: 1.57143rem; }
-  .FormRow .Column {
+  .FormRow .Grid-cell {
     padding-right: 0.39286rem;
     padding-left: 0.39286rem; }
-    .FormRow .Column:first-child {
+    .FormRow .Grid-cell:first-child {
       padding-left: 0; }
-    .FormRow .Column:last-child {
+    .FormRow .Grid-cell:last-child {
       padding-right: 0; }
 
 .Fieldset {
@@ -1871,8 +1871,8 @@ th {
       -ms-flex-negative: 0;
           flex-shrink: 0; }
 
-.Media-img:not(.Column),
-.Media-content:not(.Column) {
+.Media-img:not(.Grid-cell),
+.Media-content:not(.Grid-cell) {
   display: inline-block;
   vertical-align: middle; }
 
