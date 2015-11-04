@@ -9,6 +9,7 @@
   border: 1px solid $base-border-color;
   border-radius: $base-radius;
   resize: none;
+  appearance: none;
 
   &:focus {
     color: $limed-spruce;
