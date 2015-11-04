@@ -3,7 +3,7 @@
   color: $slate-gray;
   background-color: $white;
   border: 1px solid $base-border-color;
-  transition: .1s border-color ease-out;
+  transition: border-color .1s ease-out;
 
   &.Btn--s {
     padding: rb(1) rb(2);
@@ -23,7 +23,13 @@
 
   .Btn-icon {
     @include pos(a 0 null null 0);
-    padding: $btn-pdv $btn-pdh--s;
+    padding: rb(2) $btn-pdh--s;
     border-right: 1px solid rgba($white, .3);
+  }
+}
+
+.Btn--outline.has-icon {
+  .Btn-icon {
+    border-color: inherit;
   }
 }
