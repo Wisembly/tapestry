@@ -1702,7 +1702,7 @@ th {
   color: #708189;
   background-color: #fff;
   border: 1px solid #d5d9da;
-  transition: .1s border-color ease-out; }
+  transition: border-color .1s ease-out; }
   .Btn--outline.Btn--s {
     padding: 0.32143rem 0.71429rem; }
 
@@ -1719,8 +1719,11 @@ th {
     position: absolute;
     top: 0;
     left: 0;
-    padding: 0.78571rem 0.78571rem;
+    padding: 0.71429rem 0.78571rem;
     border-right: 1px solid rgba(255, 255, 255, 0.3); }
+
+.Btn--outline.has-icon .Btn-icon {
+  border-color: inherit; }
 
 .Btn--block {
   display: block;
