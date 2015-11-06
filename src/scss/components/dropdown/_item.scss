@@ -15,11 +15,13 @@
 
   &[aria-selected="true"] {
     padding-right: r(6);
+    background: $porcelain;
 
     &:after {
       @extend %Icon--checkmark;
-      @include pos(a $mg--xs $mg--xs null null);
+      @include pos(a $mg--xs $mg--s null null);
       font-family: icons;
+      font-size: $fz--xs;
     }
   }
 }
