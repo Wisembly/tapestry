@@ -17,12 +17,12 @@
 
   + .InputGroup-item {
     margin-top: 0;
+    margin-left: -1px;
     border-radius: 0;
-    border-left-width: 0;
   }
 
   &:focus {
-    border-color: $base-border-color;
+    z-index: zi(base);
   }
 
   &:last-child {
