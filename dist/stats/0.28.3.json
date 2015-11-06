@@ -1,0 +1,115 @@
+{
+  "published": "2015-11-06T11:02:08.039Z",
+  "paths": [],
+  "stylesheets": 0,
+  "styleElements": 0,
+  "size": 50564,
+  "dataUriSize": 0,
+  "ratioOfDataUriSize": 0,
+  "gzippedSize": 8619,
+  "rules": 604,
+  "selectors": 683,
+  "declarations": 1331,
+  "simplicity": 0.8843338213762811,
+  "averageOfIdentifier": 1.6339677891654465,
+  "mostIdentifier": 4,
+  "mostIdentifierSelector": "input:checked + .Switch:after",
+  "averageOfCohesion": 2.2036423841059603,
+  "lowestCohesion": 21,
+  "lowestCohesionSelector": [
+    ".Modal"
+  ],
+  "totalUniqueFontSizes": 13,
+  "uniqueFontSizes": [
+    "0",
+    "0.69444rem",
+    "0.78571rem",
+    "0.83333rem",
+    "1rem",
+    "1em",
+    "1.2rem",
+    "1.44rem",
+    "1.728rem",
+    "2.0736rem",
+    "2.48832rem",
+    "75%",
+    "87.5%"
+  ],
+  "totalUniqueFontFamilies": 5,
+  "uniqueFontFamilies": [
+    "\"Helvetica Neue\", Helvetica, Roboto, Arial, sans-serif",
+    "\"icons\"",
+    "icons",
+    "monospace, monospace",
+    "sans-serif"
+  ],
+  "totalUniqueColors": 17,
+  "uniqueColors": [
+    "#000000",
+    "#07698D",
+    "#0D5C7C",
+    "#258AAE",
+    "#289BC4",
+    "#3A434C",
+    "#41A07A",
+    "#46B489",
+    "#708189",
+    "#A1A9AE",
+    "#AED7E8",
+    "#C85450",
+    "#D5A82D",
+    "#D5D9DA",
+    "#E25C5B",
+    "#F1BC33",
+    "#FFFFFF"
+  ],
+  "idSelectors": 0,
+  "universalSelectors": 3,
+  "unqualifiedAttributeSelectors": 21,
+  "javascriptSpecificSelectors": 0,
+  "importantKeywords": 130,
+  "floatProperties": 2,
+  "propertiesCount": [
+    {
+      "property": "content",
+      "count": 124
+    },
+    {
+      "property": "color",
+      "count": 79
+    },
+    {
+      "property": "display",
+      "count": 71
+    },
+    {
+      "property": "padding",
+      "count": 52
+    },
+    {
+      "property": "width",
+      "count": 49
+    },
+    {
+      "property": "font-size",
+      "count": 45
+    },
+    {
+      "property": "background-color",
+      "count": 44
+    },
+    {
+      "property": "background",
+      "count": 36
+    },
+    {
+      "property": "position",
+      "count": 34
+    },
+    {
+      "property": "margin-left",
+      "count": 32
+    }
+  ],
+  "mediaQueries": 1
+}
