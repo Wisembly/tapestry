@@ -15,7 +15,7 @@ Utility classes help you to add some common behaviors to elements. We decided to
     <tr class="Table-row">
       <td class="Table-cell Table-cell--important u-tal"><code>.u-tac</code></td>
       <td class="Table-cell">center</td>
-      <td class="Table-cell">Aligns text on the left</td>
+      <td class="Table-cell">Centers text alignment</td>
     </tr>
     <tr class="Table-row">
       <td class="Table-cell Table-cell--important u-tal"><code>.u-tar</code></td>
@@ -25,7 +25,7 @@ Utility classes help you to add some common behaviors to elements. We decided to
     <tr class="Table-row">
       <td class="Table-cell Table-cell--important u-tal"><code>.u-tal</code></td>
       <td class="Table-cell">left</td>
-      <td class="Table-cell">Centers text</td>
+      <td class="Table-cell">Aligns text on the left</td>
     </tr>
   </tbody>
 </table>
