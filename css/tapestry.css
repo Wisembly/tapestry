@@ -974,8 +974,8 @@ th {
       font-size: 0.69444rem; }
 
 .Dropdown-hr {
-  margin: 0.39286rem 0;
   height: 1px;
+  margin: 0.39286rem 0;
   border-top: 1px solid #ebeeef; }
 
 .Dropdown-list--tl {
@@ -1605,10 +1605,10 @@ th {
   border-bottom-right-radius: 0; }
   .InputGroup-item + .InputGroup-item {
     margin-top: 0;
-    border-radius: 0;
-    border-left-width: 0; }
+    margin-left: -1px;
+    border-radius: 0; }
   .InputGroup-item:focus {
-    border-color: #d5d9da; }
+    z-index: 1; }
   .InputGroup-item:last-child {
     border-top-right-radius: 0.28571rem;
     border-bottom-right-radius: 0.28571rem; }
@@ -2305,9 +2305,15 @@ th {
     border-radius: 1.14286rem;
     transition: left 0.1s ease-out; }
 
-input:checked + .Switch {
+input[disabled] + .Switch,
+.Switch-checkbox[disabled] + .Switch {
+  opacity: .5; }
+
+input:checked + .Switch,
+.Switch-checkbox:checked + .Switch {
   background-color: #289bc4; }
-  input:checked + .Switch:after {
+  input:checked + .Switch:after,
+  .Switch-checkbox:checked + .Switch:after {
     left: 1.78571rem;
     background-color: #fff; }
 
@@ -2325,8 +2331,9 @@ input:checked + .Switch {
     margin-top: -0.41837rem;
     border-radius: 0.83673rem; }
 
-input:checked + .Switch--s:after {
-  left: 0.98469rem; }
+input:checked + .Switch--s:after,
+.Switch-checkbox:checked + .Switch--s:after {
+  left: 0.98214rem; }
 
 .Table {
   display: table;

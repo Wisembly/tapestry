@@ -254,7 +254,7 @@
     },
 
     setValue: function (value) {
-      var selector = value ? '[data-value=' + value + ']': '[data-value=""]';
+      var selector = value ? '[data-value="' + value + '"]': '[data-value=""]';
       this.selectItem(this.$items.filter(selector));
     },
 
