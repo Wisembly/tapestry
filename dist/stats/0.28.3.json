@@ -1,20 +1,20 @@
 {
-  "published": "2015-11-06T11:02:08.039Z",
+  "published": "2015-11-09T14:16:25.115Z",
   "paths": [],
   "stylesheets": 0,
   "styleElements": 0,
-  "size": 50564,
+  "size": 50759,
   "dataUriSize": 0,
   "ratioOfDataUriSize": 0,
-  "gzippedSize": 8619,
-  "rules": 604,
-  "selectors": 683,
-  "declarations": 1331,
-  "simplicity": 0.8843338213762811,
-  "averageOfIdentifier": 1.6339677891654465,
+  "gzippedSize": 8644,
+  "rules": 605,
+  "selectors": 688,
+  "declarations": 1332,
+  "simplicity": 0.8793604651162791,
+  "averageOfIdentifier": 1.6468023255813953,
   "mostIdentifier": 4,
-  "mostIdentifierSelector": "input:checked + .Switch:after",
-  "averageOfCohesion": 2.2036423841059603,
+  "mostIdentifierSelector": ".Switch-checkbox:checked + .Switch:after",
+  "averageOfCohesion": 2.2016528925619836,
   "lowestCohesion": 21,
   "lowestCohesionSelector": [
     ".Modal"
@@ -108,7 +108,7 @@
     },
     {
       "property": "margin-left",
-      "count": 32
+      "count": 33
     }
   ],
   "mediaQueries": 1
