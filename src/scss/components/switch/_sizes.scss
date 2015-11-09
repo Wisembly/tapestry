@@ -12,8 +12,9 @@
   }
 }
 
-input:checked + .Switch--s {
-  &:after {
-    left: $switch-width--s - $switch-height--s + ($switch-space-around--s / 2);
+input,
+.Switch-checkbox {
+  &:checked + .Switch--s:after {
+    left: ($switch-width--s / 2);
   }
 }

@@ -24,11 +24,19 @@
   }
 }
 
-input:checked + .Switch {
-  background-color: $curious-blue;
+input,
+.Switch-checkbox {
 
-  &:after {
-    left: $switch-width - $switch-height + ($switch-space-around / 2);
-    background-color: $white;
+  &[disabled] + .Switch {
+    opacity: .5;
+  }
+
+  &:checked + .Switch {
+    background-color: $curious-blue;
+
+    &:after {
+      left: $switch-width - $switch-height + ($switch-space-around / 2);
+      background-color: $white;
+    }
   }
 }
