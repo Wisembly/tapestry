@@ -70,7 +70,7 @@
 
   @if $exp > 0 {
     @for $i from 1 through $exp {
-     $value: $value * $number;
+      $value: $value * $number;
     }
   }
   @else if $exp < 0 {
