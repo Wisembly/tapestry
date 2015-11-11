@@ -72,9 +72,8 @@
 
 .r-list {
   margin: 0;
-  padding: 0; }
-  .r-list > li {
-    list-style: none; }
+  padding: 0;
+  list-style: none; }
 
 .u-ovh {
   overflow: hidden !important; }
@@ -429,21 +428,19 @@ strong {
 
 ul {
   margin: 0;
-  padding-left: 1.17857rem; }
+  padding-left: 1.17857rem;
+  list-style: disc; }
   ul + ul,
   ul + ol {
     padding-top: 1.57143rem; }
-  ul li {
-    list-style: disc; }
 
 ol {
   margin: 0;
-  padding-left: 1.17857rem; }
+  padding-left: 1.17857rem;
+  list-style: decimal; }
   ol + ul,
   ol + ol {
     padding-top: 1.57143rem; }
-  ol li {
-    list-style: decimal; }
 
 a {
   font-weight: 600;
