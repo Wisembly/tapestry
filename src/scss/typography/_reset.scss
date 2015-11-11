@@ -77,28 +77,22 @@ strong {
 ul {
   margin: 0;
   padding-left: $pd--m - $pd--xs;
+  list-style: disc;
 
   + ul,
   + ol {
     padding-top: $pd--m;
-  }
-
-  li {
-    list-style: disc;
   }
 }
 
 ol {
   margin: 0;
   padding-left: $pd--m - $pd--xs;
+  list-style: decimal;
 
   + ul,
   + ol {
     padding-top: $pd--m;
-  }
-
-  li {
-    list-style: decimal;
   }
 }
 
