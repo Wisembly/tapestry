@@ -91,12 +91,13 @@ Utility classes help you to add some common behaviors to elements. We decided to
 You can reset styles for `<ul>`
 
 ```html
-<ul>
-  <li>Default ul list</li>
+<ul class="r-list">
+  <li>Foo</li>
+  <li>Bar</li>
 </ul>
-
-<ul class="u-resetList">
-  <li>ul reseted</li>
+<ul class="r-list">
+  <li>Baz</li>
+  <li>Foobar</li>
 </ul>
 ```
 

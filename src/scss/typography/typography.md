@@ -20,6 +20,7 @@
 
 ## List
 `<ul>`, `<ol>` and `<li>` have a default style.
+Reset list are detailed in Utility classes.
 
 ```html
 <ul>
@@ -30,19 +31,6 @@
   <li>Foo</li>
   <li>Bar</li>
 </ol>
-```
-
-### Reset lists
-
-```html
-<ul class="r-list">
-  <li>Foo</li>
-  <li>Bar</li>
-</ul>
-<ul class="r-list">
-  <li>Baz</li>
-  <li>Foobar</li>
-</ul>
 ```
 
 ### Paragraph
