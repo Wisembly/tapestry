@@ -27,10 +27,6 @@
   @import "components/badge/core";
 }
 
-@if $import-button-group {
-  @import "components/button/group";
-}
-
 @if $import-box {
   @import "components/box/core";
 }

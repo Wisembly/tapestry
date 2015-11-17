@@ -782,27 +782,6 @@ th {
   background: #a1a9ae;
   border-radius: 1.57143rem; }
 
-.BtnGroup {
-  display: inline-block;
-  font-size: 0; }
-  .BtnGroup .Btn {
-    margin-left: -1px;
-    border-radius: 0; }
-    .BtnGroup .Btn:hover {
-      position: relative;
-      z-index: 1; }
-    .BtnGroup .Btn:first-child {
-      margin-left: 0;
-      border-top-left-radius: 0.28571rem;
-      border-bottom-left-radius: 0.28571rem; }
-    .BtnGroup .Btn:last-child {
-      border-top-right-radius: 0.28571rem;
-      border-bottom-right-radius: 0.28571rem; }
-    .BtnGroup .Btn + .Btn:not(.Btn--block) {
-      margin-left: -1px; }
-  .BtnGroup + .BtnGroup {
-    margin-left: 0.78571rem; }
-
 .Box {
   background: #fff;
   border: 1px solid #ebeeef; }
