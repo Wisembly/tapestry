@@ -2113,7 +2113,8 @@ th {
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
   transition: -webkit-transform .25s ease-out;
-  transition: transform .25s ease-out; }
+  transition: transform .25s ease-out;
+  transition: transform .25s ease-out, -webkit-transform .25s ease-out; }
   .Panel[aria-hidden="true"] {
     box-shadow: 0 0 0 0;
     -webkit-transform: translateX(100%);
