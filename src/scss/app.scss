@@ -56,10 +56,6 @@
   @import "components/grid/core";
 }
 
-@if $import-icons {
-  @import "components/icons/core";
-}
-
 @if $import-input {
   @import "components/form/input/core";
 }
