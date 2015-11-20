@@ -47,11 +47,6 @@
   @import "components/form/fieldset/core";
 }
 
-@if $import-flash {
-  @warn "Class .Flash is deprecated, please use .Notification instead, it will be removed in the next major release";
-  @warn "Class .has-flash is deprecated, please use .has-notification instead, it will be removed in the next major release";
-}
-
 @if $import-grid {
   @import "components/grid/core";
 }
@@ -119,7 +114,6 @@
 @if $import-textarea {
   @import "components/form/textarea/core";
 }
-
 
 @if $import-tooltip and $import-pseudo-classes {
   @import "components/tooltip/core";
