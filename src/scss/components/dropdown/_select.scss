@@ -18,9 +18,8 @@
   }
 
   &:after {
-    @extend %Icon--triangleDown;
     @include pos(a ($mg--s) $mg--s null null);
-    font-family: icons;
+    content: "\25BC";
     font-size: $fz--s;
     color: $gray-chateau;
   }
