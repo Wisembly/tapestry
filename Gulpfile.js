@@ -13,5 +13,3 @@ gulp.task('watch', require('./gulp-tasks/watch'));
 gulp.task('default', function (cb) {
 	return seq('sass', 'scripts', 'styleguide', ['nodemon', 'bs:serve', 'watch'], cb);
 });
-
-// gulp.task('deploy', require('./gulp-tasks/deploy'));
