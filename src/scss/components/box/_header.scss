@@ -6,5 +6,8 @@
 .Box-title {
   display: inline-block;
   margin: 0;
+  font-size: fz(2);
+  font-weight: $fw--semi-bold;
+  line-height: $base-lh;
   vertical-align: middle;
 }
