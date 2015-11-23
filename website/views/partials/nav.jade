@@ -1,13 +1,19 @@
 nav.s-Nav
   h1.s-Logo
     a.s-Logo-link(href="/") Tapestry
+
   .s-Nav-section
     a.s-Nav-title(href="/about") ABout
+
   .s-Nav-section
-    a.s-Nav-title(href="/go") Getting started
-  .s-Nav-section.has-nav
-    h2.s-Nav-title Components
-    - each component in components
-      - var componentName = component.name.toLowerCase();
-      a.s-Nav-link(href="/components/#{componentName}")= component.name
-      //- li.Tab-item(aria-selected=currentComponent === component.name ? "true" : "false")
+    a.s-Nav-title(href="/getting-started") Getting started
+
+  - if (components)
+    .s-Nav-section.has-nav
+      a.s-Nav-title(href="/components") Components
+        - each component in components
+          - var componentName = component.name.toLowerCase();
+          a.s-Nav-link(href="/components/#{componentName}")= component.name
+  - else
+    .s-Nav-section
+      a.s-Nav-title(href="/components") Components
