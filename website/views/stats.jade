@@ -1,13 +1,9 @@
 extends partials/layout
 
 block content
-  //- - each stat in stats
-    //- p= stat.published
+  h1.s-Header Statistics
 
-  h1 Tapestry.css size
-  canvas#js-Stats(style="display: block; width: 100%; height: 300px;")
-
-block scripts
-  script(src="https://code.jquery.com/jquery-2.1.4.min.js")
-  script(src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js")
-  script(src="/js/stats.js")
+  .s-App-content
+    - var stat = stats.pop();
+    p= stat.version
+    p= stat.published
