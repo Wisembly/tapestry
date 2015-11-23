@@ -192,7 +192,6 @@
 	display: inline-block;
 	width: 9rem;
 	margin: 0 2rem 2rem 0;
-
 	list-style-type: none;
 }
 
@@ -323,4 +322,59 @@
  	font-size: 1.2rem;
  	line-height: 1.7;
  	color: #3a434c;
+}
+
+
+
+
+
+/*
+
+ • Stats
+
+ */
+
+.s-Grid--stats {
+	margin-bottom: 2rem;
+}
+
+.s-Card {
+	position: relative;
+	display: inline-block;
+	padding: 1.5rem 3rem;
+	text-align: center;
+}
+
+.s-Card-key {
+	font-size: 1.2rem;
+	line-height: 1.5;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #a1a9ae;
+}
+
+.s-Card-value {
+	font-size: 2.5rem;
+	line-height: 1.5;
+	font-weight: 700;
+}
+
+.has-2-childs
+	.s-Card:first-child {
+		text-align: right;
+	}
+
+.has-2-childs
+	.s-Card:last-child {
+		text-align: left;
+	}
+
+.s-Card:not(:last-child):after {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 50%; right: 0;
+	width: 1px; height: 30px;
+	background-color: #d5d9da;
+	transform: rotate(10deg) translateY(-50%);
 }

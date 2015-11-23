@@ -1,9 +1,39 @@
 extends partials/layout
 
 block content
+  - var stat = stats[stats.length - 1]
+  - var sizeInKb = Math.round(stat.size / 1024 * 10) / 10
+  - var simplicity = Math.round(stat.simplicity / 1024 * 10) / 10
+
   h1.s-Header Statistics
 
-  .s-App-content
-    - var stat = stats.pop();
-    p= stat.version
-    p= stat.published
+  .s-App-content.s-Modules-container
+    .Grid.s-Grid--stats.has-3-childs
+      .Grid-cell.Grid-cell--4.s-Card
+        .s-Card-key Version
+        .s-Card-value= stat.version
+      .Grid-cell.Grid-cell--4.s-Card
+        .s-Card-key Size (kb)
+        .s-Card-value= sizeInKb
+      .Grid-cell.Grid-cell--4.s-Card
+        .s-Card-key Simplicity
+        .s-Card-value= simplicity
+
+    .Grid.s-Grid--stats.has-3-childs
+      .Grid-cell.Grid-cell--4.s-Card
+        .s-Card-key Rules
+        .s-Card-value= stat.rules
+      .Grid-cell.Grid-cell--4.s-Card
+        .s-Card-key Selectors
+        .s-Card-value= stat.selectors
+      .Grid-cell.Grid-cell--4.s-Card
+        .s-Card-key Declarations
+        .s-Card-value= stat.declarations
+
+    .Grid.s-Grid--stats.has-2-childs
+      .Grid-cell.Grid-cell--6.s-Card
+        .s-Card-key Font-sizes
+        .s-Card-value= stat.totalUniqueFontSizes
+      .Grid-cell.Grid-cell--6.s-Card
+        .s-Card-key Colors
+        .s-Card-value= stat.totalUniqueColors
