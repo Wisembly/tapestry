@@ -15,7 +15,7 @@
     "gulp-autoprefixer": "3.1.0",
     "gulp-concat": "2.6.0",
     "gulp-consolidate": "0.1.2",
-    "gulp-iconfont": "5.0.0",
+    "gulp-iconfont": "5.0.1",
     "gulp-nodemon": "2.0.4",
     "gulp-rename": "1.2.2",
     "gulp-sass": "2.1.0",
@@ -35,6 +35,7 @@
     "lint": "scss-lint src/scss/** --config .scss-lint.yml",
     "pre-commit": "cp pre-commit.sh .git/hooks/pre-commit && chmod 777 .git/hooks/pre-commit",
     "pre-push": "cp pre-push.sh .git/hooks/pre-push && chmod 777 .git/hooks/pre-push",
+    "icons": "gulp icons && gulp",
     "release": "node release-it index.js"
   },
   "repository": {
