@@ -1,10 +1,14 @@
 .Box {
   @include cf();
   background: $white;
-  border: 1px solid $porcelain;
+  border: 1px solid $iron;
 
   + .Box,
   + .Boxes {
     margin-top: $mg--m;
+  }
+
+  > .List:last-child {
+    border-bottom: 0;
   }
 }
