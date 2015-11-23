@@ -3,12 +3,7 @@ var path = require('path');
 
 module.exports = function (app) {
   var stats = [];
-  var paths = utils.read.folder(path.join(__dirname, '../../dist/stats'), 'utf8');
-
-  paths.forEach(function (path) {
-    var data = utils.read.file(path);
-    stats.push(JSON.parse(data));
-  });
+  var stats = getStats();
 
   return app.get('/stats/:json?', function (req, res) {
     var json = req.params.json;
@@ -19,3 +14,21 @@ module.exports = function (app) {
     });
   });
 };
+
+
+function getStats () {
+  var data = [];
+  var files = utils.read.folder(path.join(__dirname, '../../dist/stats'), 'utf8');
+
+  files.forEach(function (filePath) {
+    var fileContent = utils.read.file(filePath);
+    var fileVersion = filePath.split('dist/stats/')[1].split('.json')[0];
+
+    fileContent = JSON.parse(fileContent);
+    fileContent.version = fileVersion;
+
+    data.push(fileContent);
+  });
+
+  return data;
+}
