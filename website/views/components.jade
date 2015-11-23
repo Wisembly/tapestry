@@ -1,14 +1,6 @@
 extends partials/layout
 
 block content
-  nav.s-Modules-navContainer
-    ul.s-Modules-nav.Tabs.Tabs--vertical
-      include partials/components-nav
-
   .s-Modules-container
     - each component in components
       .s-Module!= component.data.html
-
-block scripts
-  script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js')
-  script(src='/js/tapestry.js')

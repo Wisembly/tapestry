@@ -15,107 +15,19 @@
 
 
 .s-App {
-	font-family: 'Proxima Nova', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
-}
-
-
-
-.s-Header {
-	position: fixed;
-	top: 0; right: 0; left: 0;
-	z-index: 100;
-	padding: 3.2rem 0 1em 0;
-	text-align: center;
-	color: #fff;
-	background-color: #084d66;
-	transition: transform .3s ease-out;
-}
-
-.s-Header--unpinned {
-	transform: translateY(-100%);
-}
-
-.s-Header--not-top {
-	padding-top: 0;
-}
-
-.s-Header--not-top .s-Header-title,
-.s-Header--not-top .s-Header-subTitle {
-	display: none;
-}
-
-.s-Header-title {
-	margin: 0;
-	font-size: 2.5rem;
-	font-weight: 700;
-	text-transform: uppercase;
-
-	letter-spacing: .03em;
-}
-
-.s-Header-subTitle {
-	margin: 0;
-	font-size: 1rem;
-	font-weight: 600;
-	line-height: 2;
-	opacity: .7;
-}
-
-
-
-.s-Nav {
-	margin-top: 1.5rem;
-}
-
-.s-Nav-item {
-	display: inline-block;
-	padding: .5rem 1rem;
-	font-weight: 700;
-	text-transform: uppercase;
-	text-decoration: none;
-	color: #fff;
-	opacity: .7;
-	transition: opacity .2s ease-out;
-}
-
-.s-Nav-item:hover,
-.s-Nav-item.is-active {
-	opacity: 1;
+	font-family: 'Proxima Nova', 'Helvetica Neue', Helvetica, sans-serif;
+	background-color: #f7f7f7;
 }
 
 
 
 .s-Container {
-	padding: 12rem 2rem 3rem 1rem;
 	overflow: hidden;
-}
-
-.s-Modules-navContainer {
-	position: fixed;
-	top: 13.5rem; bottom: 0; left: 1rem;
-	width: 20%;
-	padding-top: 1.5rem;
-	overflow: auto;
-	transition: top .3s ease-out;
-}
-
-.s-Header--pinned + .s-Container .s-Modules-navContainer {
-	top: 5.5rem;
-}
-
-.s-Header--unpinned + .s-Container .s-Modules-navContainer {
-	top: 0;
-}
-
-.s-Header--top + .s-Container .s-Modules-navContainer {
-	top: 13.5rem;
+	padding-left: 300px;
 }
 
 .s-Modules-container {
-	float: right;
-	width: 80%;
-	margin-top: -5rem;
-	padding-left: 4rem;
+	overflow: hidden;
 }
 
 
@@ -220,6 +132,7 @@
 	display: inline-block;
 	width: 9rem;
 	margin: 0 2rem 2rem 0;
+
 	list-style-type: none;
 }
 
@@ -245,4 +158,86 @@
 .Styleguide-colorCode {
 	font-weight: normal;
 	color: #999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+	• Navigation
+	• Logo
+
+*/
+
+.s-Nav {
+	position: fixed;
+	top: 0; bottom: 0; left: 0;
+	width: 250px;
+	color: #fff;
+	background-color: #07698d;
+	overflow: auto;
+	transition: top .3s ease-out;
+}
+
+.s-Logo {
+	margin: 0;
+	background-color: #084d66;
+}
+
+.s-Logo-link {
+	display: block;
+	padding: 1.5rem;
+	font-size: 1.5rem;
+	font-weight: 700;
+	line-height: 1;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+
+.s-Nav-section {
+	color: #fff;
+	border-bottom: 1px solid #0d5c7c;
+}
+
+.s-Nav-section.has-nav {
+	padding: 2rem;
+}
+
+
+.s-Nav-title {
+	display: block;
+	margin: 0;
+	padding: 2rem 2rem 1.6rem 2rem;
+	font-size: .97rem;
+	font-weight: 700;
+	line-height: 1;
+	text-transform: uppercase;
+	color: #aed7e8;
+}
+
+.s-Nav-title:not(:only-child) {
+	margin-bottom: 1.5rem;
+}
+
+.has-nav .s-Nav-title {
+	padding: 0;
+}
+
+.s-Nav-link {
+	display: block;
+	margin-left: -1rem;
+	padding: .5rem 1rem;
+	font-size: 1.2rem;
+	color: #fff;
 }
