@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.2 (15857) - http://www.bohemiancoding.com/sketch -->
+    <title>bell</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="bell" sketch:type="MSArtboardGroup" transform="translate(-6.000000, -6.000000)" fill="#3A434C">
+            <path d="M11.1,11 C11.1,11 11,12.4755376 11,13 C11,16.3909836 9.27773056,19.2188067 6.99101537,19.8625159 L6,22 L26,22 L24.9865291,19.8561193 C22.7110037,19.2002728 21,16.3798748 21,13 C21,12.5299329 20.9552987,11.3285166 20.9552987,11.3285166 C20.7143444,9.53337406 19.5208104,8.03999213 17.8999539,7.37362811 C17.6370961,6.57585684 16.8857973,6 16,6 C15.1142027,6 14.362904,6.57585675 14.1000462,7.37362793 C12.5791354,7.99890182 11.4344693,9.35234552 11.1,11 L11.1,11 L11.1,11 Z M20.5839563,23 C19.8123997,24.7659048 18.050319,26 16,26 C13.949681,26 12.1876003,24.7659048 11.4160437,23 L20.5839563,23 L20.5839563,23 Z" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

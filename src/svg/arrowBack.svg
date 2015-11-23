@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.2 (15857) - http://www.bohemiancoding.com/sketch -->
+    <title>arrowBack</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="arrowBack" sketch:type="MSArtboardGroup" transform="translate(-6.000000, -6.000000)" fill="#3A434C">
+            <path d="M20.5052672,6.25066082 L10.3558116,15.0267124 C10.1305734,15.2217357 10.0001,15.5074038 10.0001,15.8054324 L10.0001,16.1941058 C10.0001,16.4921344 10.1305734,16.7778025 10.3558116,16.9728258 L20.5052672,25.7488774 C20.9351426,26.1210699 21.5861361,26.0743741 21.9583286,25.6431253 C22.3305211,25.2132498 22.282452,24.5622563 21.8525765,24.1900639 L21.8525765,24.1900639 L12.3802091,15.9990824 L21.8525765,7.80947436 C22.282452,7.43728187 22.3305211,6.78628838 21.9583286,6.35641293 C21.5861361,5.92653748 20.9351426,5.87846834 20.5052672,6.25066082" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

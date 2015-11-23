@@ -1124,14 +1124,14 @@ th {
   width: 100%; }
 
 @font-face {
-  font-family: "icons";
-  src: url("../fonts/icons.woff2") format("woff2"), url("../fonts/icons.woff") format("woff");
+  font-family: "tapestry-icons";
+  src: url("../fonts/tapestry-icons.woff2") format("woff2"), url("../fonts/tapestry-icons.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 
 .Icon {
   display: inline-block;
-  font-family: "icons";
+  font-family: "tapestry-icons";
   font-size: 1rem;
   font-weight: normal;
   font-style: normal;
@@ -1162,7 +1162,7 @@ th {
 .Icon--addUser:before {
   content: "\ea03"; }
 
-.Icon--admin:before {
+.Icon--agendaItem:before {
   content: "\ea04"; }
 
 .Icon--alarmClock:before {
@@ -1192,314 +1192,299 @@ th {
 .Icon--arrowUp:before {
   content: "\ea0d"; }
 
-.Icon--assignee:before {
+.Icon--azure:before {
   content: "\ea0e"; }
 
-.Icon--azure:before {
+.Icon--badge:before {
   content: "\ea0f"; }
 
-.Icon--badge:before {
+.Icon--bar:before {
   content: "\ea10"; }
 
-.Icon--bar:before {
+.Icon--bell:before {
   content: "\ea11"; }
 
-.Icon--bell:before {
+.Icon--brush:before {
   content: "\ea12"; }
 
-.Icon--board:before {
+.Icon--bulletDay:before {
   content: "\ea13"; }
 
-.Icon--brush:before {
+.Icon--calendar:before {
   content: "\ea14"; }
 
-.Icon--bulletDay:before {
+.Icon--checked:before {
   content: "\ea15"; }
 
-.Icon--bulletItem--dashed:before {
+.Icon--checkedActionItem:before {
   content: "\ea16"; }
 
-.Icon--bulletItem:before {
+.Dropdown-item[aria-selected="true"]:after, .Icon--checkmark:before {
   content: "\ea17"; }
 
-.Icon--calendar:before {
+.Icon--clip:before {
   content: "\ea18"; }
 
-.Icon--checked:before {
+.Icon--clock:before {
   content: "\ea19"; }
 
-.Dropdown-item[aria-selected="true"]:after, .Icon--checkmark:before {
+.Icon--closedEye:before {
   content: "\ea1a"; }
 
-.Icon--clip:before {
+.Icon--cog:before {
   content: "\ea1b"; }
 
-.Icon--clock:before {
+.Icon--cross:before {
   content: "\ea1c"; }
 
-.Icon--closedEye:before {
+.Icon--decision:before {
   content: "\ea1d"; }
 
-.Icon--cog:before {
+.Icon--diagram:before {
   content: "\ea1e"; }
 
-.Icon--cross:before {
+.Icon--document:before {
   content: "\ea1f"; }
 
-.Icon--decision--dashed:before {
+.Icon--download:before {
   content: "\ea20"; }
 
-.Icon--decision:before {
+.Icon--dragHorizontal:before {
   content: "\ea21"; }
 
-.Icon--diagram:before {
+.Icon--dragVertical:before {
   content: "\ea22"; }
 
-.Icon--document:before {
+.Icon--dumbell:before {
   content: "\ea23"; }
 
-.Icon--download:before {
+.Icon--duplicate:before {
   content: "\ea24"; }
 
-.Icon--dragHorizontal:before {
+.Icon--evernote:before {
   content: "\ea25"; }
 
-.Icon--dragVertical:before {
+.Icon--externalLink:before {
   content: "\ea26"; }
 
-.Icon--dropdown:before {
+.Icon--facebook:before {
   content: "\ea27"; }
 
-.Icon--dueDate:before {
+.Icon--filters:before {
   content: "\ea28"; }
 
-.Icon--dumbell:before {
+.Icon--form:before {
   content: "\ea29"; }
 
-.Icon--duplicate:before {
+.Icon--fullscreen:before {
   content: "\ea2a"; }
 
-.Icon--evernote:before {
+.Icon--github:before {
   content: "\ea2b"; }
 
-.Icon--externalLink:before {
+.Icon--glass:before {
   content: "\ea2c"; }
 
-.Icon--facebook:before {
+.Icon--google:before {
   content: "\ea2d"; }
 
-.Icon--filters:before {
+.Icon--grid:before {
   content: "\ea2e"; }
 
-.Icon--form:before {
+.Icon--group:before {
   content: "\ea2f"; }
 
-.Icon--fullscreen:before {
+.Icon--help:before {
   content: "\ea30"; }
 
-.Icon--glass:before {
+.Icon--home:before {
   content: "\ea31"; }
 
-.Icon--google:before {
+.Icon--label:before {
   content: "\ea32"; }
 
-.Icon--grid:before {
+.Icon--like:before {
   content: "\ea33"; }
 
-.Icon--group:before {
+.Icon--linkedin:before {
   content: "\ea34"; }
 
-.Icon--help:before {
+.Icon--listCollapse:before {
   content: "\ea35"; }
 
-.Icon--home:before {
+.Icon--listExpand:before {
   content: "\ea36"; }
 
-.Icon--label:before {
+.Icon--live:before {
   content: "\ea37"; }
 
-.Icon--like:before {
+.Icon--lock:before {
   content: "\ea38"; }
 
-.Icon--linkedin:before {
+.Icon--mail:before {
   content: "\ea39"; }
 
-.Icon--listCollapse:before {
+.Icon--meetingList:before {
   content: "\ea3a"; }
 
-.Icon--listExpand:before {
+.Icon--message:before {
   content: "\ea3b"; }
 
-.Icon--live:before {
+.Icon--minus:before {
   content: "\ea3c"; }
 
-.Icon--lock:before {
+.Icon--more:before {
   content: "\ea3d"; }
 
-.Icon--mail:before {
+.Icon--multipleChoice:before {
   content: "\ea3e"; }
 
-.Icon--meetingList:before {
+.Icon--note:before {
   content: "\ea3f"; }
 
-.Icon--menu:before {
+.Icon--openIssue:before {
   content: "\ea40"; }
 
-.Icon--message:before {
+.Icon--openQuestion:before {
   content: "\ea41"; }
 
-.Icon--minus:before {
+.Icon--openedEye:before {
   content: "\ea42"; }
 
-.Icon--more:before {
+.Icon--paragraph:before {
   content: "\ea43"; }
 
-.Icon--multipleChoice:before {
+.Icon--participant:before {
   content: "\ea44"; }
 
-.Icon--openIssue--dashed:before {
+.Icon--pause:before {
   content: "\ea45"; }
 
-.Icon--openIssue:before {
+.Icon--pellet:before {
   content: "\ea46"; }
 
-.Icon--openQuestion:before {
+.Icon--pelletCheck:before {
   content: "\ea47"; }
 
-.Icon--openedEye:before {
+.Icon--pelletClose:before {
   content: "\ea48"; }
 
-.Icon--paragraph:before {
+.Icon--pelletMinus:before {
   content: "\ea49"; }
 
-.Icon--participant:before {
+.Icon--pencil:before {
   content: "\ea4a"; }
 
-.Icon--pause:before {
+.Icon--phone:before {
   content: "\ea4b"; }
 
-.Icon--pellet:before {
+.Icon--picture:before {
   content: "\ea4c"; }
 
-.Icon--pelletCheck:before {
+.Icon--play:before {
   content: "\ea4d"; }
 
-.Icon--pelletClose:before {
+.Icon--plus:before {
   content: "\ea4e"; }
 
-.Icon--pelletMinus:before {
+.Icon--popup:before {
   content: "\ea4f"; }
 
-.Icon--pencil:before {
+.Icon--public:before {
   content: "\ea50"; }
 
-.Icon--phone:before {
+.Icon--quickNote:before {
   content: "\ea51"; }
 
-.Icon--picture:before {
+.Icon--recurring:before {
   content: "\ea52"; }
 
-.Icon--play:before {
+.Icon--refresh:before {
   content: "\ea53"; }
 
-.Icon--plus:before {
+.Icon--reply:before {
   content: "\ea54"; }
 
-.Icon--popup:before {
+.Icon--reset:before {
   content: "\ea55"; }
 
-.Icon--public:before {
+.Icon--results:before {
   content: "\ea56"; }
 
-.Icon--recurring:before {
+.Icon--singleChoice:before {
   content: "\ea57"; }
 
-.Icon--refresh:before {
+.Icon--slack:before {
   content: "\ea58"; }
 
-.Icon--reply:before {
+.Icon--solid:before {
   content: "\ea59"; }
 
-.Icon--reset:before {
+.Icon--solidFull:before {
   content: "\ea5a"; }
 
-.Icon--results:before {
+.Icon--star:before {
   content: "\ea5b"; }
 
-.Icon--singleChoice:before {
+.Icon--starHalf:before {
   content: "\ea5c"; }
 
-.Icon--slack:before {
+.Icon--starOutlined:before {
   content: "\ea5d"; }
 
-.Icon--solid:before {
+.Icon--stop:before {
   content: "\ea5e"; }
 
-.Icon--solidFull:before {
+.Icon--subtitle:before {
   content: "\ea5f"; }
 
-.Icon--star:before {
+.Icon--sunrise:before {
   content: "\ea60"; }
 
-.Icon--starHalf:before {
+.Icon--sunset:before {
   content: "\ea61"; }
 
-.Icon--starOutlined:before {
+.Icon--target:before {
   content: "\ea62"; }
 
-.Icon--stop:before {
+.Icon--thems:before {
   content: "\ea63"; }
 
-.Icon--subtitle:before {
+.Icon--title:before {
   content: "\ea64"; }
 
-.Icon--sunrise:before {
+.Icon--trash:before {
   content: "\ea65"; }
 
-.Icon--sunset:before {
+.Dropdown-selectInput:after, .Icon--triangleDown:before {
   content: "\ea66"; }
 
-.Icon--target:before {
+.Icon--triangleUp:before {
   content: "\ea67"; }
 
-.Icon--task:before {
+.Icon--twitter:before {
   content: "\ea68"; }
 
-.Icon--thems:before {
+.Icon--typeAdd:before {
   content: "\ea69"; }
 
-.Icon--title:before {
+.Icon--typeParagraph:before {
   content: "\ea6a"; }
 
-.Icon--trash:before {
+.Icon--unlock:before {
   content: "\ea6b"; }
 
-.Dropdown-selectInput:after, .Icon--triangleDown:before {
+.Icon--user:before {
   content: "\ea6c"; }
 
-.Icon--triangleUp:before {
+.Icon--vote:before {
   content: "\ea6d"; }
 
-.Icon--twitter:before {
+.Icon--wisembly:before {
   content: "\ea6e"; }
 
-.Icon--unlock:before {
-  content: "\ea6f"; }
-
-.Icon--user:before {
-  content: "\ea70"; }
-
-.Icon--voice:before {
-  content: "\ea71"; }
-
-.Icon--vote:before {
-  content: "\ea72"; }
-
-.Icon--wisembly:before {
-  content: "\ea73"; }
-
 .Icon--wisemblyFull:before {
-  content: "\ea74"; }
+  content: "\ea6f"; }
 
 .Input, .Input-addOn {
   display: inline-block;
@@ -2113,7 +2098,8 @@ th {
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
   transition: -webkit-transform .25s ease-out;
-  transition: transform .25s ease-out; }
+  transition: transform .25s ease-out;
+  transition: transform .25s ease-out, -webkit-transform .25s ease-out; }
   .Panel[aria-hidden="true"] {
     box-shadow: 0 0 0 0;
     -webkit-transform: translateX(100%);

@@ -33,8 +33,8 @@
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--admin"></i>
-  admin
+  <i class="Icon Icon--agendaItem"></i>
+  agendaItem
 </div>
 
 <div class="s-Icon">
@@ -83,11 +83,6 @@
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--assignee"></i>
-  assignee
-</div>
-
-<div class="s-Icon">
   <i class="Icon Icon--azure"></i>
   azure
 </div>
@@ -108,11 +103,6 @@
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--board"></i>
-  board
-</div>
-
-<div class="s-Icon">
   <i class="Icon Icon--brush"></i>
   brush
 </div>
@@ -123,16 +113,6 @@
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--bulletItem--dashed"></i>
-  bulletItem--dashed
-</div>
-
-<div class="s-Icon">
-  <i class="Icon Icon--bulletItem"></i>
-  bulletItem
-</div>
-
-<div class="s-Icon">
   <i class="Icon Icon--calendar"></i>
   calendar
 </div>
@@ -140,6 +120,11 @@
 <div class="s-Icon">
   <i class="Icon Icon--checked"></i>
   checked
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--checkedActionItem"></i>
+  checkedActionItem
 </div>
 
 <div class="s-Icon">
@@ -173,11 +158,6 @@
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--decision--dashed"></i>
-  decision--dashed
-</div>
-
-<div class="s-Icon">
   <i class="Icon Icon--decision"></i>
   decision
 </div>
@@ -205,16 +185,6 @@
 <div class="s-Icon">
   <i class="Icon Icon--dragVertical"></i>
   dragVertical
-</div>
-
-<div class="s-Icon">
-  <i class="Icon Icon--dropdown"></i>
-  dropdown
-</div>
-
-<div class="s-Icon">
-  <i class="Icon Icon--dueDate"></i>
-  dueDate
 </div>
 
 <div class="s-Icon">
@@ -255,6 +225,11 @@
 <div class="s-Icon">
   <i class="Icon Icon--fullscreen"></i>
   fullscreen
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--github"></i>
+  github
 </div>
 
 <div class="s-Icon">
@@ -333,11 +308,6 @@
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--menu"></i>
-  menu
-</div>
-
-<div class="s-Icon">
   <i class="Icon Icon--message"></i>
   message
 </div>
@@ -358,8 +328,8 @@
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--openIssue--dashed"></i>
-  openIssue--dashed
+  <i class="Icon Icon--note"></i>
+  note
 </div>
 
 <div class="s-Icon">
@@ -448,6 +418,11 @@
 </div>
 
 <div class="s-Icon">
+  <i class="Icon Icon--quickNote"></i>
+  quickNote
+</div>
+
+<div class="s-Icon">
   <i class="Icon Icon--recurring"></i>
   recurring
 </div>
@@ -533,11 +508,6 @@
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--task"></i>
-  task
-</div>
-
-<div class="s-Icon">
   <i class="Icon Icon--thems"></i>
   thems
 </div>
@@ -568,6 +538,16 @@
 </div>
 
 <div class="s-Icon">
+  <i class="Icon Icon--typeAdd"></i>
+  typeAdd
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--typeParagraph"></i>
+  typeParagraph
+</div>
+
+<div class="s-Icon">
   <i class="Icon Icon--unlock"></i>
   unlock
 </div>
@@ -575,11 +555,6 @@
 <div class="s-Icon">
   <i class="Icon Icon--user"></i>
   user
-</div>
-
-<div class="s-Icon">
-  <i class="Icon Icon--voice"></i>
-  voice
 </div>
 
 <div class="s-Icon">

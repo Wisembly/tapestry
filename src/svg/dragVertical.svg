@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.2 (15857) - http://www.bohemiancoding.com/sketch -->
+    <title>dragVertical</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="dragVertical" sketch:type="MSArtboardGroup" transform="translate(-6.000000, -6.000000)" fill="#3A434C">
+            <path d="M11.080497,18.8365013 C10.4831365,18.8365013 10,19.3201978 10,19.9182507 C10,20.5163035 10.4831365,21 11.080497,21 L20.919503,21 C21.5153199,21 22,20.5163035 22,19.9182507 C22,19.3201978 21.5153199,18.8365013 20.919503,18.8365013 L11.080497,18.8365013 Z M11.080497,14.9190233 C10.4831365,14.9190233 10,15.4027198 10,16.0007727 C10,16.5972802 10.4831365,17.082522 11.080497,17.082522 L20.919503,17.082522 C21.5153199,17.082522 22,16.5972802 22,16.0007727 C22,15.4027198 21.5153199,14.9190233 20.919503,14.9190233 L11.080497,14.9190233 Z M20.919503,13.1634987 C21.5153199,13.1634987 22,12.6798022 22,12.0817493 C22,11.4852418 21.5153199,11 20.919503,11 L11.080497,11 C10.4831365,11 10,11.4852418 10,12.0817493 C10,12.6798022 10.4831365,13.1634987 11.080497,13.1634987 L20.919503,13.1634987 Z" id="icon-reorder-copy" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

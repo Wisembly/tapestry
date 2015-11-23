@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.2 (15857) - http://www.bohemiancoding.com/sketch -->
+    <title>checked</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="checked" sketch:type="MSArtboardGroup" transform="translate(-6.000000, -6.000000)" fill="#3A434C">
+            <path d="M16,25 L16,25 C20.9705627,25 25,20.9705627 25,16 C25,11.0294373 20.9705627,7 16,7 C11.0294373,7 7,11.0294373 7,16 C7,20.9705627 11.0294373,25 16,25 L16,25 Z M16,26 L16,26 C10.4771525,26 6,21.5228475 6,16 C6,10.4771525 10.4771525,6 16,6 C21.5228475,6 26,10.4771525 26,16 C26,21.5228475 21.5228475,26 16,26 L16,26 Z M11.5233846,15.8730945 L15.0403364,19.6998441 L20.5233846,13.8332811 L18.9902586,12.3999996 L15.0534002,16.6111971 L13.0686412,14.4519436 L11.5233846,15.8730945" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

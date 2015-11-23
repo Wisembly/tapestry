@@ -5,15 +5,9 @@ var iconfont    = require('gulp-iconfont');
 var consolidate = require('gulp-consolidate');
 
 module.exports = function () {
-  return gulp.src('src/sketch/icons.sketch')
-    .pipe(sketch({
-      export: 'slices',
-      formats: 'svg',
-      compact: 'yes',
-      saveForWeb: 'yes'
-    }))
+  return gulp.src('./src/svg/*.svg')
     .pipe(iconfont({
-      fontName: 'icons',
+      fontName: 'tapestry-icons',
       appendCodepoints: false,
       normalize: true,
       centerHorizontally: true,
@@ -24,7 +18,7 @@ module.exports = function () {
       gulp.src('src/scss/components/icons/templates/_base.scss.tpl')
         .pipe(consolidate('lodash', {
           glyphs: glyphs,
-          fontName: 'icons',
+          fontName: 'tapestry-icons',
           className: 'Icon'
         }))
       .pipe(rename('_base.scss'))
@@ -33,7 +27,7 @@ module.exports = function () {
       gulp.src('src/scss/components/icons/templates/_icons.md.tpl')
         .pipe(consolidate('lodash', {
           glyphs: glyphs,
-          fontName: 'icons',
+          fontName: 'tapestry-icons',
           className: 'Icon'
         }))
         .pipe(rename('icons.md'))
