@@ -18,8 +18,10 @@
     background: $porcelain;
 
     &:after {
+      @extend %Icon--checkmark;
       @include pos(a $mg--xs $mg--s null null);
-      content: "\2714";
+      font-family: icons;
+      font-size: $fz--xs;
     }
   }
 }

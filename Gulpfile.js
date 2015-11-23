@@ -2,6 +2,7 @@ var gulp = require('gulp');
 var seq = require('run-sequence');
 
 gulp.task('sass', require('./gulp-tasks/sass'));
+gulp.task('icons', require('./gulp-tasks/icons'));
 gulp.task('stats', ['sass'], require('./gulp-tasks/stats'));
 gulp.task('scripts', require('./gulp-tasks/scripts'));
 gulp.task('styleguide', require('./gulp-tasks/styleguide'));
