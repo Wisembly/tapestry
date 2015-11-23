@@ -1,4 +1,3 @@
-var _ = require('underscore');
 var utils = require('uo-node-utils');
 var path = require('path');
 

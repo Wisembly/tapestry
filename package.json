@@ -26,8 +26,7 @@
     "prompt": "0.2.14",
     "run-sequence": "1.1.4",
     "styleguide-generator": "0.6.3",
-    "underscore": "1.8.3",
-    "uo-node-utils": "0.1.1"
+    "uo-node-utils": "^0.1.1"
   },
   "scripts": {
     "vt:refs": "cd ./node_modules/backstopjs && gulp reference && cd ../../",
