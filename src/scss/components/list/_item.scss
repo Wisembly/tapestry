@@ -1,54 +1,32 @@
 .List-item {
   display: block;
   position: relative;
-  padding: $pd--s $base-pd;
-  font-weight: normal;
+  padding: $pd--s;
+  font-weight: $base-fw;
   line-height: $base-lh;
   text-align: left;
   color: $limed-spruce;
   border-top: 1px solid $base-border-color;
   transition: background-color .1s ease-out, box-shadow .05s ease-out;
-  list-style-type: none;
 
-  &.is-actionable {
-
-    &:after {
-      @include pos(a $mg--s $mg--m $mg--s auto);
-      content: "›";
-    }
+  &:after {
+    @include pos(a $mg--s $mg--m $mg--s auto);
+    font-family: "tapestry-icons";
+    color: $slate-gray;
   }
 
   .List-itemInput:checked + & {
-    background-color: $porcelain;
-
     &:after {
-      @include pos(a $mg--s $mg--m $mg--s auto);
-      content: "coucou";
+      @extend %Icon--checkmark;
     }
   }
+}
 
-  .List-itemInput[type="radio"]:checked + & {
+.List-item--link {
+  cursor: pointer;
 
-    &:after {
-      @include pos(a $mg--s $mg--m $mg--s auto);
-      content: "radio";
-    }
-  }
-
-  .List-itemInput[type="checkbox"] + & {
-
-    &:after {
-      @include pos(a $mg--s $mg--m $mg--s auto);
-      content: "☐";
-    }
-  }
-
-  .List-itemInput[type="checkbox"]:checked + & {
-
-    &:after {
-      @include pos(a $mg--s $mg--m $mg--s auto);
-      content: "☑";
-    }
+  &:after {
+    @extend %Icon--arrowNext;
   }
 }
 
