@@ -11,7 +11,6 @@ app.use(express.static(__dirname + '/public'));
 app.use(express.static(path.join(__dirname, '../dist')));
 
 require('./routes/index')(app);
-require('./routes/about')(app);
 require('./routes/getting-started')(app);
 require('./routes/components')(app);
 require('./routes/stats')(app);
