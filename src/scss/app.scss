@@ -35,10 +35,6 @@
   @import "components/box/core";
 }
 
-@if $import-collection {
-  @import "components/collection/core";
-}
-
 @if $import-dropdown {
   @import "components/dropdown/core";
 }
