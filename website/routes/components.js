@@ -1,25 +1,24 @@
-var _ = require('underscore');
 var utils = require('uo-node-utils');
 var path = require('path');
 
 module.exports = function (app) {
-  app.get('/components/:name?', function (req, res) {
-    var name = req.params.name;
-    var componentsPath = path.join(__dirname, '../components/components.json');
-    var components = utils.read.file(componentsPath);
+  app.get('/components/:componentName?', function (req, res) {
+    var componentName = req.params.componentName;
+    var components = JSON.parse(
+      utils.read.file(
+        path.join(__dirname, '../components/components.json')
+      )
+    ).components;
 
-    components = JSON.parse(components).components;
+    var component = componentName ? components.filter(function (_component) {
+      return componentName.toLowerCase() === _component.name.toLowerCase();
+    })[0] : components[0];
 
-    var component = name ? _.findWhere(components, {
-      name: _(name).capitalize()
-    }) : null;
-
-    if (name && !component)
+    if (!component)
       return res.redirect('/404');
 
-    return res.render(name ? 'component' : 'components', {
+    return res.render('components', {
       currentPage: 'components',
-      currentComponent: component ? component.name : null,
       components: components,
       component: component
     });

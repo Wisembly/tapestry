@@ -1,10 +1,7 @@
 var path = require('path');
-var _ = require('underscore');
 var express = require('express');
 var compression = require('compression');
 var app = express();
-
-require('./helpers/mixins');
 
 app.set('views', __dirname + '/views')
 app.set('view engine', 'jade');

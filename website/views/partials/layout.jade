@@ -6,22 +6,11 @@ html
       link(href='/css/tapestry.css', rel='stylesheet', type='text/css')
       link(href='/css/styleguide.css', rel='stylesheet', type='text/css')
       script(async, src='http://localhost:4000/browser-sync/browser-sync-client.2.9.11.js')
-      block scripts
+      script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js')
+      script(src='/js/tapestry.js')
 
   body(class="s-App s-Page s-Page--#{currentPage}")
-    .s-Header#js-Header
-      h1.s-Header-title Tapestry
-      h2.s-Header-subTitle Wisembly™ UI elements
-
-      nav.s-Nav
-        a(href="/", class=currentPage === 'index' ? 's-Nav-item is-active' : 's-Nav-item') Home
-        a(href="/about", class=currentPage === 'about' ? 's-Nav-item is-active' : 's-Nav-item') About
-        a(href="/components", class=currentPage === 'components' ? 's-Nav-item is-active' : 's-Nav-item') Components
-        a(href="/getting-started", class=currentPage === 'getting-started' ? 's-Nav-item is-active' : 's-Nav-item') Getting started
-        a(href="/stats", class=currentPage === 'stats' ? 's-Nav-item is-active' : 's-Nav-item') Stats
+    include nav
 
     .s-Container
       block content
-
-    script(src="//cdnjs.cloudflare.com/ajax/libs/headroom/0.7.0/headroom.min.js")
-    script(src="/js/app.js")

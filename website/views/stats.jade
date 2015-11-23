@@ -1,13 +1,39 @@
 extends partials/layout
 
 block content
-  //- - each stat in stats
-    //- p= stat.published
+  - var stat = stats[stats.length - 1]
+  - var sizeInKb = Math.round(stat.size / 1024 * 10) / 10
+  - var simplicity = Math.round(stat.simplicity / 1024 * 10) / 10
 
-  h1 Tapestry.css size
-  canvas#js-Stats(style="display: block; width: 100%; height: 300px;")
+  h1.s-Header Statistics
 
-block scripts
-  script(src="https://code.jquery.com/jquery-2.1.4.min.js")
-  script(src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js")
-  script(src="/js/stats.js")
+  .s-App-content.s-Modules-container
+    .Grid.s-Grid--stats.has-3-childs
+      .Grid-cell.Grid-cell--4.s-Card
+        .s-Card-key Version
+        .s-Card-value= stat.version
+      .Grid-cell.Grid-cell--4.s-Card
+        .s-Card-key Size (kb)
+        .s-Card-value= sizeInKb
+      .Grid-cell.Grid-cell--4.s-Card
+        .s-Card-key Simplicity
+        .s-Card-value= simplicity
+
+    .Grid.s-Grid--stats.has-3-childs
+      .Grid-cell.Grid-cell--4.s-Card
+        .s-Card-key Rules
+        .s-Card-value= stat.rules
+      .Grid-cell.Grid-cell--4.s-Card
+        .s-Card-key Selectors
+        .s-Card-value= stat.selectors
+      .Grid-cell.Grid-cell--4.s-Card
+        .s-Card-key Declarations
+        .s-Card-value= stat.declarations
+
+    .Grid.s-Grid--stats.has-2-childs
+      .Grid-cell.Grid-cell--6.s-Card
+        .s-Card-key Font-sizes
+        .s-Card-value= stat.totalUniqueFontSizes
+      .Grid-cell.Grid-cell--6.s-Card
+        .s-Card-key Colors
+        .s-Card-value= stat.totalUniqueColors
