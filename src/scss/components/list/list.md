@@ -6,7 +6,7 @@
     <li class="List-item">A</li>
     <li class="List-item">B</li>
     <li>
-      <a href="#foo" class="List-item is-actionable">D</a>
+      <a href="#foo" class="List-item List-item--link is-actionable">D</a>
     </li>
   </ul>
 ```
@@ -17,14 +17,25 @@
   <li class="List-item">Alcatra ribeye ham pork</li>
   <li class="List-item is-active">Capicola andouille tri-tip beef ribs ham picanha</li>
   <li>
-    <a href="#foo" class="List-item is-actionable">Pork belly landjaeger venison corned</a>
+    <a href="#foo" class="List-item List-item--link is-actionable">Pork belly landjaeger venison corned</a>
   </li>
   <li>
-    <a href="#foo" class="List-item is-actionable">Ribeye pig hamburger</a>
+    <a href="#foo" class="List-item List-item--link is-actionable">Ribeye pig hamburger</a>
   </li>
+</ul>
+<h5 class="List-title">List with items checkbable</h5>
+<ul class="List">
   <li>
     <input id="itemE" type="checkbox" class="List-itemInput">
     <label for="itemE" class="List-item is-actionable">boudin strip steak</label>
+  </li>
+  <li>
+    <input id="itemF" type="checkbox" class="List-itemInput">
+    <label for="itemF" class="List-item is-actionable">boudin strip steak</label>
+  </li>
+  <li>
+    <input id="itemG" type="checkbox" class="List-itemInput">
+    <label for="itemG" class="List-item is-actionable">boudin strip steak</label>
   </li>
 </ul>
 <h5 class="List-title">List with switches checkbox</h5>
