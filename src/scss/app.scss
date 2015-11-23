@@ -27,6 +27,10 @@
   @import "components/badge/core";
 }
 
+@if $import-list {
+  @import "components/list/core";
+}
+
 @if $import-box {
   @import "components/box/core";
 }
