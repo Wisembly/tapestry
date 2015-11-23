@@ -12,25 +12,145 @@
 	$mandy: #e25c5b;					$fuzzy-wuzzy-brown: #c85450;
 */
 
+/*
 
+ • App
+ • Container
+
+ */
 
 .s-App {
 	font-family: 'Proxima Nova', 'Helvetica Neue', Helvetica, sans-serif;
-	background-color: #f7f7f7;
+	background-color: #fff;
 }
 
-
+.s-App-content {
+	padding: 2rem;
+	overflow: hidden;
+}
 
 .s-Container {
 	overflow: hidden;
-	padding-left: 300px;
+	padding-left: 250px;
 }
 
 .s-Modules-container {
-	overflow: hidden;
+	max-width: 1024px;
+	margin: 0 auto;
 }
 
 
+
+
+
+/*
+
+ • Navigation
+ • Logo
+
+ */
+
+.s-Nav {
+	position: fixed;
+	top: 0; bottom: 0; left: 0;
+	width: 250px;
+	color: #fff;
+	background-color: #07698d;
+	overflow: auto;
+	transition: top .3s ease-out;
+}
+
+.s-Logo {
+	margin: 0;
+	background-color: #084d66;
+}
+
+.s-Logo-link {
+	display: block;
+	padding: 1.5rem;
+	font-size: 1.5rem;
+	font-weight: 700;
+	line-height: 1;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.s-Nav-section {
+	color: #fff;
+	border-bottom: 1px solid #0d5c7c;
+}
+
+.s-Nav-section.has-nav {
+	padding: 2rem;
+}
+
+.s-Nav-title {
+	display: block;
+	margin: 0;
+	padding: 2rem 2rem 1.6rem 2rem;
+	font-size: .97rem;
+	font-weight: 700;
+	line-height: 1;
+	text-transform: uppercase;
+	color: #aed7e8;
+}
+
+.s-Nav-title:not(:only-child) {
+	margin-bottom: 1.5rem;
+}
+
+.has-nav .s-Nav-title {
+	padding: 0;
+}
+
+.s-Nav-link {
+	display: block;
+	margin-left: -1rem;
+	padding: .5rem 1rem;
+	font-size: 1.2rem;
+	color: #fff;
+}
+
+
+
+.s-Icon {
+	display: inline-block;
+	width: 12rem;
+	margin: 0 .7rem 1rem 0;
+	padding: 1rem;
+	text-align: center;
+	color: #657b83;
+	background-color: #f7f7f7;
+	border: 1px solid #D8D8D8;
+}
+
+
+/*
+
+ • Header
+
+ */
+
+.s-Header {
+	margin: 0;
+	padding: 1.5rem;
+	font-weight: 600;
+	font-size: 1.5rem;
+	line-height: .98;
+	color: #07698d;
+	background: #fff;
+	border-bottom: 1px solid #d5d9da;
+}
+
+
+
+
+
+/*
+
+ • Titles
+
+ */
 
 .s-Title--1 {
 	margin: 5rem 0 2.5rem;
@@ -38,6 +158,11 @@
 	font-size: 2.5rem;
 	font-weight: 600;
 	color: #3a434c;
+}
+
+.s-Title--1:first-of-type {
+	margin-top: 0;
+	padding-top: 0;
 }
 
 .s-Title--2 {
@@ -55,78 +180,13 @@
 
 
 
-.s-Modules-container code {
-	margin: 0 .3rem;
-	padding: .3rem .4rem;
-	font-family: Consolas, "Courier New", monospace;
-	color: #657b83;
-	background-color: #f7f7f7;
-	border: 1px solid #D8D8D8;
-}
-
-.s-Modules-container p code:first-child {
-	margin-left: 0;
-}
-
-.s-Modules-container .code {
-	margin: 1.5rem 0 1rem;
-}
-
-.s-Modules-container .code code {
-	display: block;
-	margin: 0;
-	padding: 1rem 1.2rem;
-	word-wrap: break-word;
-}
 
 
+/*
 
-.s-Icon {
-	display: inline-block;
-	width: 12rem;
-	margin: 0 .7rem 1rem 0;
-	padding: 1rem;
-	text-align: center;
-	color: #657b83;
-	background-color: #f7f7f7;
-	border: 1px solid #D8D8D8;
-}
+ • Colors
 
-.s-Icon .Icon {
-	display: block;
-	margin-bottom: .7rem;
-}
-
-
-
-.s-Paragraph {
-	margin-bottom: 1.5rem;
-	font-size: 1.2rem;
-	line-height: 1.7;
-	color: #3a434c;
-}
-
-
-
-
-.s-Module--grid .Grid-cell {
-	padding: 1rem;
-	font-weight: bold;
-	text-align: center;
-	color: #708189;
-	background-color: #ebeeef;
-	border: 1px solid #d5d9da;
-}
-
-.s-Module--grid .Grid-cell + .Grid-cell {
-	border-left: 0;
-}
-
-.s-Module--grid .Grid + .Grid {
-	margin-top: .5rem;
-}
-
-
+ */
 
 .s-Color-wrapper {
 	display: inline-block;
@@ -165,8 +225,28 @@
 
 
 
+/*
 
+ • Grid
 
+ */
+
+.s-Module--grid .Grid-cell {
+	padding: 1rem;
+	font-weight: bold;
+	text-align: center;
+	color: #708189;
+	background-color: #ebeeef;
+	border: 1px solid #d5d9da;
+}
+
+.s-Module--grid .Grid-cell + .Grid-cell {
+	border-left: 0;
+}
+
+.s-Module--grid .Grid + .Grid {
+	margin-top: .5rem;
+}
 
 
 
@@ -174,70 +254,73 @@
 
 /*
 
-	• Navigation
-	• Logo
+ • Icons
 
-*/
+ */
 
-.s-Nav {
-	position: fixed;
-	top: 0; bottom: 0; left: 0;
-	width: 250px;
-	color: #fff;
-	background-color: #07698d;
-	overflow: auto;
-	transition: top .3s ease-out;
+.s-Icon {
+ 	display: inline-block;
+ 	width: 9rem;
+ 	margin: 0 .7rem 1rem 0;
+ 	padding: 1rem;
+ 	text-align: center;
+ 	color: #657b83;
+ 	background-color: #f7f7f7;
+ 	border: 1px solid #D8D8D8;
 }
 
-.s-Logo {
+.s-Icon .Icon {
+ 	display: block;
+ 	margin-bottom: .7rem;
+}
+
+
+
+
+
+/*
+
+ • Code
+
+ */
+
+.s-Modules-container code {
+	margin: 0 .3rem;
+	padding: .3rem .4rem;
+	font-family: Consolas, "Courier New", monospace;
+	color: #657b83;
+	background-color: #f7f7f7;
+	border: 1px solid #D8D8D8;
+}
+
+.s-Modules-container p code:first-child {
+	margin-left: 0;
+}
+
+.s-Modules-container .code {
+	margin: 1.5rem 0 1rem;
+}
+
+.s-Modules-container .code code {
+	display: block;
 	margin: 0;
-	background-color: #084d66;
-}
-
-.s-Logo-link {
-	display: block;
-	padding: 1.5rem;
-	font-size: 1.5rem;
-	font-weight: 700;
-	line-height: 1;
-	text-transform: uppercase;
-	color: #fff;
+	padding: 1rem 1.2rem;
+	word-wrap: break-word;
 }
 
 
-.s-Nav-section {
-	color: #fff;
-	border-bottom: 1px solid #0d5c7c;
-}
-
-.s-Nav-section.has-nav {
-	padding: 2rem;
-}
 
 
-.s-Nav-title {
-	display: block;
-	margin: 0;
-	padding: 2rem 2rem 1.6rem 2rem;
-	font-size: .97rem;
-	font-weight: 700;
-	line-height: 1;
-	text-transform: uppercase;
-	color: #aed7e8;
-}
 
-.s-Nav-title:not(:only-child) {
-	margin-bottom: 1.5rem;
-}
+/*
 
-.has-nav .s-Nav-title {
-	padding: 0;
-}
+ • Paragraphs
 
-.s-Nav-link {
-	display: block;
-	margin-left: -1rem;
-	padding: .5rem 1rem;
-	font-size: 1.2rem;
-	color: #fff;
+ */
+
+.s-Paragraph {
+ 	margin-bottom: 1.5rem;
+ 	font-size: 1.2rem;
+ 	line-height: 1.7;
+ 	color: #3a434c;
 }
