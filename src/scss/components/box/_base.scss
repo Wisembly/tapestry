@@ -8,6 +8,10 @@
     margin-top: $mg--m;
   }
 
+  > .List:first-child .List-item:first-child {
+    border-top: 0;
+  }
+
   > .List:last-child {
     border-bottom: 0;
   }
