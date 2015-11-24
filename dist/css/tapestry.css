@@ -31,24 +31,24 @@
   zoom: 1; }
 
 .u-neutral {
-  color: #fff;
-  background: #a1a9ae; }
+  color: #fff !important;
+  background: #a1a9ae !important; }
 
 .u-primary {
-  color: #fff;
-  background: #07698d; }
+  color: #fff !important;
+  background: #07698d !important; }
 
 .u-validate {
-  color: #fff;
-  background: #46b489; }
+  color: #fff !important;
+  background: #46b489 !important; }
 
 .u-info {
-  color: #fff;
-  background: #f1bc33; }
+  color: #fff !important;
+  background: #f1bc33 !important; }
 
 .u-error {
-  color: #fff;
-  background: #e25c5b; }
+  color: #fff !important;
+  background: #e25c5b !important; }
 
 .u-vhidden {
   position: absolute !important;
