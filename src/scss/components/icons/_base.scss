@@ -823,12 +823,12 @@
   @extend %Icon--target;
 }
 
-%Icon--thems {
+%Icon--themes {
   content: "\ea63";
 }
 
-.Icon--thems:before {
-  @extend %Icon--thems;
+.Icon--themes:before {
+  @extend %Icon--themes;
 }
 
 %Icon--title {

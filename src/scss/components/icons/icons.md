@@ -508,8 +508,8 @@
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--thems"></i>
-  thems
+  <i class="Icon Icon--themes"></i>
+  themes
 </div>
 
 <div class="s-Icon">
