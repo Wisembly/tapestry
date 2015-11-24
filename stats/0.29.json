@@ -1,0 +1,117 @@
+{
+  "published": "2015-11-24T16:23:45.407Z",
+  "paths": [
+    "/Users/ugo/Sites/tapestry/dist/css/tapestry.css"
+  ],
+  "stylesheets": 1,
+  "styleElements": 0,
+  "size": 50041,
+  "dataUriSize": 0,
+  "ratioOfDataUriSize": 0,
+  "gzippedSize": 8521,
+  "rules": 589,
+  "selectors": 672,
+  "declarations": 1314,
+  "simplicity": 0.8764880952380952,
+  "averageOfIdentifier": 1.6339285714285714,
+  "mostIdentifier": 4,
+  "mostIdentifierSelector": "input:checked + .Switch--s:after",
+  "averageOfCohesion": 2.230899830220713,
+  "lowestCohesion": 21,
+  "lowestCohesionSelector": [
+    ".Modal"
+  ],
+  "totalUniqueFontSizes": 13,
+  "uniqueFontSizes": [
+    "0",
+    "0.69444rem",
+    "0.78571rem",
+    "0.83333rem",
+    "1em",
+    "1rem",
+    "1.2rem",
+    "1.44rem",
+    "1.728rem",
+    "2.0736rem",
+    "2.48832rem",
+    "75%",
+    "87.5%"
+  ],
+  "totalUniqueFontFamilies": 5,
+  "uniqueFontFamilies": [
+    "\"Helvetica Neue\", Helvetica, Roboto, Arial, sans-serif",
+    "\"tapestry-icons\"",
+    "icons",
+    "monospace, monospace",
+    "sans-serif"
+  ],
+  "totalUniqueColors": 17,
+  "uniqueColors": [
+    "#000000",
+    "#07698D",
+    "#0D5C7C",
+    "#258AAE",
+    "#289BC4",
+    "#3A434C",
+    "#41A07A",
+    "#46B489",
+    "#708189",
+    "#A1A9AE",
+    "#AED7E8",
+    "#C85450",
+    "#D5A82D",
+    "#D5D9DA",
+    "#E25C5B",
+    "#F1BC33",
+    "#FFFFFF"
+  ],
+  "idSelectors": 0,
+  "universalSelectors": 3,
+  "unqualifiedAttributeSelectors": 21,
+  "javascriptSpecificSelectors": 0,
+  "importantKeywords": 140,
+  "floatProperties": 2,
+  "propertiesCount": [
+    {
+      "property": "content",
+      "count": 119
+    },
+    {
+      "property": "color",
+      "count": 79
+    },
+    {
+      "property": "display",
+      "count": 70
+    },
+    {
+      "property": "padding",
+      "count": 51
+    },
+    {
+      "property": "width",
+      "count": 49
+    },
+    {
+      "property": "background-color",
+      "count": 44
+    },
+    {
+      "property": "font-size",
+      "count": 44
+    },
+    {
+      "property": "background",
+      "count": 36
+    },
+    {
+      "property": "position",
+      "count": 33
+    },
+    {
+      "property": "margin",
+      "count": 31
+    }
+  ],
+  "mediaQueries": 1
+}
