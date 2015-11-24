@@ -25,6 +25,8 @@
 }
 
 .s-App-content {
+	max-width: 800px;
+	margin: 0 auto;
 	padding: 2rem;
 	overflow: hidden;
 }
@@ -34,10 +36,6 @@
 	padding-left: 250px;
 }
 
-.s-Modules-container {
-	max-width: 1024px;
-	margin: 0 auto;
-}
 
 
 
@@ -153,11 +151,15 @@
  */
 
 .s-Title--1 {
-	margin: 5rem 0 2.5rem;
+	margin: 0 0 2.5rem;
 	padding-top: 5rem;
 	font-size: 2.5rem;
 	font-weight: 600;
 	color: #3a434c;
+}
+
+.s-Modules-container .s-Title--1 {
+	margin-top: 5rem;
 }
 
 .s-Title--1:first-of-type {
@@ -324,6 +326,12 @@
  	color: #3a434c;
 }
 
+.s-Page--about
+	.s-Paragraph {
+		font-size: 1.3rem;
+		color: #666;
+	}
+
 
 
 
@@ -377,4 +385,84 @@
 	width: 1px; height: 30px;
 	background-color: #d5d9da;
 	transform: rotate(10deg) translateY(-50%);
+}
+
+
+
+
+
+
+
+
+.s-MainHeader {
+	padding: 3rem 0 2.8rem 0;
+	text-align: center;
+	color: #fff;
+	background: url('/imgs/pattern.png') repeat #46b489;
+	background-size: 80px;
+}
+
+.s-MainHeader-title {
+	margin: 0 0 1rem 0;
+	line-height: 1.5;
+	font-weight: 600;
+	font-size: 3rem;
+}
+
+.s-MainHeader--p {
+	margin-bottom: 2.5rem;
+	font-size: 1.5rem;
+	line-height: 1.6;
+}
+
+.s-MainHeader-btn {
+	padding: 1.5rem 2.5rem;
+	font-size: 1.3rem;
+	background-color: #297456;
+}
+
+.s-MainHeader-btn:hover {
+	background-color: #1D5840;
+}
+
+
+
+.s-Page--index
+	.s-Nav {
+		display: none;
+	}
+
+.s-Page--index
+	.s-Container {
+		padding-left: 0;
+	}
+
+
+.github-corner:hover
+.octo-arm {
+	animation: octocat-wave 560ms ease-in-out
+}
+
+@keyframes octocat-wave {
+	0%, 100% {
+		transform:rotate(0)
+	}
+
+	20%, 60% {
+		transform:rotate(-25deg)
+	}
+
+	40%, 80% {
+		transform:rotate(10deg)
+	}
+}
+
+@media (max-width:500px) {
+	.github-corner:hover .octo-arm {
+		animation:none
+	}
+
+	.github-corner .octo-arm {
+		animation:octocat-wave 560ms ease-in-out
+	}
 }
