@@ -950,7 +950,7 @@ th {
     position: absolute;
     top: 0.78571rem;
     right: 0.78571rem;
-    font-family: icons;
+    font-family: tapestry-icons;
     font-size: 0.83333rem;
     color: #a1a9ae; }
   .Dropdown-selectInput + .Dropdown-list {
@@ -1001,7 +1001,7 @@ th {
       position: absolute;
       top: 0.39286rem;
       right: 0.78571rem;
-      font-family: icons;
+      font-family: tapestry-icons;
       font-size: 0.69444rem; }
 
 .Dropdown-hr {
