@@ -1,5 +1,7 @@
-.Collection--actionnable {
-  .Collection-item {
+.List-item {
+  &.is-actionable {
+    cursor: pointer;
+
     &:hover {
       background-color: $porcelain;
     }

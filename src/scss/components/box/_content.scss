@@ -1,6 +1,10 @@
 .Box-content {
   padding: $pd--m;
   overflow: auto;
+
+  p:last-child {
+    margin-bottom: 0;
+  }
 }
 
 .Box-header {

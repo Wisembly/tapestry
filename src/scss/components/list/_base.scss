@@ -1,0 +1,10 @@
+.List {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-bottom: 1px solid $base-border-color;
+
+  + .List {
+    margin-top: r(5);
+  }
+}

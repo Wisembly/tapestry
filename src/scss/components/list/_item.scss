@@ -1,0 +1,43 @@
+.List-item {
+  display: block;
+  position: relative;
+  padding: $pd--s $pd--m;
+  font-weight: $base-fw;
+  line-height: $base-lh;
+  text-align: left;
+  color: $limed-spruce;
+  border-top: 1px solid $base-border-color;
+  transition: background-color .1s ease-out, box-shadow .05s ease-out;
+
+  &:after {
+    @include pos(a $mg--s $mg--m $mg--s auto);
+    font-family: "tapestry-icons";
+    color: $slate-gray;
+  }
+
+  .List-itemInput:checked + & {
+    &:after {
+      @extend %Icon--checkmark;
+    }
+  }
+}
+
+.List-item--link {
+  cursor: pointer;
+
+  &:after {
+    @extend %Icon--arrowNext;
+  }
+}
+
+.List-itemInput {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  border: 0;
+  appearance: none;
+
+  &:focus {
+    outline: none;
+  }
+}
