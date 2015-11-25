@@ -1,0 +1,117 @@
+{
+  "published": "2015-11-25T14:29:00.662Z",
+  "paths": [
+    "/Users/ugo/Sites/tapestry/dist/css/tapestry.css"
+  ],
+  "stylesheets": 1,
+  "styleElements": 0,
+  "size": 50702,
+  "dataUriSize": 0,
+  "ratioOfDataUriSize": 0,
+  "gzippedSize": 8609,
+  "rules": 594,
+  "selectors": 679,
+  "declarations": 1337,
+  "simplicity": 0.8748159057437408,
+  "averageOfIdentifier": 1.6435935198821796,
+  "mostIdentifier": 5,
+  "mostIdentifierSelector": ".Box > .List:first-child .List-item:first-child",
+  "averageOfCohesion": 2.250841750841751,
+  "lowestCohesion": 21,
+  "lowestCohesionSelector": [
+    ".Modal"
+  ],
+  "totalUniqueFontSizes": 13,
+  "uniqueFontSizes": [
+    "0",
+    "0.69444rem",
+    "0.78571rem",
+    "0.83333rem",
+    "1em",
+    "1rem",
+    "1.2rem",
+    "1.44rem",
+    "1.728rem",
+    "2.0736rem",
+    "2.48832rem",
+    "75%",
+    "87.5%"
+  ],
+  "totalUniqueFontFamilies": 5,
+  "uniqueFontFamilies": [
+    "\"Helvetica Neue\", Helvetica, Roboto, Arial, sans-serif",
+    "\"tapestry-icons\"",
+    "monospace, monospace",
+    "sans-serif",
+    "tapestry-icons"
+  ],
+  "totalUniqueColors": 17,
+  "uniqueColors": [
+    "#000000",
+    "#07698D",
+    "#0D5C7C",
+    "#258AAE",
+    "#289BC4",
+    "#3A434C",
+    "#41A07A",
+    "#46B489",
+    "#708189",
+    "#A1A9AE",
+    "#AED7E8",
+    "#C85450",
+    "#D5A82D",
+    "#D5D9DA",
+    "#E25C5B",
+    "#F1BC33",
+    "#FFFFFF"
+  ],
+  "idSelectors": 0,
+  "universalSelectors": 3,
+  "unqualifiedAttributeSelectors": 21,
+  "javascriptSpecificSelectors": 0,
+  "importantKeywords": 140,
+  "floatProperties": 2,
+  "propertiesCount": [
+    {
+      "property": "content",
+      "count": 119
+    },
+    {
+      "property": "color",
+      "count": 80
+    },
+    {
+      "property": "display",
+      "count": 71
+    },
+    {
+      "property": "padding",
+      "count": 51
+    },
+    {
+      "property": "width",
+      "count": 50
+    },
+    {
+      "property": "font-size",
+      "count": 45
+    },
+    {
+      "property": "background-color",
+      "count": 43
+    },
+    {
+      "property": "background",
+      "count": 36
+    },
+    {
+      "property": "position",
+      "count": 36
+    },
+    {
+      "property": "left",
+      "count": 32
+    }
+  ],
+  "mediaQueries": 1
+}
