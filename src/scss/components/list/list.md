@@ -86,24 +86,20 @@
   </header>
   <div class="Box-content">
     <p>Bacon ipsum dolor amet alcatra ham spare ribs jowl pastrami. Picanha rump pork belly, biltong pancetta beef corned beef short ribs cupim tri-tip shoulder shank. Meatloaf leberkas tenderloin landjaeger chuck.</p>
-    <div class="Box">
-      <h5 class="List-title">List</h5>
-      <ul class="List">
-        <li class="List-item">Bacon ipsum dolor amet alcatra ham spare ribs jowl pastrami.</li>
-        <li class="List-item">Alcatra ribeye ham pork loin pork chop shankle t-bone chicken strip steak shoulder.</li>
-        <li class="List-item">Cupim turducken fatback venison, pancetta rump shankle.</li>
-        <li class="List-item">Capicola andouille tri-tip beef ribs ham picanha.</li>
-        <li class="List-item">Ribeye pig hamburger, tongue tri-tip bacon pastrami capicola.</li>
-      </ul>
-      <h5 class="List-title">List</h5>
-      <ul class="List">
-        <li class="List-item">Bacon ipsum dolor amet alcatra ham spare ribs jowl pastrami.</li>
-        <li class="List-item">Alcatra ribeye ham pork loin pork chop shankle t-bone chicken strip steak shoulder.</li>
-        <li class="List-item">Cupim turducken fatback venison, pancetta rump shankle.</li>
-        <li class="List-item">Capicola andouille tri-tip beef ribs ham picanha.</li>
-        <li class="List-item">Ribeye pig hamburger, tongue tri-tip bacon pastrami capicola.</li>
-      </ul>
-    </div>
   </div>
+  <ul class="List">
+    <li class="List-item">Bacon ipsum dolor amet alcatra ham spare ribs jowl pastrami.</li>
+    <li class="List-item">Alcatra ribeye ham pork loin pork chop shankle t-bone chicken strip steak shoulder.</li>
+    <li class="List-item">Cupim turducken fatback venison, pancetta rump shankle.</li>
+    <li class="List-item">Capicola andouille tri-tip beef ribs ham picanha.</li>
+    <li class="List-item">Ribeye pig hamburger, tongue tri-tip bacon pastrami capicola.</li>
+  </ul>
+  <ul class="List">
+    <li class="List-item">Bacon ipsum dolor amet alcatra ham spare ribs jowl pastrami.</li>
+    <li class="List-item">Alcatra ribeye ham pork loin pork chop shankle t-bone chicken strip steak shoulder.</li>
+    <li class="List-item">Cupim turducken fatback venison, pancetta rump shankle.</li>
+    <li class="List-item">Capicola andouille tri-tip beef ribs ham picanha.</li>
+    <li class="List-item">Ribeye pig hamburger, tongue tri-tip bacon pastrami capicola.</li>
+  </ul>
 </div>
 ```
