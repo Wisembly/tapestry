@@ -20,7 +20,7 @@
   &:after {
     @extend %Icon--triangleDown;
     @include pos(a ($mg--s) $mg--s null null);
-    font-family: icons;
+    font-family: tapestry-icons;
     font-size: $fz--s;
     color: $gray-chateau;
   }
