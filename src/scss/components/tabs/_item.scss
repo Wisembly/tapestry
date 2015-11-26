@@ -3,7 +3,7 @@
   position: relative;
 
   &:after {
-    @include pos(a null $mg--s 0 $mg--s);
+    @include pos(a null 0 0 0);
     content: "";
     height: 0;
     background: $venice-blue;
@@ -14,5 +14,9 @@
     &:after {
       height: rem(3px);
     }
+  }
+
+  + .Tab-item {
+    margin-left: $mg--m;
   }
 }
