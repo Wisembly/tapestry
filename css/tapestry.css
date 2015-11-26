@@ -3015,7 +3015,7 @@ input:checked + .Switch--s:after,
 }
 
 .Tabs {
-  margin: 0 0 0 -0.78571rem;
+  margin: 0;
   padding: 0;
   font-size: 0;
   text-align: left;
@@ -3029,9 +3029,9 @@ input:checked + .Switch--s:after,
 
 .Tab-item:after {
   position: absolute;
-  right: 0.78571rem;
+  right: 0;
   bottom: 0;
-  left: 0.78571rem;
+  left: 0;
   content: "";
   height: 0;
   background: #07698d;
@@ -3042,10 +3042,14 @@ input:checked + .Switch--s:after,
   height: 0.21429rem;
 }
 
+.Tab-item + .Tab-item {
+  margin-left: 1.57143rem;
+}
+
 .Tab-link {
   display: block;
   position: relative;
-  padding: 1.57143rem 0.78571rem 0.78571rem;
+  padding: 0.78571rem 0;
   font-size: 1rem;
   font-weight: 600;
   text-decoration: none;
@@ -3081,13 +3085,16 @@ input:checked + .Switch--s:after,
   height: auto;
 }
 
+.Tabs--vertical .Tab-item + .Tab-item {
+  margin-left: 0;
+}
+
 .Tabs--vertical .Tab-link {
   padding: 0 0.78571rem 0 1.57143rem;
   line-height: 2.35714rem;
 }
 
 .Tabs--s .Tab-link {
-  padding: 0.78571rem;
   font-size: 0.83333rem;
 }
 
