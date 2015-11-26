@@ -9,6 +9,7 @@ async.waterfall([
 
   require('./assets/generate'),
   require('./assets/check'),
+  require('./assets/package'),
   require('./assets/add'),
 
   require('./commit/create'),
