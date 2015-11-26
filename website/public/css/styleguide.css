@@ -466,3 +466,60 @@
 		animation:octocat-wave 560ms ease-in-out
 	}
 }
+
+.s-Advantages {
+	padding-top: 7rem;
+}
+
+
+.s-Advantage {
+	display: flex;
+  flex-direction: row;
+	margin-bottom: 8rem;
+}
+
+.s-Advantage-title {
+	margin-bottom: 2rem;
+	font-size: 2.2rem;
+	color: #3a434c;
+}
+
+.s-Advantage-p {
+	font-size: 1.5rem;
+	line-height: 1.5;
+	color: #708189;
+}
+
+.s-Advantage-texts:nth-child(odd) {
+	padding-right: 5rem;
+}
+
+.s-Advantage-texts:nth-child(even) {
+	padding-left: 5rem;
+}
+
+.s-Advantage-img {
+	width: 40%;
+	flex-shrink: 0;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.s-Advantage--sass
+	.s-Advantage-img {
+		background-size: 13rem 13rem;
+	}
+
+.s-Advantage--modules
+	.s-Advantage-img {
+		background-position: left center;
+	}
+
+
+.s-Hr {
+	height: 1px;
+	margin: 8rem -5rem;
+	border: 0;
+	background-color: #ddd;
+}

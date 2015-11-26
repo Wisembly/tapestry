@@ -23,6 +23,29 @@ block content
       a.Btn.s-MainHeader-btn(href="/getting-started") Getting started
 
   .s-App-content
+    .s-Advantages
+      .s-Advantage.s-Advantage--modules
+        .s-Advantage-img(style="background-image: url('/imgs/bem-logo.png')")
+        .s-Advantage-texts
+          .s-Advantage-title Modules
+          .s-Advantage-p
+            | Tapestry was created while thinking 
+            b components
+            |. With the help of 
+            a.s-Advantage-link(href="http://putaindecode.io/fr/articles/css/bem/", target="_blank") BEM
+            |, keep the separation of concerns effective.
+
+      .s-Advantage.s-Advantage--sass
+        .s-Advantage-texts
+          .s-Advantage-title Composable
+          .s-Advantage-p
+            | Since Tapestry is build with SASS, you can import only what you really need. 
+            a(href="https://github.com/Wisembly/tapestry/blob/master/src/scss/utils/var/_import.scss", target="_blank") Each component can be include separately. 
+            | You can also customize Tapestry at your image while modifying settings.
+        .s-Advantage-img(style="background-image: url('/imgs/sass-logo.svg')")
+
+    hr.s-Hr
+
     h1.s-Title--1.u-mgt--l Origins
     p.s-Paragraph The first commit was pushed during fall 2014. It was the result of various challenges. From this moment, we are developing two products and Tapestry is a guarantee to keep three principles in mind: organization, maintenability, DRY.
     p.s-Paragraph Tapestry is currently maintened by a team of 6 various experts: 1 UI designer, 1 product designer, 2 UI developers and 2 JS developers.
