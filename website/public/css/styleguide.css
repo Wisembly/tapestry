@@ -32,8 +32,8 @@
 }
 
 .s-Container {
-	overflow: hidden;
 	padding-left: 250px;
+	overflow: hidden;
 }
 
 
@@ -132,8 +132,8 @@
 .s-Header {
 	margin: 0;
 	padding: 1.5rem;
-	font-weight: 600;
 	font-size: 1.5rem;
+	font-weight: 600;
 	line-height: .98;
 	color: #07698d;
 	background: #fff;
@@ -347,24 +347,24 @@
 }
 
 .s-Card {
-	position: relative;
 	display: inline-block;
+	position: relative;
 	padding: 1.5rem 3rem;
 	text-align: center;
 }
 
 .s-Card-key {
 	font-size: 1.2rem;
+	font-weight: 600;
 	line-height: 1.5;
 	text-transform: uppercase;
-	font-weight: 600;
 	color: #a1a9ae;
 }
 
 .s-Card-value {
 	font-size: 2.5rem;
-	line-height: 1.5;
 	font-weight: 700;
+	line-height: 1.5;
 }
 
 .has-2-childs
@@ -411,9 +411,9 @@
 
 .s-MainHeader-title {
 	margin: 0 0 1rem 0;
-	line-height: 1.5;
-	font-weight: 600;
 	font-size: 3rem;
+	font-weight: 600;
+	line-height: 1.5;
 }
 
 .s-MainHeader--p {
@@ -508,9 +508,9 @@
 .s-Advantage-img {
 	width: 40%;
 	flex-shrink: 0;
-	background-size: contain;
-	background-repeat: no-repeat;
 	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
 }
 
 .s-Advantage--sass
