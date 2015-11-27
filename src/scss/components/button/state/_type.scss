@@ -21,11 +21,11 @@
     box-shadow: none;
   }
 
-  &[disabled] {
-    background: none;
-
+  &[disabled],
+  &[aria-disabled="true"],
+  &.is-disabled {
     &:hover {
-      background: none;
+      background-color: none;
     }
   }
 }

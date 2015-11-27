@@ -2197,6 +2197,11 @@ th {
   border: 0;
 }
 
+.Btn--raw[disabled], .Btn--raw[aria-disabled="true"], .Btn--raw.is-disabled {
+  color: #a1a9ae;
+  background-color: transparent;
+}
+
 .Btn.has-icon {
   position: relative;
   padding-left: 4.14286rem;
@@ -2268,13 +2273,15 @@ th {
 }
 
 .Btn[disabled]:hover,
-.Btn[aria-disabled="true"]:hover {
+.Btn[aria-disabled="true"]:hover,
+.Btn.is-disabled:hover {
   color: #a1a9ae;
   background: #d5d9da;
 }
 
 .Btn[disabled]:active,
-.Btn[aria-disabled="true"]:active {
+.Btn[aria-disabled="true"]:active,
+.Btn.is-disabled:active {
   box-shadow: inset 0 0 0 0 transparent;
 }
 
@@ -2363,12 +2370,8 @@ th {
   box-shadow: none;
 }
 
-.Btn--raw[disabled] {
-  background: none;
-}
-
-.Btn--raw[disabled]:hover {
-  background: none;
+.Btn--raw[disabled]:hover, .Btn--raw[aria-disabled="true"]:hover, .Btn--raw.is-disabled:hover {
+  background-color: none;
 }
 
 .Label {

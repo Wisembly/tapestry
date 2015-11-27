@@ -1,5 +1,6 @@
 .Btn[disabled],
-.Btn[aria-disabled="true"] {
+.Btn[aria-disabled="true"],
+.Btn.is-disabled {
   &:hover {
     color: $gray-chateau;
     background: $iron;
