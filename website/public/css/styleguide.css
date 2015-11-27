@@ -394,6 +394,13 @@
 
 
 
+.s-Topbar {
+	position: fixed;
+	top: 0; right: 0; left: 0;
+	height: 5px;
+	background-color: #46b489;;
+}
+
 .s-MainHeader {
 	padding: 3rem 0 2.8rem 0;
 	text-align: center;
