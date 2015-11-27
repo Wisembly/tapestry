@@ -526,7 +526,90 @@
 
 .s-Hr {
 	height: 1px;
-	margin: 8rem -5rem;
-	border: 0;
+	margin: 8rem -5rem 6rem -5rem;
 	background-color: #ddd;
+	border: 0;
 }
+
+.s-wTitle-1 {
+	font-size: 2.8rem;
+	text-align: center;
+}
+
+.s-Pre,
+.s-Code {
+  direction: ltr;
+	margin: 0;
+  font-family: 'Inconsolata', Monaco, Consolas, 'Andale Mono', monospace;
+  line-height: 1.4;
+  text-align: left;
+  word-break: normal;
+  word-spacing: normal;
+  white-space: pre;
+	color: #3a434c;
+}
+
+.s-Pre {
+	padding: 1.2rem 1.5rem;
+	background: #f7f7f7;
+}
+
+.s-Btn-gettingStarted {
+	display: block;
+	width: 20rem;
+	margin: 0 auto;
+	padding: 2rem 0;
+	font-size: 1.5rem;
+}
+
+.s-Footer {
+	margin-top: 4rem;
+	padding-top: 2rem;
+	font-size: 1rem;
+	color: #a1a9ae;
+	background-color: #3a434c;
+}
+
+.s-Footer
+	p {
+		line-height: 1.8;
+	}
+
+.s-Footer
+	a {
+		display: inline-block;
+		color: #f7f7f7;
+	}
+
+.s-Footer-nav {
+	margin-bottom: 1rem;
+}
+
+.s-Footer-nav:after {
+	content: "—";
+	display: block;
+	margin-top: 1rem;
+}
+
+.s-Footer-nav
+	a:not(:first-child) {
+		padding-left: 1rem;
+	}
+
+.s-Footer-nav
+	a:not(:last-child):after {
+		content: "•";
+		margin-left: 1rem;
+	}
+
+/*
+	- Colors
+
+	$alabaster: #f7f7f7;			$porcelain: #ebeeef;			$iron: #d5d9da;
+	$gray-chateau: #a1a9ae;		$slate-gray: #708189;			$limed-spruce: #3a434c;
+	$regent-st-blue: #aed7e8;	$curious-blue: #289bc4;		$eastern-blue: #258aae;
+	$venice-blue: #07698d;		$atoll: #0d5c7c;					$deep-sea-green: #084d66;
+	$emerald: #52c699;				$mint: #46b489;						$ocean-green: #41a07a;
+	$saffron: #f1bc33;				$galliano: #d5a82d;				$salmon: #f7896d;
+	$mandy: #e25c5b;					$fuzzy-wuzzy-brown: #c85450;
+*/
