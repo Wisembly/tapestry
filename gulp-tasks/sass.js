@@ -5,7 +5,9 @@ var prefix = require('gulp-autoprefixer');
 
 module.exports = function () {
   return gulp.src('./src/scss/**/build.scss')
-		.pipe(sass.sync().on('error', sass.logError))
+		.pipe(sass.sync({
+      outputStyle: 'expanded'
+    }).on('error', sass.logError))
     .pipe(prefix({
       browsers: ['last 2 versions']
     }))
