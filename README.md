@@ -58,6 +58,8 @@
 ### Installation
 
 ```bash
+sudo gem install scss-lint
+
 npm run pre-commit
 npm run pre-push
 ```
