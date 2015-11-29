@@ -24,24 +24,6 @@ You can inline you inputs and label by adding `--inline` to their classes
 </div>
 ```
 
-## Addons
-
-```html
-<div class="FormRow">
-  <div class="InputGroup">
-    <div class="Input-addOn Input-addOn--prefix">@</div>
-    <input class="Input Input--block Input--prefixed" type="text" placeholder="Basic input with addon" aria-label="Input item">
-  </div>
-</div>
-<div class="FormRow">
-  <div class="InputGroup">
-    <input class="Input Input--block Input--suffixed" type="text" placeholder="Input--block" aria-label="Input item">
-    <div class="Input-addOn Input-addOn--suffix">.com</div>
-  </div>
-</div>
-```
-
-
 ## Input-group
 
 ```html
@@ -50,5 +32,44 @@ You can inline you inputs and label by adding `--inline` to their classes
   <input class="Input InputGroup-item" id="InputGrouped2" placeholder="input" aria-label="Input item 2">
   <input class="Input InputGroup-item" id="InputGrouped3" placeholder="input" aria-label="Input item 3">
   <input class="Input InputGroup-item" id="InputGrouped4" placeholder="input" aria-label="Input item 4">
+</div>
+```
+
+## Input-group collapsed
+
+```html
+<div class="InputGroup InputGroup--collapsed">
+  <input class="Input InputGroup-item" id="InputGrouped1" placeholder="input" aria-label="Input item 1">
+  <input class="Input InputGroup-item" id="InputGrouped2" placeholder="input" aria-label="Input item 2">
+  <input class="Input InputGroup-item" id="InputGrouped3" placeholder="input" aria-label="Input item 3">
+  <input class="Input InputGroup-item" id="InputGrouped4" placeholder="input" aria-label="Input item 4">
+</div>
+```
+
+
+## Addon
+
+```html
+<div class="FormRow">
+  <div class="InputGroup">
+    <input class="Input InputGroup-item" type="text" placeholder="Input--block" aria-label="Input item">
+    <button type="button" class="InputGroup-item InputGroup-item--addOn Btn Btn--validate">Go</button>
+  </div>
+</div>
+```
+## Addons collapsed
+
+```html
+<div class="FormRow">
+  <div class="InputGroup InputGroup--collapsed">
+    <div class="Input InputGroup-item InputGroup-item--addOn">@</div>
+    <input class="Input InputGroup-item" type="text" placeholder="Basic input with addon" aria-label="Input item">
+  </div>
+</div>
+<div class="FormRow">
+  <div class="InputGroup InputGroup--collapsed">
+    <input class="Input InputGroup-item" type="text" placeholder="Basic input with addon" aria-label="Input item">
+    <div class="Input InputGroup-item InputGroup-item--addOn">.com</div>
+  </div>
 </div>
 ```
