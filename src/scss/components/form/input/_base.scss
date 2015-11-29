@@ -11,16 +11,6 @@
     color: $gray-chateau;
     background: $alabaster;
   }
-
-  &.Input--prefixed {
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-  }
-
-  &.Input--suffixed {
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-  }
 }
 
 .Input--inline {
