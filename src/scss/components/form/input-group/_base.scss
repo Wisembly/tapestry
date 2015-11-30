@@ -12,21 +12,32 @@
   width: auto;
   font-size: $fz--m;
   vertical-align: top;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
 
   + .InputGroup-item {
     margin-top: 0;
-    margin-left: -1px;
-    border-radius: 0;
+    margin-left: $mg--m;
   }
 
   &:focus {
     z-index: zi(base);
   }
+}
 
-  &:last-child {
-    border-top-right-radius: $base-radius;
-    border-bottom-right-radius: $base-radius;
+.InputGroup--collapsed {
+
+  .InputGroup-item {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+
+    + .InputGroup-item {
+      margin-left: -1px;
+      border-radius: 0;
+    }
+
+    &:last-child {
+      border-radius: 0;
+      border-top-right-radius: $base-radius;
+      border-bottom-right-radius: $base-radius;
+    }
   }
 }
