@@ -9,7 +9,7 @@
       @error("Incorrect min-breakpoint. Please check the @breakpoints map");
     }
 
-    $min: "(min-width: " + map-get($breakpoints, $min-bp) + ")";
+    $min: "(min-width: " + (map-get($breakpoints, $min-bp) + 1) + ")";
   }
 
   @else {

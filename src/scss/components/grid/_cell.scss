@@ -28,3 +28,19 @@
     width: percentage(($i / $column-number));
   }
 }
+
+@include bp(null, phablet, null) {
+  @for $i from 1 to ($column-number + 1) {
+    .Grid-cell--#{$i}\@mobile {
+      width: percentage(($i / $column-number));
+    }
+  }
+}
+
+@include bp(phablet, tablet, null) {
+  @for $i from 1 to ($column-number + 1) {
+    .Grid-cell--#{$i}\@tablet {
+      width: percentage(($i / $column-number));
+    }
+  }
+}
