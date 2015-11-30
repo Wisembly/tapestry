@@ -25,7 +25,7 @@
 
 
 
-@include bp(phablet) {
+@include bp(phablet, null, null) {
   .Modal {
     width: $modal-desktop-width;
   }

@@ -1459,6 +1459,123 @@ th {
   width: 100%;
 }
 
+@media screen and (max-width: 1023px) {
+  .Grid-cell--1\@phablet {
+    width: 8.33333%;
+  }
+  .Grid-cell--2\@phablet {
+    width: 16.66667%;
+  }
+  .Grid-cell--3\@phablet {
+    width: 25%;
+  }
+  .Grid-cell--4\@phablet {
+    width: 33.33333%;
+  }
+  .Grid-cell--5\@phablet {
+    width: 41.66667%;
+  }
+  .Grid-cell--6\@phablet {
+    width: 50%;
+  }
+  .Grid-cell--7\@phablet {
+    width: 58.33333%;
+  }
+  .Grid-cell--8\@phablet {
+    width: 66.66667%;
+  }
+  .Grid-cell--9\@phablet {
+    width: 75%;
+  }
+  .Grid-cell--10\@phablet {
+    width: 83.33333%;
+  }
+  .Grid-cell--11\@phablet {
+    width: 91.66667%;
+  }
+  .Grid-cell--12\@phablet {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Grid-cell--1\@tablet {
+    width: 8.33333%;
+  }
+  .Grid-cell--2\@tablet {
+    width: 16.66667%;
+  }
+  .Grid-cell--3\@tablet {
+    width: 25%;
+  }
+  .Grid-cell--4\@tablet {
+    width: 33.33333%;
+  }
+  .Grid-cell--5\@tablet {
+    width: 41.66667%;
+  }
+  .Grid-cell--6\@tablet {
+    width: 50%;
+  }
+  .Grid-cell--7\@tablet {
+    width: 58.33333%;
+  }
+  .Grid-cell--8\@tablet {
+    width: 66.66667%;
+  }
+  .Grid-cell--9\@tablet {
+    width: 75%;
+  }
+  .Grid-cell--10\@tablet {
+    width: 83.33333%;
+  }
+  .Grid-cell--11\@tablet {
+    width: 91.66667%;
+  }
+  .Grid-cell--12\@tablet {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .Grid-cell--1\@mobile {
+    width: 8.33333%;
+  }
+  .Grid-cell--2\@mobile {
+    width: 16.66667%;
+  }
+  .Grid-cell--3\@mobile {
+    width: 25%;
+  }
+  .Grid-cell--4\@mobile {
+    width: 33.33333%;
+  }
+  .Grid-cell--5\@mobile {
+    width: 41.66667%;
+  }
+  .Grid-cell--6\@mobile {
+    width: 50%;
+  }
+  .Grid-cell--7\@mobile {
+    width: 58.33333%;
+  }
+  .Grid-cell--8\@mobile {
+    width: 66.66667%;
+  }
+  .Grid-cell--9\@mobile {
+    width: 75%;
+  }
+  .Grid-cell--10\@mobile {
+    width: 83.33333%;
+  }
+  .Grid-cell--11\@mobile {
+    width: 91.66667%;
+  }
+  .Grid-cell--12\@mobile {
+    width: 100%;
+  }
+}
+
 @font-face {
   font-family: "tapestry-icons";
   src: url("../fonts/tapestry-icons.woff2") format("woff2"), url("../fonts/tapestry-icons.woff") format("woff");
