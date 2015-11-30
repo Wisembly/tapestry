@@ -14,6 +14,12 @@
   color: $slate-gray;
   background-color: $transparent;
   border: 0;
+
+  &[disabled],
+  &[aria-disabled="true"] {
+    color: $gray-chateau;
+    background-color: $transparent;
+  }
 }
 
 .Btn.has-icon {

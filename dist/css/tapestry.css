@@ -2098,7 +2098,7 @@ th {
           appearance: none;
 }
 
-.Btn[disabled], .Btn[aria-disabled="true"], .Btn.is-disabled {
+.Btn[disabled], .Btn[aria-disabled="true"] {
   color: #a1a9ae;
   background-color: #d5d9da;
   cursor: not-allowed;
@@ -2195,6 +2195,11 @@ th {
   color: #708189;
   background-color: transparent;
   border: 0;
+}
+
+.Btn--raw[disabled], .Btn--raw[aria-disabled="true"] {
+  color: #a1a9ae;
+  background-color: transparent;
 }
 
 .Btn.has-icon {
@@ -2363,12 +2368,8 @@ th {
   box-shadow: none;
 }
 
-.Btn--raw[disabled] {
-  background: none;
-}
-
-.Btn--raw[disabled]:hover {
-  background: none;
+.Btn--raw[disabled]:hover, .Btn--raw[aria-disabled="true"]:hover {
+  background-color: none;
 }
 
 .Label {
