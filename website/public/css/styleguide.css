@@ -536,10 +536,14 @@
 	text-align: center;
 }
 
+.s-Page--getting-started
+	.s-wTitle-1 {
+		text-align: left;
+	}
+
 .s-Pre,
 .s-Code {
   direction: ltr;
-	margin: 0;
   font-family: 'Inconsolata', Monaco, Consolas, 'Andale Mono', monospace;
   line-height: 1.4;
   text-align: left;
@@ -549,9 +553,10 @@
 	color: #3a434c;
 }
 
-.s-Pre {
+.s-Code {
+	margin: 0;
 	padding: 1.2rem 1.5rem;
-	background: #f7f7f7;
+  white-space: nowrap;
 }
 
 .s-Btn-gettingStarted {

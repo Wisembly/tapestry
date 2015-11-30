@@ -1,36 +1,37 @@
 extends partials/layout
 
 block content
+  h1.s-Header Getting-started
+
   .s-App-content
-    h1.s-Title--1.u-mgt--l Getting-started
-    h2.s-Title--2 Structure
-    p.s-Paragraph Built files are versionned into /dist folder.
-    p.s-Paragraph Settings and variables are set into /utils/var and can be overide
+    h1.s-wTitle-1.u-mgv--m Installation
 
-    h2.s-Title--2 Installation
-    p.s-Paragraph
-      | Installation via GitHub and Bower are provided
-      pre
-        code bower install tapestry
-      pre
-        code git clone git@github.com:Wisembly/tapestry.git
+    p.s-Paragraph Built files are versionned into /dist folder. #[br] Settings and vars are set into /utils/var and can be overide.
 
-    h2.s-Title--2 Use
-    p.s-Paragraph
-      | Standalone: install Tapestry and include the following line into your website
-      pre
-        code &lt;link href="__CHANGE_PATH__/dist/css/tapestry.css" rel="stylesheet" type="text/css"&gt;
-    p.s-Paragraph
-      | Sass: add the following line into your scss file
-      pre
-        code @import "__CHANGE_PATH__/src/scss/app";
+    h2.s-Title--2.u-mgt--l With Bower
+    pre.s-Pre
+      code.s-Code(data-lang="bash") bower install tapestry
 
-    h2.s-Title--2 Development
-    p.s-Paragraph Install Node, BrowserSync and Gulp globally
-    p.s-Paragraph
-      | Install dependencies:
-      pre
-        code npm install
-    p.s-Paragraph Start Gulp:
-      pre
-        code gulp
+    pre.s-Pre
+      code.s-Code.bash … #[br] example #[br]…
+
+    h2.s-Title--2.u-mgt--l With the dist
+    p.s-Paragraph You can download the #[a(href="https://github.com/Wisembly/tapestry/blob/master/dist/tapestry-latest.zip?raw=true", target="_blank") latest-zip here]
+    pre.s-Pre
+      code.s-Code.bash … #[br] example #[br]…
+
+    h2.s-Title--2.u-mgt--l Locally
+    pre.s-Pre
+      code.s-Code(data-lang="bash") git clone git@github.com:Wisembly/tapestry.git
+    pre.s-Pre
+      code.s-Code.bash … #[br] example #[br]…
+
+    hr.s-Hr
+
+    h1.s-wTitle-1.u-tac Components
+    a.Btn.Btn--outline.Btn--primary.s-Btn-gettingStarted(href="/components") See all components
+
+  include partials/footer
+
+block scripts
+  script(src='/js/hljs.js')
