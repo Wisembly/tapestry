@@ -16,8 +16,7 @@
   border: 0;
 
   &[disabled],
-  &[aria-disabled="true"],
-  &.is-disabled {
+  &[aria-disabled="true"] {
     color: $gray-chateau;
     background-color: $transparent;
   }

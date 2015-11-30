@@ -22,8 +22,7 @@
   }
 
   &[disabled],
-  &[aria-disabled="true"],
-  &.is-disabled {
+  &[aria-disabled="true"] {
     &:hover {
       background-color: none;
     }
