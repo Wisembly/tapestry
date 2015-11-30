@@ -14,6 +14,10 @@
       width: rem(3px);
       height: auto;
     }
+
+    + .Tab-item {
+      margin-left: 0;
+    }
   }
 
   .Tab-link {
