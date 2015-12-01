@@ -28,3 +28,44 @@
     }
   }
 }
+
+.Btn--inverted {
+  &:hover {
+    color: $limed-spruce;
+    background-color: rgba($white, .8);
+
+    &.Btn--raw {
+      color: rgba($white, .8);
+      background-color: $transparent;
+    }
+
+    &.Btn--outline {
+      color: rgba($white, .8);
+      background-color: $transparent;
+      border-color: rgba($white, .8);
+    }
+  }
+
+  &:active {
+    background-color: $white;
+    box-shadow: none;
+
+    &.Btn--raw {
+      color: $white;
+      background-color: $transparent;
+    }
+
+    &.Btn--outline {
+      color: $white;
+      background-color: $transparent;
+      border-color: $white;
+    }
+  }
+
+  &[disabled],
+  &[aria-disabled="true"] {
+    &:hover {
+      background-color: none;
+    }
+  }
+}

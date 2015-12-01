@@ -22,6 +22,29 @@
   }
 }
 
+.Btn--inverted {
+  color: $slate-gray;
+  background-color: $white;
+  border: 0;
+
+  &[disabled],
+  &[aria-disabled="true"] {
+    color: $gray-chateau;
+    background-color: $transparent;
+  }
+
+  &.Btn--raw {
+    color: $white;
+    background: $transparent;
+  }
+
+  &.Btn--outline {
+    color: $white;
+    background: $transparent;
+    border: 1px solid $white;
+  }
+}
+
 .Btn.has-icon {
   position: relative;
   padding-left: 2 * $btn-pdh + $fz--m;

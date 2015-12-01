@@ -16,6 +16,7 @@
     }
   }
 
+  .Btn--inverted.Btn-#{$color-name},
   .Btn--raw.Btn-#{$color-name} {
     &:hover {
       color: $hover-color;
