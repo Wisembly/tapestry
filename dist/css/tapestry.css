@@ -2430,8 +2430,8 @@ th {
 }
 
 .Btn--inverted:hover.Btn--raw {
-  background-color: transparent;
   color: rgba(255, 255, 255, 0.8);
+  background-color: transparent;
 }
 
 .Btn--inverted:hover.Btn--outline {
