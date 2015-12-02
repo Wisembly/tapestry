@@ -2709,9 +2709,12 @@ th {
   display: inline-block;
   padding: 0.78571rem 1.57143rem;
   color: #fff;
-  background: #07698d;
+  background: #a1a9ae;
   border-radius: 0.28571rem;
-  box-shadow: 0 1px 1.5px 0 rgba(161, 169, 174, 0.5);
+}
+
+.Notification--primary {
+  background: #07698d;
 }
 
 .Notification--validate {
@@ -2729,6 +2732,7 @@ th {
 .Notification--fixed {
   position: fixed;
   z-index: 9000;
+  box-shadow: 0 1px 1.5px 0 rgba(161, 169, 174, 0.5);
 }
 
 .Notification--block {
