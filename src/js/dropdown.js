@@ -83,10 +83,12 @@
       this.activeItem();
       this.$toggle.attr('aria-expanded', true);
       this.$el.focus();
+      this.$el.trigger('open');
     },
 
     close: function () {
       this.$toggle.attr('aria-expanded', false);
+      this.$el.trigger('close');
     },
 
     toggle: function () {
