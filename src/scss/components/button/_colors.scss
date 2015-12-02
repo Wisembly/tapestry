@@ -15,4 +15,9 @@
   .Btn--raw.Btn-#{$color-name} {
     color: $color-value;
   }
+
+  .Btn--inverted.Btn-#{$color-name} {
+    color: $color-value;
+    background-color: $white;
+  }
 }
