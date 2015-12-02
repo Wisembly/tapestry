@@ -1955,104 +1955,108 @@ th {
   content: "\ea56";
 }
 
-.Icon--singleChoice:before {
+.Icon--section:before {
   content: "\ea57";
 }
 
-.Icon--slack:before {
+.Icon--singleChoice:before {
   content: "\ea58";
 }
 
-.Icon--solid:before {
+.Icon--slack:before {
   content: "\ea59";
 }
 
-.Icon--solidFull:before {
+.Icon--solid:before {
   content: "\ea5a";
 }
 
-.Icon--star:before {
+.Icon--solidFull:before {
   content: "\ea5b";
 }
 
-.Icon--starHalf:before {
+.Icon--star:before {
   content: "\ea5c";
 }
 
-.Icon--starOutlined:before {
+.Icon--starHalf:before {
   content: "\ea5d";
 }
 
-.Icon--stop:before {
+.Icon--starOutlined:before {
   content: "\ea5e";
 }
 
-.Icon--subtitle:before {
+.Icon--stop:before {
   content: "\ea5f";
 }
 
-.Icon--sunrise:before {
+.Icon--subtitle:before {
   content: "\ea60";
 }
 
-.Icon--sunset:before {
+.Icon--sunrise:before {
   content: "\ea61";
 }
 
-.Icon--target:before {
+.Icon--sunset:before {
   content: "\ea62";
 }
 
-.Icon--themes:before {
+.Icon--target:before {
   content: "\ea63";
 }
 
-.Icon--title:before {
+.Icon--themes:before {
   content: "\ea64";
 }
 
-.Icon--trash:before {
+.Icon--title:before {
   content: "\ea65";
 }
 
-.Dropdown-selectInput:after, .Icon--triangleDown:before {
+.Icon--trash:before {
   content: "\ea66";
 }
 
-.Icon--triangleUp:before {
+.Dropdown-selectInput:after, .Icon--triangleDown:before {
   content: "\ea67";
 }
 
-.Icon--twitter:before {
+.Icon--triangleUp:before {
   content: "\ea68";
 }
 
-.Icon--typeAdd:before {
+.Icon--twitter:before {
   content: "\ea69";
 }
 
-.Icon--typeParagraph:before {
+.Icon--typeAdd:before {
   content: "\ea6a";
 }
 
-.Icon--unlock:before {
+.Icon--typeParagraph:before {
   content: "\ea6b";
 }
 
-.Icon--user:before {
+.Icon--unlock:before {
   content: "\ea6c";
 }
 
-.Icon--vote:before {
+.Icon--user:before {
   content: "\ea6d";
 }
 
-.Icon--wisembly:before {
+.Icon--vote:before {
   content: "\ea6e";
 }
 
-.Icon--wisemblyFull:before {
+.Icon--wisembly:before {
   content: "\ea6f";
+}
+
+.Icon--wisemblyFull:before {
+  content: "\ea70";
 }
 
 .Input, .Input-addOn {
