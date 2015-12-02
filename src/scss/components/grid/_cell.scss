@@ -23,8 +23,8 @@
   flex: 1 0 auto;
 }
 
-@for $i from 1 to ($column-number + 1) {
+@for $i from 1 to ($grid-column-number + 1) {
   .Grid-cell--#{$i} {
-    width: percentage(($i / $column-number));
+    width: percentage(($i / $grid-column-number));
   }
 }

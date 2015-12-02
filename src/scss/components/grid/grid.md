@@ -99,3 +99,19 @@ Take benefit of CSS flex. `Grid-cell--fr` use the remaining space. Grid-cells ca
   </div>
 </div>
 ```
+
+## Responsive Grid-cells
+Grid-cells width can change according to viewport. Use `.Grid-cell--n@phablet` for viewport greater than 414px, `.Grid-cell-n@tablet` for viewport greater than 768px and `.Grid-cell-n@laptop` for viewport greater than 1024px.
+```html
+<div class="Container">
+  <div class="Grid">
+    <div class="Grid-cell Grid-cell--12 Grid-cell--6@tablet Grid-cell--2@laptop">2 | 6@tablet | 12@laptop</div>
+    <div class="Grid-cell Grid-cell--12 Grid-cell--6@tablet Grid-cell--2@laptop">2 | 6@tablet | 12@laptop</div>
+    <div class="Grid-cell Grid-cell--12 Grid-cell--12@tablet Grid-cell--4@laptop">4 | 12@tablet | 12@laptop</div>
+    <div class="Grid-cell Grid-cell--6 Grid-cell--3@tablet Grid-cell--1@laptop">1 | 3@tablet | 6@laptop</div>
+    <div class="Grid-cell Grid-cell--6 Grid-cell--3@tablet Grid-cell--1@laptop">1 | 3@tablet | 6@laptop</div>
+    <div class="Grid-cell Grid-cell--6 Grid-cell--3@tablet Grid-cell--1@laptop">1 | 3@tablet | 6@laptop</div>
+    <div class="Grid-cell Grid-cell--6 Grid-cell--3@tablet Grid-cell--1@laptop">1 | 3@tablet | 6@laptop</div>
+  </div>
+</div>
+```
