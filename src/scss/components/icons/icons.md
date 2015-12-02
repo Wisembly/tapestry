@@ -448,6 +448,11 @@
 </div>
 
 <div class="s-Icon">
+  <i class="Icon Icon--section"></i>
+  section
+</div>
+
+<div class="s-Icon">
   <i class="Icon Icon--singleChoice"></i>
   singleChoice
 </div>
