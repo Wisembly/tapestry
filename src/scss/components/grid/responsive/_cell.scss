@@ -1,15 +1,11 @@
-@include bp(null, phablet, null) {
-  @for $i from 1 to ($column-number + 1) {
-    .Grid-cell--#{$i}\@mobile {
-      width: percentage(($i / $column-number));
-    }
-  }
-}
+@for $i from 1 to (length($grid-responsive-range) + 1) {
+  $device: nth($grid-responsive-range, $i);
 
-@include bp(phablet, tablet, null) {
-  @for $i from 1 to ($column-number + 1) {
-    .Grid-cell--#{$i}\@tablet {
-      width: percentage(($i / $column-number));
+  @include bp(#{$device}, null, null) {
+    @for $i from 1 to ($grid-column-number + 1) {
+      .Grid-cell--#{$i}\@#{$device} {
+        width: percentage(($i / $grid-column-number));
+      }
     }
   }
 }
