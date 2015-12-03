@@ -1,54 +1,54 @@
-@mixin bp ($args...) {
-  $count: length($args);
-  $min-bp: nth($args, 1);
-  $max-bp: nth($args, 2);
-  $orientation: nth($args, 3);
+@mixin bp ($min-bp: null, $max-bp: null, $orientation: null) {
 
-  @if $min-bp != null {
+  @if $min-bp == null {
+    $min-bp: "";
+  }
+
+  @else {
     @if map-get($breakpoints, $min-bp) == null {
       @error("Incorrect min-breakpoint. Please check the @breakpoints map");
     }
 
-    $min: "(min-width: " + (map-get($breakpoints, $min-bp) + 1) + ")";
+    $min-bp: "(min-width: " + (map-get($breakpoints, $min-bp) + 1) + ")";
+  }
+
+
+
+  @if $max-bp == null {
+    $max-bp: "";
   }
 
   @else {
-    $min: "";
-  };
-
-  @if $max-bp != null {
     @if map-get($breakpoints, $max-bp) == null {
       @error("Incorrect max-breakpoint. Please check the @breakpoints map");
     }
 
-    $max: "(max-width: " + map-get($breakpoints, $max-bp) + ")";
+    $max-bp: "(max-width: " + map-get($breakpoints, $max-bp) + ")";
 
-    @if $min != "" {
-      $max: " and " + $max;
+    @if $min-bp != "" {
+      $max-bp: " and " + $max-bp;
     }
   }
 
-  @else {
-    $max: "";
-  };
 
-  @if $orientation != null {
+
+  @if $orientation == null {
+    $orientation: "";
+  }
+
+  @else {
     @if $orientation != "portrait" and $orientation != "landscape" {
       @error("Incorrect orientation. Please use 'portrait' or 'landscape'");
     }
 
     $orientation: "(orientation: " + $orientation + ")";
 
-    @if $min != "" or $max != ""{
+    @if $min-bp != "" or $max-bp != "" {
       $orientation: " and " + $orientation;
     }
   }
 
-  @else {
-    $orientation: "";
-  };
-
-  @media #{$min + $max + $orientation} {
+  @media #{unquote($min-bp) + unquote($max-bp) + unquote($orientation)} {
     @content;
   }
 }
