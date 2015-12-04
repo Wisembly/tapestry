@@ -1,16 +1,15 @@
 .Avatar {
   display: inline-block;
-  width: $avatar-size;
-  height: $avatar-size;
-  font-size: $fz--m;
-  line-height: $avatar-size;
   text-align: center;
   text-transform: uppercase;
   vertical-align: middle;
   color: $white;
   background-color: $white;
-  border-radius: 50%;
   overflow: hidden;
+
+  @if $avatar-rounded {
+    border-radius: 50%;
+  }
 }
 
 .Avatar--empty {

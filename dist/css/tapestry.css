@@ -925,17 +925,13 @@ th {
 
 .Avatar {
   display: inline-block;
-  width: 2.75rem;
-  height: 2.75rem;
-  font-size: 1rem;
-  line-height: 2.75rem;
   text-align: center;
   text-transform: uppercase;
   vertical-align: middle;
   color: #fff;
   background-color: #fff;
-  border-radius: 50%;
   overflow: hidden;
+  border-radius: 50%;
 }
 
 .Avatar--empty {
@@ -945,6 +941,14 @@ th {
 
 .Avatar--empty:before {
   margin-left: 1px;
+}
+
+.Avatar,
+.Avatar--m {
+  width: 2.75rem;
+  height: 2.75rem;
+  font-size: 1rem;
+  line-height: 2.75rem;
 }
 
 .Avatar--s {
@@ -959,6 +963,11 @@ th {
   height: 3.53571rem;
   font-size: 1.2rem;
   line-height: 3.53571rem;
+}
+
+.Avatar--test {
+  width: 1.57143rem;
+  height: 1.57143rem;
 }
 
 .Avatar--color1 {
