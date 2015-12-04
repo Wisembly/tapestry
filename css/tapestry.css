@@ -586,23 +586,23 @@ a {
 }
 
 .t-neutral {
-  color: #a1a9ae;
+  color: #a1a9ae !important;
 }
 
 .t-primary {
-  color: #07698d;
+  color: #07698d !important;
 }
 
 .t-validate {
-  color: #46b489;
+  color: #46b489 !important;
 }
 
 .t-info {
-  color: #f1bc33;
+  color: #f1bc33 !important;
 }
 
 .t-error {
-  color: #e25c5b;
+  color: #e25c5b !important;
 }
 
 .Line {
