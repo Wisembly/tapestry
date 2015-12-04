@@ -1099,6 +1099,7 @@ th {
 }
 
 .Box-content {
+  margin-bottom: 0;
   padding: 1.57143rem;
   overflow: auto;
 }

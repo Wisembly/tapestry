@@ -4,7 +4,7 @@
 
   + .Box,
   + .Boxes {
-    margin-top: $mg--m;
+    margin-top: $box-space-between;
   }
 
   > .List:first-child .List-item:first-child {
