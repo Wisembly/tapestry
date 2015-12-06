@@ -2780,7 +2780,7 @@ th {
   overflow: auto;
 }
 
-.Modal-content.has-collection {
+.Modal-content.has-list {
   padding: 0;
 }
 
@@ -2790,13 +2790,9 @@ th {
           flex-grow: 1;
 }
 
-.Modal-collection .Collection-item {
-  border-right: 0;
-  border-left: 0;
-}
-
-.Modal-collection .Collection-item:first-child {
-  border-top: 0;
+.Modal-content .List {
+  border-bottom: 0;
+  margin-top: -1px;
 }
 
 .Modal-footer {
