@@ -26,11 +26,11 @@ Aims at including a simple caption or call-to-action.
 <div id="js-ModalSimpleOverlay" class="Overlay" aria-hidden="true"></div>
 ```
 
-## Modal with collection
-Wraps a component collection.
+## Modal with list
+Wraps a list.
 
 ```esc
-<button class="Btn Btn--primary Btn--outline" id="js-LaunchModalMenu">Open Modal with collection</button>
+<button class="Btn Btn--primary Btn--outline" id="js-LaunchModalMenu">Open Modal with list</button>
 ```
 
 ```html
@@ -44,21 +44,20 @@ Wraps a component collection.
       <i class="Icon Icon--cross"></i>
     </button>
   </div>
-  <div class="Modal-content has-collection">
-    <ul class="Collection Collection--actionnable Modal-collection">
-      <li class="Collection-item">A</li>
-      <li class="Collection-item">B</li>
-      <li class="Collection-item">C</li>
-      <li class="Collection-item">D</li>
-      <li class="Collection-item">E</li>
-      <li class="Collection-item">F</li>
-      <li class="Collection-item">G</li>
-      <li class="Collection-item">H</li>
-      <li class="Collection-item">I</li>
-      <li class="Collection-item">J</li>
-      <li class="Collection-item">K</li>
-      <li class="Collection-item">L</li>
-      <li class="Collection-item">M</li>
+  <div class="Modal-content has-list">
+    <ul class="List">
+      <li class="List-item">A</li>
+      <li>
+        <a href="#foo" class="List-item List-item--link is-actionable">E</a>
+      </li>
+      <li class="List-item">I</li>
+      <li>
+        <a href="#foo" class="List-item List-item--link is-actionable">O</a>
+      </li>
+      <li class="List-item">U</li>
+      <li>
+        <a href="#foo" class="List-item List-item--link is-actionable">Y</a>
+      </li>
     </ul>
   </div>
   <div class="Modal-footer">
