@@ -1,5 +1,15 @@
 .Input {
-  @extend %Input-core;
+  display: inline-block;
+  width: 100%;
+  padding: rb(2) $pd--s;
+  font-size: $fz--m;
+  line-height: $base-lh;
+  vertical-align: middle;
+  color: $form-text-color;
+  background: $white;
+  border: 1px solid $base-border-color;
+  border-radius: $base-radius;
+  appearance: none;
 
   &:focus {
     color: $limed-spruce;
@@ -12,14 +22,9 @@
     background: $alabaster;
   }
 
-  &.Input--prefixed {
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-  }
-
-  &.Input--suffixed {
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
+  + .Input,
+  + .Btn {
+    margin-left: $mg--m;
   }
 }
 
