@@ -40,13 +40,12 @@ You can inline you inputs and label by adding `--inline` to their classes
   </div>
 </div>
 <div class="FormRow">
-
+  <div class="InputGroup">
     <input class="Input" type="text" placeholder="Basic input with addon" aria-label="Input item">
     <button class="Btn Btn--validate">Add</button>
-
+  </div>
 </div>
 ```
-
 
 ## Input-group
 
