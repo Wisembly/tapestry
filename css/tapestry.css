@@ -1207,6 +1207,9 @@ th {
 }
 
 .Dropdown-item {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
   display: block;
   position: relative;
   margin: 0.39286rem;
@@ -1216,7 +1219,6 @@ th {
   line-height: 1.57143rem;
   text-align: left;
   text-decoration: none;
-  white-space: nowrap;
   color: #3a434c;
   border-radius: 0.28571rem;
   cursor: pointer;
@@ -2791,8 +2793,8 @@ th {
 }
 
 .Modal-content .List {
-  border-bottom: 0;
   margin-top: -1px;
+  border-bottom: 0;
 }
 
 .Modal-footer {
