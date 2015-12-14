@@ -2061,7 +2061,7 @@ th {
   content: "\ea70";
 }
 
-.Input, .Input-addOn {
+.Input {
   display: inline-block;
   width: 100%;
   padding: 0.71429rem 0.78571rem;
@@ -2088,14 +2088,10 @@ th {
   background: #f7f7f7;
 }
 
-.Input.Input--prefixed {
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
-}
-
-.Input.Input--suffixed {
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
+.Input + .Input,
+.Input + .Btn,
+.Btn + .Input {
+  margin-left: 1.57143rem;
 }
 
 .Input--inline {
@@ -2109,25 +2105,6 @@ th {
 
 .Input--inline + .Label--inline {
   margin-left: 0.39286rem;
-}
-
-.Input-addOn {
-  width: auto;
-  -webkit-flex-shrink: 0;
-      -ms-flex-negative: 0;
-          flex-shrink: 0;
-}
-
-.Input-addOn.Input-addOn--prefix {
-  border-right: 0;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
-}
-
-.Input-addOn.Input-addOn--suffix {
-  border-left: 0;
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
 }
 
 .InputGroup {
@@ -2146,7 +2123,6 @@ th {
       -ms-flex: 1;
           flex: 1;
   width: auto;
-  font-size: 1rem;
   vertical-align: top;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
@@ -2165,6 +2141,13 @@ th {
 .InputGroup-item:last-child {
   border-top-right-radius: 0.28571rem;
   border-bottom-right-radius: 0.28571rem;
+}
+
+.Input-addOn {
+  -webkit-flex: 0 0 auto;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  width: auto;
 }
 
 .BtnGroup {
