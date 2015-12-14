@@ -23,7 +23,8 @@
   }
 
   + .Input,
-  + .Btn {
+  + .Btn,
+  .Btn + & {
     margin-left: $mg--m;
   }
 }
