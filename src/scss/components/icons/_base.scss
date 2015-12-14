@@ -431,8 +431,16 @@
   @extend %Icon--home;
 }
 
-%Icon--label {
+%Icon--info {
   content: "\ea32";
+}
+
+.Icon--info:before {
+  @extend %Icon--info;
+}
+
+%Icon--label {
+  content: "\ea33";
 }
 
 .Icon--label:before {
@@ -440,7 +448,7 @@
 }
 
 %Icon--like {
-  content: "\ea33";
+  content: "\ea34";
 }
 
 .Icon--like:before {
@@ -448,7 +456,7 @@
 }
 
 %Icon--linkedin {
-  content: "\ea34";
+  content: "\ea35";
 }
 
 .Icon--linkedin:before {
@@ -456,7 +464,7 @@
 }
 
 %Icon--listCollapse {
-  content: "\ea35";
+  content: "\ea36";
 }
 
 .Icon--listCollapse:before {
@@ -464,7 +472,7 @@
 }
 
 %Icon--listExpand {
-  content: "\ea36";
+  content: "\ea37";
 }
 
 .Icon--listExpand:before {
@@ -472,7 +480,7 @@
 }
 
 %Icon--live {
-  content: "\ea37";
+  content: "\ea38";
 }
 
 .Icon--live:before {
@@ -480,7 +488,7 @@
 }
 
 %Icon--lock {
-  content: "\ea38";
+  content: "\ea39";
 }
 
 .Icon--lock:before {
@@ -488,7 +496,7 @@
 }
 
 %Icon--mail {
-  content: "\ea39";
+  content: "\ea3a";
 }
 
 .Icon--mail:before {
@@ -496,7 +504,7 @@
 }
 
 %Icon--meetingList {
-  content: "\ea3a";
+  content: "\ea3b";
 }
 
 .Icon--meetingList:before {
@@ -504,7 +512,7 @@
 }
 
 %Icon--message {
-  content: "\ea3b";
+  content: "\ea3c";
 }
 
 .Icon--message:before {
@@ -512,7 +520,7 @@
 }
 
 %Icon--minus {
-  content: "\ea3c";
+  content: "\ea3d";
 }
 
 .Icon--minus:before {
@@ -520,7 +528,7 @@
 }
 
 %Icon--more {
-  content: "\ea3d";
+  content: "\ea3e";
 }
 
 .Icon--more:before {
@@ -528,7 +536,7 @@
 }
 
 %Icon--multipleChoice {
-  content: "\ea3e";
+  content: "\ea3f";
 }
 
 .Icon--multipleChoice:before {
@@ -536,7 +544,7 @@
 }
 
 %Icon--note {
-  content: "\ea3f";
+  content: "\ea40";
 }
 
 .Icon--note:before {
@@ -544,7 +552,7 @@
 }
 
 %Icon--openIssue {
-  content: "\ea40";
+  content: "\ea41";
 }
 
 .Icon--openIssue:before {
@@ -552,7 +560,7 @@
 }
 
 %Icon--openQuestion {
-  content: "\ea41";
+  content: "\ea42";
 }
 
 .Icon--openQuestion:before {
@@ -560,7 +568,7 @@
 }
 
 %Icon--openedEye {
-  content: "\ea42";
+  content: "\ea43";
 }
 
 .Icon--openedEye:before {
@@ -568,7 +576,7 @@
 }
 
 %Icon--paragraph {
-  content: "\ea43";
+  content: "\ea44";
 }
 
 .Icon--paragraph:before {
@@ -576,7 +584,7 @@
 }
 
 %Icon--participant {
-  content: "\ea44";
+  content: "\ea45";
 }
 
 .Icon--participant:before {
@@ -584,7 +592,7 @@
 }
 
 %Icon--pause {
-  content: "\ea45";
+  content: "\ea46";
 }
 
 .Icon--pause:before {
@@ -592,7 +600,7 @@
 }
 
 %Icon--pellet {
-  content: "\ea46";
+  content: "\ea47";
 }
 
 .Icon--pellet:before {
@@ -600,7 +608,7 @@
 }
 
 %Icon--pelletCheck {
-  content: "\ea47";
+  content: "\ea48";
 }
 
 .Icon--pelletCheck:before {
@@ -608,7 +616,7 @@
 }
 
 %Icon--pelletClose {
-  content: "\ea48";
+  content: "\ea49";
 }
 
 .Icon--pelletClose:before {
@@ -616,7 +624,7 @@
 }
 
 %Icon--pelletMinus {
-  content: "\ea49";
+  content: "\ea4a";
 }
 
 .Icon--pelletMinus:before {
@@ -624,7 +632,7 @@
 }
 
 %Icon--pencil {
-  content: "\ea4a";
+  content: "\ea4b";
 }
 
 .Icon--pencil:before {
@@ -632,7 +640,7 @@
 }
 
 %Icon--phone {
-  content: "\ea4b";
+  content: "\ea4c";
 }
 
 .Icon--phone:before {
@@ -640,7 +648,7 @@
 }
 
 %Icon--picture {
-  content: "\ea4c";
+  content: "\ea4d";
 }
 
 .Icon--picture:before {
@@ -648,7 +656,7 @@
 }
 
 %Icon--play {
-  content: "\ea4d";
+  content: "\ea4e";
 }
 
 .Icon--play:before {
@@ -656,7 +664,7 @@
 }
 
 %Icon--plus {
-  content: "\ea4e";
+  content: "\ea4f";
 }
 
 .Icon--plus:before {
@@ -664,7 +672,7 @@
 }
 
 %Icon--popup {
-  content: "\ea4f";
+  content: "\ea50";
 }
 
 .Icon--popup:before {
@@ -672,19 +680,11 @@
 }
 
 %Icon--public {
-  content: "\ea50";
+  content: "\ea51";
 }
 
 .Icon--public:before {
   @extend %Icon--public;
-}
-
-%Icon--quickNote {
-  content: "\ea51";
-}
-
-.Icon--quickNote:before {
-  @extend %Icon--quickNote;
 }
 
 %Icon--recurring {

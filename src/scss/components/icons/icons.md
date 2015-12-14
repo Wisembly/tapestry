@@ -263,6 +263,11 @@
 </div>
 
 <div class="s-Icon">
+  <i class="Icon Icon--info"></i>
+  info
+</div>
+
+<div class="s-Icon">
   <i class="Icon Icon--label"></i>
   label
 </div>
@@ -415,11 +420,6 @@
 <div class="s-Icon">
   <i class="Icon Icon--public"></i>
   public
-</div>
-
-<div class="s-Icon">
-  <i class="Icon Icon--quickNote"></i>
-  quickNote
 </div>
 
 <div class="s-Icon">

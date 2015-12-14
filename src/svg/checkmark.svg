@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <!-- Generator: Sketch 3.4.2 (15857) - http://www.bohemiancoding.com/sketch -->
+<svg width="20px" height="15px" viewBox="0 0 20 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
     <title>checkmark</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="checkmark" sketch:type="MSArtboardGroup" transform="translate(-6.000000, -6.000000)" fill="#3A434C">
-            <g sketch:type="MSLayerGroup" transform="translate(6.000000, 8.000000)" id="Page-1">
-                <g sketch:type="MSShapeGroup">
-                    <g id="checkmark">
-                        <path d="M6.06976816,15.1851966 L6.82281224,16 L7.56751128,15.1771306 L20,1.43961477 L18.49488,0 L6.8305688,12.9400502 L1.49036631,7.16188176 L0,8.61762856 L6.06976816,15.1851966 L6.06976816,15.1851966 Z" id="Shape"></path>
-                    </g>
-                </g>
-            </g>
+        <g id="checkmark" sketch:type="MSArtboardGroup" transform="translate(-6.000000, -8.000000)" fill="#3A434C">
+            <path d="M6.37669175,16.2672274 L12.7157903,22.4572964 C13.2117432,22.9415896 14.0070703,22.9298237 14.4884801,22.4310715 L25.6493816,10.8681087 C26.1288248,10.371394 26.1148235,9.58006165 25.6181087,9.10061843 C25.121394,8.62117521 24.3300617,8.63517653 23.8506184,9.13189125 L12.689717,20.694854 L14.4624068,20.6686291 L8.12330825,14.4785601 C7.62938141,13.9962452 6.83798117,14.0056586 6.35566634,14.4995855 C5.87335151,14.9935123 5.88276491,15.7849126 6.37669175,16.2672274 L6.37669175,16.2672274 Z" sketch:type="MSShapeGroup"></path>
         </g>
     </g>
 </svg>
