@@ -15,11 +15,11 @@ You can inline you inputs and label by adding `--inline` to their classes
 ```html
 <div class="FormRow">
   <label class="Label Label--inline">Bar</label>
-  <input class="Input Input--inline" type="text" placeholder="Input--block" aria-label="Input item">
+  <input class="Input Input--inline" type="text" placeholder="" aria-label="Input item">
 </div>
 
 <div class="FormRow">
-  <input class="Input Input--inline" type="text" placeholder="Input--block" aria-label="Input item">
+  <input class="Input Input--inline" type="text" placeholder="" aria-label="Input item">
   <label class="Label Label--inline">Bar</label>
 </div>
 ```
@@ -29,18 +29,23 @@ You can inline you inputs and label by adding `--inline` to their classes
 ```html
 <div class="FormRow">
   <div class="InputGroup">
-    <div class="Input-addOn Input-addOn--prefix">@</div>
-    <input class="Input Input--block Input--prefixed" type="text" placeholder="Basic input with addon" aria-label="Input item">
+    <div class="Input InputGroup-item Input-addOn">@</div>
+    <input class="Input InputGroup-item" type="text" placeholder="Basic input with addon" aria-label="Input item">
   </div>
 </div>
 <div class="FormRow">
   <div class="InputGroup">
-    <input class="Input Input--block Input--suffixed" type="text" placeholder="Input--block" aria-label="Input item">
-    <div class="Input-addOn Input-addOn--suffix">.com</div>
+    <input class="Input InputGroup-item" type="text" placeholder="Basic input with addon" aria-label="Input item">
+    <button class="Btn Btn--validate InputGroup-item Input-addOn">Add</button>
+  </div>
+</div>
+<div class="FormRow">
+  <div class="InputGroup">
+    <input class="Input" type="text" placeholder="Basic input with addon" aria-label="Input item">
+    <button class="Btn Btn--validate">Add</button>
   </div>
 </div>
 ```
-
 
 ## Input-group
 
