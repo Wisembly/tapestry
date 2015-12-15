@@ -563,6 +563,11 @@
 </div>
 
 <div class="s-Icon">
+  <i class="Icon Icon--voice"></i>
+  voice
+</div>
+
+<div class="s-Icon">
   <i class="Icon Icon--vote"></i>
   vote
 </div>

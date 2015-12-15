@@ -911,8 +911,16 @@
   @extend %Icon--user;
 }
 
-%Icon--vote {
+%Icon--voice {
   content: "\ea6e";
+}
+
+.Icon--voice:before {
+  @extend %Icon--voice;
+}
+
+%Icon--vote {
+  content: "\ea6f";
 }
 
 .Icon--vote:before {
@@ -920,7 +928,7 @@
 }
 
 %Icon--wisembly {
-  content: "\ea6f";
+  content: "\ea70";
 }
 
 .Icon--wisembly:before {
@@ -928,7 +936,7 @@
 }
 
 %Icon--wisemblyFull {
-  content: "\ea70";
+  content: "\ea71";
 }
 
 .Icon--wisemblyFull:before {
