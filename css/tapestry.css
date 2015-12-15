@@ -2049,16 +2049,20 @@ th {
   content: "\ea6d";
 }
 
-.Icon--vote:before {
+.Icon--voice:before {
   content: "\ea6e";
 }
 
-.Icon--wisembly:before {
+.Icon--vote:before {
   content: "\ea6f";
 }
 
-.Icon--wisemblyFull:before {
+.Icon--wisembly:before {
   content: "\ea70";
+}
+
+.Icon--wisemblyFull:before {
+  content: "\ea71";
 }
 
 .Input {
