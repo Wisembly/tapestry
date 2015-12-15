@@ -4,17 +4,16 @@
   border-radius: $switch-height--s;
 
   &:after {
-    left: $switch-space-around--s / 2;
-    width: $switch-height--s - $switch-space-around--s;
-    height: $switch-height--s - $switch-space-around--s;
-    margin-top: (-$switch-height--s / 2) + $switch-space-around--s / 2;
-    border-radius: $switch-height--s - $switch-space-around--s;
+    width: $switch-height--s;
+    height: $switch-height--s;
+    border-width: ($switch-inner-space--s / 2);
+    border-radius: ($switch-height--s / 2);
   }
 }
 
 input,
 .Switch-checkbox {
   &:checked + .Switch--s:after {
-    left: ($switch-width--s / 2);
+    left: $switch-width--s - $switch-height--s;
   }
 }
