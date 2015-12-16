@@ -3424,8 +3424,8 @@ input:checked + .Switch:after,
 .Switch--s:after {
   width: 1.12245rem;
   height: 1.12245rem;
-  border-radius: 0.56122rem;
   border-width: 0.14286rem;
+  border-radius: 0.56122rem;
 }
 
 input:checked + .Switch--s:after,

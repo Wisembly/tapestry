@@ -1,1 +1,7 @@
-$meter-radius: $base-radius * 2;
+$meter-height: $lh--s !default;
+$meter-radius: $base-radius * 2 !default;
+$meter-base-bg: $porcelain !default;
+
+$meter-bar-bg: $curious-blue !default;
+$meter-bar-bg--75: $saffron !default;
+$meter-bar-bg--99: $mandy !default;

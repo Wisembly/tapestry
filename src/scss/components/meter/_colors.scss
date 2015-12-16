@@ -1,11 +1,9 @@
-[data-threshold="75"] {
-  .Meter-bar {
-    background: $saffron;
+.Meter-bar {
+  [data-threshold="75"] & {
+    background: $meter-bar-bg--75;
   }
-}
 
-[data-threshold="99"] {
-  .Meter-bar {
-    background: $mandy;
+  [data-threshold="99"] & {
+    background: $meter-bar-bg--99;
   }
 }
