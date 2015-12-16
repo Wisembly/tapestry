@@ -107,6 +107,10 @@
   @import "components/switch/core";
 }
 
+@if $import-states {
+  @import "components/states/core";
+}
+
 @if $import-table {
   @import "components/table/core";
 }

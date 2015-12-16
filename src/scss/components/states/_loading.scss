@@ -1,0 +1,48 @@
+%LoadingBullet {
+  display: inline-block;
+  width: $loading-bullet-diameter;
+  height: $loading-bullet-diameter;
+  vertical-align: middle;
+  border-radius: 50%;
+  animation: Loading 1.2s infinite ease-in-out;
+}
+
+
+.Loading,
+.Loading:before,
+.Loading:after {
+  @extend %LoadingBullet;
+}
+
+.Loading:before {
+  content: "";
+  position: absolute;
+  left: -(2 * $loading-bullet-offset);
+  opacity: .4;
+}
+
+.Loading:after {
+  content: "";
+  position: absolute;
+  left: #{-$loading-bullet-offset};
+  opacity: .6;
+  animation-delay: .2s;
+}
+
+.Loading {
+  position: relative;
+  margin-top: 2 * $loading-bullet-diameter;
+  margin-left: 2 * $loading-bullet-offset;
+  background: transparent;
+  animation-delay: .4s;
+}
+
+@keyframes Loading {
+  0%, 10%, 90%, 100% {
+    box-shadow: 0 #{-$loading-bullet-diameter} 0 0 $loading-bullet-color;
+  }
+
+  50% {
+    box-shadow: 0 #{-$loading-bullet-diameter} 0 #{-$loading-bullet-diameter} $loading-bullet-color;
+  }
+}
