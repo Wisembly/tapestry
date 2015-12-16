@@ -1112,6 +1112,10 @@ th {
   margin-top: 1.57143rem;
 }
 
+.Box--raw {
+  border: 0;
+}
+
 .Dropdown {
   display: inline-block;
   position: relative;

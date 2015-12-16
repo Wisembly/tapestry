@@ -24,7 +24,7 @@ By default, boxes don't have paddings, you need to structure with `Box-header` a
 </div>
 ```
 
-## horizontal Boxes
+## Horizontal Boxes
 
 ```html
 <div class="Boxes">
@@ -60,6 +60,22 @@ By default, boxes don't have paddings, you need to structure with `Box-header` a
     <div class="Box-content">
       Pellentesque habitant
     </div>
+  </div>
+</div>
+```
+
+## Type
+
+### Raw
+Remove box borders.
+
+```
+<div class="Box Box--raw">
+  <div class="Box-content">
+    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+    Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.
+    Donec eu libero sit amet quam egestas semper.
+    Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
   </div>
 </div>
 ```
