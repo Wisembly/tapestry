@@ -1,2 +1,4 @@
-$modal-button-width: $fz--m + ($base-mg * 2);
-$modal-desktop-width: r(80);
+$modal-header-btn-width: $fz--m + ($base-mg * 2) !default;
+
+$modal-width: 90% !default;
+$modal-max-width: r(80) !default;

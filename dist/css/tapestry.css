@@ -2964,7 +2964,7 @@ th {
   -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
-  margin: 0 1.57143rem;
+  margin: 0;
   padding: 0.78571rem 4.14286rem;
   font-size: 1.2rem;
   font-weight: 600;

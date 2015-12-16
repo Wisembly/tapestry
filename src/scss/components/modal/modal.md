@@ -1,5 +1,28 @@
 # Modal
 
+## Variables
+
+```esc
+<table class="Table">
+  <tbody class="Table-body">
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal" width="35%">$modal-header-btn-width</td>
+      <td class="Table-cell Table-cell--important">$fz--m + ($base-mg * 2)</td>
+    </tr>
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal">$modal-width</td>
+      <td class="Table-cell Table-cell--important">90%</td>
+    </tr>
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal">$modal-max-width</td>
+      <td class="Table-cell Table-cell--important">r(80)</td>
+    </tr>
+  </tbody>
+</table>
+```
+
+
+
 ## Modal with simple message
 Aims at including a simple caption or call-to-action.
 
@@ -25,6 +48,8 @@ Aims at including a simple caption or call-to-action.
 </div>
 <div id="js-ModalSimpleOverlay" class="Overlay" aria-hidden="true"></div>
 ```
+
+
 
 ## Modal with list
 Wraps a list.
@@ -67,6 +92,8 @@ Wraps a list.
 </div>
 <div id="js-ModalMenuOverlay" class="Overlay" aria-hidden="true"></div>
 ```
+
+
 
 ## Notes
 - Height can't exceed ~100vh (vertical margins are already set),

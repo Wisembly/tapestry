@@ -8,7 +8,7 @@
 }
 
 .ModalHeader-btn {
-  width: $modal-button-width;
+  width: $modal-header-btn-width;
   padding: r(2) 0;
   line-height: $lh--xl;
   color: $regent-st-blue;
@@ -21,8 +21,8 @@
 .Modal-title {
   @include ellipsis;
   flex-grow: 1;
-  margin: 0 $mg--m;
-  padding: r(2) $modal-button-width;
+  margin: 0;
+  padding: r(2) $modal-header-btn-width;
   font-size: $fz--l;
   font-weight: $fw--semi-bold;
   line-height: $lh--xl;
@@ -38,6 +38,6 @@
   }
 
   + .ModalHeader-btn {
-    margin-left: -$modal-button-width;
+    margin-left: -$modal-header-btn-width;
   }
 }

@@ -5,7 +5,7 @@
   visibility: hidden;
   z-index: zi("modal");
   width: 100%;
-  max-width: 90%;
+  max-width: $modal-width;
   max-height: calc(100vh - #{2 * $mg--m});
   opacity: 0;
   filter: blur(0);
@@ -27,6 +27,6 @@
 
 @include bp(phablet) {
   .Modal {
-    width: $modal-desktop-width;
+    width: $modal-max-width;
   }
 }
