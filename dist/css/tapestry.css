@@ -1051,16 +1051,6 @@ th {
   border: 1px solid #d5d9da;
 }
 
-.Box:before, .Box:after {
-  content: "";
-  display: table;
-}
-
-.Box:after {
-  clear: both;
-  zoom: 1;
-}
-
 .Box + .Box,
 .Box + .Boxes {
   margin-top: 1.57143rem;
@@ -1076,16 +1066,6 @@ th {
 
 .Box-header {
   padding: 1.57143rem 1.57143rem 0.78571rem;
-}
-
-.Box-header:before, .Box-header:after {
-  content: "";
-  display: table;
-}
-
-.Box-header:after {
-  clear: both;
-  zoom: 1;
 }
 
 .Box-title {
@@ -1130,6 +1110,10 @@ th {
 .Boxes + .Boxes,
 .Boxes + .Box {
   margin-top: 1.57143rem;
+}
+
+.Box--raw {
+  border: 0;
 }
 
 .Dropdown {
@@ -2126,7 +2110,7 @@ th {
   -webkit-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  width: auto;
+  width: 1%;
   vertical-align: top;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;

@@ -1,7 +1,6 @@
 .Box {
-  @include cf();
   background: $white;
-  border: 1px solid $iron;
+  border: 1px solid $base-border-color;
 
   + .Box,
   + .Boxes {
