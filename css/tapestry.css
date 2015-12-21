@@ -2082,6 +2082,12 @@ th {
   margin-left: 1.57143rem;
 }
 
+.Input + .Btn--block,
+.Btn--block .Input {
+  margin-top: 0.78571rem;
+  margin-left: 0;
+}
+
 .Input--inline {
   width: auto;
 }
