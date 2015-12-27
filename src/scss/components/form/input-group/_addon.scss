@@ -1,5 +1,5 @@
 .Input-addOn {
-  display: inline-block;
+  flex: 0;
   width: auto;
   padding: rb(2) $pd--s;
   font-size: $fz--m;
@@ -11,10 +11,5 @@
 
   &:not(.Btn) {
     cursor: default;
-  }
-
-  .InputGroup-item + &,
-  &.InputGroup-item {
-    flex: 0;
   }
 }
