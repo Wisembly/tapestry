@@ -32,4 +32,9 @@
     border-top-right-radius: $base-radius;
     border-bottom-right-radius: $base-radius;
   }
+
+  .Dropdown-selectInput {
+    border-radius: 0;
+  }
+
 }
