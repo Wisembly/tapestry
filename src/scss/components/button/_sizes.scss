@@ -35,3 +35,13 @@
   padding: $btn-pdv 0;
   border-radius: 50%;
 }
+
+.Btn--s.has-icon {
+  position: relative;
+  padding-left: 2 * $btn-pdh + $fz--m;
+  text-align: center;
+
+  .Btn-icon {
+    line-height: r(5);
+  }
+}

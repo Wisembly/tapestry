@@ -24,13 +24,14 @@
     cursor: not-allowed;
   }
 
-  .Icon {
-    display: inline-block;
-    line-height: $base-lh;
-    vertical-align: top;
-  }
-
   + .Btn:not(.Btn--block) {
     margin-left: $mg--s;
   }
+}
+
+.Btn-icon {
+  display: inline-block;
+  font-size: inherit;
+  line-height: 1;
+  vertical-align: sub;
 }
