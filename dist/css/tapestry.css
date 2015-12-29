@@ -2181,6 +2181,10 @@ th {
   margin-bottom: 0;
 }
 
+.InputGroup.has-icon {
+  position: relative;
+}
+
 .InputGroup-item {
   -webkit-flex: 1;
       -ms-flex: 1;
@@ -2233,6 +2237,38 @@ th {
 
 .Input-addOn:not(.Btn) {
   cursor: default;
+}
+
+.has-icon--pulled .Input-icon {
+  position: absolute;
+  top: 0.78571rem;
+  right: auto;
+  bottom: auto;
+  left: 0.78571rem;
+}
+
+.has-icon--pulled .Input {
+  padding-left: 2.35714rem;
+}
+
+.has-icon--pushed .Input-icon {
+  position: absolute;
+  top: 0.78571rem;
+  right: 0.78571rem;
+  bottom: auto;
+  left: auto;
+}
+
+.has-icon--pushed .Input {
+  padding-right: 2.35714rem;
+}
+
+.Input-icon {
+  color: #d5d9da;
+}
+
+.Input:focus + .Input-icon {
+  color: #3a434c;
 }
 
 .BtnGroup {

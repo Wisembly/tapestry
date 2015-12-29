@@ -24,6 +24,17 @@ You can inline you inputs and label by adding `--inline` to their classes
 </div>
 ```
 
+## Input-group
+
+```html
+<div class="InputGroup">
+  <input class="Input InputGroup-item" id="InputGrouped1" placeholder="input" aria-label="Input item 1">
+  <input class="Input InputGroup-item" id="InputGrouped2" placeholder="input" aria-label="Input item 2">
+  <input class="Input InputGroup-item" id="InputGrouped3" placeholder="input" aria-label="Input item 3">
+  <input class="Input InputGroup-item" id="InputGrouped4" placeholder="input" aria-label="Input item 4">
+</div>
+```
+
 ## Addons
 
 ```html
@@ -40,15 +51,20 @@ You can inline you inputs and label by adding `--inline` to their classes
   </div>
 </div>
 ```
-
-## Input-group
+## Input with an icon
 
 ```html
-<div class="InputGroup">
-  <input class="Input InputGroup-item" id="InputGrouped1" placeholder="input" aria-label="Input item 1">
-  <input class="Input InputGroup-item" id="InputGrouped2" placeholder="input" aria-label="Input item 2">
-  <input class="Input InputGroup-item" id="InputGrouped3" placeholder="input" aria-label="Input item 3">
-  <input class="Input InputGroup-item" id="InputGrouped4" placeholder="input" aria-label="Input item 4">
+<div class="FormRow">
+  <div class="InputGroup has-icon has-icon--pulled">
+    <input class="Input" type="text" placeholder="Basic input with addon" aria-label="Input item">
+    <i class="Input-icon Icon Icon--glass"></i>
+  </div>
+</div>
+<div class="FormRow">
+  <div class="InputGroup has-icon has-icon--pushed">
+    <input class="Input" type="text" placeholder="Basic input with addon" aria-label="Input item">
+    <i class="Input-icon Icon Icon--glass"></i>
+  </div>
 </div>
 ```
 

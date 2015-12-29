@@ -5,6 +5,10 @@
   .Input {
     margin-bottom: 0;
   }
+
+  &.has-icon {
+    position: relative;
+  }
 }
 
 .InputGroup-item {
