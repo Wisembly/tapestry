@@ -1,4 +1,4 @@
-.Popover--success {
+.Popover--validate {
   @include bg-green;
 
   &:after {
@@ -6,7 +6,7 @@
   }
 }
 
-.Popover--medium {
+.Popover--info {
   @include bg-orange;
 
   &:after {
@@ -14,7 +14,7 @@
   }
 }
 
-.Popover--fail {
+.Popover--error {
   @include bg-red;
 
   &:after {

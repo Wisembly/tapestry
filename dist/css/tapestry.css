@@ -3046,30 +3046,30 @@ th {
           transform: translateY(-50%);
 }
 
-.Popover--success {
+.Popover--validate {
   color: #fff;
   background-color: #46b489;
 }
 
-.Popover--success:after {
+.Popover--validate:after {
   border-bottom-color: #46b489;
 }
 
-.Popover--medium {
+.Popover--info {
   color: #fff;
   background-color: #f1bc33;
 }
 
-.Popover--medium:after {
+.Popover--info:after {
   border-bottom-color: #f1bc33;
 }
 
-.Popover--fail {
+.Popover--error {
   color: #fff;
   background-color: #e25c5b;
 }
 
-.Popover--fail:after {
+.Popover--error:after {
   border-bottom-color: #e25c5b;
 }
 
