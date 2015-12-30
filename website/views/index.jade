@@ -11,24 +11,53 @@ block content
   .s-MainHeader
     .s-App-content
       h1.s-MainHeader-title Tapestry
-      p.s-MainHeader--p Coffee, Display: flex and Flunch.#[br] Pierre Bellemare approved. #[br] We suck at marketing. #[br]
+      p.s-MainHeader--p Fast and easy web app development framework
       a.Btn.s-MainHeader-btn(href="/getting-started") Getting started
 
   .s-App-content
     .s-Advantages
+      .s-Advantage
+        .s-Advantage-texts
+          .s-Advantage-title Goal
+          .s-Advantage-p We are sharing Tapestry with other developers in the hope to make two important principles more accessible: #[br] First, Tapestry brings #[strong fast and easy web app development] for teams and individuals alike. We have built Tapestry while working on two products, Wisembly and Solid, where a common basis on design, structure and code was needed. We also needed developers to plug in and out of both projects without having to spend extra time familiarizing themselves with the new code structure. #[br] Second, Tapestry is based on the #[strong DRY] principle. Don’t Repeat Yourself is, perhaps, the rule all developers live by, so we put special care to it.
+
+
       .s-Advantage.s-Advantage--modules
         .s-Advantage-img(style="background-image: url('/imgs/bem-logo.png')")
         .s-Advantage-texts
-          .s-Advantage-title Modules
-          .s-Advantage-p Tapestry was created #[b components] with components in mind. With the help of #[a.s-Advantage-link(href="http://putaindecode.io/fr/articles/css/bem/", target="_blank") BEM], keep the separation of concerns effective.
+          .s-Advantage-title Modern framework
+          .s-Advantage-p.
+            Tapestry is a modern front-end framework. It builds on a bunch of good design and development practices such as #[a.s-Advantage-link(href="http://putaindecode.io/fr/articles/css/bem/", target="_blank") BEM] and OOCSS.
 
       hr.s-Hr
       .s-Advantage.s-Advantage--sass
         .s-Advantage-texts
           .s-Advantage-title Composable
-          .s-Advantage-p Since Tapestry is built with SASS, you can import only what you really need. #[a(href="https://github.com/Wisembly/tapestry/blob/master/src/scss/utils/var/_import.scss", target="_blank") Each component can be included separately]. You can also customize it as much as you want, while modifying settings (colors, etc.).
+          .s-Advantage-p.
+            We made Tapestry flexible. You can choose to #[a(href="https://github.com/Wisembly/tapestry/blob/master/src/scss/utils/var/_import.scss", target="_blank") import] only parts of it and leave out the rest. It is also customisable, or at least we are working towards that goal. 
         .s-Advantage-img(style="background-image: url('/imgs/sass-logo.svg')")
 
+      hr.s-Hr
+      .s-Advantage
+        .s-Advantage-texts
+          .s-Advantage-title Who we are
+          .s-Advantage-p
+            Behind Tapestry are developers and designers who met while working on #[a(href="http://wisembly.com") Wisembly] and #[a(href="http://getsolid.io") Solid]: Alexandre Broudin
+              a(href="http://github.com/alexandrebroudin") #[i.Icon.Icon--github.u-mgl--xs]
+              a(href="http://twitter.com/abroudin") #[i.Icon.Icon--twitter.u-mgl--xs]
+              , Ugo Onali
+              a(href="http://github.com/ugogo") #[i.Icon.Icon--github.u-mgl--xs]
+              a(href="http://twitter.com/onaliugo") #[i.Icon.Icon--twitter.u-mgl--xs]
+              , Gabriel Cousin
+              a(href="http://github.com/gabrielcousin") #[i.Icon.Icon--github.u-mgl--xs]
+              a(href="http://twitter.com/gabrielcousin") #[i.Icon.Icon--twitter.u-mgl--xs]
+              , Christine Tong
+              a(href="http://twitter.com/lasticotine") #[i.Icon.Icon--twitter.u-mgl--xs]
+              , Mathieu Ghaleb
+              a(href="http://github.com/matghaleb") #[i.Icon.Icon--github.u-mgl--xs]
+              , and Stéphane Maire
+              a(href="http://github.com/stephane71") #[i.Icon.Icon--github.u-mgl--xs]
+    
     hr.s-Hr
 
     h1.s-wTitle-1 Have a look
