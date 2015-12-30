@@ -1,0 +1,79 @@
+extends partials/layout
+
+block content
+  h1.s-Header Sass
+
+  div.s-App-content.s-Modules-container
+  
+    div.s-Module
+
+      h2 Functions
+
+        h3.s-Title--2 Font-size calculation
+        p Returns a font-size computed from #[strong $base-fz] and a modular scale to the power of n (i.e $base-fz × 1.2#[sup n]).
+        pre.code
+          code.html.
+            p { font-size: fz(1); }
+
+        h3.s-Title--2 Rem-to-px conversion
+        p Converting values from rems to pixels
+        pre.code
+          code.html.
+            div { height: px(2rem) }
+
+        h3.s-Title--2 Px-to-rem conversion
+        p Converting values from pixels to rems
+        pre.code
+          code.html.
+            div { border: rem(1px) solid $base-border-color; } 
+
+        h3.s-Title--2 Vertical-rythm units
+        p Both of them return rem values computed from a quarter of line-height. #[em rb()] is an other function that also substracts the 2px added by a border.
+        pre.code
+          code.html.
+            div { height: r(4); }
+            span { height: rb(4); }
+
+        h3.s-Title--2 Z-index value
+        p Returns a z-index value from the #[a(href="https://github.com/Wisembly/tapestry/blob/master/src/scss/utils/var/_zindexes.scss") z-index map] 
+        pre.code
+          code.html.
+            .Overlay { z-index: zi("Overlay"); }
+            .Foo { z-index: zi("Overlay") + 1; }
+
+      h2 Mixins
+        h3.s-Title--2 Clearfix
+        p Includes clearfix hack (you can also use #[a(href="/components/utils") .u-cf utility class])
+        pre.code
+          code.html.
+            div { @include cf(); )}
+        
+        h3.s-Title--2 Breakpoints
+        p Includes breakpoint from values listed in the #[a(href="https://github.com/Wisembly/tapestry/blob/master/src/scss/utils/var/_breakpoints.scss") breakpoints map]
+        pre.code
+          code.html.
+            @include bp(min, max, orientation) {}
+            @include bp(phablet) {}
+            @include bp(phablet, desktop) {}
+            @include bp(phablet, null, portrait) {}
+
+        h3.s-Title--2 Positions
+        p Includes position type (#[strong absolute] or #[strong fixed]) and position values
+        pre.code
+          code.html.
+            @include pos(type top right bottom left);
+            @include pos(a 0 0 0 0);
+            @include pos(a 0);
+            @include pos(a 0 null);
+
+        h3.s-Title--2 Background
+        p Sets some layout according to basic color-set (#[strong.t-neutral $neutral], #[strong.t-primary $primary], #[strong.t-error $error], #[strong.t-info $info], #[strong.t-validate $validate]). Add white color with #[strong $hasText] and force #[strong !important] with #[strong $important].
+        pre.code
+          code.html.
+            @include bg($color, $hasText, $important);
+
+        h3.s-Title--2 Ellipsis
+        p Includes properties to create ellipsis: hidden overflow and dot dot dot.
+        pre.code
+          code.html.
+            span { @include ellispis; }
