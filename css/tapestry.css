@@ -1369,11 +1369,19 @@ th {
 
 .Container {
   width: 100%;
+  padding-right: 0.78571rem;
+  padding-left: 0.78571rem;
 }
 
 .Grid {
   width: 100%;
   font-size: 0;
+}
+
+.Grid--gutters {
+  width: auto;
+  margin-right: -0.78571rem;
+  margin-left: -0.78571rem;
 }
 
 .Grid--flex {
@@ -1408,6 +1416,11 @@ th {
   -webkit-flex: 0 0 auto;
       -ms-flex: 0 0 auto;
           flex: 0 0 auto;
+}
+
+.Grid--gutters .Grid-cell {
+  padding-right: 0.78571rem;
+  padding-left: 0.78571rem;
 }
 
 .Grid-cell--fr {
