@@ -2142,9 +2142,9 @@ th {
 }
 
 .Input-addOn {
-  -webkit-flex: 0;
-      -ms-flex: 0;
-          flex: 0;
+  -webkit-flex: 0 0 auto;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
   width: auto;
   padding: 0.71429rem 0.78571rem;
   font-size: 1rem;
