@@ -557,6 +557,8 @@
 	margin: 0;
 	padding: 1.2rem 1.5rem;
   white-space: nowrap;
+	display: block;
+	background: #f7f7f7;
 }
 
 .s-Btn-gettingStarted {

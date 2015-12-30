@@ -4,27 +4,29 @@ block content
   h1.s-Header Getting-started
 
   .s-App-content
+
     h1.s-wTitle-1.u-mgv--m Installation
 
-    p.s-Paragraph Built files are versionned into /dist folder. #[br] Settings and vars are set into /utils/var and can be overide.
+    h2.s-Title--2.u-mgt--l Requirements
+    p.s-Paragraph Node.js and Gulp are required except if you use the standalone method.
 
-    h2.s-Title--2.u-mgt--l With Bower
+    h2.s-Title--2.u-mgt--l Important
+    ul
+      li Built files (CSS and fonts) are versionned into /dist folder.
+      li #[a(href="https://github.com/Wisembly/tapestry/tree/master/src/scss/utils/var") Settings and vars] can be overidden.
+      li #[a(href="https://github.com/Wisembly/tapestry/blob/master/src/scss/utils/var/_import.scss") Component importation] is set to false by default and can be #[a(href="https://github.com/Wisembly/tapestry/blob/master/src/scss/build.scss") switched to true] for each item.
+
+    h2.s-Title--2.u-mgt--l Bower method
     pre.s-Pre
       code.s-Code(data-lang="bash") bower install tapestry
+    p.s-Paragraph You can easily #[a(href="http://bower.io/docs/config/") specify a custom location] for your project #[strong bower_components]. Sass users: start with importing #[strong app.scss].
 
+    h2.s-Title--2.u-mgt--l Git method
     pre.s-Pre
-      code.s-Code.bash … #[br] example #[br]…
-
-    h2.s-Title--2.u-mgt--l With the dist
-    p.s-Paragraph You can download the #[a(href="https://github.com/Wisembly/tapestry/blob/master/dist/tapestry-latest.zip?raw=true", target="_blank") latest-zip here]
-    pre.s-Pre
-      code.s-Code.bash … #[br] example #[br]…
-
-    h2.s-Title--2.u-mgt--l Locally
-    pre.s-Pre
-      code.s-Code(data-lang="bash") git clone git@github.com:Wisembly/tapestry.git
-    pre.s-Pre
-      code.s-Code.bash … #[br] example #[br]…
+    code.s-Code(data-lang="bash") git clone git@github.com:Wisembly/tapestry.git
+    
+    h2.s-Title--2.u-mgt--l Standalone method
+    p.s-Paragraph You can download the #[a(href="/tapestry-latest.zip", target="_blank") latest version here]
 
     hr.s-Hr
 
