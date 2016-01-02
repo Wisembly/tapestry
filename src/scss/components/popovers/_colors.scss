@@ -1,5 +1,5 @@
 .Popover--validate {
-  @include bg-green;
+  @include bg($validate, true);
 
   &:after {
     border-bottom-color: $mint;
@@ -7,7 +7,7 @@
 }
 
 .Popover--info {
-  @include bg-orange;
+  @include bg($info, true);
 
   &:after {
     border-bottom-color: $saffron;
@@ -15,7 +15,7 @@
 }
 
 .Popover--error {
-  @include bg-red;
+  @include bg($error, true);
 
   &:after {
     border-bottom-color: $mandy;

@@ -1,15 +1,15 @@
 .Notification--primary {
-  background: $venice-blue;
+  @include bg($primary);
 }
 
 .Notification--validate {
-  background: $mint;
+  @include bg($validate);
 }
 
 .Notification--info {
-  background: $saffron;
+  @include bg($info);
 }
 
 .Notification--error {
-  background: $mandy;
+  @include bg($error);
 }

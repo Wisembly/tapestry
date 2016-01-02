@@ -3019,18 +3019,15 @@ th {
 }
 
 .Pellet--validate {
-  color: #fff;
-  background-color: #46b489;
+  background: #46b489;
 }
 
 .Pellet--info {
-  color: #fff;
-  background-color: #f1bc33;
+  background: #f1bc33;
 }
 
 .Pellet--error {
-  color: #fff;
-  background-color: #e25c5b;
+  background: #e25c5b;
 }
 
 .has-popover {
@@ -3075,7 +3072,7 @@ th {
 
 .Popover--validate {
   color: #fff;
-  background-color: #46b489;
+  background: #46b489;
 }
 
 .Popover--validate:after {
@@ -3084,7 +3081,7 @@ th {
 
 .Popover--info {
   color: #fff;
-  background-color: #f1bc33;
+  background: #f1bc33;
 }
 
 .Popover--info:after {
@@ -3093,7 +3090,7 @@ th {
 
 .Popover--error {
   color: #fff;
-  background-color: #e25c5b;
+  background: #e25c5b;
 }
 
 .Popover--error:after {

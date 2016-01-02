@@ -1,24 +1,19 @@
 .u-neutral {
-  color: $white !important;
-  background: $gray-chateau !important;
+  @include bg($neutral, true, true);
 }
 
 .u-primary {
-  color: $white !important;
-  background: $venice-blue !important;
+  @include bg($primary, true, true);
 }
 
 .u-validate {
-  color: $white !important;
-  background: $mint !important;
+  @include bg($validate, true, true);
 }
 
 .u-info {
-  color: $white !important;
-  background: $saffron !important;
+  @include bg($info, true, true);
 }
 
 .u-error {
-  color: $white !important;
-  background: $mandy !important;
+  @include bg($error, true, true);
 }

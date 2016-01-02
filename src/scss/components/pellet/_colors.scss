@@ -1,11 +1,11 @@
 .Pellet--validate {
-  @include bg-green;
+  @include bg($validate);
 }
 
 .Pellet--info {
-  @include bg-orange;
+  @include bg($info);
 }
 
 .Pellet--error {
-  @include bg-red;
+  @include bg($error);
 }
