@@ -1145,6 +1145,11 @@ th {
   outline: 0;
 }
 
+.Dropdown-selectInput[aria-expanded="true"] {
+  color: #3a434c;
+  border-color: #a1a9ae;
+}
+
 .Dropdown-selectInput:focus {
   outline: none;
 }
