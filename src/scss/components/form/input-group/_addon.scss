@@ -1,4 +1,15 @@
 .Input-addOn {
   flex: 0 0 auto;
   width: auto;
+  padding: rb(2) $pd--s;
+  font-size: $fz--m;
+  line-height: $base-lh;
+  color: $form-text-color;
+  background: $white;
+  border: 1px solid $base-border-color;
+  user-select: none;
+
+  &:not(.Btn) {
+    cursor: default;
+  }
 }

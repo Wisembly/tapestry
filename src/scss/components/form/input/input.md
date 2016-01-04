@@ -7,20 +7,20 @@
 Input is displayed as a 100% width by default.
 ```html
 <div class="FormRow">
-  <label class="Label">Foo</label>
-  <input class="Input" type="text" placeholder="Basic input" aria-label="Input item">
+  <label for="basicInput" class="Label">Foo</label>
+  <input id="basicInput" class="Input" type="text" placeholder="Basic input" aria-label="Input item">
 </div>
 ```
 You can inline you inputs and label by adding `--inline` to their classes
 ```html
 <div class="FormRow">
-  <label class="Label Label--inline">Bar</label>
-  <input class="Input Input--inline" type="text" placeholder="" aria-label="Input item">
+  <label for="fooLabel" class="Label Label--inline">Foo</label>
+  <input id="fooLabel" class="Input Input--inline" type="text" placeholder="" aria-label="Input item">
 </div>
 
 <div class="FormRow">
-  <input class="Input Input--inline" type="text" placeholder="" aria-label="Input item">
-  <label class="Label Label--inline">Bar</label>
+  <input id="barLabel" class="Input Input--inline" type="text" placeholder="" aria-label="Input item">
+  <label for="barLabel" class="Label Label--inline">Bar</label>
 </div>
 ```
 
@@ -29,7 +29,7 @@ You can inline you inputs and label by adding `--inline` to their classes
 ```html
 <div class="FormRow">
   <div class="InputGroup">
-    <div class="Input InputGroup-item Input-addOn">@</div>
+    <span class="InputGroup-item Input-addOn">@</span>
     <input class="Input InputGroup-item" type="text" placeholder="Basic input with addon" aria-label="Input item">
   </div>
 </div>
