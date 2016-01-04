@@ -6,6 +6,7 @@ async.waterfall([
   require('./release/get-latest'),
   require('./release/new/choose-name'),
   require('./release/new/confirm-name'),
+  require('./release/new/bump-version'),
 
   require('./assets/generate'),
   require('./assets/check'),
