@@ -2123,8 +2123,7 @@ th {
           flex: 1;
   width: 1%;
   vertical-align: top;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
+  border-radius: 0;
 }
 
 .InputGroup-item + .InputGroup-item {
@@ -2137,9 +2136,18 @@ th {
   z-index: 1;
 }
 
+.InputGroup-item:first-child {
+  border-top-left-radius: 0.28571rem;
+  border-bottom-left-radius: 0.28571rem;
+}
+
 .InputGroup-item:last-child {
   border-top-right-radius: 0.28571rem;
   border-bottom-right-radius: 0.28571rem;
+}
+
+.InputGroup-item .Dropdown-selectInput {
+  border-radius: 0;
 }
 
 .Input-addOn {
@@ -2147,6 +2155,20 @@ th {
       -ms-flex: 0 0 auto;
           flex: 0 0 auto;
   width: auto;
+  padding: 0.71429rem 0.78571rem;
+  font-size: 1rem;
+  line-height: 1.57143rem;
+  color: #3a434c;
+  background: #fff;
+  border: 1px solid #d5d9da;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.Input-addOn:not(.Btn) {
+  cursor: default;
 }
 
 .BtnGroup {
