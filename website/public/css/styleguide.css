@@ -319,7 +319,8 @@
 
  */
 
-.s-Paragraph {
+.s-Paragraph,
+.s-List {
  	margin-bottom: 1.5rem;
  	font-size: 1.2rem;
  	line-height: 1.7;
