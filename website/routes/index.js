@@ -1,7 +1,7 @@
 module.exports = function (app) {
   app.get('/', function (req, res) {
-    res.render('about', {
-      currentPage: 'about'
+    res.render('index', {
+      currentPage: 'index'
     });
   });
 };
