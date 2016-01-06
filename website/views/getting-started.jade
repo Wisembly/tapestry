@@ -6,21 +6,21 @@ block content
   .s-App-content
     h1.s-wTitle-1.u-mgv--m Installation
 
-    h2.s-Title--2.u-mgt--l Standalone method
-    p.s-Paragraph You can download the #[a(href="/tapestry-latest.zip", target="_blank") latest version here]. Unzip this package and add the following code in your HTML files:
+    h2.s-Title--2.u-mgt--l Standalone
+    p.s-Paragraph You can download the #[a(href="/tapestry-latest.zip", target="_blank") latest version here]. #[br] Unzip this package and add the following code in your HTML files:
 
     pre.s-Pre
       code.s-Code(data-lang="html") &lt;link href="/css/styleguide.css" rel="stylesheet" type="text/css">
-    
+
     hr.Line.u-mgt--l
 
-    h2.s-Title--2.u-mgt--l Git method
+    h2.s-Title--2.u-mgt--l Git
     pre.s-Pre
     code.s-Code(data-lang="bash") git clone git@github.com:Wisembly/tapestry.git
 
     hr.Line.u-mgt--l
 
-    h2.s-Title--2.u-mgt--l Bower method
+    h2.s-Title--2.u-mgt--l Bower
     pre.s-Pre
     code.s-Code(data-lang="bash") bower install tapestry
 
@@ -32,24 +32,23 @@ block content
     ul.s-List
       li Node.js and Gulp are required
       li Built files (CSS and fonts) are versionned into /dist folder.
-      li #[a(href="https://github.com/Wisembly/tapestry/tree/master/src/scss/utils/var") Settings and vars] can be overidden.
-      li #[a(href="https://github.com/Wisembly/tapestry/blob/master/src/scss/utils/var/_import.scss") Component importation] is set to false by default and can be #[a(href="https://github.com/Wisembly/tapestry/blob/master/src/scss/build.scss") switched to true] for each item.
-      li Bower users can #[a(href="http://bower.io/docs/config/") set a custom location] for #[strong bower_components].
+      li #[a(target="_blank" href="https://github.com/Wisembly/tapestry/tree/master/src/scss/utils/var") Settings and vars] can be overidden.
+      li #[a(target="_blank" href="https://github.com/Wisembly/tapestry/blob/master/src/scss/utils/var/_import.scss") Component importation] is set to false by default, but can be #[a(href="https://github.com/Wisembly/tapestry/blob/master/src/scss/build.scss") switched to true] for each component.
 
-    h2.s-Title--2.u-mgt--l Examples
-    p.s-Paragraph #[strong settings.scss]: selecting components to import and overiding default values
-    code.s-Code(data-lang="scss") 
-      | $import-normalize: false;#[br]
-      | $import-button: true;#[br]
-      | $import-icons: true;#[br]
-      | $grid-column-number: 6;#[br]
-      | $base-radius: rem(8px);#[br]
+    h2.s-Title--2.u-mgt--l Example
+    code.s-Code(data-lang="scss")
+      | // scss/my-settings.scss #[br]#[br]
+      | $import-normalize: false; #[br]
+      | $import-button: true; #[br]
+      | $import-icons: true; #[br]#[br]
+      | $grid-column-number: 6; #[br]
       | $base-fz: 16px;#[br]
 
-    p.s-Paragraph.u-mgt--l #[strong project.scss]: Sass input file
-    code.s-Code(data-lang="scss") 
-      | @import "tapestry";#[br]
-      | @import "bower_components/src/scss/app.scss";#[br]
+    code.s-Code.u-mgt--m(data-lang="scss")
+      | // scss/app.scss #[br]#[br]
+      | @import "my-settings"; #[br]
+      | @import "../bower_components/tapestry/src/scss/app.scss"; #[br]
+      | ...
     hr.s-Hr
 
     h1.s-wTitle-1.u-tac Components
