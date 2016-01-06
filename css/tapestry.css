@@ -2982,7 +2982,7 @@ th {
 }
 
 .Panel-content {
-  height: calc(100% - 3.14286rem);
+  height: calc(100% - 4.71429rem);
   padding: 1.57143rem;
   overflow-y: auto;
 }
