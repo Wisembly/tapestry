@@ -44,8 +44,8 @@ By default, boxes don't have paddings, you need to structure with `Box-header` a
     </div>
   </div>
 </div>
-<div class="Boxes">
-  <div class="Box">
+<div class="Grid Boxes">
+  <div class="Grid-cell Grid-cell--3 Box">
     <div class="Box-header">
       <h4 class="Box-title">Title</h4>
     </div>
@@ -53,7 +53,7 @@ By default, boxes don't have paddings, you need to structure with `Box-header` a
       Pellentesque habitant
     </div>
   </div>
-  <div class="Box">
+  <div class="Grid-cell Grid-cell--9 Box">
     <div class="Box-header">
       <h4 class="Box-title">Title</h4>
     </div>
