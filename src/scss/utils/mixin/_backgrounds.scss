@@ -1,14 +1,10 @@
-@mixin bg-green($important: false) {
-  color: if($important, $white !important, $white);
-  background-color: if($important, $mint !important, $mint);
-}
+@mixin bg($color, $hasText: false, $important: false) {
+  @if ($hasText) {
+    color: if($important, $white !important, $white);
+    background: if($important, $color !important, $color);
+  }
 
-@mixin bg-orange($important: false) {
-  color: if($important, $white !important, $white);
-  background-color: if($important, $saffron !important, $saffron);
-}
-
-@mixin bg-red($important: false) {
-  color: if($important, $white !important, $white);
-  background-color: if($important, $mandy !important, $mandy);
+  @else {
+    background: if($important, $color !important, $color);
+  }
 }
