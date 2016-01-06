@@ -1,0 +1,99 @@
+extends partials/layout
+
+block content
+  h1.s-Header Sass Utils
+
+  div.s-App-content.s-Modules-container
+  
+    div.s-Modules
+
+    h2 Functions
+
+      h3.s-Title--2 Font-size calculation
+      p.s-Paragraph Returns a font-size computed from #[strong $base-fz] and a modular scale to the power of n (i.e $base-fz × 1.2#[sup n]).
+      pre.code
+        code
+          | p {
+          |   font-size: fz(1);
+          | }
+
+      h3.s-Title--2 Rem-to-px conversion
+      p.s-Paragraph Converting values from rems to pixels
+      pre.code
+        code
+          | div {
+          |   height: px(2rem);
+          | }
+
+      h3.s-Title--2 Px-to-rem conversion
+      p.s-Paragraph Converting values from pixels to rems
+      pre.code
+        code
+          | div {
+          |   border: rem(1px) solid $base-border-color;
+          | } 
+
+      h3.s-Title--2 Vertical-rythm units
+      p.s-Paragraph Both of them return rem values computed from a quarter of line-height. #[em rb()] is an other function that also substracts the 2px added by a border.
+      pre.code
+        code
+          | div {
+          |   height: r(4);
+          | }
+          | #[br]#[br]
+          | span {
+          |   height: rb(4);
+          | }
+
+      h3.s-Title--2 Z-index value
+      p.s-Paragraph Returns a z-index value from the #[a(href="https://github.com/Wisembly/tapestry/blob/master/src/scss/utils/var/_zindexes.scss") z-index map] 
+      pre.code
+        code
+          | .Overlay {
+          |   z-index: zi("Overlay");
+          | }
+          | #[br]#[br]
+          | .Foo {
+          |   z-index: zi("Overlay") + 1;
+          | }
+
+    h2 Mixins
+      h3.s-Title--2 Clearfix
+      p.s-Paragraph Includes clearfix hack (you can also use #[a(href="/components/utils") .u-cf utility class])
+      pre.code
+        code
+          | div {
+          |   @include cf;
+          | }
+      
+      h3.s-Title--2 Breakpoints
+      p.s-Paragraph Includes breakpoint from values listed in the #[a(href="https://github.com/Wisembly/tapestry/blob/master/src/scss/utils/var/_breakpoints.scss") breakpoints map]
+      pre.code
+        code
+          | @include bp(min, max, orientation) {}
+          | @include bp(phablet) {}
+          | @include bp(phablet, desktop) {}
+          | @include bp(phablet, null, portrait) {}
+
+      h3.s-Title--2 Positions
+      p.s-Paragraph Includes position type (#[strong absolute] or #[strong fixed]) and position values
+      pre.code
+        code
+          | @include pos(type top right bottom left);
+          | @include pos(a 0 0 0 0);
+          | @include pos(a 0);
+          | @include pos(a 0 null);
+
+      h3.s-Title--2 Background
+      p.s-Paragraph Sets some layout according to basic color-set (#[strong.t-neutral $neutral], #[strong.t-primary $primary], #[strong.t-error $error], #[strong.t-info $info], #[strong.t-validate $validate]). Add white color with #[strong $hasText] and force #[strong !important] with #[strong $important].
+      pre.code
+        code
+          | @include bg($color, $hasText, $important);
+
+      h3.s-Title--2 Ellipsis
+      p.s-Paragraph Includes properties to create ellipsis: hidden overflow and dot dot dot.
+      pre.code
+        code
+          | span {
+          |   @include ellispis;
+          | }

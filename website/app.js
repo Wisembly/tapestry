@@ -13,6 +13,7 @@ app.use(express.static(path.join(__dirname, '../dist')));
 require('./routes/index')(app);
 require('./routes/getting-started')(app);
 require('./routes/components')(app);
+require('./routes/sass-utils')(app);
 require('./routes/stats')(app);
 require('./routes/404')(app);
 

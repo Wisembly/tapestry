@@ -3,56 +3,61 @@ extends partials/layout
 block content
   h1.s-Header Getting-started
 
-  .s-App-content
-    h1.s-wTitle-1.u-mgv--m Installation
+  div.s-App-content.s-Modules-container
+  
+    div.s-Modules
 
-    h2.s-Title--2.u-mgt--l Standalone
-    p.s-Paragraph You can download the #[a(href="/tapestry-latest.zip", target="_blank") latest version here]. #[br] Unzip this package and add the following code in your HTML files:
+      h1.s-wTitle-1.u-mgv--m Installation
 
-    pre.s-Pre
-      code.s-Code(data-lang="html") &lt;link href="/css/styleguide.css" rel="stylesheet" type="text/css">
+      h2.s-Title--2.u-mgt--l Standalone
+      p.s-Paragraph You can download the #[a(href="/tapestry-latest.zip", target="_blank") latest version here]. #[br] Unzip this package and add the following code in your HTML files:
 
-    hr.Line.u-mgt--l
+      pre.code
+        code(data-lang="html") &lt;link href="/css/styleguide.css" rel="stylesheet" type="text/css">
 
-    h2.s-Title--2.u-mgt--l Git
-    pre.s-Pre
-    code.s-Code(data-lang="bash") git clone git@github.com:Wisembly/tapestry.git
+      hr.Line.u-mgt--l
 
-    hr.Line.u-mgt--l
+      h2.s-Title--2.u-mgt--l Git
+      pre.code
+        code(data-lang="bash") git clone git@github.com:Wisembly/tapestry.git
 
-    h2.s-Title--2.u-mgt--l Bower
-    pre.s-Pre
-    code.s-Code(data-lang="bash") bower install tapestry
+      hr.Line.u-mgt--l
 
-    hr.Line.u-mgt--l
+      h2.s-Title--2.u-mgt--l Bower
+      pre.code
+        code(data-lang="bash") bower install tapestry
 
-    h1.s-wTitle-1.u-mgt--l.u-mgb--m Customization
+      hr.Line.u-mgt--l
 
-    h2.s-Title--2.u-mgt--l Important
-    ul.s-List
-      li Node.js and Gulp are required
-      li Built files (CSS and fonts) are versionned into /dist folder.
-      li #[a(target="_blank" href="https://github.com/Wisembly/tapestry/tree/master/src/scss/utils/var") Settings and vars] can be overidden.
-      li #[a(target="_blank" href="https://github.com/Wisembly/tapestry/blob/master/src/scss/utils/var/_import.scss") Component importation] is set to false by default, but can be #[a(href="https://github.com/Wisembly/tapestry/blob/master/src/scss/build.scss") switched to true] for each component.
+      h1.s-wTitle-1.u-mgt--l.u-mgb--m Customization
 
-    h2.s-Title--2.u-mgt--l Example
-    code.s-Code(data-lang="scss")
-      | // scss/my-settings.scss #[br]#[br]
-      | $import-normalize: false; #[br]
-      | $import-button: true; #[br]
-      | $import-icons: true; #[br]#[br]
-      | $grid-column-number: 6; #[br]
-      | $base-fz: 16px;#[br]
+      h2.s-Title--2.u-mgt--l Important
+      ul.s-List
+        li Node.js and Gulp are required
+        li Built files (CSS and fonts) are versionned into /dist folder.
+        li #[a(target="_blank" href="https://github.com/Wisembly/tapestry/tree/master/src/scss/utils/var") Settings and vars] can be overidden.
+        li #[a(target="_blank" href="https://github.com/Wisembly/tapestry/blob/master/src/scss/utils/var/_import.scss") Component importation] is set to false by default, but can be #[a(href="https://github.com/Wisembly/tapestry/blob/master/src/scss/build.scss") switched to true] for each component.
 
-    code.s-Code.u-mgt--m(data-lang="scss")
-      | // scss/app.scss #[br]#[br]
-      | @import "my-settings"; #[br]
-      | @import "../bower_components/tapestry/src/scss/app.scss"; #[br]
-      | ...
-    hr.s-Hr
+      h2.s-Title--2.u-mgt--l Example
+      pre.code
+        code.s-Code(data-lang="scss")
+          | // scss/my-settings.scss #[br]#[br]
+          | $import-normalize: false; #[br]
+          | $import-button: true; #[br]
+          | $import-icons: true; #[br]#[br]
+          | $grid-column-number: 6; #[br]
+          | $base-fz: 16px;#[br]
 
-    h1.s-wTitle-1.u-tac Components
-    a.Btn.Btn--outline.Btn--primary.s-Btn-gettingStarted(href="/components") See all components
+      pre.code
+        code.u-mgt--m(data-lang="scss")
+          | // scss/app.scss #[br]#[br]
+          | @import "my-settings"; #[br]
+          | @import "../bower_components/tapestry/src/scss/app.scss"; #[br]
+          | ...
+      hr.s-Hr
+
+      h1.s-wTitle-1.u-tac Components
+      a.Btn.Btn--outline.Btn--primary.s-Btn-gettingStarted(href="/components") See all components
 
   include partials/footer
 
