@@ -1,0 +1,118 @@
+{
+  "published": "2016-01-07T14:00:35.406Z",
+  "paths": [
+    "/Users/gabrielcousin/Sites/tapestry/dist/css/tapestry.css"
+  ],
+  "stylesheets": 1,
+  "styleElements": 0,
+  "size": 53915,
+  "dataUriSize": 0,
+  "ratioOfDataUriSize": 0,
+  "gzippedSize": 8658,
+  "rules": 649,
+  "selectors": 742,
+  "declarations": 1411,
+  "simplicity": 0.8746630727762803,
+  "averageOfIdentifier": 1.6388140161725067,
+  "mostIdentifier": 5,
+  "mostIdentifierSelector": ".Box > .List:first-child .List-item:first-child",
+  "averageOfCohesion": 2.174114021571649,
+  "lowestCohesion": 21,
+  "lowestCohesionSelector": [
+    ".Modal"
+  ],
+  "totalUniqueFontSizes": 13,
+  "uniqueFontSizes": [
+    "0",
+    "0.69444rem",
+    "0.78571rem",
+    "0.83333rem",
+    "1em",
+    "1rem",
+    "1.2rem",
+    "1.44rem",
+    "1.728rem",
+    "2.0736rem",
+    "2.48832rem",
+    "75%",
+    "87.5%"
+  ],
+  "totalUniqueFontFamilies": 5,
+  "uniqueFontFamilies": [
+    "\"Helvetica Neue\", Helvetica, Roboto, Arial, sans-serif",
+    "\"tapestry-icons\"",
+    "monospace, monospace",
+    "sans-serif",
+    "tapestry-icons"
+  ],
+  "totalUniqueColors": 18,
+  "uniqueColors": [
+    "#000000",
+    "#07698D",
+    "#0D5C7C",
+    "#258AAE",
+    "#289BC4",
+    "#3A434C",
+    "#41A07A",
+    "#46B489",
+    "#708189",
+    "#A1A9AE",
+    "#AED7E8",
+    "#C85450",
+    "#D5A82D",
+    "#D5D9DA",
+    "#E25C5B",
+    "#F1BC33",
+    "#FFFFFF",
+    "RGBA(255, 255, 255, 0.8)"
+  ],
+  "idSelectors": 0,
+  "universalSelectors": 3,
+  "unqualifiedAttributeSelectors": 25,
+  "javascriptSpecificSelectors": 0,
+  "importantKeywords": 145,
+  "floatProperties": 2,
+  "propertiesCount": [
+    {
+      "property": "content",
+      "count": 119
+    },
+    {
+      "property": "color",
+      "count": 94
+    },
+    {
+      "property": "width",
+      "count": 86
+    },
+    {
+      "property": "display",
+      "count": 69
+    },
+    {
+      "property": "background-color",
+      "count": 53
+    },
+    {
+      "property": "padding",
+      "count": 51
+    },
+    {
+      "property": "font-size",
+      "count": 45
+    },
+    {
+      "property": "background",
+      "count": 44
+    },
+    {
+      "property": "position",
+      "count": 36
+    },
+    {
+      "property": "margin-left",
+      "count": 33
+    }
+  ],
+  "mediaQueries": 4
+}
