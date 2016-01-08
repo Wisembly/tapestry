@@ -1,0 +1,16 @@
+.has-state {
+  display: none;
+
+  &[aria-busy="true"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.has-state--stack {
+  &[aria-busy="true"] {
+    display: block;
+    text-align: center;
+  }
+}
