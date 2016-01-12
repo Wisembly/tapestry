@@ -103,6 +103,10 @@
   @import "components/popovers/core";
 }
 
+@if $import-select {
+  @import "components/form/select/core";
+}
+
 @if $import-switch {
   @import "components/switch/core";
 }

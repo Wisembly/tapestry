@@ -90,6 +90,17 @@ A form displays a set of related user input fields in a structured way
       <label for="newsletter" class="Label Label--inline" for="Checkbox">Would you like to receive our newsletter ?</label>
     </div>
   </div>
+  <label class="Label">Do you like e-mails?</label>
+  <div class="FormRow">
+    <div class="SelectWrapper">
+      <select class="Select" name="">
+        <optgroup label="Do you like e-mails?">
+          <option value="true">Yes</option>
+          <option selected value="false">No</option>
+        </optgroup>
+      </select>
+    </div>
+  </div>
   <div class="Grid">
     <div class="Grid-cell Grid-cell--12 u-tar">
       <button class="Btn Btn--validate">Submit</button>
