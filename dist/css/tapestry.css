@@ -1150,6 +1150,12 @@ th {
   border-color: #a1a9ae;
 }
 
+.Dropdown-selectInput[disabled] {
+  color: #a1a9ae;
+  background: #d5d9da;
+  cursor: not-allowed;
+}
+
 .Dropdown-selectInput:focus {
   outline: none;
 }
