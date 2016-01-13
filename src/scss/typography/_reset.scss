@@ -26,8 +26,7 @@ h2 {
 
 h2,
 h3,
-h4,
-h5 {
+h4 {
   margin-top: r(4);
   margin-bottom: r(4);
   font-weight: $fw--semi-bold;
@@ -61,6 +60,15 @@ h5 {
   margin-top: r(2);
   margin-bottom: r(2);
   font-size: fz(1);
+  font-weight: $fw--semi-bold;
+  line-height: $base-lh;
+}
+
+h6 {
+  margin-top: r(1);
+  margin-bottom: r(1);
+  font-size: $base-fz;
+  font-weight: $fw--semi-bold;
   line-height: $base-lh;
 }
 

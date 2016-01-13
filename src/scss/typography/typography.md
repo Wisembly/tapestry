@@ -8,6 +8,7 @@
 <h3>Basic h3</h3>
 <h4>Basic h4</h4>
 <h5>Basic h5</h5>
+<h6>Basic h6</h6>
 ```
 
 ## Body text (html tag)
