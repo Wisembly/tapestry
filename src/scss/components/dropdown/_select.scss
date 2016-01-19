@@ -18,6 +18,12 @@
     border-color: $gray-chateau;
   }
 
+  &[disabled] {
+    color: $gray-chateau;
+    background: $iron;
+    cursor: not-allowed;
+  }
+
   &:focus {
     outline: none;
   }
