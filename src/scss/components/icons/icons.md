@@ -408,6 +408,11 @@
 </div>
 
 <div class="s-Icon">
+  <i class="Icon Icon--plugged"></i>
+  plugged
+</div>
+
+<div class="s-Icon">
   <i class="Icon Icon--plus"></i>
   plus
 </div>
@@ -555,6 +560,11 @@
 <div class="s-Icon">
   <i class="Icon Icon--unlock"></i>
   unlock
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--unplugged"></i>
+  unplugged
 </div>
 
 <div class="s-Icon">
