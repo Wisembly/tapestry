@@ -3410,6 +3410,7 @@ input:checked + .Switch--s:after,
   border-radius: 0.28571rem;
   cursor: default;
   pointer-events: none;
+  white-space: normal;
 }
 
 .has-tooltip:hover:before, .has-tooltip:hover:after {
