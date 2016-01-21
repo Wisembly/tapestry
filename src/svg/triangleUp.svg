@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <!-- Generator: Sketch 3.4.2 (15857) - http://www.bohemiancoding.com/sketch -->
+<svg width="20px" height="13px" viewBox="0 0 20 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
     <title>triangleUp</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="triangleUp" sketch:type="MSArtboardGroup" transform="translate(-6.000000, -6.000000)" fill="#3A434C">
-            <path d="M6,22 L26,22 L16,10 L6,22 L6,22 Z" sketch:type="MSShapeGroup"></path>
+        <g id="triangleUp" sketch:type="MSArtboardGroup" transform="translate(-6.000000, -9.000000)" fill="#3A434C">
+            <path d="M25.8012022,10.662248 C25.3971751,9.65700083 24.4428354,9 23.3874889,9 L8.61263768,9 C7.55380817,9 6.60295141,9.65700083 6.19892436,10.662248 C5.79489731,11.6674952 6.01780879,12.8271196 6.76316903,13.5954156 L14.1505946,21.2137531 C14.6451795,21.7199669 15.2999819,22 16.0000633,22 C16.6966616,22 17.3514641,21.7199669 17.8460489,21.2137531 L25.2334745,13.5954156 C25.9823178,12.8271196 26.2052292,11.6674952 25.8012022,10.662248" sketch:type="MSShapeGroup" transform="translate(16.000000, 15.500000) rotate(-180.000000) translate(-16.000000, -15.500000) "></path>
         </g>
     </g>
 </svg>

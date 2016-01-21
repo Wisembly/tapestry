@@ -278,6 +278,16 @@
 </div>
 
 <div class="s-Icon">
+  <i class="Icon Icon--linkDropbox"></i>
+  linkDropbox
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--linkGoogle"></i>
+  linkGoogle
+</div>
+
+<div class="s-Icon">
   <i class="Icon Icon--linkedin"></i>
   linkedin
 </div>
@@ -350,6 +360,11 @@
 <div class="s-Icon">
   <i class="Icon Icon--openedEye"></i>
   openedEye
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--options"></i>
+  options
 </div>
 
 <div class="s-Icon">

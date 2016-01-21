@@ -1824,256 +1824,268 @@ th {
   content: "\ea34";
 }
 
-.Icon--linkedin:before {
+.Icon--linkDropbox:before {
   content: "\ea35";
 }
 
-.Icon--listCollapse:before {
+.Icon--linkGoogle:before {
   content: "\ea36";
 }
 
-.Icon--listExpand:before {
+.Icon--linkedin:before {
   content: "\ea37";
 }
 
-.Icon--live:before {
+.Icon--listCollapse:before {
   content: "\ea38";
 }
 
-.Icon--lock:before {
+.Icon--listExpand:before {
   content: "\ea39";
 }
 
-.Icon--mail:before {
+.Icon--live:before {
   content: "\ea3a";
 }
 
-.Icon--meetingList:before {
+.Icon--lock:before {
   content: "\ea3b";
 }
 
-.Icon--message:before {
+.Icon--mail:before {
   content: "\ea3c";
 }
 
-.Icon--minus:before {
+.Icon--meetingList:before {
   content: "\ea3d";
 }
 
-.Icon--more:before {
+.Icon--message:before {
   content: "\ea3e";
 }
 
-.Icon--multipleChoice:before {
+.Icon--minus:before {
   content: "\ea3f";
 }
 
-.Icon--note:before {
+.Icon--more:before {
   content: "\ea40";
 }
 
-.Icon--openIssue:before {
+.Icon--multipleChoice:before {
   content: "\ea41";
 }
 
-.Icon--openQuestion:before {
+.Icon--note:before {
   content: "\ea42";
 }
 
-.Icon--openedEye:before {
+.Icon--openIssue:before {
   content: "\ea43";
 }
 
-.Icon--paragraph:before {
+.Icon--openQuestion:before {
   content: "\ea44";
 }
 
-.Icon--participant:before {
+.Icon--openedEye:before {
   content: "\ea45";
 }
 
-.Icon--pause:before {
+.Icon--options:before {
   content: "\ea46";
 }
 
-.Icon--pellet:before {
+.Icon--paragraph:before {
   content: "\ea47";
 }
 
-.Icon--pelletCheck:before {
+.Icon--participant:before {
   content: "\ea48";
 }
 
-.Icon--pelletClose:before {
+.Icon--pause:before {
   content: "\ea49";
 }
 
-.Icon--pelletMinus:before {
+.Icon--pellet:before {
   content: "\ea4a";
 }
 
-.Icon--pencil:before {
+.Icon--pelletCheck:before {
   content: "\ea4b";
 }
 
-.Icon--phone:before {
+.Icon--pelletClose:before {
   content: "\ea4c";
 }
 
-.Icon--picture:before {
+.Icon--pelletMinus:before {
   content: "\ea4d";
 }
 
-.Icon--play:before {
+.Icon--pencil:before {
   content: "\ea4e";
 }
 
-.Icon--plugged:before {
+.Icon--phone:before {
   content: "\ea4f";
 }
 
-.Icon--plus:before {
+.Icon--picture:before {
   content: "\ea50";
 }
 
-.Icon--popup:before {
+.Icon--play:before {
   content: "\ea51";
 }
 
-.Icon--public:before {
+.Icon--plugged:before {
   content: "\ea52";
 }
 
-.Icon--recurring:before {
+.Icon--plus:before {
   content: "\ea53";
 }
 
-.Icon--refresh:before {
+.Icon--popup:before {
   content: "\ea54";
 }
 
-.Icon--reply:before {
+.Icon--public:before {
   content: "\ea55";
 }
 
-.Icon--reset:before {
+.Icon--recurring:before {
   content: "\ea56";
 }
 
-.Icon--results:before {
+.Icon--refresh:before {
   content: "\ea57";
 }
 
-.Icon--section:before {
+.Icon--reply:before {
   content: "\ea58";
 }
 
-.Icon--singleChoice:before {
+.Icon--reset:before {
   content: "\ea59";
 }
 
-.Icon--slack:before {
+.Icon--results:before {
   content: "\ea5a";
 }
 
-.Icon--solid:before {
+.Icon--section:before {
   content: "\ea5b";
 }
 
-.Icon--solidFull:before {
+.Icon--singleChoice:before {
   content: "\ea5c";
 }
 
-.Icon--star:before {
+.Icon--slack:before {
   content: "\ea5d";
 }
 
-.Icon--starHalf:before {
+.Icon--solid:before {
   content: "\ea5e";
 }
 
-.Icon--starOutlined:before {
+.Icon--solidFull:before {
   content: "\ea5f";
 }
 
-.Icon--stop:before {
+.Icon--star:before {
   content: "\ea60";
 }
 
-.Icon--subtitle:before {
+.Icon--starHalf:before {
   content: "\ea61";
 }
 
-.Icon--sunrise:before {
+.Icon--starOutlined:before {
   content: "\ea62";
 }
 
-.Icon--sunset:before {
+.Icon--stop:before {
   content: "\ea63";
 }
 
-.Icon--target:before {
+.Icon--subtitle:before {
   content: "\ea64";
 }
 
-.Icon--themes:before {
+.Icon--sunrise:before {
   content: "\ea65";
 }
 
-.Icon--title:before {
+.Icon--sunset:before {
   content: "\ea66";
 }
 
-.Icon--trash:before {
+.Icon--target:before {
   content: "\ea67";
 }
 
-.Dropdown-selectInput:after, .Icon--triangleDown:before {
+.Icon--themes:before {
   content: "\ea68";
 }
 
-.Icon--triangleUp:before {
+.Icon--title:before {
   content: "\ea69";
 }
 
-.Icon--twitter:before {
+.Icon--trash:before {
   content: "\ea6a";
 }
 
-.Icon--typeAdd:before {
+.Dropdown-selectInput:after, .Icon--triangleDown:before {
   content: "\ea6b";
 }
 
-.Icon--typeParagraph:before {
+.Icon--triangleUp:before {
   content: "\ea6c";
 }
 
-.Icon--unlock:before {
+.Icon--twitter:before {
   content: "\ea6d";
 }
 
-.Icon--unplugged:before {
+.Icon--typeAdd:before {
   content: "\ea6e";
 }
 
-.Icon--user:before {
+.Icon--typeParagraph:before {
   content: "\ea6f";
 }
 
-.Icon--voice:before {
+.Icon--unlock:before {
   content: "\ea70";
 }
 
-.Icon--vote:before {
+.Icon--unplugged:before {
   content: "\ea71";
 }
 
-.Icon--wisembly:before {
+.Icon--user:before {
   content: "\ea72";
 }
 
-.Icon--wisemblyFull:before {
+.Icon--voice:before {
   content: "\ea73";
+}
+
+.Icon--vote:before {
+  content: "\ea74";
+}
+
+.Icon--wisembly:before {
+  content: "\ea75";
+}
+
+.Icon--wisemblyFull:before {
+  content: "\ea76";
 }
 
 .Input {
@@ -3405,12 +3417,12 @@ input:checked + .Switch--s:after,
   font-weight: bold;
   line-height: 1.17857rem;
   text-align: center;
+  white-space: normal;
   color: #fff;
   background-color: rgba(0, 0, 0, 0.8);
   border-radius: 0.28571rem;
   cursor: default;
   pointer-events: none;
-  white-space: normal;
 }
 
 .has-tooltip:hover:before, .has-tooltip:hover:after {
