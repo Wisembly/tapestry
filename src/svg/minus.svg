@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="20px" height="3px" viewBox="0 0 20 3" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
     <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
     <title>minus</title>
     <desc>Created with Sketch.</desc>
-    <defs></defs>
+    <defs>
+        <path id="path-1" d="M7.493,15 C6.668,15 6,15.666 6,16.5 L6,16.5 C6,17.328 6.674,18 7.493,18 L7.493,18 L24.507,18 C25.331,18 26,17.335 26,16.5 L26,16.5 C26,15.671 25.326,15 24.507,15 L24.507,15 L7.493,15 Z"></path>
+    </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="minus" sketch:type="MSArtboardGroup" transform="translate(-6.000000, -14.000000)" fill="#3A434C">
-            <path d="M7.49309635,17 C6.67365929,17 6,16.3284271 6,15.5 C6,14.6657972 6.66848201,14 7.49309635,14 L24.5069036,14 C25.3263407,14 26,14.6715729 26,15.5 C26,16.3342028 25.331518,17 24.5069036,17 L7.49309635,17 Z" sketch:type="MSShapeGroup"></path>
+        <g id="minus" sketch:type="MSArtboardGroup" transform="translate(-6.000000, -6.000000)">
+            <mask id="mask-2" sketch:name="minus" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use fill="#3A434C" sketch:type="MSShapeGroup" xlink:href="#path-1"></use>
         </g>
     </g>
 </svg>

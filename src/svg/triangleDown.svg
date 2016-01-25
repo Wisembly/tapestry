@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="20px" height="13px" viewBox="0 0 20 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
     <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
     <title>triangleDown</title>
     <desc>Created with Sketch.</desc>
-    <defs></defs>
+    <defs>
+        <path id="path-1" d="M8.613,9.5 C7.554,9.5 6.603,10.157 6.199,11.162 L6.199,11.162 C5.795,12.167 6.017,13.327 6.764,14.096 L6.764,14.096 L14.151,21.713 C14.645,22.22 15.3,22.5 16,22.5 L16,22.5 C16.697,22.5 17.351,22.22 17.846,21.713 L17.846,21.713 L25.233,14.096 C25.982,13.327 26.205,12.167 25.801,11.162 L25.801,11.162 C25.397,10.157 24.443,9.5 23.387,9.5 L23.387,9.5 L8.613,9.5 Z"></path>
+    </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="triangleDown" sketch:type="MSArtboardGroup" transform="translate(-6.000000, -10.000000)" fill="#3A434C">
-            <path d="M25.8012022,11.662248 C25.3971751,10.6570008 24.4428354,10 23.3874889,10 L8.61263768,10 C7.55380817,10 6.60295141,10.6570008 6.19892436,11.662248 C5.79489731,12.6674952 6.01780879,13.8271196 6.76316903,14.5954156 L14.1505946,22.2137531 C14.6451795,22.7199669 15.2999819,23 16.0000633,23 C16.6966616,23 17.3514641,22.7199669 17.8460489,22.2137531 L25.2334745,14.5954156 C25.9823178,13.8271196 26.2052292,12.6674952 25.8012022,11.662248" sketch:type="MSShapeGroup"></path>
+        <g id="triangleDown" sketch:type="MSArtboardGroup" transform="translate(-6.000000, -6.000000)">
+            <mask id="mask-2" sketch:name="triangleDown" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use fill="#3A434C" sketch:type="MSShapeGroup" xlink:href="#path-1"></use>
         </g>
     </g>
 </svg>
