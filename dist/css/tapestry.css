@@ -2265,14 +2265,15 @@ th {
   cursor: not-allowed;
 }
 
-.Btn .Icon {
-  display: inline-block;
-  line-height: 1.57143rem;
-  vertical-align: top;
-}
-
 .Btn + .Btn:not(.Btn--block) {
   margin-left: 0.78571rem;
+}
+
+.Btn-icon {
+  display: inline-block;
+  vertical-align: sub;
+  font-size: inherit;
+  line-height: 1;
 }
 
 .Btn--primary {
@@ -2418,9 +2419,10 @@ th {
 
 .Btn.has-icon .Btn-icon {
   position: absolute;
-  top: 0;
+  bottom: 0;
   left: 0;
-  padding: 0.71429rem 0.78571rem;
+  padding: 0 0.78571rem;
+  line-height: 3.14286rem;
   border-right: 1px solid rgba(255, 255, 255, 0.3);
 }
 
@@ -2470,6 +2472,16 @@ th {
   width: 3.14286rem;
   padding: 0.78571rem 0;
   border-radius: 50%;
+}
+
+.Btn--s.has-icon {
+  position: relative;
+  padding-left: 4.14286rem;
+  text-align: center;
+}
+
+.Btn--s.has-icon .Btn-icon {
+  line-height: 1.96429rem;
 }
 
 .Btn:hover {
