@@ -4,7 +4,7 @@ var iconfont    = require('gulp-iconfont');
 var consolidate = require('gulp-consolidate');
 
 module.exports = function () {
-  return gulp.src('./src/svg/*.svg')
+  return gulp.src('./src/svg/icons/*.svg')
     .pipe(iconfont({
       fontName: 'tapestry-icons',
       appendCodepoints: false,
