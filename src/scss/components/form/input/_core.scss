@@ -1,1 +1,6 @@
+@import "vars";
 @import "base";
+
+@if $import-input-states {
+  @import "states";
+}

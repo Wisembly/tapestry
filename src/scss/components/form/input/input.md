@@ -65,3 +65,17 @@ You can inline you inputs and label by adding `--inline` to their classes
   <button class="Btn Input-addOn InputGroup-item" id="InputGrouped4" placeholder="input" aria-label="Input item 4">Search</button>
 </div>
 ```
+
+## States
+Tapestry doesn't rely on neither :valid nor :invalid since those behaviors are quite random. When page is loaded, inputs are considered :valid even if their values are empty. Plus, it adds visual noise before you submit anything! We advise to use `.is-valid` and `.is-invalid` but classes are fully customizable. You can also consider giving a try to [ParsleyJS](http://parsleyjs.org/).
+
+```html
+<div class="FormRow">
+  <label for="validInput" class="Label">Validated input</label>
+  <input id="validInput" class="Input is-valid" type="text" value="I am a correct value" placeholder="Valid input">
+</div>
+<div class="FormRow">
+  <label for="invalidInput" class="Label">Errored input</label>
+  <input id="invalidInput" class="Input is-invalid" type="text" value="I am an incorrect value" placeholder="Invalid input">
+</div>
+```
