@@ -11,6 +11,7 @@
   background-color: $gray-chateau;
   border: 0;
   border-radius: $base-radius;
+  user-select: none;
   outline: 0;
   transition: background-color .2s ease-out,
               box-shadow .05s ease-out,
