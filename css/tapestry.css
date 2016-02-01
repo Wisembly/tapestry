@@ -1044,6 +1044,10 @@ th {
 
 .List-item.is-actionable {
   cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .List-item.is-actionable:hover {
@@ -1127,6 +1131,10 @@ th {
 .Dropdown {
   display: inline-block;
   position: relative;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .Dropdown:focus {
@@ -2271,6 +2279,10 @@ th {
   background-color: #a1a9ae;
   border: 0;
   border-radius: 0.28571rem;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   outline: 0;
   transition: background-color .2s ease-out, box-shadow .05s ease-out, color .1s ease-out;
   -webkit-appearance: none;
@@ -3294,6 +3306,10 @@ input:checked + .Switch--s:after,
 
 .Table--actionnable .Table-row {
   cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   transition: background-color .1s ease-out;
 }
 
@@ -3326,6 +3342,10 @@ input:checked + .Switch--s:after,
   font-size: 0;
   text-align: left;
   list-style: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .Tab-item {
