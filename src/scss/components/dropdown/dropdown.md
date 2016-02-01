@@ -62,13 +62,13 @@ Modifiers available (starting points, Dropdown-list are never overlaying Dropdow
 
 ## Dropdown Select
 
-The easiest way to create a `<select>` is, indeed, to use the classic `<select>`, it will be transformed into a custom select with the Tapestry look & feel.<br>
+The easiest way to create a `<select>` is, indeed, to use the classic `<select>` with the attribute `data-tapestry="dropdown-select"`. It will be transformed into a custom select with the Tapestry look & feel.<br>
 The `data-label` attribute will display a custom value.
 You can also use an `<option>` to create a placeholder.
 
 ```html
-<select name="">
-  <option value="">Chose a foobar option</option>
+<select name="" data-tapestry="dropdown-select">
+  <option value="">Choose a foobar option</option>
   <option value="foo" selected>foo</option>
   <option value="bar" data-label="Foo Label">bar</option>
   <option value="baz">baz</option>
