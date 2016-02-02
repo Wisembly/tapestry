@@ -1367,24 +1367,7 @@ th {
   border-bottom: 1px solid #d5d9da;
 }
 
-.Container {
-  width: 100%;
-  padding-right: 0.78571rem;
-  padding-left: 0.78571rem;
-}
-
 .Grid {
-  width: 100%;
-  font-size: 0;
-}
-
-.Grid--gutters {
-  width: auto;
-  margin-right: -0.78571rem;
-  margin-left: -0.78571rem;
-}
-
-.Grid--flex {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -1397,13 +1380,17 @@ th {
           align-items: flex-start;
 }
 
+.Grid--gutters {
+  margin-left: -1.57143rem;
+}
+
 .Grid-cell {
-  display: inline-block;
-  position: relative;
+  -webkit-flex: 0 0 auto;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
   min-height: 1px;
   font-size: 1rem;
   word-wrap: break-word;
-  vertical-align: top;
 }
 
 .Grid-cell.Grid-cell--centered {
@@ -1412,15 +1399,8 @@ th {
   margin-left: auto;
 }
 
-.Grid--flex .Grid-cell:not(.Grid-cell--fr) {
-  -webkit-flex: 0 0 auto;
-      -ms-flex: 0 0 auto;
-          flex: 0 0 auto;
-}
-
 .Grid--gutters .Grid-cell {
-  padding-right: 0.78571rem;
-  padding-left: 0.78571rem;
+  padding-left: 1.57143rem;
 }
 
 .Grid-cell--fr {

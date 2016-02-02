@@ -75,34 +75,32 @@ Grid with gutters `Grid--gutters` must be wrapped within a `.Container` to preve
 You can change gutter width by overriding `$grid-gutter-width`
 
 ```html
-<div class="Container">
-  <div class="Grid Grid--gutters">
-    <div class="Grid-cell Grid-cell--1">1</div>
-    <div class="Grid-cell Grid-cell--1">1</div>
-    <div class="Grid-cell Grid-cell--1">1</div>
-    <div class="Grid-cell Grid-cell--1">1</div>
-    <div class="Grid-cell Grid-cell--1">1</div>
-    <div class="Grid-cell Grid-cell--1">1</div>
-    <div class="Grid-cell Grid-cell--1">1</div>
-    <div class="Grid-cell Grid-cell--1">1</div>
-    <div class="Grid-cell Grid-cell--1">1</div>
-    <div class="Grid-cell Grid-cell--1">1</div>
-    <div class="Grid-cell Grid-cell--1">1</div>
-    <div class="Grid-cell Grid-cell--1">1</div>
-  </div>
-  <div class="Grid Grid--gutters">
-    <div class="Grid-cell Grid-cell--9">9</div>
-    <div class="Grid-cell Grid-cell--3">3</div>
-  </div>
-  <div class="Grid Grid--gutters">
-    <div class="Grid-cell Grid-cell--4">4</div>
-    <div class="Grid-cell Grid-cell--4">4</div>
-    <div class="Grid-cell Grid-cell--4">4</div>
-  </div>
-  <div class="Grid Grid--gutters">
-    <div class="Grid-cell Grid-cell--5">5</div>
-    <div class="Grid-cell Grid-cell--7">7</div>
-  </div>
+<div class="Grid Grid--gutters">
+  <div class="Grid-cell Grid-cell--1">1</div>
+  <div class="Grid-cell Grid-cell--1">1</div>
+  <div class="Grid-cell Grid-cell--1">1</div>
+  <div class="Grid-cell Grid-cell--1">1</div>
+  <div class="Grid-cell Grid-cell--1">1</div>
+  <div class="Grid-cell Grid-cell--1">1</div>
+  <div class="Grid-cell Grid-cell--1">1</div>
+  <div class="Grid-cell Grid-cell--1">1</div>
+  <div class="Grid-cell Grid-cell--1">1</div>
+  <div class="Grid-cell Grid-cell--1">1</div>
+  <div class="Grid-cell Grid-cell--1">1</div>
+  <div class="Grid-cell Grid-cell--1">1</div>
+</div>
+<div class="Grid Grid--gutters">
+  <div class="Grid-cell Grid-cell--9">9</div>
+  <div class="Grid-cell Grid-cell--3">3</div>
+</div>
+<div class="Grid Grid--gutters">
+  <div class="Grid-cell Grid-cell--4">4</div>
+  <div class="Grid-cell Grid-cell--4">4</div>
+  <div class="Grid-cell Grid-cell--4">4</div>
+</div>
+<div class="Grid Grid--gutters">
+  <div class="Grid-cell Grid-cell--5">5</div>
+  <div class="Grid-cell Grid-cell--7">7</div>
 </div>
 ```
 
@@ -111,13 +109,11 @@ You can change gutter width by overriding `$grid-gutter-width`
 Center your Grid-cells by adding a class of `Grid-cell--centered` to your `Grid-cell`.
 
 ```html
-<div class="Container">
-  <div class="Grid">
-    <div class="Grid-cell Grid-cell--3 Grid-cell--centered">3 centered</div>
-  </div>
-  <div class="Grid">
-    <div class="Grid-cell Grid-cell--6 Grid-cell--centered">6 centered</div>
-  </div>
+<div class="Grid">
+  <div class="Grid-cell Grid-cell--3 Grid-cell--centered">3 centered</div>
+</div>
+<div class="Grid">
+  <div class="Grid-cell Grid-cell--6 Grid-cell--centered">6 centered</div>
 </div>
 ```
 
@@ -125,7 +121,7 @@ Center your Grid-cells by adding a class of `Grid-cell--centered` to your `Grid-
 
 Take benefit of CSS flex. `Grid-cell--fr` use the remaining space. Grid-cells can be set with fixed and fluid width.
 ```html
-<div class="Grid Grid--flex">
+<div class="Grid">
   <div class="Grid-cell Grid-cell--2">2</div>
   <div class="Grid-cell Grid-cell--fr">Remaining space</div>
   <div class="Grid-cell" style="width: 100px;">100px</div>
