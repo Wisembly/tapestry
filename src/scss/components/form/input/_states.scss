@@ -1,0 +1,16 @@
+.Input {
+  &#{$input-valid-class} {
+    padding-right: r(8);
+    background-image: url(#{$input-valid-bg-path});
+    background-position: center right;
+    background-repeat: no-repeat;
+  }
+
+  &#{$input-invalid-class} {
+    padding-right: r(8);
+    background-image: url(#{$input-invalid-bg-path});
+    background-position: center right;
+    background-repeat: no-repeat;
+    border: 1px solid $error;
+  }
+}
