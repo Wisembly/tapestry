@@ -48,6 +48,11 @@
 </div>
 
 <div class="s-Icon">
+  <i class="Icon Icon--appearIn"></i>
+  appearIn
+</div>
+
+<div class="s-Icon">
   <i class="Icon Icon--archive"></i>
   archive
 </div>
