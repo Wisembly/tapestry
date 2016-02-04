@@ -196,6 +196,7 @@
 
       var $select = $(select);
       $select.removeAttr('className');
+      $select.removeAttr('data-tapestry');
       $select.attr('hidden', true);
       $select.wrap($el);
       $el = $select.parent();

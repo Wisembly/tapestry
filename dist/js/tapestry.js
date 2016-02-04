@@ -196,6 +196,7 @@
 
       var $select = $(select);
       $select.removeAttr('className');
+      $select.removeAttr('data-tapestry');
       $select.attr('hidden', true);
       $select.wrap($el);
       $el = $select.parent();
@@ -430,16 +431,6 @@
         fnInit(this);
       } else {
         $('[data-tapestry]', $this).each(function (index, el) { fnInit(el); });
-      }
-
-      if (this.nodeName === 'SELECT') {
-        $this.dropdownSelect();
-      } else {
-        $('select', $this).each(function (index, select) {
-          var $select = $(select);
-          if (!$select.parents().is('[data-tapestry=dropdown-select]'))
-            $select.dropdownSelect();
-        });
       }
     });
   };

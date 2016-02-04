@@ -1,0 +1,36 @@
+.SelectWrapper {
+  position: relative;
+
+  &:after {
+    @extend %Icon--triangleDown;
+    @include pos(a ($mg--s) $mg--s null null);
+    font-family: tapestry-icons;
+    font-size: $fz--s;
+    color: $gray-chateau;
+    pointer-events: none;
+  }
+}
+
+.Select {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  padding: rb(2) rb(6) rb(2) rb(2);
+  font-size: $fz--m;
+  line-height: $base-lh;
+  text-align: left;
+  vertical-align: middle;
+  color: $limed-spruce;
+  background-color: $white;
+  border: 1px solid $base-border-color;
+  border-radius: $base-radius;
+  cursor: pointer;
+  outline: 0;
+  appearance: none;
+
+  &:focus {
+    color: $limed-spruce;
+    border-color: $gray-chateau;
+    outline: none;
+  }
+}

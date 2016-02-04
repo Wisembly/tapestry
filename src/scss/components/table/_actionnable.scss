@@ -2,6 +2,7 @@
 
   .Table-row {
     cursor: pointer;
+    user-select: none;
     transition: background-color .1s ease-out;
 
     &.is-selected,

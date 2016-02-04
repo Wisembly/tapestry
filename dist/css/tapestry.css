@@ -1044,6 +1044,10 @@ th {
 
 .List-item.is-actionable {
   cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .List-item.is-actionable:hover {
@@ -1127,6 +1131,10 @@ th {
 .Dropdown {
   display: inline-block;
   position: relative;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .Dropdown:focus {
@@ -2044,7 +2052,7 @@ th {
   content: "\ea6b";
 }
 
-.Dropdown-selectInput:after, .Icon--triangleDown:before {
+.Dropdown-selectInput:after, .Icon--triangleDown:before, .SelectWrapper:after {
   content: "\ea6c";
 }
 
@@ -2271,6 +2279,10 @@ th {
   background-color: #a1a9ae;
   border: 0;
   border-radius: 0.28571rem;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   outline: 0;
   transition: background-color .2s ease-out, box-shadow .05s ease-out, color .1s ease-out;
   -webkit-appearance: none;
@@ -3150,6 +3162,46 @@ th {
   border-bottom-color: #e25c5b;
 }
 
+.SelectWrapper {
+  position: relative;
+}
+
+.SelectWrapper:after {
+  position: absolute;
+  top: 0.78571rem;
+  right: 0.78571rem;
+  font-family: tapestry-icons;
+  font-size: 0.83333rem;
+  color: #a1a9ae;
+  pointer-events: none;
+}
+
+.Select {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  padding: 0.71429rem 2.28571rem 0.71429rem 0.71429rem;
+  font-size: 1rem;
+  line-height: 1.57143rem;
+  text-align: left;
+  vertical-align: middle;
+  color: #3a434c;
+  background-color: #fff;
+  border: 1px solid #d5d9da;
+  border-radius: 0.28571rem;
+  cursor: pointer;
+  outline: 0;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+.Select:focus {
+  color: #3a434c;
+  border-color: #a1a9ae;
+  outline: none;
+}
+
 .Switch {
   display: inline-block;
   position: relative;
@@ -3254,6 +3306,10 @@ input:checked + .Switch--s:after,
 
 .Table--actionnable .Table-row {
   cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   transition: background-color .1s ease-out;
 }
 
@@ -3286,6 +3342,10 @@ input:checked + .Switch--s:after,
   font-size: 0;
   text-align: left;
   list-style: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .Tab-item {
