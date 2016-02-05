@@ -1,11 +1,10 @@
 .Grid {
-  width: 100%;
-  font-size: 0;
-}
-
-.Grid--flex {
   display: flex;
   flex-direction: row;
   margin: 0 auto;
   align-items: flex-start;
+}
+
+.Grid--gutters {
+  margin-left: -#{$grid-gutter-width};
 }

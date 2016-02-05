@@ -1,10 +1,8 @@
 .Grid-cell {
-  display: inline-block;
-  position: relative;
+  flex: 0 0 auto;
   min-height: 1px;
   font-size: 1rem;
   word-wrap: break-word;
-  vertical-align: top;
 
   &.Grid-cell--centered {
     display: block;
@@ -12,10 +10,8 @@
     margin-left: auto;
   }
 
-  &:not(.Grid-cell--fr) {
-    .Grid--flex & {
-      flex: 0 0 auto;
-    }
+  .Grid--gutters & {
+    padding-left: $grid-gutter-width;
   }
 }
 

@@ -249,7 +249,23 @@
 	margin-top: .5rem;
 }
 
+.s-Module--grid .Grid.Grid--gutters .Grid-cell {
+  background: #fff;
+  border: 0;
+  padding: 1rem 0 1rem 1.57143rem;
+  position: relative;
+}
 
+.s-Module--grid .Grid.Grid--gutters .Grid-cell:before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 1.57143rem;
+  content: "";
+  background-color: rgba(86, 61, 124, .1);
+  border: 1px solid #d5d9da;
+}
 
 
 
