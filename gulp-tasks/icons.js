@@ -11,7 +11,7 @@ module.exports = function () {
       normalize: true,
       centerHorizontally: true,
       fontHeight: 100,
-      formats: ['eot', 'woff', 'woff2']
+      formats: ['eot', 'ttf', 'woff', 'woff2']
     }))
     .on('glyphs', function(glyphs, options) {
       gulp.src('src/scss/components/icons/templates/_base.scss.tpl')
