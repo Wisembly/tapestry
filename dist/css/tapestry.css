@@ -1382,6 +1382,7 @@ th {
   -webkit-flex-direction: row;
       -ms-flex-direction: row;
           flex-direction: row;
+  width: 100%;
   margin: 0 auto;
   -webkit-align-items: flex-start;
       -ms-flex-align: start;
