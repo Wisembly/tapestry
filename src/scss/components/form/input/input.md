@@ -56,7 +56,7 @@ You can inline you inputs and label by adding `--inline` to their classes
 
 <div class="InputGroup">
   <input class="Input InputGroup-item" id="InputGrouped11" placeholder="Search…" aria-label="Search aria label">
-  <select class="InputGroup-item" name="">
+  <select class="Select InputGroup-item" name="">
     <option value="">Chose a foobar option</option>
     <option value="foo" selected>foo</option>
     <option value="bar" data-label="Foo Label">bar</option>
