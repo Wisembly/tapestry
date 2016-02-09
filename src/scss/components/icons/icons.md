@@ -53,6 +53,11 @@
 </div>
 
 <div class="s-Icon">
+  <i class="Icon Icon--apple"></i>
+  apple
+</div>
+
+<div class="s-Icon">
   <i class="Icon Icon--archive"></i>
   archive
 </div>
@@ -135,6 +140,11 @@
 <div class="s-Icon">
   <i class="Icon Icon--checkmark"></i>
   checkmark
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--chrome"></i>
+  chrome
 </div>
 
 <div class="s-Icon">
