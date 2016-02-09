@@ -1383,7 +1383,8 @@ th {
       -ms-flex-direction: row;
           flex-direction: row;
   width: 100%;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   -webkit-align-items: flex-start;
       -ms-flex-align: start;
           align-items: flex-start;
