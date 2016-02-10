@@ -1383,11 +1383,14 @@ th {
       -ms-flex-direction: row;
           flex-direction: row;
   width: 100%;
-  margin-left: auto;
   margin-right: auto;
+  margin-left: auto;
   -webkit-align-items: flex-start;
       -ms-flex-align: start;
           align-items: flex-start;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
 }
 
 .Grid--gutters {
