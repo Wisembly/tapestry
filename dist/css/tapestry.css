@@ -1394,6 +1394,7 @@ th {
 }
 
 .Grid--gutters {
+  width: auto;
   margin-left: -1.57143rem;
 }
 

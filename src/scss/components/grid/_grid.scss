@@ -9,5 +9,6 @@
 }
 
 .Grid--gutters {
+  width: auto;
   margin-left: -#{$grid-gutter-width};
 }
