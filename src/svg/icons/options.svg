@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 3.5.1 (25234) - http://www.bohemiancoding.com/sketch -->
     <title>options</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <path d="M22,16 C22,17.105 22.895,18 24,18 L24,18 C25.105,18 26,17.105 26,16 L26,16 C26,14.895 25.105,14 24,14 L24,14 C22.895,14 22,14.895 22,16 L22,16 Z M14,16 C14,17.105 14.895,18 16,18 L16,18 C17.105,18 18,17.105 18,16 L18,16 C18,14.895 17.105,14 16,14 L16,14 C14.895,14 14,14.895 14,16 L14,16 Z M6,16 C6,17.105 6.896,18 8,18 L8,18 C9.104,18 10,17.105 10,16 L10,16 C10,14.895 9.104,14 8,14 L8,14 C6.896,14 6,14.895 6,16 L6,16 Z" id="path-1"></path>
-    </defs>
+    <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="options" sketch:type="MSArtboardGroup" transform="translate(-6.000000, -14.000000)">
-            <mask id="mask-2" sketch:name="options" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <use fill="#3A434C" sketch:type="MSShapeGroup" xlink:href="#path-1"></use>
+        <g id="options" sketch:type="MSArtboardGroup" transform="translate(-6.000000, -14.000000)" fill="#3A434C">
+            <path d="M8,18 C9.1045695,18 10,17.1045695 10,16 C10,14.8954305 9.1045695,14 8,14 C6.8954305,14 6,14.8954305 6,16 C6,17.1045695 6.8954305,18 8,18 Z M24,18 C25.1045695,18 26,17.1045695 26,16 C26,14.8954305 25.1045695,14 24,14 C22.8954305,14 22,14.8954305 22,16 C22,17.1045695 22.8954305,18 24,18 Z M16,18 C17.1045695,18 18,17.1045695 18,16 C18,14.8954305 17.1045695,14 16,14 C14.8954305,14 14,14.8954305 14,16 C14,17.1045695 14.8954305,18 16,18 Z" sketch:type="MSShapeGroup"></path>
         </g>
     </g>
 </svg>
