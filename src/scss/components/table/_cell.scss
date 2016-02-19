@@ -1,22 +1,21 @@
 .Table-cell {
   display: table-cell;
-  padding: $pd--s $pd--m;
+  padding: $table-pdv $table-pdh;
   font-size: $fz--m;
   font-weight: $base-fw;
   line-height: $base-lh;
   text-align: center;
-  color: $slate-gray;
   border-left: 1px solid $base-border-color;
 
   [aria-disabled=true] & {
-    color: $iron;
+    color: $table-disabled-cell-color;
   }
 
 }
 
 .Table-cell--important {
   font-weight: $fw--semi-bold;
-  color: $limed-spruce;
+  color: $table-important-cell-color;
 }
 
 .Table-head {

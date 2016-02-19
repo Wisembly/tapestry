@@ -3453,7 +3453,6 @@ input:checked + .Switch--s:after,
   font-weight: 400;
   line-height: 1.57143rem;
   text-align: center;
-  color: #708189;
   border-left: 1px solid #d5d9da;
 }
 

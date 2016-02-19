@@ -7,11 +7,11 @@
 
     &.is-selected,
     &[aria-selected="true"] {
-      background-color: $alabaster;
+      background-color: $selected-table-row-bg;
     }
 
     &[aria-disabled="true"] {
-      background-color: $alabaster;
+      background-color: $disabled-table-row-bg;
       cursor: default;
     }
   }
