@@ -43,7 +43,9 @@
 <button class="Btn Btn--squared">
   <i class="Icon Icon--like"></i>
 </button>
-
+<button class="Btn Btn--s Btn--outline Btn--squared">
+  <i class="Icon Icon--trash"></i>
+</button>
 ```
 
 
@@ -52,7 +54,9 @@
 <button class="Btn Btn--circle">
   <i class="Icon Icon--like"></i>
 </button>
-
+<button class="Btn Btn--s Btn--outline Btn--circle">
+  <i class="Icon Icon--options"></i>
+</button>
 ```
 
 ## Types
