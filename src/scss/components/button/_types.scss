@@ -52,7 +52,7 @@
 
   .Btn-icon {
     @include pos(a 0 null null 0);
-    padding: rb(2) $btn-pdh--s;
+    padding: r(2) $btn-pdh--s;
     border-right: 1px solid rgba($white, .3);
   }
 }
