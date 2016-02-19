@@ -1,11 +1,11 @@
 .has-tooltip {
   &:after {
-    width: 10rem;
+    width: $tooltip-width;
   }
 }
 
 .has-tooltip--l {
   &:after {
-    width: 20rem;
+    width: $tooltip-large-width;
   }
 }

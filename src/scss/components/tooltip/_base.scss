@@ -16,13 +16,13 @@
 
   &:after {
     content: attr(aria-label);
-    padding: $pd--s;
+    padding: $tooltip-pd;
     font-size: $fz--s;
     font-weight: bold;
     line-height: r(3);
     text-align: center;
     white-space: normal;
-    color: $white;
+    color: $tooltip-color;
     background-color: $tooltip-bg;
     border-radius: $base-radius;
     cursor: default;
