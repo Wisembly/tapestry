@@ -3,6 +3,7 @@ website/components
 dist/stats
 dist/css
 dist/js
+visual-tests/tests/**/
 
 env.js
 npm-debug.log
