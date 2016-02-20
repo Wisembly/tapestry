@@ -4,22 +4,36 @@
 
 ```esc
 <table class="Table">
+  <thead class="Table-head">
+    <th class="Table-cell Table-cell--header u-tal" style="width: 25%;">Name</th>
+    <th class="Table-cell Table-cell--header" style="width: 10%;">Type</th>
+    <th class="Table-cell Table-cell--header">Description</th>
+  </thead>
   <tbody class="Table-body">
     <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal" width="35%">$avatar-size--s</td>
-      <td class="Table-cell Table-cell--important">r(4)</td>
+      <td class="Table-cell Table-cell--important u-tal">$avatar-size--s</td>
+      <td class="Table-cell">size</td>
+      <td class="Table-cell">small avatar diameter<br><code>r(4)</code></td>
     </tr>
     <tr class="Table-row">
       <td class="Table-cell Table-cell--important u-tal">$avatar-size--m</td>
-      <td class="Table-cell Table-cell--important">r(7)</td>
+      <td class="Table-cell">size</td>
+      <td class="Table-cell">regular avatar diameter<br><code>r(7)</code></td>
     </tr>
     <tr class="Table-row">
       <td class="Table-cell Table-cell--important u-tal">$avatar-size--l</td>
-      <td class="Table-cell Table-cell--important">r(9)</td>
+      <td class="Table-cell">size</td>
+      <td class="Table-cell">large avatar diameter<br><code>r(9)</code></td>
     </tr>
     <tr class="Table-row">
       <td class="Table-cell Table-cell--important u-tal">$avatar-rounded</td>
-      <td class="Table-cell Table-cell--important">true</td>
+      <td class="Table-cell">boolean</td>
+      <td class="Table-cell">defines if avatar should rounded or squared<br><code>true</code></td>
+    </tr>
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal">$avatar-colors</td>
+      <td class="Table-cell">list</td>
+      <td class="Table-cell">lists avatar colors<br><code>$gray-chateau $salmon $curious-blue $mint $saffron</code></td>
     </tr>
   </tbody>
 </table>
