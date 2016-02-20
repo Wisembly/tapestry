@@ -1,7 +1,36 @@
 # Grid
 
-A 12 columns/grid-cells grid <br/>
-You can overide the `$column-number` variable
+A 12 columns/grid-cells grid
+
+## Variables
+```esc
+<table class="Table">
+  <thead class="Table-head">
+    <th class="Table-cell Table-cell--header u-tal" style="width: 25%;">Name</th>
+    <th class="Table-cell Table-cell--header" style="width: 10%;">Type</th>
+    <th class="Table-cell Table-cell--header">Description</th>
+  </thead>
+  <tbody class="Table-body">
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal" style="width: 25%;">$grid-column-number</td>
+      <td class="Table-cell">number</td>
+      <td class="Table-cell">grid column number<br><code>12</code></td>
+    </tr>
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal" style="width: 25%;">$grid-responsive-range</td>
+      <td class="Table-cell">map</td>
+      <td class="Table-cell">lists devices to generate responsive grid systems, matches with $breakpoints map<br><code>(phablet, tablet, laptop)</code></td>
+    </tr>
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal" style="width: 25%;">$grid-gutter-width</td>
+      <td class="Table-cell">size</td>
+      <td class="Table-cell">gutter width<br><code>r(4)</code></td>
+    </tr>
+  </tbody>
+</table>
+```
+
+
 
 ```html
 <div class="Grid">
@@ -70,9 +99,9 @@ You can overide the `$column-number` variable
 </div>
 ```
 
+
+
 ## Grid with gutters
-Grid with gutters `Grid--gutters` must be wrapped within a `.Container` to prevent unexpected horizontal scrollbars.<br>
-You can change gutter width by overriding `$grid-gutter-width`
 
 ```html
 <div class="Grid Grid--gutters">
@@ -104,9 +133,9 @@ You can change gutter width by overriding `$grid-gutter-width`
 </div>
 ```
 
-## Centered Grid-cells
 
-Center your Grid-cells by adding a class of `Grid-cell--centered` to your `Grid-cell`.
+
+## Centered Grid-cells
 
 ```html
 <div class="Grid">
@@ -117,9 +146,11 @@ Center your Grid-cells by adding a class of `Grid-cell--centered` to your `Grid-
 </div>
 ```
 
+
+
 ## Flexible Grid-cells
 
-Take benefit of CSS flex. `Grid-cell--fr` use the remaining space. Grid-cells can be set with fixed and fluid width.
+.Grid-cell--fr uses the remaining space. Grid-cells can be set with fixed and fluid widths.
 ```html
 <div class="Grid">
   <div class="Grid-cell Grid-cell--2">2</div>
@@ -128,8 +159,10 @@ Take benefit of CSS flex. `Grid-cell--fr` use the remaining space. Grid-cells ca
 </div>
 ```
 
+
+
 ## Responsive Grid-cells
-Grid-cells width can change according to viewport. Use `.Grid-cell--n@phablet` for viewport greater than 414px, `.Grid-cell-n@tablet` for viewport greater than 768px and `.Grid-cell-n@laptop` for viewport greater than 1024px.
+Grid-cells width can change according to viewport. Use .Grid-cell--n@phablet for viewport greater than 414px, .Grid-cell-n@tablet for viewport greater than 768px and .Grid-cell-n@laptop for viewport greater than 1024px.
 ```html
 <div class="Grid">
   <div class="Grid-cell Grid-cell--12 Grid-cell--6@tablet Grid-cell--2@laptop">2 | 6@tablet | 12@laptop</div>
