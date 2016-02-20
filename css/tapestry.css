@@ -2875,7 +2875,7 @@ th {
 
 .Meter,
 .Meter-bar {
-  border-radius: 0.57143rem;
+  border-radius: 0.58929rem;
 }
 
 [data-threshold="75"] .Meter-bar {
