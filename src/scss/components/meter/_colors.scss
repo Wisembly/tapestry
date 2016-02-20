@@ -1,9 +1,9 @@
 .Meter-bar {
   [data-threshold="75"] & {
-    background: $meter-bar-bg--75;
+    background: $info;
   }
 
   [data-threshold="99"] & {
-    background: $meter-bar-bg--99;
+    background: $error;
   }
 }

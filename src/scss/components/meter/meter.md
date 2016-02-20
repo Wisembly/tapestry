@@ -1,33 +1,33 @@
 # Meters
 
 ## Variables
-
 ```esc
 <table class="Table">
+  <thead class="Table-head">
+    <th class="Table-cell Table-cell--header u-tal" style="width: 25%;">Name</th>
+    <th class="Table-cell Table-cell--header" style="width: 10%;">Type</th>
+    <th class="Table-cell Table-cell--header">Description</th>
+  </thead>
   <tbody class="Table-body">
     <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal" width="35%">$meter-height</td>
-      <td class="Table-cell Table-cell--important">$lh--s</td>
+      <td class="Table-cell Table-cell--important u-tal">$meter-height</td>
+      <td class="Table-cell">height</td>
+      <td class="Table-cell">meter height<br><code>$lh--s</code></td>
     </tr>
     <tr class="Table-row">
       <td class="Table-cell Table-cell--important u-tal">$meter-radius</td>
-      <td class="Table-cell Table-cell--important">$base-radius * 2</td>
+      <td class="Table-cell">size</td>
+      <td class="Table-cell">meter border-radius<br><code>$meter-height / 2</code></td>
     </tr>
     <tr class="Table-row">
       <td class="Table-cell Table-cell--important u-tal">$meter-base-bg</td>
-      <td class="Table-cell Table-cell--important">$porcelain</td>
+      <td class="Table-cell">background-color</td>
+      <td class="Table-cell">meter background-color<br><code>$porcelain</code></td>
     </tr>
     <tr class="Table-row">
       <td class="Table-cell Table-cell--important u-tal">$meter-bar-bg</td>
-      <td class="Table-cell Table-cell--important">$curious-blue</td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$meter-bar-bg--75</td>
-      <td class="Table-cell Table-cell--important">$saffron</td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$meter-bar-bg--99</td>
-      <td class="Table-cell Table-cell--important">$mandy</td>
+      <td class="Table-cell">background-color</td>
+      <td class="Table-cell">meter bar background-color<br><code>$curious-blue</code></td>
     </tr>
   </tbody>
 </table>
@@ -42,6 +42,8 @@
   <div class="Meter-bar" style="width:50%;"></div>
 </div>
 ```
+
+
 
 ## Colors
 
