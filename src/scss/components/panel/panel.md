@@ -1,5 +1,30 @@
 # Panel
 
+## Variables
+```esc
+<table class="Table">
+  <thead class="Table-head">
+    <th class="Table-cell Table-cell--header u-tal" style="width: 25%;">Name</th>
+    <th class="Table-cell Table-cell--header" style="width: 10%;">Type</th>
+    <th class="Table-cell Table-cell--header">Description</th>
+  </thead>
+  <tbody class="Table-body">
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal">$panel-header-height</td>
+      <td class="Table-cell">height</td>
+      <td class="Table-cell">panel header height<br><code>r(8)</code></td>
+    </tr>
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal">$panel-width</td>
+      <td class="Table-cell">width</td>
+      <td class="Table-cell">panel width<br><code>r(100)</code></td>
+    </tr>
+  </tbody>
+</table>
+```
+
+
+
 ```esc
 <button id="js-LaunchRightPanel" class="Btn Btn--primary Btn--outline">Launch panel on the right</button>
 ```
