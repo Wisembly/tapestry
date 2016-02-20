@@ -1,10 +1,9 @@
 # Inputs
 
-* NB: `aria-label` is an attribute that can be used with an input when it is not possible to include a HTML label element.
-`aria-label` must not be used when there is a visible label.
-
-
 Input is displayed as a 100% width by default.
+
+
+
 ```html
 <div class="FormRow">
   <label for="basicInput" class="Label">Foo</label>
@@ -15,18 +14,23 @@ Input is displayed as a 100% width by default.
   <input id="disabledInput" class="Input" type="text" placeholder="Disabled input" aria-label="Input item" disabled>
 </div>
 ```
-You can inline you inputs and label by adding `--inline` to their classes
+
+
+Items can be inlined with .Input--inline class.
+
 ```html
 <div class="FormRow">
-  <label for="fooLabel" class="Label Label--inline">Foo</label>
+  <label for="fooLabel" class="Label">Foo</label>
   <input id="fooLabel" class="Input Input--inline" type="text" placeholder="" aria-label="Input item">
 </div>
 
 <div class="FormRow">
   <input id="barLabel" class="Input Input--inline" type="text" placeholder="" aria-label="Input item">
-  <label for="barLabel" class="Label Label--inline">Bar</label>
+  <label for="barLabel" class="Label">Bar</label>
 </div>
 ```
+
+
 
 ## Prefixed and suffixed
 
@@ -46,6 +50,7 @@ You can inline you inputs and label by adding `--inline` to their classes
 ```
 
 
+
 ## Addons
 
 ```html
@@ -62,6 +67,8 @@ You can inline you inputs and label by adding `--inline` to their classes
   </div>
 </div>
 ```
+
+
 
 ## Input-group
 
@@ -88,8 +95,10 @@ You can inline you inputs and label by adding `--inline` to their classes
 </div>
 ```
 
+
+
 ## States
-Tapestry doesn't rely on neither :valid nor :invalid since those behaviors are quite random. When page is loaded, inputs are considered :valid even if their values are empty. Plus, it adds visual noise before you submit anything! We advise to use `.is-valid` and `.is-invalid` but classes are fully customizable. You can also consider giving a try to [ParsleyJS](http://parsleyjs.org/).
+Tapestry does not rely on neither :valid nor :invalid since those behaviors are quite random. When page is loaded, inputs are considered :valid even if their values are empty. Plus, it adds visual noise before you submit anything! We advise to use .is-valid and .is-invalid but classes are fully customizable. You can also consider giving a try to [ParsleyJS](http://parsleyjs.org/).
 
 ```html
 <div class="FormRow">
@@ -100,4 +109,14 @@ Tapestry doesn't rely on neither :valid nor :invalid since those behaviors are q
   <label for="invalidInput" class="Label">Errored input</label>
   <input id="invalidInput" class="Input is-invalid" type="text" value="I am an incorrect value" placeholder="Invalid input">
 </div>
+```
+
+## Variables
+```esc
+<ul>
+  <li><strong>$input-valid-class:</strong> class for valid inputs - class name - default: ".is-valid"</li>
+  <li><strong>$input-valid-bg-path:</strong> background for valid inputs (will be base64 encoded) - path - default: "/src/svg/backgrounds/inputBg--valid.svg"</li>
+  <li><strong>$input-invalid-class:</strong> class for invalid inputs - class name - default: ".is-invalid"</li>
+  <li><strong>$input-invalid-bg-path:</strong> background for invalid inputs (will be base64 encoded) - path - default: "/src/svg/backgrounds/inputBg--invalid.svg"</li>
+</ul>
 ```

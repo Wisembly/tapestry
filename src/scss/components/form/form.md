@@ -1,5 +1,5 @@
 # Form
-A form displays a set of related user input fields in a structured way
+
 ```html
 <fieldset class="Fieldset">
   <legend class="Legend">Shipping Information</legend>
@@ -75,7 +75,7 @@ A form displays a set of related user input fields in a structured way
   <div class="FormRow Grid">
     <div class="Grid-cell Grid-cell--12">
       <label class="Label Label--block" for="textarea1">Details</label>
-      <textarea class="Textarea" placeholder="Give more details about your shipping informations" name="textarea1" id="textarea1" disabled></textarea>
+      <textarea class="Textarea" placeholder="Give more details about your shipping informations" name="textarea1" id="textarea1"></textarea>
     </div>
   </div>
   <label for="newsletter" class="Label Label--block">Newsletter</label>
@@ -87,12 +87,13 @@ A form displays a set of related user input fields in a structured way
       </div>
     </div>
   </div>
-  <label for="junk" class="Label Label--block">Do you like e-mails?</label>
+  <label for="contactMethod" class="Label Label--block">Prefered contact method</label>
   <div class="FormRow">
-    <select class="Select" id="junk" name="junk">
-      <optgroup label="Do you like e-mails?">
-        <option value="true">Yes</option>
-        <option selected value="false">No</option>
+    <select class="Select" id="contactMethod" name="contactMethod">
+      <optgroup label="Prefered contact method">
+        <option value="phone">Phone</option>
+        <option value="email">E-mails</option>
+        <option selected value="none">None</option>
       </optgroup>
     </select>
   </div>
