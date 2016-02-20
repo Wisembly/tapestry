@@ -1,8 +1,7 @@
 $tooltip-arrow-size: rem(5px) !default;
-$tooltip-bg: rgba(0, 0, 0, .8) !default;
+$tooltip-bg: rgba($black, .8) !default;
 $tooltip-color: $white !default;
 $tooltip-space-between-content: $mg--xs !default;
-$tooltip-space-animation: $mg--xs !default;
 
 $tooltip-width: 10rem !default;
 $tooltip-large-width: 20rem !default;
