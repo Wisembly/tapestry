@@ -2458,12 +2458,37 @@ th {
   position: absolute;
   top: 0;
   left: 0;
-  padding: 0.71429rem 0.78571rem;
+  padding: 0.78571rem 0.78571rem;
   border-right: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .Btn--outline.has-icon .Btn-icon {
   border-color: inherit;
+}
+
+.Btn--squared {
+  width: 3.14286rem;
+  height: 3.14286rem;
+  padding: 0;
+}
+
+.Btn--squared.Btn--s {
+  width: 2.35714rem;
+  height: 2.35714rem;
+  padding: 0;
+}
+
+.Btn--circle {
+  width: 3.14286rem;
+  height: 3.14286rem;
+  padding: 0;
+  border-radius: 50%;
+}
+
+.Btn--circle.Btn--s {
+  width: 2.35714rem;
+  height: 2.35714rem;
+  padding: 0;
 }
 
 .Btn--block {
@@ -2497,17 +2522,6 @@ th {
           flex: 1;
   padding-right: 0;
   padding-left: 0;
-}
-
-.Btn--squared {
-  width: 3.14286rem;
-  padding: 0.78571rem 0;
-}
-
-.Btn--circle {
-  width: 3.14286rem;
-  padding: 0.78571rem 0;
-  border-radius: 50%;
 }
 
 .Btn:hover {

@@ -52,7 +52,7 @@
 
   .Btn-icon {
     @include pos(a 0 null null 0);
-    padding: rb(2) $btn-pdh--s;
+    padding: r(2) $btn-pdh--s;
     border-right: 1px solid rgba($white, .3);
   }
 }
@@ -60,5 +60,30 @@
 .Btn--outline.has-icon {
   .Btn-icon {
     border-color: inherit;
+  }
+}
+
+.Btn--squared {
+  width: $btn-fixed-unit;
+  height: $btn-fixed-unit;
+  padding: 0;
+
+  &.Btn--s {
+    width: $btn-fixed-unit--s;
+    height: $btn-fixed-unit--s;
+    padding: 0;
+  }
+}
+
+.Btn--circle {
+  width: $btn-fixed-unit;
+  height: $btn-fixed-unit;
+  padding: 0;
+  border-radius: 50%;
+
+  &.Btn--s {
+    width: $btn-fixed-unit--s;
+    height: $btn-fixed-unit--s;
+    padding: 0;
   }
 }
