@@ -70,6 +70,12 @@
   <i class="Btn-icon Icon Icon--like"></i>
   Button with icon
 </button>
+
+<button class="Btn Btn--s">
+  <i class="Btn-icon Icon Icon--like Icon--s"></i>
+  Button with icon
+</button>
+
 <button class="Btn has-icon">
   <i class="Btn-icon Icon Icon--like"></i>
   Button with icon

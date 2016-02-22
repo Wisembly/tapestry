@@ -2306,7 +2306,11 @@ th {
 .Btn .Icon {
   display: inline-block;
   line-height: 1.57143rem;
-  vertical-align: top;
+  vertical-align: middle;
+}
+
+.Btn .Icon--s {
+  line-height: 1.17857rem;
 }
 
 .Btn + .Btn:not(.Btn--block) {
