@@ -268,6 +268,11 @@
 </div>
 
 <div class="s-Icon">
+  <i class="Icon Icon--groupRounded"></i>
+  groupRounded
+</div>
+
+<div class="s-Icon">
   <i class="Icon Icon--help"></i>
   help
 </div>
@@ -383,6 +388,11 @@
 </div>
 
 <div class="s-Icon">
+  <i class="Icon Icon--optionsRounded"></i>
+  optionsRounded
+</div>
+
+<div class="s-Icon">
   <i class="Icon Icon--paragraph"></i>
   paragraph
 </div>
@@ -478,6 +488,11 @@
 </div>
 
 <div class="s-Icon">
+  <i class="Icon Icon--resetRounded"></i>
+  resetRounded
+</div>
+
+<div class="s-Icon">
   <i class="Icon Icon--results"></i>
   results
 </div>
@@ -520,6 +535,11 @@
 <div class="s-Icon">
   <i class="Icon Icon--starOutlined"></i>
   starOutlined
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--statsRounded"></i>
+  statsRounded
 </div>
 
 <div class="s-Icon">
