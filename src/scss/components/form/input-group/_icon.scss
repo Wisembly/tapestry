@@ -1,0 +1,29 @@
+.has-icon--pulled {
+
+  .Input-icon {
+    @include pos(a $mg--s auto auto  $mg--s);
+  }
+
+  .Input {
+    padding-left: r(6);
+  }
+}
+
+.has-icon--pushed {
+
+  .Input-icon {
+    @include pos(a $mg--s $mg--s auto auto);
+  }
+
+  .Input {
+    padding-right: r(6);
+  }
+}
+
+.Input-icon {
+  color: $iron;
+
+  .Input:focus + & {
+    color: $limed-spruce;
+  }
+}
