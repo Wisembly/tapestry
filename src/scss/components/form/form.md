@@ -89,14 +89,12 @@ A form displays a set of related user input fields in a structured way
   </div>
   <label for="junk" class="Label Label--block">Do you like e-mails?</label>
   <div class="FormRow">
-    <div class="SelectWrapper">
-      <select class="Select" id="junk" name="junk">
-        <optgroup label="Do you like e-mails?">
-          <option value="true">Yes</option>
-          <option selected value="false">No</option>
-        </optgroup>
-      </select>
-    </div>
+    <select class="Select" id="junk" name="junk">
+      <optgroup label="Do you like e-mails?">
+        <option value="true">Yes</option>
+        <option selected value="false">No</option>
+      </optgroup>
+    </select>
   </div>
   <div class="Grid">
     <div class="Grid-cell Grid-cell--12 u-tar">

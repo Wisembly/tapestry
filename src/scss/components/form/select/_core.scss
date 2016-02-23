@@ -1,1 +1,6 @@
+@import "vars";
 @import "base";
+
+@if $import-pseudo-classes {
+  @import "state/base";
+}
