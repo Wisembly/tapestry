@@ -8,3 +8,10 @@
 @if $import-input-states {
   @import "states";
 }
+
+@if $import-input-group {
+  @import "group/base";
+  @import "group/addon";
+  @import "group/icon";
+  @import "types";
+}

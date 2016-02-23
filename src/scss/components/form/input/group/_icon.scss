@@ -1,0 +1,17 @@
+%InputGroup-icon {
+  @include pos(a 0 null 0 null);
+  width: $input-group-icon-width;
+  line-height: $pd--s * 2 + $base-lh;
+  text-align: center;
+  color: $input-group-icon-color;
+}
+
+.InputGroup-prefix {
+  @extend %InputGroup-icon;
+  left: 0;
+}
+
+.InputGroup-suffix {
+  @extend %InputGroup-icon;
+  right: 0;
+}

@@ -63,10 +63,6 @@
   @import "components/form/input/core";
 }
 
-@if $import-input-group {
-  @import "components/form/input-group/core";
-}
-
 @if $import-button {
   @import "components/button/core";
 }

@@ -1,5 +1,6 @@
 .InputGroup {
   display: flex;
+  position: relative;
   font-size: 0;
 
   .Input {
@@ -36,5 +37,4 @@
   .Dropdown-selectInput {
     border-radius: 0;
   }
-
 }

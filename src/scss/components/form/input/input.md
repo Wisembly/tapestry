@@ -28,6 +28,24 @@ You can inline you inputs and label by adding `--inline` to their classes
 </div>
 ```
 
+## Prefixed and suffixed
+
+```html
+<div class="FormRow">
+  <div class="InputGroup">
+    <label for="prefixedInput" class="InputGroup-prefix Icon Icon--mail"></label>
+    <input id="prefixedInput" class="Input Input--prefixed" type="text" placeholder="Prefixed input" aria-label="Input item">
+  </div>
+</div>
+<div class="FormRow">
+  <div class="InputGroup">
+    <label for="suffixedInput" class="InputGroup-suffix Icon Icon--glass"></label>
+    <input id="suffixedInput" class="Input Input--suffixed" type="text" placeholder="Suffixed input" aria-label="Input item">
+  </div>
+</div>
+```
+
+
 ## Addons
 
 ```html
