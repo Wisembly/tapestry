@@ -2187,6 +2187,7 @@ th {
   background: #fff;
   border: 1px solid #d5d9da;
   border-radius: 0.28571rem;
+  transition: border .2s ease-in-out;
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
@@ -2222,6 +2223,10 @@ th {
 .Input--inline + .Label,
 .Label + .Input--inline {
   margin-left: 0.39286rem;
+}
+
+.Input:not([disabled]):hover {
+  border-color: #a1a9ae;
 }
 
 .Input.is-valid {

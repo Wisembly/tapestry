@@ -10,6 +10,10 @@ Input is displayed as a 100% width by default.
   <label for="basicInput" class="Label">Foo</label>
   <input id="basicInput" class="Input" type="text" placeholder="Basic input" aria-label="Input item">
 </div>
+<div class="FormRow">
+  <label for="disabledInput" class="Label">Bar</label>
+  <input id="disabledInput" class="Input" type="text" placeholder="Disabled input" aria-label="Input item" disabled>
+</div>
 ```
 You can inline you inputs and label by adding `--inline` to their classes
 ```html
