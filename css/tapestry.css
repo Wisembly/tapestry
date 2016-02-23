@@ -2248,6 +2248,7 @@ th {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  position: relative;
   font-size: 0;
 }
 
@@ -2307,6 +2308,32 @@ th {
 
 .Input-addOn:not(.Btn) {
   cursor: default;
+}
+
+.InputGroup-prefix, .InputGroup-suffix {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 2.35714rem;
+  line-height: 3.14286rem;
+  text-align: center;
+  color: #d5d9da;
+}
+
+.InputGroup-prefix {
+  left: 0;
+}
+
+.InputGroup-suffix {
+  right: 0;
+}
+
+.Input--prefixed {
+  padding-left: 2.35714rem;
+}
+
+.Input--suffixed {
+  padding-right: 2.35714rem;
 }
 
 .BtnGroup {
