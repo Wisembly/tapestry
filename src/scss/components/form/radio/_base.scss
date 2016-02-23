@@ -1,0 +1,33 @@
+.Radio {
+  display: inline-block;
+
+  +.Radio {
+    margin-left: $radio-space-between;
+  }
+}
+
+.Radio-label {
+  @extend %Label;
+  line-height: $radio-height;
+
+  &:before {
+    @extend %Icon--radio;
+    margin-right: $radio-inner-space;
+    font-family: "tapestry-icons";
+    font-size: $radio-height;
+    vertical-align: bottom;
+    color: $radio-base-color;
+    transition: color .2s ease-in-out;
+  }
+}
+
+.Radio-input {
+  display: none;
+
+  &:checked + .Radio-label {
+    &:before {
+      @extend %Icon--checkedRadio;
+      color: $radio-checked-color;
+    }
+  }
+}

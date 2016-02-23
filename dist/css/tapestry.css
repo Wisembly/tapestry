@@ -1760,7 +1760,7 @@ th {
   content: "\ea1a";
 }
 
-.Icon--checkedRadio:before {
+.Icon--checkedRadio:before, .Radio-input:checked + .Radio-label:before {
   content: "\ea1b";
 }
 
@@ -2028,7 +2028,7 @@ th {
   content: "\ea5d";
 }
 
-.Icon--radio:before {
+.Icon--radio:before, .Radio-label:before {
   content: "\ea5e";
 }
 
@@ -2742,7 +2742,7 @@ th {
   background-color: none;
 }
 
-.Checkbox-label, .Label {
+.Checkbox-label, .Label, .Radio-label {
   display: inline-block;
   font-size: 1rem;
   line-height: 1.57143rem;
@@ -3253,6 +3253,39 @@ th {
 
 .Popover--error:after {
   border-bottom-color: #e25c5b;
+}
+
+.Radio {
+  display: inline-block;
+}
+
+.Radio + .Radio {
+  margin-left: 0.78571rem;
+}
+
+.Radio-label {
+  line-height: 1.57143rem;
+}
+
+.Radio-label:before {
+  margin-right: 0.78571rem;
+  font-family: "tapestry-icons";
+  font-size: 1.57143rem;
+  vertical-align: bottom;
+  color: #d5d9da;
+  transition: color .2s ease-in-out;
+}
+
+.Radio-input {
+  display: none;
+}
+
+.Radio-input:checked + .Radio-label:before {
+  color: #46b489;
+}
+
+.Radio-label:hover:before {
+  color: #46b489;
 }
 
 .SelectWrapper {
