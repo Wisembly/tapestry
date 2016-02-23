@@ -2170,12 +2170,8 @@ th {
   width: auto;
 }
 
-.Input--inline + .Label {
-  margin-right: 0.78571rem;
-  margin-bottom: 0;
-}
-
-.Input--inline + .Label--inline {
+.Input--inline + .Label,
+.Label + .Input--inline {
   margin-left: 0.39286rem;
 }
 
@@ -2699,19 +2695,19 @@ th {
 
 .Label {
   display: inline-block;
-  margin-bottom: 0.39286rem;
   font-size: 1rem;
   line-height: 1.57143rem;
   vertical-align: middle;
   cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
-.Label + .Input--inline {
-  margin-left: 0.39286rem;
-}
-
-.Label--inline {
-  margin-bottom: 0;
+.Label--block {
+  display: block;
+  margin-bottom: 0.39286rem;
 }
 
 .Media {
