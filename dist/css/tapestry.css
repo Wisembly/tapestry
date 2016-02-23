@@ -1128,6 +1128,39 @@ th {
   border: 0;
 }
 
+.Checkbox {
+  display: block;
+}
+
+.Checkbox + .Checkbox {
+  margin-top: 0.78571rem;
+}
+
+.Checkbox-label {
+  line-height: 1.57143rem;
+}
+
+.Checkbox-label:before {
+  margin-right: 0.78571rem;
+  font-family: "tapestry-icons";
+  font-size: 1.57143rem;
+  vertical-align: bottom;
+  color: #d5d9da;
+  transition: color .2s ease-in-out;
+}
+
+.Checkbox-input {
+  display: none;
+}
+
+.Checkbox-input:checked + .Checkbox-label:before {
+  color: #46b489;
+}
+
+.Checkbox-label:hover:before {
+  color: #46b489;
+}
+
 .Dropdown {
   display: inline-block;
   position: relative;
@@ -1711,7 +1744,7 @@ th {
   content: "\ea16";
 }
 
-.Icon--checkbox:before {
+.Checkbox-label:before, .Icon--checkbox:before {
   content: "\ea17";
 }
 
@@ -1723,7 +1756,7 @@ th {
   content: "\ea19";
 }
 
-.Icon--checkedCheckbox:before {
+.Checkbox-input:checked + .Checkbox-label:before, .Icon--checkedCheckbox:before {
   content: "\ea1a";
 }
 
@@ -2709,7 +2742,7 @@ th {
   background-color: none;
 }
 
-.Label {
+.Checkbox-label, .Label {
   display: inline-block;
   font-size: 1rem;
   line-height: 1.57143rem;

@@ -35,6 +35,10 @@
   @import "components/box/core";
 }
 
+@if $import-checkbox {
+  @import "components/form/checkbox/core";
+}
+
 @if $import-dropdown {
   @import "components/dropdown/core";
 }
