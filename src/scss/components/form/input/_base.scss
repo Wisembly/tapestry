@@ -38,12 +38,8 @@
 .Input--inline {
   width: auto;
 
-  + .Label {
-    margin-right: $mg--s;
-    margin-bottom: 0;
-  }
-
-  + .Label--inline {
+  + .Label,
+  .Label + & {
     margin-left: $mg--xs;
   }
 }
