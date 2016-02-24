@@ -20,12 +20,12 @@
  */
 
 .s-App {
-	font-family: 'Proxima Nova', 'Helvetica Neue', Helvetica, sans-serif;
+	font-family: 'Open Sans', sans-serif;;
 	background-color: #fff;
 }
 
 .s-App-content {
-	max-width: 800px;
+	max-width: 850px;
 	margin: 0 auto;
 	padding: 2rem;
 	overflow: hidden;
