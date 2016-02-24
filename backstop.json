@@ -80,9 +80,7 @@
         ".Legend",
         ".Label",
         ".Textarea",
-        ".Checkbox",
         ".Dropdown-toggle",
-        ".Radio",
         ".Select"
       ],
       "readyEvent": null,
