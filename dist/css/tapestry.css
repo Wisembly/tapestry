@@ -3608,6 +3608,7 @@ input:checked + .Switch--s:after,
   border: 1px solid #d5d9da;
   border-radius: 0.28571rem;
   resize: none;
+  transition: border .2s ease-in-out;
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
@@ -3622,6 +3623,10 @@ input:checked + .Switch--s:after,
 .Textarea[disabled] {
   color: #a1a9ae;
   background: #f7f7f7;
+}
+
+.Textarea:not([disabled]):hover {
+  border-color: #a1a9ae;
 }
 
 .has-tooltip {
