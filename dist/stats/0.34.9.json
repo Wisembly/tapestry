@@ -1,27 +1,27 @@
 {
-  "published": "2016-02-26T09:31:49.757Z",
+  "published": "2016-02-29T14:45:51.135Z",
   "paths": [
     "/Users/ugo/Sites/tapestry/dist/css/tapestry.css"
   ],
   "stylesheets": 1,
   "styleElements": 0,
-  "size": 58441,
-  "dataUriSize": 1708,
-  "ratioOfDataUriSize": 0.02922605704898958,
-  "gzippedSize": 9903,
-  "rules": 671,
-  "selectors": 764,
-  "declarations": 1501,
-  "simplicity": 0.8782722513089005,
-  "averageOfIdentifier": 1.6465968586387434,
+  "size": 61574,
+  "dataUriSize": 2938,
+  "ratioOfDataUriSize": 0.04771494461948225,
+  "gzippedSize": 10881,
+  "rules": 695,
+  "selectors": 795,
+  "declarations": 1544,
+  "simplicity": 0.8742138364779874,
+  "averageOfIdentifier": 1.6628930817610064,
   "mostIdentifier": 5,
   "mostIdentifierSelector": ".Box > .List:first-child .List-item:first-child",
-  "averageOfCohesion": 2.2369597615499255,
+  "averageOfCohesion": 2.2215827338129497,
   "lowestCohesion": 21,
   "lowestCohesionSelector": [
     ".Modal"
   ],
-  "totalUniqueFontSizes": 14,
+  "totalUniqueFontSizes": 15,
   "uniqueFontSizes": [
     "0",
     "0.69444rem",
@@ -31,6 +31,7 @@
     "1rem",
     "1.2rem",
     "1.44rem",
+    "1.57143rem",
     "1.728rem",
     "2.0736rem",
     "2.48832rem",
@@ -76,19 +77,19 @@
   "propertiesCount": [
     {
       "property": "content",
-      "count": 131
+      "count": 136
     },
     {
       "property": "color",
-      "count": 98
+      "count": 104
     },
     {
       "property": "width",
-      "count": 89
+      "count": 90
     },
     {
       "property": "display",
-      "count": 69
+      "count": 74
     },
     {
       "property": "background-color",
@@ -100,19 +101,19 @@
     },
     {
       "property": "font-size",
-      "count": 47
+      "count": 48
     },
     {
       "property": "background",
       "count": 45
     },
     {
-      "property": "position",
-      "count": 38
+      "property": "line-height",
+      "count": 39
     },
     {
-      "property": "line-height",
-      "count": 36
+      "property": "position",
+      "count": 37
     }
   ],
   "mediaQueries": 4
