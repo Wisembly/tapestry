@@ -538,6 +538,11 @@
 </div>
 
 <div class="s-Icon">
+  <i class="Icon Icon--stats"></i>
+  stats
+</div>
+
+<div class="s-Icon">
   <i class="Icon Icon--statsRounded"></i>
   statsRounded
 </div>

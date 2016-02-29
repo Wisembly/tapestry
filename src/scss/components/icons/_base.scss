@@ -871,8 +871,16 @@
   @extend %Icon--starOutlined;
 }
 
-%Icon--statsRounded {
+%Icon--stats {
   content: "\ea69";
+}
+
+.Icon--stats:before {
+  @extend %Icon--stats;
+}
+
+%Icon--statsRounded {
+  content: "\ea6a";
 }
 
 .Icon--statsRounded:before {
@@ -880,7 +888,7 @@
 }
 
 %Icon--stop {
-  content: "\ea6a";
+  content: "\ea6b";
 }
 
 .Icon--stop:before {
@@ -888,7 +896,7 @@
 }
 
 %Icon--subtitle {
-  content: "\ea6b";
+  content: "\ea6c";
 }
 
 .Icon--subtitle:before {
@@ -896,7 +904,7 @@
 }
 
 %Icon--sunrise {
-  content: "\ea6c";
+  content: "\ea6d";
 }
 
 .Icon--sunrise:before {
@@ -904,7 +912,7 @@
 }
 
 %Icon--sunset {
-  content: "\ea6d";
+  content: "\ea6e";
 }
 
 .Icon--sunset:before {
@@ -912,7 +920,7 @@
 }
 
 %Icon--target {
-  content: "\ea6e";
+  content: "\ea6f";
 }
 
 .Icon--target:before {
@@ -920,7 +928,7 @@
 }
 
 %Icon--themes {
-  content: "\ea6f";
+  content: "\ea70";
 }
 
 .Icon--themes:before {
@@ -928,7 +936,7 @@
 }
 
 %Icon--title {
-  content: "\ea70";
+  content: "\ea71";
 }
 
 .Icon--title:before {
@@ -936,7 +944,7 @@
 }
 
 %Icon--trash {
-  content: "\ea71";
+  content: "\ea72";
 }
 
 .Icon--trash:before {
@@ -944,7 +952,7 @@
 }
 
 %Icon--triangleDown {
-  content: "\ea72";
+  content: "\ea73";
 }
 
 .Icon--triangleDown:before {
@@ -952,7 +960,7 @@
 }
 
 %Icon--triangleUp {
-  content: "\ea73";
+  content: "\ea74";
 }
 
 .Icon--triangleUp:before {
@@ -960,7 +968,7 @@
 }
 
 %Icon--twitter {
-  content: "\ea74";
+  content: "\ea75";
 }
 
 .Icon--twitter:before {
@@ -968,7 +976,7 @@
 }
 
 %Icon--typeAdd {
-  content: "\ea75";
+  content: "\ea76";
 }
 
 .Icon--typeAdd:before {
@@ -976,7 +984,7 @@
 }
 
 %Icon--typeParagraph {
-  content: "\ea76";
+  content: "\ea77";
 }
 
 .Icon--typeParagraph:before {
@@ -984,7 +992,7 @@
 }
 
 %Icon--unlock {
-  content: "\ea77";
+  content: "\ea78";
 }
 
 .Icon--unlock:before {
@@ -992,7 +1000,7 @@
 }
 
 %Icon--unplugged {
-  content: "\ea78";
+  content: "\ea79";
 }
 
 .Icon--unplugged:before {
@@ -1000,7 +1008,7 @@
 }
 
 %Icon--user {
-  content: "\ea79";
+  content: "\ea7a";
 }
 
 .Icon--user:before {
@@ -1008,7 +1016,7 @@
 }
 
 %Icon--voice {
-  content: "\ea7a";
+  content: "\ea7b";
 }
 
 .Icon--voice:before {
@@ -1016,7 +1024,7 @@
 }
 
 %Icon--vote {
-  content: "\ea7b";
+  content: "\ea7c";
 }
 
 .Icon--vote:before {
@@ -1024,7 +1032,7 @@
 }
 
 %Icon--wisembly {
-  content: "\ea7c";
+  content: "\ea7d";
 }
 
 .Icon--wisembly:before {
@@ -1032,7 +1040,7 @@
 }
 
 %Icon--wisemblyFull {
-  content: "\ea7d";
+  content: "\ea7e";
 }
 
 .Icon--wisemblyFull:before {
