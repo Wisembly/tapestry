@@ -2,10 +2,10 @@
   display: block;
   width: 100%;
   height: $textarea-height;
-  padding: $pd--s;
+  padding: $textarea-pd;
   line-height: $base-lh;
-  color: $form-text-color;
-  background: $white;
+  color: $form-base-color;
+  background: $form-bg;
   border: 1px solid $base-border-color;
   border-radius: $base-radius;
   resize: none;
@@ -13,13 +13,13 @@
   appearance: none;
 
   &:focus {
-    color: $limed-spruce;
-    border-color: $gray-chateau;
+    color: $form-base-color;
+    border-color: $form-focus-border-color;
     outline: none;
   }
 
   &[disabled] {
-    color: $gray-chateau;
-    background: $alabaster;
+    color: $form-disabled-color;
+    background: $form-disabled-bg;
   }
 }

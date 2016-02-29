@@ -1,11 +1,11 @@
 .Input-addOn {
   flex: 0 0 auto;
   width: auto;
-  padding: rb(2) $pd--s;
+  padding: $input-pdv $input-pdh;
   font-size: $fz--m;
   line-height: $base-lh;
-  color: $form-text-color;
-  background: $white;
+  color: $form-base-color;
+  background: $form-bg;
   border: 1px solid $base-border-color;
   user-select: none;
 
