@@ -1,6 +1,18 @@
 @import "vars";
 @import "base";
 
+@if $import-pseudo-classes {
+  @import "state/base";
+  @import "state/states";
+}
+
 @if $import-input-states {
   @import "states";
+}
+
+@if $import-input-group {
+  @import "group/base";
+  @import "group/addon";
+  @import "group/icon";
+  @import "types";
 }

@@ -9,6 +9,7 @@
   background: $white;
   border: 1px solid $base-border-color;
   border-radius: $base-radius;
+  transition: border .2s ease-in-out;
   appearance: none;
 
   &:focus {
@@ -38,12 +39,8 @@
 .Input--inline {
   width: auto;
 
-  + .Label {
-    margin-right: $mg--s;
-    margin-bottom: 0;
-  }
-
-  + .Label--inline {
+  + .Label,
+  .Label + & {
     margin-left: $mg--xs;
   }
 }

@@ -35,6 +35,10 @@
   @import "components/box/core";
 }
 
+@if $import-checkbox {
+  @import "components/form/checkbox/core";
+}
+
 @if $import-dropdown {
   @import "components/dropdown/core";
 }
@@ -57,10 +61,6 @@
 
 @if $import-input {
   @import "components/form/input/core";
-}
-
-@if $import-input-group {
-  @import "components/form/input-group/core";
 }
 
 @if $import-button {
@@ -101,6 +101,10 @@
 
 @if $import-popovers {
   @import "components/popovers/core";
+}
+
+@if $import-radio {
+  @import "components/form/radio/core";
 }
 
 @if $import-select {

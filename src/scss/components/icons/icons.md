@@ -128,6 +128,11 @@
 </div>
 
 <div class="s-Icon">
+  <i class="Icon Icon--checkbox"></i>
+  checkbox
+</div>
+
+<div class="s-Icon">
   <i class="Icon Icon--checked"></i>
   checked
 </div>
@@ -135,6 +140,16 @@
 <div class="s-Icon">
   <i class="Icon Icon--checkedActionItem"></i>
   checkedActionItem
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--checkedCheckbox"></i>
+  checkedCheckbox
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--checkedRadio"></i>
+  checkedRadio
 </div>
 
 <div class="s-Icon">
@@ -465,6 +480,11 @@
 <div class="s-Icon">
   <i class="Icon Icon--public"></i>
   public
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--radio"></i>
+  radio
 </div>
 
 <div class="s-Icon">

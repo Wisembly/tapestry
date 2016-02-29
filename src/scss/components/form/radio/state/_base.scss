@@ -1,0 +1,5 @@
+.Radio-label {
+  &:hover:before {
+    color: $radio-hover-color;
+  }
+}

@@ -1,16 +1,17 @@
-.Label {
+%Label {
   display: inline-block;
-  margin-bottom: $mg--xs;
   font-size: $fz--m;
   line-height: $base-lh;
   vertical-align: middle;
   cursor: pointer;
-
-  + .Input--inline {
-    margin-left: $mg--xs;
-  }
+  user-select: none;
 }
 
-.Label--inline {
-  margin-bottom: 0;
+.Label {
+  @extend %Label;
+}
+
+.Label--block {
+  display: block;
+  margin-bottom: $mg--xs;
 }

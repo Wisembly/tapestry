@@ -1,0 +1,5 @@
+.Input#{$input-invalid-class} {
+  &:hover {
+    border-color: $error;
+  }
+}

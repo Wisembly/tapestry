@@ -1,5 +1,10 @@
+$input-hover-color: $gray-chateau !default;
+
 $input-valid-class: ".is-valid" !default;
 $input-valid-bg-path : "/src/svg/backgrounds/inputBg--valid.svg" !default;
 
 $input-invalid-class: ".is-invalid" !default;
 $input-invalid-bg-path : "/src/svg/backgrounds/inputBg--invalid.svg" !default;
+
+$input-group-icon-color: $iron !default;
+$input-group-icon-width: r(6) !default;
