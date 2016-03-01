@@ -1,7 +1,7 @@
 .Tabs--vertical {
   .Tab-item {
     &:hover:after {
-      width: rem(3px);
+      width: $tab-underline-size;
       height: auto;
     }
   }

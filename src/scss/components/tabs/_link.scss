@@ -1,15 +1,15 @@
 .Tab-link {
   display: block;
   position: relative;
-  padding: $pd--s 0;
+  padding: $tab-link-pdv $tab-link-pdh;
   font-size: $fz--m;
   font-weight: $fw--semi-bold;
   text-decoration: none;
-  color: $slate-gray;
+  color: $tab-base-color;
   cursor: pointer;
   outline: 0;
 
   .Tab-item[aria-selected="true"] & {
-    color: $venice-blue;
+    color: $tab-selected-color;
   }
 }
