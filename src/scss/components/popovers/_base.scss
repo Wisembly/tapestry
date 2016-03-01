@@ -14,14 +14,14 @@
   z-index: zi("base");
   margin-top: $popover-arrow-size * 2;
   margin-left: -$popover-arrow-size;
-  padding: $pd--s $base-pd;
+  padding: $popover-pdv $popover-pdh;
   font-size: $fz--s;
   line-height: r(2, $fz--s);
   white-space: nowrap;
-  color: $white;
-  background: $gray-chateau;
+  color: $popover-base-color;
+  background: $popover-base-bg;
   border-radius: $base-radius;
-  box-shadow: 0 1px 1.5px 0 rgba($gray-chateau, .5);
+  box-shadow: $popover-base-shadow;
 
   &:after {
     @include pos(a (-$popover-arrow-size / 3) null null 0);
@@ -29,7 +29,7 @@
     width: 0;
     height: 0;
     border-width: 0 $popover-arrow-size $popover-arrow-size;
-    border-color: $transparent $transparent $gray-chateau;
+    border-color: $transparent $transparent $popover-base-bg;
     border-style: solid;
     transform: translateY(-50%);
   }

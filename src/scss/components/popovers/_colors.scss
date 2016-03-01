@@ -10,7 +10,7 @@
   @include bg($info, true);
 
   &:after {
-    border-bottom-color: $saffron;
+    border-bottom-color: $info;
   }
 }
 
@@ -18,6 +18,6 @@
   @include bg($error, true);
 
   &:after {
-    border-bottom-color: $mandy;
+    border-bottom-color: $error;
   }
 }
