@@ -3471,7 +3471,7 @@ input:checked + .Switch--s:after,
   font-weight: 600;
 }
 
-.Table--actionnable .Table-row {
+.Table--actionable .Table-row {
   cursor: pointer;
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -3480,20 +3480,30 @@ input:checked + .Switch--s:after,
   transition: background-color .1s ease-out;
 }
 
-.Table--actionnable .Table-row.is-selected, .Table--actionnable .Table-row[aria-selected="true"] {
+.Table--actionable .Table-row.is-selected, .Table--actionable .Table-row[aria-selected="true"] {
   background-color: #f7f7f7;
 }
 
-.Table--actionnable .Table-row[aria-disabled="true"] {
+.Table--actionable .Table-row[aria-disabled="true"] {
   background-color: #f7f7f7;
   cursor: default;
 }
 
+<<<<<<< 76948bcc6e84e34e65ba7fcff3f2045a200094be
 .Table--actionnable .Table-cell {
+=======
+.Table--actionable .Table-rowSelector {
+  position: relative;
+  top: -1px;
+  margin-right: 0.78571rem;
+}
+
+.Table--actionable .Table-cell {
+>>>>>>> Actionable | remove extra n #242
   border: 0;
 }
 
-.Table--actionnable .Table-row:hover {
+.Table--actionable .Table-row:hover {
   background-color: #f7f7f7;
 }
 
