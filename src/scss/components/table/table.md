@@ -34,24 +34,24 @@
   <tbody class="Table-body">
     <tr class="Table-row">
       <td class="Table-cell Table-cell--important u-tal">
-        <input class="Table-rowSelector" type="checkbox">
-        A name
+        <input name="table1" id="table1" type="checkbox" class="Checkbox-input">
+        <label for="table1" class="Checkbox-label">A name</label>
       </td>
       <td class="Table-cell">Baz</td>
       <td class="Table-cell">FooBar</td>
     </tr>
     <tr class="Table-row" aria-selected="true">
       <td class="Table-cell Table-cell--important u-tal">
-        <input class="Table-rowSelector" type="checkbox" checked>
-        Another name
+        <input name="table2" id="table2" type="checkbox" class="Checkbox-input" checked>
+        <label for="table2" class="Checkbox-label">Another name</label>
       </td>
       <td class="Table-cell">FooBaz</td>
       <td class="Table-cell">FooBarBaz</td>
     </tr>
     <tr class="Table-row" aria-disabled="true">
       <td class="Table-cell Table-cell--important u-tal">
-        <input class="Table-rowSelector" type="checkbox" disabled>
-        Another name
+        <input name="table3" id="table3" type="checkbox" class="Checkbox-input" disabled>
+        <label for="table3" class="Checkbox-label">Another other name</label>
       </td>
       <td class="Table-cell">Foo</td>
       <td class="Table-cell">Bar</td>
