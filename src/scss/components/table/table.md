@@ -74,10 +74,10 @@
 
 
 
-## Actionnable
+## Actionable
 
 ```html
-<table class="Table Table--actionnable">
+<table class="Table Table--actionable">
   <thead class="Table-head">
     <th class="Table-cell Table-cell--header u-tal">Name</th>
     <th class="Table-cell Table-cell--header">Foo</th>
