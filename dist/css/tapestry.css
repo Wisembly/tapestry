@@ -2989,6 +2989,7 @@ th {
   padding: 1.57143rem 1.57143rem 0;
   background: #fff;
   overflow: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .Modal-content.has-list {
@@ -3190,6 +3191,7 @@ th {
   height: calc(100% - 4.71429rem);
   padding: 1.57143rem;
   overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .Panel--abs {
