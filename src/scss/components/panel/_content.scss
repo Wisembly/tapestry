@@ -2,4 +2,5 @@
   height: calc(100% - #{r(12)});
   padding: $pd--m;
   overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
 }
