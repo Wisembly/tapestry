@@ -1,27 +1,27 @@
 .Notification--tc {
-  top: $mg--s;
+  top: $notification-outer-space;
   right: auto;
   left: 50%;
   transform: translateX(-50%);
 }
 
 .Notification--tr {
-  top: $mg--s;
-  right: $mg--s;
+  top: $notification-outer-space;
+  right: $notification-outer-space;
   bottom: auto;
   left: auto;
-  margin-left: $mg--s;
+  margin-left: $notification-outer-space;
 }
 
 .Notification--bl {
   right: auto;
-  bottom: $mg--s;
-  left: $mg--s;
-  margin-right: $mg--s;
+  bottom: $notification-outer-space;
+  left: $notification-outer-space;
+  margin-right: $notification-outer-space;
 }
 
 .Notification--br {
-  right: $mg--s;
-  bottom: $mg--s;
+  right: $notification-outer-space;
+  bottom: $notification-outer-space;
   left: auto;
 }

@@ -6,17 +6,17 @@
     @include pos(a null 0 0 0);
     content: "";
     height: 0;
-    background: $venice-blue;
+    background: $tab-selected-color;
     transition: height .2s ease;
   }
 
   &[aria-selected="true"] {
     &:after {
-      height: rem(3px);
+      height: $tab-underline-size;
     }
   }
 
   + .Tab-item {
-    margin-left: $mg--m;
+    margin-left: $tab-space-between;
   }
 }

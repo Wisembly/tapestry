@@ -4,8 +4,8 @@
 
 .Notification {
   display: inline-block;
-  padding: $pd--s $base-pd;
-  color: $white;
-  background: $gray-chateau;
+  padding: $notification-pdv $notification-pdh;
+  color: $notification-base-color;
+  background: $notification-base-bg;
   border-radius: $base-radius;
 }

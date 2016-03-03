@@ -1,5 +1,7 @@
-$avatar-size: r(7);
-$avatar-size--s: $base-lh;
-$avatar-size--l: r(9);
+$avatar-rounded: true !default;
+
+$avatar-size--s: r(4) !default;
+$avatar-size--m: r(7) !default;
+$avatar-size--l: r(9) !default;
 
 $avatar-colors: $gray-chateau $salmon $curious-blue $mint $saffron;

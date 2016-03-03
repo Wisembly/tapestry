@@ -1,8 +1,8 @@
 .Meter {
   position: relative;
   width: 100%;
-  height: $lh--s;
-  background: $porcelain;
+  height: $meter-height;
+  background: $meter-base-bg;
   overflow: hidden;
 }
 

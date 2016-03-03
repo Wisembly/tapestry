@@ -1,7 +1,7 @@
 .Table--actionnable {
   .Table-row {
     &:hover {
-      background-color: $alabaster;
+      background-color: $selected-table-row-bg;
     }
   }
 }

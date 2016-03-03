@@ -1,7 +1,7 @@
 # Buttons
 ```esc
-<ul class="u-pdb--l">
-  <li><strong>Outlined:</strong> transparent button with borders</li>
+<ul class="u-mgb--m">
+  <li><strong>Outline:</strong> transparent button with borders</li>
   <li><strong>Raw:</strong> transparent button without borders</li>
   <li><strong>Inverted:</strong> white button without borders</li>
 </ul>
@@ -14,6 +14,66 @@
 <button class="Btn Btn--raw">Raw button</button>
 <button class="Btn Btn--inverted">Inverted button</button>
 ```
+
+## Variables
+```esc
+<table class="Table">
+  <thead class="Table-head">
+    <th class="Table-cell Table-cell--header u-tal" style="width: 25%;">Name</th>
+    <th class="Table-cell Table-cell--header" style="width: 10%;">Type</th>
+    <th class="Table-cell Table-cell--header">Description</th>
+  </thead>
+  <tbody class="Table-body">
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal" style="width: 25%;">$btn-pdv</td>
+      <td class="Table-cell">padding</td>
+      <td class="Table-cell">vertical padding for regular buttons<br><code>$pd--s</code></td>
+    </tr>
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal" style="width: 25%;">$btn-pdv--s</td>
+      <td class="Table-cell">padding</td>
+      <td class="Table-cell">vertical padding for small buttons<br><code>$pd--xs</code></td>
+    </tr>
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal" style="width: 25%;">$btn-pdh</td>
+      <td class="Table-cell">padding</td>
+      <td class="Table-cell">horizontal padding for regular buttons<br><code>$pd--s</code></td>
+    </tr>
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal" style="width: 25%;">$btn-pdh--s</td>
+      <td class="Table-cell">padding</td>
+      <td class="Table-cell">horizontal padding for small buttons<br><code>$pd--xs</code></td>
+    </tr>
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal">$btn-fixed-unit</td>
+      <td class="Table-cell">size</td>
+      <td class="Table-cell">squared and circle button size<br><code>r(8)</code></td>
+    </tr>
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal">$btn-fixed-unit--s</td>
+      <td class="Table-cell">size</td>
+      <td class="Table-cell">small squared and circle button size<br><code>r(6)</code></td>
+    </tr>
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal">$btn-name-colors</td>
+      <td class="Table-cell">list</td>
+      <td class="Table-cell">button classnames<br><code>"-primary" "-alt" "-validate" "-info" "-error"</code></td>
+    </tr>
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal">$btn-base-colors</td>
+      <td class="Table-cell">list</td>
+      <td class="Table-cell">button default colors<br><code>$venice-blue $curious-blue $mint $saffron $mandy</code></td>
+    </tr>
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal">$btn-hover-colors</td>
+      <td class="Table-cell">list</td>
+      <td class="Table-cell">button hover colors<br><code>$atoll $eastern-blue $ocean-green $galliano $fuzzy-wuzzy-brown</code></td>
+    </tr>
+  </tbody>
+</table>
+```
+
+
 
 ## Sizes
 

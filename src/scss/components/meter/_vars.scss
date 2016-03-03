@@ -1,1 +1,5 @@
-$meter-radius: $base-radius * 2;
+$meter-height: r(3) !default;
+$meter-radius: $meter-height / 2 !default;
+
+$meter-base-bg: $porcelain !default;
+$meter-bar-bg: $curious-blue !default;

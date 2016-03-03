@@ -1,5 +1,55 @@
 # Table
 
+## Variables
+```esc
+<table class="Table">
+  <thead class="Table-head">
+    <th class="Table-cell Table-cell--header u-tal" style="width: 25%;">Name</th>
+    <th class="Table-cell Table-cell--header" style="width: 10%;">Type</th>
+    <th class="Table-cell Table-cell--header">Description</th>
+  </thead>
+  <tbody class="Table-body">
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal">$table-pdv</td>
+      <td class="Table-cell">padding</td>
+      <td class="Table-cell">table vertical padding<br><code>$pd--s</code></td>
+    </tr>
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal">$table-pdh</td>
+      <td class="Table-cell">padding</td>
+      <td class="Table-cell">table horizontal padding<br><code>$pd--m</code></td>
+    </tr>
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal">$selected-table-row-bg</td>
+      <td class="Table-cell">background-color</td>
+      <td class="Table-cell">selected table-row background-color<br><code>$alabaster</code></td>
+    </tr>
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal">$disabled-table-row-bg</td>
+      <td class="Table-cell">background-color</td>
+      <td class="Table-cell">disabled table-row background-color<br><code>$alabaster</code></td>
+    </tr>
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal">$table-cell-color</td>
+      <td class="Table-cell">color</td>
+      <td class="Table-cell">table-cell color<br><code>$slate-gray</code></td>
+    </tr>
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal">$important-table-cell-color</td>
+      <td class="Table-cell">color</td>
+      <td class="Table-cell">important table-cell color<br><code>$limed-spruce</code></td>
+    </tr>
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal">$disabled-table-cell-color</td>
+      <td class="Table-cell">color</td>
+      <td class="Table-cell">disabled table-cell color<br><code>$iron</code></td>
+    </tr>
+  </tbody>
+</table>
+```
+
+
+
 ```html
 <table class="Table">
   <thead class="Table-head">
@@ -21,6 +71,8 @@
   </tbody>
 </table>
 ```
+
+
 
 ## Actionnable
 

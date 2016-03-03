@@ -1,26 +1,26 @@
 .Input {
   display: inline-block;
   width: 100%;
-  padding: rb(2) $pd--s;
+  padding: $input-pdv $input-pdh;
   font-size: $fz--m;
   line-height: $base-lh;
   vertical-align: middle;
-  color: $form-text-color;
-  background: $white;
+  color: $form-base-color;
+  background: $form-bg;
   border: 1px solid $base-border-color;
   border-radius: $base-radius;
   transition: border .2s ease-in-out;
   appearance: none;
 
   &:focus {
-    color: $limed-spruce;
-    border-color: $gray-chateau;
+    color: $form-focus-color;
+    border-color: $form-focus-border-color;
     outline: none;
   }
 
   &[disabled] {
-    color: $gray-chateau;
-    background: $alabaster;
+    color: $form-disabled-color;
+    background: $form-disabled-bg;
   }
 
   + .Input,

@@ -11,7 +11,7 @@
     }
 
     &[aria-selected="true"]:after {
-      width: rem(3px);
+      width: $tab-underline-size;
       height: auto;
     }
 
@@ -21,7 +21,7 @@
   }
 
   .Tab-link {
-    padding: 0 $pd--s 0 $pd--m;
-    line-height: r(6);
+    padding: 0 $small-tab-pdr 0 $small-tab-pdb;
+    line-height: $small-tab-lh;
   }
 }

@@ -1,6 +1,52 @@
 # Notification
 
-* A `Notification` is horizontally centered, based on its parent width. Add `Notification--fixed` class if you need a fixed position.
+.Notification is horizontally centered, based on its parent width. Add .Notification--fixed class if a fixed position is needed.
+
+## Variables
+
+```esc
+<table class="Table">
+  <thead class="Table-head">
+    <th class="Table-cell Table-cell--header u-tal" style="width: 25%;">Name</th>
+    <th class="Table-cell Table-cell--header" style="width: 10%;">Type</th>
+    <th class="Table-cell Table-cell--header">Description</th>
+  </thead>
+  <tbody class="Table-body">
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal">$notification-pdv</td>
+      <td class="Table-cell">padding</td>
+      <td class="Table-cell">notification vertical padding<br><code>$pd--s</code></td>
+    </tr>
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal">$notification-pdh</td>
+      <td class="Table-cell">padding</td>
+      <td class="Table-cell">notification horizontal padding<br><code>$base-pd</code></td>
+    </tr>
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal">$notification-base-color</td>
+      <td class="Table-cell">color</td>
+      <td class="Table-cell">notification base text color<br><code>$white</code></td>
+    </tr>
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal">$notification-base-bg</td>
+      <td class="Table-cell">background-color</td>
+      <td class="Table-cell">notification base background-color<br><code>$neutral</code></td>
+    </tr>
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal">$notification-outer-space</td>
+      <td class="Table-cell">background-color</td>
+      <td class="Table-cell">notification outer space<br><code>$mg--s</code></td>
+    </tr>
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal">$notification-shadow</td>
+      <td class="Table-cell">box-color</td>
+      <td class="Table-cell">notification shadow<br><code>0 1px 1.5px 0 rgba($gray-chateau, .5)</code></td>
+    </tr>
+  </tbody>
+</table>
+```
+
+
 
 ```html
 <div class="has-notification">
