@@ -3,8 +3,8 @@
 @import "row";
 @import "cell";
 
-@import "actionnable";
+@import "actionable";
 
 @if $import-pseudo-classes {
-  @import "state/actionnable";
+  @import "state/actionable";
 }

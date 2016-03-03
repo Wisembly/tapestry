@@ -29,7 +29,7 @@
         ".Btn--block",
         ".BtnGroup",
         ".Collection",
-        ".Collection--actionnable .Collection-item.is-active",
+        ".Collection--actionable .Collection-item.is-active",
         ".Dropdown",
         ".Dropdown-hr",
         ".Dropdown-item",
@@ -53,7 +53,7 @@
         ".Switch",
         ".Switch--s",
         ".Table",
-        ".Table--actionnable",
+        ".Table--actionable",
         ".Tabs",
         ".Tabs--s"
       ],
