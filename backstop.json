@@ -44,7 +44,6 @@
       "selectors": [
         ".Box",
         ".Boxes",
-        ".Boxes + .Boxes",
         ".Box--raw"
       ],
       "readyEvent": null,
@@ -60,7 +59,9 @@
         ".Btn--s",
         ".Btn-expandContainer",
         ".Btn--squared",
+        ".Btn--squared.Btn--s",
         ".Btn--circle",
+        ".Btn--circle.Btn--s",
         ".Btn--outline",
         ".Btn--raw",
         ".Btn.has-icon",
@@ -82,6 +83,30 @@
         ".Textarea",
         ".Dropdown-toggle",
         ".Select"
+      ],
+      "readyEvent": null,
+      "delay": 500
+    },
+    {
+      "label": "Input",
+      "url": "http://localhost:3000/components/input",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [
+        ".FormRow",
+        ".FormRow + .FormRow",
+        ".Textarea",
+        ".Textarea[disabled]",
+        "#foo + .Radio-label",
+        "#bar + .Radio-label",
+        "#prefixed-and-suffixed + .FormRow",
+        "#prefixed-and-suffixed + .FormRow + .FormRow",
+        "#addons + .FormRow",
+        "#addons + .FormRow ~ .FormRow",
+        "#input-group + .InputGroup",
+        "#input-group + .InputGroup ~ .InputGroup",
+        ".Input.is-valid",
+        ".Input.is-invalid"
       ],
       "readyEvent": null,
       "delay": 500
@@ -112,9 +137,13 @@
         ".Icon--bar",
         ".Icon--bell",
         ".Icon--brush",
+        ".Icon--bulletDay",
         ".Icon--calendar",
+        ".Icon--checkbox",
         ".Icon--checked",
         ".Icon--checkedActionItem",
+        ".Icon--checkedCheckbox",
+        ".Icon--checkedRadio",
         ".Icon--checkmark",
         ".Icon--chrome",
         ".Icon--clip",
@@ -141,6 +170,7 @@
         ".Icon--google",
         ".Icon--grid",
         ".Icon--group",
+        ".Icon--groupRounded",
         ".Icon--help",
         ".Icon--home",
         ".Icon--info",
@@ -164,6 +194,7 @@
         ".Icon--openQuestion",
         ".Icon--openedEye",
         ".Icon--options",
+        ".Icon--optionsRounded",
         ".Icon--paragraph",
         ".Icon--participant",
         ".Icon--pause",
@@ -179,10 +210,12 @@
         ".Icon--plus",
         ".Icon--popup",
         ".Icon--public",
+        ".Icon--radio",
         ".Icon--recurring",
         ".Icon--refresh",
         ".Icon--reply",
         ".Icon--reset",
+        ".Icon--resetRounded",
         ".Icon--results",
         ".Icon--section",
         ".Icon--singleChoice",
@@ -192,6 +225,8 @@
         ".Icon--star",
         ".Icon--starHalf",
         ".Icon--starOutlined",
+        ".Icon--stats",
+        ".Icon--statsRounded",
         ".Icon--stop",
         ".Icon--subtitle",
         ".Icon--sunrise",
@@ -217,23 +252,6 @@
       "delay": 500
     },
     {
-      "label": "Input",
-      "url": "http://localhost:3000/components/input",
-      "hideSelectors": [],
-      "removeSelectors": [],
-      "selectors": [
-        ".Input",
-        "#addons + .FormRow",
-        "#addons + .FormRow ~ .FormRow",
-        "#input-group + .InputGroup",
-        "#input-group + .InputGroup ~ .InputGroup",
-        ".Input.is-valid",
-        ".Input.is-invalid"
-      ],
-      "readyEvent": null,
-      "delay": 500
-    },
-    {
       "label": "Grid",
       "url": "http://localhost:3000/components/grid",
       "hideSelectors": [],
@@ -251,7 +269,8 @@
       "hideSelectors": [],
       "removeSelectors": [],
       "selectors": [
-        ".List"
+        ".List",
+        "#basic-list-box + .Box"
       ],
       "readyEvent": null,
       "delay": 500
@@ -329,7 +348,7 @@
       "removeSelectors": [],
       "selectors": [
         ".Table",
-        ".Table--actionnable"
+        ".Table--actionable"
       ],
       "readyEvent": null,
       "delay": 500
