@@ -3489,17 +3489,7 @@ input:checked + .Switch--s:after,
   cursor: default;
 }
 
-<<<<<<< 76948bcc6e84e34e65ba7fcff3f2045a200094be
-.Table--actionnable .Table-cell {
-=======
-.Table--actionable .Table-rowSelector {
-  position: relative;
-  top: -1px;
-  margin-right: 0.78571rem;
-}
-
 .Table--actionable .Table-cell {
->>>>>>> Actionable | remove extra n #242
   border: 0;
 }
 
