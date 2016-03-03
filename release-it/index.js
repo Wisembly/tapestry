@@ -4,6 +4,7 @@ var async = require('async');
 
 async.waterfall([
   require('./release/get-latest'),
+  require('./release/new/confirm-visual-tests'),
   require('./release/new/choose-name'),
   require('./release/new/confirm-name'),
   require('./release/new/bump-version'),
