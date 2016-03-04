@@ -790,8 +790,9 @@ input[type="submit"] {
 }
 
 button[disabled],
-html input[disabled] {
-  cursor: default;
+html input[disabled],
+textarea[disabled] {
+  cursor: not-allowed;
 }
 
 button::-moz-focus-inner,
@@ -2402,7 +2403,6 @@ th {
 .Btn[disabled], .Btn[aria-disabled="true"] {
   color: #a1a9ae;
   background-color: #d5d9da;
-  cursor: not-allowed;
 }
 
 .Btn .Icon {
@@ -3388,6 +3388,7 @@ th {
 input[disabled] + .Switch,
 .Switch-checkbox[disabled] + .Switch {
   opacity: .5;
+  cursor: not-allowed;
 }
 
 input:checked + .Switch,
