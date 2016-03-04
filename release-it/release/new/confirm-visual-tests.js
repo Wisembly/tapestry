@@ -2,10 +2,10 @@ var log = require('../../tools/log');
 var opts = require('../../opts');
 
 module.exports = function (cb) {
-  var question = 'Confirm that visual tests have been updated? (y/n)'[opts.env.promptColor || 'grey'];
+  var question = 'Confirm that visual tests have been updated? (y/n)'[opts.env.promptColor];
   var choice;
 
-  question = question[opts.env.promptColor || 'grey'];
+  question = question[opts.env.promptColor];
 
   prompt.get(question, function (err, data) {
     if (err) return false;

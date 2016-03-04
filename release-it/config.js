@@ -18,5 +18,5 @@ global.Gh = new GitHubApi({
 global.prompt = prompt;
 
 prompt.start();
-prompt.message = chalk[opts.env.promptColor || 'gray']('- ');
+prompt.message = chalk[opts.env.promptColor]('- ');
 prompt.delimiter = "";
