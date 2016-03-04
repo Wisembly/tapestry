@@ -1,10 +1,10 @@
 var opts = require('../../opts');
 
 module.exports = function (cb) {
-  var question = 'Confirm that "' + opts.nextRelease.name + '" will be the name of the next release? (y/n)'[opts.env.promptColor || 'grey'];
+  var question = 'Confirm that "' + opts.nextRelease.name + '" will be the name of the next release? (y/n)'[opts.env.promptColor];
   var choice;
 
-  question = question[opts.env.promptColor || 'grey'];
+  question = question[opts.env.promptColor];
 
   prompt.get(question, function (err, data) {
     if (err) return false;
@@ -14,7 +14,7 @@ module.exports = function (cb) {
       return cb(null);
 
     else if (choice === 'N' || choice === 'n') {
-      question = 'Last chance fancy pants, what\'s the release\' name?'[opts.env.promptColor || 'grey'];
+      question = 'Last chance fancy pants, what\'s the release\' name?'[opts.env.promptColor];
 
       prompt.get(question, function (err, data) {
         if (err) return false;

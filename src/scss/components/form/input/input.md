@@ -204,22 +204,26 @@ Items can be inlined with .Input--inline class.
   <input name="checkbox1" id="checkbox1" type="checkbox" class="Checkbox-input">
   <label for="checkbox1" class="Checkbox-label">Would you like to receive our newsletter?</label>
 </div>
+<div class="Checkbox">
+  <input name="checkbox2" id="checkbox1" type="checkbox" class="Checkbox-input" checked>
+  <label for="checkbox2" class="Checkbox-label">I am a robot</label>
+</div>
 ```
 
 ## Radio
 
 ```html
 <div class="Radio">
-  <input name="title" id="foo" type="radio" class="Radio-input" id="radioInput">
-  <label for="foo" class="Radio-label" for="radioInput">Foo</label>
+  <input name="title" id="foo" type="radio" class="Radio-input" checked>
+  <label for="foo" class="Radio-label">Foo</label>
 </div>
 <div class="Radio">
-  <input name="title" id="bar" type="radio" class="Radio-input" id="radioInput">
-  <label for="bar" class="Radio-label" for="radioInput">Bar</label>
+  <input name="title" id="bar" type="radio" class="Radio-input">
+  <label for="bar" class="Radio-label">Bar</label>
 </div>
 <div class="Radio">
-  <input name="title" id="baz" type="radio" class="Radio-input" id="radioInput">
-  <label for="baz" class="Radio-label" for="radioInput">Baz</label>
+  <input name="title" id="baz" type="radio" class="Radio-input">
+  <label for="baz" class="Radio-label">Baz</label>
 </div>
 ```
 

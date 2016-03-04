@@ -1,0 +1,30 @@
+language: javascript
+
+env:
+
+  # Required for building Node.js native modules (g++ 4.8+ or clang 3.5+)
+  - CXX=g++-4.8
+
+before_install:
+
+  # Set correct node version
+  - nvm install 5.1
+  - nvm use 5.1
+
+  # Install the build dependencies
+  - npm install -g gulp@3.9.0 phantomjs-prebuilt casperjs
+  - npm install
+
+
+before_script:
+
+  # Start server
+  - gulp icons
+  - gulp &
+  - until curl -s -I -f http://localhost:3000 >& /dev/null; do echo .; sleep 1; done
+
+
+script:
+
+  # Run the tests
+  - npm run vt:compare
