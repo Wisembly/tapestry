@@ -1,6 +1,6 @@
 {
   "name": "tapestry",
-  "version": "0.34.10",
+  "version": "0.35.0",
   "description": "Wisembly UI elements",
   "main": "dist/js/tapestry.js",
   "devDependencies": {
