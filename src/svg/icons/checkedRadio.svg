@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20"
 	 style="enable-background:new 0 0 20 20;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#3A434C;}
-</style>
-<path class="st0" d="M10,20C4.5,20,0,15.5,0,10S4.5,0,10,0c5.5,0,10,4.5,10,10S15.5,20,10,20z M10,1.7c-4.6,0-8.3,3.7-8.3,8.3
+<path d="M10,20C4.5,20,0,15.5,0,10S4.5,0,10,0c5.5,0,10,4.5,10,10S15.5,20,10,20z M10,1.7c-4.6,0-8.3,3.7-8.3,8.3
 	c0,4.6,3.7,8.3,8.3,8.3s8.3-3.7,8.3-8.3C18.3,5.4,14.6,1.7,10,1.7z"/>
 <circle class="st0" cx="10" cy="10" r="4.8"></circle>
 </svg>

@@ -3,13 +3,10 @@
 <svg version="1.1" id="Calque_1" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-295 387 20 20"
 	 style="enable-background:new -295 387 20 20;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#3A434C;}
-</style>
 <title>arrowLast</title>
 	<g id="Page-1" sketch:type="MSPage">
 	<g id="arrowLast" transform="translate(-6.000000, -6.000000)" sketch:type="MSArtboardGroup">
-		<path sketch:type="MSShapeGroup" class="st0" d="M-289,394.1v17.8c0,0.4,0.2,0.8,0.6,1c0.4,0.2,0.8,0.1,1.2-0.2l10.1-8.7
+		<path sketch:type="MSShapeGroup" d="M-289,394.1v17.8c0,0.4,0.2,0.8,0.6,1c0.4,0.2,0.8,0.1,1.2-0.2l10.1-8.7
 			c0.2-0.2,0.4-0.5,0.4-0.8v-0.4c0-0.3-0.1-0.6-0.4-0.8l-10.1-8.7c-0.3-0.3-0.8-0.3-1.2-0.2C-288.8,393.3-289,393.7-289,394.1z
 			 M-279.3,403l-7.5,6.5v-13 M-280.9,411.1c-0.5,0.4-0.5,1.1-0.1,1.5c0.4,0.5,1.1,0.5,1.5,0.1l10.1-8.7c0.2-0.2,0.4-0.5,0.4-0.8
 			v-0.4c0-0.3-0.1-0.6-0.4-0.8l-10.1-8.7c-0.5-0.4-1.1-0.3-1.5,0.1c-0.4,0.5-0.3,1.1,0.1,1.5l9.3,8.1"/>

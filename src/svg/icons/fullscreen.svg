@@ -3,12 +3,9 @@
 <svg version="1.1" id="Calque_1" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 22 20"
 	 style="enable-background:new 0 0 22 20;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#3A434C;}
-</style>
 <title>fullscreen</title>
 <desc>Created with Sketch.</desc>
-<path id="Fill-1" sketch:type="MSShapeGroup" class="st0" d="M19.3,0H2.7C1.2,0,0,1.2,0,2.7v14.6C0,18.8,1.2,20,2.7,20h16.5
+<path id="Fill-1" sketch:type="MSShapeGroup" d="M19.3,0H2.7C1.2,0,0,1.2,0,2.7v14.6C0,18.8,1.2,20,2.7,20h16.5
 	c1.5,0,2.7-1.2,2.7-2.7V2.7C22,1.2,20.8,0,19.3,0L19.3,0z M20.1,17.3c0,0.4-0.4,0.8-0.8,0.8H2.7c-0.4,0-0.8-0.4-0.8-0.8V2.7
 	c0-0.4,0.4-0.8,0.8-0.8h16.5c0.4,0,0.8,0.4,0.8,0.8V17.3L20.1,17.3z"/>
 <path id="Fill-2" sketch:type="MSShapeGroup" class="st0" d="M17.6,9.3h-1.9v-3h-3.1V4.4h4.9V9.3z M6.3,13.7h3.1v1.8H4.4v-4.8h1.9

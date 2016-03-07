@@ -3,11 +3,8 @@
 <svg version="1.1" id="Calque_1" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20"
 	 style="enable-background:new 0 0 20 20;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#3A434C;}
-</style>
 <g id="openedEye" transform="translate(-6.000000, -6.000000)" sketch:type="MSArtboardGroup">
-	<path id="Fill-3" sketch:type="MSShapeGroup" class="st0" d="M16,21.3c-3.6,0-6.9-2.1-8.4-5.3c1.5-3.3,4.8-5.3,8.4-5.3
+	<path id="Fill-3" sketch:type="MSShapeGroup" d="M16,21.3c-3.6,0-6.9-2.1-8.4-5.3c1.5-3.3,4.8-5.3,8.4-5.3
 		s6.9,2.1,8.4,5.3C22.9,19.3,19.6,21.3,16,21.3 M16,9.2C11.5,9.2,7.6,12,6,16c1.6,4,5.5,6.8,10,6.8c4.6,0,8.4-2.8,10-6.8
 		C24.4,12,20.6,9.2,16,9.2 M16,13.9c-1.2,0-2.1,0.9-2.1,2.1c0,1.2,0.9,2.1,2.1,2.1c1.2,0,2.1-0.9,2.1-2.1
 		C18.1,14.8,17.2,13.9,16,13.9"/>
