@@ -1,0 +1,29 @@
+@import "vars";
+
+@if $import-checkbox {
+  @import "checkbox/core";
+}
+
+@if $import-fieldset {
+  @import "fieldset/core";
+}
+
+@if $import-input {
+  @import "input/core";
+}
+
+@if $import-label {
+  @import "label/core";
+}
+
+@if $import-radio {
+  @import "radio/core";
+}
+
+@if $import-select {
+  @import "select/core";
+}
+
+@if $import-textarea {
+  @import "textarea/core";
+}

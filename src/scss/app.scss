@@ -39,32 +39,20 @@
   @import "components/box/core";
 }
 
-@if $import-checkbox {
-  @import "components/form/checkbox/core";
-}
-
 @if $import-dropdown {
   @import "components/dropdown/core";
 }
 
-@if $import-fieldset {
-  @import "components/form/fieldset/core";
+@if $import-form {
+  @import "components/form/core";
 }
 
 @if $import-grid {
   @import "components/grid/core";
 }
 
-@if $import-input {
-  @import "components/form/input/core";
-}
-
 @if $import-button {
   @import "components/button/core";
-}
-
-@if $import-label {
-  @import "components/form/label/core";
 }
 
 @if $import-media {
@@ -99,14 +87,6 @@
   @import "components/popovers/core";
 }
 
-@if $import-radio {
-  @import "components/form/radio/core";
-}
-
-@if $import-select {
-  @import "components/form/select/core";
-}
-
 @if $import-switch {
   @import "components/switch/core";
 }
@@ -117,10 +97,6 @@
 
 @if $import-tabs {
   @import "components/tabs/core";
-}
-
-@if $import-textarea {
-  @import "components/form/textarea/core";
 }
 
 @if $import-tooltip and $import-pseudo-classes {
