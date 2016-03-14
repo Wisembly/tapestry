@@ -159,26 +159,23 @@ Input is displayed as a 100% width by default.
 
 
 ```html
-<div class="FormRow">
-  <label for="basicInput" class="Label">Foo</label>
-  <input id="basicInput" class="Input" type="text" placeholder="Basic input" aria-label="Input item">
-</div>
-<div class="FormRow">
-  <label for="disabledInput" class="Label">Bar</label>
-  <input id="disabledInput" class="Input" type="text" placeholder="Disabled input" aria-label="Input item" disabled>
-</div>
+<label for="basicInput" class="Label">Foo</label>
+<input id="basicInput" class="Input" type="text" placeholder="Basic input" aria-label="Input item">
+
+<label for="disabledInput" class="Label">Bar</label>
+<input id="disabledInput" class="Input" type="text" placeholder="Disabled input" aria-label="Input item" disabled>
 ```
 
 
 Items can be inlined with .Input--inline class.
 
 ```html
-<div class="FormRow">
+<div>
   <label for="fooLabel" class="Label">Foo</label>
   <input id="fooLabel" class="Input Input--inline" type="text" placeholder="" aria-label="Input item">
 </div>
 
-<div class="FormRow">
+<div>
   <input id="barLabel" class="Input Input--inline" type="text" placeholder="" aria-label="Input item">
   <label for="barLabel" class="Label">Bar</label>
 </div>
@@ -187,11 +184,12 @@ Items can be inlined with .Input--inline class.
 ## Textarea
 
 ```html
-<div class="FormRow">
+<div>
   <label class="Label Label--block" for="textarea1">Textarea</label>
   <textarea class="Textarea" placeholder="Textarea" name="textarea1" id="textarea1"></textarea>
 </div>
-<div class="FormRow">
+
+<div>
   <label class="Label Label--block" for="textarea2">Disabled textarea</label>
   <textarea class="Textarea" placeholder="Disabled textarea" name="textarea2" id="textarea2" disabled></textarea>
 </div>
@@ -230,17 +228,13 @@ Items can be inlined with .Input--inline class.
 ## Prefixed and suffixed
 
 ```html
-<div class="FormRow">
-  <div class="InputGroup">
-    <label for="prefixedInput" class="InputGroup-prefix Icon Icon--mail"></label>
-    <input id="prefixedInput" class="Input Input--prefixed" type="text" placeholder="Prefixed input" aria-label="Input item">
-  </div>
+<div class="InputGroup u-mgb--m">
+  <label for="prefixedInput" class="InputGroup-prefix Icon Icon--mail"></label>
+  <input id="prefixedInput" class="Input Input--prefixed" type="text" placeholder="Prefixed input" aria-label="Input item">
 </div>
-<div class="FormRow">
-  <div class="InputGroup">
-    <label for="suffixedInput" class="InputGroup-suffix Icon Icon--glass"></label>
-    <input id="suffixedInput" class="Input Input--suffixed" type="text" placeholder="Suffixed input" aria-label="Input item">
-  </div>
+<div class="InputGroup">
+  <label for="suffixedInput" class="InputGroup-suffix Icon Icon--glass"></label>
+  <input id="suffixedInput" class="Input Input--suffixed" type="text" placeholder="Suffixed input" aria-label="Input item">
 </div>
 ```
 
@@ -249,17 +243,13 @@ Items can be inlined with .Input--inline class.
 ## Addons
 
 ```html
-<div class="FormRow">
-  <div class="InputGroup">
-    <span class="InputGroup-item Input-addOn">@</span>
-    <input class="Input InputGroup-item" type="text" placeholder="Basic input with addon" aria-label="Input item">
-  </div>
+<div class="InputGroup u-mgb--m">
+  <span class="InputGroup-item Input-addOn">@</span>
+  <input class="Input InputGroup-item" type="text" placeholder="Basic input with addon" aria-label="Input item">
 </div>
-<div class="FormRow">
-  <div class="InputGroup">
-    <input class="Input InputGroup-item" type="text" placeholder="Basic input with addon" aria-label="Input item">
-    <button class="Btn Btn--validate InputGroup-item Input-addOn">Add</button>
-  </div>
+<div class="InputGroup">
+  <input class="Input InputGroup-item" type="text" placeholder="Basic input with addon" aria-label="Input item">
+  <button class="Btn Btn--validate InputGroup-item Input-addOn">Add</button>
 </div>
 ```
 
@@ -296,12 +286,9 @@ Items can be inlined with .Input--inline class.
 Tapestry does not rely on neither :valid nor :invalid since those behaviors are quite random. When page is loaded, inputs are considered :valid even if their values are empty. Plus, it adds visual noise before you submit anything! We advise to use .is-valid and .is-invalid but classes are fully customizable. You can also consider giving a try to [ParsleyJS](http://parsleyjs.org/).
 
 ```html
-<div class="FormRow">
-  <label for="validInput" class="Label">Validated input</label>
-  <input id="validInput" class="Input is-valid" type="text" value="I am a correct value" placeholder="Valid input">
-</div>
-<div class="FormRow">
-  <label for="invalidInput" class="Label">Errored input</label>
-  <input id="invalidInput" class="Input is-invalid" type="text" value="I am an incorrect value" placeholder="Invalid input">
-</div>
+<label for="validInput" class="Label">Validated input</label>
+<input id="validInput" class="Input is-valid" type="text" value="I am a correct value" placeholder="Valid input">
+
+<label for="invalidInput" class="Label">Errored input</label>
+<input id="invalidInput" class="Input is-invalid" type="text" value="I am an incorrect value" placeholder="Invalid input">
 ```

@@ -4,7 +4,7 @@
 <fieldset class="Fieldset">
   <legend class="Legend">Shipping Information</legend>
   <label class="Label">Title</label>
-  <div class="FormRow Grid">
+  <div class="Grid u-mgb--m">
     <div class="Grid-cell Grid-cell--12">
       <div class="Radio">
         <input name="title" id="mr" type="radio" class="Radio-input" id="radioInput">
@@ -25,7 +25,7 @@
     </div>
   </div>
   <label for="firstname" class="Label Label--block">Name</label>
-  <div class="FormRow Grid">
+  <div class="Grid Grid--gutters u-mgb--m">
     <div class="Grid-cell Grid-cell--6">
       <input class="Input" id="firstname" name="firstname" placeholder="First name" value="">
     </div>
@@ -34,7 +34,7 @@
     </div>
   </div>
   <label for="street" class="Label Label--block">Billing Address</label>
-  <div class="FormRow Grid">
+  <div class="Grid Grid--gutters u-mgb--m">
     <div class="Grid-cell Grid-cell--10">
       <input id="street" name="street" class="Input" placeholder="Street name" value="">
     </div>
@@ -42,7 +42,7 @@
       <input id="apt" name="apt" class="Input" placeholder="Apt #" value="">
     </div>
   </div>
-  <div class="FormRow Grid">
+  <div class="Grid Grid--gutters u-mgb--m">
     <div class="Grid-cell Grid-cell--6">
       <label class="Label Label--block">State</label>
       <div class="Dropdown Dropdown--block" data-tapestry="dropdown-select">
@@ -72,14 +72,14 @@
       </select>
     </div>
   </div>
-  <div class="FormRow Grid">
+  <div class="Grid u-mgb--m">
     <div class="Grid-cell Grid-cell--12">
       <label class="Label Label--block" for="textarea1">Details</label>
       <textarea class="Textarea" placeholder="Give more details about your shipping informations" name="textarea1" id="textarea1"></textarea>
     </div>
   </div>
   <label for="newsletter" class="Label Label--block">Newsletter</label>
-  <div class="FormRow Grid">
+  <div class="Grid u-mgb--m">
     <div class="Grid-cell Grid-cell--12">
       <div class="Checkbox">
         <input name="newsletter" id="newsletter" type="checkbox" class="Checkbox-input">
@@ -88,7 +88,7 @@
     </div>
   </div>
   <label for="contactMethod" class="Label Label--block">Prefered contact method</label>
-  <div class="FormRow">
+  <div class="u-mgb--m">
     <select class="Select" id="contactMethod" name="contactMethod">
       <optgroup label="Prefered contact method">
         <option value="phone">Phone</option>

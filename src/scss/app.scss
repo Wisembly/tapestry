@@ -47,10 +47,6 @@
   @import "components/dropdown/core";
 }
 
-@if $import-form-row {
-  @import "components/form/row/core";
-}
-
 @if $import-fieldset {
   @import "components/form/fieldset/core";
 }
