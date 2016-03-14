@@ -21,5 +21,5 @@
   background: $white;
   border: 1px solid $base-border-color;
   border-radius: r(2);
-  transform: translateY(-50%);
+  transform: translate3d(0, -50%, 0);
 }

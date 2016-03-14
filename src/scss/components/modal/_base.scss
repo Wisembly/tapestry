@@ -10,7 +10,7 @@
   opacity: 0;
   filter: blur(0);
   overflow: auto;
-  transform: translate(-50%, -50%);
+  transform: translate3d(-50%, -50%, 0);
   transition: opacity .2s ease-in-out;
 
   &[aria-hidden="false"] {

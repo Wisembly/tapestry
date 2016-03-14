@@ -9,7 +9,7 @@
   top: auto;
   bottom: 100%;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate3d(-50%, 0, 0);
 }
 
 .Dropdown-list--tr {
@@ -23,7 +23,7 @@
   top: 100%;
   bottom: auto;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate3d(-50%, 0, 0);
 }
 
 .Dropdown-list--br {
@@ -41,7 +41,7 @@
   top: 50%;
   left: 100%;
   margin: 0 $mg--xs;
-  transform: translateY(-50%);
+  transform: translate3d(0, -50%, 0);
 }
 
 .Dropdown-list--rb {
@@ -63,7 +63,7 @@
   right: 100%;
   left: auto;
   margin: 0 $mg--xs;
-  transform: translateY(-50%);
+  transform: translate3d(0, -50%, 0);
 }
 
 .Dropdown-list--lb {

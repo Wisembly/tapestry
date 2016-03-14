@@ -4,7 +4,7 @@
   z-index: zi("overlay");
   background: rgba($limed-spruce, .8);
   opacity: 0;
-  transform: translateZ(0);
+  transform: translate3d(0, 0, 0);
   backface-visibility: hidden;
   transition: opacity .4s ease-out;
 

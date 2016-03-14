@@ -2,7 +2,7 @@
   top: $notification-outer-space;
   right: auto;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate3d(-50%, 0 0);
 }
 
 .Notification--tr {
