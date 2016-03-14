@@ -1954,23 +1954,6 @@ th {
   outline: none;
 }
 
-.FormRow {
-  margin-bottom: 1.57143rem;
-}
-
-.FormRow .Grid-cell {
-  padding-right: 0.39286rem;
-  padding-left: 0.39286rem;
-}
-
-.FormRow .Grid-cell:first-child {
-  padding-left: 0;
-}
-
-.FormRow .Grid-cell:last-child {
-  padding-right: 0;
-}
-
 .Fieldset {
   padding: 0 0 0.78571rem;
   font-size: 0;
