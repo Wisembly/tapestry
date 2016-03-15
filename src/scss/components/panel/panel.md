@@ -41,6 +41,10 @@
     <div class="Panel-content">
       <p class="u-mgt--0">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.</p>
     </div>
+    <footer class="Panel-footer">
+      <button class="Btn Btn--expand">Cancel</button>
+      <button class="Btn Btn--validate Btn--expand">Save</button>
+    </footer>
   </div>
 </div>
 ```
