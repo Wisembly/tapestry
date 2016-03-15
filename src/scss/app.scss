@@ -71,10 +71,6 @@
   @import "components/notification/core";
 }
 
-@if $import-overlay {
-  @import "components/overlay/core";
-}
-
 @if $import-panel {
   @import "components/panel/core";
 }
