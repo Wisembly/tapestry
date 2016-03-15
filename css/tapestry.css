@@ -1927,6 +1927,15 @@ th {
 }
 
 .Checkbox-label {
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 1.57143rem;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   line-height: 1.57143rem;
 }
 
@@ -2137,7 +2146,7 @@ th {
   padding-right: 2.35714rem;
 }
 
-.Checkbox-label, .Label, .Radio-label {
+.Label {
   display: inline-block;
   font-size: 1rem;
   line-height: 1.57143rem;
@@ -2163,6 +2172,15 @@ th {
 }
 
 .Radio-label {
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 1.57143rem;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   line-height: 1.57143rem;
 }
 
