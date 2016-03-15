@@ -18,7 +18,7 @@
     background: $porcelain;
 
     &:after {
-      @extend %Icon--checkmark;
+      @include Icon--checkmark;
       @include pos(a $mg--xs $mg--s null null);
       font-family: tapestry-icons;
       font-size: $fz--xs;
