@@ -1,4 +1,4 @@
-%InputGroup-icon {
+@mixin InputGroup-icon {
   @include pos(a 0 null 0 null);
   width: $input-group-icon-width;
   line-height: $pd--s * 2 + $base-lh;
@@ -7,11 +7,11 @@
 }
 
 .InputGroup-prefix {
-  @extend %InputGroup-icon;
+  @include InputGroup-icon;
   left: 0;
 }
 
 .InputGroup-suffix {
-  @extend %InputGroup-icon;
+  @include InputGroup-icon;
   right: 0;
 }
