@@ -1,14 +1,5 @@
-%Label {
-  display: inline-block;
-  font-size: $fz--m;
-  line-height: $base-lh;
-  vertical-align: middle;
-  cursor: pointer;
-  user-select: none;
-}
-
 .Label {
-  @extend %Label;
+  @include Label;
 }
 
 .Label--block {
