@@ -6,7 +6,7 @@
   font-style: normal;
 }
 
-%<%= className %> {
+@mixin <%= className %> {
   display: inline-block;
   font-family: "<%= fontName %>";
   font-size: $fz--m;
@@ -23,7 +23,7 @@
 }
 
 .<%= className %> {
-  @extend %<%= className %>;
+  @include <%= className %>();
 }
 
 .<%= className %>--s {
@@ -39,11 +39,11 @@
 }
 
 <% _.each(glyphs, function(glyph) { %>
-%<%= className %>--<%= glyph.name %> {
+@mixin <%= className %>--<%= glyph.name %> {
   content: "\<%= glyph.unicode[0].charCodeAt(0).toString(16) %>";
 }
 
 .<%= className %>--<%= glyph.name %>:before {
-  @extend %<%= className %>--<%= glyph.name %>;
+  @include <%= className %>--<%= glyph.name %>;
 }
 <% }); %>

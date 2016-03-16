@@ -17,7 +17,7 @@
 
   .List-itemInput:checked + & {
     &:after {
-      @extend %Icon--checkmark;
+      @include Icon--checkmark();
     }
   }
 }
@@ -26,7 +26,7 @@
   cursor: pointer;
 
   &:after {
-    @extend %Icon--arrowNext;
+    @include Icon--arrowNext();
   }
 }
 

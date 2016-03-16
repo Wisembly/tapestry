@@ -6,7 +6,7 @@
   font-style: normal;
 }
 
-%Icon {
+@mixin Icon {
   display: inline-block;
   font-family: "tapestry-icons";
   font-size: $fz--m;
@@ -23,7 +23,7 @@
 }
 
 .Icon {
-  @extend %Icon;
+  @include Icon();
 }
 
 .Icon--s {
@@ -39,1042 +39,1042 @@
 }
 
 
-%Icon--actionItem {
+@mixin Icon--actionItem {
   content: "\ea01";
 }
 
 .Icon--actionItem:before {
-  @extend %Icon--actionItem;
+  @include Icon--actionItem;
 }
 
-%Icon--add {
+@mixin Icon--add {
   content: "\ea02";
 }
 
 .Icon--add:before {
-  @extend %Icon--add;
+  @include Icon--add;
 }
 
-%Icon--addUser {
+@mixin Icon--addUser {
   content: "\ea03";
 }
 
 .Icon--addUser:before {
-  @extend %Icon--addUser;
+  @include Icon--addUser;
 }
 
-%Icon--agendaItem {
+@mixin Icon--agendaItem {
   content: "\ea04";
 }
 
 .Icon--agendaItem:before {
-  @extend %Icon--agendaItem;
+  @include Icon--agendaItem;
 }
 
-%Icon--alarmClock {
+@mixin Icon--alarmClock {
   content: "\ea05";
 }
 
 .Icon--alarmClock:before {
-  @extend %Icon--alarmClock;
+  @include Icon--alarmClock;
 }
 
-%Icon--alert {
+@mixin Icon--alert {
   content: "\ea06";
 }
 
 .Icon--alert:before {
-  @extend %Icon--alert;
+  @include Icon--alert;
 }
 
-%Icon--appearIn {
+@mixin Icon--appearIn {
   content: "\ea07";
 }
 
 .Icon--appearIn:before {
-  @extend %Icon--appearIn;
+  @include Icon--appearIn;
 }
 
-%Icon--apple {
+@mixin Icon--apple {
   content: "\ea08";
 }
 
 .Icon--apple:before {
-  @extend %Icon--apple;
+  @include Icon--apple;
 }
 
-%Icon--archive {
+@mixin Icon--archive {
   content: "\ea09";
 }
 
 .Icon--archive:before {
-  @extend %Icon--archive;
+  @include Icon--archive;
 }
 
-%Icon--arrowBack {
+@mixin Icon--arrowBack {
   content: "\ea0a";
 }
 
 .Icon--arrowBack:before {
-  @extend %Icon--arrowBack;
+  @include Icon--arrowBack;
 }
 
-%Icon--arrowDown {
+@mixin Icon--arrowDown {
   content: "\ea0b";
 }
 
 .Icon--arrowDown:before {
-  @extend %Icon--arrowDown;
+  @include Icon--arrowDown;
 }
 
-%Icon--arrowFirst {
+@mixin Icon--arrowFirst {
   content: "\ea0c";
 }
 
 .Icon--arrowFirst:before {
-  @extend %Icon--arrowFirst;
+  @include Icon--arrowFirst;
 }
 
-%Icon--arrowLast {
+@mixin Icon--arrowLast {
   content: "\ea0d";
 }
 
 .Icon--arrowLast:before {
-  @extend %Icon--arrowLast;
+  @include Icon--arrowLast;
 }
 
-%Icon--arrowNext {
+@mixin Icon--arrowNext {
   content: "\ea0e";
 }
 
 .Icon--arrowNext:before {
-  @extend %Icon--arrowNext;
+  @include Icon--arrowNext;
 }
 
-%Icon--arrowUp {
+@mixin Icon--arrowUp {
   content: "\ea0f";
 }
 
 .Icon--arrowUp:before {
-  @extend %Icon--arrowUp;
+  @include Icon--arrowUp;
 }
 
-%Icon--azure {
+@mixin Icon--azure {
   content: "\ea10";
 }
 
 .Icon--azure:before {
-  @extend %Icon--azure;
+  @include Icon--azure;
 }
 
-%Icon--badge {
+@mixin Icon--badge {
   content: "\ea11";
 }
 
 .Icon--badge:before {
-  @extend %Icon--badge;
+  @include Icon--badge;
 }
 
-%Icon--bar {
+@mixin Icon--bar {
   content: "\ea12";
 }
 
 .Icon--bar:before {
-  @extend %Icon--bar;
+  @include Icon--bar;
 }
 
-%Icon--bell {
+@mixin Icon--bell {
   content: "\ea13";
 }
 
 .Icon--bell:before {
-  @extend %Icon--bell;
+  @include Icon--bell;
 }
 
-%Icon--brush {
+@mixin Icon--brush {
   content: "\ea14";
 }
 
 .Icon--brush:before {
-  @extend %Icon--brush;
+  @include Icon--brush;
 }
 
-%Icon--bulletDay {
+@mixin Icon--bulletDay {
   content: "\ea15";
 }
 
 .Icon--bulletDay:before {
-  @extend %Icon--bulletDay;
+  @include Icon--bulletDay;
 }
 
-%Icon--calendar {
+@mixin Icon--calendar {
   content: "\ea16";
 }
 
 .Icon--calendar:before {
-  @extend %Icon--calendar;
+  @include Icon--calendar;
 }
 
-%Icon--checkbox {
+@mixin Icon--checkbox {
   content: "\ea17";
 }
 
 .Icon--checkbox:before {
-  @extend %Icon--checkbox;
+  @include Icon--checkbox;
 }
 
-%Icon--checked {
+@mixin Icon--checked {
   content: "\ea18";
 }
 
 .Icon--checked:before {
-  @extend %Icon--checked;
+  @include Icon--checked;
 }
 
-%Icon--checkedActionItem {
+@mixin Icon--checkedActionItem {
   content: "\ea19";
 }
 
 .Icon--checkedActionItem:before {
-  @extend %Icon--checkedActionItem;
+  @include Icon--checkedActionItem;
 }
 
-%Icon--checkedCheckbox {
+@mixin Icon--checkedCheckbox {
   content: "\ea1a";
 }
 
 .Icon--checkedCheckbox:before {
-  @extend %Icon--checkedCheckbox;
+  @include Icon--checkedCheckbox;
 }
 
-%Icon--checkedRadio {
+@mixin Icon--checkedRadio {
   content: "\ea1b";
 }
 
 .Icon--checkedRadio:before {
-  @extend %Icon--checkedRadio;
+  @include Icon--checkedRadio;
 }
 
-%Icon--checkmark {
+@mixin Icon--checkmark {
   content: "\ea1c";
 }
 
 .Icon--checkmark:before {
-  @extend %Icon--checkmark;
+  @include Icon--checkmark;
 }
 
-%Icon--chrome {
+@mixin Icon--chrome {
   content: "\ea1d";
 }
 
 .Icon--chrome:before {
-  @extend %Icon--chrome;
+  @include Icon--chrome;
 }
 
-%Icon--clip {
+@mixin Icon--clip {
   content: "\ea1e";
 }
 
 .Icon--clip:before {
-  @extend %Icon--clip;
+  @include Icon--clip;
 }
 
-%Icon--clock {
+@mixin Icon--clock {
   content: "\ea1f";
 }
 
 .Icon--clock:before {
-  @extend %Icon--clock;
+  @include Icon--clock;
 }
 
-%Icon--closedEye {
+@mixin Icon--closedEye {
   content: "\ea20";
 }
 
 .Icon--closedEye:before {
-  @extend %Icon--closedEye;
+  @include Icon--closedEye;
 }
 
-%Icon--cog {
+@mixin Icon--cog {
   content: "\ea21";
 }
 
 .Icon--cog:before {
-  @extend %Icon--cog;
+  @include Icon--cog;
 }
 
-%Icon--cross {
+@mixin Icon--cross {
   content: "\ea22";
 }
 
 .Icon--cross:before {
-  @extend %Icon--cross;
+  @include Icon--cross;
 }
 
-%Icon--decision {
+@mixin Icon--decision {
   content: "\ea23";
 }
 
 .Icon--decision:before {
-  @extend %Icon--decision;
+  @include Icon--decision;
 }
 
-%Icon--diagram {
+@mixin Icon--diagram {
   content: "\ea24";
 }
 
 .Icon--diagram:before {
-  @extend %Icon--diagram;
+  @include Icon--diagram;
 }
 
-%Icon--document {
+@mixin Icon--document {
   content: "\ea25";
 }
 
 .Icon--document:before {
-  @extend %Icon--document;
+  @include Icon--document;
 }
 
-%Icon--download {
+@mixin Icon--download {
   content: "\ea26";
 }
 
 .Icon--download:before {
-  @extend %Icon--download;
+  @include Icon--download;
 }
 
-%Icon--dragHorizontal {
+@mixin Icon--dragHorizontal {
   content: "\ea27";
 }
 
 .Icon--dragHorizontal:before {
-  @extend %Icon--dragHorizontal;
+  @include Icon--dragHorizontal;
 }
 
-%Icon--dragVertical {
+@mixin Icon--dragVertical {
   content: "\ea28";
 }
 
 .Icon--dragVertical:before {
-  @extend %Icon--dragVertical;
+  @include Icon--dragVertical;
 }
 
-%Icon--dumbell {
+@mixin Icon--dumbell {
   content: "\ea29";
 }
 
 .Icon--dumbell:before {
-  @extend %Icon--dumbell;
+  @include Icon--dumbell;
 }
 
-%Icon--duplicate {
+@mixin Icon--duplicate {
   content: "\ea2a";
 }
 
 .Icon--duplicate:before {
-  @extend %Icon--duplicate;
+  @include Icon--duplicate;
 }
 
-%Icon--evernote {
+@mixin Icon--evernote {
   content: "\ea2b";
 }
 
 .Icon--evernote:before {
-  @extend %Icon--evernote;
+  @include Icon--evernote;
 }
 
-%Icon--externalLink {
+@mixin Icon--externalLink {
   content: "\ea2c";
 }
 
 .Icon--externalLink:before {
-  @extend %Icon--externalLink;
+  @include Icon--externalLink;
 }
 
-%Icon--facebook {
+@mixin Icon--facebook {
   content: "\ea2d";
 }
 
 .Icon--facebook:before {
-  @extend %Icon--facebook;
+  @include Icon--facebook;
 }
 
-%Icon--filters {
+@mixin Icon--filters {
   content: "\ea2e";
 }
 
 .Icon--filters:before {
-  @extend %Icon--filters;
+  @include Icon--filters;
 }
 
-%Icon--form {
+@mixin Icon--form {
   content: "\ea2f";
 }
 
 .Icon--form:before {
-  @extend %Icon--form;
+  @include Icon--form;
 }
 
-%Icon--fullscreen {
+@mixin Icon--fullscreen {
   content: "\ea30";
 }
 
 .Icon--fullscreen:before {
-  @extend %Icon--fullscreen;
+  @include Icon--fullscreen;
 }
 
-%Icon--github {
+@mixin Icon--github {
   content: "\ea31";
 }
 
 .Icon--github:before {
-  @extend %Icon--github;
+  @include Icon--github;
 }
 
-%Icon--glass {
+@mixin Icon--glass {
   content: "\ea32";
 }
 
 .Icon--glass:before {
-  @extend %Icon--glass;
+  @include Icon--glass;
 }
 
-%Icon--google {
+@mixin Icon--google {
   content: "\ea33";
 }
 
 .Icon--google:before {
-  @extend %Icon--google;
+  @include Icon--google;
 }
 
-%Icon--grid {
+@mixin Icon--grid {
   content: "\ea34";
 }
 
 .Icon--grid:before {
-  @extend %Icon--grid;
+  @include Icon--grid;
 }
 
-%Icon--group {
+@mixin Icon--group {
   content: "\ea35";
 }
 
 .Icon--group:before {
-  @extend %Icon--group;
+  @include Icon--group;
 }
 
-%Icon--groupRounded {
+@mixin Icon--groupRounded {
   content: "\ea36";
 }
 
 .Icon--groupRounded:before {
-  @extend %Icon--groupRounded;
+  @include Icon--groupRounded;
 }
 
-%Icon--help {
+@mixin Icon--help {
   content: "\ea37";
 }
 
 .Icon--help:before {
-  @extend %Icon--help;
+  @include Icon--help;
 }
 
-%Icon--home {
+@mixin Icon--home {
   content: "\ea38";
 }
 
 .Icon--home:before {
-  @extend %Icon--home;
+  @include Icon--home;
 }
 
-%Icon--info {
+@mixin Icon--info {
   content: "\ea39";
 }
 
 .Icon--info:before {
-  @extend %Icon--info;
+  @include Icon--info;
 }
 
-%Icon--label {
+@mixin Icon--label {
   content: "\ea3a";
 }
 
 .Icon--label:before {
-  @extend %Icon--label;
+  @include Icon--label;
 }
 
-%Icon--like {
+@mixin Icon--like {
   content: "\ea3b";
 }
 
 .Icon--like:before {
-  @extend %Icon--like;
+  @include Icon--like;
 }
 
-%Icon--linkDropbox {
+@mixin Icon--linkDropbox {
   content: "\ea3c";
 }
 
 .Icon--linkDropbox:before {
-  @extend %Icon--linkDropbox;
+  @include Icon--linkDropbox;
 }
 
-%Icon--linkGoogle {
+@mixin Icon--linkGoogle {
   content: "\ea3d";
 }
 
 .Icon--linkGoogle:before {
-  @extend %Icon--linkGoogle;
+  @include Icon--linkGoogle;
 }
 
-%Icon--linkedin {
+@mixin Icon--linkedin {
   content: "\ea3e";
 }
 
 .Icon--linkedin:before {
-  @extend %Icon--linkedin;
+  @include Icon--linkedin;
 }
 
-%Icon--listCollapse {
+@mixin Icon--listCollapse {
   content: "\ea3f";
 }
 
 .Icon--listCollapse:before {
-  @extend %Icon--listCollapse;
+  @include Icon--listCollapse;
 }
 
-%Icon--listExpand {
+@mixin Icon--listExpand {
   content: "\ea40";
 }
 
 .Icon--listExpand:before {
-  @extend %Icon--listExpand;
+  @include Icon--listExpand;
 }
 
-%Icon--live {
+@mixin Icon--live {
   content: "\ea41";
 }
 
 .Icon--live:before {
-  @extend %Icon--live;
+  @include Icon--live;
 }
 
-%Icon--lock {
+@mixin Icon--lock {
   content: "\ea42";
 }
 
 .Icon--lock:before {
-  @extend %Icon--lock;
+  @include Icon--lock;
 }
 
-%Icon--mail {
+@mixin Icon--mail {
   content: "\ea43";
 }
 
 .Icon--mail:before {
-  @extend %Icon--mail;
+  @include Icon--mail;
 }
 
-%Icon--meetingList {
+@mixin Icon--meetingList {
   content: "\ea44";
 }
 
 .Icon--meetingList:before {
-  @extend %Icon--meetingList;
+  @include Icon--meetingList;
 }
 
-%Icon--message {
+@mixin Icon--message {
   content: "\ea45";
 }
 
 .Icon--message:before {
-  @extend %Icon--message;
+  @include Icon--message;
 }
 
-%Icon--minus {
+@mixin Icon--minus {
   content: "\ea46";
 }
 
 .Icon--minus:before {
-  @extend %Icon--minus;
+  @include Icon--minus;
 }
 
-%Icon--more {
+@mixin Icon--more {
   content: "\ea47";
 }
 
 .Icon--more:before {
-  @extend %Icon--more;
+  @include Icon--more;
 }
 
-%Icon--multipleChoice {
+@mixin Icon--multipleChoice {
   content: "\ea48";
 }
 
 .Icon--multipleChoice:before {
-  @extend %Icon--multipleChoice;
+  @include Icon--multipleChoice;
 }
 
-%Icon--note {
+@mixin Icon--note {
   content: "\ea49";
 }
 
 .Icon--note:before {
-  @extend %Icon--note;
+  @include Icon--note;
 }
 
-%Icon--openIssue {
+@mixin Icon--openIssue {
   content: "\ea4a";
 }
 
 .Icon--openIssue:before {
-  @extend %Icon--openIssue;
+  @include Icon--openIssue;
 }
 
-%Icon--openQuestion {
+@mixin Icon--openQuestion {
   content: "\ea4b";
 }
 
 .Icon--openQuestion:before {
-  @extend %Icon--openQuestion;
+  @include Icon--openQuestion;
 }
 
-%Icon--openedEye {
+@mixin Icon--openedEye {
   content: "\ea4c";
 }
 
 .Icon--openedEye:before {
-  @extend %Icon--openedEye;
+  @include Icon--openedEye;
 }
 
-%Icon--options {
+@mixin Icon--options {
   content: "\ea4d";
 }
 
 .Icon--options:before {
-  @extend %Icon--options;
+  @include Icon--options;
 }
 
-%Icon--optionsRounded {
+@mixin Icon--optionsRounded {
   content: "\ea4e";
 }
 
 .Icon--optionsRounded:before {
-  @extend %Icon--optionsRounded;
+  @include Icon--optionsRounded;
 }
 
-%Icon--paragraph {
+@mixin Icon--paragraph {
   content: "\ea4f";
 }
 
 .Icon--paragraph:before {
-  @extend %Icon--paragraph;
+  @include Icon--paragraph;
 }
 
-%Icon--participant {
+@mixin Icon--participant {
   content: "\ea50";
 }
 
 .Icon--participant:before {
-  @extend %Icon--participant;
+  @include Icon--participant;
 }
 
-%Icon--pause {
+@mixin Icon--pause {
   content: "\ea51";
 }
 
 .Icon--pause:before {
-  @extend %Icon--pause;
+  @include Icon--pause;
 }
 
-%Icon--pellet {
+@mixin Icon--pellet {
   content: "\ea52";
 }
 
 .Icon--pellet:before {
-  @extend %Icon--pellet;
+  @include Icon--pellet;
 }
 
-%Icon--pelletCheck {
+@mixin Icon--pelletCheck {
   content: "\ea53";
 }
 
 .Icon--pelletCheck:before {
-  @extend %Icon--pelletCheck;
+  @include Icon--pelletCheck;
 }
 
-%Icon--pelletClose {
+@mixin Icon--pelletClose {
   content: "\ea54";
 }
 
 .Icon--pelletClose:before {
-  @extend %Icon--pelletClose;
+  @include Icon--pelletClose;
 }
 
-%Icon--pelletMinus {
+@mixin Icon--pelletMinus {
   content: "\ea55";
 }
 
 .Icon--pelletMinus:before {
-  @extend %Icon--pelletMinus;
+  @include Icon--pelletMinus;
 }
 
-%Icon--pencil {
+@mixin Icon--pencil {
   content: "\ea56";
 }
 
 .Icon--pencil:before {
-  @extend %Icon--pencil;
+  @include Icon--pencil;
 }
 
-%Icon--phone {
+@mixin Icon--phone {
   content: "\ea57";
 }
 
 .Icon--phone:before {
-  @extend %Icon--phone;
+  @include Icon--phone;
 }
 
-%Icon--picture {
+@mixin Icon--picture {
   content: "\ea58";
 }
 
 .Icon--picture:before {
-  @extend %Icon--picture;
+  @include Icon--picture;
 }
 
-%Icon--play {
+@mixin Icon--play {
   content: "\ea59";
 }
 
 .Icon--play:before {
-  @extend %Icon--play;
+  @include Icon--play;
 }
 
-%Icon--plugged {
+@mixin Icon--plugged {
   content: "\ea5a";
 }
 
 .Icon--plugged:before {
-  @extend %Icon--plugged;
+  @include Icon--plugged;
 }
 
-%Icon--plus {
+@mixin Icon--plus {
   content: "\ea5b";
 }
 
 .Icon--plus:before {
-  @extend %Icon--plus;
+  @include Icon--plus;
 }
 
-%Icon--popup {
+@mixin Icon--popup {
   content: "\ea5c";
 }
 
 .Icon--popup:before {
-  @extend %Icon--popup;
+  @include Icon--popup;
 }
 
-%Icon--public {
+@mixin Icon--public {
   content: "\ea5d";
 }
 
 .Icon--public:before {
-  @extend %Icon--public;
+  @include Icon--public;
 }
 
-%Icon--radio {
+@mixin Icon--radio {
   content: "\ea5e";
 }
 
 .Icon--radio:before {
-  @extend %Icon--radio;
+  @include Icon--radio;
 }
 
-%Icon--recurring {
+@mixin Icon--recurring {
   content: "\ea5f";
 }
 
 .Icon--recurring:before {
-  @extend %Icon--recurring;
+  @include Icon--recurring;
 }
 
-%Icon--refresh {
+@mixin Icon--refresh {
   content: "\ea60";
 }
 
 .Icon--refresh:before {
-  @extend %Icon--refresh;
+  @include Icon--refresh;
 }
 
-%Icon--reply {
+@mixin Icon--reply {
   content: "\ea61";
 }
 
 .Icon--reply:before {
-  @extend %Icon--reply;
+  @include Icon--reply;
 }
 
-%Icon--reset {
+@mixin Icon--reset {
   content: "\ea62";
 }
 
 .Icon--reset:before {
-  @extend %Icon--reset;
+  @include Icon--reset;
 }
 
-%Icon--resetRounded {
+@mixin Icon--resetRounded {
   content: "\ea63";
 }
 
 .Icon--resetRounded:before {
-  @extend %Icon--resetRounded;
+  @include Icon--resetRounded;
 }
 
-%Icon--results {
+@mixin Icon--results {
   content: "\ea64";
 }
 
 .Icon--results:before {
-  @extend %Icon--results;
+  @include Icon--results;
 }
 
-%Icon--section {
+@mixin Icon--section {
   content: "\ea65";
 }
 
 .Icon--section:before {
-  @extend %Icon--section;
+  @include Icon--section;
 }
 
-%Icon--singleChoice {
+@mixin Icon--singleChoice {
   content: "\ea66";
 }
 
 .Icon--singleChoice:before {
-  @extend %Icon--singleChoice;
+  @include Icon--singleChoice;
 }
 
-%Icon--slack {
+@mixin Icon--slack {
   content: "\ea67";
 }
 
 .Icon--slack:before {
-  @extend %Icon--slack;
+  @include Icon--slack;
 }
 
-%Icon--solid {
+@mixin Icon--solid {
   content: "\ea68";
 }
 
 .Icon--solid:before {
-  @extend %Icon--solid;
+  @include Icon--solid;
 }
 
-%Icon--solidFull {
+@mixin Icon--solidFull {
   content: "\ea69";
 }
 
 .Icon--solidFull:before {
-  @extend %Icon--solidFull;
+  @include Icon--solidFull;
 }
 
-%Icon--star {
+@mixin Icon--star {
   content: "\ea6a";
 }
 
 .Icon--star:before {
-  @extend %Icon--star;
+  @include Icon--star;
 }
 
-%Icon--starHalf {
+@mixin Icon--starHalf {
   content: "\ea6b";
 }
 
 .Icon--starHalf:before {
-  @extend %Icon--starHalf;
+  @include Icon--starHalf;
 }
 
-%Icon--starOutlined {
+@mixin Icon--starOutlined {
   content: "\ea6c";
 }
 
 .Icon--starOutlined:before {
-  @extend %Icon--starOutlined;
+  @include Icon--starOutlined;
 }
 
-%Icon--stats {
+@mixin Icon--stats {
   content: "\ea6d";
 }
 
 .Icon--stats:before {
-  @extend %Icon--stats;
+  @include Icon--stats;
 }
 
-%Icon--statsRounded {
+@mixin Icon--statsRounded {
   content: "\ea6e";
 }
 
 .Icon--statsRounded:before {
-  @extend %Icon--statsRounded;
+  @include Icon--statsRounded;
 }
 
-%Icon--stop {
+@mixin Icon--stop {
   content: "\ea6f";
 }
 
 .Icon--stop:before {
-  @extend %Icon--stop;
+  @include Icon--stop;
 }
 
-%Icon--subtitle {
+@mixin Icon--subtitle {
   content: "\ea70";
 }
 
 .Icon--subtitle:before {
-  @extend %Icon--subtitle;
+  @include Icon--subtitle;
 }
 
-%Icon--sunrise {
+@mixin Icon--sunrise {
   content: "\ea71";
 }
 
 .Icon--sunrise:before {
-  @extend %Icon--sunrise;
+  @include Icon--sunrise;
 }
 
-%Icon--sunset {
+@mixin Icon--sunset {
   content: "\ea72";
 }
 
 .Icon--sunset:before {
-  @extend %Icon--sunset;
+  @include Icon--sunset;
 }
 
-%Icon--target {
+@mixin Icon--target {
   content: "\ea73";
 }
 
 .Icon--target:before {
-  @extend %Icon--target;
+  @include Icon--target;
 }
 
-%Icon--themes {
+@mixin Icon--themes {
   content: "\ea74";
 }
 
 .Icon--themes:before {
-  @extend %Icon--themes;
+  @include Icon--themes;
 }
 
-%Icon--title {
+@mixin Icon--title {
   content: "\ea75";
 }
 
 .Icon--title:before {
-  @extend %Icon--title;
+  @include Icon--title;
 }
 
-%Icon--trash {
+@mixin Icon--trash {
   content: "\ea76";
 }
 
 .Icon--trash:before {
-  @extend %Icon--trash;
+  @include Icon--trash;
 }
 
-%Icon--triangleDown {
+@mixin Icon--triangleDown {
   content: "\ea77";
 }
 
 .Icon--triangleDown:before {
-  @extend %Icon--triangleDown;
+  @include Icon--triangleDown;
 }
 
-%Icon--triangleUp {
+@mixin Icon--triangleUp {
   content: "\ea78";
 }
 
 .Icon--triangleUp:before {
-  @extend %Icon--triangleUp;
+  @include Icon--triangleUp;
 }
 
-%Icon--twitter {
+@mixin Icon--twitter {
   content: "\ea79";
 }
 
 .Icon--twitter:before {
-  @extend %Icon--twitter;
+  @include Icon--twitter;
 }
 
-%Icon--typeAdd {
+@mixin Icon--typeAdd {
   content: "\ea7a";
 }
 
 .Icon--typeAdd:before {
-  @extend %Icon--typeAdd;
+  @include Icon--typeAdd;
 }
 
-%Icon--typeParagraph {
+@mixin Icon--typeParagraph {
   content: "\ea7b";
 }
 
 .Icon--typeParagraph:before {
-  @extend %Icon--typeParagraph;
+  @include Icon--typeParagraph;
 }
 
-%Icon--unlock {
+@mixin Icon--unlock {
   content: "\ea7c";
 }
 
 .Icon--unlock:before {
-  @extend %Icon--unlock;
+  @include Icon--unlock;
 }
 
-%Icon--unplugged {
+@mixin Icon--unplugged {
   content: "\ea7d";
 }
 
 .Icon--unplugged:before {
-  @extend %Icon--unplugged;
+  @include Icon--unplugged;
 }
 
-%Icon--user {
+@mixin Icon--user {
   content: "\ea7e";
 }
 
 .Icon--user:before {
-  @extend %Icon--user;
+  @include Icon--user;
 }
 
-%Icon--voice {
+@mixin Icon--voice {
   content: "\ea7f";
 }
 
 .Icon--voice:before {
-  @extend %Icon--voice;
+  @include Icon--voice;
 }
 
-%Icon--vote {
+@mixin Icon--vote {
   content: "\ea80";
 }
 
 .Icon--vote:before {
-  @extend %Icon--vote;
+  @include Icon--vote;
 }
 
-%Icon--wisembly {
+@mixin Icon--wisembly {
   content: "\ea81";
 }
 
 .Icon--wisembly:before {
-  @extend %Icon--wisembly;
+  @include Icon--wisembly;
 }
 
-%Icon--wisemblyFull {
+@mixin Icon--wisemblyFull {
   content: "\ea82";
 }
 
 .Icon--wisemblyFull:before {
-  @extend %Icon--wisemblyFull;
+  @include Icon--wisemblyFull;
 }

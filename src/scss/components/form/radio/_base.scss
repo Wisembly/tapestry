@@ -11,7 +11,7 @@
   line-height: $radio-height;
 
   &:before {
-    @extend %Icon--radio;
+    @include Icon--radio();
     margin-right: $radio-inner-space;
     font-family: "tapestry-icons";
     font-size: $radio-height;
@@ -27,7 +27,7 @@
 
   &:checked + .Radio-label {
     &:before {
-      @extend %Icon--checkedRadio;
+      @include Icon--checkedRadio();
       color: $radio-checked-color;
     }
   }
