@@ -5,9 +5,9 @@
 .Modal {
   display: flex;
   flex-direction: column;
-  width: 100%;
-  max-width: $modal-width;
-  max-height: calc(100vh - #{2 * $mg--m});
+  width: $modal-width;
+  max-width: $modal-max-width;
+  max-height: $modal-max-height;
   background: $white;
   overflow: auto;
 
@@ -16,11 +16,5 @@
     animation-duration: .5s;
     animation-iteration-count: 1;
     animation-direction: alternate;
-  }
-}
-
-@include bp(phablet) {
-  .Modal {
-    width: $modal-max-width;
   }
 }

@@ -17,7 +17,12 @@
     <tr class="Table-row">
       <td class="Table-cell Table-cell--important u-tal">$panel-width</td>
       <td class="Table-cell">width</td>
-      <td class="Table-cell">panel width<br><code>r(100)</code></td>
+      <td class="Table-cell">panel width (small devices)<br><code>100%</code></td>
+    </tr>
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal">$panel-max-width</td>
+      <td class="Table-cell">width</td>
+      <td class="Table-cell">panel max-width (large devices)<br><code>r(100)</code></td>
     </tr>
   </tbody>
 </table>

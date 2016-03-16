@@ -17,35 +17,17 @@
     <tr class="Table-row">
       <td class="Table-cell Table-cell--important u-tal">$modal-width</td>
       <td class="Table-cell">width</td>
-      <td class="Table-cell">modal width<br><code>90%</code></td>
+      <td class="Table-cell">modal width (small devices)<br><code>90%</code></td>
     </tr>
     <tr class="Table-row">
       <td class="Table-cell Table-cell--important u-tal">$modal-max-width</td>
       <td class="Table-cell">max-width</td>
-      <td class="Table-cell">modal max-width<br><code>r(80)</code></td>
-    </tr>
-  </tbody>
-</table>
-```
-
-
-
-## Variables
-
-```esc
-<table class="Table">
-  <tbody class="Table-body">
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal" width="35%">$modal-header-btn-width</td>
-      <td class="Table-cell Table-cell--important">$fz--m + ($base-mg * 2)</td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$modal-width</td>
-      <td class="Table-cell Table-cell--important">90%</td>
+      <td class="Table-cell">modal max-width (large devices)<br><code>r(80)</code></td>
     </tr>
     <tr class="Table-row">
       <td class="Table-cell Table-cell--important u-tal">$modal-max-width</td>
-      <td class="Table-cell Table-cell--important">r(80)</td>
+      <td class="Table-cell">max-width</td>
+      <td class="Table-cell">modal max-height<br><code>calc(100vh - #{2 * $mg--m})</code></td>
     </tr>
   </tbody>
 </table>
