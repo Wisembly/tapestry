@@ -1,25 +1,25 @@
 {
-  "published": "2016-03-07T14:18:42.670Z",
+  "published": "2016-03-16T15:15:13.535Z",
   "paths": [
     "/Users/ugo/Sites/tapestry/dist/css/tapestry.css"
   ],
   "stylesheets": 1,
   "styleElements": 0,
-  "size": 61634,
+  "size": 61929,
   "dataUriSize": 2938,
-  "ratioOfDataUriSize": 0.04766849466203719,
-  "gzippedSize": 10903,
-  "rules": 696,
-  "selectors": 797,
-  "declarations": 1546,
-  "simplicity": 0.8732747804265998,
-  "averageOfIdentifier": 1.6599749058971143,
+  "ratioOfDataUriSize": 0.0474414248574981,
+  "gzippedSize": 10834,
+  "rules": 697,
+  "selectors": 789,
+  "declarations": 1561,
+  "simplicity": 0.8833967046894804,
+  "averageOfIdentifier": 1.652724968314322,
   "mostIdentifier": 5,
   "mostIdentifierSelector": ".Box > .List:first-child .List-item:first-child",
-  "averageOfCohesion": 2.221264367816092,
+  "averageOfCohesion": 2.2395982783357247,
   "lowestCohesion": 21,
   "lowestCohesionSelector": [
-    ".Btn"
+    ".Modal"
   ],
   "totalUniqueFontSizes": 15,
   "uniqueFontSizes": [
@@ -77,15 +77,15 @@
   "propertiesCount": [
     {
       "property": "content",
-      "count": 136
+      "count": 144
     },
     {
       "property": "color",
-      "count": 103
+      "count": 104
     },
     {
       "property": "width",
-      "count": 91
+      "count": 92
     },
     {
       "property": "display",
@@ -109,11 +109,11 @@
     },
     {
       "property": "line-height",
-      "count": 39
+      "count": 40
     },
     {
       "property": "position",
-      "count": 36
+      "count": 37
     }
   ],
   "mediaQueries": 4
