@@ -82,11 +82,13 @@
       Dropdown.closeAll();
       this.activeItem();
       this.$toggle.attr('aria-expanded', true);
+      this.$el.trigger('tapestry:dropdown:open');
       this.$el.focus();
     },
 
     close: function () {
       this.$toggle.attr('aria-expanded', false);
+      this.$el.trigger('tapestry:dropdown:close');
     },
 
     toggle: function () {
@@ -164,6 +166,7 @@
 
   Dropdown.closeAll = function () {
     $(selectors.toggle + '[aria-expanded=true]').attr('aria-expanded', false);
+    $(selectors.dropdown).trigger('tapestry:dropdown:close');
   };
 
   $(document).on('click.dropdown.tapestry', function (event) { Dropdown.closeAll(); });
