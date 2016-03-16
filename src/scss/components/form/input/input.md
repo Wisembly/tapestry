@@ -157,25 +157,30 @@ Input is displayed as a 100% width by default.
 ```
 
 
+Basic inputs
 
 ```html
-<label for="basicInput" class="Label">Foo</label>
-<input id="basicInput" class="Input" type="text" placeholder="Basic input" aria-label="Input item">
+<div id="basicInputWrapper1">
+  <label for="basicInput" class="Label">Foo</label>
+  <input id="basicInput" class="Input" type="text" placeholder="Basic input" aria-label="Input item">
+</div>
 
-<label for="disabledInput" class="Label">Bar</label>
-<input id="disabledInput" class="Input" type="text" placeholder="Disabled input" aria-label="Input item" disabled>
+<div id="basicInputWrapper2" class="u-mgt--m">
+  <label for="disabledInput" class="Label">Bar</label>
+  <input id="disabledInput" class="Input" type="text" placeholder="Disabled input" aria-label="Input item" disabled>
+</div>
 ```
 
 
 Items can be inlined with .Input--inline class.
 
 ```html
-<div>
+<div id="inlinedInputWrapper1">
   <label for="fooLabel" class="Label">Foo</label>
   <input id="fooLabel" class="Input Input--inline" type="text" placeholder="" aria-label="Input item">
 </div>
 
-<div>
+<div id="inlinedInputWrapper2" class="u-mgt--m">
   <input id="barLabel" class="Input Input--inline" type="text" placeholder="" aria-label="Input item">
   <label for="barLabel" class="Label">Bar</label>
 </div>
@@ -184,12 +189,12 @@ Items can be inlined with .Input--inline class.
 ## Textarea
 
 ```html
-<div>
+<div id="textareaWrapper1">
   <label class="Label Label--block" for="textarea1">Textarea</label>
   <textarea class="Textarea" placeholder="Textarea" name="textarea1" id="textarea1"></textarea>
 </div>
 
-<div>
+<div id="textareaWrapper2" class="u-mgt--m">
   <label class="Label Label--block" for="textarea2">Disabled textarea</label>
   <textarea class="Textarea" placeholder="Disabled textarea" name="textarea2" id="textarea2" disabled></textarea>
 </div>
@@ -286,9 +291,13 @@ Items can be inlined with .Input--inline class.
 Tapestry does not rely on neither :valid nor :invalid since those behaviors are quite random. When page is loaded, inputs are considered :valid even if their values are empty. Plus, it adds visual noise before you submit anything! We advise to use .is-valid and .is-invalid but classes are fully customizable. You can also consider giving a try to [ParsleyJS](http://parsleyjs.org/).
 
 ```html
-<label for="validInput" class="Label">Validated input</label>
-<input id="validInput" class="Input is-valid" type="text" value="I am a correct value" placeholder="Valid input">
+<div id="validInputWrapper">
+  <label for="validInput" class="Label Label--block">Validated input</label>
+  <input id="validInput" class="Input is-valid" type="text" value="I am a correct value" placeholder="Valid input">
+</div>
 
-<label for="invalidInput" class="Label">Errored input</label>
-<input id="invalidInput" class="Input is-invalid" type="text" value="I am an incorrect value" placeholder="Invalid input">
+<div id="invalidInputWrapper" class="u-mgt--m">
+  <label for="invalidInput" class="Label Label--block">Errored input</label>
+  <input id="invalidInput" class="Input is-invalid" type="text" value="I am an incorrect value" placeholder="Invalid input">
+</div>
 ```
