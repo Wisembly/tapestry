@@ -8,12 +8,11 @@
   width: $modal-width;
   max-width: $modal-max-width;
   max-height: $modal-max-height;
-  background: $white;
   overflow: auto;
 
   [aria-hidden="false"] > & {
     animation-name: PopUp;
-    animation-duration: .5s;
+    animation-duration: .2s;
     animation-iteration-count: 1;
     animation-direction: alternate;
   }

@@ -883,14 +883,14 @@ th {
 
 @-webkit-keyframes PopUp {
   0% {
-    -webkit-transform: scale(0);
-            transform: scale(0);
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
     -webkit-transform-origin: center center;
             transform-origin: center center;
   }
   40% {
-    -webkit-transform: scale(1.15);
-            transform: scale(1.15);
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
     -webkit-transform-origin: center center;
             transform-origin: center center;
   }
@@ -904,14 +904,14 @@ th {
 
 @keyframes PopUp {
   0% {
-    -webkit-transform: scale(0);
-            transform: scale(0);
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
     -webkit-transform-origin: center center;
             transform-origin: center center;
   }
   40% {
-    -webkit-transform: scale(1.15);
-            transform: scale(1.15);
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
     -webkit-transform-origin: center center;
             transform-origin: center center;
   }
@@ -2956,18 +2956,21 @@ th {
 .Media--t {
   -webkit-align-items: flex-start;
       -ms-flex-align: start;
+              -ms-grid-row-align: flex-start;
           align-items: flex-start;
 }
 
 .Media--c {
   -webkit-align-items: center;
       -ms-flex-align: center;
+              -ms-grid-row-align: center;
           align-items: center;
 }
 
 .Media--b {
   -webkit-align-items: flex-end;
       -ms-flex-align: end;
+              -ms-grid-row-align: flex-end;
           align-items: flex-end;
 }
 
@@ -3038,15 +3041,14 @@ th {
   width: 90%;
   max-width: 31.42857rem;
   max-height: calc(100vh - 3.14286rem);
-  background: #fff;
   overflow: auto;
 }
 
 [aria-hidden="false"] > .Modal {
   -webkit-animation-name: PopUp;
           animation-name: PopUp;
-  -webkit-animation-duration: .5s;
-          animation-duration: .5s;
+  -webkit-animation-duration: .2s;
+          animation-duration: .2s;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-direction: alternate;
