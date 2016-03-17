@@ -15,9 +15,11 @@
     color: $slate-gray;
   }
 
-  .List-itemInput:checked + & {
-    &:after {
-      @include Icon--checkmark();
+  @if $import-icons {
+    .List-itemInput:checked + & {
+      &:after {
+        @include Icon--checkmark();
+      }
     }
   }
 }
@@ -25,8 +27,10 @@
 .List-item--link {
   cursor: pointer;
 
-  &:after {
-    @include Icon--arrowNext();
+  @if $import-icons {
+    &:after {
+      @include Icon--arrowNext();
+    }
   }
 }
 

@@ -17,11 +17,13 @@
     padding-right: r(6);
     background: $porcelain;
 
-    &:after {
-      @include Icon--checkmark;
-      @include pos(a $mg--xs $mg--s null null);
-      font-family: tapestry-icons;
-      font-size: $fz--xs;
+    @if $import-icons {
+      &:after {
+        @include Icon--checkmark;
+        @include pos(a $mg--xs $mg--s null null);
+        font-family: tapestry-icons;
+        font-size: $fz--xs;
+      }
     }
   }
 }
