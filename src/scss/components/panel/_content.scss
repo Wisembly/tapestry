@@ -1,5 +1,5 @@
 .Panel-content {
-  height: calc(100% - #{r(12)});
+  flex: 1 1 auto;
   padding: $pd--m;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;

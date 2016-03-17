@@ -2,3 +2,4 @@ $modal-header-btn-width: $fz--m + ($base-mg * 2) !default;
 
 $modal-width: 90% !default;
 $modal-max-width: r(80) !default;
+$modal-max-height: calc(100vh - #{2 * $mg--m}) !default;
