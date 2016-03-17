@@ -7,7 +7,7 @@
 }
 
 .Radio-label {
-  @extend %Label;
+  @include Label;
   line-height: $radio-height;
 
   @if $import-icons {

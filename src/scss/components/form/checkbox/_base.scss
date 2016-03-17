@@ -7,7 +7,7 @@
 }
 
 .Checkbox-label {
-  @extend %Label;
+  @include Label;
   line-height: $checkbox-height;
 
   @if $import-icons {
