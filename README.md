@@ -43,14 +43,14 @@
 
 # Tools
 
-## Visual tests (temporarily disable)
+## Visual tests
 
 ### Installation
 
 ```
- npm install
- sudo npm install -g phantomjs
- sudo npm install -g casperjs
+npm install
+npm install -g phantomjs
+npm install -g casperjs
 ```
 
 ## Pre-commit and pre-push
@@ -66,9 +66,11 @@ npm run pre-push
 
 ### NPM scripts
 
+Tests are run with Travis and have to be updated before branch merges. They can be run locally with these following commands.
+
 ```js
-  npm run vt:refs // build references
-  npm run vt:compare // compare references with actual HEAD
+npm run vt:refs // build references
+npm run vt:compare // compare references with actual HEAD
 ```
 
 ### Bypass
