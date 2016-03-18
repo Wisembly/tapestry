@@ -3,6 +3,7 @@
   display: flex;
   width: 100vw;
   height: 100vh;
+  z-index: zi("overlay");
   align-items: center;
   justify-content: center;
   background: transparent;
