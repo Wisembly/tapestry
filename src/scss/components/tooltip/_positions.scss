@@ -3,7 +3,7 @@
   &:before,
   &:after {
     top: 50%;
-    transform: translate3d(0, -50%, 0);
+    transform: translateY(-50%);
   }
 }
 
@@ -13,7 +13,7 @@
   &:after {
     top: auto;
     left: 50%;
-    transform: translate3d(-50%, 0, 0);
+    transform: translateX(-50%);
   }
 }
 
