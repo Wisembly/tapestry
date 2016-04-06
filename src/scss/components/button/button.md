@@ -189,11 +189,31 @@
 ```html
 <div class="BtnGroup">
   <button class="Btn">Button A</button>
-  <button class="Btn">Button B</button>
+  <div class="Dropdown BtnGroup-dropdown" data-tapestry="dropdown">
+    <button type="button" class="Dropdown-toggle Btn" aria-controls="dropdownDividerExample" aria-expanded="false">Button B</button>
+    <ul id="dropdownDividerExample" class="Dropdown-list" aria-labelledby="dropdownMenuDivider">
+      <li class="Dropdown-item">
+        Simple label 1
+      </li>
+      <li class="Dropdown-item">
+        Simple label 2
+      </li>
+    </ul>
+  </div>
   <button class="Btn">Button C</button>
 </div>
 <div class="BtnGroup">
-  <button class="Btn Btn--outline">Button A</button>
+  <div class="Dropdown BtnGroup-dropdown" data-tapestry="dropdown">
+    <button type="button" class="Dropdown-toggle Btn Btn--outline" aria-controls="dropdownDividerExample" aria-expanded="false">Button A</button>
+    <ul id="dropdownDividerExample" class="Dropdown-list" aria-labelledby="dropdownMenuDivider">
+      <li class="Dropdown-item">
+        Simple label 1
+      </li>
+      <li class="Dropdown-item">
+        Simple label 2
+      </li>
+    </ul>
+  </div>
   <button class="Btn Btn--outline">Button B</button>
   <button class="Btn Btn--outline">Button C</button>
 </div>
