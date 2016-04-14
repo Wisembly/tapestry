@@ -18,7 +18,8 @@
     outline: none;
   }
 
-  &[disabled] {
+  &[disabled],
+  &[readonly] {
     color: $form-disabled-color;
     background: $form-disabled-bg;
   }
