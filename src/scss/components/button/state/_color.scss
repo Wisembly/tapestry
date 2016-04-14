@@ -9,7 +9,7 @@
     }
   }
 
-  .Btn--outline.Btn-#{$color-name} {
+  .Btn--outline.Btn-#{$color-name}:not([disabled]) {
     &:hover {
       color: $hover-color;
       border-color: $hover-color;

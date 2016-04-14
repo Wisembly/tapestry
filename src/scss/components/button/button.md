@@ -197,4 +197,10 @@
   <button class="Btn Btn--outline">Button B</button>
   <button class="Btn Btn--outline">Button C</button>
 </div>
+<div class="BtnGroup">
+  <button class="Btn Btn--s Btn--primary Btn--outline" disabled>Button A</button>
+  <button class="Btn Btn--s Btn--primary Btn--outline" disabled>Button B</button>
+  <button class="Btn Btn--s Btn--primary Btn--outline" disabled>Button C</button>
+</div>
+
 ```
