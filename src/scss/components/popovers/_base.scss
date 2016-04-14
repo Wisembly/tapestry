@@ -11,7 +11,7 @@
 .Popover {
   @include pos(a 100% null null 50%);
   display: none;
-  z-index: zi("base");
+  z-index: zi("popover");
   margin-top: $popover-arrow-size * 2;
   margin-left: -$popover-arrow-size;
   padding: $popover-pdv $popover-pdh;
