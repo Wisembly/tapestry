@@ -2491,33 +2491,46 @@ th {
   font-size: 0;
 }
 
-.BtnGroup .Btn {
+.BtnGroup > .Btn {
   margin-left: -1px;
   border-radius: 0;
 }
 
-.BtnGroup .Btn:hover {
+.BtnGroup > .Btn:hover {
   position: relative;
   z-index: 1;
 }
 
-.BtnGroup .Btn:first-child {
+.BtnGroup > .Btn:first-child {
   margin-left: 0;
   border-top-left-radius: 0.28571rem;
   border-bottom-left-radius: 0.28571rem;
 }
 
-.BtnGroup .Btn:last-child {
+.BtnGroup > .Btn:last-child {
   border-top-right-radius: 0.28571rem;
   border-bottom-right-radius: 0.28571rem;
 }
 
-.BtnGroup .Btn + .Btn:not(.Btn--block) {
+.BtnGroup > .Btn + .Btn:not(.Btn--block) {
   margin-left: -1px;
 }
 
 .BtnGroup + .BtnGroup {
   margin-left: 0.78571rem;
+}
+
+.BtnGroup-dropdown .Dropdown-toggle {
+  margin-left: -1px;
+  border-radius: 0;
+}
+
+.BtnGroup-dropdown .Dropdown-toggle:first-child {
+  border-radius: 0.28571rem 0 0 0.28571rem;
+}
+
+.BtnGroup-dropdown .Dropdown-toggle:last-child {
+  border-radius: 0 0.28571rem 0.28571rem 0;
 }
 
 .Btn {
