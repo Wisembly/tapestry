@@ -2568,7 +2568,7 @@ th {
   background-color: #07698d;
 }
 
-.Btn--outline.Btn--primary {
+.Btn--outline.Btn--primary:not([disabled]) {
   color: #07698d;
   border-color: #07698d;
 }
@@ -2586,7 +2586,7 @@ th {
   background-color: #289bc4;
 }
 
-.Btn--outline.Btn--alt {
+.Btn--outline.Btn--alt:not([disabled]) {
   color: #289bc4;
   border-color: #289bc4;
 }
@@ -2604,7 +2604,7 @@ th {
   background-color: #46b489;
 }
 
-.Btn--outline.Btn--validate {
+.Btn--outline.Btn--validate:not([disabled]) {
   color: #46b489;
   border-color: #46b489;
 }
@@ -2622,7 +2622,7 @@ th {
   background-color: #f1bc33;
 }
 
-.Btn--outline.Btn--info {
+.Btn--outline.Btn--info:not([disabled]) {
   color: #f1bc33;
   border-color: #f1bc33;
 }
@@ -2640,7 +2640,7 @@ th {
   background-color: #e25c5b;
 }
 
-.Btn--outline.Btn--error {
+.Btn--outline.Btn--error:not([disabled]) {
   color: #e25c5b;
   border-color: #e25c5b;
 }
@@ -2798,7 +2798,7 @@ th {
   background-color: #0d5c7c;
 }
 
-.Btn--outline.Btn--primary:hover {
+.Btn--outline.Btn--primary:not([disabled]):hover {
   color: #0d5c7c;
   border-color: #0d5c7c;
 }
@@ -2812,7 +2812,7 @@ th {
   background-color: #258aae;
 }
 
-.Btn--outline.Btn--alt:hover {
+.Btn--outline.Btn--alt:not([disabled]):hover {
   color: #258aae;
   border-color: #258aae;
 }
@@ -2826,7 +2826,7 @@ th {
   background-color: #41a07a;
 }
 
-.Btn--outline.Btn--validate:hover {
+.Btn--outline.Btn--validate:not([disabled]):hover {
   color: #41a07a;
   border-color: #41a07a;
 }
@@ -2840,7 +2840,7 @@ th {
   background-color: #d5a82d;
 }
 
-.Btn--outline.Btn--info:hover {
+.Btn--outline.Btn--info:not([disabled]):hover {
   color: #d5a82d;
   border-color: #d5a82d;
 }
@@ -2854,7 +2854,7 @@ th {
   background-color: #c85450;
 }
 
-.Btn--outline.Btn--error:hover {
+.Btn--outline.Btn--error:not([disabled]):hover {
   color: #c85450;
   border-color: #c85450;
 }
@@ -3378,7 +3378,7 @@ th {
   top: 100%;
   left: 50%;
   display: none;
-  z-index: 1;
+  z-index: 1000;
   margin-top: 1.14286rem;
   margin-left: -0.57143rem;
   padding: 0.78571rem 1.57143rem;
