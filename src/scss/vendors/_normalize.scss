@@ -150,8 +150,9 @@ input[type="submit"] {
 }
 
 button[disabled],
-html input[disabled] {
-  cursor: default;
+html input[disabled],
+textarea[disabled] {
+  cursor: not-allowed;
 }
 
 button::-moz-focus-inner,
