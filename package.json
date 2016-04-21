@@ -1,5 +1,5 @@
 {
-  "name": "tapestry",
+  "name": "tapestry-css",
   "version": "0.36.2",
   "description": "Wisembly UI elements",
   "main": "dist/js/tapestry.js",
