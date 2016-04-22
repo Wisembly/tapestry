@@ -12,12 +12,32 @@
     <tr class="Table-row">
       <td class="Table-cell Table-cell--important u-tal">$meter-height</td>
       <td class="Table-cell">height</td>
-      <td class="Table-cell">meter height<br><code>$lh--s</code></td>
+      <td class="Table-cell">meter height<br><code>r(1)</code></td>
     </tr>
     <tr class="Table-row">
       <td class="Table-cell Table-cell--important u-tal">$meter-radius</td>
       <td class="Table-cell">size</td>
       <td class="Table-cell">meter border-radius<br><code>$meter-height / 2</code></td>
+    </tr>
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal">$small-meter-height</td>
+      <td class="Table-cell">height</td>
+      <td class="Table-cell">small meter height<br><code>3px</code></td>
+    </tr>
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal">$small-meter-radius</td>
+      <td class="Table-cell">size</td>
+      <td class="Table-cell">small meter border-radius<br><code>0</code></td>
+    </tr>
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal">$large-meter-height</td>
+      <td class="Table-cell">height</td>
+      <td class="Table-cell">large meter height<br><code>r(3)</code></td>
+    </tr>
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal">$large-meter-radius</td>
+      <td class="Table-cell">size</td>
+      <td class="Table-cell">large meter border-radius<br><code>$large-meter-height / 2</code></td>
     </tr>
     <tr class="Table-row">
       <td class="Table-cell Table-cell--important u-tal">$meter-base-bg</td>
@@ -40,6 +60,38 @@
 ```html
 <div class="Meter">
   <div class="Meter-bar" style="width:50%;"></div>
+</div>
+```
+
+
+
+## Sizes
+
+```html
+<div class="Meter Meter--s u-mgb--m" data-threshold="25">
+  <div class="Meter-bar Meter-bar--s" style="width: 25%;"></div>
+</div>
+
+<div class="Meter Meter--s u-mgb--m" data-threshold="75">
+  <div class="Meter-bar Meter-bar--s" style="width:75%;"></div>
+</div>
+
+<div class="Meter Meter--s" data-threshold="99">
+  <div class="Meter-bar Meter-bar--s" style="width:99%;"></div>
+</div>
+```
+
+```html
+<div class="Meter Meter--l u-mgb--m" data-threshold="25">
+  <div class="Meter-bar Meter-bar--l" style="width:25%;"></div>
+</div>
+
+<div class="Meter Meter--l u-mgb--m" data-threshold="75">
+  <div class="Meter-bar Meter-bar--l" style="width:75%;"></div>
+</div>
+
+<div class="Meter Meter--l" data-threshold="99">
+  <div class="Meter-bar Meter-bar--l" style="width:99%;"></div>
 </div>
 ```
 

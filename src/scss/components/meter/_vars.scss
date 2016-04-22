@@ -1,5 +1,11 @@
-$meter-height: r(3) !default;
+$meter-height: r(1) !default;
 $meter-radius: $meter-height / 2 !default;
+
+$large-meter-height: r(3) !default;
+$large-meter-radius: $large-meter-height / 2 !default;
+
+$small-meter-height: 2px !default;
+$small-meter-radius: 0 !default;
 
 $meter-base-bg: $porcelain !default;
 $meter-bar-bg: $curious-blue !default;
