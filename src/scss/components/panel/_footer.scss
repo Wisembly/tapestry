@@ -1,6 +1,6 @@
 .Panel-footer {
   display: flex;
+  flex-shrink: 0;
   padding: $pd--m;
   background: $white;
-  flex-shrink: 0;
 }
