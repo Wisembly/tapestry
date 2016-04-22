@@ -3302,7 +3302,7 @@ a {
 .Meter {
   position: relative;
   width: 100%;
-  height: 1.17857rem;
+  height: 0.39286rem;
   background: #ebeeef;
   overflow: hidden;
 }
@@ -3318,6 +3318,24 @@ a {
 
 .Meter,
 .Meter-bar {
+  border-radius: 0.19643rem;
+}
+
+.Meter--s {
+  height: 2px;
+}
+
+.Meter--s,
+.Meter-bar--s {
+  border-radius: 0;
+}
+
+.Meter--l {
+  height: 1.17857rem;
+}
+
+.Meter--l,
+.Meter-bar--l {
   border-radius: 0.58929rem;
 }
 
