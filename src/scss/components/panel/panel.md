@@ -2,7 +2,7 @@
 
 ## Variables
 ```esc
-<table class="Table">
+<table class="Table u-mgb--m">
   <thead class="Table-head">
     <th class="Table-cell Table-cell--header u-tal" style="width: 25%;">Name</th>
     <th class="Table-cell Table-cell--header" style="width: 10%;">Type</th>
@@ -39,7 +39,7 @@
   <div class="Panel">
     <header class="Panel-header">
       <h3 class="Panel-title">Panel on the right</h3>
-      <button id="js-CloseRightPanel" class="Btn Btn--raw PanelHeader-btn u-push" aria-label="close">
+      <button id="js-CloseRightPanel" class="Btn Btn--raw PanelHeader-btn" aria-label="close">
         <i class="Icon Icon--cross"></i>
       </button>
     </header>
@@ -66,7 +66,7 @@
   <div class="Panel Panel--l">
     <header class="Panel-header">
       <h3 class="Panel-title">Panel on the left</h3>
-      <button id="js-CloseLeftPanel" class="Btn Btn--raw PanelHeader-btn u-push" aria-label="close">
+      <button id="js-CloseLeftPanel" class="Btn Btn--raw PanelHeader-btn" aria-label="close">
         <i class="Icon Icon--cross"></i>
       </button>
     </header>

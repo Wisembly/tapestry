@@ -486,8 +486,7 @@ p {
   margin-bottom: 0.78571rem;
   font-size: 1rem;
   line-height: 1.57143rem;
-  -webkit-font-feature-settings: 'kern' 1, 'onum' 1, 'liga' 1;
-          font-feature-settings: 'kern' 1, 'onum' 1, 'liga' 1;
+  font-feature-settings: 'kern' 1, 'onum' 1, 'liga' 1;
 }
 
 h1,
@@ -3302,6 +3301,7 @@ th {
 }
 
 .PanelHeader-btn {
+  margin-left: auto;
   padding: 0.78571rem 1.57143rem;
   line-height: 3.14286rem;
   color: #aed7e8;
