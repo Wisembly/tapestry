@@ -303,7 +303,8 @@
 
 .s-Modules-container code {
 	margin: 0 .3rem;
-	padding: .3rem .4rem;
+	padding: .15rem .4rem;
+	font-size: 1rem;
 	font-family: Consolas, "Courier New", monospace;
 	color: #657b83;
 	background-color: #f7f7f7;
@@ -322,7 +323,7 @@
 	display: block;
 	margin: 0;
 	padding: 1rem 1.2rem;
-	word-wrap: break-word;
+	white-space: pre-wrap;
 }
 
 
