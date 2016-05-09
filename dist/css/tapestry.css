@@ -1469,12 +1469,16 @@ th {
   content: "\ea80";
 }
 
-.Icon--wisembly:before {
+.Icon--wiFi:before {
   content: "\ea81";
 }
 
-.Icon--wisemblyFull:before {
+.Icon--wisembly:before {
   content: "\ea82";
+}
+
+.Icon--wisemblyFull:before {
+  content: "\ea83";
 }
 
 .Avatar {

@@ -658,6 +658,11 @@
 </div>
 
 <div class="s-Icon">
+  <i class="Icon Icon--wiFi"></i>
+  wiFi
+</div>
+
+<div class="s-Icon">
   <i class="Icon Icon--wisembly"></i>
   wisembly
 </div>

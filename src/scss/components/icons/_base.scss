@@ -1063,8 +1063,16 @@
   @include Icon--vote;
 }
 
-@mixin Icon--wisembly {
+@mixin Icon--wiFi {
   content: "\ea81";
+}
+
+.Icon--wiFi:before {
+  @include Icon--wiFi;
+}
+
+@mixin Icon--wisembly {
+  content: "\ea82";
 }
 
 .Icon--wisembly:before {
@@ -1072,7 +1080,7 @@
 }
 
 @mixin Icon--wisemblyFull {
-  content: "\ea82";
+  content: "\ea83";
 }
 
 .Icon--wisemblyFull:before {
