@@ -3151,6 +3151,7 @@ textarea {
   -webkit-flex: 1 0 auto;
       -ms-flex: 1 0 auto;
           flex: 1 0 auto;
+  margin: 0;
 }
 
 .Media-img {
