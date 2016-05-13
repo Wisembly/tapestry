@@ -10,7 +10,7 @@ nav.s-Nav
       a.s-Nav-title(href="/components") Components
         each component in components
           - var componentName = component.name.toLowerCase();
-          a.s-Nav-link(href="/components/#{componentName}")= component.name
+          a.s-Nav-link(href="/components/" + componentName)= component.name
   - else
     .s-Nav-section
       a.s-Nav-title(href="/components") Components
