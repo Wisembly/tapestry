@@ -8,9 +8,9 @@ nav.s-Nav
   - if (components)
     .s-Nav-section.has-nav
       a.s-Nav-title(href="/components") Components
-        - each component in components
-          - var componentName = component.name.toLowerCase();
-          a.s-Nav-link(href="/components/#{componentName}")= component.name
+        each item in components
+          - var componentName = item.name.toLowerCase();
+          a.s-Nav-link(href="/components/" + componentName)= item.name
   - else
     .s-Nav-section
       a.s-Nav-title(href="/components") Components
