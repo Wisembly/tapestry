@@ -1,7 +1,6 @@
 @font-face {
   font-family: "<%= fontName %>";
-  src: url("#{$f-path}/<%= fontName %>.woff2") format("woff2"),
-       url("#{$f-path}/<%= fontName %>.woff") format("woff");
+  src: url("#{$f-path}/<%= fontName %>.woff2") format("woff2"), url("#{$f-path}/<%= fontName %>.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -23,7 +22,7 @@
 }
 
 .<%= className %> {
-  @include <%= className %>();
+  @include <%= className %>;
 }
 
 .<%= className %>--s {

@@ -492,7 +492,7 @@ p {
   margin-bottom: 0.78571rem;
   font-size: 1rem;
   line-height: 1.57143rem;
-  font-feature-settings: 'kern' 1, 'onum' 1, 'liga' 1;
+  font-feature-settings: "kern" 1, "onum" 1, "liga" 1;
 }
 
 h1,
@@ -1058,7 +1058,7 @@ textarea {
 }
 
 @keyframes Spin {
-  0 {
+  0% {
     transform: rotate(0deg);
   }
   100% {
@@ -3163,16 +3163,16 @@ textarea {
   left: 0;
   display: -ms-flexbox;
   display: flex;
+  visibility: hidden;
+  z-index: 7000;
   width: 100vw;
   height: 100vh;
-  z-index: 7000;
   -ms-flex-align: center;
       align-items: center;
   -ms-flex-pack: center;
       justify-content: center;
   background: transparent;
   transition: background .2s ease-in-out;
-  visibility: hidden;
 }
 
 .Modal-wrapper[aria-hidden="false"] {
@@ -3358,16 +3358,16 @@ textarea {
   left: 0;
   display: -ms-flexbox;
   display: flex;
+  visibility: hidden;
+  z-index: 7000;
   width: 100vw;
   height: 100vh;
-  z-index: 7000;
   -ms-flex-align: center;
       align-items: center;
   -ms-flex-pack: center;
       justify-content: center;
   background: transparent;
   transition: background .2s ease-in-out;
-  visibility: hidden;
 }
 
 .Panel-wrapper[aria-hidden="false"] {

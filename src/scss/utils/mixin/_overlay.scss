@@ -1,14 +1,14 @@
 @mixin Overlay {
   @include pos(f 0);
   display: flex;
+  visibility: hidden;
+  z-index: zi("overlay");
   width: 100vw;
   height: 100vh;
-  z-index: zi("overlay");
   align-items: center;
   justify-content: center;
   background: transparent;
   transition: background .2s ease-in-out;
-  visibility: hidden;
 
   &[aria-hidden="false"] {
     visibility: visible;

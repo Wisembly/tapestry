@@ -13,33 +13,39 @@
 files:
   include: 'src/scss/**/*.scss'
   ignore:
+    - src/scss/typography/*.scss
+    - src/scss/utils/class/*.scss
     - src/scss/utils/_colors.scss
+    - src/scss/utils/mixin/*.scss
     - src/scss/vendors/_normalize.scss
 options:
   formatter: stylish
   merge-default-rules: false
 rules:
   border-zero:
-    - 1
+    - 2
     - convention: "0"
-    # - convention: zero
   brace-style:
-    - 1
-    - allow-single-line: true
+    - 2
+    - style: 'stroustrup'
   class-name-format:
     - 0
     - convention: hyphenatedlowercase
   clean-import-paths:
-    - 1
+    - 2
     - filename-extension: false
       leading-underscore: false
+  empty-args:
+    - 2
+    - include: false
   empty-line-between-blocks:
-    - 1
-    - ignore-single-line-rulesets: false
-  extends-before-declarations: 1
-  extends-before-mixins: 1
+    - 2
+    - allow-single-line-rulesets: false
+    - include: true
+  extends-before-declarations: 2
+  extends-before-mixins: 2
   final-newline:
-    - 1
+    - 2
     - include: true
   force-attribute-nesting: 0
   force-element-nesting: 0
@@ -49,54 +55,59 @@ rules:
     - allow-leading-underscore: true
       convention: hyphenatedlowercase
   hex-length:
-    - 1
+    - 2
     - style: short
   hex-notation:
-    - 1
+    - 2
     - style: lowercase
   id-name-format:
     - 0
     - convention: hyphenatedlowercase
   indentation:
-    - 1
+    - 2
     - size: 2
   leading-zero:
-    - 1
+    - 2
     - include: false
   mixin-name-format:
     - 0
     - allow-leading-underscore: true
       convention: hyphenatedlowercase
-  mixins-before-declarations: 1
+  mixins-before-declarations: 2
   nesting-depth:
-    - 0
+    - 2
     - max-depth: 3
-  no-color-keyword: 1
-  no-color-literals: 1
+  no-color-keyword: 2
+  no-color-literals:
+    - 2
+    - allow-rgba: true
   no-css-comments: 0
   no-debug: 1
-  no-duplicate-properties: 1
-  no-empty-rulesets: 1
-  no-ids: 0
-  no-important: 0
-  no-invalid-hex: 1
+  no-duplicate-properties: 2
+  no-empty-rulesets: 2
+  no-ids: 1
+  no-important: 1
+  no-invalid-hex: 2
   no-mergeable-selectors: 1
   no-misspelled-properties:
-    - 1
-    - extra-properties: []
+    - 2
+    - extra-properties: ['overflow-scrolling']
   no-qualifying-elements:
-    - 0
+    - 2
     - allow-element-with-attribute: false
       allow-element-with-class: false
       allow-element-with-id: false
-  no-trailing-zero: 1
-  no-url-protocols: 0
+  no-trailing-zero: 2
+  no-transition-all: 1
+  no-url-protocols: 2
+  no-vendor-prefixes: 1
+  one-declaration-per-line: 2
   placeholder-in-extend: 0
   placeholder-name-format:
     - 0
     - convention: hyphenatedlowercase
   property-sort-order:
-    - 1
+    - 2
     - ignore-custom-properties: false
       order:
         - include
@@ -138,6 +149,7 @@ rules:
         - padding-bottom
         - padding-left
         - font-family
+        - src
         - font-size
         - font-weight
         - font-style
@@ -200,29 +212,29 @@ rules:
         - box-sizing
         - speak
   quotes:
-    - 1
+    - 2
     - style: double
-  shorthand-values: 1
-  single-line-per-selector: 1
+  shorthand-values: 3
+  single-line-per-selector: 2
   space-after-bang:
-    - 1
+    - 2
     - include: false
   space-after-colon:
-    - 1
+    - 2
     - include: true
-  space-after-comma: 1
+  space-after-comma: 2
   space-before-bang:
-    - 1
+    - 2
     - include: true
   space-before-brace:
-    - 1
+    - 2
     - include: true
-  space-before-colon: 1
+  space-before-colon: 2
   space-between-parens:
-    - 1
+    - 2
     - include: false
-  trailing-semicolon: 1
-  url-quotes: 1
+  trailing-semicolon: 2
+  url-quotes: 2
   variable-for-property:
     - 0
     - properties:
@@ -230,7 +242,7 @@ rules:
         - background
         - background-color
   variable-name-format:
-    - 0
-    - allow-leading-underscore: true
+    - 2
+    - allow-leading-underscore: false
       convention: hyphenatedlowercase
-  zero-unit: 1
+  zero-unit: 2

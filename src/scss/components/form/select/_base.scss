@@ -8,7 +8,7 @@
   vertical-align: middle;
   color: $limed-spruce;
   background-color: $white;
-  background-image: url(#{$select-bg-path});
+  background-image: url("#{$select-bg-path}");
   background-position: center right;
   background-repeat: no-repeat;
   border: 1px solid $base-border-color;
