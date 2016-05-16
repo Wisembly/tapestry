@@ -12,7 +12,7 @@
 
   @if $import-icons {
     &:before {
-      @include Icon--checkbox();
+      @include Icon--checkbox;
       margin-right: $checkbox-inner-space;
       font-family: "tapestry-icons";
       font-size: $checkbox-height;
@@ -30,7 +30,7 @@
   @if $import-icons {
     &:checked + .Checkbox-label {
       &:before {
-        @include Icon--checkedCheckbox();
+        @include Icon--checkedCheckbox;
         color: $checkbox-checked-color;
       }
     }

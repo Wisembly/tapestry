@@ -3,13 +3,14 @@
   "version": "0.36.2",
   "description": "Wisembly UI elements",
   "main": "dist/js/tapestry.js",
+  "sasslintConfig": ".sass-lint.yml",
   "devDependencies": {
     "async": "1.5.0",
     "backstopjs": "1.1.0",
     "browser-sync": "2.9.11",
     "chalk": "1.1.1",
     "compression": "1.6.0",
-    "express": "4.13.3",
+    "express": "4.13.4",
     "github": "git://github.com/vcampitelli/node-github.git",
     "gulp": "3.9.0",
     "gulp-autoprefixer": "3.1.0",
@@ -21,7 +22,6 @@
     "gulp-sass": "2.1.0",
     "gulp-stylestats": "1.0.0",
     "gulp-uglify": "1.4.2",
-    "jade": "1.11.0",
     "lodash": "3.10.1",
     "prompt": "0.2.14",
     "run-sequence": "1.1.4",
@@ -31,7 +31,7 @@
   "scripts": {
     "vt:refs": "cd ./node_modules/backstopjs && gulp reference && cd ../../",
     "vt:compare": "cd ./node_modules/backstopjs && gulp test && cd ../../",
-    "lint": "scss-lint src/scss/** --config .scss-lint.yml",
+    "lint": "$(npm bin)/sass-lint -v -q",
     "pre-commit": "cp pre-commit.sh .git/hooks/pre-commit && chmod 777 .git/hooks/pre-commit",
     "icons": "gulp icons && gulp",
     "release": "node release-it index.js"
@@ -48,6 +48,8 @@
   "homepage": "https://github.com/Wisembly/tapestry",
   "dependencies": {
     "gulp-base64": "^0.1.3",
-    "node-sass": "3.4.2"
+    "node-sass": "3.4.2",
+    "pug": "2.0.0-alpha6",
+    "sass-lint": "^1.7.0"
   }
 }

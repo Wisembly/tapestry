@@ -58,8 +58,6 @@ npm install -g casperjs
 ### Installation
 
 ```bash
-sudo gem install scss-lint
-
 npm run pre-commit
 npm run pre-push
 ```
@@ -69,6 +67,7 @@ npm run pre-push
 Tests are run with Travis and have to be updated before branch merges. They can be run locally with these following commands.
 
 ```js
+npm run lint // linter
 npm run vt:refs // build references
 npm run vt:compare // compare references with actual HEAD
 ```

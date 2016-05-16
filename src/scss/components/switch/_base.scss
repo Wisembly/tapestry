@@ -18,8 +18,7 @@
     background: $switch-color;
     border: ($switch-inner-space / 2) solid $switch-unchecked-color;
     border-radius: 50%;
-    transition: left .1s ease-out,
-                border .05s ease-out;
+    transition: left .1s ease-out, border .05s ease-out;
   }
 }
 

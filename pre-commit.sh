@@ -36,7 +36,7 @@ function lastContinue {
 # Lint SCSS files
 
 echo "Linting SCSS files...";
-scss-lint src/scss/** --config .scss-lint.yml
+npm run lint
 
 echo ""
 read -p "Continue? (y/n)" CONTINUE_AFTER_LINT
