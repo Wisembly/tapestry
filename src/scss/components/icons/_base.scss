@@ -1,1087 +1,1092 @@
-@font-face {
-  font-family: "tapestry-icons";
-  src: url("#{$f-path}/tapestry-icons.woff2") format("woff2"), url("#{$f-path}/tapestry-icons.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@mixin Icon {
-  display: inline-block;
-  font-family: "tapestry-icons";
-  font-size: $fz--m;
-  font-weight: normal;
-  font-style: normal;
-  line-height: $base-lh;
-  text-transform: none;
-  text-decoration: inherit;
-  vertical-align: middle;
-  speak: none;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-}
-
-.Icon {
-  @include Icon;
-}
-
-.Icon--s {
-  font-size: $fz--s;
-}
-
-.Icon--l {
-  font-size: $fz--l;
-}
-
-.Icon--xl {
-  font-size: $fz--xl;
-}
-
-
-@mixin Icon--actionItem {
-  content: "\ea01";
-}
-
-.Icon--actionItem:before {
-  @include Icon--actionItem;
-}
-
-@mixin Icon--add {
-  content: "\ea02";
-}
-
-.Icon--add:before {
-  @include Icon--add;
-}
-
-@mixin Icon--addUser {
-  content: "\ea03";
-}
-
-.Icon--addUser:before {
-  @include Icon--addUser;
-}
-
-@mixin Icon--agendaItem {
-  content: "\ea04";
-}
-
-.Icon--agendaItem:before {
-  @include Icon--agendaItem;
-}
-
-@mixin Icon--alarmClock {
-  content: "\ea05";
-}
-
-.Icon--alarmClock:before {
-  @include Icon--alarmClock;
-}
-
-@mixin Icon--alert {
-  content: "\ea06";
-}
-
-.Icon--alert:before {
-  @include Icon--alert;
-}
-
-@mixin Icon--appearIn {
-  content: "\ea07";
-}
-
-.Icon--appearIn:before {
-  @include Icon--appearIn;
-}
-
-@mixin Icon--apple {
-  content: "\ea08";
-}
-
-.Icon--apple:before {
-  @include Icon--apple;
-}
-
-@mixin Icon--archive {
-  content: "\ea09";
-}
-
-.Icon--archive:before {
-  @include Icon--archive;
-}
-
-@mixin Icon--arrowBack {
-  content: "\ea0a";
-}
-
-.Icon--arrowBack:before {
-  @include Icon--arrowBack;
-}
-
-@mixin Icon--arrowDown {
-  content: "\ea0b";
-}
-
-.Icon--arrowDown:before {
-  @include Icon--arrowDown;
-}
-
-@mixin Icon--arrowFirst {
-  content: "\ea0c";
-}
-
-.Icon--arrowFirst:before {
-  @include Icon--arrowFirst;
-}
-
-@mixin Icon--arrowLast {
-  content: "\ea0d";
-}
-
-.Icon--arrowLast:before {
-  @include Icon--arrowLast;
-}
-
-@mixin Icon--arrowNext {
-  content: "\ea0e";
-}
-
-.Icon--arrowNext:before {
-  @include Icon--arrowNext;
-}
-
-@mixin Icon--arrowUp {
-  content: "\ea0f";
-}
-
-.Icon--arrowUp:before {
-  @include Icon--arrowUp;
-}
-
-@mixin Icon--azure {
-  content: "\ea10";
-}
-
-.Icon--azure:before {
-  @include Icon--azure;
-}
-
-@mixin Icon--badge {
-  content: "\ea11";
-}
-
-.Icon--badge:before {
-  @include Icon--badge;
-}
-
-@mixin Icon--bar {
-  content: "\ea12";
-}
-
-.Icon--bar:before {
-  @include Icon--bar;
-}
-
-@mixin Icon--bell {
-  content: "\ea13";
-}
-
-.Icon--bell:before {
-  @include Icon--bell;
-}
-
-@mixin Icon--brush {
-  content: "\ea14";
-}
-
-.Icon--brush:before {
-  @include Icon--brush;
-}
-
-@mixin Icon--bulletDay {
-  content: "\ea15";
-}
-
-.Icon--bulletDay:before {
-  @include Icon--bulletDay;
-}
-
-@mixin Icon--calendar {
-  content: "\ea16";
-}
-
-.Icon--calendar:before {
-  @include Icon--calendar;
-}
-
-@mixin Icon--checkbox {
-  content: "\ea17";
-}
-
-.Icon--checkbox:before {
-  @include Icon--checkbox;
-}
-
-@mixin Icon--checked {
-  content: "\ea18";
-}
-
-.Icon--checked:before {
-  @include Icon--checked;
-}
-
-@mixin Icon--checkedActionItem {
-  content: "\ea19";
-}
-
-.Icon--checkedActionItem:before {
-  @include Icon--checkedActionItem;
-}
-
-@mixin Icon--checkedCheckbox {
-  content: "\ea1a";
-}
-
-.Icon--checkedCheckbox:before {
-  @include Icon--checkedCheckbox;
-}
-
-@mixin Icon--checkedRadio {
-  content: "\ea1b";
-}
-
-.Icon--checkedRadio:before {
-  @include Icon--checkedRadio;
-}
-
-@mixin Icon--checkmark {
-  content: "\ea1c";
-}
-
-.Icon--checkmark:before {
-  @include Icon--checkmark;
-}
-
-@mixin Icon--chrome {
-  content: "\ea1d";
-}
-
-.Icon--chrome:before {
-  @include Icon--chrome;
-}
-
-@mixin Icon--clip {
-  content: "\ea1e";
-}
-
-.Icon--clip:before {
-  @include Icon--clip;
-}
-
-@mixin Icon--clock {
-  content: "\ea1f";
-}
-
-.Icon--clock:before {
-  @include Icon--clock;
-}
-
-@mixin Icon--closedEye {
-  content: "\ea20";
-}
-
-.Icon--closedEye:before {
-  @include Icon--closedEye;
-}
-
-@mixin Icon--cog {
-  content: "\ea21";
-}
-
-.Icon--cog:before {
-  @include Icon--cog;
-}
-
-@mixin Icon--cross {
-  content: "\ea22";
-}
-
-.Icon--cross:before {
-  @include Icon--cross;
-}
-
-@mixin Icon--decision {
-  content: "\ea23";
-}
-
-.Icon--decision:before {
-  @include Icon--decision;
-}
-
-@mixin Icon--diagram {
-  content: "\ea24";
-}
-
-.Icon--diagram:before {
-  @include Icon--diagram;
-}
-
-@mixin Icon--document {
-  content: "\ea25";
-}
-
-.Icon--document:before {
-  @include Icon--document;
-}
-
-@mixin Icon--download {
-  content: "\ea26";
-}
-
-.Icon--download:before {
-  @include Icon--download;
-}
-
-@mixin Icon--dragHorizontal {
-  content: "\ea27";
-}
-
-.Icon--dragHorizontal:before {
-  @include Icon--dragHorizontal;
-}
-
-@mixin Icon--dragVertical {
-  content: "\ea28";
-}
-
-.Icon--dragVertical:before {
-  @include Icon--dragVertical;
-}
-
-@mixin Icon--dumbell {
-  content: "\ea29";
-}
-
-.Icon--dumbell:before {
-  @include Icon--dumbell;
-}
-
-@mixin Icon--duplicate {
-  content: "\ea2a";
-}
-
-.Icon--duplicate:before {
-  @include Icon--duplicate;
-}
-
-@mixin Icon--evernote {
-  content: "\ea2b";
-}
-
-.Icon--evernote:before {
-  @include Icon--evernote;
-}
-
-@mixin Icon--externalLink {
-  content: "\ea2c";
-}
-
-.Icon--externalLink:before {
-  @include Icon--externalLink;
-}
-
-@mixin Icon--facebook {
-  content: "\ea2d";
-}
-
-.Icon--facebook:before {
-  @include Icon--facebook;
-}
-
-@mixin Icon--filters {
-  content: "\ea2e";
-}
-
-.Icon--filters:before {
-  @include Icon--filters;
-}
-
-@mixin Icon--form {
-  content: "\ea2f";
-}
-
-.Icon--form:before {
-  @include Icon--form;
-}
-
-@mixin Icon--fullscreen {
-  content: "\ea30";
-}
-
-.Icon--fullscreen:before {
-  @include Icon--fullscreen;
-}
-
-@mixin Icon--github {
-  content: "\ea31";
-}
-
-.Icon--github:before {
-  @include Icon--github;
-}
-
-@mixin Icon--glass {
-  content: "\ea32";
-}
-
-.Icon--glass:before {
-  @include Icon--glass;
-}
-
-@mixin Icon--google {
-  content: "\ea33";
-}
-
-.Icon--google:before {
-  @include Icon--google;
-}
-
-@mixin Icon--grid {
-  content: "\ea34";
-}
-
-.Icon--grid:before {
-  @include Icon--grid;
-}
-
-@mixin Icon--group {
-  content: "\ea35";
-}
-
-.Icon--group:before {
-  @include Icon--group;
-}
-
-@mixin Icon--groupRounded {
-  content: "\ea36";
-}
-
-.Icon--groupRounded:before {
-  @include Icon--groupRounded;
-}
-
-@mixin Icon--help {
-  content: "\ea37";
-}
-
-.Icon--help:before {
-  @include Icon--help;
-}
-
-@mixin Icon--home {
-  content: "\ea38";
-}
-
-.Icon--home:before {
-  @include Icon--home;
-}
-
-@mixin Icon--info {
-  content: "\ea39";
-}
-
-.Icon--info:before {
-  @include Icon--info;
-}
-
-@mixin Icon--label {
-  content: "\ea3a";
-}
-
-.Icon--label:before {
-  @include Icon--label;
-}
-
-@mixin Icon--like {
-  content: "\ea3b";
-}
-
-.Icon--like:before {
-  @include Icon--like;
-}
-
-@mixin Icon--linkDropbox {
-  content: "\ea3c";
-}
-
-.Icon--linkDropbox:before {
-  @include Icon--linkDropbox;
-}
-
-@mixin Icon--linkGoogle {
-  content: "\ea3d";
-}
-
-.Icon--linkGoogle:before {
-  @include Icon--linkGoogle;
-}
-
-@mixin Icon--linkedin {
-  content: "\ea3e";
-}
-
-.Icon--linkedin:before {
-  @include Icon--linkedin;
-}
-
-@mixin Icon--listCollapse {
-  content: "\ea3f";
-}
-
-.Icon--listCollapse:before {
-  @include Icon--listCollapse;
-}
-
-@mixin Icon--listExpand {
-  content: "\ea40";
-}
-
-.Icon--listExpand:before {
-  @include Icon--listExpand;
-}
-
-@mixin Icon--live {
-  content: "\ea41";
-}
-
-.Icon--live:before {
-  @include Icon--live;
-}
-
-@mixin Icon--lock {
-  content: "\ea42";
-}
-
-.Icon--lock:before {
-  @include Icon--lock;
-}
-
-@mixin Icon--mail {
-  content: "\ea43";
-}
-
-.Icon--mail:before {
-  @include Icon--mail;
-}
-
-@mixin Icon--meetingList {
-  content: "\ea44";
-}
-
-.Icon--meetingList:before {
-  @include Icon--meetingList;
-}
-
-@mixin Icon--message {
-  content: "\ea45";
-}
-
-.Icon--message:before {
-  @include Icon--message;
-}
-
-@mixin Icon--minus {
-  content: "\ea46";
-}
-
-.Icon--minus:before {
-  @include Icon--minus;
-}
-
-@mixin Icon--more {
-  content: "\ea47";
-}
-
-.Icon--more:before {
-  @include Icon--more;
-}
-
-@mixin Icon--multipleChoice {
-  content: "\ea48";
-}
-
-.Icon--multipleChoice:before {
-  @include Icon--multipleChoice;
-}
-
-@mixin Icon--note {
-  content: "\ea49";
-}
-
-.Icon--note:before {
-  @include Icon--note;
-}
-
-@mixin Icon--openIssue {
-  content: "\ea4a";
-}
-
-.Icon--openIssue:before {
-  @include Icon--openIssue;
-}
-
-@mixin Icon--openQuestion {
-  content: "\ea4b";
-}
-
-.Icon--openQuestion:before {
-  @include Icon--openQuestion;
-}
-
-@mixin Icon--openedEye {
-  content: "\ea4c";
-}
-
-.Icon--openedEye:before {
-  @include Icon--openedEye;
-}
-
-@mixin Icon--options {
-  content: "\ea4d";
-}
-
-.Icon--options:before {
-  @include Icon--options;
-}
-
-@mixin Icon--optionsRounded {
-  content: "\ea4e";
-}
-
-.Icon--optionsRounded:before {
-  @include Icon--optionsRounded;
-}
-
-@mixin Icon--paragraph {
-  content: "\ea4f";
-}
-
-.Icon--paragraph:before {
-  @include Icon--paragraph;
-}
-
-@mixin Icon--participant {
-  content: "\ea50";
-}
-
-.Icon--participant:before {
-  @include Icon--participant;
-}
-
-@mixin Icon--pause {
-  content: "\ea51";
-}
-
-.Icon--pause:before {
-  @include Icon--pause;
-}
-
-@mixin Icon--pellet {
-  content: "\ea52";
-}
-
-.Icon--pellet:before {
-  @include Icon--pellet;
-}
-
-@mixin Icon--pelletCheck {
-  content: "\ea53";
-}
-
-.Icon--pelletCheck:before {
-  @include Icon--pelletCheck;
-}
-
-@mixin Icon--pelletClose {
-  content: "\ea54";
-}
-
-.Icon--pelletClose:before {
-  @include Icon--pelletClose;
-}
-
-@mixin Icon--pelletMinus {
-  content: "\ea55";
-}
-
-.Icon--pelletMinus:before {
-  @include Icon--pelletMinus;
-}
-
-@mixin Icon--pencil {
-  content: "\ea56";
-}
-
-.Icon--pencil:before {
-  @include Icon--pencil;
-}
-
-@mixin Icon--phone {
-  content: "\ea57";
-}
-
-.Icon--phone:before {
-  @include Icon--phone;
-}
-
-@mixin Icon--picture {
-  content: "\ea58";
-}
-
-.Icon--picture:before {
-  @include Icon--picture;
-}
-
-@mixin Icon--play {
-  content: "\ea59";
-}
-
-.Icon--play:before {
-  @include Icon--play;
-}
-
-@mixin Icon--plugged {
-  content: "\ea5a";
-}
-
-.Icon--plugged:before {
-  @include Icon--plugged;
-}
-
-@mixin Icon--plus {
-  content: "\ea5b";
-}
-
-.Icon--plus:before {
-  @include Icon--plus;
-}
-
-@mixin Icon--popup {
-  content: "\ea5c";
-}
-
-.Icon--popup:before {
-  @include Icon--popup;
-}
-
-@mixin Icon--public {
-  content: "\ea5d";
-}
-
-.Icon--public:before {
-  @include Icon--public;
-}
-
-@mixin Icon--radio {
-  content: "\ea5e";
-}
-
-.Icon--radio:before {
-  @include Icon--radio;
-}
-
-@mixin Icon--recurring {
-  content: "\ea5f";
-}
-
-.Icon--recurring:before {
-  @include Icon--recurring;
-}
-
-@mixin Icon--refresh {
-  content: "\ea60";
-}
-
-.Icon--refresh:before {
-  @include Icon--refresh;
-}
-
-@mixin Icon--reply {
-  content: "\ea61";
-}
-
-.Icon--reply:before {
-  @include Icon--reply;
-}
-
-@mixin Icon--reset {
-  content: "\ea62";
-}
-
-.Icon--reset:before {
-  @include Icon--reset;
-}
-
-@mixin Icon--resetRounded {
-  content: "\ea63";
-}
-
-.Icon--resetRounded:before {
-  @include Icon--resetRounded;
-}
-
-@mixin Icon--results {
-  content: "\ea64";
-}
-
-.Icon--results:before {
-  @include Icon--results;
-}
-
-@mixin Icon--section {
-  content: "\ea65";
-}
-
-.Icon--section:before {
-  @include Icon--section;
-}
-
-@mixin Icon--singleChoice {
-  content: "\ea66";
-}
-
-.Icon--singleChoice:before {
-  @include Icon--singleChoice;
-}
-
-@mixin Icon--slack {
-  content: "\ea67";
-}
-
-.Icon--slack:before {
-  @include Icon--slack;
-}
-
-@mixin Icon--solid {
-  content: "\ea68";
-}
-
-.Icon--solid:before {
-  @include Icon--solid;
-}
-
-@mixin Icon--solidFull {
-  content: "\ea69";
-}
-
-.Icon--solidFull:before {
-  @include Icon--solidFull;
-}
-
-@mixin Icon--star {
-  content: "\ea6a";
-}
-
-.Icon--star:before {
-  @include Icon--star;
-}
-
-@mixin Icon--starHalf {
-  content: "\ea6b";
-}
-
-.Icon--starHalf:before {
-  @include Icon--starHalf;
-}
-
-@mixin Icon--starOutlined {
-  content: "\ea6c";
-}
-
-.Icon--starOutlined:before {
-  @include Icon--starOutlined;
-}
-
-@mixin Icon--stats {
-  content: "\ea6d";
-}
-
-.Icon--stats:before {
-  @include Icon--stats;
-}
-
-@mixin Icon--statsRounded {
-  content: "\ea6e";
-}
-
-.Icon--statsRounded:before {
-  @include Icon--statsRounded;
-}
-
-@mixin Icon--stop {
-  content: "\ea6f";
-}
-
-.Icon--stop:before {
-  @include Icon--stop;
-}
-
-@mixin Icon--subtitle {
-  content: "\ea70";
-}
-
-.Icon--subtitle:before {
-  @include Icon--subtitle;
-}
-
-@mixin Icon--sunrise {
-  content: "\ea71";
-}
-
-.Icon--sunrise:before {
-  @include Icon--sunrise;
-}
-
-@mixin Icon--sunset {
-  content: "\ea72";
-}
-
-.Icon--sunset:before {
-  @include Icon--sunset;
-}
-
-@mixin Icon--target {
-  content: "\ea73";
-}
-
-.Icon--target:before {
-  @include Icon--target;
-}
-
-@mixin Icon--themes {
-  content: "\ea74";
-}
-
-.Icon--themes:before {
-  @include Icon--themes;
-}
-
-@mixin Icon--title {
-  content: "\ea75";
-}
-
-.Icon--title:before {
-  @include Icon--title;
-}
-
-@mixin Icon--trash {
-  content: "\ea76";
-}
-
-.Icon--trash:before {
-  @include Icon--trash;
-}
-
-@mixin Icon--triangleDown {
-  content: "\ea77";
-}
-
-.Icon--triangleDown:before {
-  @include Icon--triangleDown;
-}
-
-@mixin Icon--triangleUp {
-  content: "\ea78";
-}
-
-.Icon--triangleUp:before {
-  @include Icon--triangleUp;
-}
-
-@mixin Icon--twitter {
-  content: "\ea79";
-}
-
-.Icon--twitter:before {
-  @include Icon--twitter;
-}
-
-@mixin Icon--typeAdd {
-  content: "\ea7a";
-}
-
-.Icon--typeAdd:before {
-  @include Icon--typeAdd;
-}
-
-@mixin Icon--typeParagraph {
-  content: "\ea7b";
-}
-
-.Icon--typeParagraph:before {
-  @include Icon--typeParagraph;
-}
-
-@mixin Icon--unlock {
-  content: "\ea7c";
-}
-
-.Icon--unlock:before {
-  @include Icon--unlock;
-}
-
-@mixin Icon--unplugged {
-  content: "\ea7d";
-}
-
-.Icon--unplugged:before {
-  @include Icon--unplugged;
-}
-
-@mixin Icon--user {
-  content: "\ea7e";
-}
-
-.Icon--user:before {
-  @include Icon--user;
-}
-
-@mixin Icon--voice {
-  content: "\ea7f";
-}
-
-.Icon--voice:before {
-  @include Icon--voice;
-}
-
-@mixin Icon--vote {
-  content: "\ea80";
-}
-
-.Icon--vote:before {
-  @include Icon--vote;
-}
-
-@mixin Icon--wiFi {
-  content: "\ea81";
-}
-
-.Icon--wiFi:before {
-  @include Icon--wiFi;
-}
-
-@mixin Icon--wisembly {
-  content: "\ea82";
-}
-
-.Icon--wisembly:before {
-  @include Icon--wisembly;
-}
-
-@mixin Icon--wisemblyFull {
-  content: "\ea83";
-}
-
-.Icon--wisemblyFull:before {
-  @include Icon--wisemblyFull;
+@if $import-icons {
+
+  @font-face {
+    font-family: "tapestry-icons";
+    src: url("#{$f-path}/tapestry-icons.woff2") format("woff2"), url("#{$f-path}/tapestry-icons.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @mixin Icon {
+    display: inline-block;
+    font-family: "tapestry-icons";
+    font-size: $fz--m;
+    font-weight: normal;
+    font-style: normal;
+    line-height: $base-lh;
+    text-transform: none;
+    text-decoration: inherit;
+    vertical-align: middle;
+    speak: none;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  .Icon {
+    @include Icon;
+  }
+
+  .Icon--s {
+    font-size: $fz--s;
+  }
+
+  .Icon--l {
+    font-size: $fz--l;
+  }
+
+  .Icon--xl {
+    font-size: $fz--xl;
+  }
+
+
+  @mixin Icon--actionItem {
+    content: "\ea01";
+  }
+
+  .Icon--actionItem:before {
+    @include Icon--actionItem;
+  }
+
+  @mixin Icon--add {
+    content: "\ea02";
+  }
+
+  .Icon--add:before {
+    @include Icon--add;
+  }
+
+  @mixin Icon--addUser {
+    content: "\ea03";
+  }
+
+  .Icon--addUser:before {
+    @include Icon--addUser;
+  }
+
+  @mixin Icon--agendaItem {
+    content: "\ea04";
+  }
+
+  .Icon--agendaItem:before {
+    @include Icon--agendaItem;
+  }
+
+  @mixin Icon--alarmClock {
+    content: "\ea05";
+  }
+
+  .Icon--alarmClock:before {
+    @include Icon--alarmClock;
+  }
+
+  @mixin Icon--alert {
+    content: "\ea06";
+  }
+
+  .Icon--alert:before {
+    @include Icon--alert;
+  }
+
+  @mixin Icon--appearIn {
+    content: "\ea07";
+  }
+
+  .Icon--appearIn:before {
+    @include Icon--appearIn;
+  }
+
+  @mixin Icon--apple {
+    content: "\ea08";
+  }
+
+  .Icon--apple:before {
+    @include Icon--apple;
+  }
+
+  @mixin Icon--archive {
+    content: "\ea09";
+  }
+
+  .Icon--archive:before {
+    @include Icon--archive;
+  }
+
+  @mixin Icon--arrowBack {
+    content: "\ea0a";
+  }
+
+  .Icon--arrowBack:before {
+    @include Icon--arrowBack;
+  }
+
+  @mixin Icon--arrowDown {
+    content: "\ea0b";
+  }
+
+  .Icon--arrowDown:before {
+    @include Icon--arrowDown;
+  }
+
+  @mixin Icon--arrowFirst {
+    content: "\ea0c";
+  }
+
+  .Icon--arrowFirst:before {
+    @include Icon--arrowFirst;
+  }
+
+  @mixin Icon--arrowLast {
+    content: "\ea0d";
+  }
+
+  .Icon--arrowLast:before {
+    @include Icon--arrowLast;
+  }
+
+  @mixin Icon--arrowNext {
+    content: "\ea0e";
+  }
+
+  .Icon--arrowNext:before {
+    @include Icon--arrowNext;
+  }
+
+  @mixin Icon--arrowUp {
+    content: "\ea0f";
+  }
+
+  .Icon--arrowUp:before {
+    @include Icon--arrowUp;
+  }
+
+  @mixin Icon--azure {
+    content: "\ea10";
+  }
+
+  .Icon--azure:before {
+    @include Icon--azure;
+  }
+
+  @mixin Icon--badge {
+    content: "\ea11";
+  }
+
+  .Icon--badge:before {
+    @include Icon--badge;
+  }
+
+  @mixin Icon--bar {
+    content: "\ea12";
+  }
+
+  .Icon--bar:before {
+    @include Icon--bar;
+  }
+
+  @mixin Icon--bell {
+    content: "\ea13";
+  }
+
+  .Icon--bell:before {
+    @include Icon--bell;
+  }
+
+  @mixin Icon--brush {
+    content: "\ea14";
+  }
+
+  .Icon--brush:before {
+    @include Icon--brush;
+  }
+
+  @mixin Icon--bulletDay {
+    content: "\ea15";
+  }
+
+  .Icon--bulletDay:before {
+    @include Icon--bulletDay;
+  }
+
+  @mixin Icon--calendar {
+    content: "\ea16";
+  }
+
+  .Icon--calendar:before {
+    @include Icon--calendar;
+  }
+
+  @mixin Icon--checkbox {
+    content: "\ea17";
+  }
+
+  .Icon--checkbox:before {
+    @include Icon--checkbox;
+  }
+
+  @mixin Icon--checked {
+    content: "\ea18";
+  }
+
+  .Icon--checked:before {
+    @include Icon--checked;
+  }
+
+  @mixin Icon--checkedActionItem {
+    content: "\ea19";
+  }
+
+  .Icon--checkedActionItem:before {
+    @include Icon--checkedActionItem;
+  }
+
+  @mixin Icon--checkedCheckbox {
+    content: "\ea1a";
+  }
+
+  .Icon--checkedCheckbox:before {
+    @include Icon--checkedCheckbox;
+  }
+
+  @mixin Icon--checkedRadio {
+    content: "\ea1b";
+  }
+
+  .Icon--checkedRadio:before {
+    @include Icon--checkedRadio;
+  }
+
+  @mixin Icon--checkmark {
+    content: "\ea1c";
+  }
+
+  .Icon--checkmark:before {
+    @include Icon--checkmark;
+  }
+
+  @mixin Icon--chrome {
+    content: "\ea1d";
+  }
+
+  .Icon--chrome:before {
+    @include Icon--chrome;
+  }
+
+  @mixin Icon--clip {
+    content: "\ea1e";
+  }
+
+  .Icon--clip:before {
+    @include Icon--clip;
+  }
+
+  @mixin Icon--clock {
+    content: "\ea1f";
+  }
+
+  .Icon--clock:before {
+    @include Icon--clock;
+  }
+
+  @mixin Icon--closedEye {
+    content: "\ea20";
+  }
+
+  .Icon--closedEye:before {
+    @include Icon--closedEye;
+  }
+
+  @mixin Icon--cog {
+    content: "\ea21";
+  }
+
+  .Icon--cog:before {
+    @include Icon--cog;
+  }
+
+  @mixin Icon--cross {
+    content: "\ea22";
+  }
+
+  .Icon--cross:before {
+    @include Icon--cross;
+  }
+
+  @mixin Icon--decision {
+    content: "\ea23";
+  }
+
+  .Icon--decision:before {
+    @include Icon--decision;
+  }
+
+  @mixin Icon--diagram {
+    content: "\ea24";
+  }
+
+  .Icon--diagram:before {
+    @include Icon--diagram;
+  }
+
+  @mixin Icon--document {
+    content: "\ea25";
+  }
+
+  .Icon--document:before {
+    @include Icon--document;
+  }
+
+  @mixin Icon--download {
+    content: "\ea26";
+  }
+
+  .Icon--download:before {
+    @include Icon--download;
+  }
+
+  @mixin Icon--dragHorizontal {
+    content: "\ea27";
+  }
+
+  .Icon--dragHorizontal:before {
+    @include Icon--dragHorizontal;
+  }
+
+  @mixin Icon--dragVertical {
+    content: "\ea28";
+  }
+
+  .Icon--dragVertical:before {
+    @include Icon--dragVertical;
+  }
+
+  @mixin Icon--dumbell {
+    content: "\ea29";
+  }
+
+  .Icon--dumbell:before {
+    @include Icon--dumbell;
+  }
+
+  @mixin Icon--duplicate {
+    content: "\ea2a";
+  }
+
+  .Icon--duplicate:before {
+    @include Icon--duplicate;
+  }
+
+  @mixin Icon--evernote {
+    content: "\ea2b";
+  }
+
+  .Icon--evernote:before {
+    @include Icon--evernote;
+  }
+
+  @mixin Icon--externalLink {
+    content: "\ea2c";
+  }
+
+  .Icon--externalLink:before {
+    @include Icon--externalLink;
+  }
+
+  @mixin Icon--facebook {
+    content: "\ea2d";
+  }
+
+  .Icon--facebook:before {
+    @include Icon--facebook;
+  }
+
+  @mixin Icon--filters {
+    content: "\ea2e";
+  }
+
+  .Icon--filters:before {
+    @include Icon--filters;
+  }
+
+  @mixin Icon--form {
+    content: "\ea2f";
+  }
+
+  .Icon--form:before {
+    @include Icon--form;
+  }
+
+  @mixin Icon--fullscreen {
+    content: "\ea30";
+  }
+
+  .Icon--fullscreen:before {
+    @include Icon--fullscreen;
+  }
+
+  @mixin Icon--github {
+    content: "\ea31";
+  }
+
+  .Icon--github:before {
+    @include Icon--github;
+  }
+
+  @mixin Icon--glass {
+    content: "\ea32";
+  }
+
+  .Icon--glass:before {
+    @include Icon--glass;
+  }
+
+  @mixin Icon--google {
+    content: "\ea33";
+  }
+
+  .Icon--google:before {
+    @include Icon--google;
+  }
+
+  @mixin Icon--grid {
+    content: "\ea34";
+  }
+
+  .Icon--grid:before {
+    @include Icon--grid;
+  }
+
+  @mixin Icon--group {
+    content: "\ea35";
+  }
+
+  .Icon--group:before {
+    @include Icon--group;
+  }
+
+  @mixin Icon--groupRounded {
+    content: "\ea36";
+  }
+
+  .Icon--groupRounded:before {
+    @include Icon--groupRounded;
+  }
+
+  @mixin Icon--help {
+    content: "\ea37";
+  }
+
+  .Icon--help:before {
+    @include Icon--help;
+  }
+
+  @mixin Icon--home {
+    content: "\ea38";
+  }
+
+  .Icon--home:before {
+    @include Icon--home;
+  }
+
+  @mixin Icon--info {
+    content: "\ea39";
+  }
+
+  .Icon--info:before {
+    @include Icon--info;
+  }
+
+  @mixin Icon--label {
+    content: "\ea3a";
+  }
+
+  .Icon--label:before {
+    @include Icon--label;
+  }
+
+  @mixin Icon--like {
+    content: "\ea3b";
+  }
+
+  .Icon--like:before {
+    @include Icon--like;
+  }
+
+  @mixin Icon--linkDropbox {
+    content: "\ea3c";
+  }
+
+  .Icon--linkDropbox:before {
+    @include Icon--linkDropbox;
+  }
+
+  @mixin Icon--linkGoogle {
+    content: "\ea3d";
+  }
+
+  .Icon--linkGoogle:before {
+    @include Icon--linkGoogle;
+  }
+
+  @mixin Icon--linkedin {
+    content: "\ea3e";
+  }
+
+  .Icon--linkedin:before {
+    @include Icon--linkedin;
+  }
+
+  @mixin Icon--listCollapse {
+    content: "\ea3f";
+  }
+
+  .Icon--listCollapse:before {
+    @include Icon--listCollapse;
+  }
+
+  @mixin Icon--listExpand {
+    content: "\ea40";
+  }
+
+  .Icon--listExpand:before {
+    @include Icon--listExpand;
+  }
+
+  @mixin Icon--live {
+    content: "\ea41";
+  }
+
+  .Icon--live:before {
+    @include Icon--live;
+  }
+
+  @mixin Icon--lock {
+    content: "\ea42";
+  }
+
+  .Icon--lock:before {
+    @include Icon--lock;
+  }
+
+  @mixin Icon--mail {
+    content: "\ea43";
+  }
+
+  .Icon--mail:before {
+    @include Icon--mail;
+  }
+
+  @mixin Icon--meetingList {
+    content: "\ea44";
+  }
+
+  .Icon--meetingList:before {
+    @include Icon--meetingList;
+  }
+
+  @mixin Icon--message {
+    content: "\ea45";
+  }
+
+  .Icon--message:before {
+    @include Icon--message;
+  }
+
+  @mixin Icon--minus {
+    content: "\ea46";
+  }
+
+  .Icon--minus:before {
+    @include Icon--minus;
+  }
+
+  @mixin Icon--more {
+    content: "\ea47";
+  }
+
+  .Icon--more:before {
+    @include Icon--more;
+  }
+
+  @mixin Icon--multipleChoice {
+    content: "\ea48";
+  }
+
+  .Icon--multipleChoice:before {
+    @include Icon--multipleChoice;
+  }
+
+  @mixin Icon--note {
+    content: "\ea49";
+  }
+
+  .Icon--note:before {
+    @include Icon--note;
+  }
+
+  @mixin Icon--openIssue {
+    content: "\ea4a";
+  }
+
+  .Icon--openIssue:before {
+    @include Icon--openIssue;
+  }
+
+  @mixin Icon--openQuestion {
+    content: "\ea4b";
+  }
+
+  .Icon--openQuestion:before {
+    @include Icon--openQuestion;
+  }
+
+  @mixin Icon--openedEye {
+    content: "\ea4c";
+  }
+
+  .Icon--openedEye:before {
+    @include Icon--openedEye;
+  }
+
+  @mixin Icon--options {
+    content: "\ea4d";
+  }
+
+  .Icon--options:before {
+    @include Icon--options;
+  }
+
+  @mixin Icon--optionsRounded {
+    content: "\ea4e";
+  }
+
+  .Icon--optionsRounded:before {
+    @include Icon--optionsRounded;
+  }
+
+  @mixin Icon--paragraph {
+    content: "\ea4f";
+  }
+
+  .Icon--paragraph:before {
+    @include Icon--paragraph;
+  }
+
+  @mixin Icon--participant {
+    content: "\ea50";
+  }
+
+  .Icon--participant:before {
+    @include Icon--participant;
+  }
+
+  @mixin Icon--pause {
+    content: "\ea51";
+  }
+
+  .Icon--pause:before {
+    @include Icon--pause;
+  }
+
+  @mixin Icon--pellet {
+    content: "\ea52";
+  }
+
+  .Icon--pellet:before {
+    @include Icon--pellet;
+  }
+
+  @mixin Icon--pelletCheck {
+    content: "\ea53";
+  }
+
+  .Icon--pelletCheck:before {
+    @include Icon--pelletCheck;
+  }
+
+  @mixin Icon--pelletClose {
+    content: "\ea54";
+  }
+
+  .Icon--pelletClose:before {
+    @include Icon--pelletClose;
+  }
+
+  @mixin Icon--pelletMinus {
+    content: "\ea55";
+  }
+
+  .Icon--pelletMinus:before {
+    @include Icon--pelletMinus;
+  }
+
+  @mixin Icon--pencil {
+    content: "\ea56";
+  }
+
+  .Icon--pencil:before {
+    @include Icon--pencil;
+  }
+
+  @mixin Icon--phone {
+    content: "\ea57";
+  }
+
+  .Icon--phone:before {
+    @include Icon--phone;
+  }
+
+  @mixin Icon--picture {
+    content: "\ea58";
+  }
+
+  .Icon--picture:before {
+    @include Icon--picture;
+  }
+
+  @mixin Icon--play {
+    content: "\ea59";
+  }
+
+  .Icon--play:before {
+    @include Icon--play;
+  }
+
+  @mixin Icon--plugged {
+    content: "\ea5a";
+  }
+
+  .Icon--plugged:before {
+    @include Icon--plugged;
+  }
+
+  @mixin Icon--plus {
+    content: "\ea5b";
+  }
+
+  .Icon--plus:before {
+    @include Icon--plus;
+  }
+
+  @mixin Icon--popup {
+    content: "\ea5c";
+  }
+
+  .Icon--popup:before {
+    @include Icon--popup;
+  }
+
+  @mixin Icon--public {
+    content: "\ea5d";
+  }
+
+  .Icon--public:before {
+    @include Icon--public;
+  }
+
+  @mixin Icon--radio {
+    content: "\ea5e";
+  }
+
+  .Icon--radio:before {
+    @include Icon--radio;
+  }
+
+  @mixin Icon--recurring {
+    content: "\ea5f";
+  }
+
+  .Icon--recurring:before {
+    @include Icon--recurring;
+  }
+
+  @mixin Icon--refresh {
+    content: "\ea60";
+  }
+
+  .Icon--refresh:before {
+    @include Icon--refresh;
+  }
+
+  @mixin Icon--reply {
+    content: "\ea61";
+  }
+
+  .Icon--reply:before {
+    @include Icon--reply;
+  }
+
+  @mixin Icon--reset {
+    content: "\ea62";
+  }
+
+  .Icon--reset:before {
+    @include Icon--reset;
+  }
+
+  @mixin Icon--resetRounded {
+    content: "\ea63";
+  }
+
+  .Icon--resetRounded:before {
+    @include Icon--resetRounded;
+  }
+
+  @mixin Icon--results {
+    content: "\ea64";
+  }
+
+  .Icon--results:before {
+    @include Icon--results;
+  }
+
+  @mixin Icon--section {
+    content: "\ea65";
+  }
+
+  .Icon--section:before {
+    @include Icon--section;
+  }
+
+  @mixin Icon--singleChoice {
+    content: "\ea66";
+  }
+
+  .Icon--singleChoice:before {
+    @include Icon--singleChoice;
+  }
+
+  @mixin Icon--slack {
+    content: "\ea67";
+  }
+
+  .Icon--slack:before {
+    @include Icon--slack;
+  }
+
+  @mixin Icon--solid {
+    content: "\ea68";
+  }
+
+  .Icon--solid:before {
+    @include Icon--solid;
+  }
+
+  @mixin Icon--solidFull {
+    content: "\ea69";
+  }
+
+  .Icon--solidFull:before {
+    @include Icon--solidFull;
+  }
+
+  @mixin Icon--star {
+    content: "\ea6a";
+  }
+
+  .Icon--star:before {
+    @include Icon--star;
+  }
+
+  @mixin Icon--starHalf {
+    content: "\ea6b";
+  }
+
+  .Icon--starHalf:before {
+    @include Icon--starHalf;
+  }
+
+  @mixin Icon--starOutlined {
+    content: "\ea6c";
+  }
+
+  .Icon--starOutlined:before {
+    @include Icon--starOutlined;
+  }
+
+  @mixin Icon--stats {
+    content: "\ea6d";
+  }
+
+  .Icon--stats:before {
+    @include Icon--stats;
+  }
+
+  @mixin Icon--statsRounded {
+    content: "\ea6e";
+  }
+
+  .Icon--statsRounded:before {
+    @include Icon--statsRounded;
+  }
+
+  @mixin Icon--stop {
+    content: "\ea6f";
+  }
+
+  .Icon--stop:before {
+    @include Icon--stop;
+  }
+
+  @mixin Icon--subtitle {
+    content: "\ea70";
+  }
+
+  .Icon--subtitle:before {
+    @include Icon--subtitle;
+  }
+
+  @mixin Icon--sunrise {
+    content: "\ea71";
+  }
+
+  .Icon--sunrise:before {
+    @include Icon--sunrise;
+  }
+
+  @mixin Icon--sunset {
+    content: "\ea72";
+  }
+
+  .Icon--sunset:before {
+    @include Icon--sunset;
+  }
+
+  @mixin Icon--target {
+    content: "\ea73";
+  }
+
+  .Icon--target:before {
+    @include Icon--target;
+  }
+
+  @mixin Icon--themes {
+    content: "\ea74";
+  }
+
+  .Icon--themes:before {
+    @include Icon--themes;
+  }
+
+  @mixin Icon--title {
+    content: "\ea75";
+  }
+
+  .Icon--title:before {
+    @include Icon--title;
+  }
+
+  @mixin Icon--trash {
+    content: "\ea76";
+  }
+
+  .Icon--trash:before {
+    @include Icon--trash;
+  }
+
+  @mixin Icon--triangleDown {
+    content: "\ea77";
+  }
+
+  .Icon--triangleDown:before {
+    @include Icon--triangleDown;
+  }
+
+  @mixin Icon--triangleUp {
+    content: "\ea78";
+  }
+
+  .Icon--triangleUp:before {
+    @include Icon--triangleUp;
+  }
+
+  @mixin Icon--twitter {
+    content: "\ea79";
+  }
+
+  .Icon--twitter:before {
+    @include Icon--twitter;
+  }
+
+  @mixin Icon--typeAdd {
+    content: "\ea7a";
+  }
+
+  .Icon--typeAdd:before {
+    @include Icon--typeAdd;
+  }
+
+  @mixin Icon--typeParagraph {
+    content: "\ea7b";
+  }
+
+  .Icon--typeParagraph:before {
+    @include Icon--typeParagraph;
+  }
+
+  @mixin Icon--unlock {
+    content: "\ea7c";
+  }
+
+  .Icon--unlock:before {
+    @include Icon--unlock;
+  }
+
+  @mixin Icon--unplugged {
+    content: "\ea7d";
+  }
+
+  .Icon--unplugged:before {
+    @include Icon--unplugged;
+  }
+
+  @mixin Icon--user {
+    content: "\ea7e";
+  }
+
+  .Icon--user:before {
+    @include Icon--user;
+  }
+
+  @mixin Icon--voice {
+    content: "\ea7f";
+  }
+
+  .Icon--voice:before {
+    @include Icon--voice;
+  }
+
+  @mixin Icon--vote {
+    content: "\ea80";
+  }
+
+  .Icon--vote:before {
+    @include Icon--vote;
+  }
+
+  @mixin Icon--wiFi {
+    content: "\ea81";
+  }
+
+  .Icon--wiFi:before {
+    @include Icon--wiFi;
+  }
+
+  @mixin Icon--wisembly {
+    content: "\ea82";
+  }
+
+  .Icon--wisembly:before {
+    @include Icon--wisembly;
+  }
+
+  @mixin Icon--wisemblyFull {
+    content: "\ea83";
+  }
+
+  .Icon--wisemblyFull:before {
+    @include Icon--wisemblyFull;
+  }
+
+
 }
