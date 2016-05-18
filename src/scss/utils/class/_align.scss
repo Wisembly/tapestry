@@ -1,31 +1,35 @@
-.u-tal {
-  text-align: left !important;
-}
+@if $import-utility-classes {
 
-.u-tac {
-  text-align: center !important;
-}
+  .u-tal {
+    text-align: left !important;
+  }
 
-.u-tar {
-  text-align: right !important;
-}
+  .u-tac {
+    text-align: center !important;
+  }
 
-.u-vat {
-  vertical-align: top !important;
-}
+  .u-tar {
+    text-align: right !important;
+  }
 
-.u-vam {
-  vertical-align: middle !important;
-}
+  .u-vat {
+    vertical-align: top !important;
+  }
 
-.u-vab {
-  vertical-align: bottom !important;
-}
+  .u-vam {
+    vertical-align: middle !important;
+  }
 
-.u-push {
-  float: right !important;
-}
+  .u-vab {
+    vertical-align: bottom !important;
+  }
 
-.u-pull {
-  float: left !important;
+  .u-push {
+    float: right !important;
+  }
+
+  .u-pull {
+    float: left !important;
+  }
+
 }

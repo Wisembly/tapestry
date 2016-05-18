@@ -1,22 +1,26 @@
-.Tab-item {
-  display: inline-block;
-  position: relative;
+@if $import-tabs {
 
-  &:after {
-    @include pos(a null 0 0 0);
-    content: "";
-    height: 0;
-    background: $tab-selected-color;
-    transition: height .2s ease;
-  }
+  .Tab-item {
+    display: inline-block;
+    position: relative;
 
-  &[aria-selected="true"] {
     &:after {
-      height: $tab-underline-size;
+      @include pos(a null 0 0 0);
+      content: "";
+      height: 0;
+      background: $tab-selected-color;
+      transition: height .2s ease;
+    }
+
+    &[aria-selected="true"] {
+      &:after {
+        height: $tab-underline-size;
+      }
+    }
+
+    + .Tab-item {
+      margin-left: $tab-space-between;
     }
   }
 
-  + .Tab-item {
-    margin-left: $tab-space-between;
-  }
 }

@@ -5,6 +5,4 @@
 @import "hr";
 @import "positions";
 
-@if $import-pseudo-classes {
-  @import "state/item";
-}
+@import "state/item";

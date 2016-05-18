@@ -1,28 +1,32 @@
-@keyframes Spin {
-  0% {
-    transform: rotate(0deg);
+@if $import-animations {
+
+  @keyframes Spin {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    100% {
+      transform: rotate(360deg);
+    }
   }
 
-  100% {
-    transform: rotate(360deg);
+
+
+  @keyframes PopUp {
+    0% {
+      transform: scale(.9);
+      transform-origin: center center;
+    }
+
+    40% {
+      transform: scale(1.05);
+      transform-origin: center center;
+    }
+
+    100% {
+      transform: scale(1);
+      transform-origin: center center;
+    }
   }
-}
 
-
-
-@keyframes PopUp {
-  0% {
-    transform: scale(.9);
-    transform-origin: center center;
-  }
-
-  40% {
-    transform: scale(1.05);
-    transform-origin: center center;
-  }
-
-  100% {
-    transform: scale(1);
-    transform-origin: center center;
-  }
 }

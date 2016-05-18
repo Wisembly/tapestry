@@ -1,30 +1,10 @@
 @import "vars";
 @import "mixins";
 
-@if $import-checkbox {
-  @import "checkbox/core";
-}
-
-@if $import-fieldset {
-  @import "fieldset/core";
-}
-
-@if $import-input {
-  @import "input/core";
-}
-
-@if $import-label {
-  @import "label/core";
-}
-
-@if $import-radio {
-  @import "radio/core";
-}
-
-@if $import-select {
-  @import "select/core";
-}
-
-@if $import-textarea {
-  @import "textarea/core";
-}
+@import "checkbox/core";
+@import "fieldset/core";
+@import "input/core";
+@import "label/core";
+@import "radio/core";
+@import "select/core";
+@import "textarea/core";

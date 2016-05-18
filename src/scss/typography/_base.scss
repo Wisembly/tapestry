@@ -1,11 +1,15 @@
-.t-title {
-  font-size: $fz--l;
-  font-weight: $fw--semi-bold;
-  color: $limed-spruce;
-}
+@if $import-typography {
 
-.t-caption {
-  font-size: $fz--s;
-  line-height: $lh--s;
-  color: $slate-gray;
+  .t-title {
+    font-size: $fz--l;
+    font-weight: $fw--semi-bold;
+    color: $limed-spruce;
+  }
+
+  .t-caption {
+    font-size: $fz--s;
+    line-height: $lh--s;
+    color: $slate-gray;
+  }
+
 }

@@ -1,23 +1,27 @@
-@for $i from 1 to length($btn-base-colors) + 1 {
-  $color-name: nth($btn-name-colors, $i);
-  $color-value: nth($btn-base-colors, $i);
-  $hover-color: nth($btn-hover-colors, $i);
+@if $import-button {
 
-  .Btn-#{$color-name} {
-    background-color: $color-value;
+  @for $i from 1 to length($btn-base-colors) + 1 {
+    $color-name: nth($btn-name-colors, $i);
+    $color-value: nth($btn-base-colors, $i);
+    $hover-color: nth($btn-hover-colors, $i);
+
+    .Btn-#{$color-name} {
+      background-color: $color-value;
+    }
+
+    .Btn--outline.Btn-#{$color-name}:not([disabled]) {
+      color: $color-value;
+      border-color: $color-value;
+    }
+
+    .Btn--raw.Btn-#{$color-name} {
+      color: $color-value;
+    }
+
+    .Btn--inverted.Btn-#{$color-name} {
+      color: $color-value;
+      background-color: $white;
+    }
   }
 
-  .Btn--outline.Btn-#{$color-name}:not([disabled]) {
-    color: $color-value;
-    border-color: $color-value;
-  }
-
-  .Btn--raw.Btn-#{$color-name} {
-    color: $color-value;
-  }
-
-  .Btn--inverted.Btn-#{$color-name} {
-    color: $color-value;
-    background-color: $white;
-  }
 }

@@ -1,11 +1,15 @@
-.Media--t {
-  align-items: flex-start;
-}
+@if $import-media {
 
-.Media--c {
-  align-items: center;
-}
+  .Media--t {
+    align-items: flex-start;
+  }
 
-.Media--b {
-  align-items: flex-end;
+  .Media--c {
+    align-items: center;
+  }
+
+  .Media--b {
+    align-items: flex-end;
+  }
+
 }

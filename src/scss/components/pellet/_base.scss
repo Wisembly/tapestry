@@ -1,7 +1,11 @@
-.Pellet {
-  display: inline-block;
-  width: $pellet-width;
-  height: $pellet-width;
-  background-color: $neutral;
-  border-radius: $pellet-width;
+@if $import-pellet {
+
+  .Pellet {
+    display: inline-block;
+    width: $pellet-width;
+    height: $pellet-width;
+    background-color: $neutral;
+    border-radius: $pellet-width;
+  }
+
 }

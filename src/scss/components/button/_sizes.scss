@@ -1,26 +1,30 @@
-.Btn--block {
-  display: block;
-  width: 100%;
+@if $import-button {
 
-  +.Btn--block {
-    margin-top: $mg--s;
+  .Btn--block {
+    display: block;
+    width: 100%;
+
+    +.Btn--block {
+      margin-top: $mg--s;
+    }
   }
-}
 
-.Btn--s {
-  padding: $btn-pdv--s $btn-pdh--s;
-  font-size: $fz--s;
-  line-height: $lh--s;
-}
+  .Btn--s {
+    padding: $btn-pdv--s $btn-pdh--s;
+    font-size: $fz--s;
+    line-height: $lh--s;
+  }
 
-.Btn-expandContainer {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-}
+  .Btn-expandContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
 
-.Btn--expand {
-  flex: 1;
-  padding-right: 0;
-  padding-left: 0;
+  .Btn--expand {
+    flex: 1;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
 }

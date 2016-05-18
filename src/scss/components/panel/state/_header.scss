@@ -1,5 +1,9 @@
-.PanelHeader-btn {
-  &:hover {
-    color: $white;
+@if $import-panel and $import-pseudo-classes {
+
+  .PanelHeader-btn {
+    &:hover {
+      color: $white;
+    }
   }
+
 }

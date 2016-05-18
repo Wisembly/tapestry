@@ -1,3 +1,7 @@
-.Switch-checkbox {
-  display: none;
+@if $import-switch {
+
+  .Switch-checkbox {
+    display: none;
+  }
+
 }

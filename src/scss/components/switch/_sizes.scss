@@ -1,19 +1,23 @@
-.Switch--s {
-  width: $switch-width--s;
-  height: $switch-height--s;
-  border-radius: $switch-height--s;
+@if $import-switch {
 
-  &:after {
-    width: $switch-height--s;
+  .Switch--s {
+    width: $switch-width--s;
     height: $switch-height--s;
-    border-width: ($switch-inner-space--s / 2);
-    border-radius: ($switch-height--s / 2);
-  }
-}
+    border-radius: $switch-height--s;
 
-input,
-.Switch-checkbox {
-  &:checked + .Switch--s:after {
-    left: $switch-width--s - $switch-height--s;
+    &:after {
+      width: $switch-height--s;
+      height: $switch-height--s;
+      border-width: ($switch-inner-space--s / 2);
+      border-radius: ($switch-height--s / 2);
+    }
   }
+
+  input,
+  .Switch-checkbox {
+    &:checked + .Switch--s:after {
+      left: $switch-width--s - $switch-height--s;
+    }
+  }
+
 }

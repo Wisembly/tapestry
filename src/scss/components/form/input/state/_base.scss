@@ -1,3 +1,7 @@
-.Input:not([disabled]):hover {
-  border-color: $form-hover-border-color;
+@if $import-form and $import-input and $import-pseudo-classes {
+
+  .Input:not([disabled]):hover {
+    border-color: $form-hover-border-color;
+  }
+
 }

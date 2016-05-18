@@ -1,6 +1,4 @@
 @import "base";
 @import "item";
 
-@if $import-pseudo-classes {
-  @import "state/item";
-}
+@import "state/item";

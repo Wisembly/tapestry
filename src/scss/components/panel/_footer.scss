@@ -1,6 +1,10 @@
-.Panel-footer {
-  display: flex;
-  flex-shrink: 0;
-  padding: $pd--m;
-  background: $white;
+@if $import-panel {
+
+  .Panel-footer {
+    display: flex;
+    flex-shrink: 0;
+    padding: $pd--m;
+    background: $white;
+  }
+
 }

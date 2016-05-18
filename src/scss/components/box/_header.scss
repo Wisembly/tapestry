@@ -1,12 +1,16 @@
-.Box-header {
-  padding: $pd--m $pd--m $pd--s;
-}
+@if $import-box {
 
-.Box-title {
-  display: inline-block;
-  margin: 0;
-  font-size: $box-title-fz;
-  font-weight: $fw--semi-bold;
-  line-height: $box-title-lh;
-  vertical-align: middle;
+  .Box-header {
+    padding: $pd--m $pd--m $pd--s;
+  }
+
+  .Box-title {
+    display: inline-block;
+    margin: 0;
+    font-size: $box-title-fz;
+    font-weight: $fw--semi-bold;
+    line-height: $box-title-lh;
+    vertical-align: middle;
+  }
+
 }

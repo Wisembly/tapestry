@@ -1,89 +1,93 @@
-.Btn--outline {
-  padding: rb(2) rb(4);
-  color: $slate-gray;
-  background-color: transparent;
-  border: 1px solid $base-border-color;
-  transition: border-color .1s ease-out;
+@if $import-button {
 
-  &.Btn--s {
-    padding: rb(1) rb(2);
+  .Btn--outline {
+    padding: rb(2) rb(4);
+    color: $slate-gray;
+    background-color: transparent;
+    border: 1px solid $base-border-color;
+    transition: border-color .1s ease-out;
+
+    &.Btn--s {
+      padding: rb(1) rb(2);
+    }
   }
-}
 
-.Btn--raw {
-  color: $slate-gray;
-  background-color: $transparent;
-  border: 0;
-
-  &[disabled],
-  &[aria-disabled="true"] {
-    color: $gray-chateau;
+  .Btn--raw {
+    color: $slate-gray;
     background-color: $transparent;
-  }
-}
+    border: 0;
 
-.Btn--inverted {
-  color: $slate-gray;
-  background-color: $white;
-  border: 0;
-
-  &[disabled],
-  &[aria-disabled="true"] {
-    color: $gray-chateau;
-    background-color: $transparent;
+    &[disabled],
+    &[aria-disabled="true"] {
+      color: $gray-chateau;
+      background-color: $transparent;
+    }
   }
 
-  &.Btn--raw {
-    color: $white;
-    background: $transparent;
+  .Btn--inverted {
+    color: $slate-gray;
+    background-color: $white;
+    border: 0;
+
+    &[disabled],
+    &[aria-disabled="true"] {
+      color: $gray-chateau;
+      background-color: $transparent;
+    }
+
+    &.Btn--raw {
+      color: $white;
+      background: $transparent;
+    }
+
+    &.Btn--outline {
+      color: $white;
+      background: $transparent;
+      border: 1px solid $white;
+    }
   }
 
-  &.Btn--outline {
-    color: $white;
-    background: $transparent;
-    border: 1px solid $white;
+  .Btn.has-icon {
+    position: relative;
+    padding-left: 2 * $btn-pdh + $fz--m;
+    text-align: center;
+
+    .Btn-icon {
+      @include pos(a 0 null null 0);
+      padding: r(2) $btn-pdh--s;
+      border-right: 1px solid rgba($white, .3);
+    }
   }
-}
 
-.Btn.has-icon {
-  position: relative;
-  padding-left: 2 * $btn-pdh + $fz--m;
-  text-align: center;
-
-  .Btn-icon {
-    @include pos(a 0 null null 0);
-    padding: r(2) $btn-pdh--s;
-    border-right: 1px solid rgba($white, .3);
+  .Btn--outline.has-icon {
+    .Btn-icon {
+      border-color: inherit;
+    }
   }
-}
 
-.Btn--outline.has-icon {
-  .Btn-icon {
-    border-color: inherit;
-  }
-}
-
-.Btn--squared {
-  width: $btn-fixed-unit;
-  height: $btn-fixed-unit;
-  padding: 0;
-
-  &.Btn--s {
-    width: $btn-fixed-unit--s;
-    height: $btn-fixed-unit--s;
+  .Btn--squared {
+    width: $btn-fixed-unit;
+    height: $btn-fixed-unit;
     padding: 0;
+
+    &.Btn--s {
+      width: $btn-fixed-unit--s;
+      height: $btn-fixed-unit--s;
+      padding: 0;
+    }
   }
-}
 
-.Btn--circle {
-  width: $btn-fixed-unit;
-  height: $btn-fixed-unit;
-  padding: 0;
-  border-radius: 50%;
-
-  &.Btn--s {
-    width: $btn-fixed-unit--s;
-    height: $btn-fixed-unit--s;
+  .Btn--circle {
+    width: $btn-fixed-unit;
+    height: $btn-fixed-unit;
     padding: 0;
+    border-radius: 50%;
+
+    &.Btn--s {
+      width: $btn-fixed-unit--s;
+      height: $btn-fixed-unit--s;
+      padding: 0;
+    }
   }
+
 }

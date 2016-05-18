@@ -1,7 +1,11 @@
-.Input--prefixed {
-  padding-left: $input-group-icon-width;
-}
+@if $import-form and $import-input and $import-input-group {
 
-.Input--suffixed {
-  padding-right: $input-group-icon-width;
+  .Input--prefixed {
+    padding-left: $input-group-icon-width;
+  }
+
+  .Input--suffixed {
+    padding-right: $input-group-icon-width;
+  }
+
 }

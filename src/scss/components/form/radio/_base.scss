@@ -1,38 +1,42 @@
-.Radio {
-  display: inline-block;
+@if $import-form and $import-radio {
 
-  +.Radio {
-    margin-left: $radio-space-between;
-  }
-}
+  .Radio {
+    display: inline-block;
 
-.Radio-label {
-  @include Label;
-  line-height: $radio-height;
-
-  @if $import-icons {
-    &:before {
-      @include Icon--radio;
-      margin-right: $radio-inner-space;
-      font-family: "tapestry-icons";
-      font-size: $radio-height;
-      font-weight: normal;
-      vertical-align: bottom;
-      color: $radio-base-color;
-      transition: color .2s ease-in-out;
+    +.Radio {
+      margin-left: $radio-space-between;
     }
   }
-}
 
-.Radio-input {
-  display: none;
+  .Radio-label {
+    @include Label;
+    line-height: $radio-height;
 
-  @if $import-icons {
-    &:checked + .Radio-label {
+    @if $import-icons {
       &:before {
-        @include Icon--checkedRadio;
-        color: $radio-checked-color;
+        @include Icon--radio;
+        margin-right: $radio-inner-space;
+        font-family: "tapestry-icons";
+        font-size: $radio-height;
+        font-weight: normal;
+        vertical-align: bottom;
+        color: $radio-base-color;
+        transition: color .2s ease-in-out;
       }
     }
   }
+
+  .Radio-input {
+    display: none;
+
+    @if $import-icons {
+      &:checked + .Radio-label {
+        &:before {
+          @include Icon--checkedRadio;
+          color: $radio-checked-color;
+        }
+      }
+    }
+  }
+
 }

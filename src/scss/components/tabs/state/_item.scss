@@ -1,7 +1,11 @@
-.Tab-item {
-  &:hover {
-    &:after {
-      height: $tab-underline-size;
+@if $import-tabs and $import-pseudo-classes {
+
+  .Tab-item {
+    &:hover {
+      &:after {
+        height: $tab-underline-size;
+      }
     }
   }
+
 }

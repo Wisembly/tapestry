@@ -1,14 +1,18 @@
-.Grid {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
-  align-items: flex-start;
-  margin-right: auto;
-  margin-left: auto;
-}
+@if $import-grid {
 
-.Grid--gutters {
-  width: auto;
-  margin-left: -#{$grid-gutter-width};
+  .Grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: flex-start;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .Grid--gutters {
+    width: auto;
+    margin-left: -#{$grid-gutter-width};
+  }
+
 }

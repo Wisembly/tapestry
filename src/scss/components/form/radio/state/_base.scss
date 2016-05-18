@@ -1,5 +1,9 @@
-.Radio-label {
-  &:hover:before {
-    color: $radio-hover-color;
+@if $import-form and $import-radio and $import-pseudo-classes {
+
+  .Radio-label {
+    &:hover:before {
+      color: $radio-hover-color;
+    }
   }
+
 }

@@ -1,47 +1,51 @@
-.List-item {
-  display: block;
-  position: relative;
-  padding: $pd--s $pd--m;
-  font-weight: $base-fw;
-  line-height: $base-lh;
-  text-align: left;
-  color: $limed-spruce;
-  border-top: 1px solid $base-border-color;
-  transition: background-color .1s ease-out, box-shadow .05s ease-out;
+@if $import-list {
 
-  &:after {
-    @include pos(a $mg--s $mg--m $mg--s auto);
-    font-family: "tapestry-icons";
-    color: $slate-gray;
-  }
+  .List-item {
+    display: block;
+    position: relative;
+    padding: $pd--s $pd--m;
+    font-weight: $base-fw;
+    line-height: $base-lh;
+    text-align: left;
+    color: $limed-spruce;
+    border-top: 1px solid $base-border-color;
+    transition: background-color .1s ease-out, box-shadow .05s ease-out;
 
-  @if $import-icons {
-    .List-itemInput:checked + & {
-      &:after {
-        @include Icon--checkmark;
+    &:after {
+      @include pos(a $mg--s $mg--m $mg--s auto);
+      font-family: "tapestry-icons";
+      color: $slate-gray;
+    }
+
+    @if $import-icons {
+      .List-itemInput:checked + & {
+        &:after {
+          @include Icon--checkmark;
+        }
       }
     }
   }
-}
 
-.List-item--link {
-  cursor: pointer;
+  .List-item--link {
+    cursor: pointer;
 
-  @if $import-icons {
-    &:after {
-      @include Icon--arrowNext;
+    @if $import-icons {
+      &:after {
+        @include Icon--arrowNext;
+      }
     }
   }
-}
 
-.List-itemInput {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  border: 0;
-  appearance: none;
+  .List-itemInput {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    border: 0;
+    appearance: none;
 
-  &:focus {
-    outline: none;
+    &:focus {
+      outline: none;
+    }
   }
+
 }

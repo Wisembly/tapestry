@@ -1,26 +1,30 @@
-.Grid-cell {
-  flex: 0 0 auto;
-  min-height: 1px;
-  font-size: 1rem;
-  word-wrap: break-word;
+@if $import-grid {
 
-  &.Grid-cell--centered {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
+  .Grid-cell {
+    flex: 0 0 auto;
+    min-height: 1px;
+    font-size: 1rem;
+    word-wrap: break-word;
+
+    &.Grid-cell--centered {
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    .Grid--gutters & {
+      padding-left: $grid-gutter-width;
+    }
   }
 
-  .Grid--gutters & {
-    padding-left: $grid-gutter-width;
+  .Grid-cell--fr {
+    flex: 1 0 auto;
   }
-}
 
-.Grid-cell--fr {
-  flex: 1 0 auto;
-}
-
-@for $i from 1 to ($grid-column-number + 1) {
-  .Grid-cell--#{$i} {
-    width: percentage(($i / $grid-column-number));
+  @for $i from 1 to ($grid-column-number + 1) {
+    .Grid-cell--#{$i} {
+      width: percentage(($i / $grid-column-number));
+    }
   }
+
 }

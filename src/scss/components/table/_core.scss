@@ -2,9 +2,6 @@
 @import "base";
 @import "row";
 @import "cell";
-
 @import "actionable";
 
-@if $import-pseudo-classes {
-  @import "state/actionable";
-}
+@import "state/actionable";

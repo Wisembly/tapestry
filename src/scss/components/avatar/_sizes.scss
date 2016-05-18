@@ -1,26 +1,30 @@
-.Avatar,
-.Avatar--m {
-  width: $avatar-size--m;
-  height: $avatar-size--m;
-  font-size: $fz--m;
-  line-height: $avatar-size--m;
-}
+@if $import-avatar {
 
-.Avatar--s {
-  width: $avatar-size--s;
-  height: $avatar-size--s;
-  font-size: $fz--s;
-  line-height: $avatar-size--s;
-}
+  .Avatar,
+  .Avatar--m {
+    width: $avatar-size--m;
+    height: $avatar-size--m;
+    font-size: $fz--m;
+    line-height: $avatar-size--m;
+  }
 
-.Avatar--l {
-  width: $avatar-size--l;
-  height: $avatar-size--l;
-  font-size: $fz--l;
-  line-height: $avatar-size--l;
-}
+  .Avatar--s {
+    width: $avatar-size--s;
+    height: $avatar-size--s;
+    font-size: $fz--s;
+    line-height: $avatar-size--s;
+  }
 
-.Avatar--test {
-  width: r(4);
-  height: r(4);
+  .Avatar--l {
+    width: $avatar-size--l;
+    height: $avatar-size--l;
+    font-size: $fz--l;
+    line-height: $avatar-size--l;
+  }
+
+  .Avatar--test {
+    width: r(4);
+    height: r(4);
+  }
+
 }

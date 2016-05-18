@@ -1,19 +1,23 @@
-.Modal-wrapper {
-  @include Overlay;
-}
+@if $import-modal {
 
-.Modal {
-  display: flex;
-  flex-direction: column;
-  width: $modal-width;
-  max-width: $modal-max-width;
-  max-height: $modal-max-height;
-  overflow: auto;
-
-  [aria-hidden="false"] > & {
-    animation-name: PopUp;
-    animation-duration: .2s;
-    animation-iteration-count: 1;
-    animation-direction: alternate;
+  .Modal-wrapper {
+    @include Overlay;
   }
+
+  .Modal {
+    display: flex;
+    flex-direction: column;
+    width: $modal-width;
+    max-width: $modal-max-width;
+    max-height: $modal-max-height;
+    overflow: auto;
+
+    [aria-hidden="false"] > & {
+      animation-name: PopUp;
+      animation-duration: .2s;
+      animation-iteration-count: 1;
+      animation-direction: alternate;
+    }
+  }
+
 }

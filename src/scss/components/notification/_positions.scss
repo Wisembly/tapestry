@@ -1,27 +1,31 @@
-.Notification--tc {
-  top: $notification-outer-space;
-  right: auto;
-  left: 50%;
-  transform: translate3d(-50%, 0, 0);
-}
+@if $import-notification {
 
-.Notification--tr {
-  top: $notification-outer-space;
-  right: $notification-outer-space;
-  bottom: auto;
-  left: auto;
-  margin-left: $notification-outer-space;
-}
+  .Notification--tc {
+    top: $notification-outer-space;
+    right: auto;
+    left: 50%;
+    transform: translate3d(-50%, 0, 0);
+  }
 
-.Notification--bl {
-  right: auto;
-  bottom: $notification-outer-space;
-  left: $notification-outer-space;
-  margin-right: $notification-outer-space;
-}
+  .Notification--tr {
+    top: $notification-outer-space;
+    right: $notification-outer-space;
+    bottom: auto;
+    left: auto;
+    margin-left: $notification-outer-space;
+  }
 
-.Notification--br {
-  right: $notification-outer-space;
-  bottom: $notification-outer-space;
-  left: auto;
+  .Notification--bl {
+    right: auto;
+    bottom: $notification-outer-space;
+    left: $notification-outer-space;
+    margin-right: $notification-outer-space;
+  }
+
+  .Notification--br {
+    right: $notification-outer-space;
+    bottom: $notification-outer-space;
+    left: auto;
+  }
+
 }

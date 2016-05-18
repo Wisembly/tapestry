@@ -1,3 +1,7 @@
-.Box--raw {
-  border: 0;
+@if $import-box {
+
+  .Box--raw {
+    border: 0;
+  }
+
 }

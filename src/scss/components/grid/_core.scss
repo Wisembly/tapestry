@@ -2,6 +2,4 @@
 @import "grid";
 @import "cell";
 
-@if $import-responsive-grid {
-  @import "responsive/core";
-}
+@import "responsive/core";

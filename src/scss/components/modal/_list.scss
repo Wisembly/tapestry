@@ -1,6 +1,10 @@
-.Modal-content {
-  .List {
-    margin-top: -1px;
-    border-bottom: 0;
+@if $import-modal {
+
+  .Modal-content {
+    .List {
+      margin-top: -1px;
+      border-bottom: 0;
+    }
   }
+
 }

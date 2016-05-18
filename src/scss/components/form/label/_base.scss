@@ -1,8 +1,12 @@
-.Label {
-  @include Label;
-}
+@if $import-form and $import-label {
 
-.Label--block {
-  display: block;
-  margin-bottom: $mg--xs;
+  .Label {
+    @include Label;
+  }
+
+  .Label--block {
+    display: block;
+    margin-bottom: $mg--xs;
+  }
+
 }

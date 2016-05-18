@@ -1,3 +1,7 @@
-.Select:hover {
-  border-color: $select-hover-color;
+@if $import-form and $import-select and $import-pseudo-classes {
+
+  .Select:hover {
+    border-color: $select-hover-color;
+  }
+
 }

@@ -1,14 +1,18 @@
-.Modal-content {
-  padding: $pd--m $pd--m 0;
-  background: $white;
-  overflow: auto;
-  -webkit-overflow-scrolling: touch;
+@if $import-modal {
 
-  &.has-list {
-    padding: 0;
+  .Modal-content {
+    padding: $pd--m $pd--m 0;
+    background: $white;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+
+    &.has-list {
+      padding: 0;
+    }
+
+    .Modal--expand & {
+      flex-grow: 1;
+    }
   }
 
-  .Modal--expand & {
-    flex-grow: 1;
-  }
 }

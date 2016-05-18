@@ -1,12 +1,16 @@
-.Tabs--s {
-  .Tab-link {
-    font-size: $fz--s;
-  }
+@if $import-tabs {
 
-  .Tab-item[aria-selected="true"],
-  .Tab-item.is-selected {
-    &:after {
-      height: $small-tab-underline-size;
+  .Tabs--s {
+    .Tab-link {
+      font-size: $fz--s;
+    }
+
+    .Tab-item[aria-selected="true"],
+    .Tab-item.is-selected {
+      &:after {
+        height: $small-tab-underline-size;
+      }
     }
   }
+
 }

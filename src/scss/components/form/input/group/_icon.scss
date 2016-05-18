@@ -6,12 +6,16 @@
   color: $input-group-icon-color;
 }
 
-.InputGroup-prefix {
-  @include InputGroup-icon;
-  left: 0;
-}
+@if $import-form and $import-input and $import-input-group {
 
-.InputGroup-suffix {
-  @include InputGroup-icon;
-  right: 0;
+  .InputGroup-prefix {
+    @include InputGroup-icon;
+    left: 0;
+  }
+
+  .InputGroup-suffix {
+    @include InputGroup-icon;
+    right: 0;
+  }
+
 }

@@ -1,38 +1,42 @@
-.has-tooltip {
-  position: relative;
+@if $import-tooltip and $import-pseudo-classes {
 
-  &:before,
-  &:after {
-    position: absolute;
-    z-index: zi("tooltip");
-    opacity: 0;
-    transition: opacity .1s ease-out;
-  }
+  .has-tooltip {
+    position: relative;
 
-  &:before {
-    content: "";
-    border-style: solid;
-  }
-
-  &:after {
-    content: attr(aria-label);
-    padding: $tooltip-pd;
-    font-size: $fz--s;
-    font-weight: bold;
-    line-height: r(3);
-    text-align: center;
-    white-space: normal;
-    color: $tooltip-color;
-    background-color: $tooltip-bg;
-    border-radius: $base-radius;
-    cursor: default;
-    pointer-events: none;
-  }
-
-  &:hover {
     &:before,
     &:after {
-      opacity: 1;
+      position: absolute;
+      z-index: zi("tooltip");
+      opacity: 0;
+      transition: opacity .1s ease-out;
+    }
+
+    &:before {
+      content: "";
+      border-style: solid;
+    }
+
+    &:after {
+      content: attr(aria-label);
+      padding: $tooltip-pd;
+      font-size: $fz--s;
+      font-weight: bold;
+      line-height: r(3);
+      text-align: center;
+      white-space: normal;
+      color: $tooltip-color;
+      background-color: $tooltip-bg;
+      border-radius: $base-radius;
+      cursor: default;
+      pointer-events: none;
+    }
+
+    &:hover {
+      &:before,
+      &:after {
+        opacity: 1;
+      }
     }
   }
+
 }

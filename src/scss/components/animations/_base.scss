@@ -1,6 +1,10 @@
-.is-spinning {
-  animation-name: Spin;
-  animation-duration: $animation-spinning-duration;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
+@if $import-animations {
+
+  .is-spinning {
+    animation-name: Spin;
+    animation-duration: $animation-spinning-duration;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+
 }

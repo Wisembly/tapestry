@@ -1,38 +1,42 @@
-.Checkbox {
-  display: block;
+@if $import-form and $import-checkbox {
 
-  + .Checkbox {
-    margin-top: $checkbox-space-between;
-  }
-}
+  .Checkbox {
+    display: block;
 
-.Checkbox-label {
-  @include Label;
-  line-height: $checkbox-height;
-
-  @if $import-icons {
-    &:before {
-      @include Icon--checkbox;
-      margin-right: $checkbox-inner-space;
-      font-family: "tapestry-icons";
-      font-size: $checkbox-height;
-      font-weight: normal;
-      vertical-align: bottom;
-      color: $checkbox-base-color;
-      transition: color .2s ease-in-out;
+    + .Checkbox {
+      margin-top: $checkbox-space-between;
     }
   }
-}
 
-.Checkbox-input {
-  display: none;
+  .Checkbox-label {
+    @include Label;
+    line-height: $checkbox-height;
 
-  @if $import-icons {
-    &:checked + .Checkbox-label {
+    @if $import-icons {
       &:before {
-        @include Icon--checkedCheckbox;
-        color: $checkbox-checked-color;
+        @include Icon--checkbox;
+        margin-right: $checkbox-inner-space;
+        font-family: "tapestry-icons";
+        font-size: $checkbox-height;
+        font-weight: normal;
+        vertical-align: bottom;
+        color: $checkbox-base-color;
+        transition: color .2s ease-in-out;
       }
     }
   }
+
+  .Checkbox-input {
+    display: none;
+
+    @if $import-icons {
+      &:checked + .Checkbox-label {
+        &:before {
+          @include Icon--checkedCheckbox;
+          color: $checkbox-checked-color;
+        }
+      }
+    }
+  }
+
 }

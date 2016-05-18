@@ -1,31 +1,35 @@
-.Panel-header {
-  display: flex;
-  flex-shrink: 0;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0;
-  background: $deep-sea-green;
-}
+@if $import-panel {
 
-.PanelHeader-btn {
-  margin-left: auto;
-  padding: r(2) $pd--m;
-  line-height: $panel-header-height;
-  color: $regent-st-blue;
-
-  .Icon {
-    vertical-align: middle;
+  .Panel-header {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    background: $deep-sea-green;
   }
-}
 
-.Panel-title {
-  @include ellipsis;
-  flex-grow: 1;
-  margin: 0;
-  padding: r(2) $base-pd;
-  font-size: $fz--l;
-  font-weight: $fw--semi-bold;
-  line-height: $panel-header-height;
-  text-align: left;
-  color: $white;
+  .PanelHeader-btn {
+    margin-left: auto;
+    padding: r(2) $pd--m;
+    line-height: $panel-header-height;
+    color: $regent-st-blue;
+
+    .Icon {
+      vertical-align: middle;
+    }
+  }
+
+  .Panel-title {
+    @include ellipsis;
+    flex-grow: 1;
+    margin: 0;
+    padding: r(2) $base-pd;
+    font-size: $fz--l;
+    font-weight: $fw--semi-bold;
+    line-height: $panel-header-height;
+    text-align: left;
+    color: $white;
+  }
+
 }

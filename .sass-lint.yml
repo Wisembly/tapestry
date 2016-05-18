@@ -18,6 +18,7 @@ files:
     - src/scss/utils/_colors.scss
     - src/scss/utils/mixin/*.scss
     - src/scss/vendors/_normalize.scss
+    - src/scss/components/icons/_base.scss
 options:
   formatter: stylish
   merge-default-rules: false

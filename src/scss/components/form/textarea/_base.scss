@@ -1,26 +1,30 @@
-.Textarea {
-  display: block;
-  width: 100%;
-  height: $textarea-height;
-  padding: $textarea-pd;
-  line-height: $base-lh;
-  color: $form-base-color;
-  background: $form-bg;
-  border: 1px solid $base-border-color;
-  border-radius: $base-radius;
-  resize: none;
-  transition: border .2s ease-in-out;
-  appearance: none;
+@if $import-form and $import-textarea {
 
-  &:focus {
+  .Textarea {
+    display: block;
+    width: 100%;
+    height: $textarea-height;
+    padding: $textarea-pd;
+    line-height: $base-lh;
     color: $form-base-color;
-    border-color: $form-focus-border-color;
-    outline: none;
+    background: $form-bg;
+    border: 1px solid $base-border-color;
+    border-radius: $base-radius;
+    resize: none;
+    transition: border .2s ease-in-out;
+    appearance: none;
+
+    &:focus {
+      color: $form-base-color;
+      border-color: $form-focus-border-color;
+      outline: none;
+    }
+
+    &[disabled],
+    &[readonly] {
+      color: $form-disabled-color;
+      background: $form-disabled-bg;
+    }
   }
 
-  &[disabled],
-  &[readonly] {
-    color: $form-disabled-color;
-    background: $form-disabled-bg;
-  }
 }

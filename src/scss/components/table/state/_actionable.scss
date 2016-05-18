@@ -1,7 +1,11 @@
-.Table--actionable {
-  .Table-row {
-    &:hover {
-      background-color: $selected-table-row-bg;
+@if $import-table and $import-pseudo-classes {
+
+  .Table--actionable {
+    .Table-row {
+      &:hover {
+        background-color: $selected-table-row-bg;
+      }
     }
   }
+
 }

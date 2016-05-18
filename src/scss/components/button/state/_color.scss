@@ -1,25 +1,29 @@
-@for $i from 1 to length($btn-base-colors) + 1 {
-  $color-name: nth($btn-name-colors, $i);
-  $color-value: nth($btn-base-colors, $i);
-  $hover-color: nth($btn-hover-colors, $i);
+@if $import-button and $import-pseudo-classes {
 
-  .Btn-#{$color-name} {
-    &:hover {
-      background-color: $hover-color;
+  @for $i from 1 to length($btn-base-colors) + 1 {
+    $color-name: nth($btn-name-colors, $i);
+    $color-value: nth($btn-base-colors, $i);
+    $hover-color: nth($btn-hover-colors, $i);
+
+    .Btn-#{$color-name} {
+      &:hover {
+        background-color: $hover-color;
+      }
+    }
+
+    .Btn--outline.Btn-#{$color-name}:not([disabled]) {
+      &:hover {
+        color: $hover-color;
+        border-color: $hover-color;
+      }
+    }
+
+    .Btn--inverted.Btn-#{$color-name},
+    .Btn--raw.Btn-#{$color-name} {
+      &:hover {
+        color: $hover-color;
+      }
     }
   }
 
-  .Btn--outline.Btn-#{$color-name}:not([disabled]) {
-    &:hover {
-      color: $hover-color;
-      border-color: $hover-color;
-    }
-  }
-
-  .Btn--inverted.Btn-#{$color-name},
-  .Btn--raw.Btn-#{$color-name} {
-    &:hover {
-      color: $hover-color;
-    }
-  }
 }

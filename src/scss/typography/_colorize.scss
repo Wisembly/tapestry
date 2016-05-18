@@ -1,19 +1,23 @@
-.t-neutral {
-  color: $gray-chateau !important;
-}
+@if $import-typography {
 
-.t-primary {
-  color: $venice-blue !important;
-}
+  .t-neutral {
+    color: $gray-chateau !important;
+  }
 
-.t-validate {
-  color: $mint !important;
-}
+  .t-primary {
+    color: $venice-blue !important;
+  }
 
-.t-info {
-  color: $saffron !important;
-}
+  .t-validate {
+    color: $mint !important;
+  }
 
-.t-error {
-  color: $mandy !important;
+  .t-info {
+    color: $saffron !important;
+  }
+
+  .t-error {
+    color: $mandy !important;
+  }
+
 }

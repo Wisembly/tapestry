@@ -1,11 +1,15 @@
-.has-tooltip {
-  &:after {
-    width: $tooltip-width;
-  }
-}
+@if $import-tooltip and $import-pseudo-classes {
 
-.has-tooltip--l {
-  &:after {
-    width: $tooltip-large-width;
+  .has-tooltip {
+    &:after {
+      width: $tooltip-width;
+    }
   }
+
+  .has-tooltip--l {
+    &:after {
+      width: $tooltip-large-width;
+    }
+  }
+
 }

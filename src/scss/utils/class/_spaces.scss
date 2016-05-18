@@ -1,207 +1,211 @@
-$directions-letter: ("", "t", "r", "b", "l");
-$css-directions: ("", "-top", "-right", "-bottom", "-left");
+@if $import-utility-classes {
 
-@for $i from 1 to length($directions-letter) + 1 {
-  $direction-letter: nth($directions-letter, $i);
-  $css-direction: nth($css-directions, $i);
+  $directions-letter: ("", "t", "r", "b", "l");
+  $css-directions: ("", "-top", "-right", "-bottom", "-left");
 
-  // Paddings
+  @for $i from 1 to length($directions-letter) + 1 {
+    $direction-letter: nth($directions-letter, $i);
+    $css-direction: nth($css-directions, $i);
 
-  .u-pd#{$direction-letter}--0 {
-    padding#{$css-direction}: 0 !important;
+    // Paddings
+
+    .u-pd#{$direction-letter}--0 {
+      padding#{$css-direction}: 0 !important;
+    }
+
+    .u-pd#{$direction-letter}--xs {
+      padding#{$css-direction}: $pd--xs !important;
+    }
+
+    .u-pd#{$direction-letter}--s {
+      padding#{$css-direction}: $pd--s !important;
+    }
+
+    .u-pd#{$direction-letter}--m {
+      padding#{$css-direction}: $pd--m !important;
+    }
+
+    .u-pd#{$direction-letter}--l {
+      padding#{$css-direction}: $pd--l !important;
+    }
+
+    .u-pd#{$direction-letter}--xl {
+      padding#{$css-direction}: $pd--xl !important;
+    }
+
+
+
+    // Margins
+
+    .u-mg#{$direction-letter}--0 {
+      margin#{$css-direction}: 0 !important;
+    }
+
+    .u-mg#{$direction-letter}--xs {
+      margin#{$css-direction}: $mg--xs !important;
+    }
+
+    .u-mg#{$direction-letter}--s {
+      margin#{$css-direction}: $mg--s !important;
+    }
+
+    .u-mg#{$direction-letter}--m {
+      margin#{$css-direction}: $mg--m !important;
+    }
+
+    .u-mg#{$direction-letter}--l {
+      margin#{$css-direction}: $mg--l !important;
+    }
+
+    .u-mg#{$direction-letter}--xl {
+      margin#{$css-direction}: $mg--xl !important;
+    }
   }
 
-  .u-pd#{$direction-letter}--xs {
-    padding#{$css-direction}: $pd--xs !important;
+
+
+  // Horizontals margins
+
+  .u-mgh--a {
+    margin-right: auto !important;
+    margin-left: auto !important;
   }
 
-  .u-pd#{$direction-letter}--s {
-    padding#{$css-direction}: $pd--s !important;
+  .u-mgh--0 {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
   }
 
-  .u-pd#{$direction-letter}--m {
-    padding#{$css-direction}: $pd--m !important;
+  .u-mgh--xs {
+    margin-right: $mg--xs !important;
+    margin-left: $mg--xs !important;
   }
 
-  .u-pd#{$direction-letter}--l {
-    padding#{$css-direction}: $pd--l !important;
+  .u-mgh--s {
+    margin-right: $mg--s !important;
+    margin-left: $mg--s !important;
   }
 
-  .u-pd#{$direction-letter}--xl {
-    padding#{$css-direction}: $pd--xl !important;
+  .u-mgh--m {
+    margin-right: $mg--m !important;
+    margin-left: $mg--m !important;
+  }
+
+  .u-mgh--l {
+    margin-right: $mg--l !important;
+    margin-left: $mg--l !important;
+  }
+
+  .u-mgh--xl {
+    margin-right: $mg--xl !important;
+    margin-left: $mg--xl !important;
   }
 
 
 
-  // Margins
+  // Vertical margins
 
-  .u-mg#{$direction-letter}--0 {
-    margin#{$css-direction}: 0 !important;
+  .u-mgv--a {
+    margin-top: auto !important;
+    margin-bottom: auto !important;
   }
 
-  .u-mg#{$direction-letter}--xs {
-    margin#{$css-direction}: $mg--xs !important;
+  .u-mgv--0 {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
   }
 
-  .u-mg#{$direction-letter}--s {
-    margin#{$css-direction}: $mg--s !important;
+  .u-mgv--xs {
+    margin-top: $mg--xs !important;
+    margin-bottom: $mg--xs !important;
   }
 
-  .u-mg#{$direction-letter}--m {
-    margin#{$css-direction}: $mg--m !important;
+  .u-mgv--s {
+    margin-top: $mg--s !important;
+    margin-bottom: $mg--s !important;
   }
 
-  .u-mg#{$direction-letter}--l {
-    margin#{$css-direction}: $mg--l !important;
+  .u-mgv--m {
+    margin-top: $mg--m !important;
+    margin-bottom: $mg--m !important;
   }
 
-  .u-mg#{$direction-letter}--xl {
-    margin#{$css-direction}: $mg--xl !important;
+  .u-mgv--l {
+    margin-top: $mg--l !important;
+    margin-bottom: $mg--l !important;
   }
-}
+
+  .u-mgv--xl {
+    margin-top: $mg--xl !important;
+    margin-bottom: $mg--xl !important;
+  }
 
 
 
-// Horizontals margins
+  // Horizontals paddings
 
-.u-mgh--a {
-  margin-right: auto !important;
-  margin-left: auto !important;
-}
+  .u-pdh--0 {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
 
-.u-mgh--0 {
-  margin-right: 0 !important;
-  margin-left: 0 !important;
-}
+  .u-pdh--xs {
+    padding-right: $mg--xs !important;
+    padding-left: $mg--xs !important;
+  }
 
-.u-mgh--xs {
-  margin-right: $mg--xs !important;
-  margin-left: $mg--xs !important;
-}
+  .u-pdh--s {
+    padding-right: $mg--s !important;
+    padding-left: $mg--s !important;
+  }
 
-.u-mgh--s {
-  margin-right: $mg--s !important;
-  margin-left: $mg--s !important;
-}
+  .u-pdh--m {
+    padding-right: $mg--m !important;
+    padding-left: $mg--m !important;
+  }
 
-.u-mgh--m {
-  margin-right: $mg--m !important;
-  margin-left: $mg--m !important;
-}
+  .u-pdh--l {
+    padding-right: $mg--l !important;
+    padding-left: $mg--l !important;
+  }
 
-.u-mgh--l {
-  margin-right: $mg--l !important;
-  margin-left: $mg--l !important;
-}
-
-.u-mgh--xl {
-  margin-right: $mg--xl !important;
-  margin-left: $mg--xl !important;
-}
+  .u-pdh--xl {
+    padding-right: $mg--xl !important;
+    padding-left: $mg--xl !important;
+  }
 
 
 
-// Vertical margins
+  // Vertical paddings
 
-.u-mgv--a {
-  margin-top: auto !important;
-  margin-bottom: auto !important;
-}
+  .u-pdv--0 {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
 
-.u-mgv--0 {
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
-}
+  .u-pdv--xs {
+    padding-top: $mg--xs !important;
+    padding-bottom: $mg--xs !important;
+  }
 
-.u-mgv--xs {
-  margin-top: $mg--xs !important;
-  margin-bottom: $mg--xs !important;
-}
+  .u-pdv--s {
+    padding-top: $mg--s !important;
+    padding-bottom: $mg--s !important;
+  }
 
-.u-mgv--s {
-  margin-top: $mg--s !important;
-  margin-bottom: $mg--s !important;
-}
+  .u-pdv--m {
+    padding-top: $mg--m !important;
+    padding-bottom: $mg--m !important;
+  }
 
-.u-mgv--m {
-  margin-top: $mg--m !important;
-  margin-bottom: $mg--m !important;
-}
+  .u-pdv--l {
+    padding-top: $mg--l !important;
+    padding-bottom: $mg--l !important;
+  }
 
-.u-mgv--l {
-  margin-top: $mg--l !important;
-  margin-bottom: $mg--l !important;
-}
+  .u-pdv--xl {
+    padding-top: $mg--xl !important;
+    padding-bottom: $mg--xl !important;
+  }
 
-.u-mgv--xl {
-  margin-top: $mg--xl !important;
-  margin-bottom: $mg--xl !important;
-}
-
-
-
-// Horizontals paddings
-
-.u-pdh--0 {
-  padding-right: 0 !important;
-  padding-left: 0 !important;
-}
-
-.u-pdh--xs {
-  padding-right: $mg--xs !important;
-  padding-left: $mg--xs !important;
-}
-
-.u-pdh--s {
-  padding-right: $mg--s !important;
-  padding-left: $mg--s !important;
-}
-
-.u-pdh--m {
-  padding-right: $mg--m !important;
-  padding-left: $mg--m !important;
-}
-
-.u-pdh--l {
-  padding-right: $mg--l !important;
-  padding-left: $mg--l !important;
-}
-
-.u-pdh--xl {
-  padding-right: $mg--xl !important;
-  padding-left: $mg--xl !important;
-}
-
-
-
-// Vertical paddings
-
-.u-pdv--0 {
-  padding-top: 0 !important;
-  padding-bottom: 0 !important;
-}
-
-.u-pdv--xs {
-  padding-top: $mg--xs !important;
-  padding-bottom: $mg--xs !important;
-}
-
-.u-pdv--s {
-  padding-top: $mg--s !important;
-  padding-bottom: $mg--s !important;
-}
-
-.u-pdv--m {
-  padding-top: $mg--m !important;
-  padding-bottom: $mg--m !important;
-}
-
-.u-pdv--l {
-  padding-top: $mg--l !important;
-  padding-bottom: $mg--l !important;
-}
-
-.u-pdv--xl {
-  padding-top: $mg--xl !important;
-  padding-bottom: $mg--xl !important;
 }

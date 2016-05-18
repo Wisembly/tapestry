@@ -1,11 +1,15 @@
-.Dropdown-item {
-  &:hover {
-    background: $porcelain;
+@if $import-dropdown and $import-pseudo-classes {
+
+  .Dropdown-item {
+    &:hover {
+      background: $porcelain;
+    }
+
+    &:focus,
+    &:active {
+      background: $iron;
+      outline: none;
+    }
   }
 
-  &:focus,
-  &:active {
-    background: $iron;
-    outline: none;
-  }
 }

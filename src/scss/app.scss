@@ -2,99 +2,30 @@
 @import "utils/var/core";
 @import "utils/placeholder/core";
 @import "utils/mixin/core";
+@import "utils/class/core";
 
-@if $import-utility-classes {
-  @import "utils/class/core";
-}
+@import "typography/core";
 
-@if $import-typography {
-  @import "typography/core";
-}
+@import "vendors/normalize";
 
-@if $import-normalize {
-  @import "vendors/normalize";
-}
-
-@if $import-animations {
-  @import "components/animations/core";
-}
-
-@if $import-icons {
-  @import "components/icons/core";
-}
-
-@if $import-avatar {
-  @import "components/avatar/core";
-}
-
-@if $import-badge {
-  @import "components/badge/core";
-}
-
-@if $import-list {
-  @import "components/list/core";
-}
-
-@if $import-box {
-  @import "components/box/core";
-}
-
-@if $import-dropdown {
-  @import "components/dropdown/core";
-}
-
-@if $import-form {
-  @import "components/form/core";
-}
-
-@if $import-grid {
-  @import "components/grid/core";
-}
-
-@if $import-button {
-  @import "components/button/core";
-}
-
-@if $import-media {
-  @import "components/media/core";
-}
-
-@if $import-meter {
-  @import "components/meter/core";
-}
-
-@if $import-modal {
-  @import "components/modal/core";
-}
-
-@if $import-notification {
-  @import "components/notification/core";
-}
-
-@if $import-panel {
-  @import "components/panel/core";
-}
-
-@if $import-pellet {
-  @import "components/pellet/core";
-}
-
-@if $import-popovers {
-  @import "components/popovers/core";
-}
-
-@if $import-switch {
-  @import "components/switch/core";
-}
-
-@if $import-table {
-  @import "components/table/core";
-}
-
-@if $import-tabs {
-  @import "components/tabs/core";
-}
-
-@if $import-tooltip and $import-pseudo-classes {
-  @import "components/tooltip/core";
-}
+@import "components/animations/core";
+@import "components/icons/core";
+@import "components/avatar/core";
+@import "components/badge/core";
+@import "components/list/core";
+@import "components/box/core";
+@import "components/dropdown/core";
+@import "components/form/core";
+@import "components/grid/core";
+@import "components/button/core";
+@import "components/media/core";
+@import "components/meter/core";
+@import "components/modal/core";
+@import "components/notification/core";
+@import "components/panel/core";
+@import "components/pellet/core";
+@import "components/popovers/core";
+@import "components/switch/core";
+@import "components/table/core";
+@import "components/tabs/core";
+@import "components/tooltip/core";
