@@ -1,3 +1,7 @@
-.Textarea:not([disabled]):hover {
-  border-color: $form-hover-border-color;
+@if $import-form and $import-textarea and $import-pseudo-classes {
+
+  .Textarea:not([disabled]):hover {
+    border-color: $form-hover-border-color;
+  }
+
 }

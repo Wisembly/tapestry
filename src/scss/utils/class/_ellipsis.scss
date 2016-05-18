@@ -1,3 +1,7 @@
-.u-ellipsis {
-  @include ellipsis;
+@if $import-utility-classes {
+
+  .u-ellipsis {
+    @include ellipsis;
+  }
+
 }

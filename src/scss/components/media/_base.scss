@@ -1,21 +1,25 @@
-.Media {
-  display: flex;
-  flex: 1 0 auto;
-  margin: 0;
-}
+@if $import-media {
 
-.Media-img {
-  flex-shrink: 0;
-}
+  .Media {
+    display: flex;
+    flex: 1 0 auto;
+    margin: 0;
+  }
 
-.Media-img:not(.Grid-cell),
-.Media-content:not(.Grid-cell) {
-  display: inline-block;
-  vertical-align: middle;
-}
+  .Media-img {
+    flex-shrink: 0;
+  }
 
-.Media-content {
-  flex: 1;
-  margin: 0;
-  padding: 0 0 0 $pd--s;
+  .Media-img:not(.Grid-cell),
+  .Media-content:not(.Grid-cell) {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .Media-content {
+    flex: 1;
+    margin: 0;
+    padding: 0 0 0 $pd--s;
+  }
+
 }

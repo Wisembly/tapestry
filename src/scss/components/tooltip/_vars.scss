@@ -1,9 +1,13 @@
-$tooltip-arrow-size: rem(5px) !default;
-$tooltip-bg: rgba($black, .8) !default;
-$tooltip-color: $white !default;
-$tooltip-space-between-content: $mg--xs !default;
+@if $import-tooltip and $import-pseudo-classes {
 
-$tooltip-width: 10rem !default;
-$tooltip-large-width: 20rem !default;
+  $tooltip-arrow-size: rem(5px) !default;
+  $tooltip-bg: rgba($black, .8) !default;
+  $tooltip-color: $white !default;
+  $tooltip-space-between-content: $mg--xs !default;
 
-$tooltip-pd: $pd--s !default;
+  $tooltip-width: 10rem !default;
+  $tooltip-large-width: 20rem !default;
+
+  $tooltip-pd: $pd--s !default;
+
+}

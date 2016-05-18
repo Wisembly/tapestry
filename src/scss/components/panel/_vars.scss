@@ -1,3 +1,7 @@
-$panel-header-height: r(8) !default;
-$panel-width: 100% !default;
-$panel-max-width: r(100) !default;
+@if $import-panel {
+
+  $panel-header-height: r(8) !default;
+  $panel-width: 100% !default;
+  $panel-max-width: r(100) !default;
+
+}

@@ -1,7 +1,11 @@
-$avatar-rounded: true !default;
+@if $import-avatar {
 
-$avatar-size--s: r(4) !default;
-$avatar-size--m: r(7) !default;
-$avatar-size--l: r(9) !default;
+  $avatar-rounded: true !default;
 
-$avatar-colors: $gray-chateau $salmon $curious-blue $mint $saffron;
+  $avatar-size--s: r(4) !default;
+  $avatar-size--m: r(7) !default;
+  $avatar-size--l: r(9) !default;
+
+  $avatar-colors: $gray-chateau $salmon $curious-blue $mint $saffron;
+
+}

@@ -1,5 +1,9 @@
-.ModalHeader-btn {
-  &:hover {
-    color: $eastern-blue;
+@if $import-media and $import-pseudo-classes {
+
+  .ModalHeader-btn {
+    &:hover {
+      color: $eastern-blue;
+    }
   }
+
 }

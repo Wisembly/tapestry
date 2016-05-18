@@ -1,3 +1,7 @@
-$grid-column-number: 12;
-$grid-responsive-range: (phablet, tablet, laptop);
-$grid-gutter-width: r(4);
+@if $import-grid {
+
+  $grid-column-number: 12;
+  $grid-responsive-range: (phablet, tablet, laptop);
+  $grid-gutter-width: r(4);
+
+}

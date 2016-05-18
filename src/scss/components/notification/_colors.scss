@@ -1,15 +1,19 @@
-.Notification--primary {
-  @include bg($primary);
-}
+@if $import-notification {
 
-.Notification--validate {
-  @include bg($validate);
-}
+  .Notification--primary {
+    @include bg($primary);
+  }
 
-.Notification--info {
-  @include bg($info);
-}
+  .Notification--validate {
+    @include bg($validate);
+  }
 
-.Notification--error {
-  @include bg($error);
+  .Notification--info {
+    @include bg($info);
+  }
+
+  .Notification--error {
+    @include bg($error);
+  }
+
 }

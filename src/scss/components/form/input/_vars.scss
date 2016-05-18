@@ -1,11 +1,15 @@
-$input-pdv: rb(2) !default;
-$input-pdh: $pd--s !default;
+@if $import-form and $import-input {
 
-$input-valid-class: ".is-valid" !default;
-$input-valid-bg-path: "/src/svg/backgrounds/inputBg--valid.svg" !default;
+  $input-pdv: rb(2) !default;
+  $input-pdh: $pd--s !default;
 
-$input-invalid-class: ".is-invalid" !default;
-$input-invalid-bg-path: "/src/svg/backgrounds/inputBg--invalid.svg" !default;
+  $input-valid-class: ".is-valid" !default;
+  $input-valid-bg-path: "/src/svg/backgrounds/inputBg--valid.svg" !default;
 
-$input-group-icon-color: $iron !default;
-$input-group-icon-width: r(6) !default;
+  $input-invalid-class: ".is-invalid" !default;
+  $input-invalid-bg-path: "/src/svg/backgrounds/inputBg--invalid.svg" !default;
+
+  $input-group-icon-color: $iron !default;
+  $input-group-icon-width: r(6) !default;
+
+}

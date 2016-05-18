@@ -1,5 +1,9 @@
-.Input#{$input-invalid-class} {
-  &:hover {
-    border-color: $error;
+@if $import-form and $import-input and $import-pseudo-classes {
+
+  .Input#{$input-invalid-class} {
+    &:hover {
+      border-color: $error;
+    }
   }
+
 }

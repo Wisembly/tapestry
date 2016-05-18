@@ -1,2 +1,6 @@
-$textarea-height: $base-pd + ($base-lh * 2) + rem(2px) !default;
-$textarea-pd: $pd--s !default;
+@if $import-form and $import-textarea {
+
+  $textarea-height: $base-pd + ($base-lh * 2) + rem(2px) !default;
+  $textarea-pd: $pd--s !default;
+
+}

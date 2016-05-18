@@ -1,25 +1,29 @@
-.Line {
-  display: block;
-  margin: r(2) 0;
-  border: 0;
-  border-top: 1px solid $base-border-color;
-}
+@if $import-typography {
 
-.Line--labeled {
-  position: relative;
-  margin-top: r(6);
-  text-align: center;
-}
+  .Line {
+    display: block;
+    margin: r(2) 0;
+    border: 0;
+    border-top: 1px solid $base-border-color;
+  }
 
-.Line-label {
-  display: inline-block;
-  padding: 0 $pd--s;
-  font-size: r(2);
-  font-weight: $fw--semi-bold;
-  text-transform: uppercase;
-  color: $gray-chateau;
-  background: $white;
-  border: 1px solid $base-border-color;
-  border-radius: r(2);
-  transform: translate3d(0, -50%, 0);
+  .Line--labeled {
+    position: relative;
+    margin-top: r(6);
+    text-align: center;
+  }
+
+  .Line-label {
+    display: inline-block;
+    padding: 0 $pd--s;
+    font-size: r(2);
+    font-weight: $fw--semi-bold;
+    text-transform: uppercase;
+    color: $gray-chateau;
+    background: $white;
+    border: 1px solid $base-border-color;
+    border-radius: r(2);
+    transform: translate3d(0, -50%, 0);
+  }
+
 }

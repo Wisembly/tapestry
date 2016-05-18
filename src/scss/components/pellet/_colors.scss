@@ -1,11 +1,15 @@
-.Pellet--validate {
-  @include bg($validate);
-}
+@if $import-pellet {
 
-.Pellet--info {
-  @include bg($info);
-}
+  .Pellet--validate {
+    @include bg($validate);
+  }
 
-.Pellet--error {
-  @include bg($error);
+  .Pellet--info {
+    @include bg($info);
+  }
+
+  .Pellet--error {
+    @include bg($error);
+  }
+
 }

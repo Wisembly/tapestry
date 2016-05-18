@@ -1,11 +1,15 @@
-$btn-pdv: $pd--s !default;
-$btn-pdh: $pd--m !default;
-$btn-pdv--s: $pd--xs !default;
-$btn-pdh--s: $pd--s !default;
+@if $import-button {
 
-$btn-fixed-unit: r(8) !default;
-$btn-fixed-unit--s: r(6) !default;
+  $btn-pdv: $pd--s !default;
+  $btn-pdh: $pd--m !default;
+  $btn-pdv--s: $pd--xs !default;
+  $btn-pdh--s: $pd--s !default;
 
-$btn-name-colors: "-primary" "-alt" "-validate" "-info" "-error";
-$btn-base-colors: $venice-blue $curious-blue $mint $saffron $mandy;
-$btn-hover-colors: $atoll $eastern-blue $ocean-green $galliano $fuzzy-wuzzy-brown;
+  $btn-fixed-unit: r(8) !default;
+  $btn-fixed-unit--s: r(6) !default;
+
+  $btn-name-colors: "-primary" "-alt" "-validate" "-info" "-error";
+  $btn-base-colors: $venice-blue $curious-blue $mint $saffron $mandy;
+  $btn-hover-colors: $atoll $eastern-blue $ocean-green $galliano $fuzzy-wuzzy-brown;
+
+}

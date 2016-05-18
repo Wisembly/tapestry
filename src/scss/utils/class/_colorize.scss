@@ -1,19 +1,23 @@
-.u-neutral {
-  @include bg($neutral, true, true);
-}
+@if $import-utility-classes {
 
-.u-primary {
-  @include bg($primary, true, true);
-}
+  .u-neutral {
+    @include bg($neutral, true, true);
+  }
 
-.u-validate {
-  @include bg($validate, true, true);
-}
+  .u-primary {
+    @include bg($primary, true, true);
+  }
 
-.u-info {
-  @include bg($info, true, true);
-}
+  .u-validate {
+    @include bg($validate, true, true);
+  }
 
-.u-error {
-  @include bg($error, true, true);
+  .u-info {
+    @include bg($info, true, true);
+  }
+
+  .u-error {
+    @include bg($error, true, true);
+  }
+
 }

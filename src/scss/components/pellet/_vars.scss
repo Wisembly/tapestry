@@ -1,1 +1,5 @@
-$pellet-width: r(2);
+@if $import-pellet {
+
+  $pellet-width: r(2);
+
+}

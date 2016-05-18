@@ -1,6 +1,10 @@
-.Panel-content {
-  flex: 1 1 auto;
-  padding: $pd--m;
-  overflow-y: auto;
-  -webkit-overflow-scrolling: touch;
+@if $import-panel {
+
+  .Panel-content {
+    flex: 1 1 auto;
+    padding: $pd--m;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
 }

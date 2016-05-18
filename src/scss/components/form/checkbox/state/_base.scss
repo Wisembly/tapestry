@@ -1,5 +1,9 @@
-.Checkbox-label {
-  &:hover:before {
-    color: $checkbox-hover-color;
+@if $import-form and $import-checkbox and $import-pseudo-classes {
+
+  .Checkbox-label {
+    &:hover:before {
+      color: $checkbox-hover-color;
+    }
   }
+
 }

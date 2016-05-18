@@ -1,1 +1,5 @@
-$animation-spinning-duration: 1000ms !default;
+@if $import-animations {
+
+  $animation-spinning-duration: 1000ms !default;
+
+}

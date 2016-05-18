@@ -1,47 +1,51 @@
-.Input {
-  display: inline-block;
-  width: 100%;
-  padding: $input-pdv $input-pdh;
-  font-size: $fz--m;
-  line-height: $base-lh;
-  vertical-align: middle;
-  color: $form-base-color;
-  background: $form-bg;
-  border: 1px solid $base-border-color;
-  border-radius: $base-radius;
-  transition: border .2s ease-in-out;
-  appearance: none;
+@if $import-form and $import-input {
 
-  &:focus {
-    color: $form-focus-color;
-    border-color: $form-focus-border-color;
-    outline: none;
+  .Input {
+    display: inline-block;
+    width: 100%;
+    padding: $input-pdv $input-pdh;
+    font-size: $fz--m;
+    line-height: $base-lh;
+    vertical-align: middle;
+    color: $form-base-color;
+    background: $form-bg;
+    border: 1px solid $base-border-color;
+    border-radius: $base-radius;
+    transition: border .2s ease-in-out;
+    appearance: none;
+
+    &:focus {
+      color: $form-focus-color;
+      border-color: $form-focus-border-color;
+      outline: none;
+    }
+
+    &[disabled],
+    &[readonly] {
+      color: $form-disabled-color;
+      background: $form-disabled-bg;
+    }
+
+    + .Input,
+    + .Btn,
+    .Btn + & {
+      margin-left: $mg--m;
+    }
+
+    + .Btn--block,
+    .Btn--block & {
+      margin-top: $mg--s;
+      margin-left: 0;
+    }
   }
 
-  &[disabled],
-  &[readonly] {
-    color: $form-disabled-color;
-    background: $form-disabled-bg;
+  .Input--inline {
+    width: auto;
+
+    + .Label,
+    .Label + & {
+      margin-left: $mg--xs;
+    }
   }
 
-  + .Input,
-  + .Btn,
-  .Btn + & {
-    margin-left: $mg--m;
-  }
-
-  + .Btn--block,
-  .Btn--block & {
-    margin-top: $mg--s;
-    margin-left: 0;
-  }
-}
-
-.Input--inline {
-  width: auto;
-
-  + .Label,
-  .Label + & {
-    margin-left: $mg--xs;
-  }
 }

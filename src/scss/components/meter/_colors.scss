@@ -1,9 +1,13 @@
-.Meter-bar {
-  [data-threshold="75"] & {
-    background: $info;
+@if $import-meter {
+
+  .Meter-bar {
+    [data-threshold="75"] & {
+      background: $info;
+    }
+
+    [data-threshold="99"] & {
+      background: $error;
+    }
   }
 
-  [data-threshold="99"] & {
-    background: $error;
-  }
 }

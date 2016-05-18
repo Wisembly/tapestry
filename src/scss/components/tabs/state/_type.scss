@@ -1,8 +1,12 @@
-.Tabs--vertical {
-  .Tab-item {
-    &:hover:after {
-      width: $tab-underline-size;
-      height: auto;
+@if $import-tabs and $import-pseudo-classes {
+
+  .Tabs--vertical {
+    .Tab-item {
+      &:hover:after {
+        width: $tab-underline-size;
+        height: auto;
+      }
     }
   }
+
 }

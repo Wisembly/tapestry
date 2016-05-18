@@ -1,40 +1,44 @@
-.Switch {
-  display: inline-block;
-  position: relative;
-  width: $switch-width;
-  height: $switch-height;
-  vertical-align: middle;
-  background: $switch-unchecked-color;
-  border-radius: $switch-height / 2;
-  cursor: pointer;
-  transition: background .05s ease;
+@if $import-switch {
 
-  &:after {
-    @include pos(a 0 null null 0);
-    content: "";
-    display: block;
-    width: $switch-height;
+  .Switch {
+    display: inline-block;
+    position: relative;
+    width: $switch-width;
     height: $switch-height;
-    background: $switch-color;
-    border: ($switch-inner-space / 2) solid $switch-unchecked-color;
-    border-radius: 50%;
-    transition: left .1s ease-out, border .05s ease-out;
-  }
-}
-
-input,
-.Switch-checkbox {
-
-  &[disabled] + .Switch {
-    opacity: .5;
-  }
-
-  &:checked + .Switch {
-    background-color: $switch-checked-color;
+    vertical-align: middle;
+    background: $switch-unchecked-color;
+    border-radius: $switch-height / 2;
+    cursor: pointer;
+    transition: background .05s ease;
 
     &:after {
-      left: $switch-width - $switch-height;
-      border-color: $switch-checked-color;
+      @include pos(a 0 null null 0);
+      content: "";
+      display: block;
+      width: $switch-height;
+      height: $switch-height;
+      background: $switch-color;
+      border: ($switch-inner-space / 2) solid $switch-unchecked-color;
+      border-radius: 50%;
+      transition: left .1s ease-out, border .05s ease-out;
     }
   }
+
+  input,
+  .Switch-checkbox {
+
+    &[disabled] + .Switch {
+      opacity: .5;
+    }
+
+    &:checked + .Switch {
+      background-color: $switch-checked-color;
+
+      &:after {
+        left: $switch-width - $switch-height;
+        border-color: $switch-checked-color;
+      }
+    }
+  }
+
 }

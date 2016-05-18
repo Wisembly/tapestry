@@ -1,44 +1,48 @@
-.Dropdown-selectInput {
-  display: inline-block;
-  position: relative;
-  width: 100%;
-  padding: rb(2) rb(6) rb(2) rb(2);
-  font-size: $fz--m;
-  line-height: $base-lh;
-  text-align: left;
-  vertical-align: middle;
-  color: $limed-spruce;
-  background-color: $white;
-  border: 1px solid $base-border-color;
-  border-radius: $base-radius;
-  outline: 0;
+@if $import-dropdown {
 
-  &[aria-expanded="true"] {
+  .Dropdown-selectInput {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding: rb(2) rb(6) rb(2) rb(2);
+    font-size: $fz--m;
+    line-height: $base-lh;
+    text-align: left;
+    vertical-align: middle;
     color: $limed-spruce;
-    border-color: $gray-chateau;
-  }
+    background-color: $white;
+    border: 1px solid $base-border-color;
+    border-radius: $base-radius;
+    outline: 0;
 
-  &[disabled] {
-    color: $gray-chateau;
-    background: $iron;
-    cursor: not-allowed;
-  }
+    &[aria-expanded="true"] {
+      color: $limed-spruce;
+      border-color: $gray-chateau;
+    }
 
-  &:focus {
-    outline: none;
-  }
-
-  @if $import-icons {
-    &:after {
-      @include Icon--triangleDown;
-      @include pos(a ($mg--s) $mg--s null null);
-      font-family: tapestry-icons;
-      font-size: $fz--s;
+    &[disabled] {
       color: $gray-chateau;
+      background: $iron;
+      cursor: not-allowed;
+    }
+
+    &:focus {
+      outline: none;
+    }
+
+    @if $import-icons {
+      &:after {
+        @include Icon--triangleDown;
+        @include pos(a ($mg--s) $mg--s null null);
+        font-family: tapestry-icons;
+        font-size: $fz--s;
+        color: $gray-chateau;
+      }
+    }
+
+    + .Dropdown-list {
+      width: 100%;
     }
   }
 
-  + .Dropdown-list {
-    width: 100%;
-  }
 }

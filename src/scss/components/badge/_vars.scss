@@ -1,2 +1,6 @@
-$badge-color: $white !default;
-$badge-bg: $gray-chateau !default;
+@if $import-badge {
+
+  $badge-color: $white !default;
+  $badge-bg: $gray-chateau !default;
+
+}

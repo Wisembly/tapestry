@@ -5,6 +5,4 @@
 @import "list";
 @import "footer";
 
-@if $import-pseudo-classes {
-  @import "state/header";
-}
+@import "state/header";

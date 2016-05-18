@@ -1,15 +1,19 @@
-.Tab-link {
-  display: block;
-  position: relative;
-  padding: $tab-link-pdv $tab-link-pdh;
-  font-size: $fz--m;
-  font-weight: $fw--semi-bold;
-  text-decoration: none;
-  color: $tab-base-color;
-  cursor: pointer;
-  outline: 0;
+@if $import-tabs {
 
-  .Tab-item[aria-selected="true"] & {
-    color: $tab-selected-color;
+  .Tab-link {
+    display: block;
+    position: relative;
+    padding: $tab-link-pdv $tab-link-pdh;
+    font-size: $fz--m;
+    font-weight: $fw--semi-bold;
+    text-decoration: none;
+    color: $tab-base-color;
+    cursor: pointer;
+    outline: 0;
+
+    .Tab-item[aria-selected="true"] & {
+      color: $tab-selected-color;
+    }
   }
+
 }

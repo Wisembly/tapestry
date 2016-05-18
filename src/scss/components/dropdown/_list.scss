@@ -1,24 +1,28 @@
-.Dropdown-list,
-.Dropdown-list--bl {
-  @include pos(a 100% null null 0);
-  display: none;
-  z-index: zi("dropdown");
-  min-width: $base-lh * 7;
-  max-height: r(30);
-  margin: $mg--xs 0;
-  padding: 0;
-  list-style: none;
-  background: $white;
-  border: 1px solid $iron;
-  border-radius: $base-radius;
-  box-shadow: 0 0 10px 0 rgba($slate-gray, .3);
-  overflow-y: auto;
+@if $import-dropdown {
 
-  > li:not(.Dropdown-item) {
+  .Dropdown-list,
+  .Dropdown-list--bl {
+    @include pos(a 100% null null 0);
+    display: none;
+    z-index: zi("dropdown");
+    min-width: $base-lh * 7;
+    max-height: r(30);
+    margin: $mg--xs 0;
     padding: 0;
-  }
-}
+    list-style: none;
+    background: $white;
+    border: 1px solid $iron;
+    border-radius: $base-radius;
+    box-shadow: 0 0 10px 0 rgba($slate-gray, .3);
+    overflow-y: auto;
 
-[aria-expanded="true"] + .Dropdown-list {
-  display: block;
+    > li:not(.Dropdown-item) {
+      padding: 0;
+    }
+  }
+
+  [aria-expanded="true"] + .Dropdown-list {
+    display: block;
+  }
+
 }

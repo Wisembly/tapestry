@@ -1,18 +1,22 @@
-.Panel-wrapper {
-  @include Overlay;
-}
+@if $import-panel {
 
-.Panel {
-  @include pos(f 0 0 0 null);
-  display: flex;
-  flex-direction: column;
-  width: $panel-width;
-  max-width: $panel-max-width;
-  background: $white;
-  transform: translate3d(100%, 0, 0);
-  transition: transform .25s ease-out;
-
-  [aria-hidden="false"] > & {
-    transform: translate3d(0, 0, 0);
+  .Panel-wrapper {
+    @include Overlay;
   }
+
+  .Panel {
+    @include pos(f 0 0 0 null);
+    display: flex;
+    flex-direction: column;
+    width: $panel-width;
+    max-width: $panel-max-width;
+    background: $white;
+    transform: translate3d(100%, 0, 0);
+    transition: transform .25s ease-out;
+
+    [aria-hidden="false"] > & {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
 }

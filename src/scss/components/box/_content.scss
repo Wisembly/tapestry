@@ -1,15 +1,19 @@
-.Box-content {
-  margin-bottom: 0;
-  padding: $pd--m;
-  overflow: auto;
+@if $import-box {
 
-  p:last-child {
+  .Box-content {
     margin-bottom: 0;
-  }
-}
+    padding: $pd--m;
+    overflow: auto;
 
-.Box-header {
-  + .Box-content {
-    padding-top: 0;
+    p:last-child {
+      margin-bottom: 0;
+    }
   }
+
+  .Box-header {
+    + .Box-content {
+      padding-top: 0;
+    }
+  }
+
 }

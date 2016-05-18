@@ -1,17 +1,21 @@
-.Box {
-  background: $white;
-  border: 1px solid $base-border-color;
+@if $import-box {
 
-  + .Box,
-  + .Boxes {
-    margin-top: $box-space-between;
+  .Box {
+    background: $white;
+    border: 1px solid $base-border-color;
+
+    + .Box,
+    + .Boxes {
+      margin-top: $box-space-between;
+    }
+
+    > .List:first-child .List-item:first-child {
+      border-top: 0;
+    }
+
+    > .List:last-child {
+      border-bottom: 0;
+    }
   }
 
-  > .List:first-child .List-item:first-child {
-    border-top: 0;
-  }
-
-  > .List:last-child {
-    border-bottom: 0;
-  }
 }

@@ -1,15 +1,19 @@
-.Input-addOn {
-  flex: 0 0 auto;
-  width: auto;
-  padding: $input-pdv $input-pdh;
-  font-size: $fz--m;
-  line-height: $base-lh;
-  color: $form-base-color;
-  background: $form-bg;
-  border: 1px solid $base-border-color;
-  user-select: none;
+@if $import-form and $import-input and $import-input-group {
 
-  &:not(.Btn) {
-    cursor: default;
+  .Input-addOn {
+    flex: 0 0 auto;
+    width: auto;
+    padding: $input-pdv $input-pdh;
+    font-size: $fz--m;
+    line-height: $base-lh;
+    color: $form-base-color;
+    background: $form-bg;
+    border: 1px solid $base-border-color;
+    user-select: none;
+
+    &:not(.Btn) {
+      cursor: default;
+    }
   }
+
 }

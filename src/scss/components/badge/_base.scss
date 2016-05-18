@@ -1,9 +1,13 @@
-.Badge {
-  display: inline-block;
-  padding: 0 $pd--s;
-  font-size: $fz--s;
-  line-height: $base-lh;
-  color: $badge-color;
-  background: $badge-bg;
-  border-radius: $base-lh;
+@if $import-badge {
+
+  .Badge {
+    display: inline-block;
+    padding: 0 $pd--s;
+    font-size: $fz--s;
+    line-height: $base-lh;
+    color: $badge-color;
+    background: $badge-bg;
+    border-radius: $base-lh;
+  }
+
 }

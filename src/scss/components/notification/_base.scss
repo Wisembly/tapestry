@@ -1,11 +1,15 @@
-.has-notification {
-  position: relative;
-}
+@if $import-notification {
 
-.Notification {
-  display: inline-block;
-  padding: $notification-pdv $notification-pdh;
-  color: $notification-base-color;
-  background: $notification-base-bg;
-  border-radius: $base-radius;
+  .has-notification {
+    position: relative;
+  }
+
+  .Notification {
+    display: inline-block;
+    padding: $notification-pdv $notification-pdh;
+    color: $notification-base-color;
+    background: $notification-base-bg;
+    border-radius: $base-radius;
+  }
+
 }

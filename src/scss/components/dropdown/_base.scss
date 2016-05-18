@@ -1,13 +1,17 @@
-.Dropdown {
-  display: inline-block;
-  position: relative;
-  user-select: none;
+@if $import-dropdown {
 
-  &:focus {
-    outline: none;
+  .Dropdown {
+    display: inline-block;
+    position: relative;
+    user-select: none;
+
+    &:focus {
+      outline: none;
+    }
   }
-}
 
-.Dropdown--block {
-  width: 100%;
+  .Dropdown--block {
+    width: 100%;
+  }
+
 }

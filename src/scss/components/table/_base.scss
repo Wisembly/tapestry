@@ -1,7 +1,11 @@
-.Table {
-  display: table;
-  width: 100%;
-  color: $table-cell-color;
-  border: 1px solid $base-border-color;
-  border-collapse: collapse;
+@if $import-table {
+
+  .Table {
+    display: table;
+    width: 100%;
+    color: $table-cell-color;
+    border: 1px solid $base-border-color;
+    border-collapse: collapse;
+  }
+
 }

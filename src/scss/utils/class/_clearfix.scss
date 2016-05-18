@@ -1,3 +1,7 @@
-.u-cf {
-  @include cf;
+@if $import-utility-classes {
+
+  .u-cf {
+    @include cf;
+  }
+
 }

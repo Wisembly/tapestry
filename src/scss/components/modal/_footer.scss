@@ -1,6 +1,10 @@
-.Modal-footer {
-  display: flex;
-  flex-shrink: 0;
-  padding: $pd--m;
-  background: $white;
+@if $import-modal {
+
+  .Modal-footer {
+    display: flex;
+    flex-shrink: 0;
+    padding: $pd--m;
+    background: $white;
+  }
+
 }

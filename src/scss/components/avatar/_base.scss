@@ -1,22 +1,26 @@
-.Avatar {
-  display: inline-block;
-  text-align: center;
-  text-transform: uppercase;
-  vertical-align: middle;
-  color: $white;
-  background-color: $white;
-  overflow: hidden;
+@if $import-avatar {
 
-  @if $avatar-rounded {
-    border-radius: 50%;
+  .Avatar {
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+    color: $white;
+    background-color: $white;
+    overflow: hidden;
+
+    @if $avatar-rounded {
+      border-radius: 50%;
+    }
   }
-}
 
-.Avatar--empty {
-  color: $limed-spruce;
-  box-shadow: inset 0 0 0 1px $base-border-color;
+  .Avatar--empty {
+    color: $limed-spruce;
+    box-shadow: inset 0 0 0 1px $base-border-color;
 
-  &:before {
-    margin-left: 1px;
+    &:before {
+      margin-left: 1px;
+    }
   }
+
 }

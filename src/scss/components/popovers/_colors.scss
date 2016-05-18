@@ -1,23 +1,27 @@
-.Popover--validate {
-  @include bg($validate, true);
+@if $import-popovers {
 
-  &:after {
-    border-bottom-color: $mint;
+  .Popover--validate {
+    @include bg($validate, true);
+
+    &:after {
+      border-bottom-color: $mint;
+    }
   }
-}
 
-.Popover--info {
-  @include bg($info, true);
+  .Popover--info {
+    @include bg($info, true);
 
-  &:after {
-    border-bottom-color: $info;
+    &:after {
+      border-bottom-color: $info;
+    }
   }
-}
 
-.Popover--error {
-  @include bg($error, true);
+  .Popover--error {
+    @include bg($error, true);
 
-  &:after {
-    border-bottom-color: $error;
+    &:after {
+      border-bottom-color: $error;
+    }
   }
+
 }

@@ -1,8 +1,12 @@
-$popover-arrow-size: rem(8px) !default;
+@if $import-popovers {
 
-$popover-pdv: $pd--s !default;
-$popover-pdh: $base-pd !default;
+  $popover-arrow-size: rem(8px) !default;
 
-$popover-base-color: $white !default;
-$popover-base-bg: $gray-chateau !default;
-$popover-base-shadow: 0 1px 1.5px 0 rgba($gray-chateau, .5) !default;
+  $popover-pdv: $pd--s !default;
+  $popover-pdh: $base-pd !default;
+
+  $popover-base-color: $white !default;
+  $popover-base-bg: $gray-chateau !default;
+  $popover-base-shadow: 0 1px 1.5px 0 rgba($gray-chateau, .5) !default;
+
+}

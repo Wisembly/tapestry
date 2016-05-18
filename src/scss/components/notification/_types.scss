@@ -1,10 +1,14 @@
-.Notification--fixed {
-  position: fixed;
-  z-index: zi("notification");
-  box-shadow: $notification-shadow;
-}
+@if $import-notification {
 
-.Notification--block {
-  display: block;
-  width: 100%;
+  .Notification--fixed {
+    position: fixed;
+    z-index: zi("notification");
+    box-shadow: $notification-shadow;
+  }
+
+  .Notification--block {
+    display: block;
+    width: 100%;
+  }
+
 }

@@ -1,17 +1,21 @@
-.Boxes {
-  display: flex;
+@if $import-box {
 
-  > .Box {
-    flex: 1;
-    margin-top: 0;
+  .Boxes {
+    display: flex;
 
+    > .Box {
+      flex: 1;
+      margin-top: 0;
+
+      + .Box {
+        border-left: 0;
+      }
+    }
+
+    + .Boxes,
     + .Box {
-      border-left: 0;
+      margin-top: $box-space-between;
     }
   }
 
-  + .Boxes,
-  + .Box {
-    margin-top: $box-space-between;
-  }
 }

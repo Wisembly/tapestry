@@ -1,12 +1,16 @@
-$switch-color: $white;
-$switch-checked-color: $curious-blue;
-$switch-unchecked-color: $gray-chateau;
+@if $import-switch {
 
-$switch-width: r(8);
-$switch-width--s: r(5);
+  $switch-color: $white;
+  $switch-checked-color: $curious-blue;
+  $switch-unchecked-color: $gray-chateau;
 
-$switch-height: $base-lh;
-$switch-height--s: $base-lh / 1.4;
+  $switch-width: r(8);
+  $switch-width--s: r(5);
 
-$switch-inner-space: rem(6px);
-$switch-inner-space--s: rem(4px);
+  $switch-height: $base-lh;
+  $switch-height--s: $base-lh / 1.4;
+
+  $switch-inner-space: rem(6px);
+  $switch-inner-space--s: rem(4px);
+
+}

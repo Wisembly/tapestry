@@ -1,11 +1,15 @@
-*,
-*:after,
-*:before {
-  box-sizing: border-box;
-}
+@if $import-utility-classes {
 
-.r-list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+  *,
+  *:after,
+  *:before {
+    box-sizing: border-box;
+  }
+
+  .r-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
 }

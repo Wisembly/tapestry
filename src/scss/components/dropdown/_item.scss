@@ -1,29 +1,33 @@
-.Dropdown-item {
-  @include ellipsis;
-  display: block;
-  position: relative;
-  margin: $mg--xs;
-  padding: $pd--xs;
-  font-size: $fz--s;
-  font-weight: $fw--semi-bold;
-  line-height: $base-lh;
-  text-align: left;
-  text-decoration: none;
-  color: $limed-spruce;
-  border-radius: $base-radius;
-  cursor: pointer;
+@if $import-dropdown {
 
-  &[aria-selected="true"] {
-    padding-right: r(6);
-    background: $porcelain;
+  .Dropdown-item {
+    @include ellipsis;
+    display: block;
+    position: relative;
+    margin: $mg--xs;
+    padding: $pd--xs;
+    font-size: $fz--s;
+    font-weight: $fw--semi-bold;
+    line-height: $base-lh;
+    text-align: left;
+    text-decoration: none;
+    color: $limed-spruce;
+    border-radius: $base-radius;
+    cursor: pointer;
 
-    @if $import-icons {
-      &:after {
-        @include Icon--checkmark;
-        @include pos(a $mg--xs $mg--s null null);
-        font-family: tapestry-icons;
-        font-size: $fz--xs;
+    &[aria-selected="true"] {
+      padding-right: r(6);
+      background: $porcelain;
+
+      @if $import-icons {
+        &:after {
+          @include Icon--checkmark;
+          @include pos(a $mg--xs $mg--s null null);
+          font-family: tapestry-icons;
+          font-size: $fz--xs;
+        }
       }
     }
   }
+
 }

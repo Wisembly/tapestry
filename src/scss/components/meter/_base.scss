@@ -1,19 +1,23 @@
-.Meter {
-  position: relative;
-  width: 100%;
-  height: $meter-height;
-  background: $meter-base-bg;
-  overflow: hidden;
-}
+@if $import-meter {
 
-.Meter-bar {
-  @include pos(a 0 null null 0);
-  height: 100%;
-  background: $curious-blue;
-  transition: width .3s ease-out;
-}
+  .Meter {
+    position: relative;
+    width: 100%;
+    height: $meter-height;
+    background: $meter-base-bg;
+    overflow: hidden;
+  }
 
-.Meter,
-.Meter-bar {
-  border-radius: $meter-radius;
+  .Meter-bar {
+    @include pos(a 0 null null 0);
+    height: 100%;
+    background: $curious-blue;
+    transition: width .3s ease-out;
+  }
+
+  .Meter,
+  .Meter-bar {
+    border-radius: $meter-radius;
+  }
+
 }

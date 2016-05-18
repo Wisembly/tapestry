@@ -1,2 +1,6 @@
-$select-bg-path: "/src/svg/backgrounds/selectBg.svg" !default;
-$select-hover-color: $gray-chateau !default;
+@if $import-form and $import-select {
+
+  $select-bg-path: "/src/svg/backgrounds/selectBg.svg" !default;
+  $select-hover-color: $gray-chateau !default;
+
+}

@@ -1,5 +1,9 @@
-.Tab-item:hover {
-  .Tab-link {
-    color: $tab-hover-color;
+@if $import-tabs and $import-pseudo-classes {
+
+  .Tab-item:hover {
+    .Tab-link {
+      color: $tab-hover-color;
+    }
   }
+
 }

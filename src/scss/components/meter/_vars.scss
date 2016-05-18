@@ -1,5 +1,9 @@
-$meter-height: r(3) !default;
-$meter-radius: $meter-height / 2 !default;
+@if $import-meter {
 
-$meter-base-bg: $porcelain !default;
-$meter-bar-bg: $curious-blue !default;
+  $meter-height: r(3) !default;
+  $meter-radius: $meter-height / 2 !default;
+
+  $meter-base-bg: $porcelain !default;
+  $meter-bar-bg: $curious-blue !default;
+
+}

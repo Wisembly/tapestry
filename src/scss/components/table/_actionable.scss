@@ -1,22 +1,25 @@
-.Table--actionable {
+@if $import-table {
 
-  .Table-row {
-    cursor: pointer;
-    user-select: none;
-    transition: background-color .1s ease-out;
+  .Table--actionable {
+    .Table-row {
+      cursor: pointer;
+      user-select: none;
+      transition: background-color .1s ease-out;
 
-    &.is-selected,
-    &[aria-selected="true"] {
-      background-color: $selected-table-row-bg;
+      &.is-selected,
+      &[aria-selected="true"] {
+        background-color: $selected-table-row-bg;
+      }
+
+      &[aria-disabled="true"] {
+        background-color: $disabled-table-row-bg;
+        cursor: default;
+      }
     }
 
-    &[aria-disabled="true"] {
-      background-color: $disabled-table-row-bg;
-      cursor: default;
+    .Table-cell {
+      border: 0;
     }
   }
 
-  .Table-cell {
-    border: 0;
-  }
 }

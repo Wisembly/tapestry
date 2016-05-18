@@ -1,7 +1,11 @@
-$checkbox-height: r(4) !default;
-$checkbox-base-color: $iron !default;
-$checkbox-hover-color: $mint !default;
-$checkbox-checked-color: $mint !default;
+@if $import-form and $import-checkbox {
 
-$checkbox-inner-space: $mg--s !default;
-$checkbox-space-between: r(2) !default;
+  $checkbox-height: r(4) !default;
+  $checkbox-base-color: $iron !default;
+  $checkbox-hover-color: $mint !default;
+  $checkbox-checked-color: $mint !default;
+
+  $checkbox-inner-space: $mg--s !default;
+  $checkbox-space-between: r(2) !default;
+
+}

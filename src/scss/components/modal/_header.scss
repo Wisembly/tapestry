@@ -1,43 +1,47 @@
-.Modal-header {
-  display: flex;
-  flex-shrink: 0;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0;
-  background: $deep-sea-green;
-}
+@if $import-modal {
 
-.ModalHeader-btn {
-  width: $modal-header-btn-width;
-  padding: r(2) 0;
-  line-height: $lh--xl;
-  color: $regent-st-blue;
-
-  .Icon {
-    vertical-align: middle;
-  }
-}
-
-.Modal-title {
-  @include ellipsis;
-  flex-grow: 1;
-  margin: 0;
-  padding: r(2) $modal-header-btn-width;
-  font-size: $fz--l;
-  font-weight: $fw--semi-bold;
-  line-height: $lh--xl;
-  text-align: center;
-  color: $white;
-
-  .Icon {
-    margin-right: $mg--xs;
+  .Modal-header {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    background: $deep-sea-green;
   }
 
-  .ModalHeader-btn + & {
-    padding-left: 0;
+  .ModalHeader-btn {
+    width: $modal-header-btn-width;
+    padding: r(2) 0;
+    line-height: $lh--xl;
+    color: $regent-st-blue;
+
+    .Icon {
+      vertical-align: middle;
+    }
   }
 
-  + .ModalHeader-btn {
-    margin-left: -$modal-header-btn-width;
+  .Modal-title {
+    @include ellipsis;
+    flex-grow: 1;
+    margin: 0;
+    padding: r(2) $modal-header-btn-width;
+    font-size: $fz--l;
+    font-weight: $fw--semi-bold;
+    line-height: $lh--xl;
+    text-align: center;
+    color: $white;
+
+    .Icon {
+      margin-right: $mg--xs;
+    }
+
+    .ModalHeader-btn + & {
+      padding-left: 0;
+    }
+
+    + .ModalHeader-btn {
+      margin-left: -$modal-header-btn-width;
+    }
   }
+
 }
