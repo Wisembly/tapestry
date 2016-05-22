@@ -7,7 +7,6 @@ module.exports = function () {
   return gulp.src('./src/svg/icons/*.svg')
     .pipe(iconfont({
       fontName: 'tapestry-icons',
-      appendCodepoints: false,
       normalize: true,
       centerHorizontally: true,
       fontHeight: 100,
