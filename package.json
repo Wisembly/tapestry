@@ -24,7 +24,7 @@
     "gulp-stylestats": "1.2.0",
     "gulp-uglify": "1.5.3",
     "lodash": "4.13.1",
-    "prompt": "1.0.0",
+    "prompt": "0.3.0",
     "pug": "2.0.0-alpha8",
     "run-sequence": "1.2.1",
     "sass-lint": "1.7.0",
