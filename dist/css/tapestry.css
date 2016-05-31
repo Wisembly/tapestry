@@ -492,8 +492,7 @@ p {
   margin-bottom: 0.78571rem;
   font-size: 1rem;
   line-height: 1.57143rem;
-  -webkit-font-feature-settings: "kern" 1, "onum" 1, "liga" 1;
-          font-feature-settings: "kern" 1, "onum" 1, "liga" 1;
+  font-feature-settings: "kern" 1, "onum" 1, "liga" 1;
 }
 
 h1,
@@ -3178,18 +3177,21 @@ textarea {
 .Media--t {
   -webkit-align-items: flex-start;
       -ms-flex-align: start;
+              -ms-grid-row-align: flex-start;
           align-items: flex-start;
 }
 
 .Media--c {
   -webkit-align-items: center;
       -ms-flex-align: center;
+              -ms-grid-row-align: center;
           align-items: center;
 }
 
 .Media--b {
   -webkit-align-items: flex-end;
       -ms-flex-align: end;
+              -ms-grid-row-align: flex-end;
           align-items: flex-end;
 }
 
