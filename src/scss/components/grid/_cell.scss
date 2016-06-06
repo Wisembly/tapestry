@@ -6,12 +6,6 @@
     font-size: 1rem;
     word-wrap: break-word;
 
-    &.Grid-cell--centered {
-      display: block;
-      margin-right: auto;
-      margin-left: auto;
-    }
-
     .Grid--gutters & {
       padding-left: $grid-gutter-width;
     }

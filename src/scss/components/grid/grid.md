@@ -135,14 +135,15 @@ A 12 columns/grid-cells grid
 
 
 
-## Centered Grid-cells
+## Centered Grid
 
 ```html
-<div class="Grid">
-  <div class="Grid-cell Grid-cell--3 Grid-cell--centered">3 centered</div>
+<div class="Grid Grid--centered">
+  <div class="Grid-cell Grid-cell--1">1 centered</div>
+  <div class="Grid-cell Grid-cell--3">3 centered</div>
 </div>
-<div class="Grid">
-  <div class="Grid-cell Grid-cell--6 Grid-cell--centered">6 centered</div>
+<div class="Grid Grid--centered">
+  <div class="Grid-cell Grid-cell--6">6 centered</div>
 </div>
 ```
 
