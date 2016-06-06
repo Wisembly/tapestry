@@ -2503,6 +2503,12 @@ textarea {
   margin-left: -1.57143rem;
 }
 
+.Grid--centered {
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .Grid-cell {
   -webkit-flex: 0 0 auto;
       -ms-flex: 0 0 auto;
@@ -2510,12 +2516,6 @@ textarea {
   min-height: 1px;
   font-size: 1rem;
   word-wrap: break-word;
-}
-
-.Grid-cell.Grid-cell--centered {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .Grid--gutters .Grid-cell {
