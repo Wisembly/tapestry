@@ -15,4 +15,8 @@
     margin-left: -#{$grid-gutter-width};
   }
 
+  .Grid--centered {
+    justify-content: center;
+  }
+
 }
