@@ -181,6 +181,22 @@ A 12 columns/grid-cells grid
 
 
 
+## Centered Grid-cells
+
+.Grid-cell--centered centers itself thanks to flex.
+```html
+<div class="Grid">
+  <div class="Grid-cell Grid-cell--2">2</div>
+  <div class="Grid-cell Grid-cell--4 Grid-cell--centered">Remaining space</div>
+</div>
+<div class="Grid">
+  <div class="Grid-cell Grid-cell--3 Grid-cell--centered">3 centered</div>
+  <div class="Grid-cell Grid-cell--3 Grid-cell--centered">3 centered</div>
+</div>
+```
+
+
+
 ## Responsive Grid-cells
 Grid-cells width can change according to viewport. Use .Grid-cell--n@phablet for viewport greater than 414px, .Grid-cell--n@tablet for viewport greater than 768px and .Grid-cell--n@laptop for viewport greater than 1024px.
 ```html
