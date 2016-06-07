@@ -2528,6 +2528,12 @@ textarea {
           flex: 1 0 auto;
 }
 
+.Grid-cell--stretched {
+  -webkit-align-self: stretch;
+      -ms-flex-item-align: stretch;
+          align-self: stretch;
+}
+
 .Grid-cell--1 {
   width: 8.33333%;
 }
