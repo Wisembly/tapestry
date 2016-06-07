@@ -15,6 +15,10 @@
     flex: 1 0 auto;
   }
 
+  .Grid-cell--stretched {
+    align-self: stretch;
+  }
+
   @for $i from 1 to ($grid-column-number + 1) {
     .Grid-cell--#{$i} {
       width: percentage(($i / $grid-column-number));
