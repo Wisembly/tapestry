@@ -262,7 +262,13 @@
       "removeSelectors": [],
       "selectors": [
         ".Grid",
-        ".Grid--gutters"
+        ".Grid--gutters",
+        ".Grid--centered",
+        ".Grid--centered + .Grid--centered",
+        "#stretched-grid-cells ~ .Grid",
+        "#stretched-grid-cells ~ .Grid + .Grid--centered",
+        "#centered-grid-cells ~ .Grid",
+        "#centered-grid-cells ~ .Grid + .Grid"
       ],
       "readyEvent": null,
       "delay": 500
