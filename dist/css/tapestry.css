@@ -3946,6 +3946,34 @@ a {
   border-bottom-color: #e25c5b;
 }
 
+.Spinner {
+  display: inline-block;
+  width: 3.14286rem;
+  height: 3.14286rem;
+  border: 0.28571rem solid #d5d9da;
+  border-top-color: #07698d;
+  border-radius: 50%;
+  -webkit-animation: Spin .75s linear infinite;
+          animation: Spin .75s linear infinite;
+}
+
+.Spinner--s {
+  width: 1.57143rem;
+  height: 1.57143rem;
+  border-width: 0.14286rem;
+}
+
+.Spinner--l {
+  width: 6.28571rem;
+  height: 6.28571rem;
+  border-width: 0.57143rem;
+}
+
+.Spinner--neutral {
+  border-color: #3a434c;
+  border-top-color: #f7f7f7;
+}
+
 .Switch {
   display: inline-block;
   position: relative;

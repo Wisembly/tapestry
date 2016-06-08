@@ -1,0 +1,8 @@
+@if $import-spinner {
+
+  .Spinner--neutral {
+    border-color: $neutral-spinner-secondary-color;
+    border-top-color: $neutral-spinner-primary-color;
+  }
+
+}
