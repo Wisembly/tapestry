@@ -427,116 +427,120 @@
   content: "\ea67";
 }
 
-@mixin Icon--solid {
+@mixin Icon--smile {
   content: "\ea68";
 }
 
-@mixin Icon--solidFull {
+@mixin Icon--solid {
   content: "\ea69";
 }
 
-@mixin Icon--star {
+@mixin Icon--solidFull {
   content: "\ea6a";
 }
 
-@mixin Icon--starHalf {
+@mixin Icon--star {
   content: "\ea6b";
 }
 
-@mixin Icon--starOutlined {
+@mixin Icon--starHalf {
   content: "\ea6c";
 }
 
-@mixin Icon--stats {
+@mixin Icon--starOutlined {
   content: "\ea6d";
 }
 
-@mixin Icon--statsRounded {
+@mixin Icon--stats {
   content: "\ea6e";
 }
 
-@mixin Icon--stop {
+@mixin Icon--statsRounded {
   content: "\ea6f";
 }
 
-@mixin Icon--subtitle {
+@mixin Icon--stop {
   content: "\ea70";
 }
 
-@mixin Icon--sunrise {
+@mixin Icon--subtitle {
   content: "\ea71";
 }
 
-@mixin Icon--sunset {
+@mixin Icon--sunrise {
   content: "\ea72";
 }
 
-@mixin Icon--target {
+@mixin Icon--sunset {
   content: "\ea73";
 }
 
-@mixin Icon--themes {
+@mixin Icon--target {
   content: "\ea74";
 }
 
-@mixin Icon--title {
+@mixin Icon--themes {
   content: "\ea75";
 }
 
-@mixin Icon--trash {
+@mixin Icon--title {
   content: "\ea76";
 }
 
-@mixin Icon--triangleDown {
+@mixin Icon--trash {
   content: "\ea77";
 }
 
-@mixin Icon--triangleUp {
+@mixin Icon--triangleDown {
   content: "\ea78";
 }
 
-@mixin Icon--twitter {
+@mixin Icon--triangleUp {
   content: "\ea79";
 }
 
-@mixin Icon--typeAdd {
+@mixin Icon--twitter {
   content: "\ea7a";
 }
 
-@mixin Icon--typeParagraph {
+@mixin Icon--typeAdd {
   content: "\ea7b";
 }
 
-@mixin Icon--unlock {
+@mixin Icon--typeParagraph {
   content: "\ea7c";
 }
 
-@mixin Icon--unplugged {
+@mixin Icon--unlock {
   content: "\ea7d";
 }
 
-@mixin Icon--user {
+@mixin Icon--unplugged {
   content: "\ea7e";
 }
 
-@mixin Icon--voice {
+@mixin Icon--user {
   content: "\ea7f";
 }
 
-@mixin Icon--vote {
+@mixin Icon--voice {
   content: "\ea80";
 }
 
-@mixin Icon--wiFi {
+@mixin Icon--vote {
   content: "\ea81";
 }
 
-@mixin Icon--wisembly {
+@mixin Icon--wiFi {
   content: "\ea82";
 }
 
-@mixin Icon--wisemblyFull {
+@mixin Icon--wisembly {
   content: "\ea83";
+}
+
+@mixin Icon--wisemblyFull {
+  content: "\ea84";
 }
 
 
@@ -978,6 +982,10 @@
   
   .Icon--slack:before {
     @include Icon--slack;
+  }
+  
+  .Icon--smile:before {
+    @include Icon--smile;
   }
   
   .Icon--solid:before {

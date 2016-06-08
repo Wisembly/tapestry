@@ -533,6 +533,11 @@
 </div>
 
 <div class="s-Icon">
+  <i class="Icon Icon--smile"></i>
+  smile
+</div>
+
+<div class="s-Icon">
   <i class="Icon Icon--solid"></i>
   solid
 </div>
