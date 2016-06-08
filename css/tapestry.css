@@ -1573,116 +1573,120 @@ textarea {
   content: "\ea67";
 }
 
-.Icon--solid:before {
+.Icon--smile:before {
   content: "\ea68";
 }
 
-.Icon--solidFull:before {
+.Icon--solid:before {
   content: "\ea69";
 }
 
-.Icon--star:before {
+.Icon--solidFull:before {
   content: "\ea6a";
 }
 
-.Icon--starHalf:before {
+.Icon--star:before {
   content: "\ea6b";
 }
 
-.Icon--starOutlined:before {
+.Icon--starHalf:before {
   content: "\ea6c";
 }
 
-.Icon--stats:before {
+.Icon--starOutlined:before {
   content: "\ea6d";
 }
 
-.Icon--statsRounded:before {
+.Icon--stats:before {
   content: "\ea6e";
 }
 
-.Icon--stop:before {
+.Icon--statsRounded:before {
   content: "\ea6f";
 }
 
-.Icon--subtitle:before {
+.Icon--stop:before {
   content: "\ea70";
 }
 
-.Icon--sunrise:before {
+.Icon--subtitle:before {
   content: "\ea71";
 }
 
-.Icon--sunset:before {
+.Icon--sunrise:before {
   content: "\ea72";
 }
 
-.Icon--target:before {
+.Icon--sunset:before {
   content: "\ea73";
 }
 
-.Icon--themes:before {
+.Icon--target:before {
   content: "\ea74";
 }
 
-.Icon--title:before {
+.Icon--themes:before {
   content: "\ea75";
 }
 
-.Icon--trash:before {
+.Icon--title:before {
   content: "\ea76";
 }
 
-.Icon--triangleDown:before {
+.Icon--trash:before {
   content: "\ea77";
 }
 
-.Icon--triangleUp:before {
+.Icon--triangleDown:before {
   content: "\ea78";
 }
 
-.Icon--twitter:before {
+.Icon--triangleUp:before {
   content: "\ea79";
 }
 
-.Icon--typeAdd:before {
+.Icon--twitter:before {
   content: "\ea7a";
 }
 
-.Icon--typeParagraph:before {
+.Icon--typeAdd:before {
   content: "\ea7b";
 }
 
-.Icon--unlock:before {
+.Icon--typeParagraph:before {
   content: "\ea7c";
 }
 
-.Icon--unplugged:before {
+.Icon--unlock:before {
   content: "\ea7d";
 }
 
-.Icon--user:before {
+.Icon--unplugged:before {
   content: "\ea7e";
 }
 
-.Icon--voice:before {
+.Icon--user:before {
   content: "\ea7f";
 }
 
-.Icon--vote:before {
+.Icon--voice:before {
   content: "\ea80";
 }
 
-.Icon--wiFi:before {
+.Icon--vote:before {
   content: "\ea81";
 }
 
-.Icon--wisembly:before {
+.Icon--wiFi:before {
   content: "\ea82";
 }
 
-.Icon--wisemblyFull:before {
+.Icon--wisembly:before {
   content: "\ea83";
+}
+
+.Icon--wisemblyFull:before {
+  content: "\ea84";
 }
 
 .Avatar {
@@ -1957,7 +1961,7 @@ textarea {
 }
 
 .Dropdown-selectInput:after {
-  content: "\ea77";
+  content: "\ea78";
   position: absolute;
   top: 0.78571rem;
   right: 0.78571rem;
