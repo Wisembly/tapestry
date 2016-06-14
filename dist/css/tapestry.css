@@ -1942,6 +1942,7 @@ a {
   background-color: #fff;
   border: 1px solid #d5d9da;
   border-radius: 0.28571rem;
+  cursor: pointer;
   outline: 0;
 }
 
@@ -1954,6 +1955,10 @@ a {
   color: #a1a9ae;
   background: #d5d9da;
   cursor: not-allowed;
+}
+
+.Dropdown-selectInput:hover {
+  border-color: #a1a9ae;
 }
 
 .Dropdown-selectInput:focus {
@@ -2170,13 +2175,13 @@ a {
   color: #46b489;
 }
 
-.Checkbox-label:hover:before {
-  color: #46b489;
-}
-
 .Checkbox-input:disabled + .Checkbox-label:before {
   color: #a1a9ae;
   cursor: not-allowed;
+}
+
+.Checkbox-label:hover:before {
+  color: #46b489;
 }
 
 .Fieldset {
@@ -2278,6 +2283,10 @@ a {
   margin-bottom: 0;
 }
 
+.InputGroup + .InputGroup {
+  margin-top: 1.57143rem;
+}
+
 .InputGroup-item {
   -webkit-flex: 1;
       -ms-flex: 1;
@@ -2330,6 +2339,11 @@ a {
 
 .Input-addOn:not(.Btn) {
   cursor: default;
+}
+
+.Input-addOn + .Input-addOn,
+.Input-addOn + .Input-addOn.Btn {
+  margin-left: 0;
 }
 
 .InputGroup-prefix {
@@ -2739,7 +2753,7 @@ a {
   border-bottom-right-radius: 0.28571rem;
 }
 
-.BtnGroup > .Btn + .Btn:not(.Btn--block) {
+.BtnGroup > .Btn + .Btn {
   margin-left: -1px;
 }
 
@@ -2752,11 +2766,11 @@ a {
   border-radius: 0;
 }
 
-.BtnGroup-dropdown .Dropdown-toggle:first-child {
+.BtnGroup-dropdown:first-child .Dropdown-toggle {
   border-radius: 0.28571rem 0 0 0.28571rem;
 }
 
-.BtnGroup-dropdown .Dropdown-toggle:last-child {
+.BtnGroup-dropdown:last-child .Dropdown-toggle {
   border-radius: 0 0.28571rem 0.28571rem 0;
 }
 
@@ -2800,7 +2814,7 @@ a {
   line-height: 1.17857rem;
 }
 
-.Btn + .Btn:not(.Btn--block) {
+.Btn + .Btn {
   margin-left: 0.78571rem;
 }
 
@@ -2989,6 +3003,7 @@ a {
 
 .Btn--block + .Btn--block {
   margin-top: 0.78571rem;
+  margin-left: 0;
 }
 
 .Btn--s {
