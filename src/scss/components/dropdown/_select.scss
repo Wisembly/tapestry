@@ -13,6 +13,7 @@
     background-color: $white;
     border: 1px solid $base-border-color;
     border-radius: $base-radius;
+    cursor: pointer;
     outline: 0;
 
     &[aria-expanded="true"] {
@@ -24,6 +25,10 @@
       color: $gray-chateau;
       background: $iron;
       cursor: not-allowed;
+    }
+
+    &:hover {
+      border-color: $gray-chateau;
     }
 
     &:focus {
