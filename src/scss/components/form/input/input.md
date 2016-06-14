@@ -282,9 +282,15 @@ Items can be inlined with .Input--inline class.
 ```html
 
 <div class="InputGroup">
-  <input class="Input InputGroup-item" id="InputGrouped11" placeholder="Search…" aria-label="Search aria label">
+  <input class="Input InputGroup-item" id="InputGrouped5" placeholder="Search…"/>
+  <button class="Btn Btn--outline InputGroup-item Input-addOn">Reset</button>
+  <button class="Btn Btn--validate InputGroup-item Input-addOn">Validate</button>
+</div>
+
+<div class="InputGroup">
+  <input class="Input InputGroup-item" id="InputGrouped6" placeholder="Search…" aria-label="Search aria label">
   <select class="Select InputGroup-item" name="">
-    <option value="">Chose a foobar option</option>
+    <option value="">Choose a foobar option</option>
     <option value="foo" selected>foo</option>
     <option value="bar" data-label="Foo Label">bar</option>
     <option value="baz">baz</option>

@@ -24,7 +24,7 @@
         border-bottom-right-radius: $base-radius;
       }
 
-      + .Btn:not(.Btn--block) {
+      + .Btn {
         margin-left: -1px;
       }
     }
@@ -38,12 +38,16 @@
     .Dropdown-toggle {
       margin-left: -1px;
       border-radius: 0;
+    }
 
-      &:first-child {
+    &:first-child {
+      .Dropdown-toggle {
         border-radius: $base-radius 0 0 $base-radius;
       }
+    }
 
-      &:last-child {
+    &:last-child {
+      .Dropdown-toggle {
         border-radius: 0 $base-radius $base-radius 0;
       }
     }

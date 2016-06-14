@@ -14,6 +14,11 @@
     &:not(.Btn) {
       cursor: default;
     }
+
+    + .Input-addOn,
+    + .Input-addOn.Btn {
+      margin-left: 0;
+    }
   }
 
 }

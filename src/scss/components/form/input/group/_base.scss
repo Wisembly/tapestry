@@ -8,6 +8,10 @@
     .Input {
       margin-bottom: 0;
     }
+
+    + .InputGroup {
+      margin-top: $mg--m;
+    }
   }
 
   .InputGroup-item {
