@@ -474,177 +474,6 @@
   padding-bottom: 6.28571rem !important;
 }
 
-html,
-:root {
-  font-size: 87.5%;
-}
-
-body {
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-  line-height: 1.57143rem;
-  color: #3a434c;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-}
-
-p {
-  margin-top: 0;
-  margin-bottom: 0.78571rem;
-  font-size: 1rem;
-  line-height: 1.57143rem;
-  font-feature-settings: "kern" 1, "onum" 1, "liga" 1;
-}
-
-h1,
-h2 {
-  line-height: 3.14286rem;
-}
-
-h2,
-h3,
-h4 {
-  margin-top: 1.57143rem;
-  margin-bottom: 1.57143rem;
-  font-weight: 600;
-}
-
-h3,
-h4 {
-  line-height: 2.35714rem;
-}
-
-h1 {
-  margin-top: 3.14286rem;
-  margin-bottom: 3.14286rem;
-  font-size: 2.48832rem;
-  font-weight: 400;
-}
-
-h2 {
-  font-size: 2.0736rem;
-}
-
-h3 {
-  font-size: 1.728rem;
-}
-
-h4 {
-  font-size: 1.44rem;
-}
-
-h5 {
-  margin-top: 0.78571rem;
-  margin-bottom: 0.78571rem;
-  font-size: 1.2rem;
-  font-weight: 600;
-  line-height: 1.57143rem;
-}
-
-h6 {
-  margin-top: 0.39286rem;
-  margin-bottom: 0.39286rem;
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 1.57143rem;
-}
-
-small {
-  display: inline-block;
-  font-size: 0.83333rem;
-  line-height: 1.17857rem;
-}
-
-strong {
-  font-weight: 600;
-}
-
-ul {
-  margin: 0;
-  padding-left: 1.17857rem;
-  list-style: disc;
-}
-
-ul + ul,
-ul + ol {
-  padding-top: 1.57143rem;
-}
-
-ol {
-  margin: 0;
-  padding-left: 1.17857rem;
-  list-style: decimal;
-}
-
-ol + ul,
-ol + ol {
-  padding-top: 1.57143rem;
-}
-
-a {
-  font-weight: 600;
-  text-decoration: none;
-  color: #07698d;
-}
-
-.t-title {
-  font-size: 1.2rem;
-  font-weight: 600;
-  color: #3a434c;
-}
-
-.t-caption {
-  font-size: 0.83333rem;
-  line-height: 1.17857rem;
-  color: #708189;
-}
-
-.t-neutral {
-  color: #a1a9ae !important;
-}
-
-.t-primary {
-  color: #07698d !important;
-}
-
-.t-validate {
-  color: #46b489 !important;
-}
-
-.t-info {
-  color: #f1bc33 !important;
-}
-
-.t-error {
-  color: #e25c5b !important;
-}
-
-.Line {
-  display: block;
-  margin: 0.78571rem 0;
-  border: 0;
-  border-top: 1px solid #d5d9da;
-}
-
-.Line--labeled {
-  position: relative;
-  margin-top: 2.35714rem;
-  text-align: center;
-}
-
-.Line-label {
-  display: inline-block;
-  padding: 0 0.78571rem;
-  font-size: 0.78571rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  color: #a1a9ae;
-  background: #fff;
-  border: 1px solid #d5d9da;
-  border-radius: 0.78571rem;
-  -webkit-transform: translate3d(0, -50%, 0);
-          transform: translate3d(0, -50%, 0);
-}
-
 /*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
 /**
    * 1. Change the default font family in all browsers (opinionated).
@@ -1049,6 +878,177 @@ textarea {
   /* 1 */
   font: inherit;
   /* 2 */
+}
+
+html,
+:root {
+  font-size: 87.5%;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  line-height: 1.57143rem;
+  color: #3a434c;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0.78571rem;
+  font-size: 1rem;
+  line-height: 1.57143rem;
+  font-feature-settings: "kern" 1, "onum" 1, "liga" 1;
+}
+
+h1,
+h2 {
+  line-height: 3.14286rem;
+}
+
+h2,
+h3,
+h4 {
+  margin-top: 1.57143rem;
+  margin-bottom: 1.57143rem;
+  font-weight: 600;
+}
+
+h3,
+h4 {
+  line-height: 2.35714rem;
+}
+
+h1 {
+  margin-top: 3.14286rem;
+  margin-bottom: 3.14286rem;
+  font-size: 2.48832rem;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 2.0736rem;
+}
+
+h3 {
+  font-size: 1.728rem;
+}
+
+h4 {
+  font-size: 1.44rem;
+}
+
+h5 {
+  margin-top: 0.78571rem;
+  margin-bottom: 0.78571rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.57143rem;
+}
+
+h6 {
+  margin-top: 0.39286rem;
+  margin-bottom: 0.39286rem;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.57143rem;
+}
+
+small {
+  display: inline-block;
+  font-size: 0.83333rem;
+  line-height: 1.17857rem;
+}
+
+strong {
+  font-weight: 600;
+}
+
+ul {
+  margin: 0;
+  padding-left: 1.17857rem;
+  list-style: disc;
+}
+
+ul + ul,
+ul + ol {
+  padding-top: 1.57143rem;
+}
+
+ol {
+  margin: 0;
+  padding-left: 1.17857rem;
+  list-style: decimal;
+}
+
+ol + ul,
+ol + ol {
+  padding-top: 1.57143rem;
+}
+
+a {
+  font-weight: 600;
+  text-decoration: none;
+  color: #07698d;
+}
+
+.t-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #3a434c;
+}
+
+.t-caption {
+  font-size: 0.83333rem;
+  line-height: 1.17857rem;
+  color: #708189;
+}
+
+.t-neutral {
+  color: #a1a9ae !important;
+}
+
+.t-primary {
+  color: #07698d !important;
+}
+
+.t-validate {
+  color: #46b489 !important;
+}
+
+.t-info {
+  color: #f1bc33 !important;
+}
+
+.t-error {
+  color: #e25c5b !important;
+}
+
+.Line {
+  display: block;
+  margin: 0.78571rem 0;
+  border: 0;
+  border-top: 1px solid #d5d9da;
+}
+
+.Line--labeled {
+  position: relative;
+  margin-top: 2.35714rem;
+  text-align: center;
+}
+
+.Line-label {
+  display: inline-block;
+  padding: 0 0.78571rem;
+  font-size: 0.78571rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #a1a9ae;
+  background: #fff;
+  border: 1px solid #d5d9da;
+  border-radius: 0.78571rem;
+  -webkit-transform: translate3d(0, -50%, 0);
+          transform: translate3d(0, -50%, 0);
 }
 
 .is-spinning {
