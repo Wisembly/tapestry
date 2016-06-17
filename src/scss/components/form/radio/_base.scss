@@ -37,6 +37,16 @@
         }
       }
     }
+
+    &:disabled {
+      + .Radio-label {
+        cursor: not-allowed;
+      }
+
+      + .Radio-label:before {
+        color: $form-disabled-color;
+      }
+    }
   }
 
 }

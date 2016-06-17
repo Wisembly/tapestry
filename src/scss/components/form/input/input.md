@@ -238,6 +238,17 @@ Items can be inlined with .Input--inline class.
 </div>
 ```
 
+```html
+<div class="Radio">
+  <input name="name" id="foobar" type="radio" class="Radio-input" disabled>
+  <label for="foobar" class="Radio-label">Foobar</label>
+</div>
+<div class="Radio">
+  <input name="name" id="foobaz" type="radio" class="Radio-input" checked disabled>
+  <label for="foobaz" class="Radio-label">Foobaz</label>
+</div>
+```
+
 ## Prefixed and suffixed
 
 ```html
