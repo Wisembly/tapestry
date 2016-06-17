@@ -37,6 +37,11 @@
         }
       }
     }
+
+    &:disabled + .Checkbox-label:before {
+      color: $gray-chateau;
+      cursor: not-allowed;
+    }
   }
 
 }
