@@ -2441,6 +2441,14 @@ a {
   color: #46b489;
 }
 
+.Radio-input:disabled + .Radio-label {
+  cursor: not-allowed;
+}
+
+.Radio-input:disabled + .Radio-label:before {
+  color: #a1a9ae;
+}
+
 .Radio-label:hover:before {
   color: #46b489;
 }
