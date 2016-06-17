@@ -8,3 +8,4 @@ visual-tests/tests/**/
 env.js
 npm-debug.log
 **/.DS_Store
+*.swp
