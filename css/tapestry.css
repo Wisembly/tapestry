@@ -2302,7 +2302,7 @@ a {
   border-radius: 0;
 }
 
-.InputGroup-item:focus {
+.InputGroup-item:hover, .InputGroup-item:focus {
   z-index: 1;
 }
 
@@ -2344,6 +2344,10 @@ a {
 .Input-addOn + .Input-addOn,
 .Input-addOn + .Input-addOn.Btn {
   margin-left: 0;
+}
+
+.Input-addOn + .Input-addOn.Btn--outline {
+  margin-left: -1px;
 }
 
 .InputGroup-prefix {
