@@ -2174,6 +2174,11 @@ a {
   color: #46b489;
 }
 
+.Checkbox-input:disabled + .Checkbox-label:before {
+  color: #a1a9ae;
+  cursor: not-allowed;
+}
+
 .Fieldset {
   padding: 0 0 0.78571rem;
   font-size: 0;

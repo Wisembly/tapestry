@@ -208,8 +208,16 @@ Items can be inlined with .Input--inline class.
   <label for="checkbox1" class="Checkbox-label">Would you like to receive our newsletter?</label>
 </div>
 <div class="Checkbox">
-  <input name="checkbox2" id="checkbox1" type="checkbox" class="Checkbox-input" checked>
+  <input name="checkbox2" id="checkbox2" type="checkbox" class="Checkbox-input" checked>
   <label for="checkbox2" class="Checkbox-label">I am a robot</label>
+</div>
+<div class="Checkbox">
+  <input name="checkbox3" id="checkbox3" type="checkbox" class="Checkbox-input" disabled>
+  <label for="checkbox3" class="Checkbox-label">I am disabled</label>
+</div>
+<div class="Checkbox">
+  <input name="checkbox4" id="checkbox4" type="checkbox" class="Checkbox-input" disabled checked>
+  <label for="checkbox4" class="Checkbox-label">I am disabled and checked!</label>
 </div>
 ```
 
