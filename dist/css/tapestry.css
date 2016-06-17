@@ -2175,9 +2175,12 @@ a {
   color: #46b489;
 }
 
+.Checkbox-input:disabled + .Checkbox-label {
+  cursor: not-allowed;
+}
+
 .Checkbox-input:disabled + .Checkbox-label:before {
   color: #a1a9ae;
-  cursor: not-allowed;
 }
 
 .Checkbox-label:hover:before {

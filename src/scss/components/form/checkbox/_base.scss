@@ -38,9 +38,14 @@
       }
     }
 
-    &:disabled + .Checkbox-label:before {
-      color: $gray-chateau;
-      cursor: not-allowed;
+    &:disabled {
+      + .Checkbox-label {
+        cursor: not-allowed;
+      }
+
+      + .Checkbox-label:before {
+        color: $form-disabled-color;
+      }
     }
   }
 
