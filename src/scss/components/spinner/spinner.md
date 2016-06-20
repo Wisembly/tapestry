@@ -26,3 +26,9 @@
   <div class="Spinner Spinner--neutral Spinner--l"></div>
 </div>
 ```
+
+## Types
+
+```html
+<div class="Spinner Spinner--infinite"></div>
+```
