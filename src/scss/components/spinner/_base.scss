@@ -10,4 +10,8 @@
     animation: Spin .75s linear infinite;
   }
 
+  .Spinner--infinite {
+    animation-name: Rewind;
+  }
+
 }

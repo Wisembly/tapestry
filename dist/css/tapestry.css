@@ -1084,6 +1084,28 @@ a {
   }
 }
 
+@-webkit-keyframes Rewind {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+  }
+}
+
+@keyframes Rewind {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+  }
+}
+
 @-webkit-keyframes PopUp {
   0% {
     -webkit-transform: scale(0.9);
@@ -3757,6 +3779,11 @@ a {
   border-radius: 50%;
   -webkit-animation: Spin .75s linear infinite;
           animation: Spin .75s linear infinite;
+}
+
+.Spinner--infinite {
+  -webkit-animation-name: Rewind;
+          animation-name: Rewind;
 }
 
 .Spinner--s {
