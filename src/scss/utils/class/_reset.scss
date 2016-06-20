@@ -12,4 +12,7 @@
     list-style: none;
   }
 
+  [disabled] {
+    cursor: not-allowed !important;
+  }
 }
