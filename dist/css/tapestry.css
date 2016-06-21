@@ -1148,6 +1148,36 @@ a {
   }
 }
 
+@-webkit-keyframes Ellipsis {
+  0% {
+    content: "";
+  }
+  25% {
+    content: ".";
+  }
+  50% {
+    content: "..";
+  }
+  75% {
+    content: "...";
+  }
+}
+
+@keyframes Ellipsis {
+  0% {
+    content: "";
+  }
+  25% {
+    content: ".";
+  }
+  50% {
+    content: "..";
+  }
+  75% {
+    content: "...";
+  }
+}
+
 @font-face {
   font-family: "tapestry-icons";
   src: url("../fonts/tapestry-icons.woff2") format("woff2"), url("../fonts/tapestry-icons.woff") format("woff");
@@ -3260,6 +3290,87 @@ a {
   background-color: none;
 }
 
+.Loader {
+  display: none;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+              -ms-grid-row-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0.78571rem;
+  color: #3a434c;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.is-loading > .Loader {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: progress;
+}
+
+.is-errored > .Loader {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: not-allowed;
+}
+
+.Loader--stacked {
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.is-errored .Loader-spinner {
+  display: none;
+}
+
+.Loader-error {
+  display: none;
+  color: #e25c5b;
+}
+
+.is-errored .Loader-error {
+  display: inline-block;
+}
+
+.is-loading,
+.is-errored {
+  position: relative;
+}
+
+.Loader-label {
+  padding-left: 0.78571rem;
+}
+
+.is-errored .Loader-label {
+  display: none;
+}
+
+.Loader--stacked .Loader-label {
+  padding-top: 0.78571rem;
+  padding-left: 0;
+}
+
+.Loader-label:after {
+  content: "";
+  display: inline-block;
+  width: 1.57143rem;
+  font-size: 14px;
+  -webkit-animation: Ellipsis 2s ease-in-out;
+          animation: Ellipsis 2s ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
 .Media {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3777,8 +3888,8 @@ a {
   border: 0.28571rem solid #d5d9da;
   border-top-color: #07698d;
   border-radius: 50%;
-  -webkit-animation: Spin .75s linear infinite;
-          animation: Spin .75s linear infinite;
+  -webkit-animation: Spin 0.75s linear infinite;
+          animation: Spin 0.75s linear infinite;
 }
 
 .Spinner--infinite {
