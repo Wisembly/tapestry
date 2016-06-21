@@ -1,0 +1,13 @@
+@if $import-animations and $import-loading-states and $import-spinner {
+
+  .Loader--cover {
+    @include pos(a 0);
+    background: $loader-base-bg;
+
+    &.Loader--dark {
+      color: $loader-dark-color;
+      background: $loader-dark-bg;
+    }
+  }
+
+}
