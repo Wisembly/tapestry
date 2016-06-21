@@ -93,6 +93,16 @@
 </div>
 
 <div class="s-Icon">
+  <i class="Icon Icon--aside"></i>
+  aside
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--audio"></i>
+  audio
+</div>
+
+<div class="s-Icon">
   <i class="Icon Icon--azure"></i>
   azure
 </div>
@@ -243,6 +253,11 @@
 </div>
 
 <div class="s-Icon">
+  <i class="Icon Icon--file"></i>
+  file
+</div>
+
+<div class="s-Icon">
   <i class="Icon Icon--filters"></i>
   filters
 </div>
@@ -295,6 +310,11 @@
 <div class="s-Icon">
   <i class="Icon Icon--home"></i>
   home
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--image"></i>
+  image
 </div>
 
 <div class="s-Icon">
@@ -458,6 +478,11 @@
 </div>
 
 <div class="s-Icon">
+  <i class="Icon Icon--pictureInPicture"></i>
+  pictureInPicture
+</div>
+
+<div class="s-Icon">
   <i class="Icon Icon--play"></i>
   play
 </div>
@@ -475,6 +500,11 @@
 <div class="s-Icon">
   <i class="Icon Icon--popup"></i>
   popup
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--presentation"></i>
+  presentation
 </div>
 
 <div class="s-Icon">
@@ -545,6 +575,11 @@
 <div class="s-Icon">
   <i class="Icon Icon--solidFull"></i>
   solidFull
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--spreadsheet"></i>
+  spreadsheet
 </div>
 
 <div class="s-Icon">
@@ -650,6 +685,11 @@
 <div class="s-Icon">
   <i class="Icon Icon--user"></i>
   user
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--video"></i>
+  video
 </div>
 
 <div class="s-Icon">
