@@ -1,0 +1,46 @@
+@if $import-animations and $import-loading-states and $import-spinner {
+
+  .Loader {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: $pd--s;
+    color: $loader-base-color;
+    user-select: none;
+
+    #{$loader-loading-class} > & {
+      display: flex;
+      cursor: progress;
+    }
+
+    #{$loader-failed-class} > & {
+      display: flex;
+      cursor: not-allowed;
+    }
+  }
+
+  .Loader--stacked {
+    flex-direction: column;
+  }
+
+  .Loader-spinner {
+    #{$loader-failed-class} & {
+      display: none;
+    }
+  }
+
+  .Loader-error {
+    display: none;
+    color: $loader-errored-color;
+
+    #{$loader-failed-class} & {
+      display: inline-block;
+    }
+  }
+
+  #{$loader-loading-class},
+  #{$loader-failed-class} {
+    position: relative;
+  }
+
+}
