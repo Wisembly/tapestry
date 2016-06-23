@@ -1657,68 +1657,80 @@ a {
   content: "\ea7c";
 }
 
-.Icon--title:before {
+.Icon--title--1:before {
   content: "\ea7d";
 }
 
-.Icon--trash:before {
+.Icon--title--2:before {
   content: "\ea7e";
 }
 
-.Icon--triangleDown:before {
+.Icon--title:before {
   content: "\ea7f";
 }
 
-.Icon--triangleUp:before {
+.Icon--titles:before {
   content: "\ea80";
 }
 
-.Icon--twitter:before {
+.Icon--trash:before {
   content: "\ea81";
 }
 
-.Icon--typeAdd:before {
+.Icon--triangleDown:before {
   content: "\ea82";
 }
 
-.Icon--typeParagraph:before {
+.Icon--triangleUp:before {
   content: "\ea83";
 }
 
-.Icon--unlock:before {
+.Icon--twitter:before {
   content: "\ea84";
 }
 
-.Icon--unplugged:before {
+.Icon--typeAdd:before {
   content: "\ea85";
 }
 
-.Icon--user:before {
+.Icon--typeParagraph:before {
   content: "\ea86";
 }
 
-.Icon--video:before {
+.Icon--unlock:before {
   content: "\ea87";
 }
 
-.Icon--voice:before {
+.Icon--unplugged:before {
   content: "\ea88";
 }
 
-.Icon--vote:before {
+.Icon--user:before {
   content: "\ea89";
 }
 
-.Icon--wiFi:before {
+.Icon--video:before {
   content: "\ea8a";
 }
 
-.Icon--wisembly:before {
+.Icon--voice:before {
   content: "\ea8b";
 }
 
-.Icon--wisemblyFull:before {
+.Icon--vote:before {
   content: "\ea8c";
+}
+
+.Icon--wiFi:before {
+  content: "\ea8d";
+}
+
+.Icon--wisembly:before {
+  content: "\ea8e";
+}
+
+.Icon--wisemblyFull:before {
+  content: "\ea8f";
 }
 
 .Avatar {
@@ -1998,7 +2010,7 @@ a {
 }
 
 .Dropdown-selectInput:after {
-  content: "\ea7f";
+  content: "\ea82";
   position: absolute;
   top: 0.78571rem;
   right: 0.78571rem;
