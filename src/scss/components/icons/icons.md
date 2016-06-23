@@ -638,8 +638,23 @@
 </div>
 
 <div class="s-Icon">
+  <i class="Icon Icon--title--1"></i>
+  title--1
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--title--2"></i>
+  title--2
+</div>
+
+<div class="s-Icon">
   <i class="Icon Icon--title"></i>
   title
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--titles"></i>
+  titles
 </div>
 
 <div class="s-Icon">

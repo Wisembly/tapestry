@@ -511,68 +511,80 @@
   content: "\ea7c";
 }
 
-@mixin Icon--title {
+@mixin Icon--title--1 {
   content: "\ea7d";
 }
 
-@mixin Icon--trash {
+@mixin Icon--title--2 {
   content: "\ea7e";
 }
 
-@mixin Icon--triangleDown {
+@mixin Icon--title {
   content: "\ea7f";
 }
 
-@mixin Icon--triangleUp {
+@mixin Icon--titles {
   content: "\ea80";
 }
 
-@mixin Icon--twitter {
+@mixin Icon--trash {
   content: "\ea81";
 }
 
-@mixin Icon--typeAdd {
+@mixin Icon--triangleDown {
   content: "\ea82";
 }
 
-@mixin Icon--typeParagraph {
+@mixin Icon--triangleUp {
   content: "\ea83";
 }
 
-@mixin Icon--unlock {
+@mixin Icon--twitter {
   content: "\ea84";
 }
 
-@mixin Icon--unplugged {
+@mixin Icon--typeAdd {
   content: "\ea85";
 }
 
-@mixin Icon--user {
+@mixin Icon--typeParagraph {
   content: "\ea86";
 }
 
-@mixin Icon--video {
+@mixin Icon--unlock {
   content: "\ea87";
 }
 
-@mixin Icon--voice {
+@mixin Icon--unplugged {
   content: "\ea88";
 }
 
-@mixin Icon--vote {
+@mixin Icon--user {
   content: "\ea89";
 }
 
-@mixin Icon--wiFi {
+@mixin Icon--video {
   content: "\ea8a";
 }
 
-@mixin Icon--wisembly {
+@mixin Icon--voice {
   content: "\ea8b";
 }
 
-@mixin Icon--wisemblyFull {
+@mixin Icon--vote {
   content: "\ea8c";
+}
+
+@mixin Icon--wiFi {
+  content: "\ea8d";
+}
+
+@mixin Icon--wisembly {
+  content: "\ea8e";
+}
+
+@mixin Icon--wisemblyFull {
+  content: "\ea8f";
 }
 
 
@@ -1100,8 +1112,20 @@
     @include Icon--themes;
   }
   
+  .Icon--title--1:before {
+    @include Icon--title--1;
+  }
+  
+  .Icon--title--2:before {
+    @include Icon--title--2;
+  }
+  
   .Icon--title:before {
     @include Icon--title;
+  }
+  
+  .Icon--titles:before {
+    @include Icon--titles;
   }
   
   .Icon--trash:before {
