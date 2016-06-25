@@ -10,7 +10,6 @@
     }
   }
 
-
   @keyframes Rewind {
     0% {
       transform: rotate(0deg);
@@ -21,6 +20,22 @@
     }
   }
 
+  @keyframes Grow {
+    0% {
+      transform: scale(0);
+      transform-origin: center center;
+    }
+
+    90% {
+      transform: scale(1.1);
+      transform-origin: center center;
+    }
+
+    100% {
+      transform: scale(1);
+      transform-origin: center center;
+    }
+  }
 
   @keyframes PopUp {
     0% {
