@@ -1106,6 +1106,48 @@ a {
   }
 }
 
+@-webkit-keyframes Grow {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+  }
+  90% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+  }
+}
+
+@keyframes Grow {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+  }
+  90% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+  }
+}
+
 @-webkit-keyframes PopUp {
   0% {
     -webkit-transform: scale(0.9);
@@ -2889,6 +2931,7 @@ a {
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
+  position: relative;
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
@@ -2906,6 +2949,7 @@ a {
   background-color: #a1a9ae;
   border: 0;
   border-radius: 0.28571rem;
+  cursor: pointer;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
@@ -3294,6 +3338,90 @@ a {
   background-color: none;
 }
 
+.is-loading > .Btn {
+  color: transparent;
+  background: #07698d;
+}
+
+.is-loading > .Btn:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: "";
+  width: 1.57143rem;
+  height: 1.57143rem;
+  margin: auto;
+  border: 3px solid #084d66;
+  border-top-color: #fff;
+  border-radius: 50%;
+  -webkit-animation: Spin 1s linear infinite;
+          animation: Spin 1s linear infinite;
+}
+
+.has-failed > .Btn {
+  color: transparent;
+  background: #e25c5b;
+}
+
+.has-failed > .Btn:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: inline-block;
+  font-family: "tapestry-icons";
+  font-size: 1rem;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.57143rem;
+  text-transform: none;
+  text-decoration: inherit;
+  vertical-align: middle;
+  speak: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  content: "\ea24";
+  line-height: 3.14286rem;
+  color: #fff;
+  -webkit-animation: Grow 0.5s linear;
+          animation: Grow 0.5s linear;
+}
+
+.has-completed > .Btn {
+  color: transparent;
+  background: #46b489;
+}
+
+.has-completed > .Btn:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: inline-block;
+  font-family: "tapestry-icons";
+  font-size: 1rem;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.57143rem;
+  text-transform: none;
+  text-decoration: inherit;
+  vertical-align: middle;
+  speak: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  content: "\ea1e";
+  line-height: 3.14286rem;
+  color: #fff;
+  -webkit-animation: Grow 0.5s linear;
+          animation: Grow 0.5s linear;
+}
+
 .Loader {
   display: none;
   -webkit-align-items: center;
@@ -3318,7 +3446,7 @@ a {
   cursor: progress;
 }
 
-.is-errored > .Loader {
+.has-failed > .Loader {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -3331,7 +3459,7 @@ a {
           flex-direction: column;
 }
 
-.is-errored .Loader-spinner {
+.has-failed .Loader-spinner {
   display: none;
 }
 
@@ -3340,12 +3468,12 @@ a {
   color: #e25c5b;
 }
 
-.is-errored .Loader-error {
+.has-failed .Loader-error {
   display: inline-block;
 }
 
 .is-loading,
-.is-errored {
+.has-failed {
   position: relative;
 }
 
@@ -3353,7 +3481,7 @@ a {
   padding-left: 0.78571rem;
 }
 
-.is-errored .Loader-label {
+.has-failed .Loader-label {
   display: none;
 }
 
@@ -3367,12 +3495,22 @@ a {
   display: inline-block;
   width: 1.57143rem;
   font-size: 14px;
-  -webkit-animation: Ellipsis 2s ease-in-out;
-          animation: Ellipsis 2s ease-in-out;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
+  -webkit-animation: Ellipsis 2s linear infinite;
+          animation: Ellipsis 2s linear infinite;
+}
+
+.Loader--cover {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.95);
+}
+
+.Loader--cover.Loader--dark {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.9);
 }
 
 .Media {
