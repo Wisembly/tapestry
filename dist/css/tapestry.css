@@ -2886,7 +2886,15 @@ a {
 }
 
 .Btn {
-  display: inline-block;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding: 0.78571rem 1.57143rem;
   font-size: 1rem;
   font-weight: 600;
@@ -2915,18 +2923,14 @@ a {
   cursor: not-allowed;
 }
 
-.Btn .Icon {
-  display: inline-block;
-  line-height: 1.57143rem;
-  vertical-align: middle;
-}
-
-.Btn .Icon--s {
-  line-height: 1.17857rem;
-}
-
 .Btn + .Btn {
   margin-left: 0.78571rem;
+}
+
+.Btn-icon {
+  -webkit-flex: 0 0 auto;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
 }
 
 .Btn--primary {
