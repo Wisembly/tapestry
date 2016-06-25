@@ -1,0 +1,50 @@
+@if $import-animations and $import-loading-states and $import-spinner {
+
+  .Btn {
+    #{$btn-loading-selector} > & {
+      color: transparent;
+      background: $btn-loading-bg;
+
+      &:after {
+        @include pos(a 0);
+        content: "";
+        width: r(4);
+        height: r(4);
+        margin: auto;
+        border: $btn-loading-spinner-thickness solid $btn-loading-spinner-secondary-color;
+        border-top-color: $btn-loading-spinner-primary-color;
+        border-radius: 50%;
+        animation: Spin $btn-loading-duration linear infinite;
+      }
+    }
+
+    #{$btn-failed-selector} > & {
+      color: transparent;
+      background: $btn-failed-bg;
+
+      &:after {
+        @include pos(a 0);
+        @include Icon;
+        @include Icon--cross;
+        line-height: r(8);
+        color: $btn-failed-color;
+        animation: Grow $btn-failed-duration linear;
+      }
+    }
+
+    #{$btn-completed-selector} > & {
+      color: transparent;
+      background: $btn-completed-bg;
+
+      &:after {
+        @include pos(a 0);
+        @include Icon;
+        @include Icon--checkmark;
+        line-height: r(8);
+        color: $btn-completed-color;
+        animation: Grow $btn-completed-duration linear;
+      }
+    }
+  }
+
+}

@@ -1160,6 +1160,48 @@ a {
   }
 }
 
+@-webkit-keyframes Grow {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+  }
+  90% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+  }
+}
+
+@keyframes Grow {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+  }
+  90% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+  }
+}
+
 @-webkit-keyframes PopUp {
   0% {
     -webkit-transform: scale(0.9);
@@ -2807,6 +2849,7 @@ a {
   display: block;
 }
 
+<<<<<<< 680e63347f67c6dcf2276a54c0490b4125ef2446
 .Checkbox + .Checkbox {
   margin-top: 0.71429rem;
 }
@@ -2826,9 +2869,30 @@ a {
 
 .Checkbox-label {
   display: inline-block;
+=======
+.Btn {
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0.78571rem 1.57143rem;
+>>>>>>> Loading-states | Add btn-status
   font-size: 1rem;
   line-height: 1.42857rem;
   vertical-align: middle;
+<<<<<<< 680e63347f67c6dcf2276a54c0490b4125ef2446
+=======
+  color: #fff;
+  background-color: #a1a9ae;
+  border: 0;
+  border-radius: 0.28571rem;
+>>>>>>> Loading-states | Add btn-status
   cursor: pointer;
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -3468,6 +3532,90 @@ a {
   .Grid-cell--12\@laptop {
     width: 100%;
   }
+}
+
+.is-loading > .Btn {
+  color: transparent;
+  background: #07698d;
+}
+
+.is-loading > .Btn:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: "";
+  width: 1.57143rem;
+  height: 1.57143rem;
+  margin: auto;
+  border: 3px solid #084d66;
+  border-top-color: #fff;
+  border-radius: 50%;
+  -webkit-animation: Spin 1s linear infinite;
+          animation: Spin 1s linear infinite;
+}
+
+.has-failed > .Btn {
+  color: transparent;
+  background: #e25c5b;
+}
+
+.has-failed > .Btn:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: inline-block;
+  font-family: "tapestry-icons";
+  font-size: 1rem;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.57143rem;
+  text-transform: none;
+  text-decoration: inherit;
+  vertical-align: middle;
+  speak: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  content: "\ea24";
+  line-height: 3.14286rem;
+  color: #fff;
+  -webkit-animation: Grow 0.5s linear;
+          animation: Grow 0.5s linear;
+}
+
+.has-completed > .Btn {
+  color: transparent;
+  background: #46b489;
+}
+
+.has-completed > .Btn:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: inline-block;
+  font-family: "tapestry-icons";
+  font-size: 1rem;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.57143rem;
+  text-transform: none;
+  text-decoration: inherit;
+  vertical-align: middle;
+  speak: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  content: "\ea1e";
+  line-height: 3.14286rem;
+  color: #fff;
+  -webkit-animation: Grow 0.5s linear;
+          animation: Grow 0.5s linear;
 }
 
 .Loader {
