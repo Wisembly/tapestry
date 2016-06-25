@@ -3,19 +3,13 @@
   .Btn {
     @include Button;
 
-    .Icon {
-      display: inline-block;
-      line-height: $base-lh;
-      vertical-align: middle;
-    }
-
-    .Icon--s {
-      line-height: $lh--s;
-    }
-
     + .Btn {
       margin-left: $mg--s;
     }
+  }
+
+  .Btn-icon {
+    flex: 0 0 auto;
   }
 
 }
