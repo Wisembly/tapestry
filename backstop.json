@@ -188,6 +188,7 @@
         ".Icon--info",
         ".Icon--label",
         ".Icon--like",
+        ".Icon--link",
         ".Icon--linkDropbox",
         ".Icon--linkGoogle",
         ".Icon--linkedin",

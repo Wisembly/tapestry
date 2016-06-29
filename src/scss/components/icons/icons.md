@@ -333,6 +333,11 @@
 </div>
 
 <div class="s-Icon">
+  <i class="Icon Icon--link"></i>
+  link
+</div>
+
+<div class="s-Icon">
   <i class="Icon Icon--linkDropbox"></i>
   linkDropbox
 </div>
