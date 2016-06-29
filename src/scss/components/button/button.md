@@ -140,6 +140,11 @@
   <i class="Btn-icon Icon Icon--like"></i>
   Button with icon
 </button>
+
+<button class="Btn Btn--outline has-icon">
+  <i class="Btn-icon Icon Icon--like"></i>
+  Button with icon
+</button>
 ```
 
 ## Colors

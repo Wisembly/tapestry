@@ -3028,6 +3028,7 @@ a {
 
 .Btn--outline.has-icon .Btn-icon {
   border-color: inherit;
+  padding: 0.71429rem 0.78571rem;
 }
 
 .Btn--squared {
