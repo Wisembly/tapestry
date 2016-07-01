@@ -411,184 +411,188 @@
   content: "\ea63";
 }
 
-@mixin Icon--public {
+@mixin Icon--privateNote {
   content: "\ea64";
 }
 
-@mixin Icon--radio {
+@mixin Icon--public {
   content: "\ea65";
 }
 
-@mixin Icon--recurring {
+@mixin Icon--radio {
   content: "\ea66";
 }
 
-@mixin Icon--refresh {
+@mixin Icon--recurring {
   content: "\ea67";
 }
 
-@mixin Icon--reply {
+@mixin Icon--refresh {
   content: "\ea68";
 }
 
-@mixin Icon--reset {
+@mixin Icon--reply {
   content: "\ea69";
 }
 
-@mixin Icon--resetRounded {
+@mixin Icon--reset {
   content: "\ea6a";
 }
 
-@mixin Icon--results {
+@mixin Icon--resetRounded {
   content: "\ea6b";
 }
 
-@mixin Icon--section {
+@mixin Icon--results {
   content: "\ea6c";
 }
 
-@mixin Icon--singleChoice {
+@mixin Icon--section {
   content: "\ea6d";
 }
 
-@mixin Icon--slack {
+@mixin Icon--singleChoice {
   content: "\ea6e";
 }
 
-@mixin Icon--smile {
+@mixin Icon--slack {
   content: "\ea6f";
 }
 
-@mixin Icon--solid {
+@mixin Icon--smile {
   content: "\ea70";
 }
 
-@mixin Icon--solidFull {
+@mixin Icon--solid {
   content: "\ea71";
 }
 
-@mixin Icon--spreadsheet {
+@mixin Icon--solidFull {
   content: "\ea72";
 }
 
-@mixin Icon--star {
+@mixin Icon--spreadsheet {
   content: "\ea73";
 }
 
-@mixin Icon--starHalf {
+@mixin Icon--star {
   content: "\ea74";
 }
 
-@mixin Icon--starOutlined {
+@mixin Icon--starHalf {
   content: "\ea75";
 }
 
-@mixin Icon--stats {
+@mixin Icon--starOutlined {
   content: "\ea76";
 }
 
-@mixin Icon--statsRounded {
+@mixin Icon--stats {
   content: "\ea77";
 }
 
-@mixin Icon--stop {
+@mixin Icon--statsRounded {
   content: "\ea78";
 }
 
-@mixin Icon--subtitle {
+@mixin Icon--stop {
   content: "\ea79";
 }
 
-@mixin Icon--sunrise {
+@mixin Icon--subtitle {
   content: "\ea7a";
 }
 
-@mixin Icon--sunset {
+@mixin Icon--sunrise {
   content: "\ea7b";
 }
 
-@mixin Icon--target {
+@mixin Icon--sunset {
   content: "\ea7c";
 }
 
-@mixin Icon--themes {
+@mixin Icon--target {
   content: "\ea7d";
 }
 
-@mixin Icon--title--1 {
+@mixin Icon--themes {
   content: "\ea7e";
 }
 
-@mixin Icon--title--2 {
+@mixin Icon--title--1 {
   content: "\ea7f";
 }
 
-@mixin Icon--title {
+@mixin Icon--title--2 {
   content: "\ea80";
 }
 
-@mixin Icon--titles {
+@mixin Icon--title {
   content: "\ea81";
 }
 
-@mixin Icon--trash {
+@mixin Icon--titles {
   content: "\ea82";
 }
 
-@mixin Icon--triangleDown {
+@mixin Icon--trash {
   content: "\ea83";
 }
 
-@mixin Icon--triangleUp {
+@mixin Icon--triangleDown {
   content: "\ea84";
 }
 
-@mixin Icon--twitter {
+@mixin Icon--triangleUp {
   content: "\ea85";
 }
 
-@mixin Icon--typeAdd {
+@mixin Icon--twitter {
   content: "\ea86";
 }
 
-@mixin Icon--typeParagraph {
+@mixin Icon--typeAdd {
   content: "\ea87";
 }
 
-@mixin Icon--unlock {
+@mixin Icon--typeParagraph {
   content: "\ea88";
 }
 
-@mixin Icon--unplugged {
+@mixin Icon--unlock {
   content: "\ea89";
 }
 
-@mixin Icon--user {
+@mixin Icon--unplugged {
   content: "\ea8a";
 }
 
-@mixin Icon--video {
+@mixin Icon--user {
   content: "\ea8b";
 }
 
-@mixin Icon--voice {
+@mixin Icon--video {
   content: "\ea8c";
 }
 
-@mixin Icon--vote {
+@mixin Icon--voice {
   content: "\ea8d";
 }
 
-@mixin Icon--wiFi {
+@mixin Icon--vote {
   content: "\ea8e";
 }
 
-@mixin Icon--wisembly {
+@mixin Icon--wiFi {
   content: "\ea8f";
 }
 
-@mixin Icon--wisemblyFull {
+@mixin Icon--wisembly {
   content: "\ea90";
+}
+
+@mixin Icon--wisemblyFull {
+  content: "\ea91";
 }
 
 
@@ -1014,6 +1018,10 @@
   
   .Icon--presentation:before {
     @include Icon--presentation;
+  }
+  
+  .Icon--privateNote:before {
+    @include Icon--privateNote;
   }
   
   .Icon--public:before {

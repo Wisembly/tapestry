@@ -513,6 +513,11 @@
 </div>
 
 <div class="s-Icon">
+  <i class="Icon Icon--privateNote"></i>
+  privateNote
+</div>
+
+<div class="s-Icon">
   <i class="Icon Icon--public"></i>
   public
 </div>

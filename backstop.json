@@ -224,6 +224,7 @@
         ".Icon--plus",
         ".Icon--popup",
         ".Icon--presentation",
+        ".Icon--privateNote",
         ".Icon--public",
         ".Icon--radio",
         ".Icon--recurring",
