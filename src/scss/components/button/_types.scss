@@ -16,6 +16,7 @@
     color: $slate-gray;
     background-color: $transparent;
     border: 0;
+    border-radius: 0;
 
     &[disabled],
     &[aria-disabled="true"] {
