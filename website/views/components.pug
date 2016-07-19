@@ -1,9 +1,13 @@
 extends partials/layout
 
 block content
-  h1.s-Header Components
-
   .s-App-content.s-Modules-container
+    ul.r-list.s-Module-nav
+      if (component.data.nav)
+        each val, index in component.data.nav
+          li
+            a.s-Module-navLink(href=val.target)= val.title
+
     .s-Module!= component.data.html
 
   block scripts

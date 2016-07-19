@@ -8,6 +8,7 @@ var styleguide  = new Styleguide({
 	},
 	json: 'website/components',
 	silent: true,
+	wrap: true,
   mdConverter: {
     list: function (body) {
       var _class = 'Styleguide-list';

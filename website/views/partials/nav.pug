@@ -11,6 +11,7 @@ nav.s-Nav
         each item in components
           - var componentName = item.name.toLowerCase();
           a.s-Nav-link(href="/components/" + componentName)= item.name
+
   - else
     .s-Nav-section
       a.s-Nav-title(href="/components") Components
