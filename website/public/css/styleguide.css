@@ -39,8 +39,6 @@
 
 
 
-
-
 /*
 
  • Navigation
@@ -160,6 +158,23 @@
 
 .s-Modules-container .s-Title--1 {
 	margin-top: 5rem;
+}
+
+.s-Module-nav {
+	display: flex;
+}
+
+.s-Module-navLink {
+	margin-right: 1rem;
+	font-weight: 400;
+}
+
+.s-Module-section:not(:target) {
+  display: none;
+}
+
+.s-Module-section:target {
+  display: block;
 }
 
 .s-Title--1:first-of-type {

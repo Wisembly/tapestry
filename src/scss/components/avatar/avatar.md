@@ -39,6 +39,8 @@
 </table>
 ```
 
+---
+
 ## Sizes
 
 ```html
@@ -46,6 +48,8 @@
 <img class="Avatar" src="http://assets-s3.usmagazine.com/uploads/assets/article_photos/tom-from-myspace-lg.jpg" alt=" " />
 <img class="Avatar Avatar--l" src="http://assets-s3.usmagazine.com/uploads/assets/article_photos/tom-from-myspace-lg.jpg" alt=" " />
 ```
+
+---
 
 ## Colors
 
@@ -57,6 +61,8 @@
 <div class="Avatar Avatar--color5">5</div>
 ```
 
+---
+
 ## Initials
 
 ```html
@@ -65,6 +71,8 @@
 <div class="Avatar Avatar--l Avatar--color3">GC</div>
 ```
 
+---
+
 ## Empty
 
 ```html
@@ -72,3 +80,5 @@
 <div class="Avatar Avatar--empty"></div>
 <div class="Avatar Avatar--l Avatar--empty"></div>
 ```
+
+---
