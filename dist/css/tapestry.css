@@ -100,6 +100,10 @@
   list-style: none;
 }
 
+[disabled] {
+  cursor: not-allowed !important;
+}
+
 .u-ovh {
   overflow: hidden !important;
 }
@@ -2006,7 +2010,6 @@ a {
 .Dropdown-selectInput[disabled] {
   color: #a1a9ae;
   background: #d5d9da;
-  cursor: not-allowed;
 }
 
 .Dropdown-selectInput:hover {
@@ -2868,7 +2871,6 @@ a {
 .Btn[disabled], .Btn[aria-disabled="true"] {
   color: #a1a9ae;
   background-color: #d5d9da;
-  cursor: not-allowed;
 }
 
 .Btn .Icon {
@@ -3787,6 +3789,7 @@ a {
 input[disabled] + .Switch,
 .Switch-checkbox[disabled] + .Switch {
   opacity: .5;
+  cursor: not-allowed;
 }
 
 input:checked + .Switch,
