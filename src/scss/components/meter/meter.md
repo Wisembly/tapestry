@@ -49,6 +49,26 @@
       <td class="Table-cell">background-color</td>
       <td class="Table-cell">meter bar background-color<br><code>$curious-blue</code></td>
     </tr>
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal">$meter-info-status-bar-bg</td>
+      <td class="Table-cell">background-color</td>
+      <td class="Table-cell">meter bar background-color at info-status<br><code>$info</code></td>
+    </tr>
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal">$meter-info-status-selector</td>
+      <td class="Table-cell">selector</td>
+      <td class="Table-cell">meter bar selector at info-status<br><code>[data-threshold="75"]</code></td>
+    </tr>
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal">$meter-error-status-bar-bg</td>
+      <td class="Table-cell">background-color</td>
+      <td class="Table-cell">meter bar background-color at error-status<br><code>$error</code></td>
+    </tr>
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal">$meter-error-status-selector</td>
+      <td class="Table-cell">selector</td>
+      <td class="Table-cell">meter bar selector at error-status<br><code>[data-threshold="99"]</code></td>
+    </tr>
   </tbody>
 </table>
 ```

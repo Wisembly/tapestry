@@ -1,12 +1,12 @@
 @if $import-meter {
 
   .Meter-bar {
-    [data-threshold="75"] & {
-      background: $info;
+    #{$meter-info-status-selector} & {
+      background: $meter-info-status-bar-bg;
     }
 
-    [data-threshold="99"] & {
-      background: $error;
+    #{$meter-error-status-selector} & {
+      background: $meter-error-status-bar-bg;
     }
   }
 

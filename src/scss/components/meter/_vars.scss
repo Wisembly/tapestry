@@ -9,3 +9,9 @@ $small-meter-radius: 0 !default;
 
 $meter-base-bg: $porcelain !default;
 $meter-bar-bg: $curious-blue !default;
+
+$meter-info-status-bar-bg: $info !default;
+$meter-info-status-selector: unquote("[data-threshold=\"75\"]") !default;
+
+$meter-error-status-bar-bg: $error !default;
+$meter-error-status-selector: unquote("[data-threshold=\"99\"]") !default;
