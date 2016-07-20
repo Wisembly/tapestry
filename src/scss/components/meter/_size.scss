@@ -1,17 +1,21 @@
-.Meter--s {
-  height: $small-meter-height;
-}
+@if $import-meter {
 
-.Meter--s,
-.Meter-bar--s {
-  border-radius: $small-meter-radius;
-}
+  .Meter--s {
+    height: $small-meter-height;
+  }
 
-.Meter--l {
-  height: $large-meter-height;
-}
+  .Meter--s,
+  .Meter-bar--s {
+    border-radius: $small-meter-radius;
+  }
 
-.Meter--l,
-.Meter-bar--l {
-  border-radius: $large-meter-radius;
+  .Meter--l {
+    height: $large-meter-height;
+  }
+
+  .Meter--l,
+  .Meter-bar--l {
+    border-radius: $large-meter-radius;
+  }
+
 }
