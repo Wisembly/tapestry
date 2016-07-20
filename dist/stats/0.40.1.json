@@ -1,0 +1,127 @@
+{
+  "published": "2016-07-20T12:28:02.676Z",
+  "paths": [
+    "/Users/gabrielcousin/Sites/tapestry/dist/css/tapestry.css"
+  ],
+  "stylesheets": 1,
+  "styleElements": 0,
+  "size": 69828,
+  "dataUriSize": 2854,
+  "ratioOfDataUriSize": 0.04087185656183766,
+  "gzippedSize": 12217,
+  "rules": 727,
+  "selectors": 827,
+  "declarations": 1653,
+  "simplicity": 0.879081015719468,
+  "averageOfIdentifier": 1.7073760580411124,
+  "mostIdentifier": 5,
+  "mostIdentifierSelector": ".Btn--outline.Btn--error:not([disabled]):hover",
+  "averageOfCohesion": 2.31636863823934,
+  "lowestCohesion": 21,
+  "lowestCohesionSelector": [
+    ".Btn"
+  ],
+  "totalUniqueFontSizes": 16,
+  "uniqueFontSizes": [
+    "0",
+    "0.69444rem",
+    "0.78571rem",
+    "0.83333rem",
+    "1rem",
+    "1.2rem",
+    "1.44rem",
+    "1.57143rem",
+    "1.728rem",
+    "2.0736rem",
+    "2.48832rem",
+    "1em",
+    "2em",
+    "75%",
+    "80%",
+    "87.5%"
+  ],
+  "totalUniqueFontFamilies": 5,
+  "uniqueFontFamilies": [
+    "\"Helvetica Neue\", Helvetica, Roboto, Arial, sans-serif",
+    "\"tapestry-icons\"",
+    "monospace, monospace",
+    "sans-serif",
+    "tapestry-icons"
+  ],
+  "totalUniqueColors": 18,
+  "uniqueColors": [
+    "#000000",
+    "#07698D",
+    "#0D5C7C",
+    "#258AAE",
+    "#289BC4",
+    "#3A434C",
+    "#41A07A",
+    "#46B489",
+    "#708189",
+    "#A1A9AE",
+    "#AED7E8",
+    "#C85450",
+    "#D5A82D",
+    "#D5D9DA",
+    "#E25C5B",
+    "#F1BC33",
+    "#FFFFFF",
+    "RGBA(255, 255, 255, 0.8)"
+  ],
+  "totalUniqueBackgroundImages": 3,
+  "uniqueBackgroundImages": [
+    "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJzZWxlY3QiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCAzMyA0NCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1heFlNaWQiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMzIDQ0OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+Cgk8Zz4KCQk8cGF0aCBmaWxsPSIjQTFBOUFFIiBkPSJNMTkuOCwxOS43aC02LjZjLTAuMiwwLTAuNS0wLjItMC42LTAuNGMtMC4xLTAuMi0wLjEtMC41LDAuMS0wLjdsMy4zLTMuOGMwLjEtMC4xLDAuMy0wLjIsMC41LTAuMgoJCQljMC4yLDAsMC4zLDAuMSwwLjUsMC4ybDMuNCwzLjhjMC4yLDAuMiwwLjIsMC41LDAuMSwwLjdDMjAuMiwxOS41LDIwLjEsMTkuNywxOS44LDE5Ljd6Ii8+CgkJPHBhdGggZmlsbD0iI0ExQTlBRSIgZD0iTTE5LjgsMjQuM2gtNi42Yy0wLjIsMC0wLjUsMC4yLTAuNiwwLjRjLTAuMSwwLjItMC4xLDAuNSwwLjEsMC43bDMuMywzLjhjMC4xLDAuMSwwLjMsMC4yLDAuNSwwLjIKCQkJYzAuMiwwLDAuMy0wLjEsMC41LTAuMmwzLjQtMy44YzAuMi0wLjIsMC4yLTAuNSwwLjEtMC43QzIwLjIsMjQuNSwyMC4xLDI0LjMsMTkuOCwyNC4zeiIvPgoJPC9nPgoJPHJlY3QgeT0iMCIgZmlsbD0iI0Q1RDlEQSIgd2lkdGg9IjEiIGhlaWdodD0iNDQiLz4KPC9zdmc+Cg==",
+    "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCA0NCA0NCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1heFlNaWQiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDQ0IDQ0OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+Cgk8ZyBpZD0iY2hlY2ttYXJrIiBmaWxsPSIjNDZCNDg5IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMi4wMDAwMDAsIDE0LjAwMDAwMCkiPgoJCTxwYXRoIGQ9Ik03LjcsMTQuM2MwLjgsMC44LDEuNSwwLDIuMi0wLjZjMC43LTAuOCwxLjUtMS41LDIuMy0yLjRjMS45LTIsMy44LTQsNS43LTZjMC41LTAuNSwxLTEsMS41LTEuNQoJCQljMS0xLjMtMC41LTIuNS0xLjYtMS41Yy0xLjYsMS41LTMsMy4yLTQuNSw0LjdjLTEuNSwxLjYtMy4yLDMuMy00LjcsNC45Yy0xLjUtMS41LTMuMS0zLjMtNC44LTQuN2MtMC43LTAuNS0xLjgtMC40LTIsMC42CgkJCWMwLDAuNiwwLjMsMC45LDAuNiwxLjNjMSwxLDIsMS45LDIuOSwyLjlDNi4xLDEyLjcsNi45LDEzLjYsNy43LDE0LjN6Ii8+Cgk8L2c+Cjwvc3ZnPgo=",
+    "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCA0NCA0NCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1heFlNaWQiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDQ0IDQ0OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+Cgk8ZyBpZD0iY3Jvc3MiIGZpbGw9IiNFMjVDNUIiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC02LjAwMDAwMCwgLTYuMDAwMDAwKSI+CgkJPHBhdGggZD0iTTM1LjcsMjEuNWMwLjQtMC40LDAuNC0wLjksMC0xLjNjLTAuNC0wLjQtMC45LTAuNC0xLjMsMEwyOCwyNi43bC02LjUtNi41CgkJCWMtMC40LTAuNC0wLjktMC40LTEuMywwYy0wLjQsMC40LTAuNCwwLjksMCwxLjNsNi41LDYuNWwtNi41LDYuNWMtMC40LDAuNC0wLjQsMC45LDAsMS4zYzAuNCwwLjQsMC45LDAuNCwxLjMsMGw2LjUtNi41bDYuNSw2LjUKCQkJYzAuNCwwLjQsMC45LDAuNCwxLjMsMGMwLjQtMC40LDAuNC0wLjksMC0xLjNMMjkuMywyOEwzNS43LDIxLjV6Ii8+Cgk8L2c+Cjwvc3ZnPgo="
+  ],
+  "idSelectors": 0,
+  "universalSelectors": 3,
+  "unqualifiedAttributeSelectors": 27,
+  "javascriptSpecificSelectors": 0,
+  "importantKeywords": 146,
+  "floatProperties": 2,
+  "propertiesCount": [
+    {
+      "property": "content",
+      "count": 160
+    },
+    {
+      "property": "color",
+      "count": 107
+    },
+    {
+      "property": "width",
+      "count": 93
+    },
+    {
+      "property": "display",
+      "count": 88
+    },
+    {
+      "property": "padding",
+      "count": 56
+    },
+    {
+      "property": "font-size",
+      "count": 52
+    },
+    {
+      "property": "background-color",
+      "count": 52
+    },
+    {
+      "property": "background",
+      "count": 50
+    },
+    {
+      "property": "line-height",
+      "count": 41
+    },
+    {
+      "property": "margin-left",
+      "count": 40
+    }
+  ],
+  "mediaQueries": 3
+}
