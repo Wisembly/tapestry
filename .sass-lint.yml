@@ -183,6 +183,10 @@ rules:
         - border-left
         - border-width
         - border-color
+        - border-top-color
+        - border-right-color
+        - border-bottom-color
+        - border-left-color
         - border-style
         - border-radius
         - box-shadow
