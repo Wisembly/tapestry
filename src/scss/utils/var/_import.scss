@@ -2,6 +2,8 @@ $import-normalize:       true !default;
 $import-typography:      true !default;
 $import-utility-classes: true !default;
 
+$use-webpack-config:     false !default;
+
 $import-animations:      false !default;
 $import-avatar:          false !default;
 $import-badge:           false !default;

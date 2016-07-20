@@ -2,7 +2,7 @@
 
 $ff--ss-serif: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif !default;
 $ff--serif: Georgia, Cambria, "Times New Roman", Times, serif !default;
-$f-path: unquote("../fonts") !default;
+$f-path: if($use-webpack-config, unquote("~node_modules/tapestry-css/dist/fonts") , unquote("../fonts")) !default;
 
 
 
