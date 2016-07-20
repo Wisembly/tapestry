@@ -78,7 +78,7 @@ rules:
   nesting-depth:
     - 2
     - max-depth: 3
-  no-color-keyword: 2
+  no-color-keywords: 2
   no-color-literals:
     - 2
     - allow-rgba: true
@@ -116,11 +116,11 @@ rules:
         - content
         - display
         - visibility
-        - flex
+        - flex-flow
         - flex-direction
         - flex-wrap
-        - flex-grow
-        - flex-shrink
+        - align-items
+        - justify-content
         - position
         - top
         - right
@@ -128,7 +128,11 @@ rules:
         - left
         - z-index
         - float
+        - flex
+        - flex-grow
+        - flex-shrink
         - flex-basis
+        - order
         - width
         - min-width
         - max-width
@@ -136,9 +140,7 @@ rules:
         - min-height
         - max-height
         - direction
-        - align-items
         - align-self
-        - justify-content
         - margin
         - margin-top
         - margin-right
@@ -209,7 +211,7 @@ rules:
         - backface-visibility
         - transition
         - '-webkit-overflow-scrolling'
-        - '-webkit-appearance'
+        - appearance
         - box-sizing
         - speak
   quotes:

@@ -2,9 +2,9 @@
 
   .Panel-header {
     display: flex;
-    flex-shrink: 0;
     align-items: center;
     justify-content: space-between;
+    flex-shrink: 0;
     padding: 0;
     background: $deep-sea-green;
   }

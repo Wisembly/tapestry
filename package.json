@@ -27,7 +27,7 @@
     "prompt": "0.3.0",
     "pug": "2.0.0-alpha8",
     "run-sequence": "1.2.1",
-    "sass-lint": "1.7.0",
+    "sass-lint": "1.8.2",
     "styleguide-generator": "0.6.3",
     "uo-node-utils": "^0.1.1"
   },
