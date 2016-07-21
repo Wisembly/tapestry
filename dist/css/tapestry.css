@@ -2861,6 +2861,7 @@ a {
   background-color: #a1a9ae;
   border: 0;
   border-radius: 0.28571rem;
+  cursor: pointer;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
