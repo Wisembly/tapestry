@@ -1,6 +1,6 @@
 {
   "name": "tapestry-css",
-  "version": "0.40.2",
+  "version": "0.40.3",
   "description": "Wisembly UI elements",
   "main": "dist/js/tapestry.js",
   "sasslintConfig": ".sass-lint.yml",
