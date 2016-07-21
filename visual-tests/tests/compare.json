@@ -1424,6 +1424,1596 @@
   ],
   "lastConfigHash": "49f0e59d699eed030fa053f217f516ab60b8d4a3",
   "compareConfig": {
-    "testPairs": []
+    "testPairs": [
+      {
+        "reference": "../../visual-tests/reference/0_0_Avatar_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/0_0_Avatar_0_desktop.png",
+        "selector": ".Avatar",
+        "fileName": "0_0_Avatar_0_desktop.png",
+        "label": "Avatar"
+      },
+      {
+        "reference": "../../visual-tests/reference/0_1_Avatar--s_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/0_1_Avatar--s_0_desktop.png",
+        "selector": ".Avatar--s",
+        "fileName": "0_1_Avatar--s_0_desktop.png",
+        "label": "Avatar"
+      },
+      {
+        "reference": "../../visual-tests/reference/0_2_Avatar--l_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/0_2_Avatar--l_0_desktop.png",
+        "selector": ".Avatar--l",
+        "fileName": "0_2_Avatar--l_0_desktop.png",
+        "label": "Avatar"
+      },
+      {
+        "reference": "../../visual-tests/reference/0_3_Avatar--color1Avatar--s_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/0_3_Avatar--color1Avatar--s_0_desktop.png",
+        "selector": ".Avatar--color1.Avatar--s",
+        "fileName": "0_3_Avatar--color1Avatar--s_0_desktop.png",
+        "label": "Avatar"
+      },
+      {
+        "reference": "../../visual-tests/reference/0_4_Avatar--color2_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/0_4_Avatar--color2_0_desktop.png",
+        "selector": ".Avatar--color2",
+        "fileName": "0_4_Avatar--color2_0_desktop.png",
+        "label": "Avatar"
+      },
+      {
+        "reference": "../../visual-tests/reference/0_5_Avatar--color3Avatar--l_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/0_5_Avatar--color3Avatar--l_0_desktop.png",
+        "selector": ".Avatar--color3.Avatar--l",
+        "fileName": "0_5_Avatar--color3Avatar--l_0_desktop.png",
+        "label": "Avatar"
+      },
+      {
+        "reference": "../../visual-tests/reference/0_6_Avatar--empty_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/0_6_Avatar--empty_0_desktop.png",
+        "selector": ".Avatar--empty",
+        "fileName": "0_6_Avatar--empty_0_desktop.png",
+        "label": "Avatar"
+      },
+      {
+        "reference": "../../visual-tests/reference/0_7_Avatar--emptyAvatar--l_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/0_7_Avatar--emptyAvatar--l_0_desktop.png",
+        "selector": ".Avatar--empty.Avatar--l",
+        "fileName": "0_7_Avatar--emptyAvatar--l_0_desktop.png",
+        "label": "Avatar"
+      },
+      {
+        "reference": "../../visual-tests/reference/1_0_Badge_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/1_0_Badge_0_desktop.png",
+        "selector": ".Badge",
+        "fileName": "1_0_Badge_0_desktop.png",
+        "label": "Badge"
+      },
+      {
+        "reference": "../../visual-tests/reference/2_0_Box_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/2_0_Box_0_desktop.png",
+        "selector": ".Box",
+        "fileName": "2_0_Box_0_desktop.png",
+        "label": "Box"
+      },
+      {
+        "reference": "../../visual-tests/reference/2_1_Boxes_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/2_1_Boxes_0_desktop.png",
+        "selector": ".Boxes",
+        "fileName": "2_1_Boxes_0_desktop.png",
+        "label": "Box"
+      },
+      {
+        "reference": "../../visual-tests/reference/2_2_Box--raw_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/2_2_Box--raw_0_desktop.png",
+        "selector": ".Box--raw",
+        "fileName": "2_2_Box--raw_0_desktop.png",
+        "label": "Box"
+      },
+      {
+        "reference": "../../visual-tests/reference/3_0_Btn_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/3_0_Btn_0_desktop.png",
+        "selector": ".Btn",
+        "fileName": "3_0_Btn_0_desktop.png",
+        "label": "Button"
+      },
+      {
+        "reference": "../../visual-tests/reference/3_1_Btn--s_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/3_1_Btn--s_0_desktop.png",
+        "selector": ".Btn--s",
+        "fileName": "3_1_Btn--s_0_desktop.png",
+        "label": "Button"
+      },
+      {
+        "reference": "../../visual-tests/reference/3_2_Btn-expandContainer_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/3_2_Btn-expandContainer_0_desktop.png",
+        "selector": ".Btn-expandContainer",
+        "fileName": "3_2_Btn-expandContainer_0_desktop.png",
+        "label": "Button"
+      },
+      {
+        "reference": "../../visual-tests/reference/3_3_Btn--squared_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/3_3_Btn--squared_0_desktop.png",
+        "selector": ".Btn--squared",
+        "fileName": "3_3_Btn--squared_0_desktop.png",
+        "label": "Button"
+      },
+      {
+        "reference": "../../visual-tests/reference/3_4_Btn--squaredBtn--s_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/3_4_Btn--squaredBtn--s_0_desktop.png",
+        "selector": ".Btn--squared.Btn--s",
+        "fileName": "3_4_Btn--squaredBtn--s_0_desktop.png",
+        "label": "Button"
+      },
+      {
+        "reference": "../../visual-tests/reference/3_5_Btn--circle_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/3_5_Btn--circle_0_desktop.png",
+        "selector": ".Btn--circle",
+        "fileName": "3_5_Btn--circle_0_desktop.png",
+        "label": "Button"
+      },
+      {
+        "reference": "../../visual-tests/reference/3_6_Btn--circleBtn--s_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/3_6_Btn--circleBtn--s_0_desktop.png",
+        "selector": ".Btn--circle.Btn--s",
+        "fileName": "3_6_Btn--circleBtn--s_0_desktop.png",
+        "label": "Button"
+      },
+      {
+        "reference": "../../visual-tests/reference/3_7_Btn--outline_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/3_7_Btn--outline_0_desktop.png",
+        "selector": ".Btn--outline",
+        "fileName": "3_7_Btn--outline_0_desktop.png",
+        "label": "Button"
+      },
+      {
+        "reference": "../../visual-tests/reference/3_8_Btn--raw_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/3_8_Btn--raw_0_desktop.png",
+        "selector": ".Btn--raw",
+        "fileName": "3_8_Btn--raw_0_desktop.png",
+        "label": "Button"
+      },
+      {
+        "reference": "../../visual-tests/reference/3_9_Btnhas-icon_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/3_9_Btnhas-icon_0_desktop.png",
+        "selector": ".Btn.has-icon",
+        "fileName": "3_9_Btnhas-icon_0_desktop.png",
+        "label": "Button"
+      },
+      {
+        "reference": "../../visual-tests/reference/3_10_Btn--block_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/3_10_Btn--block_0_desktop.png",
+        "selector": ".Btn--block",
+        "fileName": "3_10_Btn--block_0_desktop.png",
+        "label": "Button"
+      },
+      {
+        "reference": "../../visual-tests/reference/3_11_BtnGroup_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/3_11_BtnGroup_0_desktop.png",
+        "selector": ".BtnGroup",
+        "fileName": "3_11_BtnGroup_0_desktop.png",
+        "label": "Button"
+      },
+      {
+        "reference": "../../visual-tests/reference/4_0_Input_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/4_0_Input_0_desktop.png",
+        "selector": ".Input",
+        "fileName": "4_0_Input_0_desktop.png",
+        "label": "Form"
+      },
+      {
+        "reference": "../../visual-tests/reference/4_1_Legend_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/4_1_Legend_0_desktop.png",
+        "selector": ".Legend",
+        "fileName": "4_1_Legend_0_desktop.png",
+        "label": "Form"
+      },
+      {
+        "reference": "../../visual-tests/reference/4_2_Label_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/4_2_Label_0_desktop.png",
+        "selector": ".Label",
+        "fileName": "4_2_Label_0_desktop.png",
+        "label": "Form"
+      },
+      {
+        "reference": "../../visual-tests/reference/4_3_Textarea_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/4_3_Textarea_0_desktop.png",
+        "selector": ".Textarea",
+        "fileName": "4_3_Textarea_0_desktop.png",
+        "label": "Form"
+      },
+      {
+        "reference": "../../visual-tests/reference/4_4_Dropdown-toggle_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/4_4_Dropdown-toggle_0_desktop.png",
+        "selector": ".Dropdown-toggle",
+        "fileName": "4_4_Dropdown-toggle_0_desktop.png",
+        "label": "Form"
+      },
+      {
+        "reference": "../../visual-tests/reference/4_5_Select_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/4_5_Select_0_desktop.png",
+        "selector": ".Select",
+        "fileName": "4_5_Select_0_desktop.png",
+        "label": "Form"
+      },
+      {
+        "reference": "../../visual-tests/reference/5_0_basicInputWrapper1_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/5_0_basicInputWrapper1_0_desktop.png",
+        "selector": "#basicInputWrapper1",
+        "fileName": "5_0_basicInputWrapper1_0_desktop.png",
+        "label": "Input"
+      },
+      {
+        "reference": "../../visual-tests/reference/5_1_basicInputWrapper2_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/5_1_basicInputWrapper2_0_desktop.png",
+        "selector": "#basicInputWrapper2",
+        "fileName": "5_1_basicInputWrapper2_0_desktop.png",
+        "label": "Input"
+      },
+      {
+        "reference": "../../visual-tests/reference/5_2_inlinedInputWrapper1_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/5_2_inlinedInputWrapper1_0_desktop.png",
+        "selector": "#inlinedInputWrapper1",
+        "fileName": "5_2_inlinedInputWrapper1_0_desktop.png",
+        "label": "Input"
+      },
+      {
+        "reference": "../../visual-tests/reference/5_3_inlinedInputWrapper2_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/5_3_inlinedInputWrapper2_0_desktop.png",
+        "selector": "#inlinedInputWrapper2",
+        "fileName": "5_3_inlinedInputWrapper2_0_desktop.png",
+        "label": "Input"
+      },
+      {
+        "reference": "../../visual-tests/reference/5_4_textareaWrapper1_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/5_4_textareaWrapper1_0_desktop.png",
+        "selector": "#textareaWrapper1",
+        "fileName": "5_4_textareaWrapper1_0_desktop.png",
+        "label": "Input"
+      },
+      {
+        "reference": "../../visual-tests/reference/5_5_textareaWrapper2_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/5_5_textareaWrapper2_0_desktop.png",
+        "selector": "#textareaWrapper2",
+        "fileName": "5_5_textareaWrapper2_0_desktop.png",
+        "label": "Input"
+      },
+      {
+        "reference": "../../visual-tests/reference/5_6_Checkbox_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/5_6_Checkbox_0_desktop.png",
+        "selector": ".Checkbox",
+        "fileName": "5_6_Checkbox_0_desktop.png",
+        "label": "Input"
+      },
+      {
+        "reference": "../../visual-tests/reference/5_7_CheckboxCheckbox_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/5_7_CheckboxCheckbox_0_desktop.png",
+        "selector": ".Checkbox + .Checkbox",
+        "fileName": "5_7_CheckboxCheckbox_0_desktop.png",
+        "label": "Input"
+      },
+      {
+        "reference": "../../visual-tests/reference/5_8_Checkbox-inputdisabledCheckbox-label_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/5_8_Checkbox-inputdisabledCheckbox-label_0_desktop.png",
+        "selector": ".Checkbox-input:disabled + .Checkbox-label",
+        "fileName": "5_8_Checkbox-inputdisabledCheckbox-label_0_desktop.png",
+        "label": "Input"
+      },
+      {
+        "reference": "../../visual-tests/reference/5_9_Checkbox-inputdisabledcheckedCheckbox-label_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/5_9_Checkbox-inputdisabledcheckedCheckbox-label_0_desktop.png",
+        "selector": ".Checkbox-input:disabled:checked + .Checkbox-label",
+        "fileName": "5_9_Checkbox-inputdisabledcheckedCheckbox-label_0_desktop.png",
+        "label": "Input"
+      },
+      {
+        "reference": "../../visual-tests/reference/5_10_Radio_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/5_10_Radio_0_desktop.png",
+        "selector": ".Radio",
+        "fileName": "5_10_Radio_0_desktop.png",
+        "label": "Input"
+      },
+      {
+        "reference": "../../visual-tests/reference/5_11_RadioRadio_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/5_11_RadioRadio_0_desktop.png",
+        "selector": ".Radio + .Radio",
+        "fileName": "5_11_RadioRadio_0_desktop.png",
+        "label": "Input"
+      },
+      {
+        "reference": "../../visual-tests/reference/5_12_Radio-inputdisabledRadio-label_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/5_12_Radio-inputdisabledRadio-label_0_desktop.png",
+        "selector": ".Radio-input:disabled + .Radio-label",
+        "fileName": "5_12_Radio-inputdisabledRadio-label_0_desktop.png",
+        "label": "Input"
+      },
+      {
+        "reference": "../../visual-tests/reference/5_13_Radio-inputdisabledcheckedRadio-label_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/5_13_Radio-inputdisabledcheckedRadio-label_0_desktop.png",
+        "selector": ".Radio-input:disabled:checked + .Radio-label",
+        "fileName": "5_13_Radio-inputdisabledcheckedRadio-label_0_desktop.png",
+        "label": "Input"
+      },
+      {
+        "reference": "../../visual-tests/reference/5_14_prefixed-and-suffixedInputGroup_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/5_14_prefixed-and-suffixedInputGroup_0_desktop.png",
+        "selector": "#prefixed-and-suffixed + .InputGroup",
+        "fileName": "5_14_prefixed-and-suffixedInputGroup_0_desktop.png",
+        "label": "Input"
+      },
+      {
+        "reference": "../../visual-tests/reference/5_15_prefixed-and-suffixedInputGroupInputGroup_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/5_15_prefixed-and-suffixedInputGroupInputGroup_0_desktop.png",
+        "selector": "#prefixed-and-suffixed + .InputGroup + .InputGroup",
+        "fileName": "5_15_prefixed-and-suffixedInputGroupInputGroup_0_desktop.png",
+        "label": "Input"
+      },
+      {
+        "reference": "../../visual-tests/reference/5_16_addonsInputGroup_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/5_16_addonsInputGroup_0_desktop.png",
+        "selector": "#addons + .InputGroup",
+        "fileName": "5_16_addonsInputGroup_0_desktop.png",
+        "label": "Input"
+      },
+      {
+        "reference": "../../visual-tests/reference/5_17_addonsInputGroupInputGroup_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/5_17_addonsInputGroupInputGroup_0_desktop.png",
+        "selector": "#addons + .InputGroup + .InputGroup",
+        "fileName": "5_17_addonsInputGroupInputGroup_0_desktop.png",
+        "label": "Input"
+      },
+      {
+        "reference": "../../visual-tests/reference/5_18_input-groupInputGroup_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/5_18_input-groupInputGroup_0_desktop.png",
+        "selector": "#input-group + .InputGroup",
+        "fileName": "5_18_input-groupInputGroup_0_desktop.png",
+        "label": "Input"
+      },
+      {
+        "reference": "../../visual-tests/reference/5_19_input-groupInputGroupInputGroup_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/5_19_input-groupInputGroupInputGroup_0_desktop.png",
+        "selector": "#input-group + .InputGroup ~ .InputGroup",
+        "fileName": "5_19_input-groupInputGroupInputGroup_0_desktop.png",
+        "label": "Input"
+      },
+      {
+        "reference": "../../visual-tests/reference/5_20_Inputis-valid_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/5_20_Inputis-valid_0_desktop.png",
+        "selector": ".Input.is-valid",
+        "fileName": "5_20_Inputis-valid_0_desktop.png",
+        "label": "Input"
+      },
+      {
+        "reference": "../../visual-tests/reference/5_21_Inputis-invalid_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/5_21_Inputis-invalid_0_desktop.png",
+        "selector": ".Input.is-invalid",
+        "fileName": "5_21_Inputis-invalid_0_desktop.png",
+        "label": "Input"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_0_Icon--actionItem_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_0_Icon--actionItem_0_desktop.png",
+        "selector": ".Icon--actionItem",
+        "fileName": "6_0_Icon--actionItem_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_1_Icon--add_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_1_Icon--add_0_desktop.png",
+        "selector": ".Icon--add",
+        "fileName": "6_1_Icon--add_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_2_Icon--addUser_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_2_Icon--addUser_0_desktop.png",
+        "selector": ".Icon--addUser",
+        "fileName": "6_2_Icon--addUser_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_3_Icon--agendaItem_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_3_Icon--agendaItem_0_desktop.png",
+        "selector": ".Icon--agendaItem",
+        "fileName": "6_3_Icon--agendaItem_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_4_Icon--alarmClock_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_4_Icon--alarmClock_0_desktop.png",
+        "selector": ".Icon--alarmClock",
+        "fileName": "6_4_Icon--alarmClock_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_5_Icon--alert_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_5_Icon--alert_0_desktop.png",
+        "selector": ".Icon--alert",
+        "fileName": "6_5_Icon--alert_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_6_Icon--altDragVertical_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_6_Icon--altDragVertical_0_desktop.png",
+        "selector": ".Icon--altDragVertical",
+        "fileName": "6_6_Icon--altDragVertical_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_7_Icon--appearIn_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_7_Icon--appearIn_0_desktop.png",
+        "selector": ".Icon--appearIn",
+        "fileName": "6_7_Icon--appearIn_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_8_Icon--apple_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_8_Icon--apple_0_desktop.png",
+        "selector": ".Icon--apple",
+        "fileName": "6_8_Icon--apple_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_9_Icon--archive_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_9_Icon--archive_0_desktop.png",
+        "selector": ".Icon--archive",
+        "fileName": "6_9_Icon--archive_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_10_Icon--arrowBack_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_10_Icon--arrowBack_0_desktop.png",
+        "selector": ".Icon--arrowBack",
+        "fileName": "6_10_Icon--arrowBack_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_11_Icon--arrowDown_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_11_Icon--arrowDown_0_desktop.png",
+        "selector": ".Icon--arrowDown",
+        "fileName": "6_11_Icon--arrowDown_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_12_Icon--arrowFirst_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_12_Icon--arrowFirst_0_desktop.png",
+        "selector": ".Icon--arrowFirst",
+        "fileName": "6_12_Icon--arrowFirst_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_13_Icon--arrowLast_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_13_Icon--arrowLast_0_desktop.png",
+        "selector": ".Icon--arrowLast",
+        "fileName": "6_13_Icon--arrowLast_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_14_Icon--arrowNext_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_14_Icon--arrowNext_0_desktop.png",
+        "selector": ".Icon--arrowNext",
+        "fileName": "6_14_Icon--arrowNext_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_15_Icon--arrowUp_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_15_Icon--arrowUp_0_desktop.png",
+        "selector": ".Icon--arrowUp",
+        "fileName": "6_15_Icon--arrowUp_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_16_Icon--aside_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_16_Icon--aside_0_desktop.png",
+        "selector": ".Icon--aside",
+        "fileName": "6_16_Icon--aside_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_17_Icon--audio_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_17_Icon--audio_0_desktop.png",
+        "selector": ".Icon--audio",
+        "fileName": "6_17_Icon--audio_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_18_Icon--azure_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_18_Icon--azure_0_desktop.png",
+        "selector": ".Icon--azure",
+        "fileName": "6_18_Icon--azure_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_19_Icon--badge_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_19_Icon--badge_0_desktop.png",
+        "selector": ".Icon--badge",
+        "fileName": "6_19_Icon--badge_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_20_Icon--bar_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_20_Icon--bar_0_desktop.png",
+        "selector": ".Icon--bar",
+        "fileName": "6_20_Icon--bar_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_21_Icon--bell_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_21_Icon--bell_0_desktop.png",
+        "selector": ".Icon--bell",
+        "fileName": "6_21_Icon--bell_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_22_Icon--brush_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_22_Icon--brush_0_desktop.png",
+        "selector": ".Icon--brush",
+        "fileName": "6_22_Icon--brush_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_23_Icon--bulletDay_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_23_Icon--bulletDay_0_desktop.png",
+        "selector": ".Icon--bulletDay",
+        "fileName": "6_23_Icon--bulletDay_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_24_Icon--calendar_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_24_Icon--calendar_0_desktop.png",
+        "selector": ".Icon--calendar",
+        "fileName": "6_24_Icon--calendar_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_25_Icon--checkbox_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_25_Icon--checkbox_0_desktop.png",
+        "selector": ".Icon--checkbox",
+        "fileName": "6_25_Icon--checkbox_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_26_Icon--checked_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_26_Icon--checked_0_desktop.png",
+        "selector": ".Icon--checked",
+        "fileName": "6_26_Icon--checked_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_27_Icon--checkedActionItem_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_27_Icon--checkedActionItem_0_desktop.png",
+        "selector": ".Icon--checkedActionItem",
+        "fileName": "6_27_Icon--checkedActionItem_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_28_Icon--checkedCheckbox_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_28_Icon--checkedCheckbox_0_desktop.png",
+        "selector": ".Icon--checkedCheckbox",
+        "fileName": "6_28_Icon--checkedCheckbox_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_29_Icon--checkedRadio_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_29_Icon--checkedRadio_0_desktop.png",
+        "selector": ".Icon--checkedRadio",
+        "fileName": "6_29_Icon--checkedRadio_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_30_Icon--checkmark_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_30_Icon--checkmark_0_desktop.png",
+        "selector": ".Icon--checkmark",
+        "fileName": "6_30_Icon--checkmark_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_31_Icon--chrome_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_31_Icon--chrome_0_desktop.png",
+        "selector": ".Icon--chrome",
+        "fileName": "6_31_Icon--chrome_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_32_Icon--clip_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_32_Icon--clip_0_desktop.png",
+        "selector": ".Icon--clip",
+        "fileName": "6_32_Icon--clip_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_33_Icon--clock_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_33_Icon--clock_0_desktop.png",
+        "selector": ".Icon--clock",
+        "fileName": "6_33_Icon--clock_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_34_Icon--closedEye_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_34_Icon--closedEye_0_desktop.png",
+        "selector": ".Icon--closedEye",
+        "fileName": "6_34_Icon--closedEye_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_35_Icon--cog_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_35_Icon--cog_0_desktop.png",
+        "selector": ".Icon--cog",
+        "fileName": "6_35_Icon--cog_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_36_Icon--cross_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_36_Icon--cross_0_desktop.png",
+        "selector": ".Icon--cross",
+        "fileName": "6_36_Icon--cross_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_37_Icon--decision_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_37_Icon--decision_0_desktop.png",
+        "selector": ".Icon--decision",
+        "fileName": "6_37_Icon--decision_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_38_Icon--diagram_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_38_Icon--diagram_0_desktop.png",
+        "selector": ".Icon--diagram",
+        "fileName": "6_38_Icon--diagram_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_39_Icon--document_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_39_Icon--document_0_desktop.png",
+        "selector": ".Icon--document",
+        "fileName": "6_39_Icon--document_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_40_Icon--download_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_40_Icon--download_0_desktop.png",
+        "selector": ".Icon--download",
+        "fileName": "6_40_Icon--download_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_41_Icon--dragHorizontal_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_41_Icon--dragHorizontal_0_desktop.png",
+        "selector": ".Icon--dragHorizontal",
+        "fileName": "6_41_Icon--dragHorizontal_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_42_Icon--dragVertical_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_42_Icon--dragVertical_0_desktop.png",
+        "selector": ".Icon--dragVertical",
+        "fileName": "6_42_Icon--dragVertical_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_43_Icon--dumbell_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_43_Icon--dumbell_0_desktop.png",
+        "selector": ".Icon--dumbell",
+        "fileName": "6_43_Icon--dumbell_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_44_Icon--duplicate_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_44_Icon--duplicate_0_desktop.png",
+        "selector": ".Icon--duplicate",
+        "fileName": "6_44_Icon--duplicate_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_45_Icon--evernote_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_45_Icon--evernote_0_desktop.png",
+        "selector": ".Icon--evernote",
+        "fileName": "6_45_Icon--evernote_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_46_Icon--externalLink_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_46_Icon--externalLink_0_desktop.png",
+        "selector": ".Icon--externalLink",
+        "fileName": "6_46_Icon--externalLink_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_47_Icon--facebook_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_47_Icon--facebook_0_desktop.png",
+        "selector": ".Icon--facebook",
+        "fileName": "6_47_Icon--facebook_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_48_Icon--file_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_48_Icon--file_0_desktop.png",
+        "selector": ".Icon--file",
+        "fileName": "6_48_Icon--file_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_49_Icon--filters_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_49_Icon--filters_0_desktop.png",
+        "selector": ".Icon--filters",
+        "fileName": "6_49_Icon--filters_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_50_Icon--form_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_50_Icon--form_0_desktop.png",
+        "selector": ".Icon--form",
+        "fileName": "6_50_Icon--form_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_51_Icon--fullscreen_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_51_Icon--fullscreen_0_desktop.png",
+        "selector": ".Icon--fullscreen",
+        "fileName": "6_51_Icon--fullscreen_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_52_Icon--github_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_52_Icon--github_0_desktop.png",
+        "selector": ".Icon--github",
+        "fileName": "6_52_Icon--github_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_53_Icon--glass_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_53_Icon--glass_0_desktop.png",
+        "selector": ".Icon--glass",
+        "fileName": "6_53_Icon--glass_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_54_Icon--google_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_54_Icon--google_0_desktop.png",
+        "selector": ".Icon--google",
+        "fileName": "6_54_Icon--google_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_55_Icon--grid_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_55_Icon--grid_0_desktop.png",
+        "selector": ".Icon--grid",
+        "fileName": "6_55_Icon--grid_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_56_Icon--group_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_56_Icon--group_0_desktop.png",
+        "selector": ".Icon--group",
+        "fileName": "6_56_Icon--group_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_57_Icon--groupRounded_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_57_Icon--groupRounded_0_desktop.png",
+        "selector": ".Icon--groupRounded",
+        "fileName": "6_57_Icon--groupRounded_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_58_Icon--help_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_58_Icon--help_0_desktop.png",
+        "selector": ".Icon--help",
+        "fileName": "6_58_Icon--help_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_59_Icon--home_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_59_Icon--home_0_desktop.png",
+        "selector": ".Icon--home",
+        "fileName": "6_59_Icon--home_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_60_Icon--image_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_60_Icon--image_0_desktop.png",
+        "selector": ".Icon--image",
+        "fileName": "6_60_Icon--image_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_61_Icon--info_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_61_Icon--info_0_desktop.png",
+        "selector": ".Icon--info",
+        "fileName": "6_61_Icon--info_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_62_Icon--label_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_62_Icon--label_0_desktop.png",
+        "selector": ".Icon--label",
+        "fileName": "6_62_Icon--label_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_63_Icon--like_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_63_Icon--like_0_desktop.png",
+        "selector": ".Icon--like",
+        "fileName": "6_63_Icon--like_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_64_Icon--link_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_64_Icon--link_0_desktop.png",
+        "selector": ".Icon--link",
+        "fileName": "6_64_Icon--link_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_65_Icon--linkDropbox_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_65_Icon--linkDropbox_0_desktop.png",
+        "selector": ".Icon--linkDropbox",
+        "fileName": "6_65_Icon--linkDropbox_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_66_Icon--linkGoogle_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_66_Icon--linkGoogle_0_desktop.png",
+        "selector": ".Icon--linkGoogle",
+        "fileName": "6_66_Icon--linkGoogle_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_67_Icon--linkedin_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_67_Icon--linkedin_0_desktop.png",
+        "selector": ".Icon--linkedin",
+        "fileName": "6_67_Icon--linkedin_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_68_Icon--listCollapse_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_68_Icon--listCollapse_0_desktop.png",
+        "selector": ".Icon--listCollapse",
+        "fileName": "6_68_Icon--listCollapse_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_69_Icon--listExpand_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_69_Icon--listExpand_0_desktop.png",
+        "selector": ".Icon--listExpand",
+        "fileName": "6_69_Icon--listExpand_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_70_Icon--live_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_70_Icon--live_0_desktop.png",
+        "selector": ".Icon--live",
+        "fileName": "6_70_Icon--live_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_71_Icon--lock_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_71_Icon--lock_0_desktop.png",
+        "selector": ".Icon--lock",
+        "fileName": "6_71_Icon--lock_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_72_Icon--mail_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_72_Icon--mail_0_desktop.png",
+        "selector": ".Icon--mail",
+        "fileName": "6_72_Icon--mail_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_73_Icon--meetingList_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_73_Icon--meetingList_0_desktop.png",
+        "selector": ".Icon--meetingList",
+        "fileName": "6_73_Icon--meetingList_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_74_Icon--message_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_74_Icon--message_0_desktop.png",
+        "selector": ".Icon--message",
+        "fileName": "6_74_Icon--message_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_75_Icon--minus_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_75_Icon--minus_0_desktop.png",
+        "selector": ".Icon--minus",
+        "fileName": "6_75_Icon--minus_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_76_Icon--more_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_76_Icon--more_0_desktop.png",
+        "selector": ".Icon--more",
+        "fileName": "6_76_Icon--more_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_77_Icon--multipleChoice_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_77_Icon--multipleChoice_0_desktop.png",
+        "selector": ".Icon--multipleChoice",
+        "fileName": "6_77_Icon--multipleChoice_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_78_Icon--note_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_78_Icon--note_0_desktop.png",
+        "selector": ".Icon--note",
+        "fileName": "6_78_Icon--note_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_79_Icon--openIssue_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_79_Icon--openIssue_0_desktop.png",
+        "selector": ".Icon--openIssue",
+        "fileName": "6_79_Icon--openIssue_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_80_Icon--openQuestion_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_80_Icon--openQuestion_0_desktop.png",
+        "selector": ".Icon--openQuestion",
+        "fileName": "6_80_Icon--openQuestion_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_81_Icon--openedEye_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_81_Icon--openedEye_0_desktop.png",
+        "selector": ".Icon--openedEye",
+        "fileName": "6_81_Icon--openedEye_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_82_Icon--options_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_82_Icon--options_0_desktop.png",
+        "selector": ".Icon--options",
+        "fileName": "6_82_Icon--options_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_83_Icon--optionsRounded_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_83_Icon--optionsRounded_0_desktop.png",
+        "selector": ".Icon--optionsRounded",
+        "fileName": "6_83_Icon--optionsRounded_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_84_Icon--paragraph_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_84_Icon--paragraph_0_desktop.png",
+        "selector": ".Icon--paragraph",
+        "fileName": "6_84_Icon--paragraph_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_85_Icon--participant_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_85_Icon--participant_0_desktop.png",
+        "selector": ".Icon--participant",
+        "fileName": "6_85_Icon--participant_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_86_Icon--pause_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_86_Icon--pause_0_desktop.png",
+        "selector": ".Icon--pause",
+        "fileName": "6_86_Icon--pause_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_87_Icon--pellet_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_87_Icon--pellet_0_desktop.png",
+        "selector": ".Icon--pellet",
+        "fileName": "6_87_Icon--pellet_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_88_Icon--pelletCheck_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_88_Icon--pelletCheck_0_desktop.png",
+        "selector": ".Icon--pelletCheck",
+        "fileName": "6_88_Icon--pelletCheck_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_89_Icon--pelletClose_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_89_Icon--pelletClose_0_desktop.png",
+        "selector": ".Icon--pelletClose",
+        "fileName": "6_89_Icon--pelletClose_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_90_Icon--pelletMinus_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_90_Icon--pelletMinus_0_desktop.png",
+        "selector": ".Icon--pelletMinus",
+        "fileName": "6_90_Icon--pelletMinus_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_91_Icon--pencil_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_91_Icon--pencil_0_desktop.png",
+        "selector": ".Icon--pencil",
+        "fileName": "6_91_Icon--pencil_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_92_Icon--phone_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_92_Icon--phone_0_desktop.png",
+        "selector": ".Icon--phone",
+        "fileName": "6_92_Icon--phone_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_93_Icon--picture_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_93_Icon--picture_0_desktop.png",
+        "selector": ".Icon--picture",
+        "fileName": "6_93_Icon--picture_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_94_Icon--pictureInPicture_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_94_Icon--pictureInPicture_0_desktop.png",
+        "selector": ".Icon--pictureInPicture",
+        "fileName": "6_94_Icon--pictureInPicture_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_95_Icon--play_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_95_Icon--play_0_desktop.png",
+        "selector": ".Icon--play",
+        "fileName": "6_95_Icon--play_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_96_Icon--plugged_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_96_Icon--plugged_0_desktop.png",
+        "selector": ".Icon--plugged",
+        "fileName": "6_96_Icon--plugged_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_97_Icon--plus_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_97_Icon--plus_0_desktop.png",
+        "selector": ".Icon--plus",
+        "fileName": "6_97_Icon--plus_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_98_Icon--popup_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_98_Icon--popup_0_desktop.png",
+        "selector": ".Icon--popup",
+        "fileName": "6_98_Icon--popup_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_99_Icon--presentation_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_99_Icon--presentation_0_desktop.png",
+        "selector": ".Icon--presentation",
+        "fileName": "6_99_Icon--presentation_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_100_Icon--privateNote_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_100_Icon--privateNote_0_desktop.png",
+        "selector": ".Icon--privateNote",
+        "fileName": "6_100_Icon--privateNote_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_101_Icon--public_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_101_Icon--public_0_desktop.png",
+        "selector": ".Icon--public",
+        "fileName": "6_101_Icon--public_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_102_Icon--radio_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_102_Icon--radio_0_desktop.png",
+        "selector": ".Icon--radio",
+        "fileName": "6_102_Icon--radio_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_103_Icon--recurring_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_103_Icon--recurring_0_desktop.png",
+        "selector": ".Icon--recurring",
+        "fileName": "6_103_Icon--recurring_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_104_Icon--refresh_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_104_Icon--refresh_0_desktop.png",
+        "selector": ".Icon--refresh",
+        "fileName": "6_104_Icon--refresh_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_105_Icon--reply_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_105_Icon--reply_0_desktop.png",
+        "selector": ".Icon--reply",
+        "fileName": "6_105_Icon--reply_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_106_Icon--reset_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_106_Icon--reset_0_desktop.png",
+        "selector": ".Icon--reset",
+        "fileName": "6_106_Icon--reset_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_107_Icon--resetRounded_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_107_Icon--resetRounded_0_desktop.png",
+        "selector": ".Icon--resetRounded",
+        "fileName": "6_107_Icon--resetRounded_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_108_Icon--results_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_108_Icon--results_0_desktop.png",
+        "selector": ".Icon--results",
+        "fileName": "6_108_Icon--results_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_109_Icon--section_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_109_Icon--section_0_desktop.png",
+        "selector": ".Icon--section",
+        "fileName": "6_109_Icon--section_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_110_Icon--singleChoice_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_110_Icon--singleChoice_0_desktop.png",
+        "selector": ".Icon--singleChoice",
+        "fileName": "6_110_Icon--singleChoice_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_111_Icon--slack_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_111_Icon--slack_0_desktop.png",
+        "selector": ".Icon--slack",
+        "fileName": "6_111_Icon--slack_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_112_Icon--solid_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_112_Icon--solid_0_desktop.png",
+        "selector": ".Icon--solid",
+        "fileName": "6_112_Icon--solid_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_113_Icon--solidFull_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_113_Icon--solidFull_0_desktop.png",
+        "selector": ".Icon--solidFull",
+        "fileName": "6_113_Icon--solidFull_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_114_Icon--spreadsheet_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_114_Icon--spreadsheet_0_desktop.png",
+        "selector": ".Icon--spreadsheet",
+        "fileName": "6_114_Icon--spreadsheet_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_115_Icon--star_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_115_Icon--star_0_desktop.png",
+        "selector": ".Icon--star",
+        "fileName": "6_115_Icon--star_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_116_Icon--starHalf_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_116_Icon--starHalf_0_desktop.png",
+        "selector": ".Icon--starHalf",
+        "fileName": "6_116_Icon--starHalf_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_117_Icon--starOutlined_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_117_Icon--starOutlined_0_desktop.png",
+        "selector": ".Icon--starOutlined",
+        "fileName": "6_117_Icon--starOutlined_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_118_Icon--stats_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_118_Icon--stats_0_desktop.png",
+        "selector": ".Icon--stats",
+        "fileName": "6_118_Icon--stats_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_119_Icon--statsRounded_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_119_Icon--statsRounded_0_desktop.png",
+        "selector": ".Icon--statsRounded",
+        "fileName": "6_119_Icon--statsRounded_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_120_Icon--stop_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_120_Icon--stop_0_desktop.png",
+        "selector": ".Icon--stop",
+        "fileName": "6_120_Icon--stop_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_121_Icon--subtitle_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_121_Icon--subtitle_0_desktop.png",
+        "selector": ".Icon--subtitle",
+        "fileName": "6_121_Icon--subtitle_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_122_Icon--sunrise_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_122_Icon--sunrise_0_desktop.png",
+        "selector": ".Icon--sunrise",
+        "fileName": "6_122_Icon--sunrise_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_123_Icon--sunset_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_123_Icon--sunset_0_desktop.png",
+        "selector": ".Icon--sunset",
+        "fileName": "6_123_Icon--sunset_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_124_Icon--target_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_124_Icon--target_0_desktop.png",
+        "selector": ".Icon--target",
+        "fileName": "6_124_Icon--target_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_125_Icon--themes_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_125_Icon--themes_0_desktop.png",
+        "selector": ".Icon--themes",
+        "fileName": "6_125_Icon--themes_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_126_Icon--title_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_126_Icon--title_0_desktop.png",
+        "selector": ".Icon--title",
+        "fileName": "6_126_Icon--title_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_127_Icon--titles_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_127_Icon--titles_0_desktop.png",
+        "selector": ".Icon--titles",
+        "fileName": "6_127_Icon--titles_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_128_Icon--title--1_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_128_Icon--title--1_0_desktop.png",
+        "selector": ".Icon--title--1",
+        "fileName": "6_128_Icon--title--1_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_129_Icon--title--2_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_129_Icon--title--2_0_desktop.png",
+        "selector": ".Icon--title--2",
+        "fileName": "6_129_Icon--title--2_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_130_Icon--trash_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_130_Icon--trash_0_desktop.png",
+        "selector": ".Icon--trash",
+        "fileName": "6_130_Icon--trash_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_131_Icon--triangleDown_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_131_Icon--triangleDown_0_desktop.png",
+        "selector": ".Icon--triangleDown",
+        "fileName": "6_131_Icon--triangleDown_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_132_Icon--triangleUp_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_132_Icon--triangleUp_0_desktop.png",
+        "selector": ".Icon--triangleUp",
+        "fileName": "6_132_Icon--triangleUp_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_133_Icon--twitter_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_133_Icon--twitter_0_desktop.png",
+        "selector": ".Icon--twitter",
+        "fileName": "6_133_Icon--twitter_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_134_Icon--typeAdd_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_134_Icon--typeAdd_0_desktop.png",
+        "selector": ".Icon--typeAdd",
+        "fileName": "6_134_Icon--typeAdd_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_135_Icon--typeParagraph_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_135_Icon--typeParagraph_0_desktop.png",
+        "selector": ".Icon--typeParagraph",
+        "fileName": "6_135_Icon--typeParagraph_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_136_Icon--unlock_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_136_Icon--unlock_0_desktop.png",
+        "selector": ".Icon--unlock",
+        "fileName": "6_136_Icon--unlock_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_137_Icon--unplugged_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_137_Icon--unplugged_0_desktop.png",
+        "selector": ".Icon--unplugged",
+        "fileName": "6_137_Icon--unplugged_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_138_Icon--user_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_138_Icon--user_0_desktop.png",
+        "selector": ".Icon--user",
+        "fileName": "6_138_Icon--user_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_139_Icon--video_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_139_Icon--video_0_desktop.png",
+        "selector": ".Icon--video",
+        "fileName": "6_139_Icon--video_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_140_Icon--voice_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_140_Icon--voice_0_desktop.png",
+        "selector": ".Icon--voice",
+        "fileName": "6_140_Icon--voice_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_141_Icon--vote_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_141_Icon--vote_0_desktop.png",
+        "selector": ".Icon--vote",
+        "fileName": "6_141_Icon--vote_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_142_Icon--wisembly_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_142_Icon--wisembly_0_desktop.png",
+        "selector": ".Icon--wisembly",
+        "fileName": "6_142_Icon--wisembly_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/6_143_Icon--wisemblyFull_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/6_143_Icon--wisemblyFull_0_desktop.png",
+        "selector": ".Icon--wisemblyFull",
+        "fileName": "6_143_Icon--wisemblyFull_0_desktop.png",
+        "label": "Icons"
+      },
+      {
+        "reference": "../../visual-tests/reference/7_0_Grid_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/7_0_Grid_0_desktop.png",
+        "selector": ".Grid",
+        "fileName": "7_0_Grid_0_desktop.png",
+        "label": "Grid"
+      },
+      {
+        "reference": "../../visual-tests/reference/7_1_Grid--gutters_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/7_1_Grid--gutters_0_desktop.png",
+        "selector": ".Grid--gutters",
+        "fileName": "7_1_Grid--gutters_0_desktop.png",
+        "label": "Grid"
+      },
+      {
+        "reference": "../../visual-tests/reference/7_2_Grid--centered_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/7_2_Grid--centered_0_desktop.png",
+        "selector": ".Grid--centered",
+        "fileName": "7_2_Grid--centered_0_desktop.png",
+        "label": "Grid"
+      },
+      {
+        "reference": "../../visual-tests/reference/7_3_Grid--centeredGrid--centered_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/7_3_Grid--centeredGrid--centered_0_desktop.png",
+        "selector": ".Grid--centered + .Grid--centered",
+        "fileName": "7_3_Grid--centeredGrid--centered_0_desktop.png",
+        "label": "Grid"
+      },
+      {
+        "reference": "../../visual-tests/reference/7_4_stretched-grid-cellsGrid_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/7_4_stretched-grid-cellsGrid_0_desktop.png",
+        "selector": "#stretched-grid-cells ~ .Grid",
+        "fileName": "7_4_stretched-grid-cellsGrid_0_desktop.png",
+        "label": "Grid"
+      },
+      {
+        "reference": "../../visual-tests/reference/7_5_stretched-grid-cellsGridGrid--centered_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/7_5_stretched-grid-cellsGridGrid--centered_0_desktop.png",
+        "selector": "#stretched-grid-cells ~ .Grid + .Grid--centered",
+        "fileName": "7_5_stretched-grid-cellsGridGrid--centered_0_desktop.png",
+        "label": "Grid"
+      },
+      {
+        "reference": "../../visual-tests/reference/7_6_centered-grid-cellsGrid_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/7_6_centered-grid-cellsGrid_0_desktop.png",
+        "selector": "#centered-grid-cells ~ .Grid",
+        "fileName": "7_6_centered-grid-cellsGrid_0_desktop.png",
+        "label": "Grid"
+      },
+      {
+        "reference": "../../visual-tests/reference/7_7_centered-grid-cellsGridGrid_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/7_7_centered-grid-cellsGridGrid_0_desktop.png",
+        "selector": "#centered-grid-cells ~ .Grid + .Grid",
+        "fileName": "7_7_centered-grid-cellsGridGrid_0_desktop.png",
+        "label": "Grid"
+      },
+      {
+        "reference": "../../visual-tests/reference/8_0_List_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/8_0_List_0_desktop.png",
+        "selector": ".List",
+        "fileName": "8_0_List_0_desktop.png",
+        "label": "List"
+      },
+      {
+        "reference": "../../visual-tests/reference/8_1_basic-list-boxBox_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/8_1_basic-list-boxBox_0_desktop.png",
+        "selector": "#basic-list-box + .Box",
+        "fileName": "8_1_basic-list-boxBox_0_desktop.png",
+        "label": "List"
+      },
+      {
+        "reference": "../../visual-tests/reference/9_0_Media_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/9_0_Media_0_desktop.png",
+        "selector": ".Media",
+        "fileName": "9_0_Media_0_desktop.png",
+        "label": "Media"
+      },
+      {
+        "reference": "../../visual-tests/reference/9_1_Media--t_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/9_1_Media--t_0_desktop.png",
+        "selector": ".Media--t",
+        "fileName": "9_1_Media--t_0_desktop.png",
+        "label": "Media"
+      },
+      {
+        "reference": "../../visual-tests/reference/9_2_Media--c_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/9_2_Media--c_0_desktop.png",
+        "selector": ".Media--c",
+        "fileName": "9_2_Media--c_0_desktop.png",
+        "label": "Media"
+      },
+      {
+        "reference": "../../visual-tests/reference/9_3_Media--b_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/9_3_Media--b_0_desktop.png",
+        "selector": ".Media--b",
+        "fileName": "9_3_Media--b_0_desktop.png",
+        "label": "Media"
+      },
+      {
+        "reference": "../../visual-tests/reference/10_0_Meter_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/10_0_Meter_0_desktop.png",
+        "selector": ".Meter",
+        "fileName": "10_0_Meter_0_desktop.png",
+        "label": "Meter"
+      },
+      {
+        "reference": "../../visual-tests/reference/11_0_Notification_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/11_0_Notification_0_desktop.png",
+        "selector": ".Notification",
+        "fileName": "11_0_Notification_0_desktop.png",
+        "label": "Notification"
+      },
+      {
+        "reference": "../../visual-tests/reference/11_1_Notification--primary_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/11_1_Notification--primary_0_desktop.png",
+        "selector": ".Notification--primary",
+        "fileName": "11_1_Notification--primary_0_desktop.png",
+        "label": "Notification"
+      },
+      {
+        "reference": "../../visual-tests/reference/11_2_Notification--validate_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/11_2_Notification--validate_0_desktop.png",
+        "selector": ".Notification--validate",
+        "fileName": "11_2_Notification--validate_0_desktop.png",
+        "label": "Notification"
+      },
+      {
+        "reference": "../../visual-tests/reference/11_3_Notification--info_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/11_3_Notification--info_0_desktop.png",
+        "selector": ".Notification--info",
+        "fileName": "11_3_Notification--info_0_desktop.png",
+        "label": "Notification"
+      },
+      {
+        "reference": "../../visual-tests/reference/11_4_Notification--error_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/11_4_Notification--error_0_desktop.png",
+        "selector": ".Notification--error",
+        "fileName": "11_4_Notification--error_0_desktop.png",
+        "label": "Notification"
+      },
+      {
+        "reference": "../../visual-tests/reference/12_0_Pellet_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/12_0_Pellet_0_desktop.png",
+        "selector": ".Pellet",
+        "fileName": "12_0_Pellet_0_desktop.png",
+        "label": "Pellet"
+      },
+      {
+        "reference": "../../visual-tests/reference/12_1_Pellet--validate_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/12_1_Pellet--validate_0_desktop.png",
+        "selector": ".Pellet--validate",
+        "fileName": "12_1_Pellet--validate_0_desktop.png",
+        "label": "Pellet"
+      },
+      {
+        "reference": "../../visual-tests/reference/12_2_Pellet--info_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/12_2_Pellet--info_0_desktop.png",
+        "selector": ".Pellet--info",
+        "fileName": "12_2_Pellet--info_0_desktop.png",
+        "label": "Pellet"
+      },
+      {
+        "reference": "../../visual-tests/reference/12_3_Pellet--error_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/12_3_Pellet--error_0_desktop.png",
+        "selector": ".Pellet--error",
+        "fileName": "12_3_Pellet--error_0_desktop.png",
+        "label": "Pellet"
+      },
+      {
+        "reference": "../../visual-tests/reference/13_0_Switch_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/13_0_Switch_0_desktop.png",
+        "selector": ".Switch",
+        "fileName": "13_0_Switch_0_desktop.png",
+        "label": "Switch"
+      },
+      {
+        "reference": "../../visual-tests/reference/13_1_Switch--s_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/13_1_Switch--s_0_desktop.png",
+        "selector": ".Switch--s",
+        "fileName": "13_1_Switch--s_0_desktop.png",
+        "label": "Switch"
+      },
+      {
+        "reference": "../../visual-tests/reference/14_0_Table_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/14_0_Table_0_desktop.png",
+        "selector": ".Table",
+        "fileName": "14_0_Table_0_desktop.png",
+        "label": "Table"
+      },
+      {
+        "reference": "../../visual-tests/reference/14_1_Table--actionable_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/14_1_Table--actionable_0_desktop.png",
+        "selector": ".Table--actionable",
+        "fileName": "14_1_Table--actionable_0_desktop.png",
+        "label": "Table"
+      },
+      {
+        "reference": "../../visual-tests/reference/15_0_Tabs_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/15_0_Tabs_0_desktop.png",
+        "selector": ".Tabs",
+        "fileName": "15_0_Tabs_0_desktop.png",
+        "label": "Tabs"
+      },
+      {
+        "reference": "../../visual-tests/reference/15_1_Tabs--s_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/15_1_Tabs--s_0_desktop.png",
+        "selector": ".Tabs--s",
+        "fileName": "15_1_Tabs--s_0_desktop.png",
+        "label": "Tabs"
+      },
+      {
+        "reference": "../../visual-tests/reference/15_2_Tabs--vertical_0_desktop.png",
+        "test": "../../visual-tests/tests/20160721-140401/15_2_Tabs--vertical_0_desktop.png",
+        "selector": ".Tabs--vertical",
+        "fileName": "15_2_Tabs--vertical_0_desktop.png",
+        "label": "Tabs"
+      }
+    ]
   }
 }
