@@ -1,0 +1,16 @@
+$spinner-size: r(8) !default;
+$spinner-thickness: rem(4px) !default;
+
+$small-spinner-size: r(4) !default;
+$small-spinner-thickness: rem(2px) !default;
+
+$large-spinner-size: r(16) !default;
+$large-spinner-thickness: rem(8px) !default;
+
+$spinner-primary-color: $venice-blue !default;
+$spinner-secondary-color: $iron !default;
+
+$neutral-spinner-primary-color: $alabaster !default;
+$neutral-spinner-secondary-color: $limed-spruce !default;
+
+$spinner-rotation-duration: .75s !default;

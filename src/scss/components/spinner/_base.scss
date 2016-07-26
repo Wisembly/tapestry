@@ -1,0 +1,17 @@
+@if $import-spinner {
+
+  .Spinner {
+    display: inline-block;
+    width: $spinner-size;
+    height: $spinner-size;
+    border: $spinner-thickness solid $spinner-secondary-color;
+    border-top-color: $spinner-primary-color;
+    border-radius: 50%;
+    animation: Spin #{$spinner-rotation-duration} linear infinite;
+  }
+
+  .Spinner--infinite {
+    animation-name: Rewind;
+  }
+
+}
