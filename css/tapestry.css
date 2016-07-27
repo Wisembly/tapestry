@@ -2007,7 +2007,7 @@ a {
   vertical-align: middle;
   color: #515f65;
   background-color: #fff;
-  border: 1px solid #bac1c3;
+  border: 1px solid #d5d9da;
   border-radius: 0.28571rem;
   cursor: pointer;
   outline: 0;
@@ -2246,7 +2246,7 @@ a {
 }
 
 .Checkbox-input:disabled + .Checkbox-label:before {
-  color: #a1a9ae;
+  color: #708189;
 }
 
 .Checkbox-label:hover:before {
@@ -2275,9 +2275,9 @@ a {
   font-size: 1rem;
   line-height: 1.42857rem;
   vertical-align: middle;
-  color: #515f65;
+  color: #394246;
   background: #fff;
-  border: 1px solid #bac1c3;
+  border: 1px solid #d5d9da;
   border-radius: 0.28571rem;
   transition: border .2s ease-in-out;
   -webkit-appearance: none;
@@ -2285,14 +2285,30 @@ a {
           appearance: none;
 }
 
+.Input::-webkit-input-placeholder {
+  color: #708189;
+}
+
+.Input::-moz-placeholder {
+  color: #708189;
+}
+
+.Input:-ms-input-placeholder {
+  color: #708189;
+}
+
+.Input::placeholder {
+  color: #708189;
+}
+
 .Input:focus {
-  color: #515f65;
-  border-color: #a1a9ae;
+  color: #394246;
+  border-color: #708189;
   outline: none;
 }
 
 .Input[disabled], .Input[readonly] {
-  color: #a1a9ae;
+  color: #708189;
   background: #ebeeef;
 }
 
@@ -2318,7 +2334,7 @@ a {
 }
 
 .Input:not([disabled]):hover {
-  border-color: #a1a9ae;
+  border-color: #708189;
 }
 
 .Input.is-invalid:hover {
@@ -2397,9 +2413,9 @@ a {
   padding: 0.64286rem 0.71429rem;
   font-size: 1rem;
   line-height: 1.42857rem;
-  color: #515f65;
+  color: #394246;
   background: #fff;
-  border: 1px solid #bac1c3;
+  border: 1px solid #d5d9da;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
@@ -2512,7 +2528,7 @@ a {
 }
 
 .Radio-input:disabled + .Radio-label:before {
-  color: #a1a9ae;
+  color: #708189;
 }
 
 .Radio-label:hover:before {
@@ -2532,7 +2548,7 @@ a {
   background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJzZWxlY3QiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCAzMyA0NCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1heFlNaWQiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMzIDQ0OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+Cgk8Zz4KCQk8cGF0aCBmaWxsPSIjQTFBOUFFIiBkPSJNMTkuOCwxOS43aC02LjZjLTAuMiwwLTAuNS0wLjItMC42LTAuNGMtMC4xLTAuMi0wLjEtMC41LDAuMS0wLjdsMy4zLTMuOGMwLjEtMC4xLDAuMy0wLjIsMC41LTAuMgoJCQljMC4yLDAsMC4zLDAuMSwwLjUsMC4ybDMuNCwzLjhjMC4yLDAuMiwwLjIsMC41LDAuMSwwLjdDMjAuMiwxOS41LDIwLjEsMTkuNywxOS44LDE5Ljd6Ii8+CgkJPHBhdGggZmlsbD0iI0ExQTlBRSIgZD0iTTE5LjgsMjQuM2gtNi42Yy0wLjIsMC0wLjUsMC4yLTAuNiwwLjRjLTAuMSwwLjItMC4xLDAuNSwwLjEsMC43bDMuMywzLjhjMC4xLDAuMSwwLjMsMC4yLDAuNSwwLjIKCQkJYzAuMiwwLDAuMy0wLjEsMC41LTAuMmwzLjQtMy44YzAuMi0wLjIsMC4yLTAuNSwwLjEtMC43QzIwLjIsMjQuNSwyMC4xLDI0LjMsMTkuOCwyNC4zeiIvPgoJPC9nPgoJPHJlY3QgeT0iMCIgZmlsbD0iI0Q1RDlEQSIgd2lkdGg9IjEiIGhlaWdodD0iNDQiLz4KPC9zdmc+Cg==);
   background-position: center right;
   background-repeat: no-repeat;
-  border: 1px solid #bac1c3;
+  border: 1px solid #d5d9da;
   border-radius: 0.28571rem;
   cursor: pointer;
   outline: 0;
@@ -2562,9 +2578,9 @@ a {
   height: 4.42857rem;
   padding: 0.71429rem;
   line-height: 1.42857rem;
-  color: #515f65;
+  color: #394246;
   background: #fff;
-  border: 1px solid #bac1c3;
+  border: 1px solid #d5d9da;
   border-radius: 0.28571rem;
   resize: none;
   transition: border .2s ease-in-out;
@@ -2573,19 +2589,35 @@ a {
           appearance: none;
 }
 
+.Textarea::-webkit-input-placeholder {
+  color: #708189;
+}
+
+.Textarea::-moz-placeholder {
+  color: #708189;
+}
+
+.Textarea:-ms-input-placeholder {
+  color: #708189;
+}
+
+.Textarea::placeholder {
+  color: #708189;
+}
+
 .Textarea:focus {
-  color: #515f65;
-  border-color: #a1a9ae;
+  color: #394246;
+  border-color: #708189;
   outline: none;
 }
 
 .Textarea[disabled], .Textarea[readonly] {
-  color: #a1a9ae;
+  color: #708189;
   background: #ebeeef;
 }
 
 .Textarea:not([disabled]):hover {
-  border-color: #a1a9ae;
+  border-color: #708189;
 }
 
 .Grid {
