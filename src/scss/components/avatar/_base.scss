@@ -6,21 +6,19 @@
     text-transform: uppercase;
     vertical-align: middle;
     color: $white;
-    background-color: $white;
+    background-color: nth($avatar-colors, 1);
+    border-radius: 50%;
     overflow: hidden;
-
-    @if $avatar-rounded {
-      border-radius: 50%;
-    }
   }
 
   .Avatar--empty {
     color: $shuttle-gray;
+    background-color: transparent;
     box-shadow: inset 0 0 0 1px $base-border-color;
+  }
 
-    &:before {
-      margin-left: 1px;
-    }
+  .Avatar--squared {
+    border-radius: $avatar-squared-radius;
   }
 
 }

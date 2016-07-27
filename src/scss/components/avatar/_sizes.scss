@@ -22,9 +22,11 @@
     line-height: $avatar-size--l;
   }
 
-  .Avatar--test {
-    width: r(4);
-    height: r(4);
+  .Avatar--xl {
+    width: $avatar-size--xl;
+    height: $avatar-size--xl;
+    font-size: $fz--xl;
+    line-height: $avatar-size--xl;
   }
 
 }

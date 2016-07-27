@@ -1032,7 +1032,7 @@ a {
   display: block;
   margin: 0.71429rem 0;
   border: 0;
-  border-top: 1px solid #d5d9da;
+  border-top: 1px solid #bac1c3;
 }
 
 .Line--labeled {
@@ -1049,7 +1049,7 @@ a {
   text-transform: uppercase;
   color: #a1a9ae;
   background: #fff;
-  border: 1px solid #d5d9da;
+  border: 1px solid #bac1c3;
   border-radius: 0.71429rem;
   -webkit-transform: translate3d(0, -50%, 0);
           transform: translate3d(0, -50%, 0);
@@ -1755,45 +1755,48 @@ a {
   text-transform: uppercase;
   vertical-align: middle;
   color: #fff;
-  background-color: #fff;
-  overflow: hidden;
+  background-color: #a1a9ae;
   border-radius: 50%;
+  overflow: hidden;
 }
 
 .Avatar--empty {
   color: #515f65;
-  box-shadow: inset 0 0 0 1px #d5d9da;
+  background-color: transparent;
+  box-shadow: inset 0 0 0 1px #bac1c3;
 }
 
-.Avatar--empty:before {
-  margin-left: 1px;
+.Avatar--squared {
+  border-radius: 0.21429rem;
 }
 
 .Avatar,
 .Avatar--m {
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 2.85714rem;
+  height: 2.85714rem;
   font-size: 1rem;
-  line-height: 2.5rem;
+  line-height: 2.85714rem;
 }
 
 .Avatar--s {
-  width: 1.42857rem;
-  height: 1.42857rem;
+  width: 2.14286rem;
+  height: 2.14286rem;
   font-size: 0.83333rem;
-  line-height: 1.42857rem;
+  line-height: 2.14286rem;
 }
 
 .Avatar--l {
-  width: 3.21429rem;
-  height: 3.21429rem;
+  width: 3.57143rem;
+  height: 3.57143rem;
   font-size: 1.2rem;
-  line-height: 3.21429rem;
+  line-height: 3.57143rem;
 }
 
-.Avatar--test {
-  width: 1.42857rem;
-  height: 1.42857rem;
+.Avatar--xl {
+  width: 5rem;
+  height: 5rem;
+  font-size: 1.44rem;
+  line-height: 5rem;
 }
 
 .Avatar--color1 {
@@ -1801,11 +1804,11 @@ a {
 }
 
 .Avatar--color2 {
-  background-color: #f7896d;
+  background-color: #2485a7;
 }
 
 .Avatar--color3 {
-  background-color: #2f99ba;
+  background-color: #f1bc33;
 }
 
 .Avatar--color4 {
@@ -1813,7 +1816,11 @@ a {
 }
 
 .Avatar--color5 {
-  background-color: #f1bc33;
+  background-color: #f7896d;
+}
+
+.Avatar--color6 {
+  background-color: #e25c5b;
 }
 
 .Badge {
@@ -1830,7 +1837,7 @@ a {
   margin: 0;
   padding: 0;
   list-style: none;
-  border-bottom: 1px solid #d5d9da;
+  border-bottom: 1px solid #bac1c3;
 }
 
 .List + .List {
@@ -1845,7 +1852,7 @@ a {
   line-height: 1.42857rem;
   text-align: left;
   color: #515f65;
-  border-top: 1px solid #d5d9da;
+  border-top: 1px solid #bac1c3;
   transition: background-color .1s ease-out, box-shadow .05s ease-out;
 }
 
@@ -1903,7 +1910,7 @@ a {
 
 .Box {
   background: #fff;
-  border: 1px solid #d5d9da;
+  border: 1px solid #bac1c3;
 }
 
 .Box + .Box,
@@ -2000,7 +2007,7 @@ a {
   vertical-align: middle;
   color: #515f65;
   background-color: #fff;
-  border: 1px solid #d5d9da;
+  border: 1px solid #bac1c3;
   border-radius: 0.28571rem;
   cursor: pointer;
   outline: 0;
@@ -2270,7 +2277,7 @@ a {
   vertical-align: middle;
   color: #515f65;
   background: #fff;
-  border: 1px solid #d5d9da;
+  border: 1px solid #bac1c3;
   border-radius: 0.28571rem;
   transition: border .2s ease-in-out;
   -webkit-appearance: none;
@@ -2392,7 +2399,7 @@ a {
   line-height: 1.42857rem;
   color: #515f65;
   background: #fff;
-  border: 1px solid #d5d9da;
+  border: 1px solid #bac1c3;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
@@ -2525,7 +2532,7 @@ a {
   background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJzZWxlY3QiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCAzMyA0NCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1heFlNaWQiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMzIDQ0OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+Cgk8Zz4KCQk8cGF0aCBmaWxsPSIjQTFBOUFFIiBkPSJNMTkuOCwxOS43aC02LjZjLTAuMiwwLTAuNS0wLjItMC42LTAuNGMtMC4xLTAuMi0wLjEtMC41LDAuMS0wLjdsMy4zLTMuOGMwLjEtMC4xLDAuMy0wLjIsMC41LTAuMgoJCQljMC4yLDAsMC4zLDAuMSwwLjUsMC4ybDMuNCwzLjhjMC4yLDAuMiwwLjIsMC41LDAuMSwwLjdDMjAuMiwxOS41LDIwLjEsMTkuNywxOS44LDE5Ljd6Ii8+CgkJPHBhdGggZmlsbD0iI0ExQTlBRSIgZD0iTTE5LjgsMjQuM2gtNi42Yy0wLjIsMC0wLjUsMC4yLTAuNiwwLjRjLTAuMSwwLjItMC4xLDAuNSwwLjEsMC43bDMuMywzLjhjMC4xLDAuMSwwLjMsMC4yLDAuNSwwLjIKCQkJYzAuMiwwLDAuMy0wLjEsMC41LTAuMmwzLjQtMy44YzAuMi0wLjIsMC4yLTAuNSwwLjEtMC43QzIwLjIsMjQuNSwyMC4xLDI0LjMsMTkuOCwyNC4zeiIvPgoJPC9nPgoJPHJlY3QgeT0iMCIgZmlsbD0iI0Q1RDlEQSIgd2lkdGg9IjEiIGhlaWdodD0iNDQiLz4KPC9zdmc+Cg==);
   background-position: center right;
   background-repeat: no-repeat;
-  border: 1px solid #d5d9da;
+  border: 1px solid #bac1c3;
   border-radius: 0.28571rem;
   cursor: pointer;
   outline: 0;
@@ -2553,7 +2560,7 @@ a {
   line-height: 1.42857rem;
   color: #515f65;
   background: #fff;
-  border: 1px solid #d5d9da;
+  border: 1px solid #bac1c3;
   border-radius: 0.28571rem;
   resize: none;
   transition: border .2s ease-in-out;
@@ -2986,7 +2993,7 @@ a {
   padding: 0.64286rem 1.35714rem;
   color: #708189;
   background-color: transparent;
-  border: 1px solid #d5d9da;
+  border: 1px solid #bac1c3;
   transition: border-color .1s ease-out;
 }
 
@@ -3852,13 +3859,13 @@ input:checked + .Switch--s:after,
   display: table;
   width: 100%;
   color: #708189;
-  border: 1px solid #d5d9da;
+  border: 1px solid #bac1c3;
   border-collapse: collapse;
 }
 
 .Table-row,
 .Table-head {
-  border-bottom: 1px solid #d5d9da;
+  border-bottom: 1px solid #bac1c3;
 }
 
 .Table-cell {
@@ -3868,7 +3875,7 @@ input:checked + .Switch--s:after,
   font-weight: 400;
   line-height: 1.42857rem;
   text-align: center;
-  border-left: 1px solid #d5d9da;
+  border-left: 1px solid #bac1c3;
 }
 
 [aria-disabled=true] .Table-cell {
