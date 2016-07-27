@@ -2494,7 +2494,7 @@ a {
   font-size: 1.42857rem;
   font-weight: normal;
   vertical-align: bottom;
-  color: #d5d9da;
+  color: #bac1c3;
   transition: color .2s ease-in-out;
 }
 
@@ -2516,7 +2516,7 @@ a {
 }
 
 .Radio-label:hover:before {
-  color: #46b489;
+  color: #708189;
 }
 
 .Select {
