@@ -25,6 +25,16 @@
       <td class="Table-cell">switch color when unchecked<br><code>$gray-chateau</code></td>
     </tr>
     <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal">$switch-border-color</td>
+      <td class="Table-cell">color</td>
+      <td class="Table-cell">switch border color<br><code>$iron</code></td>
+    </tr>
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal">$switch-hover-border-color</td>
+      <td class="Table-cell">color</td>
+      <td class="Table-cell">switch border color when hover<br><code>$gray-chateau</code></td>
+    </tr>
+    <tr class="Table-row">
       <td class="Table-cell Table-cell--important u-tal">$switch-width</td>
       <td class="Table-cell">width</td>
       <td class="Table-cell">switch width<br><code>r(8)</code></td>
