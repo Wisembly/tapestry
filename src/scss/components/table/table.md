@@ -22,12 +22,12 @@
     <tr class="Table-row">
       <td class="Table-cell Table-cell--important u-tal">$selected-table-row-bg</td>
       <td class="Table-cell">background-color</td>
-      <td class="Table-cell">selected table-row background-color<br><code>$alabaster</code></td>
+      <td class="Table-cell">selected table-row background-color<br><code>$porcelain</code></td>
     </tr>
     <tr class="Table-row">
       <td class="Table-cell Table-cell--important u-tal">$disabled-table-row-bg</td>
       <td class="Table-cell">background-color</td>
-      <td class="Table-cell">disabled table-row background-color<br><code>$alabaster</code></td>
+      <td class="Table-cell">disabled table-row background-color<br><code>$porcelain</code></td>
     </tr>
     <tr class="Table-row">
       <td class="Table-cell Table-cell--important u-tal">$table-cell-color</td>
@@ -37,7 +37,7 @@
     <tr class="Table-row">
       <td class="Table-cell Table-cell--important u-tal">$important-table-cell-color</td>
       <td class="Table-cell">color</td>
-      <td class="Table-cell">important table-cell color<br><code>$limed-spruce</code></td>
+      <td class="Table-cell">important table-cell color<br><code>$shuttle-gray</code></td>
     </tr>
     <tr class="Table-row">
       <td class="Table-cell Table-cell--important u-tal">$disabled-table-cell-color</td>

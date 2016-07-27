@@ -62,12 +62,12 @@
     <tr class="Table-row">
       <td class="Table-cell Table-cell--important u-tal">$btn-base-colors</td>
       <td class="Table-cell">list</td>
-      <td class="Table-cell">button default colors<br><code>$venice-blue $curious-blue $mint $saffron $mandy</code></td>
+      <td class="Table-cell">button default colors<br><code>$venice-blue $boston-blue $mint $saffron $mandy</code></td>
     </tr>
     <tr class="Table-row">
       <td class="Table-cell Table-cell--important u-tal">$btn-hover-colors</td>
       <td class="Table-cell">list</td>
-      <td class="Table-cell">button hover colors<br><code>$atoll $eastern-blue $ocean-green $galliano $fuzzy-wuzzy-brown</code></td>
+      <td class="Table-cell">button hover colors<br><code>$atoll $jelly-bean $ocean-green $galliano $fuzzy-wuzzy-brown</code></td>
     </tr>
   </tbody>
 </table>

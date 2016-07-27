@@ -17,7 +17,7 @@
     <tr class="Table-row">
       <td class="Table-cell Table-cell--important u-tal">$switch-checked-color</td>
       <td class="Table-cell">color</td>
-      <td class="Table-cell">switch color when checked<br><code>$curious-blue</code></td>
+      <td class="Table-cell">switch color when checked<br><code>$boston-blue</code></td>
     </tr>
     <tr class="Table-row">
       <td class="Table-cell Table-cell--important u-tal">$switch-unchecked-color</td>

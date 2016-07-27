@@ -47,7 +47,7 @@
     <tr class="Table-row">
       <td class="Table-cell Table-cell--important u-tal">$meter-bar-bg</td>
       <td class="Table-cell">background-color</td>
-      <td class="Table-cell">meter bar background-color<br><code>$curious-blue</code></td>
+      <td class="Table-cell">meter bar background-color<br><code>$boston-blue</code></td>
     </tr>
     <tr class="Table-row">
       <td class="Table-cell Table-cell--important u-tal">$meter-info-status-bar-bg</td>

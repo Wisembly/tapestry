@@ -11,7 +11,7 @@
   .Meter-bar {
     @include pos(a 0 null null 0);
     height: 100%;
-    background: $curious-blue;
+    background: $boston-blue;
     transition: width .3s ease-out;
   }
 

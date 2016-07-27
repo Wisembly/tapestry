@@ -15,7 +15,7 @@ Input is displayed as a 100% width by default.
     <tr class="Table-row">
       <td class="Table-cell Table-cell--important u-tal">$form-base-color</td>
       <td class="Table-cell">color</td>
-      <td class="Table-cell">default form text color<br><code>$limed-spruce</code></td>
+      <td class="Table-cell">default form text color<br><code>$shuttle-gray</code></td>
     </tr>
     <tr class="Table-row">
       <td class="Table-cell Table-cell--important u-tal">$form-bg</td>
@@ -30,12 +30,12 @@ Input is displayed as a 100% width by default.
     <tr class="Table-row">
       <td class="Table-cell Table-cell--important u-tal">$form-disabled-bg</td>
       <td class="Table-cell">background-color</td>
-      <td class="Table-cell">default disabled form background-color<br><code>$alabaster</code></td>
+      <td class="Table-cell">default disabled form background-color<br><code>$porcelain</code></td>
     </tr>
     <tr class="Table-row">
       <td class="Table-cell Table-cell--important u-tal">$form-focus-color</td>
       <td class="Table-cell">color</td>
-      <td class="Table-cell">default focus form item color<br><code>$limed-spruce</code></td>
+      <td class="Table-cell">default focus form item color<br><code>$shuttle-gray</code></td>
     </tr>
     <tr class="Table-row">
       <td class="Table-cell Table-cell--important u-tal">$form-focus-border-color</td>
