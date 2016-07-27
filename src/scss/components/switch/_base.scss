@@ -7,20 +7,21 @@
     height: $switch-height;
     vertical-align: middle;
     background: $switch-unchecked-color;
+    border: 1px solid $switch-border-color;
     border-radius: $switch-height / 2;
     cursor: pointer;
-    transition: background .05s ease;
+    transition: background .05s ease-in-out, border .2s ease-in-out;
 
     &:after {
       @include pos(a 0 null null 0);
       content: "";
       display: block;
-      width: $switch-height;
-      height: $switch-height;
+      width: $switch-height - rem(2px);
+      height: $switch-height - rem(2px);
       background: $switch-color;
       border: ($switch-inner-space / 2) solid $switch-unchecked-color;
       border-radius: 50%;
-      transition: left .1s ease-out, border .05s ease-out;
+      transition: left .1s ease-in-out, border .05s ease-in-out;
     }
   }
 

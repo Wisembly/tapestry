@@ -3825,13 +3825,14 @@ a {
 .Switch {
   display: inline-block;
   position: relative;
-  width: 2.85714rem;
-  height: 1.42857rem;
+  width: 3.14286rem;
+  height: 1.71429rem;
   vertical-align: middle;
   background: #a1a9ae;
-  border-radius: 0.71429rem;
+  border: 1px solid #d5d9da;
+  border-radius: 0.85714rem;
   cursor: pointer;
-  transition: background .05s ease;
+  transition: background .05s ease-in-out, border .2s ease-in-out;
 }
 
 .Switch:after {
@@ -3840,12 +3841,12 @@ a {
   left: 0;
   content: "";
   display: block;
-  width: 1.42857rem;
-  height: 1.42857rem;
+  width: 1.57143rem;
+  height: 1.57143rem;
   background: #fff;
   border: 0.21429rem solid #a1a9ae;
   border-radius: 50%;
-  transition: left .1s ease-out, border .05s ease-out;
+  transition: left .1s ease-in-out, border .05s ease-in-out;
 }
 
 input[disabled] + .Switch,
@@ -3856,13 +3857,13 @@ input[disabled] + .Switch,
 
 input:checked + .Switch,
 .Switch-checkbox:checked + .Switch {
-  background-color: #2f99ba;
+  background-color: #46b489;
 }
 
 input:checked + .Switch:after,
 .Switch-checkbox:checked + .Switch:after {
   left: 1.42857rem;
-  border-color: #2f99ba;
+  border-color: #46b489;
 }
 
 .Switch-checkbox {
@@ -3870,21 +3871,24 @@ input:checked + .Switch:after,
 }
 
 .Switch--s {
-  width: 1.78571rem;
-  height: 1.02041rem;
-  border-radius: 1.02041rem;
+  width: 2.42857rem;
+  height: 1.35714rem;
+  border-radius: 1.35714rem;
 }
 
 .Switch--s:after {
-  width: 1.02041rem;
-  height: 1.02041rem;
+  width: 1.21429rem;
+  height: 1.21429rem;
   border-width: 0.14286rem;
-  border-radius: 0.5102rem;
 }
 
 input:checked + .Switch--s:after,
 .Switch-checkbox:checked + .Switch--s:after {
-  left: 0.76531rem;
+  left: 1.07143rem;
+}
+
+.Switch:hover {
+  border-color: #a1a9ae;
 }
 
 .Table {
