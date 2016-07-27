@@ -389,7 +389,6 @@
       "selectors": [
         ".Tabs",
         ".Tabs--s",
-        ".Tabs--vertical"
       ],
       "readyEvent": null,
       "delay": 500
