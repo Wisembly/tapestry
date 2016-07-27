@@ -33,7 +33,7 @@
     <tr class="Table-row">
       <td class="Table-cell Table-cell--important u-tal">$avatar-colors</td>
       <td class="Table-cell">list</td>
-      <td class="Table-cell">lists avatar colors<br><code>$gray-chateau $salmon $curious-blue $mint $saffron</code></td>
+      <td class="Table-cell">lists avatar colors<br><code>$gray-chateau $salmon $boston-blue $mint $saffron</code></td>
     </tr>
   </tbody>
 </table>

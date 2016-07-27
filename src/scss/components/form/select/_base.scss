@@ -8,7 +8,7 @@
     line-height: $base-lh;
     text-align: left;
     vertical-align: middle;
-    color: $limed-spruce;
+    color: $shuttle-gray;
     background-color: $white;
     background-image: url("#{$select-bg-path}");
     background-position: center right;
@@ -21,7 +21,7 @@
     appearance: none;
 
     &:focus {
-      color: $limed-spruce;
+      color: $shuttle-gray;
       border-color: $gray-chateau;
       outline: none;
     }

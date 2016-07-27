@@ -2,7 +2,7 @@
 
   .Btn--outline {
     &:hover {
-      color: $limed-spruce;
+      color: $shuttle-gray;
       background-color: transparent;
       border-color: $slate-gray;
     }
@@ -14,7 +14,7 @@
 
   .Btn--raw {
     &:hover {
-      color: $limed-spruce;
+      color: $shuttle-gray;
       background-color: $transparent;
     }
 
@@ -33,7 +33,7 @@
 
   .Btn--inverted {
     &:hover {
-      color: $limed-spruce;
+      color: $shuttle-gray;
       background-color: rgba($white, .8);
 
       &.Btn--raw {

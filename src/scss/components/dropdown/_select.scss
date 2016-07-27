@@ -9,7 +9,7 @@
     line-height: $base-lh;
     text-align: left;
     vertical-align: middle;
-    color: $limed-spruce;
+    color: $shuttle-gray;
     background-color: $white;
     border: 1px solid $base-border-color;
     border-radius: $base-radius;
@@ -17,7 +17,7 @@
     outline: 0;
 
     &[aria-expanded="true"] {
-      color: $limed-spruce;
+      color: $shuttle-gray;
       border-color: $gray-chateau;
     }
 
