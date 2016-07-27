@@ -18,9 +18,14 @@ Input is displayed as a 100% width by default.
       <td class="Table-cell">default form text color<br><code>$shuttle-gray</code></td>
     </tr>
     <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$form-bg</td>
-      <td class="Table-cell">background-color</td>
-      <td class="Table-cell">default form background-color<br><code>$white</code></td>
+      <td class="Table-cell Table-cell--important u-tal">$form-placeholder-color</td>
+      <td class="Table-cell">color</td>
+      <td class="Table-cell">form placeholder text color<br><code>$shuttle-gray</code></td>
+    </tr>
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal">$form-focus-color</td>
+      <td class="Table-cell">color</td>
+      <td class="Table-cell">default focus form item color<br><code>$shuttle-gray</code></td>
     </tr>
     <tr class="Table-row">
       <td class="Table-cell Table-cell--important u-tal">$form-disabled-color</td>
@@ -28,14 +33,19 @@ Input is displayed as a 100% width by default.
       <td class="Table-cell">default disabled form item color<br><code>$gray-chateau</code></td>
     </tr>
     <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal">$form-base-bg</td>
+      <td class="Table-cell">background-color</td>
+      <td class="Table-cell">default form background-color<br><code>$white</code></td>
+    </tr>
+    <tr class="Table-row">
       <td class="Table-cell Table-cell--important u-tal">$form-disabled-bg</td>
       <td class="Table-cell">background-color</td>
       <td class="Table-cell">default disabled form background-color<br><code>$porcelain</code></td>
     </tr>
     <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$form-focus-color</td>
+      <td class="Table-cell Table-cell--important u-tal">$form-base-border-color</td>
       <td class="Table-cell">color</td>
-      <td class="Table-cell">default focus form item color<br><code>$shuttle-gray</code></td>
+      <td class="Table-cell">default form border-color<br><code>$iron</code></td>
     </tr>
     <tr class="Table-row">
       <td class="Table-cell Table-cell--important u-tal">$form-focus-border-color</td>
