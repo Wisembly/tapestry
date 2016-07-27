@@ -7,8 +7,8 @@
     font-size: $fz--m;
     line-height: $base-lh;
     color: $form-base-color;
-    background: $form-bg;
-    border: 1px solid $base-border-color;
+    background: $form-base-bg;
+    border: 1px solid $form-base-border-color;
     user-select: none;
 
     &:not(.Btn) {
