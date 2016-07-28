@@ -1,14 +1,14 @@
 @if $import-tabs {
 
   .Tabs--s {
-    .Tab-link {
-      font-size: $fz--s;
-    }
+    .Tab {
+      font-size: $small-tab-fz;
+      line-height: $small-tab-lh;
 
-    .Tab-item[aria-selected="true"],
-    .Tab-item.is-selected {
-      &:after {
-        height: $small-tab-underline-size;
+      &#{$selected-tab-selector} {
+        &:after {
+          height: $small-tab-underline-size;
+        }
       }
     }
   }

@@ -1,25 +1,30 @@
 @if $import-tabs {
 
-  .Tab-item {
+  .Tab {
     display: inline-block;
     position: relative;
+    padding: $tab-pdv $tab-pdh;
+    font-size: $tab-fz;
+    line-height: $tab-lh;
+    color: $tab-base-color;
+    cursor: pointer;
+    outline: none;
+    transition: color .2s ease-in-out;
 
     &:after {
       @include pos(a null 0 0 0);
       content: "";
       height: 0;
       background: $tab-selected-color;
-      transition: height .2s ease;
+      transition: height .2s ease-in-out;
     }
 
-    &[aria-selected="true"] {
+    &#{$selected-tab-selector} {
+      color: $tab-selected-color;
+
       &:after {
         height: $tab-underline-size;
       }
-    }
-
-    + .Tab-item {
-      margin-left: $tab-space-between;
     }
   }
 

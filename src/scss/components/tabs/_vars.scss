@@ -3,13 +3,15 @@ $tab-selected-color: $venice-blue !default;
 $tab-hover-color: $venice-blue !default;
 
 $tab-underline-size: rem(3px) !default;
-
-$tab-space-between: $mg--m !default;
-$tab-link-pdv: $pd--s !default;
-$tab-link-pdh: 0 !default;
-
 $small-tab-underline-size: rem(2px) !default;
 
-$small-tab-pdr: $pd--s !default;
-$small-tab-pdb: $pd--m !default;
-$small-tab-lh: r(6) !default;
+$tab-pdv: r(3) !default;
+$tab-pdh: r(2) !default;
+
+$tab-fz: $base-fz--rem !default;
+$tab-lh: $base-lh !default;
+
+$small-tab-fz: $fz--s !default;
+$small-tab-lh: $base-lh !default;
+
+$selected-tab-selector: "[aria-selected="true"]" !default;
