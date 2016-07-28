@@ -1,0 +1,33 @@
+@if $import-tabs {
+
+  .Tabs--insert {
+    display: flex;
+    align-items: flex-end;
+
+    .Tab {
+      padding-right: $insert-tab-vertical-pd;
+      padding-left: $insert-tab-vertical-pd;
+      border: 1px solid transparent;
+      border-bottom-color: $insert-tab-border-color;
+
+      &:after {
+        display: none;
+      }
+
+      &#{$selected-tab-selector} {
+        color: $tab-selected-color;
+        border: 1px solid $insert-tab-border-color;
+        border-bottom-color: transparent;
+      }
+
+      + .Tab {
+        margin-left: -1px;
+      }
+    }
+
+    .Tab--fr {
+      flex: 1;
+    }
+  }
+
+}
