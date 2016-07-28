@@ -4005,6 +4005,42 @@ input:checked + .Switch--s:after,
   height: 0.14286rem;
 }
 
+.Tabs--insert {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.Tabs--insert .Tab {
+  padding-left: 2.14286rem;
+  padding-right: 2.14286rem;
+  border: 1px solid transparent;
+  border-bottom-color: #bac1c3;
+}
+
+.Tabs--insert .Tab:after {
+  display: none;
+}
+
+.Tabs--insert .Tab[aria-selected=true] {
+  color: #07698d;
+  border: 1px solid #bac1c3;
+  border-bottom-color: transparent;
+}
+
+.Tabs--insert .Tab + .Tab {
+  margin-left: -1px;
+}
+
+.Tabs--insert .Tab--fr {
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
 .Tab:hover {
   color: #07698d;
 }

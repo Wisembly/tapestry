@@ -30,6 +30,11 @@
       <td class="Table-cell">tab underline size<br><code>rem(3px)</code></td>
     </tr>
     <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal">$insert-tab-border-color</td>
+      <td class="Table-cell">color</td>
+      <td class="Table-cell">insert-tab border-color <br><code>$silver-sand</code></td>
+    </tr>
+    <tr class="Table-row">
       <td class="Table-cell Table-cell--important u-tal">$small-tab-underline-size</td>
       <td class="Table-cell">size</td>
       <td class="Table-cell">small tab underline size<br><code>rem(2px)</code></td>
@@ -43,6 +48,11 @@
       <td class="Table-cell Table-cell--important u-tal">$tab-pdh</td>
       <td class="Table-cell">padding</td>
       <td class="Table-cell">tab-link horizontal padding<br><code>r(2)</code></td>
+    </tr>
+    <tr class="Table-row">
+      <td class="Table-cell Table-cell--important u-tal">$insert-tab-vertical-pd</td>
+      <td class="Table-cell">padding</td>
+      <td class="Table-cell">insert-tab horizontal padding<br><code>r(6)</code></td>
     </tr>
     <tr class="Table-row">
       <td class="Table-cell Table-cell--important u-tal">$tab-fz</td>
@@ -91,7 +101,7 @@
 
 
 
-## Size S
+## Small
 
 ```html
 <div class="Tabs Tabs--s">
@@ -104,5 +114,25 @@
   <a class="Tab" aria-selected="false" tabindex="-1" href="#baz">
     Baz thing thing
   </a>
+</div>
+```
+
+
+## Insert
+
+Alternative to use when you have two levels of tabs
+
+```html
+<div class="Tabs Tabs--insert">
+  <a class="Tab" aria-selected="false" tabindex="0" href="#foo">
+    Foo selected
+  </a>
+  <a class="Tab" aria-selected="true" tabindex="-1" href="#bar">
+    Bar thing thing
+  </a>
+  <a class="Tab" aria-selected="false" tabindex="-1" href="#baz">
+    Baz thing thing
+  </a>
+  <div class="Tab Tab--fr"></div>
 </div>
 ```
