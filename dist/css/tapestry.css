@@ -3969,12 +3969,19 @@ input:checked + .Switch--s:after,
           user-select: none;
 }
 
-.Tab-item {
+.Tab {
   display: inline-block;
   position: relative;
+  padding: 1.07143rem 0.71429rem;
+  font-size: 1rem;
+  line-height: 1.42857rem;
+  color: #708189;
+  cursor: pointer;
+  outline: none;
+  transition: color .2s ease-in-out;
 }
 
-.Tab-item:after {
+.Tab:after {
   position: absolute;
   right: 0;
   bottom: 0;
@@ -3982,51 +3989,35 @@ input:checked + .Switch--s:after,
   content: "";
   height: 0;
   background: #07698d;
-  transition: height .2s ease;
+  transition: height .2s ease-in-out;
 }
 
-.Tab-item[aria-selected="true"]:after {
-  height: 0.21429rem;
-}
-
-.Tab-item + .Tab-item {
-  margin-left: 1.42857rem;
-}
-
-.Tab-link {
-  display: block;
-  position: relative;
-  padding: 0.71429rem 0;
-  font-size: 1rem;
-  font-weight: 600;
-  text-decoration: none;
-  color: #708189;
-  cursor: pointer;
-  outline: 0;
-}
-
-.Tab-item[aria-selected="true"] .Tab-link {
+.Tab[aria-selected=true] {
   color: #07698d;
 }
 
-.Tabs--s .Tab-link {
-  font-size: 0.83333rem;
+.Tab[aria-selected=true]:after {
+  height: 0.21429rem;
 }
 
-.Tabs--s .Tab-item[aria-selected="true"]:after,
-.Tabs--s .Tab-item.is-selected:after {
+.Tabs--s .Tab {
+  font-size: 0.83333rem;
+  line-height: 1.42857rem;
+}
+
+.Tabs--s .Tab[aria-selected=true]:after {
   height: 0.14286rem;
 }
 
-.Tab-item:hover:after {
-  height: 0.21429rem;
-}
-
-.Tab-item:hover .Tab-link {
+.Tab:hover {
   color: #07698d;
 }
 
-.Tabs--s .Tab-item:hover:after {
+.Tab:hover:after {
+  height: 0.21429rem;
+}
+
+.Tabs--s .Tab:hover:after {
   height: 0.14286rem;
 }
 
