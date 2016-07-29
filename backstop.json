@@ -57,11 +57,9 @@
       "selectors": [
         ".Btn",
         ".Btn--s",
-        ".Btn-expandContainer",
+        ".BtnContainer",
         ".Btn--squared",
         ".Btn--squared.Btn--s",
-        ".Btn--circle",
-        ".Btn--circle.Btn--s",
         ".Btn--outline",
         ".Btn--raw",
         ".Btn.has-icon",

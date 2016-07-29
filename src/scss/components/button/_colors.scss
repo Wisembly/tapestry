@@ -9,7 +9,7 @@
       background-color: $color-value;
     }
 
-    .Btn--outline.Btn-#{$color-name}:not([disabled]) {
+    .Btn--outline.Btn-#{$color-name} {
       color: $color-value;
       border-color: $color-value;
     }
