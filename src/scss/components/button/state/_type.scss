@@ -1,14 +1,11 @@
 @if $import-button and $import-pseudo-classes {
 
   .Btn--outline {
-    &:hover {
+    &:hover,
+    &:active {
       color: $shuttle-gray;
       background-color: transparent;
       border-color: $slate-gray;
-    }
-
-    &:active {
-      background-color: transparent;
     }
   }
 
@@ -23,8 +20,7 @@
       box-shadow: none;
     }
 
-    &[disabled],
-    &[aria-disabled="true"] {
+    &[disabled] {
       &:hover {
         background-color: none;
       }
@@ -34,7 +30,7 @@
   .Btn--inverted {
     &:hover {
       color: $shuttle-gray;
-      background-color: rgba($white, .8);
+      background: $white;
 
       &.Btn--raw {
         color: rgba($white, .8);
@@ -44,17 +40,18 @@
       &.Btn--outline {
         color: rgba($white, .8);
         background-color: $transparent;
-        border-color: rgba($white, .8);
+        border: 1px solid rgba($white, .8);
       }
     }
 
     &:active {
+      color: $shuttle-gray;
       background-color: $white;
-      box-shadow: none;
 
       &.Btn--raw {
         color: $white;
         background-color: $transparent;
+        box-shadow: none;
       }
 
       &.Btn--outline {
@@ -64,8 +61,7 @@
       }
     }
 
-    &[disabled],
-    &[aria-disabled="true"] {
+    &[disabled] {
       &:hover {
         background-color: none;
       }

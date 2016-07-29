@@ -19,12 +19,6 @@
     transition: background-color .2s ease-out, box-shadow .05s ease-out, color .1s ease-out;
     appearance: none;
 
-    &[disabled],
-    &[aria-disabled="true"] {
-      color: $gray-chateau;
-      background-color: $iron;
-    }
-
     .Icon {
       display: inline-block;
       line-height: $base-lh;

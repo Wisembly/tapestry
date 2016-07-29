@@ -13,10 +13,10 @@
   .Btn--s {
     padding: $btn-pdv--s $btn-pdh--s;
     font-size: $fz--s;
-    line-height: $lh--s;
+    line-height: $base-lh;
   }
 
-  .Btn-expandContainer {
+  .BtnContainer {
     display: flex;
     flex-direction: row;
     width: 100%;

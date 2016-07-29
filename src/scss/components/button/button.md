@@ -10,7 +10,7 @@
 ```html
 <button class="Btn">default button</button>
 <button class="Btn Btn--outline">Outlined button</button>
-<button class="Btn" aria-disabled="true" disabled>Disabled button</button>
+<button class="Btn" disabled>Disabled button</button>
 <button class="Btn Btn--raw">Raw button</button>
 <button class="Btn Btn--inverted">Inverted button</button>
 ```
@@ -80,7 +80,7 @@
 ```html
 <button class="Btn Btn--s">Small button</button>
 <button class="Btn Btn--outline Btn--s">Small outlined button</button>
-<button class="Btn Btn--s" aria-disabled="true" disabled>Small disabled button</button>
+<button class="Btn Btn--s" disabled>Small disabled button</button>
 <button class="Btn Btn--raw Btn--s">Small raw button</button>
 <button class="Btn Btn--inverted Btn--s">Small inverted button</button>
 ```
@@ -92,7 +92,7 @@
 
 ## Expand
 ```html
-<div class="BtnGroup Btn-expandContainer">
+<div class="BtnContainer">
   <button class="Btn Btn--expand">Expanded button</button>
   <button class="Btn Btn--validate">Button</button>
 </div>
@@ -108,16 +108,6 @@
 </button>
 ```
 
-
-## Circle
-```html
-<button class="Btn Btn--circle">
-  <i class="Icon Icon--like"></i>
-</button>
-<button class="Btn Btn--s Btn--outline Btn--circle">
-  <i class="Icon Icon--options"></i>
-</button>
-```
 
 ## Types
 
