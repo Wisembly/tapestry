@@ -1,0 +1,19 @@
+@mixin Button {
+  display: inline-block;
+  padding: $btn-pdv $btn-pdh;
+  font-size: $fz--m;
+  font-weight: $fw--semi-bold;
+  line-height: $base-lh;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  color: $white;
+  background-color: $gray-chateau;
+  border: 0;
+  border-radius: $base-radius;
+  cursor: pointer;
+  user-select: none;
+  outline: 0;
+  transition: background-color .2s ease-out, box-shadow .05s ease-out, color .1s ease-out;
+  appearance: none;
+}
