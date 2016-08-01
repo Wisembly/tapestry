@@ -1,10 +1,23 @@
 @if $import-form and $import-radio {
 
   .Radio {
-    display: inline-block;
+    display: block;
 
     +.Radio {
-      margin-left: $radio-space-between;
+      margin-top: $radio-space-between;
+    }
+  }
+
+  .Radio--inline {
+    display: inline-block;
+    margin-right: $radio-space-between;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    +.Radio--inline {
+      margin-top: 0;
     }
   }
 
