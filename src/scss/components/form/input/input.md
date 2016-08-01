@@ -92,10 +92,10 @@ Items can be inlined with .Input--inline class.
   <input name="checkbox1" id="checkbox1" type="checkbox" class="Checkbox-input">
   <label for="checkbox1" class="Checkbox-label">Would you like to receive our newsletter?</label>
 </div>
-<div class="Checkbox">
+<label class="Checkbox">
   <input name="checkbox2" id="checkbox2" type="checkbox" class="Checkbox-input" checked>
-  <label for="checkbox2" class="Checkbox-label">I am a robot</label>
-</div>
+  <div class="Checkbox-label">I am a robot</div>
+</label>
 <div class="Checkbox">
   <input name="checkbox3" id="checkbox3" type="checkbox" class="Checkbox-input" disabled>
   <label for="checkbox3" class="Checkbox-label">I am disabled</label>
@@ -115,10 +115,10 @@ Items can be inlined with .Input--inline class.
   <input name="title" id="foo" type="radio" class="Radio-input" checked>
   <label for="foo" class="Radio-label">Foo</label>
 </div>
-<div class="Radio">
-  <input name="title" id="bar" type="radio" class="Radio-input">
-  <label for="bar" class="Radio-label">Bar</label>
-</div>
+<label class="Radio">
+  <input name="title" id="bar" type="radio" class="Radio-input" />
+  <div class="Radio-label">Bar</div>
+</label>
 <div class="Radio">
   <input name="title" id="baz" type="radio" class="Radio-input">
   <label for="baz" class="Radio-label">Baz</label>
