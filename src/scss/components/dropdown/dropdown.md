@@ -1,9 +1,48 @@
 # Dropdown
 
+
+## Variables
+
+| Variable                              | property         | value           | desc.  |
+|---------------------------------------|------------------|-----------------|--------|
+| ** $dropdown-base-fz **               | font-size        | `$fz--m`        | -      |
+| ** $dropdown-small-fz **              | font-size        | `$fz--s`        | -      |
+| ** $dropdown-min-width **             | min-width        | `r(56)`         | -      |
+| ** $dropdown-max-height **            | max-height       | `r(30)`         | -      |
+| ** $dropdown-toggle-padding **        | padding          | `r(1) r(2)`     | -      |
+| ** $dropdown-toggle-bg **             | background-color | `$transparent`  | -      |
+| ** $dropdown-toggle-color **          | color            | `$slate-gray`   | -      |
+| ** $dropdown-toggle-hover-color **    | color            | `$shuttle-gray` | -      |
+| ** $dropdown-toggle-expanded-color ** | color            | `$shuttle-gray` | -      |
+| ** $dropdown-list-bg **               | background-color | `$white`        | -      |
+| ** $dropdown-list-border-color **     | background-color | `$iron`         | -      |
+| ** $dropdown-item-base-color **       | color            | `$shuttle-gray` | -      |
+| ** $dropdown-item-hover-color **      | color            | `$white`        | -      |
+| ** $dropdown-item-focus-color **      | color            | `$shuttle-gray` | -      |
+| ** $dropdown-item-base-bg **          | background-color | `$transparent`  | -      |
+| ** $dropdown-item-hover-bg **         | background-color | `$gray-chateau` | -      |
+| ** $dropdown-item-selected-bg **      | background-color | `$porcelain`    | -      |
+| ** $dropdown-item-mg **               | margin           | `$mg--xs`       | -      |
+| ** $dropdown-item-pd **               | padding          | `$pd--xs`       | -      |
+
+
 ```html
 <div class="Dropdown" data-tapestry="dropdown">
-  <button type="button" class="Dropdown-toggle Btn" aria-controls="" aria-expanded="false">Call to action</button>
-  <ul id="" class="Dropdown-list">
+  <button type="button" class="Dropdown-toggle" aria-controls="" aria-expanded="false">Open dropdown</button>
+  <ul class="Dropdown-list">
+    <li class="Dropdown-item">
+      Simple label
+    </li>
+    <li>
+      <a href="#" class="Dropdown-item">
+        Linked label
+      </a>
+    </li>
+  </ul>
+</div>
+<div class="Dropdown Dropdown--s" data-tapestry="dropdown">
+  <button type="button" class="Dropdown-toggle" aria-controls="" aria-expanded="false">Open small dropdown</button>
+  <ul class="Dropdown-list">
     <li class="Dropdown-item">
       Simple label
     </li>
@@ -38,7 +77,7 @@ Modifiers available (starting points, Dropdown-list are never overlaying Dropdow
 
 ```html
 <div class="Dropdown" data-tapestry="dropdown">
-  <button type="button" class="Dropdown-toggle Btn" aria-controls="dropdownDividerExample" aria-expanded="false">Call to action</button>
+  <button type="button" class="Dropdown-toggle" aria-controls="dropdownDividerExample" aria-expanded="false">Call to action</button>
   <ul id="dropdownDividerExample" class="Dropdown-list" aria-labelledby="dropdownMenuDivider">
     <li class="Dropdown-item">
       Simple label 1
