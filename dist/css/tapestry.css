@@ -2201,6 +2201,19 @@ a {
   margin-top: 0.78571rem;
 }
 
+.Checkbox--inline {
+  display: inline-block;
+  margin-right: 0.78571rem;
+}
+
+.Checkbox--inline:last-child {
+  margin-right: 0;
+}
+
+.Checkbox--inline + .Checkbox--inline {
+  margin-top: 0;
+}
+
 .Checkbox-label {
   display: inline-block;
   font-size: 1rem;
@@ -2460,11 +2473,24 @@ a {
 }
 
 .Radio {
-  display: inline-block;
+  display: block;
 }
 
 .Radio + .Radio {
-  margin-left: 0.78571rem;
+  margin-top: 0.78571rem;
+}
+
+.Radio--inline {
+  display: inline-block;
+  margin-right: 0.78571rem;
+}
+
+.Radio--inline:last-child {
+  margin-right: 0;
+}
+
+.Radio--inline + .Radio--inline {
+  margin-top: 0;
 }
 
 .Radio-label {
