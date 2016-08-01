@@ -5,15 +5,15 @@
     @include pos(a 100% null null 0);
     display: none;
     z-index: zi("dropdown");
-    min-width: $base-lh * 7;
-    max-height: r(30);
+    min-width: $dropdown-min-width;
+    max-height: $dropdown-max-height;
     margin: $mg--xs 0;
     padding: 0;
     list-style: none;
-    background: $white;
-    border: 1px solid $iron;
+    background: $dropdown-list-bg;
+    border: 1px solid $dropdown-list-border-color;
     border-radius: $base-radius;
-    box-shadow: 0 0 10px 0 rgba($slate-gray, .3);
+    box-shadow: 2px 2px 4px 0 rgba($gray-chateau, .3);
     overflow-y: auto;
 
     > li:not(.Dropdown-item) {

@@ -2,13 +2,23 @@
 
   .Dropdown-item {
     &:hover {
-      background: $porcelain;
+      color: $dropdown-item-hover-color;
+      background: $dropdown-item-hover-bg;
+
+      &:after {
+        color: $white;
+      }
     }
 
     &:focus,
     &:active {
-      background: $iron;
+      color: $dropdown-item-focus-color;
+      background: $dropdown-item-selected-bg;
       outline: none;
+
+      &:after {
+        color: $mint;
+      }
     }
   }
 

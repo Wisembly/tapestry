@@ -4,27 +4,28 @@
     @include ellipsis;
     display: block;
     position: relative;
-    margin: $mg--xs;
-    padding: $pd--xs;
-    font-size: $fz--s;
-    font-weight: $fw--semi-bold;
+    margin: $dropdown-item-mg;
+    padding: $dropdown-item-pd;
+    font-weight: $base-fw;
     line-height: $base-lh;
     text-align: left;
     text-decoration: none;
-    color: $shuttle-gray;
+    color: $dropdown-item-base-color;
+    background: $dropdown-item-base-bg;
     border-radius: $base-radius;
     cursor: pointer;
 
     &[aria-selected="true"] {
       padding-right: r(6);
-      background: $porcelain;
+      background: $dropdown-item-selected-bg;
 
       @if $import-icons {
         &:after {
           @include Icon--checkmark;
           @include pos(a $mg--xs $mg--s null null);
-          font-family: tapestry-icons;
+          font-family: "tapestry-icons";
           font-size: $fz--xs;
+          color: $mint;
         }
       }
     }
