@@ -43,27 +43,13 @@ Input is displayed as a 100% width by default.
 
 ```html
 <div id="basicInputWrapper1">
-  <label for="basicInput" class="Label">Foo</label>
+  <label for="basicInput" class="Label Label--block">Foo</label>
   <input id="basicInput" class="Input" type="text" placeholder="Basic input" aria-label="Input item">
 </div>
 
 <div id="basicInputWrapper2" class="u-mgt--m">
-  <label for="disabledInput" class="Label">Bar</label>
+  <label for="disabledInput" class="Label Label--block">Bar</label>
   <input id="disabledInput" class="Input" type="text" placeholder="Disabled input" aria-label="Input item" disabled>
-</div>
-```
-
-Items can be inlined with .Input--inline class.
-
-```html
-<div id="inlinedInputWrapper1">
-  <label for="fooLabel" class="Label">Foo</label>
-  <input id="fooLabel" class="Input Input--inline" type="text" placeholder="" aria-label="Input item">
-</div>
-
-<div id="inlinedInputWrapper2" class="u-mgt--m">
-  <input id="barLabel" class="Input Input--inline" type="text" placeholder="" aria-label="Input item">
-  <label for="barLabel" class="Label">Bar</label>
 </div>
 ```
 
@@ -197,6 +183,42 @@ Items can be inlined with .Input--inline class.
   <button class="Btn Input-addOn InputGroup-item" id="InputGrouped4" placeholder="input" aria-label="Input item 4">Search</button>
 </div>
 ```
+
+
+
+## Display modes
+
+```html
+<div id="inlinedInputWrapper1">
+  <label for="fooLabel" class="Label">Foo</label>
+  <input id="fooLabel" class="Input Input--inline" type="text" placeholder="" aria-label="Input item">
+</div>
+
+<div id="inlinedInputWrapper2" class="u-mgv--m">
+  <input id="barLabel" class="Input Input--inline" type="text" placeholder="" aria-label="Input item">
+  <label for="barLabel" class="Label">Bar</label>
+</div>
+
+<div class="Radio Radio--inline">
+  <input name="title" id="foo2" type="radio" class="Radio-input" checked>
+  <label for="foo2" class="Radio-label">Foo2</label>
+</div>
+<label class="Radio Radio--inline">
+  <input name="title" id="bar2" type="radio" class="Radio-input" />
+  <div class="Radio-label">Bar2</div>
+</label>
+
+<div class="Checkbox Checkbox--inline">
+  <input name="checkbox10" id="checkbox10" type="checkbox" class="Checkbox-input">
+  <label for="checkbox10" class="Checkbox-label">Chew</label>
+</div>
+<label class="Checkbox Checkbox--inline">
+  <input name="checkbox20" id="checkbox20" type="checkbox" class="Checkbox-input">
+  <div class="Checkbox-label">Bakka</div>
+</label>
+
+```
+
 
 
 
