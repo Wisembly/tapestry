@@ -6,11 +6,11 @@
 |-----------------------------------|------------------|-----------------|-------------------------------------|
 | ** $table-pdv **                  | padding          | `$pd--s`        | table vertical padding              |
 | ** $table-pdh **                  | padding          | `$pd--m`        | table horizontal padding            |
-| ** $selected-table-row-bg **      | background-color | `$porcelain`    | selected table-row background-color |
-| ** $disabled-table-row-bg **      | background-color | `$porcelain`    | disabled table-row background-color |
+| ** $selected-table-row-bg **      | background-color | `$alabaster`    | selected table-row background-color |
+| ** $disabled-table-row-bg **      | background-color | `$alabaster`    | disabled table-row background-color |
 | ** $table-cell-color **           | color            | `$slate-gray`   | table-cell color                    |
 | ** $important-table-cell-color ** | color            | `$shuttle-gray` | important table-cell color          |
-| ** $disabled-table-cell-color **  | color            | `$iron`         | disabled table-cell color           |
+| ** $disabled-table-cell-color **  | color            | `$sliver-sand`  | disabled table-cell color           |
 
 
 
