@@ -2,6 +2,7 @@
 
   .Dropdown-selectInput {
     padding: rb(2);
+    font-weight: $base-fw;
     text-align: left;
     vertical-align: middle;
     background-color: $white;
@@ -32,6 +33,12 @@
     + .Dropdown-list {
       width: 100%;
     }
+  }
+
+  .Dropdown-selectInput--block {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
   }
 
 }

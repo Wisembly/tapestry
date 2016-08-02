@@ -12,9 +12,9 @@
   .BtnGroup-item {
     position: relative;
     padding: $btn-pdv - rem(1px) $btn-pdh - rem(1px);
-    color: $gray-chateau;
+    color: $slate-gray;
     background-color: $white;
-    border: 1px solid $base-border-color;
+    border: 1px solid $btn-outline-base-border-color;
     border-radius: 0;
 
     &.BtnGroup-item[disabled] {

@@ -10,7 +10,7 @@
 | ** $disabled-table-row-bg **      | background-color | `$alabaster`    | disabled table-row background-color |
 | ** $table-cell-color **           | color            | `$slate-gray`   | table-cell color                    |
 | ** $important-table-cell-color ** | color            | `$shuttle-gray` | important table-cell color          |
-| ** $disabled-table-cell-color **  | color            | `$sliver-sand`  | disabled table-cell color           |
+| ** $disabled-table-cell-color **  | color            | `$silver-sand`  | disabled table-cell color           |
 
 
 
