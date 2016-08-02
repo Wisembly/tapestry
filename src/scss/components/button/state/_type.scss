@@ -3,9 +3,9 @@
   .Btn--outline {
     &:hover,
     &:active {
-      color: $shuttle-gray;
+      color: $btn-outline-hover-color;
       background-color: transparent;
-      border-color: $slate-gray;
+      border-color: $btn-outline-hover-border-color;
     }
   }
 

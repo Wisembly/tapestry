@@ -1,10 +1,14 @@
 @if $import-button and $import-pseudo-classes {
 
   .BtnGroup {
-    > .Btn {
-      &:hover {
+    > .BtnGroup-item {
+      &:hover,
+      &:active {
         position: relative;
         z-index: 1;
+        color: $slate-gray;
+        background-color: $white;
+        border-color: $slate-gray;
       }
 
       &:hover[disabled] {

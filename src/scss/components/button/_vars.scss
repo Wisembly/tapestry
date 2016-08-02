@@ -9,3 +9,12 @@ $btn-fixed-unit--s: r(6) !default;
 $btn-name-colors: "-primary" "-alt" "-validate" "-info" "-error";
 $btn-base-colors: $venice-blue $boston-blue $mint $saffron $mandy;
 $btn-hover-colors: $atoll $jelly-bean $ocean-green $galliano $fuzzy-wuzzy-brown;
+
+$btn-outline-base-color: $slate-gray !default;
+$btn-outline-base-border-color: $base-border-color !default;
+
+$btn-outline-hover-color: $shuttle-gray !default;
+$btn-outline-hover-border-color: $shuttle-gray !default;
+
+$btn-group-space-between: $mg--s !default;
+$btn-group-selected-color: $mint !default;
