@@ -2131,7 +2131,7 @@ a {
 }
 
 .Btn--outline {
-  padding: 0.64286rem 1.35714rem;
+  padding: 0.64286rem 1rem;
   color: #708189;
   background-color: transparent;
   border: 1px solid #bac1c3;
@@ -2236,55 +2236,45 @@ a {
   font-size: 0;
 }
 
-.BtnGroup > .Btn {
-  margin-left: -1px;
-  border-radius: 0;
-}
-
-.BtnGroup > .Btn:first-child {
-  margin-left: 0;
-  border-top-left-radius: 0.28571rem;
-  border-bottom-left-radius: 0.28571rem;
-}
-
-.BtnGroup > .Btn:last-child {
-  border-top-right-radius: 0.28571rem;
-  border-bottom-right-radius: 0.28571rem;
-}
-
-.BtnGroup > .Btn[disabled] {
-  border-radius: 0;
-}
-
-.BtnGroup > .Btn[disabled]:first-child {
-  border-top-left-radius: 0.28571rem;
-  border-bottom-left-radius: 0.28571rem;
-}
-
-.BtnGroup > .Btn[disabled]:last-child {
-  border-top-right-radius: 0.28571rem;
-  border-bottom-right-radius: 0.28571rem;
-}
-
-.BtnGroup > .Btn + .Btn {
-  margin-left: -1px;
-}
-
 .BtnGroup + .BtnGroup {
   margin-left: 0.71429rem;
 }
 
-.BtnGroup-dropdown .Dropdown-toggle {
-  margin-left: -1px;
+.BtnGroup-item {
+  position: relative;
+  padding: 0.64286rem 1rem;
+  color: #a1a9ae;
+  background-color: #fff;
+  border: 1px solid #bac1c3;
   border-radius: 0;
 }
 
-.BtnGroup-dropdown:first-child .Dropdown-toggle {
+.BtnGroup-item.BtnGroup-item[disabled] {
+  border: 1px solid #d5d9da;
+  border-radius: 0;
+}
+
+.BtnGroup-item.BtnGroup-item:first-child {
   border-radius: 0.28571rem 0 0 0.28571rem;
 }
 
-.BtnGroup-dropdown:last-child .Dropdown-toggle {
+.BtnGroup-item.BtnGroup-item:last-child {
   border-radius: 0 0.28571rem 0.28571rem 0;
+}
+
+.BtnGroup-item + .BtnGroup-item {
+  margin-left: -1px;
+}
+
+.BtnGroup-item.is-selected {
+  z-index: 2;
+  color: #46b489;
+  border-color: #46b489;
+}
+
+.BtnGroup-item--s {
+  padding: 0.28571rem 0.64286rem;
+  font-size: 0.83333rem;
 }
 
 .Btn:hover {
@@ -2385,7 +2375,7 @@ a {
 .Btn--outline:hover, .Btn--outline:active {
   color: #515f65;
   background-color: transparent;
-  border-color: #708189;
+  border-color: #515f65;
 }
 
 .Btn--raw:hover {
@@ -2439,21 +2429,24 @@ a {
   background-color: none;
 }
 
-.BtnGroup > .Btn:hover {
+.BtnGroup > .BtnGroup-item:hover, .BtnGroup > .BtnGroup-item:active {
   position: relative;
   z-index: 1;
+  color: #708189;
+  background-color: #fff;
+  border-color: #708189;
 }
 
-.BtnGroup > .Btn:hover[disabled] {
+.BtnGroup > .BtnGroup-item:hover[disabled] {
   border-radius: 0;
 }
 
-.BtnGroup > .Btn:hover[disabled]:first-child {
+.BtnGroup > .BtnGroup-item:hover[disabled]:first-child {
   border-top-left-radius: 0.28571rem;
   border-bottom-left-radius: 0.28571rem;
 }
 
-.BtnGroup > .Btn:hover[disabled]:last-child {
+.BtnGroup > .BtnGroup-item:hover[disabled]:last-child {
   border-top-right-radius: 0.28571rem;
   border-bottom-right-radius: 0.28571rem;
 }

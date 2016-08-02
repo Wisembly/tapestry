@@ -1,14 +1,14 @@
 @if $import-button {
 
   .Btn--outline {
-    padding: rb(2) rb(4);
-    color: $slate-gray;
+    padding: $btn-pdv - rem(1px) $btn-pdh - rem(1px);
+    color: $btn-outline-base-color;
     background-color: transparent;
-    border: 1px solid $base-border-color;
+    border: 1px solid $btn-outline-base-border-color;
     transition: border-color .1s ease-out;
 
     &.Btn--s {
-      padding: rb(1) rb(2);
+      padding: $btn-pdv--s - rem(1px) $btn-pdh--s - rem(1px);
     }
   }
 
@@ -43,14 +43,14 @@
 
     .Btn-icon {
       @include pos(a 0 null null 0);
-      padding: r(2) $btn-pdh--s;
+      padding: $btn-pdv $btn-pdh--s;
       border-right: 1px solid rgba($white, .3);
     }
   }
 
   .Btn--outline.has-icon {
     .Btn-icon {
-      padding: rb(2) $btn-pdh--s;
+      padding: $btn-pdv - rem(1px) $btn-pdh--s;
       border-color: inherit;
     }
   }
