@@ -3560,7 +3560,11 @@ a {
       -ms-flex-negative: 0;
           flex-shrink: 0;
   padding: 0;
-  background: #10526d;
+  background: #07698d;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .ModalHeader-btn {
@@ -3583,7 +3587,7 @@ a {
           flex-grow: 1;
   margin: 0;
   padding: 0.71429rem 3.85714rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 2.85714rem;
   text-align: center;
