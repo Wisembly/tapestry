@@ -8,7 +8,7 @@
         z-index: 1;
         color: $slate-gray;
         background-color: $white;
-        border-color: $slate-gray;
+        border-color: $btn-outline-hover-border-color;
       }
 
       &:hover[disabled] {
