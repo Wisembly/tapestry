@@ -16,6 +16,9 @@ var styleguide  = new Styleguide({
     },
 		paragraph: function (str, a) {
 			return '<p class="s-Paragraph">' + str + '</p>';
+		},
+		table: function (header, body) {
+			return '<table class="s-Table">' + header + body + '</table>';
 		}
   }
 });

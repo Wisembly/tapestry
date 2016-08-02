@@ -626,27 +626,24 @@
 	}
 
 
-#variables + table:not(.Table) {
+.s-Table {
 	width: 100%;
 	font-size: 0.83333rem;
 	border-collapse: collapse;
 	margin-bottom: 1rem;
 }
 
-#variables + table:not(.Table) th {
+.s-Table th {
 	padding: 0.35714rem 0.71429rem;
 	border: 1px solid #bac1c3;
-}
-
-#variables + table:not(.Table) th {
 	width: 20%;
 }
 
-#variables + table:not(.Table) th:last-child {
+.s-Table th:last-child {
 	width: 40%;
 }
 
-#variables + table:not(.Table) td {
+.s-Table td {
 	padding: 0.35714rem 0.71429rem;
 	border: 1px solid #bac1c3;
 }
