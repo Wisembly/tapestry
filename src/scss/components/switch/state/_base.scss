@@ -1,7 +1,0 @@
-@if $import-switch and $import-pseudo-classes {
-
-  .Switch:hover {
-    border-color: $switch-hover-border-color;
-  }
-
-}

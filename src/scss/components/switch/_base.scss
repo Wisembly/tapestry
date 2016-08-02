@@ -35,6 +35,7 @@
 
     &:checked + .Switch {
       background-color: $switch-checked-color;
+      border-color: $switch-checked-color;
 
       &:after {
         left: $switch-width - $switch-height;
