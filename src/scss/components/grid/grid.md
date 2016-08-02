@@ -1,34 +1,12 @@
 # Grid
 
-A 12 columns/grid-cells grid
-
 ## Variables
-```esc
-<table class="Table">
-  <thead class="Table-head">
-    <th class="Table-cell Table-cell--header u-tal" style="width: 25%;">Name</th>
-    <th class="Table-cell Table-cell--header" style="width: 10%;">Type</th>
-    <th class="Table-cell Table-cell--header">Description</th>
-  </thead>
-  <tbody class="Table-body">
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal" style="width: 25%;">$grid-column-number</td>
-      <td class="Table-cell">number</td>
-      <td class="Table-cell">grid column number<br><code>12</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal" style="width: 25%;">$grid-responsive-range</td>
-      <td class="Table-cell">map</td>
-      <td class="Table-cell">lists devices to generate responsive grid systems, matches with $breakpoints map<br><code>(phablet, tablet, laptop)</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal" style="width: 25%;">$grid-gutter-width</td>
-      <td class="Table-cell">size</td>
-      <td class="Table-cell">gutter width<br><code>r(4)</code></td>
-    </tr>
-  </tbody>
-</table>
-```
+
+| Variable                     | property      | value                       | desc.                                                                      |
+|------------------------------|---------------|-----------------------------|----------------------------------------------------------------------------|
+| ** $grid-column-number **    | number        | `12`                        | grid column number                                                         |
+| ** $grid-responsive-range ** | map           | `(phablet, tablet, laptop)` | devices to generate responsive grid systems, matches with $breakpoints map |
+| ** $grid-gutter-width **     | size          | `r(4)`                      | gutter width                                                               |
 
 
 

@@ -2,47 +2,16 @@
 
 ## Variables
 
-```esc
-<table class="Table">
-  <thead class="Table-head">
-    <th class="Table-cell Table-cell--header u-tal" style="width: 25%;">Name</th>
-    <th class="Table-cell Table-cell--header" style="width: 10%;">Type</th>
-    <th class="Table-cell Table-cell--header">Description</th>
-  </thead>
-  <tbody class="Table-body">
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$avatar-size--s</td>
-      <td class="Table-cell">size</td>
-      <td class="Table-cell">small avatar diameter<br><code>r(6)</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$avatar-size--m</td>
-      <td class="Table-cell">size</td>
-      <td class="Table-cell">regular avatar diameter<br><code>r(8)</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$avatar-size--l</td>
-      <td class="Table-cell">size</td>
-      <td class="Table-cell">large avatar diameter<br><code>r(10)</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$avatar-size--xl</td>
-      <td class="Table-cell">size</td>
-      <td class="Table-cell">extra-large avatar diameter<br><code>r(14)</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$avatar-squared-radius</td>
-      <td class="Table-cell">size</td>
-      <td class="Table-cell">squared avatar border-radius<br><code>rem(3px)</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$avatar-colors</td>
-      <td class="Table-cell">list</td>
-      <td class="Table-cell">lists avatar colors<br><code>$gray-chateau $salmon $boston-blue $mint $saffron</code></td>
-    </tr>
-  </tbody>
-</table>
-```
+| Variable                     | property      | value                                               | desc.                        |
+|------------------------------|---------------|-----------------------------------------------------|------------------------------|
+| ** $avatar-size--s **        | size          | `r(6)`                                              | small avatar diameter        |
+| ** $avatar-size--m **        | size          | `r(8)`                                              | avatar diameter              |
+| ** $avatar-size--l **        | size          | `r(10)`                                             | large avatar diameter        |
+| ** $avatar-size--xl **       | size          | `r(14)`                                             | extra-large avatar diameter  |
+| ** $avatar-squared-radius ** | border-radius | `rem(3px)`                                          | squared avatar border-radius |
+| ** $avatar-colors **         | list          | `$gray-chateau $salmon $boston-blue $mint $saffron` | avatar colors                |
+
+
 
 ## Sizes
 
@@ -52,6 +21,8 @@
 <img class="Avatar Avatar--l" src="http://assets-s3.usmagazine.com/uploads/assets/article_photos/tom-from-myspace-lg.jpg" alt=" " />
 <img class="Avatar Avatar--xl" src="http://assets-s3.usmagazine.com/uploads/assets/article_photos/tom-from-myspace-lg.jpg" alt=" " />
 ```
+
+
 
 ## Colors
 
@@ -64,6 +35,8 @@
 <div class="Avatar Avatar--color6">6</div>
 ```
 
+
+
 ## Initials
 
 ```html
@@ -73,6 +46,8 @@
 <div class="Avatar Avatar--xl Avatar--color4">DD</div>
 ```
 
+
+
 ## Empty
 
 ```html
@@ -81,6 +56,8 @@
 <div class="Avatar Avatar--l Avatar--empty"></div>
 <div class="Avatar Avatar--xl Avatar--empty"></div>
 ```
+
+
 
 ## Squared
 

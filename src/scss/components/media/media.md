@@ -33,25 +33,8 @@
 
 ## Positions
 
-```esc
-<table class="Table">
-  <thead class="Table-head">
-    <th class="Table-cell Table-cell--header u-tal">Class</th>
-    <th class="Table-cell Table-cell--header">Description</th>
-  </thead>
-  <tbody class="Table-body">
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal"><code>.Media--t</code></td>
-      <td class="Table-cell">Aligns content to the top</td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal"><code>.Media--c</code></td>
-      <td class="Table-cell">Vertically centers content</td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal"><code>.Media--b</code></td>
-      <td class="Table-cell">Aligns to the bottom</td>
-    </tr>
-  </tbody>
-</table>
-```
+| Class     | desc.                      |
+|-----------|----------------------------|
+| .Media--t | aligns content to the top  |
+| .Media--c | vertically centers content |
+| Media--b  | aligns to the bottom       |

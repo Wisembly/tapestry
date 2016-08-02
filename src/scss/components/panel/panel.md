@@ -1,32 +1,12 @@
 # Panel
 
 ## Variables
-```esc
-<table class="Table u-mgb--m">
-  <thead class="Table-head">
-    <th class="Table-cell Table-cell--header u-tal" style="width: 25%;">Name</th>
-    <th class="Table-cell Table-cell--header" style="width: 10%;">Type</th>
-    <th class="Table-cell Table-cell--header">Description</th>
-  </thead>
-  <tbody class="Table-body">
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$panel-header-height</td>
-      <td class="Table-cell">height</td>
-      <td class="Table-cell">panel header height<br><code>r(8)</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$panel-width</td>
-      <td class="Table-cell">width</td>
-      <td class="Table-cell">panel width (small devices)<br><code>100%</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$panel-max-width</td>
-      <td class="Table-cell">width</td>
-      <td class="Table-cell">panel max-width (large devices)<br><code>r(100)</code></td>
-    </tr>
-  </tbody>
-</table>
-```
+
+| Variable                   | property  | value    | desc.                           |
+|----------------------------|-----------|----------|---------------------------------|
+| ** $panel-header-height ** | height    | `r(8)`   | panel header height             |
+| ** $panel-width **         | width     | `100%`   | panel width (small devices)     |
+| ** $panel-max-width **     | max-width | `r(100)` | panel max-width (large devices) |
 
 
 
