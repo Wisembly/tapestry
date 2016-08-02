@@ -3988,7 +3988,7 @@ input:checked + .Switch--s:after,
 }
 
 [aria-disabled=true] .Table-cell {
-  color: #d5d9da;
+  color: #bac1c3;
 }
 
 .Table-cell--important {
@@ -4010,11 +4010,11 @@ input:checked + .Switch--s:after,
 }
 
 .Table--actionable .Table-row.is-selected, .Table--actionable .Table-row[aria-selected="true"] {
-  background-color: #ebeeef;
+  background-color: #f7f7f7;
 }
 
 .Table--actionable .Table-row[aria-disabled="true"] {
-  background-color: #ebeeef;
+  background-color: #f7f7f7;
   cursor: default;
 }
 
@@ -4023,7 +4023,7 @@ input:checked + .Switch--s:after,
 }
 
 .Table--actionable .Table-row:hover {
-  background-color: #ebeeef;
+  background-color: #f7f7f7;
 }
 
 .Tabs {
