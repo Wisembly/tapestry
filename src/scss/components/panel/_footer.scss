@@ -3,8 +3,16 @@
   .Panel-footer {
     display: flex;
     flex-shrink: 0;
-    padding: $pd--m;
-    background: $white;
+  }
+
+  .Panel-footerBtn {
+    flex: 1 1 auto;
+    padding: r(4);
+    border-radius: 0;
+
+    +.Panel-footerBtn {
+      margin-left: 0;
+    }
   }
 
 }

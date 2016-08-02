@@ -3771,7 +3771,11 @@ a {
       -ms-flex-negative: 0;
           flex-shrink: 0;
   padding: 0;
-  background: #10526d;
+  background: #07698d;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .PanelHeader-btn {
@@ -3794,7 +3798,7 @@ a {
           flex-grow: 1;
   margin: 0;
   padding: 0.71429rem 1.42857rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 2.85714rem;
   text-align: left;
@@ -3817,8 +3821,18 @@ a {
   -webkit-flex-shrink: 0;
       -ms-flex-negative: 0;
           flex-shrink: 0;
+}
+
+.Panel-footerBtn {
+  -webkit-flex: 1 1 auto;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
   padding: 1.42857rem;
-  background: #fff;
+  border-radius: 0;
+}
+
+.Panel-footerBtn + .Panel-footerBtn {
+  margin-left: 0;
 }
 
 .Panel--l {
