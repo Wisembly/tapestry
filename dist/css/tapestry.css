@@ -1040,18 +1040,28 @@ a {
   text-align: center;
 }
 
+.Line--inline {
+  display: inline-block;
+  text-align: center;
+  border: 0;
+  margin-top: 2.85714rem;
+  margin-bottom: 0;
+}
+
 .Line-label {
   display: inline-block;
-  padding: 0 0.71429rem;
-  font-size: 0.71429rem;
+  width: 2.85714rem;
+  height: 2.85714rem;
+  line-height: 2.57143rem;
+  font-size: 1rem;
   font-weight: 600;
-  text-transform: uppercase;
   color: #a1a9ae;
   background: #fff;
   border: 1px solid #d5d9da;
-  border-radius: 0.71429rem;
-  -webkit-transform: translate3d(0, -50%, 0);
-          transform: translate3d(0, -50%, 0);
+  border-radius: 50%;
+  -webkit-transform: translate(0, -50%);
+      -ms-transform: translate(0, -50%);
+          transform: translate(0, -50%);
 }
 
 .t-link {
@@ -2590,9 +2600,9 @@ a {
 
 .Dropdown-selectInput {
   padding: 0.64286rem;
+  font-weight: 400;
   text-align: left;
   vertical-align: middle;
-  font-weight: 400;
   background-color: #fff;
   border: 1px solid #d5d9da;
   border-radius: 0.28571rem;
@@ -2627,10 +2637,10 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  width: 100%;
 }
 
 .Dropdown-hr {
