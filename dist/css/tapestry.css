@@ -1846,6 +1846,10 @@ a {
   color: #fff;
   background: #a1a9ae;
   border-radius: 1.42857rem;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .List {
