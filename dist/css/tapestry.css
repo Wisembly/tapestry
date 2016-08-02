@@ -3944,7 +3944,7 @@ a {
   height: 1.71429rem;
   vertical-align: middle;
   background: #a1a9ae;
-  border: 1px solid #d5d9da;
+  border: 1px solid #a1a9ae;
   border-radius: 0.85714rem;
   cursor: pointer;
   transition: background .05s ease-in-out, border .2s ease-in-out;
@@ -3973,6 +3973,7 @@ input[disabled] + .Switch,
 input:checked + .Switch,
 .Switch-checkbox:checked + .Switch {
   background-color: #46b489;
+  border-color: #46b489;
 }
 
 input:checked + .Switch:after,
@@ -4000,10 +4001,6 @@ input:checked + .Switch:after,
 input:checked + .Switch--s:after,
 .Switch-checkbox:checked + .Switch--s:after {
   left: 1.07143rem;
-}
-
-.Switch:hover {
-  border-color: #a1a9ae;
 }
 
 .Table {
