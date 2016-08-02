@@ -991,7 +991,6 @@ ol + ol {
 }
 
 a {
-  font-weight: 600;
   text-decoration: none;
   color: #07698d;
 }
@@ -1053,6 +1052,22 @@ a {
   border-radius: 0.71429rem;
   -webkit-transform: translate3d(0, -50%, 0);
           transform: translate3d(0, -50%, 0);
+}
+
+.t-link {
+  font-size: 1rem;
+  line-height: 1.42857rem;
+  font-weight: 600;
+  color: #708189;
+}
+
+.t-link--s {
+  font-size: 0.83333rem;
+}
+
+.t-link--alt {
+  text-decoration: underline;
+  font-weight: 400;
 }
 
 .is-spinning {
@@ -2501,13 +2516,13 @@ a {
   position: relative;
   margin: 0.35714rem;
   padding: 0.35714rem;
-  line-height: 1.42857rem;
   font-weight: 400;
+  line-height: 1.42857rem;
   text-align: left;
   text-decoration: none;
   color: #515f65;
-  border-radius: 0.28571rem;
   background: transparent;
+  border-radius: 0.28571rem;
   cursor: pointer;
 }
 
