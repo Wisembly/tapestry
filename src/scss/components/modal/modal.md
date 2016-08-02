@@ -1,37 +1,13 @@
 # Modal
 
 ## Variables
-```esc
-<table class="Table">
-  <thead class="Table-head">
-    <th class="Table-cell Table-cell--header u-tal" style="width: 25%;">Name</th>
-    <th class="Table-cell Table-cell--header" style="width: 10%;">Type</th>
-    <th class="Table-cell Table-cell--header">Description</th>
-  </thead>
-  <tbody class="Table-body">
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$modal-header-btn-width</td>
-      <td class="Table-cell">height</td>
-      <td class="Table-cell">modal header button width<br><code>$fz--m + ($base-mg * 2)</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$modal-width</td>
-      <td class="Table-cell">width</td>
-      <td class="Table-cell">modal width (small devices)<br><code>90%</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$modal-max-width</td>
-      <td class="Table-cell">max-width</td>
-      <td class="Table-cell">modal max-width (large devices)<br><code>r(80)</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$modal-max-width</td>
-      <td class="Table-cell">max-width</td>
-      <td class="Table-cell">modal max-height<br><code>calc(100vh - #{2 * $mg--m})</code></td>
-    </tr>
-  </tbody>
-</table>
-```
+
+| Variable                      | property   | value                         | desc.                           |
+|-------------------------------|------------|-------------------------------|---------------------------------|
+| ** $modal-header-btn-width ** | width      | `$fz--m + ($base-mg * 2)`     | modal header button width       |
+| ** $modal-width **            | width      | `90%`                         | modal width (small devices)     |
+| ** $modal-max-width **        | max-width  | `r(80)`                       | modal max-width (large devices) |
+| ** $modal-max-height **       | max-height | `calc(100vh - #{2 * $mg--m})` | modal max-height                |
 
 
 

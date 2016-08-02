@@ -2,172 +2,44 @@
 
 Input is displayed as a 100% width by default.
 
-
 ## Variables
-```esc
-<table class="Table">
-  <thead class="Table-head">
-    <th class="Table-cell Table-cell--header u-tal" style="width: 25%;">Name</th>
-    <th class="Table-cell Table-cell--header" style="width: 10%;">Type</th>
-    <th class="Table-cell Table-cell--header">Description</th>
-  </thead>
-  <tbody class="Table-body">
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$form-base-color</td>
-      <td class="Table-cell">color</td>
-      <td class="Table-cell">default form text color<br><code>$shuttle-gray</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$form-placeholder-color</td>
-      <td class="Table-cell">color</td>
-      <td class="Table-cell">form placeholder text color<br><code>$shuttle-gray</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$form-focus-color</td>
-      <td class="Table-cell">color</td>
-      <td class="Table-cell">default focus form item color<br><code>$shuttle-gray</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$form-disabled-color</td>
-      <td class="Table-cell">color</td>
-      <td class="Table-cell">default disabled form item color<br><code>$gray-chateau</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$form-base-bg</td>
-      <td class="Table-cell">background-color</td>
-      <td class="Table-cell">default form background-color<br><code>$white</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$form-disabled-bg</td>
-      <td class="Table-cell">background-color</td>
-      <td class="Table-cell">default disabled form background-color<br><code>$porcelain</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$form-base-border-color</td>
-      <td class="Table-cell">color</td>
-      <td class="Table-cell">default form border-color<br><code>$iron</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$form-focus-border-color</td>
-      <td class="Table-cell">color</td>
-      <td class="Table-cell">default focus form border-color<br><code>$gray-chateau</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$form-hover-border-color</td>
-      <td class="Table-cell">color</td>
-      <td class="Table-cell">default hover form item border-color<br><code>$gray-chateau</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$input-pdv</td>
-      <td class="Table-cell">padding</td>
-      <td class="Table-cell">input vertical padding<br><code>rb(2)</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$input-pdh</td>
-      <td class="Table-cell">padding</td>
-      <td class="Table-cell">input horizontal padding<br><code>$pd--s</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$input-valid-class</td>
-      <td class="Table-cell">class name</td>
-      <td class="Table-cell">class for valid inputs<br><code>".is-valid"</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$input-valid-bg-path</td>
-      <td class="Table-cell">path</td>
-      <td class="Table-cell">background location for valid inputs (will be base64 encoded)<br><code>"/src/svg/backgrounds/inputBg--valid.svg"</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$input-invalid-class</td>
-      <td class="Table-cell">class name</td>
-      <td class="Table-cell">class for invalid inputs<br><code>".is-invalid"</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$input-invalid-bg-path</td>
-      <td class="Table-cell">path</td>
-      <td class="Table-cell">background location for invalid inputs (will be base64 encoded)<br><code>"/src/svg/backgrounds/inputBg--invalid.svg"</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$input-group-icon-color</td>
-      <td class="Table-cell">color</td>
-      <td class="Table-cell">icon color for prefixed/suffixed input<br><code>$iron</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$input-group-icon-width</td>
-      <td class="Table-cell">width</td>
-      <td class="Table-cell">icon width for prefixed/suffixed input<br><code>r(6)</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$textarea-height</td>
-      <td class="Table-cell">height</td>
-      <td class="Table-cell">textarea height<br><code>$base-pd + ($base-lh * 2) + rem(2px)</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$checkbox-height</td>
-      <td class="Table-cell">height</td>
-      <td class="Table-cell">checkbox height<br><code>r(4)</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$checkbox-base-color</td>
-      <td class="Table-cell">color</td>
-      <td class="Table-cell">checkbox base color<br><code>$iron</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$checkbox-hover-color</td>
-      <td class="Table-cell">color</td>
-      <td class="Table-cell">checkbox hover color<br><code>$mint</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$checkbox-checked-color</td>
-      <td class="Table-cell">color</td>
-      <td class="Table-cell">checkbox checked color<br><code>$mint</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$checkbox-inner-space</td>
-      <td class="Table-cell">size</td>
-      <td class="Table-cell">space between checkbox and label<br><code>$mg--s</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$checkbox-space-between</td>
-      <td class="Table-cell">size</td>
-      <td class="Table-cell">space between checkboxes<br><code>r(2)</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$radio-height</td>
-      <td class="Table-cell">height</td>
-      <td class="Table-cell">radio height<br><code>r(4)</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$radio-base-color</td>
-      <td class="Table-cell">color</td>
-      <td class="Table-cell">radio base color<br><code>$iron</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$radio-hover-color</td>
-      <td class="Table-cell">color</td>
-      <td class="Table-cell">radio hover color<br><code>$mint</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$radio-checked-color</td>
-      <td class="Table-cell">color</td>
-      <td class="Table-cell">radio checked color<br><code>$mint</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$radio-inner-space</td>
-      <td class="Table-cell">size</td>
-      <td class="Table-cell">space between radio and label<br><code>$mg--s</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$radio-space-between</td>
-      <td class="Table-cell">size</td>
-      <td class="Table-cell">space between radios<br><code>r(2)</code></td>
-    </tr>
-  </tbody>
-</table>
-```
+
+| Variable                       | property         | value                                         | desc.                                                           |
+|--------------------------------|------------------|-----------------------------------------------|-----------------------------------------------------------------|
+| ** $form-base-color **         | color            | `$shuttle-gray`                               | default form text color                                         |
+| ** $form-placeholder-color **  | color            | `$shuttle-gray`                               | form placeholder text color                                     |
+| ** $form-focus-color **        | color            | `$shuttle-gray`                               | default focus form item color                                   |
+| ** $form-disabled-color **     | color            | `$gray-chateau`                               | default disabled form item color                                |
+| ** $form-base-bg **            | background-color | `$white`                                      | default form background-color                                   |
+| ** $form-disabled-bg **        | background-color | `$porcelain`                                  | default disabled form background-color                          |
+| ** $form-base-border-color **  | color            | `$iron`                                       | default form border-color                                       |
+| ** $form-focus-border-color ** | color            | `$gray-chateau`                               | default focus form border-color                                 |
+| ** $form-hover-border-color ** | color            | `$gray-chateau`                               | default hover form item border-color                            |
+| ** $input-pdv **               | padding          | `rb(2)`                                       | input vertical padding                                          |
+| ** $input-pdh **               | padding          | `$pd--s`                                      | input horizontal padding                                        |
+| ** $input-valid-class **       | class name       | `".is-valid"`                                 | class for valid inputs                                          |
+| ** $input-valid-bg-path **     | path             | `"/src/svg/backgrounds/inputBg--valid.svg"`   | background location for valid inputs (will be base64 encoded)   |
+| ** $input-invalid-class **     | class name       | `".is-invalid"`                               | class for invalid inputs                                        |
+| ** $input-invalid-bg-path **   | path             | `"/src/svg/backgrounds/inputBg--invalid.svg"` | background location for invalid inputs (will be base64 encoded) |
+| ** $input-group-icon-color **  | color            | `$iron`                                       | icon color for prefixed/suffixed input                          |
+| ** $input-group-icon-width **  | width            | `r(6)`                                        | icon width for prefixed/suffixed input                          |
+| ** $textarea-height **         | height           | `$base-pd + ($base-lh * 2) + rem(2px)`        | textarea height                                                 |
+| ** $checkbox-height **         | height           | `r(4)`                                        | checkbox height                                                 |
+| ** $checkbox-base-color **     | color            | `$iron`                                       | checkbox base color                                             |
+| ** $checkbox-hover-color **    | color            | `$mint`                                       | checkbox hover color                                            |
+| ** $checkbox-checked-color **  | color            | `$mint`                                       | checkbox checked color                                          |
+| ** $checkbox-inner-space **    | size             | `$mg--s`                                      | space between checkbox and label                                |
+| ** $checkbox-space-between **  | size             | `r(2)`                                        | space between checkboxes                                        |
+| ** $radio-height **            | height           | `r(4)`                                        | radio height                                                    |
+| ** $radio-base-color **        | color            | `$iron`                                       | radio base color                                                |
+| ** $radio-hover-color **       | color            | `$mint`                                       | radio hover color                                               |
+| ** $radio-checked-color **     | color            | `$mint`                                       | radio checked color                                             |
+| ** $radio-inner-space **       | size             | `$mg--s`                                      | space between radio and label                                   |
+| ** $radio-space-between **     | size             | `r(2)`                                        | space between radios                                            |
 
 
-Basic inputs
+
+## Basic
 
 ```html
 <div id="basicInputWrapper1">
@@ -180,7 +52,6 @@ Basic inputs
   <input id="disabledInput" class="Input" type="text" placeholder="Disabled input" aria-label="Input item" disabled>
 </div>
 ```
-
 
 Items can be inlined with .Input--inline class.
 
@@ -196,6 +67,8 @@ Items can be inlined with .Input--inline class.
 </div>
 ```
 
+
+
 ## Textarea
 
 ```html
@@ -209,6 +82,8 @@ Items can be inlined with .Input--inline class.
   <textarea class="Textarea" placeholder="Disabled textarea" name="textarea2" id="textarea2" disabled></textarea>
 </div>
 ```
+
+
 
 ## Checkbox
 
@@ -230,6 +105,8 @@ Items can be inlined with .Input--inline class.
   <label for="checkbox4" class="Checkbox-label">I am disabled and checked!</label>
 </div>
 ```
+
+
 
 ## Radio
 
@@ -258,6 +135,8 @@ Items can be inlined with .Input--inline class.
   <label for="foobaz" class="Radio-label">Foobaz</label>
 </div>
 ```
+
+
 
 ## Prefixed and suffixed
 
@@ -323,6 +202,7 @@ Items can be inlined with .Input--inline class.
 
 
 ## States
+
 Tapestry does not rely on neither :valid nor :invalid since those behaviors are quite random. When page is loaded, inputs are considered :valid even if their values are empty. Plus, it adds visual noise before you submit anything! We advise to use .is-valid and .is-invalid but classes are fully customizable. You can also consider giving a try to [ParsleyJS](http://parsleyjs.org/).
 
 ```html

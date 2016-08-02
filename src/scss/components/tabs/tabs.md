@@ -1,87 +1,23 @@
 # Tabs
 
 ## Variables
-```esc
-<table class="Table">
-  <thead class="Table-head">
-    <th class="Table-cell Table-cell--header u-tal" style="width: 25%;">Name</th>
-    <th class="Table-cell Table-cell--header" style="width: 10%;">Type</th>
-    <th class="Table-cell Table-cell--header">Description</th>
-  </thead>
-  <tbody class="Table-body">
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$tab-base-color</td>
-      <td class="Table-cell">color</td>
-      <td class="Table-cell">tab base color<br><code>$slate-gray</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$tab-selected-color</td>
-      <td class="Table-cell">color</td>
-      <td class="Table-cell">tab selected color<br><code>$venice-blue</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$tab-hover-color</td>
-      <td class="Table-cell">color</td>
-      <td class="Table-cell">tab hover color<br><code>$venice-blue</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$tab-underline-size</td>
-      <td class="Table-cell">size</td>
-      <td class="Table-cell">tab underline size<br><code>rem(3px)</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$insert-tab-border-color</td>
-      <td class="Table-cell">color</td>
-      <td class="Table-cell">insert-tab border-color <br><code>$silver-sand</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$small-tab-underline-size</td>
-      <td class="Table-cell">size</td>
-      <td class="Table-cell">small tab underline size<br><code>rem(2px)</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$tab-pdv</td>
-      <td class="Table-cell">padding</td>
-      <td class="Table-cell">tab-link vertical padding<br><code>r(3)</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$tab-pdh</td>
-      <td class="Table-cell">padding</td>
-      <td class="Table-cell">tab-link horizontal padding<br><code>r(2)</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$insert-tab-vertical-pd</td>
-      <td class="Table-cell">padding</td>
-      <td class="Table-cell">insert-tab horizontal padding<br><code>r(6)</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$tab-fz</td>
-      <td class="Table-cell">font-size</td>
-      <td class="Table-cell">tab font-size <br><code>$base-fz--rem</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$tab-lh</td>
-      <td class="Table-cell">line-height</td>
-      <td class="Table-cell">tab line-height <br><code>$base-lh</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$small-tab-fz</td>
-      <td class="Table-cell">font-size</td>
-      <td class="Table-cell">small tab font-size <br><code>$base-fz--rem</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$small-tab-lh</td>
-      <td class="Table-cell">line-height</td>
-      <td class="Table-cell">small tab line-height <br><code>$base-lh</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$selected-tab-selector</td>
-      <td class="Table-cell">selector</td>
-      <td class="Table-cell">selected tab selector <br><code>"[aria-selected="true"]"</code></td>
-    </tr>
-  </tbody>
-</table>
-```
+
+| Variable                        | property    | value                      | desc.                         |
+|---------------------------------|-------------|----------------------------|-------------------------------|
+| ** $tab-base-color **           | color       | `$slate-gray`              | tab base color                |
+| ** $tab-selected-color **       | color       | `$venice-blue`             | tab selected color            |
+| ** $tab-hover-color **          | color       | `$venice-blue`             | tab hover color               |
+| ** $tab-underline-size **       | size        | `rem(3px)`                 | tab underline size            |
+| ** $insert-tab-border-color **  | color       | `$silver-sand`             | insert-tab border-color       |
+| ** $small-tab-underline-size ** | size        | `rem(2px)`                 | small tab underline size      |
+| ** $tab-pdv **                  | padding     | `r(3)`                     | tab-link vertical padding     |
+| ** $tab-pdh **                  | padding     | `r(2)`                     | tab-link horizontal padding   |
+| ** $insert-tab-vertical-pd **   | padding     | `r(6)`                     | insert-tab horizontal padding |
+| ** $tab-fz **                   | font-size   | `$base-fz--rem`            | tab font-size                 |
+| ** $tab-lh **                   | line-height | `$base-lh`                 | tab line-height               |
+| ** $small-tab-fz **             | font-size   | `$base-fz--rem`            | small-tab font-size           |
+| ** $small-tab-lh **             | line-height | `$base-lh`                 | small-tab line-height         |
+| ** $selected-tab-selector **    | selector    | `"[aria-selected="true"]"` | selected tab selector         |
 
 
 
