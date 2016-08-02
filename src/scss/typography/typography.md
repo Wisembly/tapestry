@@ -60,7 +60,13 @@ Reset list are detailed in Utility classes.
 
 ```html
 <div class="Line Line--labeled">
-  <div class="Line-label">Section name</div>
+  <div class="Line-label">or</div>
+</div>
+```
+
+```html
+<div class="Line Line--inline">
+  <div class="Line-label">or</div>
 </div>
 ```
 
