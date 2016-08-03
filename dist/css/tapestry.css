@@ -2577,7 +2577,7 @@ a {
           appearance: none;
   padding: 0.35714rem 0.71429rem;
   font-size: inherit;
-  color: #708189;
+  color: #394246;
   background: transparent;
   border-radius: 0;
 }
@@ -2595,7 +2595,7 @@ a {
 }
 
 .Dropdown-toggle[aria-expanded="true"] {
-  color: #515f65;
+  color: #394246;
 }
 
 .Dropdown-selectInput {
@@ -2610,7 +2610,6 @@ a {
 }
 
 .Dropdown-selectInput[aria-expanded="true"] {
-  color: #515f65;
   border-color: #a1a9ae;
 }
 
@@ -2748,7 +2747,7 @@ a {
 }
 
 .Dropdown-toggle:hover, .Dropdown-toggle:focus, .Dropdown-toggle:active {
-  color: #515f65;
+  color: #394246;
 }
 
 .Checkbox {
@@ -3094,7 +3093,7 @@ a {
   line-height: 1.42857rem;
   text-align: left;
   vertical-align: middle;
-  color: #515f65;
+  color: #394246;
   background-color: #fff;
   background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJzZWxlY3QiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCAzMyA0NCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1heFlNaWQiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMzIDQ0OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+Cgk8Zz4KCQk8cGF0aCBmaWxsPSIjQTFBOUFFIiBkPSJNMTkuOCwxOS43aC02LjZjLTAuMiwwLTAuNS0wLjItMC42LTAuNGMtMC4xLTAuMi0wLjEtMC41LDAuMS0wLjdsMy4zLTMuOGMwLjEtMC4xLDAuMy0wLjIsMC41LTAuMgoJCQljMC4yLDAsMC4zLDAuMSwwLjUsMC4ybDMuNCwzLjhjMC4yLDAuMiwwLjIsMC41LDAuMSwwLjdDMjAuMiwxOS41LDIwLjEsMTkuNywxOS44LDE5Ljd6Ii8+CgkJPHBhdGggZmlsbD0iI0ExQTlBRSIgZD0iTTE5LjgsMjQuM2gtNi42Yy0wLjIsMC0wLjUsMC4yLTAuNiwwLjRjLTAuMSwwLjItMC4xLDAuNSwwLjEsMC43bDMuMywzLjhjMC4xLDAuMSwwLjMsMC4yLDAuNSwwLjIKCQkJYzAuMiwwLDAuMy0wLjEsMC41LTAuMmwzLjQtMy44YzAuMi0wLjIsMC4yLTAuNSwwLjEtMC43QzIwLjIsMjQuNSwyMC4xLDI0LjMsMTkuOCwyNC4zeiIvPgoJPC9nPgoJPHJlY3QgeT0iMCIgZmlsbD0iI0Q1RDlEQSIgd2lkdGg9IjEiIGhlaWdodD0iNDQiLz4KPC9zdmc+Cg==);
   background-position: center right;
@@ -3110,7 +3109,6 @@ a {
 }
 
 .Select:focus {
-  color: #515f65;
   border-color: #a1a9ae;
   outline: none;
 }
