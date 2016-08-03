@@ -2,23 +2,30 @@
 
   .Line {
     display: block;
-    margin: r(2) 0;
     border: 0;
     border-top: 1px solid $base-border-color;
+    user-select: none;
   }
 
   .Line--labeled {
     position: relative;
-    margin-top: r(6);
     text-align: center;
+    display: flex;
+    align-items: center;
+    border: 0;
+
+    &:before,
+    &:after {
+      content: "";
+      flex: 1 1 auto;
+      border-top: 1px solid $base-border-color;
+    }
   }
 
   .Line--inline {
     display: inline-block;
     text-align: center;
     border: 0;
-    margin-top: r(8);
-    margin-bottom: 0;
   }
 
   .Line-label {
@@ -29,10 +36,9 @@
     font-size: $fz--m;
     font-weight: $fw--semi-bold;
     color: $gray-chateau;
-    background: $white;
     border: 1px solid $base-border-color;
     border-radius: 50%;
-    transform: translate(0, -50%);
+    flex: 0 0 auto;
   }
 
 }
