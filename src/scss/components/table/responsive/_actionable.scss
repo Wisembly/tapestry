@@ -1,0 +1,27 @@
+@mixin ActionableTable--responsive {
+  &.Table--actionable {
+    .Table-cell {
+      margin-left: r(8);
+
+      .Checkbox-label:before {
+        @include pos(a 0 null 0 $table-pdh);
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+}
+
+@if $import-table and $import-responsive-table {
+
+  @for $i from 1 to (length($table-responsive-range) + 1) {
+    $device: nth($table-responsive-range, $i);
+
+    @include bp(null, #{$device}) {
+      .Table\@#{$device} {
+        @include ActionableTable--responsive;
+      }
+    }
+  }
+
+}
