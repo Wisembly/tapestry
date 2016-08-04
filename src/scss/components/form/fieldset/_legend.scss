@@ -1,6 +1,7 @@
 @if $import-form and $import-fieldset {
 
   .Legend {
+    display: block;
     width: 100%;
     margin-bottom: $mg--m;
     padding-bottom: $pd--xs;

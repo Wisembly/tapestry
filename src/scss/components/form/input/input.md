@@ -180,7 +180,6 @@ Items can be inlined with .Input--inline class.
 ```
 
 ```html
-
 <div class="InputGroup">
   <input class="Input InputGroup-item" id="InputGrouped5" placeholder="Search…"/>
   <button class="Btn Btn--outline InputGroup-item Input-addOn">Reset</button>
@@ -215,4 +214,23 @@ Tapestry does not rely on neither :valid nor :invalid since those behaviors are 
   <label for="invalidInput" class="Label Label--block">Errored input</label>
   <input id="invalidInput" class="Input is-invalid" type="text" value="I am an incorrect value" placeholder="Invalid input">
 </div>
+```
+
+
+## Layout
+
+```html
+<form>
+  <legend class="Legend">My form is beautiful</legend>
+
+  <fieldset class="Fieldset">
+    <label for="layout_form_input" class="Label Label--block">Input</label>
+    <input type="text" id="layout_form_input" class="Input" placeholder="Your name" />
+  </fieldset>
+
+  <fieldset class="Fieldset">
+    <label for="layout_form_textarea" class="Label Label--block">Textarea</label>
+    <textarea id="layout_form_textarea" class="Textarea" placeholder="Your text here…"></textarea>
+  </fieldset>
+</form>
 ```
