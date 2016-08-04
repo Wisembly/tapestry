@@ -9,7 +9,6 @@ $f-path: if($use-webpack-config, unquote("~node_modules/tapestry-css/dist/fonts"
 // Base font-sizes
 
 $base-fz: 14px !default;
-$base-fz--stripped: $base-fz / ($base-fz * 0 + 1);
 $base-fz--rem: rem($base-fz);
 
 
@@ -37,6 +36,7 @@ $ms-ratio: 1.2 !default;
 $base-lh: rem($base-vu * $base-lhm) !default;
 
 $lh--s: r(3);
+$lh--m: $base-lh;
 $lh--l: r(6);
 $lh--xl: r(8);
 
