@@ -50,6 +50,11 @@
   background: #07698d !important;
 }
 
+.u-alt {
+  color: #fff !important;
+  background: #2f99ba !important;
+}
+
 .u-validate {
   color: #fff !important;
   background: #46b489 !important;
@@ -1013,6 +1018,10 @@ a {
 
 .t-primary {
   color: #07698d !important;
+}
+
+.t-alt {
+  color: #2f99ba !important;
 }
 
 .t-validate {
