@@ -4023,8 +4023,17 @@ input:checked + .Switch--s:after,
   border-collapse: collapse;
 }
 
-.Table-row,
+.Table + .Table {
+  margin-top: 1.42857rem;
+}
+
 .Table-head {
+  border-bottom: 1px solid #d5d9da;
+}
+
+.Table-row {
+  position: relative;
+  font-weight: 400;
   border-bottom: 1px solid #d5d9da;
 }
 
@@ -4032,7 +4041,6 @@ input:checked + .Switch--s:after,
   display: table-cell;
   padding: 0.71429rem 1.42857rem;
   font-size: 1rem;
-  font-weight: 400;
   line-height: 1.42857rem;
   text-align: center;
   border-left: 1px solid #d5d9da;
@@ -4045,10 +4053,6 @@ input:checked + .Switch--s:after,
 .Table-cell--important {
   font-weight: 600;
   color: #515f65;
-}
-
-.Table-head .Table-cell {
-  font-weight: 600;
 }
 
 .Table--actionable .Table-row {
@@ -4071,6 +4075,130 @@ input:checked + .Switch--s:after,
 
 .Table--actionable .Table-cell {
   border: 0;
+}
+
+@media (max-width: 414px) {
+  .Table\@phablet .Table-head {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .Table\@tablet .Table-head {
+    display: none;
+  }
+}
+
+@media (max-width: 414px) {
+  .Table\@phablet .Table-row {
+    display: block;
+    padding: 0.71429rem 1.42857rem;
+  }
+  .Table\@phablet .Table-row:last-child {
+    border-bottom: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .Table\@tablet .Table-row {
+    display: block;
+    padding: 0.71429rem 1.42857rem;
+  }
+  .Table\@tablet .Table-row:last-child {
+    border-bottom: 0;
+  }
+}
+
+@media (max-width: 414px) {
+  .Table\@phablet .Table-cell {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 0;
+    line-height: 2.14286rem;
+    text-align: right;
+    border-top: 1px solid #d5d9da;
+    border-left: 0;
+  }
+  .Table\@phablet .Table-cell:first-child {
+    border-top: 0;
+  }
+  .Table\@phablet .Table-cell:before {
+    content: attr(data-th);
+    display: inline-block;
+    margin-right: 0.71429rem;
+    color: #a1a9ae;
+  }
+}
+
+@media (max-width: 768px) {
+  .Table\@tablet .Table-cell {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 0;
+    line-height: 2.14286rem;
+    text-align: right;
+    border-top: 1px solid #d5d9da;
+    border-left: 0;
+  }
+  .Table\@tablet .Table-cell:first-child {
+    border-top: 0;
+  }
+  .Table\@tablet .Table-cell:before {
+    content: attr(data-th);
+    display: inline-block;
+    margin-right: 0.71429rem;
+    color: #a1a9ae;
+  }
+}
+
+@media (max-width: 414px) {
+  .Table\@phablet.Table--actionable .Table-cell {
+    margin-left: 2.85714rem;
+  }
+  .Table\@phablet.Table--actionable .Table-cell .Checkbox-label:before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 1.42857rem;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .Table\@tablet.Table--actionable .Table-cell {
+    margin-left: 2.85714rem;
+  }
+  .Table\@tablet.Table--actionable .Table-cell .Checkbox-label:before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 1.42857rem;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 
 .Table--actionable .Table-row:hover {

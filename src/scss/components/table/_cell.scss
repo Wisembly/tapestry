@@ -4,7 +4,6 @@
     display: table-cell;
     padding: $table-pdv $table-pdh;
     font-size: $fz--m;
-    font-weight: $base-fw;
     line-height: $base-lh;
     text-align: center;
     border-left: 1px solid $base-border-color;
@@ -12,18 +11,11 @@
     [aria-disabled=true] & {
       color: $table-disabled-cell-color;
     }
-
   }
 
   .Table-cell--important {
     font-weight: $fw--semi-bold;
     color: $table-important-cell-color;
-  }
-
-  .Table-head {
-    .Table-cell {
-      font-weight: $fw--semi-bold;
-    }
   }
 
 }

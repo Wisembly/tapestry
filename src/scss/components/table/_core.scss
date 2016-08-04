@@ -1,7 +1,13 @@
 @import "vars";
 @import "base";
+@import "head";
 @import "row";
 @import "cell";
 @import "actionable";
+
+@import "responsive/head";
+@import "responsive/row";
+@import "responsive/cell";
+@import "responsive/actionable";
 
 @import "state/actionable";
