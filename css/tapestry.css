@@ -2827,12 +2827,14 @@ a {
 }
 
 .Fieldset {
-  padding: 0 0 0.71429rem;
+  margin: 0;
+  padding: 0 0 1.42857rem;
   font-size: 0;
   border: 0;
 }
 
 .Legend {
+  display: block;
   width: 100%;
   margin-bottom: 1.42857rem;
   padding-bottom: 0.35714rem;
