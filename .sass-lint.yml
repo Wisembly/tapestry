@@ -169,6 +169,7 @@ rules:
         - white-space
         - vertical-align
         - list-style
+        - list-style-inside
         - color
         - background
         - background-color
