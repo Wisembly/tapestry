@@ -1244,36 +1244,6 @@ a {
   }
 }
 
-@-webkit-keyframes Ellipsis {
-  0% {
-    content: "";
-  }
-  25% {
-    content: ".";
-  }
-  50% {
-    content: "..";
-  }
-  75% {
-    content: "...";
-  }
-}
-
-@keyframes Ellipsis {
-  0% {
-    content: "";
-  }
-  25% {
-    content: ".";
-  }
-  50% {
-    content: "..";
-  }
-  75% {
-    content: "...";
-  }
-}
-
 @font-face {
   font-family: "tapestry-icons";
   src: url("../fonts/tapestry-icons.woff2") format("woff2"), url("../fonts/tapestry-icons.woff") format("woff");
@@ -2095,13 +2065,13 @@ a {
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  position: relative;
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
+  position: relative;
   padding: 0.71429rem 1.07143rem;
   font-size: 1rem;
   font-weight: 600;
@@ -2634,7 +2604,7 @@ a {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  content: "\ea1f";
+  content: "\ea1e";
   line-height: 2.85714rem;
   color: #fff;
   -webkit-animation: Grow 0.5s linear;
@@ -2665,8 +2635,8 @@ a {
 }
 
 .has-failed > .Btn--outline {
-  border-color: #e25c5b;
   background: #fff;
+  border-color: #e25c5b;
 }
 
 .has-failed > .Btn--outline:after {
@@ -2674,8 +2644,8 @@ a {
 }
 
 .has-completed > .Btn--outline {
-  border-color: #46b489;
   background: #fff;
+  border-color: #46b489;
 }
 
 .has-completed > .Btn--outline:after {
@@ -2769,13 +2739,13 @@ a {
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  position: relative;
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
+  position: relative;
   padding: 0.71429rem 1.07143rem;
   font-size: 1rem;
   font-weight: 600;
@@ -3674,6 +3644,15 @@ a {
   cursor: not-allowed;
 }
 
+.Loader--cover {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.95);
+}
+
 .Loader--stacked {
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
@@ -3709,29 +3688,6 @@ a {
 .Loader--stacked .Loader-label {
   padding-top: 0.71429rem;
   padding-left: 0;
-}
-
-.Loader-label:after {
-  content: "";
-  display: inline-block;
-  width: 1.42857rem;
-  font-size: 14px;
-  -webkit-animation: Ellipsis 2s linear infinite;
-          animation: Ellipsis 2s linear infinite;
-}
-
-.Loader--cover {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background: rgba(255, 255, 255, 0.95);
-}
-
-.Loader--cover.Loader--dark {
-  color: #fff;
-  background: rgba(0, 0, 0, 0.9);
 }
 
 .Media {
@@ -4299,7 +4255,7 @@ a {
 }
 
 .Spinner--neutral {
-  border-color: #515f65;
+  border-color: #394246;
   border-top-color: #f7f7f7;
 }
 
