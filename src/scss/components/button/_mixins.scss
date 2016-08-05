@@ -1,8 +1,8 @@
 @mixin Button {
   display: inline-flex;
-  position: relative;
   align-items: center;
   justify-content: center;
+  position: relative;
   padding: $btn-pdv $btn-pdh;
   font-size: $fz--m;
   font-weight: $fw--semi-bold;

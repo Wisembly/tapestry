@@ -2095,6 +2095,7 @@ a {
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
+  position: relative;
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
@@ -2139,6 +2140,7 @@ a {
   background-color: #d5d9da;
   border-color: #d5d9da;
   border-radius: 0.28571rem;
+  cursor: not-allowed;
 }
 
 .Btn--primary {
@@ -2556,6 +2558,130 @@ a {
   border-bottom-right-radius: 0.28571rem;
 }
 
+.is-loading > .Btn {
+  color: transparent;
+}
+
+.is-loading > .Btn:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: "";
+  width: 1.42857rem;
+  height: 1.42857rem;
+  margin: auto;
+  border: 2px solid rgba(57, 66, 70, 0.3);
+  border-top-color: #fff;
+  border-radius: 50%;
+  -webkit-animation: Spin 1s linear infinite;
+          animation: Spin 1s linear infinite;
+}
+
+.has-failed > .Btn {
+  color: transparent;
+  background: #e25c5b;
+}
+
+.has-failed > .Btn:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: inline-block;
+  font-family: "tapestry-icons";
+  font-size: 1rem;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.42857rem;
+  text-transform: none;
+  text-decoration: inherit;
+  vertical-align: middle;
+  speak: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  content: "\ea25";
+  line-height: 2.85714rem;
+  color: #fff;
+  -webkit-animation: Grow 0.5s linear;
+          animation: Grow 0.5s linear;
+}
+
+.has-completed > .Btn {
+  color: transparent;
+  background: #46b489;
+}
+
+.has-completed > .Btn:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: inline-block;
+  font-family: "tapestry-icons";
+  font-size: 1rem;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.42857rem;
+  text-transform: none;
+  text-decoration: inherit;
+  vertical-align: middle;
+  speak: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  content: "\ea1f";
+  line-height: 2.85714rem;
+  color: #fff;
+  -webkit-animation: Grow 0.5s linear;
+          animation: Grow 0.5s linear;
+}
+
+.is-loading > .Btn--s:after {
+  width: 1.07143rem;
+  height: 1.07143rem;
+}
+
+.has-failed > .Btn--s:after {
+  font-size: 0.71429rem;
+  line-height: 2.14286rem;
+}
+
+.has-completed > .Btn--s:after {
+  font-size: 0.71429rem;
+  line-height: 2.14286rem;
+}
+
+.is-loading > .Btn--outline {
+  background: transparent;
+}
+
+.is-loading > .Btn--outline:after {
+  border-top-color: #708189;
+}
+
+.has-failed > .Btn--outline {
+  border-color: #e25c5b;
+  background: #fff;
+}
+
+.has-failed > .Btn--outline:after {
+  color: #e25c5b;
+}
+
+.has-completed > .Btn--outline {
+  border-color: #46b489;
+  background: #fff;
+}
+
+.has-completed > .Btn--outline:after {
+  color: #46b489;
+}
+
 .Dropdown {
   display: inline-block;
   position: relative;
@@ -2643,6 +2769,7 @@ a {
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
+  position: relative;
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
@@ -2849,7 +2976,6 @@ a {
   display: block;
 }
 
-<<<<<<< 680e63347f67c6dcf2276a54c0490b4125ef2446
 .Checkbox + .Checkbox {
   margin-top: 0.71429rem;
 }
@@ -2869,30 +2995,9 @@ a {
 
 .Checkbox-label {
   display: inline-block;
-=======
-.Btn {
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  position: relative;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding: 0.78571rem 1.57143rem;
->>>>>>> Loading-states | Add btn-status
   font-size: 1rem;
   line-height: 1.42857rem;
   vertical-align: middle;
-<<<<<<< 680e63347f67c6dcf2276a54c0490b4125ef2446
-=======
-  color: #fff;
-  background-color: #a1a9ae;
-  border: 0;
-  border-radius: 0.28571rem;
->>>>>>> Loading-states | Add btn-status
   cursor: pointer;
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -3532,90 +3637,6 @@ a {
   .Grid-cell--12\@laptop {
     width: 100%;
   }
-}
-
-.is-loading > .Btn {
-  color: transparent;
-  background: #07698d;
-}
-
-.is-loading > .Btn:after {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  content: "";
-  width: 1.57143rem;
-  height: 1.57143rem;
-  margin: auto;
-  border: 3px solid #084d66;
-  border-top-color: #fff;
-  border-radius: 50%;
-  -webkit-animation: Spin 1s linear infinite;
-          animation: Spin 1s linear infinite;
-}
-
-.has-failed > .Btn {
-  color: transparent;
-  background: #e25c5b;
-}
-
-.has-failed > .Btn:after {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  display: inline-block;
-  font-family: "tapestry-icons";
-  font-size: 1rem;
-  font-weight: normal;
-  font-style: normal;
-  line-height: 1.57143rem;
-  text-transform: none;
-  text-decoration: inherit;
-  vertical-align: middle;
-  speak: none;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-  content: "\ea24";
-  line-height: 3.14286rem;
-  color: #fff;
-  -webkit-animation: Grow 0.5s linear;
-          animation: Grow 0.5s linear;
-}
-
-.has-completed > .Btn {
-  color: transparent;
-  background: #46b489;
-}
-
-.has-completed > .Btn:after {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  display: inline-block;
-  font-family: "tapestry-icons";
-  font-size: 1rem;
-  font-weight: normal;
-  font-style: normal;
-  line-height: 1.57143rem;
-  text-transform: none;
-  text-decoration: inherit;
-  vertical-align: middle;
-  speak: none;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-  content: "\ea1e";
-  line-height: 3.14286rem;
-  color: #fff;
-  -webkit-animation: Grow 0.5s linear;
-          animation: Grow 0.5s linear;
 }
 
 .Loader {
