@@ -4,7 +4,7 @@
     display: none;
     align-items: center;
     justify-content: center;
-    padding: $pd--s;
+    padding: $loader-inner-space;
     color: $loader-base-color;
     user-select: none;
 
@@ -17,6 +17,11 @@
       display: flex;
       cursor: not-allowed;
     }
+  }
+
+  .Loader--cover {
+    @include pos(a 0);
+    background: $loader-base-bg;
   }
 
   .Loader--stacked {

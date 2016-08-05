@@ -20,7 +20,7 @@
   </li>
   <li class="List-item Loader">
     <div class="Loader-spinner Spinner Spinner--s"></div>
-    <div class="Loader-label">Loading</div>
+    <div class="Loader-label">Loading…</div>
   </li>
 </ul>
 ```
@@ -28,7 +28,7 @@
 ## Errors
 
 ```html
-<div class="is-errored">
+<div class="has-failed">
   <ul class="List">
     <li class="List-item">A</li>
     <li class="List-item">B</li>
@@ -38,7 +38,7 @@
   </ul>
   <div class="Loader">
     <div class="Loader-spinner Spinner Spinner--s"></div>
-    <div class="Loader-label">Loading</div>
+    <div class="Loader-label">Loading…</div>
     <div class="Loader-error">
       <i class="Icon Icon--xl Icon--alert"></i>
       Could not load API
@@ -52,31 +52,30 @@
 
 Those modes can be combined as followed examples.
 * Cover: loading state is covering its parent div.
-* Dark: applies dark layout (white on black).
 * Stacked: spinner is set on top of label.
 
 
 ### Cover
 
 ```html
-<div class="is-loading" style="height: 400px; width: 49%; padding: 1rem; border: 1px solid #d5d9da; overflow: hidden; display: inline-block;">
+<div class="is-loading" style="height: 400px; width: 48%; margin-right: 1rem; padding: 1rem; border: 1px solid #d5d9da; overflow: hidden; display: inline-block;">
   <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
 
   <div class="Loader Loader--cover">
     <div class="Loader-spinner Spinner Spinner--s"></div>
-    <div class="Loader-label">Loading</div>
+    <div class="Loader-label">Loading…</div>
     <div class="Loader-error">
       <i class="Icon Icon--xl Icon--alert"></i>
       Could not load API
     </div>
   </div>
 </div>
-<div class="is-loading" style="height: 400px; width: 49%; padding: 1rem; border: 1px solid #d5d9da; overflow: hidden; display: inline-block;">
+<div class="has-failed" style="height: 400px; width: 49%; padding: 1rem; border: 1px solid #d5d9da; overflow: hidden; display: inline-block;">
   <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
 
-  <div class="Loader Loader--dark Loader--cover">
-    <div class="Loader-spinner Spinner Spinner--neutral Spinner--s"></div>
-    <div class="Loader-label">Loading</div>
+  <div class="Loader Loader--cover">
+    <div class="Loader-spinner Spinner Spinner--s"></div>
+    <div class="Loader-label">Loading…</div>
     <div class="Loader-error">
       <i class="Icon Icon--xl Icon--alert"></i>
       Could not load API
@@ -93,19 +92,7 @@ Those modes can be combined as followed examples.
 
   <div class="Loader Loader--cover Loader--stacked">
     <div class="Loader-spinner Spinner"></div>
-    <div class="Loader-label">Loading</div>
-    <div class="Loader-error">
-      <i class="Icon Icon--xl Icon--alert"></i>
-      Could not load API
-    </div>
-  </div>
-</div>
-<div class="is-loading" style="height: 400px; width: 33%; padding: 1rem; border: 1px solid #d5d9da; overflow: hidden; display: inline-block;">
-  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
-
-  <div class="Loader Loader--dark Loader--cover Loader--stacked">
-    <div class="Loader-spinner Spinner Spinner--neutral"></div>
-    <div class="Loader-label">Loading</div>
+    <div class="Loader-label">Loading…</div>
     <div class="Loader-error">
       <i class="Icon Icon--xl Icon--alert"></i>
       Could not load API
@@ -121,7 +108,11 @@ Those modes can be combined as followed examples.
   <li class="List-item">F</li>
   <li class="List-item Loader Loader--stacked">
     <div class="Loader-spinner Spinner"></div>
-    <div class="Loader-label">Loading</div>
+    <div class="Loader-label">Loading…</div>
+    <div class="Loader-error">
+      <i class="Icon Icon--xl Icon--alert"></i>
+      Could not load API
+    </div>
   </li>
 </ul>
 ```
