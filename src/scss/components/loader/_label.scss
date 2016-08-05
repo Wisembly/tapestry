@@ -11,14 +11,6 @@
       padding-top: $loader-inner-space;
       padding-left: 0;
     }
-
-    &:after {
-      content: "";
-      display: inline-block;
-      width: r(4);
-      font-size: $base-fz;
-      animation: Ellipsis $loader-ellispis-duration linear infinite;
-    }
   }
 
 }
