@@ -3,7 +3,7 @@
   .Btn--outline {
     padding: $btn-pdv - rem(1px) $btn-pdh - rem(1px);
     color: $btn-outline-base-color;
-    background-color: transparent;
+    background-color: $transparent;
     border: 1px solid $btn-outline-base-border-color;
     transition: border-color .1s ease-out;
 

@@ -21,7 +21,7 @@
 ## Variables
 
 | Variable                                   | property         | value                                                          | desc.                                  |
-|--------------------------------------------|--------------|----------------------------------------------------------------|----------------------------------------|
+|--------------------------------------------|------------------|----------------------------------------------------------------|----------------------------------------|
 | ** $btn-pdv **                             | padding          | `$pd--s`                                                       | vertical padding for regular buttons   |
 | ** $btn-pdv--s **                          | padding          | `$pd--xs`                                                      | vertical padding for small buttons     |
 | ** $btn-pdh **                             | padding          | `$pd--s`                                                       | horizontal padding for regular buttons |
@@ -38,11 +38,11 @@
 | ** $btn-group-space-between **             | margin           | `$pd--s`                                                       | space between button-groups            |
 | ** $btn-group-selected-color **            | color            | `$mint`                                                        | selected color for button-group item   |
 | ** $btn-loading-selector **                | selector         | `".is-loading"`                                                |                                        |
-| ** $btn-loading-bg **                      | background-color | `$venice-blue`                                                 |                                        |
 | ** $btn-loading-spinner-primary-color **   | color            | `$white`                                                       |                                        |
 | ** $btn-loading-spinner-secondary-color ** | color            | `$deep-sea-green`                                              |                                        |
+| ** $btn-loading-spinner-outline-color **   | color            | `$slate-gray`                                                  |                                        |
 | ** $btn-loading-duration **                | time             | `1s`                                                           |                                        |
-| ** $btn-loading-spinner-thickness **       | size             | `3px`                                                          |                                        |
+| ** $btn-loading-spinner-thickness **       | size             | `2px`                                                          |                                        |
 | ** $btn-failed-selector **                 | selector         | `".has-failed"`                                                |                                        |
 | ** $btn-failed-bg **                       | background-color | `$mandy`                                                       |                                        |
 | ** $btn-failed-color **                    | background-color | `$white`                                                       |                                        |
@@ -182,17 +182,31 @@
   <button class="Btn BtnGroup-item BtnGroup-item--s">Button B</button>
   <button class="Btn BtnGroup-item BtnGroup-item--s is-selected">Button C</button>
 </div>
-
+```
 
 
 ## Buttons with statuses
 
 ```html
-<div id="complete" style="display: inline-block;">
+<div class="js-BtnComplete" style="display: inline-block; margin-right: 1rem;">
   <button type="button" class="Btn js-BtnStatus">Great success!</button>
 </div>
-<div class="u-mgl--m" id="fail" style="display: inline-block;">
-  <button type="button" class="Btn js-BtnStatus" id="">I'm a loser, baby!</button>
+<div class="js-BtnFail" style="display: inline-block; margin-right: 1rem;">
+  <button type="button" class="Btn js-BtnStatus">I'm a loser, baby!</button>
+</div>
+
+<div class="js-BtnComplete" style="display: inline-block; margin-right: 1rem;">
+  <button type="button" class="Btn Btn--outline js-BtnStatus">Great success!</button>
+</div>
+<div class="js-BtnFail" style="display: inline-block; margin-right: 1rem;">
+  <button type="button" class="Btn Btn--outline js-BtnStatus">I'm a loser, baby!</button>
+</div>
+
+<div class="js-BtnComplete" style="display: inline-block; margin-right: 1rem;">
+  <button type="button" class="Btn Btn--s js-BtnStatus">Great success!</button>
+</div>
+<div class="js-BtnFail" style="display: inline-block;">
+  <button type="button" class="Btn Btn--s js-BtnStatus">I'm a loser, baby!</button>
 </div>
 ```
 
@@ -201,15 +215,14 @@
   $(document).ready(function(){
     $('.js-BtnStatus').on('click', function (event) {
       var $parent = $(event.currentTarget).parent();
-      var demoType = $parent.attr('id');
+      var shoudComplete = $parent.hasClass('js-BtnComplete');
 
       $parent.removeClass('is-loading has-failed has-completed').addClass('is-loading');
 
       setTimeout(function () {
-        $parent.removeClass('is-loading has-failed').addClass(demoType === 'complete' ? 'has-completed' : 'has-failed');
+        $parent.removeClass('is-loading has-failed').addClass(shoudComplete ? 'has-completed' : 'has-failed');
       }, 3000);
     })
   });
 </script>
->>>>>>> Loading-states | Add btn-status
 ```
