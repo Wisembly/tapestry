@@ -1,7 +1,8 @@
-$avatar-rounded: true !default;
+$avatar-size--s: r(6) !default;
+$avatar-size--m: r(8) !default;
+$avatar-size--l: r(10) !default;
+$avatar-size--xl: r(14) !default;
 
-$avatar-size--s: r(4) !default;
-$avatar-size--m: r(7) !default;
-$avatar-size--l: r(9) !default;
+$avatar-squared-radius: rem(3px) !default;
 
-$avatar-colors: $gray-chateau $salmon $curious-blue $mint $saffron;
+$avatar-colors: $gray-chateau $jelly-bean $saffron $mint $salmon $mandy;

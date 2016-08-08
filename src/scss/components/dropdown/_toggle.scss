@@ -1,0 +1,28 @@
+@if $import-dropdown and $import-button {
+
+  .Dropdown-toggle {
+    @include Button;
+    padding: $dropdown-toggle-padding;
+    font-size: inherit;
+    color: $dropdown-toggle-color;
+    background: $dropdown-toggle-bg;
+    border-radius: 0;
+
+    &:after {
+      @include Icon--triangleDown;
+      padding-left: r(2);
+      font-family: "tapestry-icons";
+      font-size: r(2);
+      color: $gray-chateau;
+
+      .Dropdown--s & {
+        font-size: r(1);
+      }
+    }
+
+    &[aria-expanded="true"] {
+      color: $dropdown-toggle-expanded-color;
+    }
+  }
+
+}

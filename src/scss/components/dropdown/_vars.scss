@@ -1,0 +1,25 @@
+$dropdown-base-fz: $fz--m !default;
+$dropdown-small-fz: $fz--s !default;
+
+$dropdown-min-width: r(56) !default;
+$dropdown-max-height: r(30) !default;
+
+$dropdown-toggle-padding: r(1) r(2) !default;
+$dropdown-toggle-bg: $transparent !default;
+$dropdown-toggle-color: $outer-space !default;
+$dropdown-toggle-hover-color: $outer-space !default;
+$dropdown-toggle-expanded-color: $outer-space !default;
+
+$dropdown-list-bg: $white !default;
+$dropdown-list-border-color: $iron !default;
+
+$dropdown-item-base-color: $shuttle-gray !default;
+$dropdown-item-hover-color: $white !default;
+$dropdown-item-focus-color: $shuttle-gray !default;
+
+$dropdown-item-base-bg: $transparent !default;
+$dropdown-item-hover-bg: $gray-chateau !default;
+$dropdown-item-selected-bg: $porcelain !default;
+
+$dropdown-item-mg: $mg--xs !default;
+$dropdown-item-pd: $pd--xs !default;

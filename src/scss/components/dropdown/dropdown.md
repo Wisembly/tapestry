@@ -1,9 +1,48 @@
 # Dropdown
 
+
+## Variables
+
+| Variable                              | property         | value           | desc.  |
+|---------------------------------------|------------------|-----------------|--------|
+| ** $dropdown-base-fz **               | font-size        | `$fz--m`        | -      |
+| ** $dropdown-small-fz **              | font-size        | `$fz--s`        | -      |
+| ** $dropdown-min-width **             | min-width        | `r(56)`         | -      |
+| ** $dropdown-max-height **            | max-height       | `r(30)`         | -      |
+| ** $dropdown-toggle-padding **        | padding          | `r(1) r(2)`     | -      |
+| ** $dropdown-toggle-bg **             | background-color | `$transparent`  | -      |
+| ** $dropdown-toggle-color **          | color            | `$slate-gray`   | -      |
+| ** $dropdown-toggle-hover-color **    | color            | `$shuttle-gray` | -      |
+| ** $dropdown-toggle-expanded-color ** | color            | `$shuttle-gray` | -      |
+| ** $dropdown-list-bg **               | background-color | `$white`        | -      |
+| ** $dropdown-list-border-color **     | background-color | `$iron`         | -      |
+| ** $dropdown-item-base-color **       | color            | `$shuttle-gray` | -      |
+| ** $dropdown-item-hover-color **      | color            | `$white`        | -      |
+| ** $dropdown-item-focus-color **      | color            | `$shuttle-gray` | -      |
+| ** $dropdown-item-base-bg **          | background-color | `$transparent`  | -      |
+| ** $dropdown-item-hover-bg **         | background-color | `$gray-chateau` | -      |
+| ** $dropdown-item-selected-bg **      | background-color | `$porcelain`    | -      |
+| ** $dropdown-item-mg **               | margin           | `$mg--xs`       | -      |
+| ** $dropdown-item-pd **               | padding          | `$pd--xs`       | -      |
+
+
 ```html
 <div class="Dropdown" data-tapestry="dropdown">
-  <button type="button" class="Dropdown-toggle Btn" aria-controls="" aria-expanded="false">Call to action</button>
-  <ul id="" class="Dropdown-list">
+  <button type="button" class="Dropdown-toggle" aria-controls="" aria-expanded="false">Open dropdown</button>
+  <ul class="Dropdown-list">
+    <li class="Dropdown-item">
+      Simple label
+    </li>
+    <li>
+      <a href="#" class="Dropdown-item">
+        Linked label
+      </a>
+    </li>
+  </ul>
+</div>
+<div class="Dropdown Dropdown--s" data-tapestry="dropdown">
+  <button type="button" class="Dropdown-toggle" aria-controls="" aria-expanded="false">Open small dropdown</button>
+  <ul class="Dropdown-list">
     <li class="Dropdown-item">
       Simple label
     </li>
@@ -38,7 +77,7 @@ Modifiers available (starting points, Dropdown-list are never overlaying Dropdow
 
 ```html
 <div class="Dropdown" data-tapestry="dropdown">
-  <button type="button" class="Dropdown-toggle Btn" aria-controls="dropdownDividerExample" aria-expanded="false">Call to action</button>
+  <button type="button" class="Dropdown-toggle" aria-controls="dropdownDividerExample" aria-expanded="false">Call to action</button>
   <ul id="dropdownDividerExample" class="Dropdown-list" aria-labelledby="dropdownMenuDivider">
     <li class="Dropdown-item">
       Simple label 1
@@ -97,42 +136,14 @@ In the other hand, if the classic `<select`> does not suit you, if you need to c
 ```
 
 ## Options
-```esc
-<table class="Table">
-  <thead class="Table-head">
-    <th class="Table-cell Table-cell--header u-tal">Name</th>
-    <th class="Table-cell Table-cell--header">Type</th>
-    <th class="Table-cell Table-cell--header">Default</th>
-    <th class="Table-cell Table-cell--header">Description</th>
-  </thead>
-  <tbody class="Table-body">
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal"><code>placeholder</code></td>
-      <td class="Table-cell">String</td>
-      <td class="Table-cell">""</td>
-      <td class="Table-cell">Display a placholder when needed.</td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal"><code>scroll</code></td>
-      <td class="Table-cell">Boolean</td>
-      <td class="Table-cell">false</td>
-      <td class="Table-cell">auto-scroll list to the selected item.</td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal"><code>keyboard</code></td>
-      <td class="Table-cell">Boolean</td>
-      <td class="Table-cell">true</td>
-      <td class="Table-cell">Enable keyboard controls.</td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal"><code>wheel</code></td>
-      <td class="Table-cell">Boolean</td>
-      <td class="Table-cell">false</td>
-      <td class="Table-cell">Enable mouse wheel controls. (Experimental)</td>
-    </tr>
-  </tbody>
-</table>
-```
+
+| Name          | Type    | Default | Description                                 |
+|---------------|---------|---------|---------------------------------------------|
+| `placeholder` | String  | ""      | Display a placeholder when needed.           |
+| `scroll`      | Boolean | false   | auto-scroll list to the selected item.      |
+| `keyboard`    | Boolean | true    | Enable keyboard controls.                   |
+| `wheel`       | Boolean | false   | Enable mouse wheel controls. (Experimental) |
+
 Options can be set both using `data-xxx` attributes or through `$.fn.dropddownSelect`
 Update: 'data-value' can be null.
 

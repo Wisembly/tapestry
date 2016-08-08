@@ -8,7 +8,7 @@
   body {
     font-family: $ff--ss-serif;
     line-height: $base-lh;
-    color: $limed-spruce;
+    color: $shuttle-gray;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
   }
@@ -86,8 +86,9 @@
 
   ul {
     margin: 0;
-    padding-left: $pd--m - $pd--xs;
+    padding: 0;
     list-style: disc;
+    list-style-position: inside;
 
     + ul,
     + ol {
@@ -97,8 +98,9 @@
 
   ol {
     margin: 0;
-    padding-left: $pd--m - $pd--xs;
+    padding: 0;
     list-style: decimal;
+    list-style-position: inside;
 
     + ul,
     + ol {
@@ -107,7 +109,6 @@
   }
 
   a {
-    font-weight: $fw--semi-bold;
     text-decoration: none;
     color: $venice-blue;
   }

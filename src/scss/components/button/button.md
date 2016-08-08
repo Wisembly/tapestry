@@ -1,77 +1,42 @@
 # Buttons
-```esc
-<ul class="u-mgb--m">
-  <li><strong>Outline:</strong> transparent button with borders</li>
-  <li><strong>Raw:</strong> transparent button without borders</li>
-  <li><strong>Inverted:</strong> white button without borders</li>
-</ul>
-```
+
+## Types
+
+| Type           | desc.                              |
+|----------------|------------------------------------|
+| ** outline **  | transparent button with borders    |
+| ** raw **      | transparent button without borders |
+| ** inverted ** | white button without borders       |
 
 ```html
 <button class="Btn">default button</button>
 <button class="Btn Btn--outline">Outlined button</button>
-<button class="Btn" aria-disabled="true" disabled>Disabled button</button>
+<button class="Btn" disabled>Disabled button</button>
 <button class="Btn Btn--raw">Raw button</button>
 <button class="Btn Btn--inverted">Inverted button</button>
 ```
 
+
+
 ## Variables
-```esc
-<table class="Table">
-  <thead class="Table-head">
-    <th class="Table-cell Table-cell--header u-tal" style="width: 25%;">Name</th>
-    <th class="Table-cell Table-cell--header" style="width: 10%;">Type</th>
-    <th class="Table-cell Table-cell--header">Description</th>
-  </thead>
-  <tbody class="Table-body">
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal" style="width: 25%;">$btn-pdv</td>
-      <td class="Table-cell">padding</td>
-      <td class="Table-cell">vertical padding for regular buttons<br><code>$pd--s</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal" style="width: 25%;">$btn-pdv--s</td>
-      <td class="Table-cell">padding</td>
-      <td class="Table-cell">vertical padding for small buttons<br><code>$pd--xs</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal" style="width: 25%;">$btn-pdh</td>
-      <td class="Table-cell">padding</td>
-      <td class="Table-cell">horizontal padding for regular buttons<br><code>$pd--s</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal" style="width: 25%;">$btn-pdh--s</td>
-      <td class="Table-cell">padding</td>
-      <td class="Table-cell">horizontal padding for small buttons<br><code>$pd--xs</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$btn-fixed-unit</td>
-      <td class="Table-cell">size</td>
-      <td class="Table-cell">squared and circle button size<br><code>r(8)</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$btn-fixed-unit--s</td>
-      <td class="Table-cell">size</td>
-      <td class="Table-cell">small squared and circle button size<br><code>r(6)</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$btn-name-colors</td>
-      <td class="Table-cell">list</td>
-      <td class="Table-cell">button classnames<br><code>"-primary" "-alt" "-validate" "-info" "-error"</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$btn-base-colors</td>
-      <td class="Table-cell">list</td>
-      <td class="Table-cell">button default colors<br><code>$venice-blue $curious-blue $mint $saffron $mandy</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$btn-hover-colors</td>
-      <td class="Table-cell">list</td>
-      <td class="Table-cell">button hover colors<br><code>$atoll $eastern-blue $ocean-green $galliano $fuzzy-wuzzy-brown</code></td>
-    </tr>
-  </tbody>
-</table>
-```
+
+| Variable                              | property     | value                                                          | desc.                                  |
+|---------------------------------------|--------------|----------------------------------------------------------------|----------------------------------------|
+| ** $btn-pdv **                        | padding      | `$pd--s`                                                       | vertical padding for regular buttons   |
+| ** $btn-pdv--s **                     | padding      | `$pd--xs`                                                      | vertical padding for small buttons     |
+| ** $btn-pdh **                        | padding      | `$pd--s`                                                       | horizontal padding for regular buttons |
+| ** $btn-pdh--s **                     | padding      | `$pd--xs`                                                      | horizontal padding for small buttons   |
+| ** $btn-fixed-unit **                 | size         | `r(8)`                                                         | squared button size                    |
+| ** $btn-fixed-unit--s **              | size         | `r(6)`                                                         | small squared button size              |
+| ** $btn-name-colors **                | list         | `"-primary" "-alt" "-validate" "-info" "-error"`               | button classnames                      |
+| ** $btn-base-colors **                | list         | `$venice-blue $boston-blue $mint $saffron $mandy`              | button default colors                  |
+| ** $btn-hover-colors **               | list         | `$atoll $jelly-bean $ocean-green $galliano $fuzzy-wuzzy-brown` | button hover colors                    |
+| ** $btn-outline-base-color **         | color        | `$slate-gray`                                                  | outline button base color              |
+| ** $btn-outline-base-border-color **  | border-color | `$base-border-color`                                           | outline button base border-color       |
+| ** $btn-outline-hover-color **        | color        | `$shuttle-gray`                                                | outline button hover color             |
+| ** $btn-outline-hover-border-color ** | border-color | `$shuttle-gray`                                                | outline button hover border-color      |
+| ** $btn-group-space-between **        | margin       | `$pd--s`                                                       | space between button-groups            |
+| ** $btn-group-selected-color **       | color        | `$mint`                                                        | selected color for button-group item   |
 
 
 
@@ -80,23 +45,29 @@
 ```html
 <button class="Btn Btn--s">Small button</button>
 <button class="Btn Btn--outline Btn--s">Small outlined button</button>
-<button class="Btn Btn--s" aria-disabled="true" disabled>Small disabled button</button>
+<button class="Btn Btn--s" disabled>Small disabled button</button>
 <button class="Btn Btn--raw Btn--s">Small raw button</button>
 <button class="Btn Btn--inverted Btn--s">Small inverted button</button>
 ```
+
+
 
 ## Block
 ```html
 <button class="Btn Btn--alt Btn--block">Block button</button>
 ```
 
+
+
 ## Expand
 ```html
-<div class="BtnGroup Btn-expandContainer">
+<div class="BtnContainer">
   <button class="Btn Btn--expand">Expanded button</button>
   <button class="Btn Btn--validate">Button</button>
 </div>
 ```
+
+
 
 ## Squared
 ```html
@@ -109,15 +80,6 @@
 ```
 
 
-## Circle
-```html
-<button class="Btn Btn--circle">
-  <i class="Icon Icon--like"></i>
-</button>
-<button class="Btn Btn--s Btn--outline Btn--circle">
-  <i class="Icon Icon--options"></i>
-</button>
-```
 
 ## Types
 
@@ -146,6 +108,8 @@
   Button with icon
 </button>
 ```
+
+
 
 ## Colors
 
@@ -180,6 +144,8 @@
 </div>
 ```
 
+
+
 ## Isolated cases
 ```html
 <div class="u-primary u-pd--m">
@@ -189,43 +155,18 @@
 ```
 
 
+
 ## Button group
 
 ```html
 <div class="BtnGroup">
-  <button class="Btn">Button A</button>
-  <div class="Dropdown BtnGroup-dropdown" data-tapestry="dropdown">
-    <button type="button" class="Dropdown-toggle Btn" aria-controls="dropdownDividerExample" aria-expanded="false">Button B</button>
-    <ul id="dropdownDividerExample" class="Dropdown-list" aria-labelledby="dropdownMenuDivider">
-      <li class="Dropdown-item">
-        Simple label 1
-      </li>
-      <li class="Dropdown-item">
-        Simple label 2
-      </li>
-    </ul>
-  </div>
-  <button class="Btn">Button C</button>
+  <button class="Btn BtnGroup-item is-selected">Button A</button>
+  <button class="Btn BtnGroup-item">Button B</button>
+  <button class="Btn BtnGroup-item" disabled>Button C</button>
 </div>
 <div class="BtnGroup">
-  <div class="Dropdown BtnGroup-dropdown" data-tapestry="dropdown">
-    <button type="button" class="Dropdown-toggle Btn Btn--outline" aria-controls="dropdownDividerExample" aria-expanded="false">Button A</button>
-    <ul id="dropdownDividerExample" class="Dropdown-list" aria-labelledby="dropdownMenuDivider">
-      <li class="Dropdown-item">
-        Simple label 1
-      </li>
-      <li class="Dropdown-item">
-        Simple label 2
-      </li>
-    </ul>
-  </div>
-  <button class="Btn Btn--outline">Button B</button>
-  <button class="Btn Btn--outline">Button C</button>
+  <button class="Btn BtnGroup-item BtnGroup-item--s">Button A</button>
+  <button class="Btn BtnGroup-item BtnGroup-item--s">Button B</button>
+  <button class="Btn BtnGroup-item BtnGroup-item--s is-selected">Button C</button>
 </div>
-<div class="BtnGroup">
-  <button class="Btn Btn--s Btn--primary Btn--outline" disabled>Button A</button>
-  <button class="Btn Btn--s Btn--primary Btn--outline" disabled>Button B</button>
-  <button class="Btn Btn--s Btn--primary Btn--outline" disabled>Button C</button>
-</div>
-
 ```

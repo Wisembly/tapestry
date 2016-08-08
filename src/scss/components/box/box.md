@@ -5,37 +5,14 @@ Boxes do not have paddings by default. They are added while structuring it with 
 
 ## Variables
 
-```esc
-<table class="Table">
-  <thead class="Table-head">
-    <th class="Table-cell Table-cell--header u-tal" style="width: 25%;">Name</th>
-    <th class="Table-cell Table-cell--header" style="width: 10%;">Type</th>
-    <th class="Table-cell Table-cell--header">Description</th>
-  </thead>
-  <tbody class="Table-body">
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$box-space-between</td>
-      <td class="Table-cell">margin</td>
-      <td class="Table-cell">space between two boxes<br><code>$mg--m</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$box-title-fz</td>
-      <td class="Table-cell">font-size</td>
-      <td class="Table-cell">box title font-size<br><code>$fz--xl</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$box-title-lh</td>
-      <td class="Table-cell">line-height</td>
-      <td class="Table-cell">box title line-height<br><code>$fz--xl</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$box-title-fw</td>
-      <td class="Table-cell">font-weight</td>
-      <td class="Table-cell">box title font-weight<br><code>$fw--semi-bold</code></td>
-    </tr>
-  </tbody>
-</table>
-```
+| Variable                     | property      | value            | desc.                   |
+|------------------------------|---------------|------------------|-------------------------|
+| ** $box-space-between **     | margin        | `$mg--m`         | space between two boxes |
+| ** $box-title-fz **          | font-size     | `$fz--xl`        | box title font-size     |
+| ** $box-title-lh **          | line-height   | `$fz--xl`        | box title line-height   |
+| ** $box-title-fw **          | font-weight   | `$fw--semi-bold` | box title font-weight   |
+
+
 
 ## Examples
 
@@ -51,6 +28,8 @@ Boxes do not have paddings by default. They are added while structuring it with 
   <div class="Box-content">Box content</div>
 </div>
 ```
+
+
 
 ## Horizontal Boxes
 
@@ -77,9 +56,9 @@ Boxes do not have paddings by default. They are added while structuring it with 
 </div>
 ```
 
-## Type
 
-### Raw
+
+## Raw
 Use .Box--raw to remove box borders.
 
 ```

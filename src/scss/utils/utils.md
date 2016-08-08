@@ -4,87 +4,32 @@ Utility classes help you to add some common behaviors to elements. We decided to
 
 ## Text alignment
 
-```esc
-<table class="Table">
-  <thead class="Table-head">
-    <th class="Table-cell Table-cell--header u-tal">Class</th>
-    <th class="Table-cell Table-cell--header">CSS value</th>
-    <th class="Table-cell Table-cell--header">Description</th>
-  </thead>
-  <tbody class="Table-body">
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal"><code>.u-tac</code></td>
-      <td class="Table-cell">center</td>
-      <td class="Table-cell">Centers text alignment</td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal"><code>.u-tar</code></td>
-      <td class="Table-cell">right</td>
-      <td class="Table-cell">Aligns text on the right</td>
-  </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal"><code>.u-tal</code></td>
-      <td class="Table-cell">left</td>
-      <td class="Table-cell">Aligns text on the left</td>
-    </tr>
-  </tbody>
-</table>
-```
+| Class  | value  | desc.                    |
+|--------|--------|--------------------------|
+| .u-tac | center | centers text             |
+| .u-tar | right  | aligns text on the right |
+| .u-tal | left   | aligns text on the left  |
+
 
 
 ## Floating
 
-```esc
-<table class="Table">
-  <thead class="Table-head">
-    <th class="Table-cell Table-cell--header u-tal">Class</th>
-    <th class="Table-cell Table-cell--header">CSS value</th>
-    <th class="Table-cell Table-cell--header">Description</th>
-</thead>
-  <tbody class="Table-body">
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal"><code>.u-push</code></td>
-      <td class="Table-cell">right</td>
-      <td class="Table-cell">Floats to the right</td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal"><code>.u-pull</code></td>
-      <td class="Table-cell">left</td>
-      <td class="Table-cell">Floats to the left</td>
-    </tr>
-  </tbody>
-</table>
-```
+| Class   | value  | desc.               |
+|---------|--------|---------------------|
+| .u-push | right  | floats to the right |
+| .u-pull | left   | floats to the left  |
+
 
 
 ## Vertical alignment
 
-```esc
-<table class="Table">
-  <thead class="Table-head">
-    <th class="Table-cell Table-cell--header u-tal">Class</th>
-    <th class="Table-cell Table-cell--header">CSS value</th>
-    <th class="Table-cell Table-cell--header">Description</th>
-  </thead>
-  <tbody class="Table-body">
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal"><code>.u-vam</code></td>
-      <td class="Table-cell">middle</td>
-      <td class="Table-cell">Sets vertical alignment in the middle</td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal"><code>.u-vat</code></td>
-      <td class="Table-cell">top</td>
-      <td class="Table-cell">Sets vertical alignment at the top</td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal"><code>.u-vab</code></td>
-      <td class="Table-cell">bottom</td>
-      <td class="Table-cell">Sets vertical alignment at the bottom</td>
-    </tr>
-  </tbody>
-</table>
-```
+| Class  | value  | desc.                                 |
+|--------|--------|---------------------------------------|
+| .u-vam | middle | sets vertical alignment in the middle |
+| .u-vat | top    | sets vertical alignment at the top    |
+| .u-vab | bottom | sets vertical alignment at the bottom |
+
+
 
 ## Reset default style
 
@@ -107,79 +52,29 @@ You can reset styles for `<ul>`
 - Size values: <code>0</code> | <code>xs</code> | <code>s</code> | <code>m</code> | <code>l</code> | <code>xl</code>
 - Direction values (optional): <code>t</code> (top) | <code>r</code> (right) | <code>b</code> (bottom) | <code>l</code> (left)
 
-```esc
-<table class="Table">
-  <thead class="Table-head">
-    <th class="Table-cell Table-cell--header u-tal">Syntax</th>
-    <th class="Table-cell Table-cell--header">Description</th>
-  </thead>
-  <tbody class="Table-body">
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal"><code>.u + -property (+ direction) + --size</code></td>
-      <td class="Table-cell"><code>.u-mg--l</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal"><code>.u-mg--0</code></td>
-      <td class="Table-cell">No margin</td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal"><code>.u-pdt--s</code></td>
-      <td class="Table-cell">Small padding-top</td>
-    </tr>
-  </tbody>
-</table>
-```
+| Syntax/class                          | desc.             |
+|---------------------------------------|-------------------|
+| .u + -property (+ direction) + --size | -                 |
+| .u-mg--0                              | No margin         |
+| .u-pdt--s                             | Small padding-top |
+
+
 
 ## Sass helpers
 
-```esc
-<table class="Table">
-  <thead class="Table-head">
-    <th class="Table-cell Table-cell--header u-tal">Syntax</th>
-    <th class="Table-cell Table-cell--header">Description</th>
-  </thead>
-  <tbody class="Table-body">
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">r(x)</td>
-      <td class="Table-cell">To set vertical rhythm of a module, where X is an integer for vertical unit</td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">rb(x,y,z)</td>
-      <td class="Table-cell">To set vertical rhythm of a module if it has a border, where X is an integer for vertical unit, Y the border width and Z the font size  </td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">fz(x)</td>
-      <td class="Table-cell">To set font size if $fz--modifiers are not enough and keep vertical rhythm</td>
-    </tr>
-  </tbody>
-</table>
-```
+| Helper    | desc.                                                                                                                                  |
+|-----------|----------------------------------------------------------------------------------------------------------------------------------------|
+| r(x)      | to set vertical rhythm of a module, where X is an integer for vertical unit                                                            |
+| rb(x,y,z) | to set vertical rhythm of a module if it has a border, where X is an integer for vertical unit, Y the border width and Z the font size |
+| fz(x)     | to set font size if $fz--modifiers are not enough and keep vertical rhythm                                                             |
+
+
 
 ## Div colorizers
 
-```esc
-<table class="Table">
-  <thead class="Table-head">
-    <th class="Table-cell Table-cell--header u-tal">Syntax</th>
-    <th class="Table-cell Table-cell--header">Description</th>
-  </thead>
-  <tbody class="Table-body">
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal"><code>.u-neutral</code></td>
-      <td class="Table-cell">Adds a neutral layout: white text, grey background.</td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal"><code>.u-validate</code></td>
-      <td class="Table-cell">Adds a validation-related layout: white text, green background.</td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal"><code>.u-info</code></td>
-      <td class="Table-cell">Adds a informative layout: white text, orange background.</td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal"><code>.u-error</code></td>
-      <td class="Table-cell">Adds a error-related layout: white text, red background.</td>
-    </tr>
-  </tbody>
-</table>
-```
+| Class       | desc.                                                          |
+|-------------|----------------------------------------------------------------|
+| .u-neutral  | adds a neutral layout: white text, grey background             |
+| .u-validate | adds a validation-related layout: white text, green background |
+| .u-info     | adds a informative layout: white text, orange background       |
+| .u-error    | adds a error-related layout: white text, red background        |

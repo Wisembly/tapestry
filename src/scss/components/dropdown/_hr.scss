@@ -1,9 +1,8 @@
 @if $import-dropdown {
 
   .Dropdown-hr {
-    height: 1px;
     margin: $mg--xs 0;
-    border-top: 1px solid $porcelain;
+    border-top: 1px solid $dropdown-list-border-color;
   }
 
 }

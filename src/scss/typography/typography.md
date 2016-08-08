@@ -42,11 +42,23 @@ Reset list are detailed in Utility classes.
 <p>Paragraph: <strong>lorem ipsum dolor</strong> sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat: <a href="#">go to link</a></p>
 ```
 
+### Div colorizers
+
+```html
+<div class="u-neutral">Neutral</div>
+<div class="u-primary">Primary</div>
+<div class="u-alt">Alt</div>
+<div class="u-validate">Validate</div>
+<div class="u-info">Info</div>
+<div class="u-error">Error</div>
+```
+
 ### Text colorizers
 
 ```html
 <span class="t-neutral"><i class="Icon Icon--pellet"></i> Neutral</span>
 <span class="t-primary"><i class="Icon Icon--pellet"></i> Primary</span>
+<span class="t-alt"><i class="Icon Icon--pellet"></i> Alt</span>
 <span class="t-validate"><i class="Icon Icon--pellet"></i> Validate</span>
 <span class="t-info"><i class="Icon Icon--pellet"></i> Info</span>
 <span class="t-error"><i class="Icon Icon--pellet"></i> Error</span>
@@ -60,6 +72,26 @@ Reset list are detailed in Utility classes.
 
 ```html
 <div class="Line Line--labeled">
-  <div class="Line-label">Section name</div>
+  <div class="Line-label">or</div>
 </div>
+```
+
+```html
+<div class="Line Line--inline">
+  <div class="Line-label">or</div>
+</div>
+```
+
+
+
+### Links
+
+```html
+<a href="#">Link</a>
+<a class="t-link" href="#">Link</a>
+<a class="t-link t-validate" href="#">Link</a>
+<a class="t-link t-link--alt" href="#">Link</a>
+<a class="t-link t-link--s" href="#">Link</a>
+<a class="t-link t-validate t-link--s" href="#">Link</a>
+<a class="t-link t-link--alt t-link--s" href="#">Link</a>
 ```

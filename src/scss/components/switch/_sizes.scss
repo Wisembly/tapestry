@@ -6,10 +6,9 @@
     border-radius: $switch-height--s;
 
     &:after {
-      width: $switch-height--s;
-      height: $switch-height--s;
+      width: $switch-height--s - rem(2px);
+      height: $switch-height--s - rem(2px);
       border-width: ($switch-inner-space--s / 2);
-      border-radius: ($switch-height--s / 2);
     }
   }
 

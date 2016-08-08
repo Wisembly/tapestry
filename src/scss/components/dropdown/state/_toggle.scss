@@ -1,0 +1,11 @@
+@if $import-dropdown and $import-pseudo-classes {
+
+  .Dropdown-toggle {
+    &:hover,
+    &:focus,
+    &:active {
+      color: $dropdown-toggle-hover-color;
+    }
+  }
+
+}

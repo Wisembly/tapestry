@@ -3,11 +3,16 @@
   .Dropdown {
     display: inline-block;
     position: relative;
+    font-size: $dropdown-base-fz;
     user-select: none;
 
     &:focus {
       outline: none;
     }
+  }
+
+  .Dropdown--s {
+    font-size: $dropdown-small-fz;
   }
 
   .Dropdown--block {
