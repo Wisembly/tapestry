@@ -2747,6 +2747,19 @@ a {
   margin-top: 0.71429rem;
 }
 
+.Checkbox--inline {
+  display: inline-block;
+  margin-right: 0.71429rem;
+}
+
+.Checkbox--inline:last-child {
+  margin-right: 0;
+}
+
+.Checkbox--inline + .Checkbox--inline {
+  margin-top: 0;
+}
+
 .Checkbox-label {
   display: inline-block;
   font-size: 1rem;
@@ -3024,11 +3037,24 @@ a {
 }
 
 .Radio {
-  display: inline-block;
+  display: block;
 }
 
 .Radio + .Radio {
-  margin-left: 0.71429rem;
+  margin-top: 0.71429rem;
+}
+
+.Radio--inline {
+  display: inline-block;
+  margin-right: 0.71429rem;
+}
+
+.Radio--inline:last-child {
+  margin-right: 0;
+}
+
+.Radio--inline + .Radio--inline {
+  margin-top: 0;
 }
 
 .Radio-label {
