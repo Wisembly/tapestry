@@ -1,0 +1,37 @@
+@mixin Table-cell--responsive {
+  .Table-cell {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    line-height: $lh--l;
+    text-align: right;
+    border-top: 1px solid $base-border-color;
+    border-left: 0;
+
+    &:first-child {
+      border-top: 0;
+    }
+
+    &:before {
+      content: attr(data-th);
+      display: inline-block;
+      margin-right: $mg--s;
+      color: $gray-chateau;
+    }
+  }
+}
+
+@if $import-table and $import-responsive-table {
+
+  @for $i from 1 to (length($table-responsive-range) + 1) {
+    $device: nth($table-responsive-range, $i);
+
+    @include bp(null, #{$device}) {
+      .Table\@#{$device} {
+        @include Table-cell--responsive;
+      }
+    }
+  }
+
+}
