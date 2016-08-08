@@ -3594,13 +3594,10 @@ a {
 
 .ModalHeader-btn {
   width: 3.85714rem;
-  padding: 0.71429rem 0;
-  line-height: 2.85714rem;
+  -webkit-align-self: stretch;
+      -ms-flex-item-align: stretch;
+          align-self: stretch;
   color: #aed7e8;
-}
-
-.ModalHeader-btn .Icon {
-  vertical-align: middle;
 }
 
 .Modal-title {
@@ -3611,24 +3608,16 @@ a {
       -ms-flex-positive: 1;
           flex-grow: 1;
   margin: 0;
-  padding: 0.71429rem 3.85714rem;
+  padding: 1.42857rem 0 1.42857rem 3.85714rem;
   font-size: 1rem;
   font-weight: 600;
-  line-height: 2.85714rem;
+  line-height: 1.42857rem;
   text-align: center;
   color: #fff;
 }
 
-.Modal-title .Icon {
-  margin-right: 0.35714rem;
-}
-
 .ModalHeader-btn + .Modal-title {
   padding-left: 0;
-}
-
-.Modal-title + .ModalHeader-btn {
-  margin-left: -3.85714rem;
 }
 
 .Modal-content {
@@ -3812,14 +3801,11 @@ a {
 }
 
 .PanelHeader-btn {
-  margin-left: auto;
-  padding: 0.71429rem 1.42857rem;
-  line-height: 2.85714rem;
+  width: 3.85714rem;
+  -webkit-align-self: stretch;
+      -ms-flex-item-align: stretch;
+          align-self: stretch;
   color: #aed7e8;
-}
-
-.PanelHeader-btn .Icon {
-  vertical-align: middle;
 }
 
 .Panel-title {
@@ -3830,12 +3816,16 @@ a {
       -ms-flex-positive: 1;
           flex-grow: 1;
   margin: 0;
-  padding: 0.71429rem 1.42857rem;
+  padding: 1.42857rem 0 1.42857rem 3.85714rem;
   font-size: 1rem;
   font-weight: 600;
-  line-height: 2.85714rem;
-  text-align: left;
+  line-height: 1.42857rem;
+  text-align: center;
   color: #fff;
+}
+
+.PanelHeader-btn + .Panel-title {
+  padding-left: 0;
 }
 
 .Panel-content {

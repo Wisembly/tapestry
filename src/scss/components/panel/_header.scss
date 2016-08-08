@@ -11,26 +11,26 @@
   }
 
   .PanelHeader-btn {
-    margin-left: auto;
-    padding: r(2) $pd--m;
-    line-height: $panel-header-height;
+    width: $modal-header-btn-width;
+    align-self: stretch;
     color: $regent-st-blue;
-
-    .Icon {
-      vertical-align: middle;
-    }
   }
 
   .Panel-title {
     @include ellipsis;
     flex-grow: 1;
     margin: 0;
-    padding: r(2) $base-pd;
+    padding: r(4) 0 r(4) $modal-header-btn-width;
     font-size: $fz--m;
     font-weight: $fw--semi-bold;
-    line-height: $panel-header-height;
-    text-align: left;
+    line-height: $base-lh;
+    text-align: center;
     color: $white;
+
+    .PanelHeader-btn + & {
+      padding-left: 0;
+    }
   }
+
 
 }
