@@ -31,7 +31,7 @@
 
     @if $import-icons {
       &:after {
-        @include Icon--arrowNext;
+        @include Icon--arrowRight;
       }
     }
   }

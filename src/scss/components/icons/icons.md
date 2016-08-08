@@ -18,11 +18,6 @@
 ```esc
 
 <div class="s-Icon">
-  <i class="Icon Icon--actionItem"></i>
-  actionItem
-</div>
-
-<div class="s-Icon">
   <i class="Icon Icon--add"></i>
   add
 </div>
@@ -30,11 +25,6 @@
 <div class="s-Icon">
   <i class="Icon Icon--addUser"></i>
   addUser
-</div>
-
-<div class="s-Icon">
-  <i class="Icon Icon--agendaItem"></i>
-  agendaItem
 </div>
 
 <div class="s-Icon">
@@ -68,11 +58,6 @@
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--arrowBack"></i>
-  arrowBack
-</div>
-
-<div class="s-Icon">
   <i class="Icon Icon--arrowDown"></i>
   arrowDown
 </div>
@@ -88,8 +73,13 @@
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--arrowNext"></i>
-  arrowNext
+  <i class="Icon Icon--arrowLeft"></i>
+  arrowLeft
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--arrowRight"></i>
+  arrowRight
 </div>
 
 <div class="s-Icon">
@@ -120,6 +110,11 @@
 <div class="s-Icon">
   <i class="Icon Icon--bar"></i>
   bar
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--barDiagram"></i>
+  barDiagram
 </div>
 
 <div class="s-Icon">
@@ -198,23 +193,28 @@
 </div>
 
 <div class="s-Icon">
+  <i class="Icon Icon--comment"></i>
+  comment
+</div>
+
+<div class="s-Icon">
   <i class="Icon Icon--cross"></i>
   cross
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--decision"></i>
-  decision
-</div>
-
-<div class="s-Icon">
-  <i class="Icon Icon--diagram"></i>
-  diagram
-</div>
-
-<div class="s-Icon">
   <i class="Icon Icon--document"></i>
   document
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--door"></i>
+  door
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--dot"></i>
+  dot
 </div>
 
 <div class="s-Icon">
@@ -268,6 +268,11 @@
 </div>
 
 <div class="s-Icon">
+  <i class="Icon Icon--folder"></i>
+  folder
+</div>
+
+<div class="s-Icon">
   <i class="Icon Icon--form"></i>
   form
 </div>
@@ -300,11 +305,6 @@
 <div class="s-Icon">
   <i class="Icon Icon--group"></i>
   group
-</div>
-
-<div class="s-Icon">
-  <i class="Icon Icon--groupRounded"></i>
-  groupRounded
 </div>
 
 <div class="s-Icon">
@@ -358,6 +358,11 @@
 </div>
 
 <div class="s-Icon">
+  <i class="Icon Icon--list"></i>
+  list
+</div>
+
+<div class="s-Icon">
   <i class="Icon Icon--listCollapse"></i>
   listCollapse
 </div>
@@ -383,11 +388,6 @@
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--meetingList"></i>
-  meetingList
-</div>
-
-<div class="s-Icon">
   <i class="Icon Icon--message"></i>
   message
 </div>
@@ -408,21 +408,6 @@
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--note"></i>
-  note
-</div>
-
-<div class="s-Icon">
-  <i class="Icon Icon--openIssue"></i>
-  openIssue
-</div>
-
-<div class="s-Icon">
-  <i class="Icon Icon--openQuestion"></i>
-  openQuestion
-</div>
-
-<div class="s-Icon">
   <i class="Icon Icon--openedEye"></i>
   openedEye
 </div>
@@ -430,11 +415,6 @@
 <div class="s-Icon">
   <i class="Icon Icon--options"></i>
   options
-</div>
-
-<div class="s-Icon">
-  <i class="Icon Icon--optionsRounded"></i>
-  optionsRounded
 </div>
 
 <div class="s-Icon">
@@ -493,6 +473,11 @@
 </div>
 
 <div class="s-Icon">
+  <i class="Icon Icon--pieDiagram"></i>
+  pieDiagram
+</div>
+
+<div class="s-Icon">
   <i class="Icon Icon--play"></i>
   play
 </div>
@@ -518,23 +503,13 @@
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--privateNote"></i>
-  privateNote
-</div>
-
-<div class="s-Icon">
-  <i class="Icon Icon--public"></i>
-  public
+  <i class="Icon Icon--private"></i>
+  private
 </div>
 
 <div class="s-Icon">
   <i class="Icon Icon--radio"></i>
   radio
-</div>
-
-<div class="s-Icon">
-  <i class="Icon Icon--recurring"></i>
-  recurring
 </div>
 
 <div class="s-Icon">
@@ -550,11 +525,6 @@
 <div class="s-Icon">
   <i class="Icon Icon--reset"></i>
   reset
-</div>
-
-<div class="s-Icon">
-  <i class="Icon Icon--resetRounded"></i>
-  resetRounded
 </div>
 
 <div class="s-Icon">
@@ -618,11 +588,6 @@
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--statsRounded"></i>
-  statsRounded
-</div>
-
-<div class="s-Icon">
   <i class="Icon Icon--stop"></i>
   stop
 </div>
@@ -645,11 +610,6 @@
 <div class="s-Icon">
   <i class="Icon Icon--target"></i>
   target
-</div>
-
-<div class="s-Icon">
-  <i class="Icon Icon--themes"></i>
-  themes
 </div>
 
 <div class="s-Icon">
@@ -683,6 +643,16 @@
 </div>
 
 <div class="s-Icon">
+  <i class="Icon Icon--triangleLeft"></i>
+  triangleLeft
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--triangleRight"></i>
+  triangleRight
+</div>
+
+<div class="s-Icon">
   <i class="Icon Icon--triangleUp"></i>
   triangleUp
 </div>
@@ -690,16 +660,6 @@
 <div class="s-Icon">
   <i class="Icon Icon--twitter"></i>
   twitter
-</div>
-
-<div class="s-Icon">
-  <i class="Icon Icon--typeAdd"></i>
-  typeAdd
-</div>
-
-<div class="s-Icon">
-  <i class="Icon Icon--typeParagraph"></i>
-  typeParagraph
 </div>
 
 <div class="s-Icon">
@@ -725,11 +685,6 @@
 <div class="s-Icon">
   <i class="Icon Icon--voice"></i>
   voice
-</div>
-
-<div class="s-Icon">
-  <i class="Icon Icon--vote"></i>
-  vote
 </div>
 
 <div class="s-Icon">
