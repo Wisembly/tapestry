@@ -12,36 +12,23 @@
 
   .ModalHeader-btn {
     width: $modal-header-btn-width;
-    padding: r(2) 0;
-    line-height: $lh--xl;
+    align-self: stretch;
     color: $regent-st-blue;
-
-    .Icon {
-      vertical-align: middle;
-    }
   }
 
   .Modal-title {
     @include ellipsis;
     flex-grow: 1;
     margin: 0;
-    padding: r(2) $modal-header-btn-width;
+    padding: r(4) 0 r(4) $modal-header-btn-width;
     font-size: $fz--m;
     font-weight: $fw--semi-bold;
-    line-height: $lh--xl;
+    line-height: $base-lh;
     text-align: center;
     color: $white;
 
-    .Icon {
-      margin-right: $mg--xs;
-    }
-
     .ModalHeader-btn + & {
       padding-left: 0;
-    }
-
-    + .ModalHeader-btn {
-      margin-left: -$modal-header-btn-width;
     }
   }
 
