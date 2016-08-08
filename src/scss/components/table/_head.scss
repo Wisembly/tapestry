@@ -1,8 +1,6 @@
 @if $import-table {
 
-  .Table-row {
-    position: relative;
-    font-weight: $base-fw;
+  .Table-head {
     border-bottom: 1px solid $base-border-color;
   }
 
