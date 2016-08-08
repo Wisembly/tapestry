@@ -1,0 +1,24 @@
+@mixin Table-row--responsive {
+  .Table-row {
+    display: block;
+    padding: $table-pdv $table-pdh;
+
+    &:last-child {
+      border-bottom: 0;
+    }
+  }
+}
+
+@if $import-table and $import-responsive-table {
+
+  @for $i from 1 to (length($table-responsive-range) + 1) {
+    $device: nth($table-responsive-range, $i);
+
+    @include bp(null, #{$device}) {
+      .Table\@#{$device} {
+        @include Table-row--responsive;
+      }
+    }
+  }
+
+}

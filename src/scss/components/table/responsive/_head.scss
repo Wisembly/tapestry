@@ -1,0 +1,19 @@
+@mixin Table-head--responsive {
+  .Table-head {
+    display: none;
+  }
+}
+
+@if $import-table and $import-responsive-table {
+
+  @for $i from 1 to (length($table-responsive-range) + 1) {
+    $device: nth($table-responsive-range, $i);
+
+    @include bp(null, #{$device}) {
+      .Table\@#{$device} {
+        @include Table-head--responsive;
+      }
+    }
+  }
+
+}
