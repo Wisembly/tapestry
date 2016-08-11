@@ -1,29 +1,28 @@
 # Dropdown
 
-
 ## Variables
 
-| Variable                              | property         | value           | desc.  |
-|---------------------------------------|------------------|-----------------|--------|
-| ** $dropdown-base-fz **               | font-size        | `$fz--m`        | -      |
-| ** $dropdown-small-fz **              | font-size        | `$fz--s`        | -      |
-| ** $dropdown-min-width **             | min-width        | `r(56)`         | -      |
-| ** $dropdown-max-height **            | max-height       | `r(30)`         | -      |
-| ** $dropdown-toggle-padding **        | padding          | `r(1) r(2)`     | -      |
-| ** $dropdown-toggle-bg **             | background-color | `$transparent`  | -      |
-| ** $dropdown-toggle-color **          | color            | `$slate-gray`   | -      |
-| ** $dropdown-toggle-hover-color **    | color            | `$shuttle-gray` | -      |
-| ** $dropdown-toggle-expanded-color ** | color            | `$shuttle-gray` | -      |
-| ** $dropdown-list-bg **               | background-color | `$white`        | -      |
-| ** $dropdown-list-border-color **     | background-color | `$iron`         | -      |
-| ** $dropdown-item-base-color **       | color            | `$shuttle-gray` | -      |
-| ** $dropdown-item-hover-color **      | color            | `$white`        | -      |
-| ** $dropdown-item-focus-color **      | color            | `$shuttle-gray` | -      |
-| ** $dropdown-item-base-bg **          | background-color | `$transparent`  | -      |
-| ** $dropdown-item-hover-bg **         | background-color | `$gray-chateau` | -      |
-| ** $dropdown-item-selected-bg **      | background-color | `$porcelain`    | -      |
-| ** $dropdown-item-mg **               | margin           | `$mg--xs`       | -      |
-| ** $dropdown-item-pd **               | padding          | `$pd--xs`       | -      |
+| Variable                              | property         | value           | desc.                                      |
+|---------------------------------------|------------------|-----------------|--------------------------------------------|
+| ** $dropdown-base-fz **               | font-size        | `$fz--m`        | dropdown font-size                         |
+| ** $dropdown-small-fz **              | font-size        | `$fz--s`        | small dropdown font-size                   |
+| ** $dropdown-min-width **             | min-width        | `r(56)`         | dropdown min-width                         |
+| ** $dropdown-max-height **            | max-height       | `r(30)`         | dropdown max-height                        |
+| ** $dropdown-toggle-padding **        | padding          | `r(1) r(2)`     | dropdown-toggle padding                    |
+| ** $dropdown-toggle-bg **             | background-color | `$transparent`  | dropdown-toggle background                 |
+| ** $dropdown-toggle-color **          | color            | `$slate-gray`   | dropdown-toggle color                      |
+| ** $dropdown-toggle-hover-color **    | color            | `$shuttle-gray` | dropdown-toggle color on :hover            |
+| ** $dropdown-toggle-expanded-color ** | color            | `$shuttle-gray` | dropdown-toggle color on expanded dropdown |
+| ** $dropdown-list-bg **               | background-color | `$white`        | dropdown-list background                   |
+| ** $dropdown-list-border-color **     | background-color | `$iron`         | dropdown-list border-color                 |
+| ** $dropdown-item-base-color **       | color            | `$shuttle-gray` | dropdown-item color                        |
+| ** $dropdown-item-hover-color **      | color            | `$white`        | dropdown-item color on :hover              |
+| ** $dropdown-item-focus-color **      | color            | `$shuttle-gray` | dropdown-item color on :focus              |
+| ** $dropdown-item-base-bg **          | background-color | `$transparent`  | dropdown-item background                   |
+| ** $dropdown-item-hover-bg **         | background-color | `$gray-chateau` | dropdown-item background on: hover         |
+| ** $dropdown-item-selected-bg **      | background-color | `$porcelain`    | selected dropdown-item background          |
+| ** $dropdown-item-mg **               | margin           | `$mg--xs`       | dropdown-item margin                       |
+| ** $dropdown-item-pd **               | padding          | `$pd--xs`       | dropdown-item padding                      |
 
 
 ```html
@@ -55,6 +54,8 @@
 </div>
 ```
 
+
+
 ## Positions
 Add those classes to position the `Dropdown-list` <br/>
 example: `<ul id="dropdownTopLeft" class="Dropdown-list Dropdown-list--tl">∞</ul>`
@@ -72,6 +73,8 @@ Modifiers available (starting points, Dropdown-list are never overlaying Dropdow
 - `-lt`: left-top,
 - `-lc`: left-center,
 - `-lb`: left-bottom
+
+
 
 ## Divider
 
@@ -98,6 +101,8 @@ Modifiers available (starting points, Dropdown-list are never overlaying Dropdow
   </ul>
 </div>
 ```
+
+
 
 ## Dropdown Select
 
@@ -134,6 +139,8 @@ In the other hand, if the classic `<select`> does not suit you, if you need to c
   </ul>
 </div>
 ```
+
+
 
 ## Options
 
