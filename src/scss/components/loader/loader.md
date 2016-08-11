@@ -1,5 +1,20 @@
 # Loader
 
+## Variables
+
+| Variable                    | property         | value               | desc.                   |
+|-----------------------------|------------------|---------------------|-------------------------|
+| ** $loader-loading-class ** | class            | `".is-loading"`     | loader class on loading |
+| ** loader-failed-class **   | class            | `".has-failed"`     | loader class on fail    |
+| ** $loader-base-bg **       | background-color | `rgba($white, .95)` | loader background       |
+| ** $loader-base-color **    | color            | `$shuttle-gray`     | loader color            |
+| ** $loader-errored-color ** | color            | `$mandy`            | loader color on error   |
+| ** $loader-inner-space **   | size             | `$pd--s`            | loader inner-space      |
+
+
+
+## Basic
+
 ```html
 <div class="is-loading">
   <div class="Loader">
