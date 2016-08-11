@@ -15,7 +15,7 @@
 }
 
 
-@mixin Icon--add {
+@mixin Icon--academicHat {
   content: "\ea01";
 }
 
@@ -103,7 +103,7 @@
   content: "\ea16";
 }
 
-@mixin Icon--bulletDay {
+@mixin Icon--bulb {
   content: "\ea17";
 }
 
@@ -115,452 +115,492 @@
   content: "\ea19";
 }
 
-@mixin Icon--checked {
+@mixin Icon--checkedCheckbox {
   content: "\ea1a";
 }
 
-@mixin Icon--checkedActionItem {
+@mixin Icon--checkedRadio {
   content: "\ea1b";
 }
 
-@mixin Icon--checkedCheckbox {
+@mixin Icon--checkmark {
   content: "\ea1c";
 }
 
-@mixin Icon--checkedRadio {
+@mixin Icon--chrome {
   content: "\ea1d";
 }
 
-@mixin Icon--checkmark {
+@mixin Icon--clip {
   content: "\ea1e";
 }
 
-@mixin Icon--chrome {
+@mixin Icon--clock {
   content: "\ea1f";
 }
 
-@mixin Icon--clip {
+@mixin Icon--closedEye {
   content: "\ea20";
 }
 
-@mixin Icon--clock {
+@mixin Icon--cog {
   content: "\ea21";
 }
 
-@mixin Icon--closedEye {
+@mixin Icon--comment {
   content: "\ea22";
 }
 
-@mixin Icon--cog {
+@mixin Icon--company {
   content: "\ea23";
 }
 
-@mixin Icon--comment {
+@mixin Icon--cross {
   content: "\ea24";
 }
 
-@mixin Icon--cross {
+@mixin Icon--dashboard {
   content: "\ea25";
 }
 
-@mixin Icon--document {
+@mixin Icon--deleteUser {
   content: "\ea26";
 }
 
-@mixin Icon--door {
+@mixin Icon--document {
   content: "\ea27";
 }
 
-@mixin Icon--dot {
+@mixin Icon--documentFull {
   content: "\ea28";
 }
 
-@mixin Icon--download {
+@mixin Icon--donutDot {
   content: "\ea29";
 }
 
-@mixin Icon--dragHorizontal {
+@mixin Icon--door {
   content: "\ea2a";
 }
 
-@mixin Icon--dragVertical {
+@mixin Icon--dot {
   content: "\ea2b";
 }
 
-@mixin Icon--dumbell {
+@mixin Icon--download {
   content: "\ea2c";
 }
 
-@mixin Icon--duplicate {
+@mixin Icon--dragHorizontal {
   content: "\ea2d";
 }
 
-@mixin Icon--evernote {
+@mixin Icon--dragVertical {
   content: "\ea2e";
 }
 
-@mixin Icon--externalLink {
+@mixin Icon--duplicate {
   content: "\ea2f";
 }
 
-@mixin Icon--facebook {
+@mixin Icon--evernote {
   content: "\ea30";
 }
 
-@mixin Icon--file {
+@mixin Icon--externalLink {
   content: "\ea31";
 }
 
-@mixin Icon--filters {
+@mixin Icon--facebook {
   content: "\ea32";
 }
 
-@mixin Icon--folder {
+@mixin Icon--file {
   content: "\ea33";
 }
 
-@mixin Icon--form {
+@mixin Icon--filters {
   content: "\ea34";
 }
 
-@mixin Icon--fullscreen {
+@mixin Icon--flag {
   content: "\ea35";
 }
 
-@mixin Icon--github {
+@mixin Icon--folder {
   content: "\ea36";
 }
 
-@mixin Icon--glass {
+@mixin Icon--form {
   content: "\ea37";
 }
 
-@mixin Icon--google {
+@mixin Icon--fullscreen {
   content: "\ea38";
 }
 
-@mixin Icon--grid {
+@mixin Icon--github {
   content: "\ea39";
 }
 
-@mixin Icon--group {
+@mixin Icon--glass {
   content: "\ea3a";
 }
 
-@mixin Icon--help {
+@mixin Icon--google {
   content: "\ea3b";
 }
 
-@mixin Icon--home {
+@mixin Icon--grid {
   content: "\ea3c";
 }
 
-@mixin Icon--image {
+@mixin Icon--group {
   content: "\ea3d";
 }
 
-@mixin Icon--info {
+@mixin Icon--heading1 {
   content: "\ea3e";
 }
 
-@mixin Icon--label {
+@mixin Icon--heading2 {
   content: "\ea3f";
 }
 
-@mixin Icon--like {
+@mixin Icon--help {
   content: "\ea40";
 }
 
-@mixin Icon--link {
+@mixin Icon--home {
   content: "\ea41";
 }
 
-@mixin Icon--linkDropbox {
+@mixin Icon--image {
   content: "\ea42";
 }
 
-@mixin Icon--linkGoogle {
+@mixin Icon--info {
   content: "\ea43";
 }
 
-@mixin Icon--linkedin {
+@mixin Icon--insights {
   content: "\ea44";
 }
 
-@mixin Icon--list {
+@mixin Icon--label {
   content: "\ea45";
 }
 
-@mixin Icon--listCollapse {
+@mixin Icon--like {
   content: "\ea46";
 }
 
-@mixin Icon--listExpand {
+@mixin Icon--link {
   content: "\ea47";
 }
 
-@mixin Icon--live {
+@mixin Icon--linkDropbox {
   content: "\ea48";
 }
 
-@mixin Icon--lock {
+@mixin Icon--linkGoogle {
   content: "\ea49";
 }
 
-@mixin Icon--mail {
+@mixin Icon--linkedin {
   content: "\ea4a";
 }
 
-@mixin Icon--message {
+@mixin Icon--list {
   content: "\ea4b";
 }
 
-@mixin Icon--minus {
+@mixin Icon--listCollapse {
   content: "\ea4c";
 }
 
-@mixin Icon--more {
+@mixin Icon--listExpand {
   content: "\ea4d";
 }
 
-@mixin Icon--multipleChoice {
+@mixin Icon--listPlain {
   content: "\ea4e";
 }
 
-@mixin Icon--openedEye {
+@mixin Icon--live {
   content: "\ea4f";
 }
 
-@mixin Icon--options {
+@mixin Icon--lock {
   content: "\ea50";
 }
 
-@mixin Icon--paragraph {
+@mixin Icon--mail {
   content: "\ea51";
 }
 
-@mixin Icon--participant {
+@mixin Icon--message {
   content: "\ea52";
 }
 
-@mixin Icon--pause {
+@mixin Icon--minus {
   content: "\ea53";
 }
 
-@mixin Icon--pellet {
+@mixin Icon--more {
   content: "\ea54";
 }
 
-@mixin Icon--pelletCheck {
+@mixin Icon--multipleChoice {
   content: "\ea55";
 }
 
-@mixin Icon--pelletClose {
+@mixin Icon--openedEye {
   content: "\ea56";
 }
 
-@mixin Icon--pelletMinus {
+@mixin Icon--options {
   content: "\ea57";
 }
 
-@mixin Icon--pencil {
+@mixin Icon--paragraph {
   content: "\ea58";
 }
 
-@mixin Icon--phone {
+@mixin Icon--participant {
   content: "\ea59";
 }
 
-@mixin Icon--picture {
+@mixin Icon--pause {
   content: "\ea5a";
 }
 
-@mixin Icon--pictureInPicture {
+@mixin Icon--pellet {
   content: "\ea5b";
 }
 
-@mixin Icon--pieDiagram {
+@mixin Icon--pelletAdd {
   content: "\ea5c";
 }
 
-@mixin Icon--play {
+@mixin Icon--pelletCheck {
   content: "\ea5d";
 }
 
-@mixin Icon--plugged {
+@mixin Icon--pelletClose {
   content: "\ea5e";
 }
 
-@mixin Icon--plus {
+@mixin Icon--pelletMinus {
   content: "\ea5f";
 }
 
-@mixin Icon--popup {
+@mixin Icon--pencil {
   content: "\ea60";
 }
 
-@mixin Icon--presentation {
+@mixin Icon--phone {
   content: "\ea61";
 }
 
-@mixin Icon--private {
+@mixin Icon--picture {
   content: "\ea62";
 }
 
-@mixin Icon--radio {
+@mixin Icon--pictureInPicture {
   content: "\ea63";
 }
 
-@mixin Icon--refresh {
+@mixin Icon--pieDiagram {
   content: "\ea64";
 }
 
-@mixin Icon--reply {
+@mixin Icon--play {
   content: "\ea65";
 }
 
-@mixin Icon--reset {
+@mixin Icon--plugged {
   content: "\ea66";
 }
 
-@mixin Icon--results {
+@mixin Icon--plus {
   content: "\ea67";
 }
 
-@mixin Icon--section {
+@mixin Icon--popup {
   content: "\ea68";
 }
 
-@mixin Icon--singleChoice {
+@mixin Icon--presentation {
   content: "\ea69";
 }
 
-@mixin Icon--slack {
+@mixin Icon--private {
   content: "\ea6a";
 }
 
-@mixin Icon--smile {
+@mixin Icon--projector {
   content: "\ea6b";
 }
 
-@mixin Icon--solid {
+@mixin Icon--radio {
   content: "\ea6c";
 }
 
-@mixin Icon--solidFull {
+@mixin Icon--refresh {
   content: "\ea6d";
 }
 
-@mixin Icon--spreadsheet {
+@mixin Icon--reply {
   content: "\ea6e";
 }
 
-@mixin Icon--star {
+@mixin Icon--reset {
   content: "\ea6f";
 }
 
-@mixin Icon--starHalf {
+@mixin Icon--results {
   content: "\ea70";
 }
 
-@mixin Icon--starOutlined {
+@mixin Icon--section {
   content: "\ea71";
 }
 
-@mixin Icon--stats {
+@mixin Icon--singleChoice {
   content: "\ea72";
 }
 
-@mixin Icon--stop {
+@mixin Icon--slack {
   content: "\ea73";
 }
 
-@mixin Icon--subtitle {
+@mixin Icon--smile {
   content: "\ea74";
 }
 
-@mixin Icon--sunrise {
+@mixin Icon--solid {
   content: "\ea75";
 }
 
-@mixin Icon--sunset {
+@mixin Icon--solidFull {
   content: "\ea76";
 }
 
-@mixin Icon--target {
+@mixin Icon--spreadsheet {
   content: "\ea77";
 }
 
-@mixin Icon--title--1 {
+@mixin Icon--star {
   content: "\ea78";
 }
 
-@mixin Icon--title--2 {
+@mixin Icon--starHalf {
   content: "\ea79";
 }
 
-@mixin Icon--title {
+@mixin Icon--starOutlined {
   content: "\ea7a";
 }
 
-@mixin Icon--titles {
+@mixin Icon--stats {
   content: "\ea7b";
 }
 
-@mixin Icon--trash {
+@mixin Icon--stop {
   content: "\ea7c";
 }
 
-@mixin Icon--triangleDown {
+@mixin Icon--subtitle {
   content: "\ea7d";
 }
 
-@mixin Icon--triangleLeft {
+@mixin Icon--summary {
   content: "\ea7e";
 }
 
-@mixin Icon--triangleRight {
+@mixin Icon--sunrise {
   content: "\ea7f";
 }
 
-@mixin Icon--triangleUp {
+@mixin Icon--sunset {
   content: "\ea80";
 }
 
-@mixin Icon--twitter {
+@mixin Icon--target {
   content: "\ea81";
 }
 
-@mixin Icon--unlock {
+@mixin Icon--timeline {
   content: "\ea82";
 }
 
-@mixin Icon--unplugged {
+@mixin Icon--title {
   content: "\ea83";
 }
 
-@mixin Icon--user {
+@mixin Icon--titles {
   content: "\ea84";
 }
 
-@mixin Icon--video {
+@mixin Icon--trash {
   content: "\ea85";
 }
 
-@mixin Icon--voice {
+@mixin Icon--triangleDown {
   content: "\ea86";
 }
 
-@mixin Icon--wiFi {
+@mixin Icon--triangleLeft {
   content: "\ea87";
 }
 
-@mixin Icon--wisembly {
+@mixin Icon--triangleRight {
   content: "\ea88";
 }
 
-@mixin Icon--wisemblyFull {
+@mixin Icon--triangleUp {
   content: "\ea89";
+}
+
+@mixin Icon--twitter {
+  content: "\ea8a";
+}
+
+@mixin Icon--unlock {
+  content: "\ea8b";
+}
+
+@mixin Icon--unplugged {
+  content: "\ea8c";
+}
+
+@mixin Icon--user {
+  content: "\ea8d";
+}
+
+@mixin Icon--video {
+  content: "\ea8e";
+}
+
+@mixin Icon--warning {
+  content: "\ea8f";
+}
+
+@mixin Icon--warningSign {
+  content: "\ea90";
+}
+
+@mixin Icon--wifi {
+  content: "\ea91";
+}
+
+@mixin Icon--wisembly {
+  content: "\ea92";
+}
+
+@mixin Icon--wisemblyFull {
+  content: "\ea93";
 }
 
 
@@ -592,8 +632,8 @@
   }
 
   
-  .Icon--add:before {
-    @include Icon--add;
+  .Icon--academicHat:before {
+    @include Icon--academicHat;
   }
   
   .Icon--addUser:before {
@@ -680,8 +720,8 @@
     @include Icon--brush;
   }
   
-  .Icon--bulletDay:before {
-    @include Icon--bulletDay;
+  .Icon--bulb:before {
+    @include Icon--bulb;
   }
   
   .Icon--calendar:before {
@@ -690,14 +730,6 @@
   
   .Icon--checkbox:before {
     @include Icon--checkbox;
-  }
-  
-  .Icon--checked:before {
-    @include Icon--checked;
-  }
-  
-  .Icon--checkedActionItem:before {
-    @include Icon--checkedActionItem;
   }
   
   .Icon--checkedCheckbox:before {
@@ -736,12 +768,32 @@
     @include Icon--comment;
   }
   
+  .Icon--company:before {
+    @include Icon--company;
+  }
+  
   .Icon--cross:before {
     @include Icon--cross;
   }
   
+  .Icon--dashboard:before {
+    @include Icon--dashboard;
+  }
+  
+  .Icon--deleteUser:before {
+    @include Icon--deleteUser;
+  }
+  
   .Icon--document:before {
     @include Icon--document;
+  }
+  
+  .Icon--documentFull:before {
+    @include Icon--documentFull;
+  }
+  
+  .Icon--donutDot:before {
+    @include Icon--donutDot;
   }
   
   .Icon--door:before {
@@ -762,10 +814,6 @@
   
   .Icon--dragVertical:before {
     @include Icon--dragVertical;
-  }
-  
-  .Icon--dumbell:before {
-    @include Icon--dumbell;
   }
   
   .Icon--duplicate:before {
@@ -790,6 +838,10 @@
   
   .Icon--filters:before {
     @include Icon--filters;
+  }
+  
+  .Icon--flag:before {
+    @include Icon--flag;
   }
   
   .Icon--folder:before {
@@ -824,6 +876,14 @@
     @include Icon--group;
   }
   
+  .Icon--heading1:before {
+    @include Icon--heading1;
+  }
+  
+  .Icon--heading2:before {
+    @include Icon--heading2;
+  }
+  
   .Icon--help:before {
     @include Icon--help;
   }
@@ -838,6 +898,10 @@
   
   .Icon--info:before {
     @include Icon--info;
+  }
+  
+  .Icon--insights:before {
+    @include Icon--insights;
   }
   
   .Icon--label:before {
@@ -874,6 +938,10 @@
   
   .Icon--listExpand:before {
     @include Icon--listExpand;
+  }
+  
+  .Icon--listPlain:before {
+    @include Icon--listPlain;
   }
   
   .Icon--live:before {
@@ -926,6 +994,10 @@
   
   .Icon--pellet:before {
     @include Icon--pellet;
+  }
+  
+  .Icon--pelletAdd:before {
+    @include Icon--pelletAdd;
   }
   
   .Icon--pelletCheck:before {
@@ -982,6 +1054,10 @@
   
   .Icon--private:before {
     @include Icon--private;
+  }
+  
+  .Icon--projector:before {
+    @include Icon--projector;
   }
   
   .Icon--radio:before {
@@ -1056,6 +1132,10 @@
     @include Icon--subtitle;
   }
   
+  .Icon--summary:before {
+    @include Icon--summary;
+  }
+  
   .Icon--sunrise:before {
     @include Icon--sunrise;
   }
@@ -1068,12 +1148,8 @@
     @include Icon--target;
   }
   
-  .Icon--title--1:before {
-    @include Icon--title--1;
-  }
-  
-  .Icon--title--2:before {
-    @include Icon--title--2;
+  .Icon--timeline:before {
+    @include Icon--timeline;
   }
   
   .Icon--title:before {
@@ -1124,12 +1200,16 @@
     @include Icon--video;
   }
   
-  .Icon--voice:before {
-    @include Icon--voice;
+  .Icon--warning:before {
+    @include Icon--warning;
   }
   
-  .Icon--wiFi:before {
-    @include Icon--wiFi;
+  .Icon--warningSign:before {
+    @include Icon--warningSign;
+  }
+  
+  .Icon--wifi:before {
+    @include Icon--wifi;
   }
   
   .Icon--wisembly:before {

@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20"
-	 style="enable-background:new 0 0 20 20;" xml:space="preserve">
-<path id="checkbox" d="M15.7,20H4.3C2,20,0,18,0,15.7V4.3C0,2,2,0,4.3,0h11.3C18,0,20,2,20,4.3v11.3
-	C20,18,18,20,15.7,20z M4.3,1.7c-1.4,0-2.6,1.2-2.6,2.6v11.3c0,1.4,1.2,2.6,2.6,2.6h11.3c1.4,0,2.6-1.2,2.6-2.6V4.3
-	c0-1.4-1.2-2.6-2.6-2.6C15.6,1.7,4.3,1.7,4.3,1.7z"/>
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
+<g>
+	<path fill="none" d="M1.8,19h16.4c0.44,0,0.8-0.36,0.8-0.8V1.8C19,1.36,18.64,1,18.2,1H1.8C1.36,1,1,1.36,1,1.8v16.4
+		C1,18.64,1.36,19,1.8,19z"/>
+	<path fill="#3A434C" d="M1.8,20h16.4c0.99,0,1.8-0.81,1.8-1.8V1.8C20,0.81,19.19,0,18.2,0H1.8C0.81,0,0,0.81,0,1.8v16.4
+		C0,19.19,0.81,20,1.8,20z M1,1.8C1,1.36,1.36,1,1.8,1h16.4C18.64,1,19,1.36,19,1.8v16.4c0,0.44-0.36,0.8-0.8,0.8H1.8
+		C1.36,19,1,18.64,1,18.2V1.8z"/>
+</g>
 </svg>

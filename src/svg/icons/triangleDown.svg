@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" style="enable-background:new 0 0 20 20;" xml:space="preserve">
-	<g id="triangleDown" fill="#3A434C" transform="translate(-6.000000, -6.000000)">
-		<path d="M8.6,9.5c-1.1,0-2,0.7-2.4,1.7l0,0c-0.4,1-0.2,2.2,0.6,2.9l0,0l7.4,7.6
-			c0.5,0.5,1.1,0.8,1.8,0.8l0,0c0.7,0,1.4-0.3,1.8-0.8l0,0l7.4-7.6c0.7-0.8,1-1.9,0.6-2.9l0,0c-0.4-1-1.4-1.7-2.4-1.7l0,0H8.6z"/>
-	</g>
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
+<g>
+	<path fill="#3A434C" d="M19.92,4.73c-0.16-0.36-0.52-0.6-0.92-0.6H1c-0.4,0-0.76,0.23-0.92,0.6C-0.08,5.1,0,5.52,0.27,5.81
+		l8.99,9.74c0.19,0.2,0.46,0.32,0.73,0.32c0.28,0,0.55-0.12,0.73-0.32l9.01-9.74C20,5.52,20.08,5.1,19.92,4.73z"/>
+</g>
 </svg>

@@ -18,8 +18,8 @@
 ```esc
 
 <div class="s-Icon">
-  <i class="Icon Icon--add"></i>
-  add
+  <i class="Icon Icon--academicHat"></i>
+  academicHat
 </div>
 
 <div class="s-Icon">
@@ -128,8 +128,8 @@
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--bulletDay"></i>
-  bulletDay
+  <i class="Icon Icon--bulb"></i>
+  bulb
 </div>
 
 <div class="s-Icon">
@@ -140,16 +140,6 @@
 <div class="s-Icon">
   <i class="Icon Icon--checkbox"></i>
   checkbox
-</div>
-
-<div class="s-Icon">
-  <i class="Icon Icon--checked"></i>
-  checked
-</div>
-
-<div class="s-Icon">
-  <i class="Icon Icon--checkedActionItem"></i>
-  checkedActionItem
 </div>
 
 <div class="s-Icon">
@@ -198,13 +188,38 @@
 </div>
 
 <div class="s-Icon">
+  <i class="Icon Icon--company"></i>
+  company
+</div>
+
+<div class="s-Icon">
   <i class="Icon Icon--cross"></i>
   cross
 </div>
 
 <div class="s-Icon">
+  <i class="Icon Icon--dashboard"></i>
+  dashboard
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--deleteUser"></i>
+  deleteUser
+</div>
+
+<div class="s-Icon">
   <i class="Icon Icon--document"></i>
   document
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--documentFull"></i>
+  documentFull
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--donutDot"></i>
+  donutDot
 </div>
 
 <div class="s-Icon">
@@ -230,11 +245,6 @@
 <div class="s-Icon">
   <i class="Icon Icon--dragVertical"></i>
   dragVertical
-</div>
-
-<div class="s-Icon">
-  <i class="Icon Icon--dumbell"></i>
-  dumbell
 </div>
 
 <div class="s-Icon">
@@ -265,6 +275,11 @@
 <div class="s-Icon">
   <i class="Icon Icon--filters"></i>
   filters
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--flag"></i>
+  flag
 </div>
 
 <div class="s-Icon">
@@ -308,6 +323,16 @@
 </div>
 
 <div class="s-Icon">
+  <i class="Icon Icon--heading1"></i>
+  heading1
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--heading2"></i>
+  heading2
+</div>
+
+<div class="s-Icon">
   <i class="Icon Icon--help"></i>
   help
 </div>
@@ -325,6 +350,11 @@
 <div class="s-Icon">
   <i class="Icon Icon--info"></i>
   info
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--insights"></i>
+  insights
 </div>
 
 <div class="s-Icon">
@@ -370,6 +400,11 @@
 <div class="s-Icon">
   <i class="Icon Icon--listExpand"></i>
   listExpand
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--listPlain"></i>
+  listPlain
 </div>
 
 <div class="s-Icon">
@@ -435,6 +470,11 @@
 <div class="s-Icon">
   <i class="Icon Icon--pellet"></i>
   pellet
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--pelletAdd"></i>
+  pelletAdd
 </div>
 
 <div class="s-Icon">
@@ -505,6 +545,11 @@
 <div class="s-Icon">
   <i class="Icon Icon--private"></i>
   private
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--projector"></i>
+  projector
 </div>
 
 <div class="s-Icon">
@@ -598,6 +643,11 @@
 </div>
 
 <div class="s-Icon">
+  <i class="Icon Icon--summary"></i>
+  summary
+</div>
+
+<div class="s-Icon">
   <i class="Icon Icon--sunrise"></i>
   sunrise
 </div>
@@ -613,13 +663,8 @@
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--title--1"></i>
-  title--1
-</div>
-
-<div class="s-Icon">
-  <i class="Icon Icon--title--2"></i>
-  title--2
+  <i class="Icon Icon--timeline"></i>
+  timeline
 </div>
 
 <div class="s-Icon">
@@ -683,13 +728,18 @@
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--voice"></i>
-  voice
+  <i class="Icon Icon--warning"></i>
+  warning
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--wiFi"></i>
-  wiFi
+  <i class="Icon Icon--warningSign"></i>
+  warningSign
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--wifi"></i>
+  wifi
 </div>
 
 <div class="s-Icon">
