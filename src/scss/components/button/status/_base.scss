@@ -27,7 +27,7 @@
         @include Icon--cross;
         line-height: r(8);
         color: $btn-failed-color;
-        animation: Grow $btn-failed-duration linear;
+        animation: Grow $btn-end-animation-duration linear;
       }
     }
 
@@ -41,7 +41,7 @@
         @include Icon--checkmark;
         line-height: r(8);
         color: $btn-completed-color;
-        animation: Grow $btn-completed-duration linear;
+        animation: Grow $btn-end-animation-duration linear;
       }
     }
   }

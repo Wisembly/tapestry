@@ -30,9 +30,9 @@ $btn-loading-spinner-thickness: 2px !default;
 $btn-failed-selector: ".has-failed" !default;
 $btn-failed-bg: $mandy !default;
 $btn-failed-color: $white !default;
-$btn-failed-duration: .5s !default;
 
 $btn-completed-selector: ".has-completed" !default;
 $btn-completed-bg: $mint !default;
 $btn-completed-color: $white !default;
-$btn-completed-duration: .5s !default;
+
+$btn-end-animation-duration: .5s !default;

@@ -37,20 +37,19 @@
 | ** $btn-outline-hover-border-color **      | border-color     | `$shuttle-gray`                                                | outline button hover border-color      |
 | ** $btn-group-space-between **             | margin           | `$pd--s`                                                       | space between button-groups            |
 | ** $btn-group-selected-color **            | color            | `$mint`                                                        | selected color for button-group item   |
-| ** $btn-loading-selector **                | selector         | `".is-loading"`                                                |                                        |
-| ** $btn-loading-spinner-primary-color **   | color            | `$white`                                                       |                                        |
-| ** $btn-loading-spinner-secondary-color ** | color            | `$deep-sea-green`                                              |                                        |
-| ** $btn-loading-spinner-outline-color **   | color            | `$slate-gray`                                                  |                                        |
-| ** $btn-loading-duration **                | time             | `1s`                                                           |                                        |
-| ** $btn-loading-spinner-thickness **       | size             | `2px`                                                          |                                        |
-| ** $btn-failed-selector **                 | selector         | `".has-failed"`                                                |                                        |
-| ** $btn-failed-bg **                       | background-color | `$mandy`                                                       |                                        |
-| ** $btn-failed-color **                    | background-color | `$white`                                                       |                                        |
-| ** $btn-failed-duration **                 | time             | `.5s`                                                          |                                        |
-| ** $btn-completed-selector **              | selector         | `".has-completed"`                                             |                                        |
-| ** $btn-completed-bg **                    | background-color | `$mint`                                                        |                                        |
-| ** $btn-completed-color **                 | background-color | `$white`                                                       |                                        |
-| ** $btn-completed-duration **              | time             | `.5s`                                                          |                                        |
+| ** $btn-loading-selector **                | selector         | `".is-loading"`                                                | loading button selector                |
+| ** $btn-loading-spinner-primary-color **   | color            | `$white`                                                       | button-spinner color                   |
+| ** $btn-loading-spinner-secondary-color ** | color            | `$deep-sea-green`                                              | button-spinner container color         |
+| ** $btn-loading-spinner-outline-color **   | color            | `$slate-gray`                                                  | button-outline spinner color           |
+| ** $btn-loading-duration **                | time             | `1s`                                                           | button-spinner duration                |
+| ** $btn-loading-spinner-thickness **       | size             | `2px`                                                          | button-spinner thickness               |
+| ** $btn-failed-selector **                 | selector         | `".has-failed"`                                                | failing button selector                |
+| ** $btn-failed-bg **                       | background-color | `$mandy`                                                       | failing button background              |
+| ** $btn-failed-color **                    | background-color | `$white`                                                       | failing button label color             |
+| ** $btn-completed-selector **              | selector         | `".has-completed"`                                             | completed button selector              |
+| ** $btn-completed-bg **                    | background-color | `$mint`                                                        | completed button background            |
+| ** $btn-completed-color **                 | background-color | `$white`                                                       | completed button label color           |
+| ** $btn-end-animation-duration **          | time             | `.5s`                                                          | button end animation duration          |
 
 
 ## Sizes
