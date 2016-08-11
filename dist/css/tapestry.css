@@ -1737,7 +1737,7 @@ a {
   content: "\ea8f";
 }
 
-.Icon--wifi:before {
+.Icon--wiFi:before {
   content: "\ea90";
 }
 
@@ -2615,7 +2615,7 @@ a {
   word-wrap: break-word;
 }
 
-.Grid--gutters .Grid-cell {
+.Grid--gutters > .Grid-cell {
   padding-left: 1.57143rem;
 }
 
