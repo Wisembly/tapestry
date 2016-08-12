@@ -25,6 +25,10 @@
       border-color: $gray-chateau;
       outline: none;
     }
+
+    &::-ms-expand {
+      display: none;
+    }
   }
 
 }

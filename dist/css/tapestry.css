@@ -2541,6 +2541,10 @@ a {
   outline: none;
 }
 
+.Select::-ms-expand {
+  display: none;
+}
+
 .Select:hover {
   border-color: #a1a9ae;
 }
