@@ -1039,6 +1039,10 @@ a {
   color: #e25c5b !important;
 }
 
+.t-inverted {
+  color: #fff !important;
+}
+
 .Line {
   display: block;
   border: 0;
