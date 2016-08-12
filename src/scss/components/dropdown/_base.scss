@@ -4,6 +4,7 @@
     display: inline-block;
     position: relative;
     font-size: $dropdown-base-fz;
+    vertical-align: middle;
     user-select: none;
 
     &:focus {

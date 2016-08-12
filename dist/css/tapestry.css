@@ -2697,6 +2697,7 @@ a {
   display: inline-block;
   position: relative;
   font-size: 1rem;
+  vertical-align: middle;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
