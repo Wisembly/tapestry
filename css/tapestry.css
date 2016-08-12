@@ -1000,6 +1000,7 @@ ol + ol {
 a {
   text-decoration: none;
   color: #07698d;
+  cursor: pointer;
 }
 
 .t-title {
