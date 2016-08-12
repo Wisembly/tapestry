@@ -4578,6 +4578,7 @@ input:checked + .Switch--s:after,
   position: relative;
   padding: 1.07143rem 0.71429rem;
   font-size: 1rem;
+  font-weight: 600;
   line-height: 1.42857rem;
   color: #708189;
   cursor: pointer;
