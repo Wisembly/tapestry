@@ -15,6 +15,10 @@
         border-radius: 50%;
         animation: Spin $btn-loading-duration linear infinite;
       }
+
+      .Btn-icon {
+        border-color: transparent;
+      }
     }
 
     #{$btn-failed-selector} & {
@@ -29,6 +33,10 @@
         color: $btn-failed-color;
         animation: Grow $btn-end-animation-duration linear;
       }
+
+      .Btn-icon {
+        border-color: transparent;
+      }
     }
 
     #{$btn-completed-selector} & {
@@ -42,6 +50,10 @@
         line-height: r(8);
         color: $btn-completed-color;
         animation: Grow $btn-end-animation-duration linear;
+      }
+
+      .Btn-icon {
+        border-color: transparent;
       }
     }
   }

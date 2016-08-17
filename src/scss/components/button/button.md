@@ -189,7 +189,10 @@
 
 ```html
 <div class="js-BtnComplete" style="display: inline-block; margin-right: 1rem;">
-  <button type="button" class="Btn Btn--status js-BtnStatus">Great success!</button>
+  <button type="button" class="Btn Btn--block Btn--validate has-icon Btn--status js-BtnStatus" data-oauth="google_light">
+          <i class="Btn-icon Icon Icon--google"></i>
+          Se connecter avec Google
+        </button>
 </div>
 <div class="js-BtnFail" style="display: inline-block; margin-right: 1rem;">
   <button type="button" class="Btn Btn--status js-BtnStatus">I'm a loser, baby!</button>
