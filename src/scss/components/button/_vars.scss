@@ -19,10 +19,10 @@ $btn-outline-hover-border-color: $shuttle-gray !default;
 
 $btn-group-space-between: $mg--s !default;
 $btn-group-selected-color: $mint !default;
-$btn-group-selected-item-selector: ".is-selected" !default;
+$btn-group-selected-item-selector: ".is-selected >" !default;
 
 
-$btn-loading-selector: ".is-loading" !default;
+$btn-loading-selector: ".is-loading >" !default;
 $btn-loading-spinner-primary-color: $white !default;
 $btn-loading-spinner-outline-color: $slate-gray !default;
 $btn-loading-spinner-secondary-color: rgba($outer-space, .3) !default;
@@ -33,7 +33,7 @@ $btn-failed-selector: ".has-failed" !default;
 $btn-failed-bg: $mandy !default;
 $btn-failed-color: $white !default;
 
-$btn-completed-selector: ".has-completed" !default;
+$btn-completed-selector: ".has-completed >" !default;
 $btn-completed-bg: $mint !default;
 $btn-completed-color: $white !default;
 

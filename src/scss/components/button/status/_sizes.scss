@@ -1,6 +1,6 @@
 @if $import-animations and $import-loading-states and $import-spinner {
 
-  .Btn--s {
+  .Btn--status.Btn--s {
     #{$btn-loading-selector} > & {
       &:after {
         width: r(3);

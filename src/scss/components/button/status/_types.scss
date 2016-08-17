@@ -1,6 +1,6 @@
 @if $import-animations and $import-loading-states and $import-spinner {
 
-  .Btn--outline {
+  .Btn--status.Btn--outline {
     #{$btn-loading-selector} > & {
       background: $transparent;
 

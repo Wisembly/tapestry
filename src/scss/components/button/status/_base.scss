@@ -1,7 +1,7 @@
 @if $import-animations and $import-loading-states and $import-spinner {
 
-  .Btn {
-    #{$btn-loading-selector} > & {
+  .Btn--status {
+    #{$btn-loading-selector} & {
       color: transparent;
 
       &:after {
@@ -17,7 +17,7 @@
       }
     }
 
-    #{$btn-failed-selector} > & {
+    #{$btn-failed-selector} & {
       color: transparent;
       background: $btn-failed-bg;
 
@@ -31,7 +31,7 @@
       }
     }
 
-    #{$btn-completed-selector} > & {
+    #{$btn-completed-selector} & {
       color: transparent;
       background: $btn-completed-bg;
 

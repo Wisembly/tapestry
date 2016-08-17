@@ -2385,7 +2385,7 @@ a {
   margin-left: -1px;
 }
 
-.BtnGroup-item.is-selected {
+.BtnGroup-item.is-selected > {
   z-index: 2;
   color: #46b489;
   border-color: #46b489;
@@ -2595,12 +2595,12 @@ a {
           animation: Spin 1s linear infinite;
 }
 
-.has-failed > .Btn {
+.has-failed .Btn {
   color: transparent;
   background: #e25c5b;
 }
 
-.has-failed > .Btn:after {
+.has-failed .Btn:after {
   position: absolute;
   top: 0;
   right: 0;
@@ -2657,7 +2657,7 @@ a {
           animation: Grow 0.5s linear;
 }
 
-.is-loading > .Btn--s:after {
+.is-loading > > .Btn--s:after {
   width: 1.07143rem;
   height: 1.07143rem;
 }
@@ -2667,16 +2667,16 @@ a {
   line-height: 2.14286rem;
 }
 
-.has-completed > .Btn--s:after {
+.has-completed > > .Btn--s:after {
   font-size: 0.71429rem;
   line-height: 2.14286rem;
 }
 
-.is-loading > .Btn--outline {
+.is-loading > > .Btn--outline {
   background: transparent;
 }
 
-.is-loading > .Btn--outline:after {
+.is-loading > > .Btn--outline:after {
   border-top-color: #708189;
 }
 
@@ -2689,12 +2689,12 @@ a {
   color: #e25c5b;
 }
 
-.has-completed > .Btn--outline {
+.has-completed > > .Btn--outline {
   background: #fff;
   border-color: #46b489;
 }
 
-.has-completed > .Btn--outline:after {
+.has-completed > > .Btn--outline:after {
   color: #46b489;
 }
 

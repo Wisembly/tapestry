@@ -1,6 +1,9 @@
 $loader-loading-class: ".is-loading" !default;
 $loader-failed-class: ".has-failed" !default;
 
+$loader-loading-selector: ".is-loading >" !default;
+$loader-failed-selector: ".has-failed >" !default;
+
 $loader-base-bg: rgba($white, .95) !default;
 $loader-base-color: $shuttle-gray !default;
 

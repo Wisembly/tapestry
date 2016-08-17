@@ -1,4 +1,4 @@
-# Buttons
+ ># Btons
 
 ## Types
 
@@ -38,16 +38,16 @@
 | ** $btn-group-space-between **             | margin           | `$pd--s`                                                       | space between button-groups             |
 | ** $btn-group-selected-color **            | color            | `$mint`                                                        | selected color for button-group item    |
 | ** $btn-group-selected-item-selector **    | selector         | `".is-selected"`                                               | selector for selected button-group item |
-| ** $btn-loading-selector **                | selector         | `".is-loading"`                                                | loading button selector                 |
+| ** $btn-loading-selector **                | selector         | `".is-loading >"`                                              | loading button selector                 |
 | ** $btn-loading-spinner-primary-color **   | color            | `$white`                                                       | button-spinner color                    |
 | ** $btn-loading-spinner-secondary-color ** | color            | `$deep-sea-green`                                              | button-spinner container color          |
 | ** $btn-loading-spinner-outline-color **   | color            | `$slate-gray`                                                  | button-outline spinner color            |
 | ** $btn-loading-duration **                | time             | `1s`                                                           | button-spinner duration                 |
 | ** $btn-loading-spinner-thickness **       | size             | `2px`                                                          | button-spinner thickness                |
-| ** $btn-failed-selector **                 | selector         | `".has-failed"`                                                | failing button selector                 |
+| ** $btn-failed-selector **                 | selector         | `".has-failed >"`                                              | failing button selector                 |
 | ** $btn-failed-bg **                       | background-color | `$mandy`                                                       | failing button background               |
 | ** $btn-failed-color **                    | background-color | `$white`                                                       | failing button label color              |
-| ** $btn-completed-selector **              | selector         | `".has-completed"`                                             | completed button selector               |
+| ** $btn-completed-selector **              | selector         | `".has-completed >"`                                           | completed button selector               |
 | ** $btn-completed-bg **                    | background-color | `$mint`                                                        | completed button background             |
 | ** $btn-completed-color **                 | background-color | `$white`                                                       | completed button label color            |
 | ** $btn-end-animation-duration **          | time             | `.5s`                                                          | button end animation duration           |
@@ -189,24 +189,24 @@
 
 ```html
 <div class="js-BtnComplete" style="display: inline-block; margin-right: 1rem;">
-  <button type="button" class="Btn js-BtnStatus">Great success!</button>
+  <button type="button" class="Btn Btn--status js-BtnStatus">Great success!</button>
 </div>
 <div class="js-BtnFail" style="display: inline-block; margin-right: 1rem;">
-  <button type="button" class="Btn js-BtnStatus">I'm a loser, baby!</button>
+  <button type="button" class="Btn Btn--status js-BtnStatus">I'm a loser, baby!</button>
 </div>
 
 <div class="js-BtnComplete" style="display: inline-block; margin-right: 1rem;">
-  <button type="button" class="Btn Btn--outline js-BtnStatus">Great success!</button>
+  <button type="button" class="Btn Btn--outline Btn--status js-BtnStatus">Great success!</button>
 </div>
 <div class="js-BtnFail" style="display: inline-block; margin-right: 1rem;">
-  <button type="button" class="Btn Btn--outline js-BtnStatus">I'm a loser, baby!</button>
+  <button type="button" class="Btn Btn--outline Btn--status js-BtnStatus">I'm a loser, baby!</button>
 </div>
 
 <div class="js-BtnComplete" style="display: inline-block; margin-right: 1rem;">
-  <button type="button" class="Btn Btn--s js-BtnStatus">Great success!</button>
+  <button type="button" class="Btn Btn--s Btn--status js-BtnStatus">Great success!</button>
 </div>
 <div class="js-BtnFail" style="display: inline-block;">
-  <button type="button" class="Btn Btn--s js-BtnStatus">I'm a loser, baby!</button>
+  <button type="button" class="Btn Btn--s Btn--status js-BtnStatus">I'm a loser, baby!</button>
 </div>
 ```
 

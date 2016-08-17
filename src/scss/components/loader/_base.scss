@@ -8,12 +8,12 @@
     color: $loader-base-color;
     user-select: none;
 
-    #{$loader-loading-class} > & {
+    #{$loader-loading-selector} & {
       display: flex;
       cursor: progress;
     }
 
-    #{$loader-failed-class} > & {
+    #{$loader-failed-selector} & {
       display: flex;
       cursor: not-allowed;
     }
