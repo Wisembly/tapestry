@@ -34,7 +34,7 @@
       margin-left: -1px;
     }
 
-    &.is-selected {
+    &#{$btn-group-selected-item-selector} {
       z-index: 2;
       color: $btn-group-selected-color;
       border-color: $btn-group-selected-color;

@@ -20,36 +20,37 @@
 
 ## Variables
 
-| Variable                                   | property         | value                                                          | desc.                                  |
-|--------------------------------------------|------------------|----------------------------------------------------------------|----------------------------------------|
-| ** $btn-pdv **                             | padding          | `$pd--s`                                                       | vertical padding for regular buttons   |
-| ** $btn-pdv--s **                          | padding          | `$pd--xs`                                                      | vertical padding for small buttons     |
-| ** $btn-pdh **                             | padding          | `$pd--s`                                                       | horizontal padding for regular buttons |
-| ** $btn-pdh--s **                          | padding          | `$pd--xs`                                                      | horizontal padding for small buttons   |
-| ** $btn-fixed-unit **                      | size             | `r(8)`                                                         | squared button size                    |
-| ** $btn-fixed-unit--s **                   | size             | `r(6)`                                                         | small squared button size              |
-| ** $btn-name-colors **                     | list             | `"-primary" "-alt" "-validate" "-info" "-error"`               | button classnames                      |
-| ** $btn-base-colors **                     | list             | `$venice-blue $boston-blue $mint $saffron $mandy`              | button default colors                  |
-| ** $btn-hover-colors **                    | list             | `$atoll $jelly-bean $ocean-green $galliano $fuzzy-wuzzy-brown` | button hover colors                    |
-| ** $btn-outline-base-color **              | color            | `$slate-gray`                                                  | outline button base color              |
-| ** $btn-outline-base-border-color **       | border-color     | `$base-border-color`                                           | outline button base border-color       |
-| ** $btn-outline-hover-color **             | color            | `$shuttle-gray`                                                | outline button hover color             |
-| ** $btn-outline-hover-border-color **      | border-color     | `$shuttle-gray`                                                | outline button hover border-color      |
-| ** $btn-group-space-between **             | margin           | `$pd--s`                                                       | space between button-groups            |
-| ** $btn-group-selected-color **            | color            | `$mint`                                                        | selected color for button-group item   |
-| ** $btn-loading-selector **                | selector         | `".is-loading"`                                                | loading button selector                |
-| ** $btn-loading-spinner-primary-color **   | color            | `$white`                                                       | button-spinner color                   |
-| ** $btn-loading-spinner-secondary-color ** | color            | `$deep-sea-green`                                              | button-spinner container color         |
-| ** $btn-loading-spinner-outline-color **   | color            | `$slate-gray`                                                  | button-outline spinner color           |
-| ** $btn-loading-duration **                | time             | `1s`                                                           | button-spinner duration                |
-| ** $btn-loading-spinner-thickness **       | size             | `2px`                                                          | button-spinner thickness               |
-| ** $btn-failed-selector **                 | selector         | `".has-failed"`                                                | failing button selector                |
-| ** $btn-failed-bg **                       | background-color | `$mandy`                                                       | failing button background              |
-| ** $btn-failed-color **                    | background-color | `$white`                                                       | failing button label color             |
-| ** $btn-completed-selector **              | selector         | `".has-completed"`                                             | completed button selector              |
-| ** $btn-completed-bg **                    | background-color | `$mint`                                                        | completed button background            |
-| ** $btn-completed-color **                 | background-color | `$white`                                                       | completed button label color           |
-| ** $btn-end-animation-duration **          | time             | `.5s`                                                          | button end animation duration          |
+| Variable                                   | property         | value                                                          | desc.                                   |
+|--------------------------------------------|------------------|----------------------------------------------------------------|-----------------------------------------|
+| ** $btn-pdv **                             | padding          | `$pd--s`                                                       | vertical padding for regular buttons    |
+| ** $btn-pdv--s **                          | padding          | `$pd--xs`                                                      | vertical padding for small buttons      |
+| ** $btn-pdh **                             | padding          | `$pd--s`                                                       | horizontal padding for regular buttons  |
+| ** $btn-pdh--s **                          | padding          | `$pd--xs`                                                      | horizontal padding for small buttons    |
+| ** $btn-fixed-unit **                      | size             | `r(8)`                                                         | squared button size                     |
+| ** $btn-fixed-unit--s **                   | size             | `r(6)`                                                         | small squared button size               |
+| ** $btn-name-colors **                     | list             | `"-primary" "-alt" "-validate" "-info" "-error"`               | button classnames                       |
+| ** $btn-base-colors **                     | list             | `$venice-blue $boston-blue $mint $saffron $mandy`              | button default colors                   |
+| ** $btn-hover-colors **                    | list             | `$atoll $jelly-bean $ocean-green $galliano $fuzzy-wuzzy-brown` | button hover colors                     |
+| ** $btn-outline-base-color **              | color            | `$slate-gray`                                                  | outline button base color               |
+| ** $btn-outline-base-border-color **       | border-color     | `$base-border-color`                                           | outline button base border-color        |
+| ** $btn-outline-hover-color **             | color            | `$shuttle-gray`                                                | outline button hover color              |
+| ** $btn-outline-hover-border-color **      | border-color     | `$shuttle-gray`                                                | outline button hover border-color       |
+| ** $btn-group-space-between **             | margin           | `$pd--s`                                                       | space between button-groups             |
+| ** $btn-group-selected-color **            | color            | `$mint`                                                        | selected color for button-group item    |
+| ** $btn-group-selected-item-selector **    | selector         | `".is-selected"`                                               | selector for selected button-group item |
+| ** $btn-loading-selector **                | selector         | `".is-loading"`                                                | loading button selector                 |
+| ** $btn-loading-spinner-primary-color **   | color            | `$white`                                                       | button-spinner color                    |
+| ** $btn-loading-spinner-secondary-color ** | color            | `$deep-sea-green`                                              | button-spinner container color          |
+| ** $btn-loading-spinner-outline-color **   | color            | `$slate-gray`                                                  | button-outline spinner color            |
+| ** $btn-loading-duration **                | time             | `1s`                                                           | button-spinner duration                 |
+| ** $btn-loading-spinner-thickness **       | size             | `2px`                                                          | button-spinner thickness                |
+| ** $btn-failed-selector **                 | selector         | `".has-failed"`                                                | failing button selector                 |
+| ** $btn-failed-bg **                       | background-color | `$mandy`                                                       | failing button background               |
+| ** $btn-failed-color **                    | background-color | `$white`                                                       | failing button label color              |
+| ** $btn-completed-selector **              | selector         | `".has-completed"`                                             | completed button selector               |
+| ** $btn-completed-bg **                    | background-color | `$mint`                                                        | completed button background             |
+| ** $btn-completed-color **                 | background-color | `$white`                                                       | completed button label color            |
+| ** $btn-end-animation-duration **          | time             | `.5s`                                                          | button end animation duration           |
 
 
 ## Sizes
