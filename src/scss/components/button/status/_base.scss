@@ -1,6 +1,7 @@
 @if $import-animations and $import-loading-states and $import-spinner {
 
-  .Btn--status {
+  .Btn--status,
+  .Btn--status:disabled {
     #{$btn-loading-selector} & {
       color: transparent;
 

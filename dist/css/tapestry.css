@@ -2574,11 +2574,13 @@ a {
   border-bottom-right-radius: 0.28571rem;
 }
 
-.is-loading > .Btn--status {
+.is-loading > .Btn--status, .is-loading >
+.Btn--status:disabled {
   color: transparent;
 }
 
-.is-loading > .Btn--status:after {
+.is-loading > .Btn--status:after, .is-loading >
+.Btn--status:disabled:after {
   position: absolute;
   top: 0;
   right: 0;
@@ -2595,16 +2597,19 @@ a {
           animation: Spin 1s linear infinite;
 }
 
-.is-loading > .Btn--status .Btn-icon {
+.is-loading > .Btn--status .Btn-icon, .is-loading >
+.Btn--status:disabled .Btn-icon {
   border-color: transparent;
 }
 
-.has-failed .Btn--status {
+.has-failed .Btn--status, .has-failed
+.Btn--status:disabled {
   color: transparent;
   background: #e25c5b;
 }
 
-.has-failed .Btn--status:after {
+.has-failed .Btn--status:after, .has-failed
+.Btn--status:disabled:after {
   position: absolute;
   top: 0;
   right: 0;
@@ -2630,16 +2635,19 @@ a {
           animation: Grow 0.5s linear;
 }
 
-.has-failed .Btn--status .Btn-icon {
+.has-failed .Btn--status .Btn-icon, .has-failed
+.Btn--status:disabled .Btn-icon {
   border-color: transparent;
 }
 
-.has-completed > .Btn--status {
+.has-completed > .Btn--status, .has-completed >
+.Btn--status:disabled {
   color: transparent;
   background: #46b489;
 }
 
-.has-completed > .Btn--status:after {
+.has-completed > .Btn--status:after, .has-completed >
+.Btn--status:disabled:after {
   position: absolute;
   top: 0;
   right: 0;
@@ -2665,7 +2673,8 @@ a {
           animation: Grow 0.5s linear;
 }
 
-.has-completed > .Btn--status .Btn-icon {
+.has-completed > .Btn--status .Btn-icon, .has-completed >
+.Btn--status:disabled .Btn-icon {
   border-color: transparent;
 }
 
