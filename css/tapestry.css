@@ -2574,11 +2574,11 @@ a {
   border-bottom-right-radius: 0.28571rem;
 }
 
-.is-loading > .Btn {
+.is-loading > .Btn--status {
   color: transparent;
 }
 
-.is-loading > .Btn:after {
+.is-loading > .Btn--status:after {
   position: absolute;
   top: 0;
   right: 0;
@@ -2595,12 +2595,16 @@ a {
           animation: Spin 1s linear infinite;
 }
 
-.has-failed .Btn {
+.is-loading > .Btn--status .Btn-icon {
+  border-color: transparent;
+}
+
+.has-failed .Btn--status {
   color: transparent;
   background: #e25c5b;
 }
 
-.has-failed .Btn:after {
+.has-failed .Btn--status:after {
   position: absolute;
   top: 0;
   right: 0;
@@ -2626,12 +2630,16 @@ a {
           animation: Grow 0.5s linear;
 }
 
-.has-completed > .Btn {
+.has-failed .Btn--status .Btn-icon {
+  border-color: transparent;
+}
+
+.has-completed > .Btn--status {
   color: transparent;
   background: #46b489;
 }
 
-.has-completed > .Btn:after {
+.has-completed > .Btn--status:after {
   position: absolute;
   top: 0;
   right: 0;
@@ -2657,44 +2665,48 @@ a {
           animation: Grow 0.5s linear;
 }
 
-.is-loading > > .Btn--s:after {
+.has-completed > .Btn--status .Btn-icon {
+  border-color: transparent;
+}
+
+.is-loading > > .Btn--status.Btn--s:after {
   width: 1.07143rem;
   height: 1.07143rem;
 }
 
-.has-failed > .Btn--s:after {
+.has-failed > .Btn--status.Btn--s:after {
   font-size: 0.71429rem;
   line-height: 2.14286rem;
 }
 
-.has-completed > > .Btn--s:after {
+.has-completed > > .Btn--status.Btn--s:after {
   font-size: 0.71429rem;
   line-height: 2.14286rem;
 }
 
-.is-loading > > .Btn--outline {
+.is-loading > > .Btn--status.Btn--outline {
   background: transparent;
 }
 
-.is-loading > > .Btn--outline:after {
+.is-loading > > .Btn--status.Btn--outline:after {
   border-top-color: #708189;
 }
 
-.has-failed > .Btn--outline {
+.has-failed > .Btn--status.Btn--outline {
   background: #fff;
   border-color: #e25c5b;
 }
 
-.has-failed > .Btn--outline:after {
+.has-failed > .Btn--status.Btn--outline:after {
   color: #e25c5b;
 }
 
-.has-completed > > .Btn--outline {
+.has-completed > > .Btn--status.Btn--outline {
   background: #fff;
   border-color: #46b489;
 }
 
-.has-completed > > .Btn--outline:after {
+.has-completed > > .Btn--status.Btn--outline:after {
   color: #46b489;
 }
 
