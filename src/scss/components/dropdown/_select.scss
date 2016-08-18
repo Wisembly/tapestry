@@ -32,12 +32,12 @@
     + .Dropdown-list {
       width: 100%;
     }
-  }
 
-  .Dropdown-selectInput--block {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
+    .Dropdown--block & {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+    }
   }
 
 }

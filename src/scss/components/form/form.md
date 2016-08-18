@@ -47,7 +47,7 @@
       <label class="Label Label--block">State</label>
       <div class="Dropdown Dropdown--block" data-tapestry="dropdown-select">
         <input name="" value="bar" type="hidden">
-        <button class="Dropdown-toggle Dropdown-selectInput Dropdown-selectInput--block" aria-controls="dropdownSelectExample" aria-expanded="true">
+        <button class="Dropdown-toggle Dropdown-selectInput" aria-controls="dropdownSelectExample" aria-expanded="true">
           <span class="Dropdown-value"></span>
         </button>
         <ul id="dropdownSelectExample" class="Dropdown-list">
