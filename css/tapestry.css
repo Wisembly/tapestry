@@ -2892,7 +2892,7 @@ a {
   width: 100%;
 }
 
-.Dropdown-selectInput--block {
+.Dropdown--block .Dropdown-selectInput {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
