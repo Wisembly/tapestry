@@ -6,12 +6,12 @@
     padding: $input-pdv $input-pdh;
     font-size: $fz--m;
     line-height: $base-lh;
-    color: $form-base-color;
-    background: $form-base-bg;
-    border: 1px solid $form-base-border-color;
     user-select: none;
 
     &:not(.Btn) {
+      color: $form-base-color;
+      background: $form-base-bg;
+      border: 1px solid $form-base-border-color;
       cursor: default;
     }
 

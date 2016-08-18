@@ -3239,9 +3239,6 @@ a {
   padding: 0.64286rem 0.71429rem;
   font-size: 1rem;
   line-height: 1.42857rem;
-  color: #394246;
-  background: #fff;
-  border: 1px solid #d5d9da;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
@@ -3249,6 +3246,9 @@ a {
 }
 
 .Input-addOn:not(.Btn) {
+  color: #394246;
+  background: #fff;
+  border: 1px solid #d5d9da;
   cursor: default;
 }
 
