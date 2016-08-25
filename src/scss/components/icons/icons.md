@@ -193,6 +193,11 @@
 </div>
 
 <div class="s-Icon">
+  <i class="Icon Icon--copy"></i>
+  copy
+</div>
+
+<div class="s-Icon">
   <i class="Icon Icon--cross"></i>
   cross
 </div>
@@ -245,6 +250,16 @@
 <div class="s-Icon">
   <i class="Icon Icon--dragVertical"></i>
   dragVertical
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--dropbox"></i>
+  dropbox
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--dropboxLink"></i>
+  dropboxLink
 </div>
 
 <div class="s-Icon">
@@ -313,6 +328,16 @@
 </div>
 
 <div class="s-Icon">
+  <i class="Icon Icon--googleDrive"></i>
+  googleDrive
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--googleDriveLink"></i>
+  googleDriveLink
+</div>
+
+<div class="s-Icon">
   <i class="Icon Icon--grid"></i>
   grid
 </div>
@@ -358,6 +383,11 @@
 </div>
 
 <div class="s-Icon">
+  <i class="Icon Icon--integrations"></i>
+  integrations
+</div>
+
+<div class="s-Icon">
   <i class="Icon Icon--label"></i>
   label
 </div>
@@ -370,16 +400,6 @@
 <div class="s-Icon">
   <i class="Icon Icon--link"></i>
   link
-</div>
-
-<div class="s-Icon">
-  <i class="Icon Icon--linkDropbox"></i>
-  linkDropbox
-</div>
-
-<div class="s-Icon">
-  <i class="Icon Icon--linkGoogle"></i>
-  linkGoogle
 </div>
 
 <div class="s-Icon">
@@ -550,6 +570,11 @@
 <div class="s-Icon">
   <i class="Icon Icon--projector"></i>
   projector
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--quotes"></i>
+  quotes
 </div>
 
 <div class="s-Icon">
@@ -750,6 +775,11 @@
 <div class="s-Icon">
   <i class="Icon Icon--wisemblyFull"></i>
   wisemblyFull
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--youtube"></i>
+  youtube
 </div>
 
 ```

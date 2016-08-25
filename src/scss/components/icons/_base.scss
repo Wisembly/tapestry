@@ -155,452 +155,476 @@
   content: "\ea23";
 }
 
-@mixin Icon--cross {
+@mixin Icon--copy {
   content: "\ea24";
 }
 
-@mixin Icon--dashboard {
+@mixin Icon--cross {
   content: "\ea25";
 }
 
-@mixin Icon--deleteUser {
+@mixin Icon--dashboard {
   content: "\ea26";
 }
 
-@mixin Icon--document {
+@mixin Icon--deleteUser {
   content: "\ea27";
 }
 
-@mixin Icon--documentFull {
+@mixin Icon--document {
   content: "\ea28";
 }
 
-@mixin Icon--donutDot {
+@mixin Icon--documentFull {
   content: "\ea29";
 }
 
-@mixin Icon--door {
+@mixin Icon--donutDot {
   content: "\ea2a";
 }
 
-@mixin Icon--dot {
+@mixin Icon--door {
   content: "\ea2b";
 }
 
-@mixin Icon--download {
+@mixin Icon--dot {
   content: "\ea2c";
 }
 
-@mixin Icon--dragHorizontal {
+@mixin Icon--download {
   content: "\ea2d";
 }
 
-@mixin Icon--dragVertical {
+@mixin Icon--dragHorizontal {
   content: "\ea2e";
 }
 
-@mixin Icon--duplicate {
+@mixin Icon--dragVertical {
   content: "\ea2f";
 }
 
-@mixin Icon--evernote {
+@mixin Icon--dropbox {
   content: "\ea30";
 }
 
-@mixin Icon--externalLink {
+@mixin Icon--dropboxLink {
   content: "\ea31";
 }
 
-@mixin Icon--facebook {
+@mixin Icon--duplicate {
   content: "\ea32";
 }
 
-@mixin Icon--file {
+@mixin Icon--evernote {
   content: "\ea33";
 }
 
-@mixin Icon--filters {
+@mixin Icon--externalLink {
   content: "\ea34";
 }
 
-@mixin Icon--flag {
+@mixin Icon--facebook {
   content: "\ea35";
 }
 
-@mixin Icon--folder {
+@mixin Icon--file {
   content: "\ea36";
 }
 
-@mixin Icon--form {
+@mixin Icon--filters {
   content: "\ea37";
 }
 
-@mixin Icon--fullscreen {
+@mixin Icon--flag {
   content: "\ea38";
 }
 
-@mixin Icon--github {
+@mixin Icon--folder {
   content: "\ea39";
 }
 
-@mixin Icon--glass {
+@mixin Icon--form {
   content: "\ea3a";
 }
 
-@mixin Icon--google {
+@mixin Icon--fullscreen {
   content: "\ea3b";
 }
 
-@mixin Icon--grid {
+@mixin Icon--github {
   content: "\ea3c";
 }
 
-@mixin Icon--group {
+@mixin Icon--glass {
   content: "\ea3d";
 }
 
-@mixin Icon--heading1 {
+@mixin Icon--google {
   content: "\ea3e";
 }
 
-@mixin Icon--heading2 {
+@mixin Icon--googleDrive {
   content: "\ea3f";
 }
 
-@mixin Icon--help {
+@mixin Icon--googleDriveLink {
   content: "\ea40";
 }
 
-@mixin Icon--home {
+@mixin Icon--grid {
   content: "\ea41";
 }
 
-@mixin Icon--image {
+@mixin Icon--group {
   content: "\ea42";
 }
 
-@mixin Icon--info {
+@mixin Icon--heading1 {
   content: "\ea43";
 }
 
-@mixin Icon--insights {
+@mixin Icon--heading2 {
   content: "\ea44";
 }
 
-@mixin Icon--label {
+@mixin Icon--help {
   content: "\ea45";
 }
 
-@mixin Icon--like {
+@mixin Icon--home {
   content: "\ea46";
 }
 
-@mixin Icon--link {
+@mixin Icon--image {
   content: "\ea47";
 }
 
-@mixin Icon--linkDropbox {
+@mixin Icon--info {
   content: "\ea48";
 }
 
-@mixin Icon--linkGoogle {
+@mixin Icon--insights {
   content: "\ea49";
 }
 
-@mixin Icon--linkedin {
+@mixin Icon--integrations {
   content: "\ea4a";
 }
 
-@mixin Icon--list {
+@mixin Icon--label {
   content: "\ea4b";
 }
 
-@mixin Icon--listCollapse {
+@mixin Icon--like {
   content: "\ea4c";
 }
 
-@mixin Icon--listExpand {
+@mixin Icon--link {
   content: "\ea4d";
 }
 
-@mixin Icon--listPlain {
+@mixin Icon--linkedin {
   content: "\ea4e";
 }
 
-@mixin Icon--live {
+@mixin Icon--list {
   content: "\ea4f";
 }
 
-@mixin Icon--lock {
+@mixin Icon--listCollapse {
   content: "\ea50";
 }
 
-@mixin Icon--mail {
+@mixin Icon--listExpand {
   content: "\ea51";
 }
 
-@mixin Icon--message {
+@mixin Icon--listPlain {
   content: "\ea52";
 }
 
-@mixin Icon--minus {
+@mixin Icon--live {
   content: "\ea53";
 }
 
-@mixin Icon--more {
+@mixin Icon--lock {
   content: "\ea54";
 }
 
-@mixin Icon--multipleChoice {
+@mixin Icon--mail {
   content: "\ea55";
 }
 
-@mixin Icon--openedEye {
+@mixin Icon--message {
   content: "\ea56";
 }
 
-@mixin Icon--options {
+@mixin Icon--minus {
   content: "\ea57";
 }
 
-@mixin Icon--paragraph {
+@mixin Icon--more {
   content: "\ea58";
 }
 
-@mixin Icon--participant {
+@mixin Icon--multipleChoice {
   content: "\ea59";
 }
 
-@mixin Icon--pause {
+@mixin Icon--openedEye {
   content: "\ea5a";
 }
 
-@mixin Icon--pellet {
+@mixin Icon--options {
   content: "\ea5b";
 }
 
-@mixin Icon--pelletAdd {
+@mixin Icon--paragraph {
   content: "\ea5c";
 }
 
-@mixin Icon--pelletCheck {
+@mixin Icon--participant {
   content: "\ea5d";
 }
 
-@mixin Icon--pelletClose {
+@mixin Icon--pause {
   content: "\ea5e";
 }
 
-@mixin Icon--pelletMinus {
+@mixin Icon--pellet {
   content: "\ea5f";
 }
 
-@mixin Icon--pencil {
+@mixin Icon--pelletAdd {
   content: "\ea60";
 }
 
-@mixin Icon--phone {
+@mixin Icon--pelletCheck {
   content: "\ea61";
 }
 
-@mixin Icon--picture {
+@mixin Icon--pelletClose {
   content: "\ea62";
 }
 
-@mixin Icon--pictureInPicture {
+@mixin Icon--pelletMinus {
   content: "\ea63";
 }
 
-@mixin Icon--pieDiagram {
+@mixin Icon--pencil {
   content: "\ea64";
 }
 
-@mixin Icon--play {
+@mixin Icon--phone {
   content: "\ea65";
 }
 
-@mixin Icon--plugged {
+@mixin Icon--picture {
   content: "\ea66";
 }
 
-@mixin Icon--plus {
+@mixin Icon--pictureInPicture {
   content: "\ea67";
 }
 
-@mixin Icon--popup {
+@mixin Icon--pieDiagram {
   content: "\ea68";
 }
 
-@mixin Icon--presentation {
+@mixin Icon--play {
   content: "\ea69";
 }
 
-@mixin Icon--private {
+@mixin Icon--plugged {
   content: "\ea6a";
 }
 
-@mixin Icon--projector {
+@mixin Icon--plus {
   content: "\ea6b";
 }
 
-@mixin Icon--radio {
+@mixin Icon--popup {
   content: "\ea6c";
 }
 
-@mixin Icon--refresh {
+@mixin Icon--presentation {
   content: "\ea6d";
 }
 
-@mixin Icon--reply {
+@mixin Icon--private {
   content: "\ea6e";
 }
 
-@mixin Icon--reset {
+@mixin Icon--projector {
   content: "\ea6f";
 }
 
-@mixin Icon--results {
+@mixin Icon--quotes {
   content: "\ea70";
 }
 
-@mixin Icon--section {
+@mixin Icon--radio {
   content: "\ea71";
 }
 
-@mixin Icon--singleChoice {
+@mixin Icon--refresh {
   content: "\ea72";
 }
 
-@mixin Icon--slack {
+@mixin Icon--reply {
   content: "\ea73";
 }
 
-@mixin Icon--smile {
+@mixin Icon--reset {
   content: "\ea74";
 }
 
-@mixin Icon--solid {
+@mixin Icon--results {
   content: "\ea75";
 }
 
-@mixin Icon--solidFull {
+@mixin Icon--section {
   content: "\ea76";
 }
 
-@mixin Icon--spreadsheet {
+@mixin Icon--singleChoice {
   content: "\ea77";
 }
 
-@mixin Icon--star {
+@mixin Icon--slack {
   content: "\ea78";
 }
 
-@mixin Icon--starHalf {
+@mixin Icon--smile {
   content: "\ea79";
 }
 
-@mixin Icon--starOutlined {
+@mixin Icon--solid {
   content: "\ea7a";
 }
 
-@mixin Icon--stats {
+@mixin Icon--solidFull {
   content: "\ea7b";
 }
 
-@mixin Icon--stop {
+@mixin Icon--spreadsheet {
   content: "\ea7c";
 }
 
-@mixin Icon--subtitle {
+@mixin Icon--star {
   content: "\ea7d";
 }
 
-@mixin Icon--summary {
+@mixin Icon--starHalf {
   content: "\ea7e";
 }
 
-@mixin Icon--sunrise {
+@mixin Icon--starOutlined {
   content: "\ea7f";
 }
 
-@mixin Icon--sunset {
+@mixin Icon--stats {
   content: "\ea80";
 }
 
-@mixin Icon--target {
+@mixin Icon--stop {
   content: "\ea81";
 }
 
-@mixin Icon--timeline {
+@mixin Icon--subtitle {
   content: "\ea82";
 }
 
-@mixin Icon--title {
+@mixin Icon--summary {
   content: "\ea83";
 }
 
-@mixin Icon--titles {
+@mixin Icon--sunrise {
   content: "\ea84";
 }
 
-@mixin Icon--trash {
+@mixin Icon--sunset {
   content: "\ea85";
 }
 
-@mixin Icon--triangleDown {
+@mixin Icon--target {
   content: "\ea86";
 }
 
-@mixin Icon--triangleLeft {
+@mixin Icon--timeline {
   content: "\ea87";
 }
 
-@mixin Icon--triangleRight {
+@mixin Icon--title {
   content: "\ea88";
 }
 
-@mixin Icon--triangleUp {
+@mixin Icon--titles {
   content: "\ea89";
 }
 
-@mixin Icon--twitter {
+@mixin Icon--trash {
   content: "\ea8a";
 }
 
-@mixin Icon--unlock {
+@mixin Icon--triangleDown {
   content: "\ea8b";
 }
 
-@mixin Icon--unplugged {
+@mixin Icon--triangleLeft {
   content: "\ea8c";
 }
 
-@mixin Icon--user {
+@mixin Icon--triangleRight {
   content: "\ea8d";
 }
 
-@mixin Icon--video {
+@mixin Icon--triangleUp {
   content: "\ea8e";
 }
 
-@mixin Icon--warning {
+@mixin Icon--twitter {
   content: "\ea8f";
 }
 
-@mixin Icon--warningSign {
+@mixin Icon--unlock {
   content: "\ea90";
 }
 
-@mixin Icon--wifi {
+@mixin Icon--unplugged {
   content: "\ea91";
 }
 
-@mixin Icon--wisembly {
+@mixin Icon--user {
   content: "\ea92";
 }
 
-@mixin Icon--wisemblyFull {
+@mixin Icon--video {
   content: "\ea93";
+}
+
+@mixin Icon--warning {
+  content: "\ea94";
+}
+
+@mixin Icon--warningSign {
+  content: "\ea95";
+}
+
+@mixin Icon--wifi {
+  content: "\ea96";
+}
+
+@mixin Icon--wisembly {
+  content: "\ea97";
+}
+
+@mixin Icon--wisemblyFull {
+  content: "\ea98";
+}
+
+@mixin Icon--youtube {
+  content: "\ea99";
 }
 
 
@@ -772,6 +796,10 @@
     @include Icon--company;
   }
   
+  .Icon--copy:before {
+    @include Icon--copy;
+  }
+  
   .Icon--cross:before {
     @include Icon--cross;
   }
@@ -814,6 +842,14 @@
   
   .Icon--dragVertical:before {
     @include Icon--dragVertical;
+  }
+  
+  .Icon--dropbox:before {
+    @include Icon--dropbox;
+  }
+  
+  .Icon--dropboxLink:before {
+    @include Icon--dropboxLink;
   }
   
   .Icon--duplicate:before {
@@ -868,6 +904,14 @@
     @include Icon--google;
   }
   
+  .Icon--googleDrive:before {
+    @include Icon--googleDrive;
+  }
+  
+  .Icon--googleDriveLink:before {
+    @include Icon--googleDriveLink;
+  }
+  
   .Icon--grid:before {
     @include Icon--grid;
   }
@@ -904,6 +948,10 @@
     @include Icon--insights;
   }
   
+  .Icon--integrations:before {
+    @include Icon--integrations;
+  }
+  
   .Icon--label:before {
     @include Icon--label;
   }
@@ -914,14 +962,6 @@
   
   .Icon--link:before {
     @include Icon--link;
-  }
-  
-  .Icon--linkDropbox:before {
-    @include Icon--linkDropbox;
-  }
-  
-  .Icon--linkGoogle:before {
-    @include Icon--linkGoogle;
   }
   
   .Icon--linkedin:before {
@@ -1058,6 +1098,10 @@
   
   .Icon--projector:before {
     @include Icon--projector;
+  }
+  
+  .Icon--quotes:before {
+    @include Icon--quotes;
   }
   
   .Icon--radio:before {
@@ -1218,6 +1262,10 @@
   
   .Icon--wisemblyFull:before {
     @include Icon--wisemblyFull;
+  }
+  
+  .Icon--youtube:before {
+    @include Icon--youtube;
   }
   
 
