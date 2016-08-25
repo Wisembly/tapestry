@@ -5,8 +5,8 @@
     align-items: flex-end;
 
     .Tab {
-      padding-right: $insert-tab-vertical-pd;
-      padding-left: $insert-tab-vertical-pd;
+      padding: $insert-tab-pdh $insert-tab-pdv;
+      font-size: $fz--s;
       border: 1px solid transparent;
       border-bottom-color: $insert-tab-border-color;
 

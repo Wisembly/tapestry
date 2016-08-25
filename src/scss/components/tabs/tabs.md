@@ -12,7 +12,8 @@
 | ** $small-tab-underline-size ** | size        | `rem(2px)`                 | small tab underline size      |
 | ** $tab-pdv **                  | padding     | `r(3)`                     | tab-link vertical padding     |
 | ** $tab-pdh **                  | padding     | `r(2)`                     | tab-link horizontal padding   |
-| ** $insert-tab-vertical-pd **   | padding     | `r(6)`                     | insert-tab horizontal padding |
+| ** $insert-tab-pdv **           | padding     | `r(4)`                     | insert-tab vertical padding   |
+| ** $insert-tab-pdh **           | padding     | `r(2)`                     | insert-tab horizontal padding |
 | ** $tab-fz **                   | font-size   | `$base-fz--rem`            | tab font-size                 |
 | ** $tab-lh **                   | line-height | `$base-lh`                 | tab line-height               |
 | ** $small-tab-fz **             | font-size   | `$base-fz--rem`            | small-tab font-size           |

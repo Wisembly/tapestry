@@ -4648,8 +4648,8 @@ input:checked + .Switch--s:after,
 }
 
 .Tabs--insert .Tab {
-  padding-right: 2.14286rem;
-  padding-left: 2.14286rem;
+  padding: 0.71429rem 1.42857rem;
+  font-size: 0.83333rem;
   border: 1px solid transparent;
   border-bottom-color: #bac1c3;
 }
