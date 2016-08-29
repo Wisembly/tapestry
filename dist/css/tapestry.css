@@ -2864,6 +2864,7 @@ a {
   color: #394246;
   background: transparent;
   border-radius: 0;
+  cursor: pointer;
 }
 
 .Dropdown-toggle:after {

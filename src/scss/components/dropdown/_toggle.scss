@@ -7,6 +7,7 @@
     color: $dropdown-toggle-color;
     background: $dropdown-toggle-bg;
     border-radius: 0;
+    cursor: pointer;
 
     &:after {
       @include Icon--triangleDown;
