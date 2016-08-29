@@ -1,4 +1,4 @@
- ># Btons
+# Buttons
 
 ## Types
 
