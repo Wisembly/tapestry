@@ -603,6 +603,11 @@
 </div>
 
 <div class="s-Icon">
+  <i class="Icon Icon--rss"></i>
+  rss
+</div>
+
+<div class="s-Icon">
   <i class="Icon Icon--section"></i>
   section
 </div>
