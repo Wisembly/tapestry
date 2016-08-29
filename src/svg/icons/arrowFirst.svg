@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
-<g>
-	<polygon fill="none" points="18,3.28 10.72,9.99 18,16.72 	"/>
-	<path fill="#3A434C" d="M10.06,19.73c0.41,0.37,1.04,0.35,1.41-0.06s0.35-1.04-0.06-1.41L2.47,9.99l8.95-8.26
-		c0.41-0.37,0.43-1.01,0.06-1.41s-1.01-0.43-1.41-0.06L0.32,9.26C0.12,9.45,0,9.71,0,9.99s0.12,0.55,0.32,0.73L10.06,19.73z"/>
-	<path fill="#3A434C" d="M8.24,9.99c0,0.28,0.12,0.55,0.32,0.74l9.76,9.01c0.29,0.27,0.71,0.34,1.08,0.18C19.77,19.76,20,19.4,20,19
-		V1c0-0.4-0.23-0.76-0.6-0.92s-0.79-0.09-1.08,0.18L8.57,9.26C8.36,9.45,8.24,9.71,8.24,9.99z M18,3.28v13.43l-7.28-6.72L18,3.28z"
-		/>
-</g>
+	 viewBox="0 0 20 20" style="enable-background:new 0 0 20 20;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#3A434C;}
+</style>
+<path class="st0" d="M10.1,19.7c0.4,0.4,1,0.4,1.4-0.1s0.4-1-0.1-1.4L2.5,10l8.9-8.3c0.4-0.4,0.4-1,0.1-1.4s-1-0.4-1.4-0.1l-9.8,9
+	C0.1,9.4,0,9.7,0,10s0.1,0.6,0.3,0.7L10.1,19.7z"/>
+<path class="st0" d="M8.2,10c0,0.3,0.1,0.6,0.3,0.7l9.8,9c0.3,0.3,0.7,0.3,1.1,0.2S20,19.4,20,19V1c0-0.4-0.2-0.8-0.6-0.9
+	S18.6,0,18.3,0.3l-9.8,9C8.4,9.4,8.2,9.7,8.2,10z M18,3.3v13.4L10.7,10L18,3.3z"/>
 </svg>

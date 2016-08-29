@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
+	 viewBox="0 0 20 20" style="enable-background:new 0 0 20 20;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#3A434C;}
+</style>
 <g>
-	<polygon fill="none" points="13.92,9.01 13.93,9.01 13.93,9.01 	"/>
-	<polygon fill="none" points="13.92,9.01 13.92,9.01 13.92,9.01 	"/>
-	<polygon fill="#3A434C" points="12.36,0 12.35,0 1.73,3.3 1.73,3.31 1.73,3.31 4.34,7.99 4.34,7.99 4.35,7.99 12.36,0.01 	"/>
-	<polygon fill="#3A434C" points="0.1,14.51 5.56,13.58 5.56,13.57 0.1,3.79 	"/>
-	<polygon fill="#3A434C" points="9.51,5.16 9.52,5.17 19.94,10.01 13.36,1.33 	"/>
-	<polygon fill="#3A434C" points="11.47,14.2 11.46,14.2 0.06,16.15 10.71,19.47 	"/>
-	<path fill="#3A434C" d="M13.92,9L13.92,9l-1.59,11l6.58-8.68L13.92,9z M13.92,9.01L13.92,9.01L13.92,9.01L13.92,9.01L13.92,9.01
-		L13.92,9.01L13.92,9.01z"/>
+	<polygon class="st0" points="12.4,0 12.4,0 1.7,3.3 1.7,3.3 1.7,3.3 4.3,8 4.3,8 4.3,8 12.4,0 	"/>
+	<polygon class="st0" points="0.1,14.5 5.6,13.6 5.6,13.6 0.1,3.8 	"/>
+	<polygon class="st0" points="9.5,5.2 9.5,5.2 19.9,10 13.4,1.3 	"/>
+	<polygon class="st0" points="11.5,14.2 11.5,14.2 0.1,16.1 10.7,19.5 	"/>
+	<path class="st0" d="M13.9,9L13.9,9l-1.6,11l6.6-8.7L13.9,9z M13.9,9L13.9,9L13.9,9L13.9,9L13.9,9L13.9,9L13.9,9z"/>
 </g>
 </svg>

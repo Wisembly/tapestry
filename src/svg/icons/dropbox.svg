@@ -5,11 +5,9 @@
 <style type="text/css">
 	.st0{fill:#3A434C;}
 </style>
-<g>
-	<polygon class="st0" points="5.9,0.7 0,4.5 4.1,7.8 10,4.1 	"/>
-	<polygon class="st0" points="0,11.1 5.9,14.9 10,11.5 4.1,7.8 	"/>
-	<polygon class="st0" points="10,11.5 14.1,14.9 20,11.1 15.9,7.8 	"/>
-	<polygon class="st0" points="20,4.5 14.1,0.7 10,4.1 15.9,7.8 	"/>
-	<polygon class="st0" points="10,12.2 5.9,15.6 4.1,14.5 4.1,15.8 10,19.3 15.9,15.8 15.9,14.5 14.1,15.6 	"/>
-</g>
+<polygon class="st0" points="5.9,0.7 0,4.5 4.1,7.8 10,4.1 "/>
+<polygon class="st0" points="0,11.1 5.9,14.9 10,11.5 4.1,7.8 "/>
+<polygon class="st0" points="10,11.5 14.1,14.9 20,11.1 15.9,7.8 "/>
+<polygon class="st0" points="20,4.5 14.1,0.7 10,4.1 15.9,7.8 "/>
+<polygon class="st0" points="10,12.2 5.9,15.6 4.1,14.5 4.1,15.8 10,19.3 15.9,15.8 15.9,14.5 14.1,15.6 "/>
 </svg>

@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
-<g>
-	<path fill="none" d="M2.28,17h15.44l0.2-0.08l0.08-0.2V3.28l-0.08-0.2L17.72,3H2.28l-0.2,0.08L2,3.28v13.44l0.08,0.2L2.28,17z
-		 M10.08,5.33h5.88v9.4h-5.88V5.33z"/>
-	<path fill="#3A434C" d="M2.28,19h15.44c1.26,0,2.28-1.02,2.28-2.28V3.28C20,2.02,18.98,1,17.72,1H2.28C1.02,1,0,2.02,0,3.28v13.44
-		C0,17.98,1.02,19,2.28,19z M2,3.28l0.08-0.2L2.28,3h15.44l0.2,0.08L18,3.28v13.44l-0.08,0.2L17.72,17H2.28l-0.2-0.08L2,16.72V3.28z
-		"/>
-	<rect x="10.08" y="5.33" fill="#3A434C" width="5.88" height="9.4"/>
-</g>
+	 viewBox="0 0 20 20" style="enable-background:new 0 0 20 20;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#3A434C;}
+</style>
+<path class="st0" d="M2.3,19h15.4c1.3,0,2.3-1,2.3-2.3V3.3C20,2,19,1,17.7,1H2.3C1,1,0,2,0,3.3v13.4C0,18,1,19,2.3,19z M2,3.3
+	l0.1-0.2L2.3,3h15.4l0.2,0.1L18,3.3v13.4l-0.1,0.2L17.7,17H2.3l-0.2-0.1L2,16.7V3.3z"/>
+<rect x="10.1" y="5.3" class="st0" width="5.9" height="9.4"/>
 </svg>

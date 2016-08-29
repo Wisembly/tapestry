@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
-<g>
-	<path fill="#3A434C" d="M19.68,15.6c0.41-0.37,0.43-1.01,0.06-1.41l-8.99-9.74c-0.19-0.2-0.46-0.32-0.73-0.32
-		c-0.28,0-0.55,0.12-0.73,0.32l-9.01,9.74c-0.38,0.41-0.35,1.04,0.05,1.41s1.04,0.35,1.41-0.05l8.27-8.94l8.26,8.94
-		C18.64,15.95,19.27,15.98,19.68,15.6z"/>
-</g>
+	 viewBox="0 0 20 20" style="enable-background:new 0 0 20 20;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#3A434C;}
+</style>
+<path class="st0" d="M19.7,15.6c0.4-0.4,0.4-1,0.1-1.4l-9-9.7c-0.2-0.2-0.5-0.3-0.7-0.3c-0.3,0-0.6,0.1-0.7,0.3l-9,9.7
+	c-0.4,0.4-0.3,1,0.1,1.4s1,0.4,1.4-0.1L10,6.6l8.3,8.9C18.6,15.9,19.3,16,19.7,15.6z"/>
 </svg>
