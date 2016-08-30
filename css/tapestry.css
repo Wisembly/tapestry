@@ -4440,10 +4440,6 @@ input:checked + .Switch--s:after,
   margin-top: 1.42857rem;
 }
 
-.Table-head {
-  border-bottom: 1px solid #d5d9da;
-}
-
 .Table-row {
   position: relative;
   font-weight: 400;
