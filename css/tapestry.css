@@ -4227,6 +4227,10 @@ a {
   margin-left: 0;
 }
 
+.Panel-footerBtn.Btn[disabled] {
+  border-radius: 0;
+}
+
 .Panel--l {
   right: auto;
   left: 0;
