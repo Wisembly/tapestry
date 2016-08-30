@@ -2413,7 +2413,7 @@ a {
   margin-left: -1px;
 }
 
-.BtnGroup-item.is-selected > {
+.BtnGroup-item.is-selected {
   z-index: 2;
   color: #46b489;
   border-color: #46b489;
