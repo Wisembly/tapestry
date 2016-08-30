@@ -13,6 +13,10 @@
     +.Panel-footerBtn {
       margin-left: 0;
     }
+
+    &.Btn[disabled] {
+      border-radius: 0;
+    }
   }
 
 }
