@@ -1,7 +1,8 @@
 @if $import-button and $import-pseudo-classes {
 
   .Btn {
-    &:hover {
+    &:hover,
+    &:focus {
       background-color: $slate-gray;
     }
 

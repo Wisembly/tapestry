@@ -3,6 +3,7 @@
   .BtnGroup {
     > .BtnGroup-item {
       &:hover,
+      &:focus,
       &:active {
         position: relative;
         z-index: 1;

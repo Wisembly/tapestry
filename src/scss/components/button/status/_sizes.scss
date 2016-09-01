@@ -1,21 +1,21 @@
 @if $import-animations and $import-loading-states and $import-spinner {
 
   .Btn--status.Btn--s {
-    #{$btn-loading-selector} > & {
+    #{$btn-loading-selector} & {
       &:after {
         width: r(3);
         height: r(3);
       }
     }
 
-    #{$btn-failed-selector} > & {
+    #{$btn-failed-selector} & {
       &:after {
         font-size: r(2);
         line-height: r(6);
       }
     }
 
-    #{$btn-completed-selector} > & {
+    #{$btn-completed-selector} & {
       &:after {
         font-size: r(2);
         line-height: r(6);

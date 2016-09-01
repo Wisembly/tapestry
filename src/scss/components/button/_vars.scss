@@ -29,7 +29,7 @@ $btn-loading-spinner-secondary-color: rgba($outer-space, .3) !default;
 $btn-loading-duration: 1s !default;
 $btn-loading-spinner-thickness: 2px !default;
 
-$btn-failed-selector: ".has-failed" !default;
+$btn-failed-selector: ".has-failed >" !default;
 $btn-failed-bg: $mandy !default;
 $btn-failed-color: $white !default;
 

@@ -7,14 +7,16 @@
 
     .Btn-#{$color-name} {
       &:hover,
-      &:active {
+      &:active,
+      &:focus {
         background-color: $hover-color;
       }
     }
 
     .Btn--outline.Btn-#{$color-name} {
       &:hover,
-      &:active {
+      &:active,
+      &:focus {
         color: $hover-color;
         border-color: $hover-color;
       }
@@ -23,7 +25,8 @@
     .Btn--inverted.Btn-#{$color-name},
     .Btn--raw.Btn-#{$color-name} {
       &:hover,
-      &:active {
+      &:active,
+      &:focus {
         color: $hover-color;
       }
     }
