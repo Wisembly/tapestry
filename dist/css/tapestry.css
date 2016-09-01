@@ -3162,9 +3162,19 @@ a {
   outline: none;
 }
 
-.Input[disabled], .Input[readonly] {
+.Input[disabled] {
   color: #708189;
   background: #ebeeef;
+}
+
+.Input[readonly] {
+  color: #708189;
+  background: #ebeeef;
+  cursor: text;
+  -webkit-user-select: all;
+     -moz-user-select: all;
+      -ms-user-select: all;
+          user-select: all;
 }
 
 .Input + .Input,
@@ -3479,9 +3489,19 @@ a {
   outline: none;
 }
 
-.Textarea[disabled], .Textarea[readonly] {
+.Textarea[disabled] {
   color: #708189;
   background: #ebeeef;
+}
+
+.Textarea[readonly] {
+  color: #708189;
+  background: #ebeeef;
+  cursor: text;
+  -webkit-user-select: all;
+     -moz-user-select: all;
+      -ms-user-select: all;
+          user-select: all;
 }
 
 .Textarea:not([disabled]):hover {

@@ -24,10 +24,16 @@
       outline: none;
     }
 
-    &[disabled],
+    &[disabled] {
+      color: $form-disabled-color;
+      background: $form-disabled-bg;
+    }
+
     &[readonly] {
       color: $form-disabled-color;
       background: $form-disabled-bg;
+      cursor: text;
+      user-select: all;
     }
 
     + .Input,
