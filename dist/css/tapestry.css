@@ -1994,11 +1994,17 @@ a {
   margin: 0;
   padding: 0;
   list-style: none;
+  border-top: 1px solid #d5d9da;
   border-bottom: 1px solid #d5d9da;
 }
 
 .List + .List {
   margin-top: 1.78571rem;
+}
+
+.List--wrapped {
+  border-right: 1px solid #d5d9da;
+  border-left: 1px solid #d5d9da;
 }
 
 .List-item {
@@ -2009,37 +2015,48 @@ a {
   line-height: 1.42857rem;
   text-align: left;
   color: #515f65;
-  border-top: 1px solid #d5d9da;
   transition: background-color .1s ease-out, box-shadow .05s ease-out;
 }
 
+.List-item.is-actionable {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.List-item.is-checkable {
+  padding-right: 2.85714rem;
+}
+
 .List-item:after {
-  position: absolute;
-  top: 0.71429rem;
-  right: 1.42857rem;
-  bottom: 0.71429rem;
-  left: auto;
+  display: inline-block;
   font-family: "tapestry-icons";
   color: #708189;
+}
+
+.List-itemInput:checked + .List-item {
+  padding-right: 1.42857rem;
 }
 
 .List-itemInput:checked + .List-item:after {
   content: "\ea1c";
 }
 
-.List-item--link {
-  cursor: pointer;
-}
-
-.List-item--link:after {
-  content: "\ea0d";
+.List-item + .List-item,
+.List-item + .List-itemWrapper,
+.List-itemWrapper + .List-itemWrapper,
+.List-itemWrapper + .List-item {
+  border-top: 1px solid #d5d9da;
 }
 
 .List-itemInput {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  border: 0;
+  display: none;
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
@@ -2047,6 +2064,44 @@ a {
 
 .List-itemInput:focus {
   outline: none;
+}
+
+.List-header {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0.71429rem 1.42857rem;
+  font-size: 14px;
+  line-height: 2.14286rem;
+  background: #ebeeef;
+}
+
+.List + .List-header {
+  margin-top: 1.78571rem;
+}
+
+.List-header--wrapped {
+  border: 1px solid #d5d9da;
+  border-bottom: 0;
+}
+
+.List-title {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 2.14286rem;
+  text-transform: uppercase;
+  color: #708189;
+}
+
+.List-count {
+  color: #a1a9ae;
 }
 
 .List-item.is-actionable {

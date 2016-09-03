@@ -8,17 +8,29 @@
     line-height: $base-lh;
     text-align: left;
     color: $shuttle-gray;
-    border-top: 1px solid $base-border-color;
     transition: background-color .1s ease-out, box-shadow .05s ease-out;
 
-    &:after {
-      @include pos(a $mg--s $mg--m $mg--s auto);
-      font-family: "tapestry-icons";
-      color: $slate-gray;
+    &.is-actionable {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    &.is-checkable {
+      padding-right: r(8);
     }
 
     @if $import-icons {
+
+      &:after {
+        display: inline-block;
+        font-family: "tapestry-icons";
+        color: $slate-gray;
+      }
+
       .List-itemInput:checked + & {
+        padding-right: $pd--m;
+
         &:after {
           @include Icon--checkmark;
         }
@@ -26,21 +38,15 @@
     }
   }
 
-  .List-item--link {
-    cursor: pointer;
-
-    @if $import-icons {
-      &:after {
-        @include Icon--arrowRight;
-      }
-    }
+  .List-item + .List-item,
+  .List-item + .List-itemWrapper,
+  .List-itemWrapper + .List-itemWrapper,
+  .List-itemWrapper + .List-item {
+    border-top: 1px solid $base-border-color;
   }
 
   .List-itemInput {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    border: 0;
+    display: none;
     appearance: none;
 
     &:focus {

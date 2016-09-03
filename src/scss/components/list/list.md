@@ -2,81 +2,136 @@
 
 ## Basic list
 ```html
-  <ul class="List">
-    <li class="List-item">A</li>
-    <li class="List-item">B</li>
-    <li>
-      <a href="#foo" class="List-item List-item--link is-actionable">D</a>
-    </li>
-  </ul>
+<header class="List-header">
+  <h4 class="List-title">Foo</h4>
+  <button type="button" class="Btn Btn--s Btn--validate">Do</button>
+</header>
+<ul class="List">
+  <li class="List-item">A</li>
+  <li class="List-item">B</li>
+  <li class="List-itemWrapper">
+    <a href="#foo" class="List-item is-actionable">C</a>
+  </li>
+</ul>
 ```
+
+
+
+## Modifiers
+
+* `.List--raw` removes borders on `.List` but keeps borders on `.List-item`
+* `.List--wrapped` adds right and left borders
+* `.List-header--wrapped` adds top border on `.List-header`
+
+
 
 ## List with items checkbable
 ```html
+<header class="List-header">
+  <h4 class="List-title">Items</h4>
+  <div class="List-count">(0)</div>
+</header>
 <ul class="List">
-  <li>
+  <li class="List-itemWrapper">
     <input id="itemE" type="checkbox" class="List-itemInput">
-    <label for="itemE" class="List-item is-actionable">boudin strip steak</label>
+    <label for="itemE" class="List-item is-actionable">Item E</label>
   </li>
-  <li>
+  <li class="List-itemWrapper">
     <input id="itemF" type="checkbox" class="List-itemInput">
-    <label for="itemF" class="List-item is-actionable"> Strip steak salami jowl ham shank pancetta pork belly venison capicola.</label>
+    <label for="itemF" class="List-item is-actionable is-checkable">Item F</label>
   </li>
-  <li>
+  <li class="List-itemWrapper">
     <input id="itemG" type="checkbox" class="List-itemInput">
-    <label for="itemG" class="List-item is-actionable">Tail fatback andouille rump, pork belly sirloin chicken drumstick tri-tip jowl.</label>
+    <label for="itemG" class="List-item is-actionable is-checkable">Item G</label>
   </li>
 </ul>
 ```
+
+
+
 ## List with switches checkbox
 ```html
 <ul class="List">
-  <li>
-    <label class="List-item is-actionable" for="switch_example_checkbox_1">
-      Alcatra ribeye ham pork
+  <li class="List-itemWrapper">
+    <label class="List-item is-actionable">
+      Switch 1
       <input id="switch_example_checkbox_1" class="Switch-checkbox" type="checkbox" />
-      <label class="Switch u-push" for="switch_example_checkbox_1"></label>
+      <label class="Switch" for="switch_example_checkbox_1"></label>
     </label>
   </li>
-  <li>
-    <label class="List-item is-actionable" for="switch_example_checkbox_2">
-      Capicola andouille tri-tip beef ribs ham picanha
+  <li class="List-itemWrapper">
+    <label class="List-item is-actionable">
+      Switch 2
       <input id="switch_example_checkbox_2" class="Switch-checkbox" type="checkbox" />
-      <label class="Switch u-push" for="switch_example_checkbox_2"></label>
+      <label class="Switch" for="switch_example_checkbox_2"></label>
     </label>
   </li>
-  <li>
-    <label class="List-item is-actionable" for="switch_example_checkbox_3">Pork belly landjaeger venison corned
-      Pork belly landjaeger venison corned
+  <li class="List-itemWrapper">
+    <label class="List-item is-actionable">
+      Switch 3
       <input id="switch_example_checkbox_3" class="Switch-checkbox" type="checkbox" />
-      <label class="Switch u-push" for="switch_example_checkbox_3"></label>
+      <label class="Switch" for="switch_example_checkbox_3"></label>
     </label>
   </li>
 </ul>
 ```
+
+
+
 ## List with switches radio
 ```html
 <ul class="List">
-  <li>
-    <label class="List-item is-actionable" for="switch_example_1">Pork belly landjaeger venison corned
+  <li class="List-itemWrapper">
+    <label class="List-item is-actionable">
+      Radio 1
       <input name="list_switch_example" id="switch_example_1" class="Switch-checkbox" type="radio" aria-checked="" />
-      <label for="switch_example_1" class="Switch u-push"></label>
+      <label for="switch_example_1" class="Switch"></label>
     </label>
   </li>
-  <li>
-    <label class="List-item is-actionable" for="switch_example_2">Capicola andouille tri-tip beef ribs ham picanha
+  <li class="List-itemWrapper">
+    <label class="List-item is-actionable">
+      Radio 2
       <input name="list_switch_example" id="switch_example_2" class="Switch-checkbox" type="radio" aria-checked="" />
-      <label for="switch_example_2" class="Switch u-push"></label>
+      <label for="switch_example_2" class="Switch"></label>
     </label>
   </li>
-  <li>
-    <label class="List-item is-actionable" for="switch_example_3">Alcatra ribeye ham pork
+  <li class="List-itemWrapper">
+    <label class="List-item is-actionable">
+      Radio 3
       <input name="list_switch_example" id="switch_example_3" class="Switch-checkbox" type="radio" aria-checked="" />
-      <label for="switch_example_3" class="Switch u-push"></label>
+      <label for="switch_example_3" class="Switch"></label>
     </label>
   </li>
 </ul>
 ```
+
+
+
+## List with menu
+```html
+<ul class="List">
+  <li class="List-itemWrapper">
+    <a href="#" class="List-item is-actionable">
+      <div>Pork belly landjaeger venison corned</div>
+      <i class="Icon Icon--arrowRight t-neutral"></i>
+    </a>
+  </li>
+  <li class="List-itemWrapper">
+    <a href="#" class="List-item is-actionable">
+      <div>Pork belly landjaeger venison corned</div>
+      <i class="Icon Icon--arrowRight t-neutral"></i>
+    </a>
+  </li>
+  <li class="List-itemWrapper">
+    <a href="#" class="List-item is-actionable">
+      <div>Pork belly landjaeger venison corned</div>
+      <i class="Icon Icon--arrowRight t-neutral"></i>
+    </a>
+  </li>
+</ul>
+```
+
+
 
 ## Basic list + Box
 ```html
