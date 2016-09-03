@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    border-top: 1px solid $base-border-color;
     border-bottom: 1px solid $base-border-color;
 
     + .List {
@@ -11,4 +12,12 @@
     }
   }
 
+  .List--raw {
+    border: 0;
+  }
+
+  .List--wrapped {
+    border-right: 1px solid $base-border-color;
+    border-left: 1px solid $base-border-color;
+  }
 }

@@ -1,0 +1,31 @@
+.List-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: $pd--s $pd--m;
+  font-size: $base-fz;
+  line-height: $lh--l;
+  background: $porcelain;
+
+  .List + & {
+    margin-top: r(5);
+  }
+}
+
+.List-header--wrapped {
+  border: 1px solid $base-border-color;
+  border-bottom: 0;
+}
+
+.List-title {
+  margin: 0;
+  font-size: $base-fz;
+  font-weight: $fw--semi-bold;
+  line-height: $lh--l;
+  text-transform: uppercase;
+  color: $slate-gray;
+}
+
+.List-count {
+  color: $gray-chateau;
+}
