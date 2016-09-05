@@ -3,11 +3,12 @@
   .List-item {
     display: block;
     position: relative;
-    padding: $pd--s $pd--m;
+    padding: $list-item-pdv $list-item-pdh;
     font-weight: $base-fw;
     line-height: $base-lh;
     text-align: left;
-    color: $shuttle-gray;
+    color: $list-item-color;
+    border-top: 0;
     transition: background-color .1s ease-out, box-shadow .05s ease-out;
 
     &.is-actionable {
@@ -17,7 +18,7 @@
     }
 
     &.is-checkable {
-      padding-right: r(8);
+      padding-right: $list-checkable-space;
     }
 
     @if $import-icons {
@@ -42,7 +43,7 @@
   .List-item + .List-itemWrapper,
   .List-itemWrapper + .List-itemWrapper,
   .List-itemWrapper + .List-item {
-    border-top: 1px solid $base-border-color;
+    border-top: 1px solid $list-border-color;
   }
 
   .List-itemInput {

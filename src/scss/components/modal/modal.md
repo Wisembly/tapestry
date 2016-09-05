@@ -60,20 +60,26 @@ Wraps a list.
       </button>
     </header>
     <div class="Modal-content">
-      <ul class="List">
-        <li class="List-item">A</li>
-        <li>
-          <a href="#foo" class="List-item List-item--link is-actionable">E</a>
-        </li>
-        <li class="List-item">I</li>
-        <li>
-          <a href="#foo" class="List-item List-item--link is-actionable">O</a>
-        </li>
-        <li class="List-item">U</li>
-        <li>
-          <a href="#foo" class="List-item List-item--link is-actionable">Y</a>
-        </li>
-      </ul>
+      <div class="List">
+        <header class="List-header">
+          <h4 class="List-title">Items</h4>
+          <p class="List-count">(6)</p>
+        </header>
+        <ul class="List-content">
+          <li class="List-item">A</li>
+          <li class="List-itemWrapper">
+            <a href="#foo" class="List-item is-actionable">E</a>
+          </li>
+          <li class="List-item">I</li>
+          <li class="List-itemWrapper">
+            <a href="#foo" class="List-item is-actionable">O</a>
+          </li>
+          <li class="List-item">U</li>
+          <li class="List-itemWrapper">
+            <a href="#foo" class="List-item is-actionable">Y</a>
+          </li>
+        </ul>
+      </div>
     </div>
     <footer class="Modal-footer">
       <button type="button" class="Btn Btn--expand">Cancel</button>

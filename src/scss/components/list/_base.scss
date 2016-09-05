@@ -1,14 +1,11 @@
 @if $import-list {
 
   .List {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    border-top: 1px solid $base-border-color;
-    border-bottom: 1px solid $base-border-color;
+    border-top: 1px solid $list-border-color;
+    border-bottom: 1px solid $list-border-color;
 
     + .List {
-      margin-top: r(5);
+      margin-top: $list-space-between;
     }
   }
 
@@ -17,7 +14,13 @@
   }
 
   .List--wrapped {
-    border-right: 1px solid $base-border-color;
-    border-left: 1px solid $base-border-color;
+    border-right: 1px solid $list-border-color;
+    border-left: 1px solid $list-border-color;
+  }
+
+  .List-content {
+    margin: 0;
+    padding: 0;
+    list-style: none;
   }
 }

@@ -2,30 +2,24 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: $pd--s $pd--m;
+  padding: $list-header-pdv $list-header-pdh;
   font-size: $base-fz;
-  line-height: $lh--l;
-  background: $porcelain;
-
-  .List + & {
-    margin-top: r(5);
-  }
-}
-
-.List-header--wrapped {
-  border: 1px solid $base-border-color;
-  border-bottom: 0;
+  line-height: $base-lh;
+  background: $list-header-bg;
+  border-bottom: 1px solid $list-border-color;
 }
 
 .List-title {
   margin: 0;
   font-size: $base-fz;
   font-weight: $fw--semi-bold;
-  line-height: $lh--l;
+  line-height: $base-lh;
   text-transform: uppercase;
-  color: $slate-gray;
+  color: $list-title-color;
 }
 
 .List-count {
-  color: $gray-chateau;
+  margin: 0;
+  padding: 0;
+  color: $list-count-color;
 }
