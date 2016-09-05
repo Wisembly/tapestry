@@ -21,19 +21,19 @@ Aims at including a simple caption or call-to-action.
 ```html
 <div class="Modal-wrapper" aria-hidden="true" id="js-ModalSimple">
   <div class="Modal">
-    <div class="Modal-header">
+    <header class="Modal-header">
       <h3 class="Modal-title">Modal title</h3>
       <button type="button" id="js-CloseModalSimple" class="Btn Btn--raw ModalHeader-btn">
         <i class="Icon Icon--cross"></i>
       </button>
-    </div>
+    </header>
     <div class="Modal-content">
       <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?</p>
     </div>
-    <div class="Modal-footer">
+    <footer class="Modal-footer">
       <button type="button" class="Btn Btn--expand">Cancel</button>
       <button type="button" class="Btn Btn--expand Btn--validate">OK</button>
-    </div>
+    </footer>
   </div>
 </div>
 ```
@@ -50,7 +50,7 @@ Wraps a list.
 ```html
 <div class="Modal-wrapper" aria-hidden="true" id="js-ModalMenu">
   <div class="Modal">
-    <div class="Modal-header">
+    <header class="Modal-header">
       <button type="button" class="Btn Btn--raw ModalHeader-btn">
         <i class="Icon Icon--arrowBack"></i>
       </button>
@@ -58,7 +58,7 @@ Wraps a list.
       <button type="button" id="js-CloseModalMenu" class="Btn Btn--raw ModalHeader-btn">
         <i class="Icon Icon--cross"></i>
       </button>
-    </div>
+    </header>
     <div class="Modal-content has-list">
       <ul class="List">
         <li class="List-item">A</li>
@@ -75,10 +75,10 @@ Wraps a list.
         </li>
       </ul>
     </div>
-    <div class="Modal-footer">
+    <footer class="Modal-footer">
       <button type="button" class="Btn Btn--expand">Cancel</button>
       <button type="button" class="Btn Btn--expand Btn--validate">OK</button>
-    </div>
+    </footer>
   </div>
 </div>
 ```
