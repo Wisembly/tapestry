@@ -4057,6 +4057,10 @@ a {
   color: #fff;
   background: #a1a9ae;
   border-radius: 0.28571rem;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .Notification--primary {
@@ -4088,31 +4092,54 @@ a {
 
 .Notification--tc {
   top: 0.71429rem;
-  right: auto;
   left: 50%;
-  -webkit-transform: translate3d(-50%, 0, 0);
-          transform: translate3d(-50%, 0, 0);
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
 .Notification--tr {
   top: 0.71429rem;
   right: 0.71429rem;
-  bottom: auto;
-  left: auto;
-  margin-left: 0.71429rem;
 }
 
-.Notification--bl {
-  right: auto;
-  bottom: 0.71429rem;
-  left: 0.71429rem;
-  margin-right: 0.71429rem;
+.Notification--rc {
+  top: 50%;
+  right: 0.71429rem;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
 .Notification--br {
   right: 0.71429rem;
   bottom: 0.71429rem;
-  left: auto;
+}
+
+.Notification--bc {
+  bottom: 0.71429rem;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.Notification--bl {
+  bottom: 0.71429rem;
+  left: 0.71429rem;
+}
+
+.Notification--lc {
+  top: 50%;
+  left: 0.71429rem;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.Notification--tl {
+  top: 0.71429rem;
+  left: 0.71429rem;
 }
 
 .Panel-wrapper {

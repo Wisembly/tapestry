@@ -59,7 +59,11 @@
 |----------------------------|----------------------------------------------|
 | ** .Notification--fixed ** | Will add a position fixed to `.Notification` |
 | ** .Notification--block ** | Will display `.Notification` as block        |
-| ** .Notification--tc **    | Top Center window position                   |
-| ** .Notification--tr **    | Top Right window position                    |
-| ** .Notification--bl **    | Bottom Left window position                  |
-| ** .Notification--br **    | Bottom Right window position                 |
+| ** .Notification--tc **    | Top center window position                   |
+| ** .Notification--tr **    | Top right window position                    |
+| ** .Notification--rc **    | Right center window position                 |
+| ** .Notification--br **    | Bottom right window position                 |
+| ** .Notification--bc **    | Bottom center window position                |
+| ** .Notification--bl **    | Bottom left window position                  |
+| ** .Notification--lc **    | Left center window position                  |
+| ** .Notification--tl **    | Top left window position                     |
