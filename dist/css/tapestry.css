@@ -4015,14 +4015,10 @@ a {
 }
 
 .Modal-content {
-  padding: 1.42857rem 1.42857rem 0;
+  padding: 0;
   background: #fff;
   overflow: auto;
   -webkit-overflow-scrolling: touch;
-}
-
-.Modal-content.has-list {
-  padding: 0;
 }
 
 .Modal--expand .Modal-content {
@@ -4226,7 +4222,7 @@ a {
   -webkit-flex: 1 1 auto;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
-  padding: 1.42857rem;
+  padding: 0;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
 }

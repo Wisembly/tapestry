@@ -27,7 +27,7 @@ Aims at including a simple caption or call-to-action.
         <i class="Icon Icon--cross"></i>
       </button>
     </header>
-    <div class="Modal-content">
+    <div class="Modal-content u-pd--m u-pdb--0">
       <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?</p>
     </div>
     <footer class="Modal-footer">
@@ -59,7 +59,7 @@ Wraps a list.
         <i class="Icon Icon--cross"></i>
       </button>
     </header>
-    <div class="Modal-content has-list">
+    <div class="Modal-content">
       <ul class="List">
         <li class="List-item">A</li>
         <li>
