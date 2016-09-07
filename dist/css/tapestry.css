@@ -4182,7 +4182,6 @@ a {
   -webkit-flex-shrink: 0;
       -ms-flex-negative: 0;
           flex-shrink: 0;
-  padding: 0;
   background: #07698d;
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -4195,6 +4194,7 @@ a {
   -webkit-align-self: stretch;
       -ms-flex-item-align: stretch;
           align-self: stretch;
+  padding: 1.42857rem 0;
   color: #aed7e8;
 }
 

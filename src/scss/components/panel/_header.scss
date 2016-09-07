@@ -5,7 +5,6 @@
     align-items: center;
     justify-content: space-between;
     flex-shrink: 0;
-    padding: 0;
     background: $venice-blue;
     user-select: none;
   }
@@ -13,6 +12,7 @@
   .PanelHeader-btn {
     width: $modal-header-btn-width;
     align-self: stretch;
+    padding: r(4) 0;
     color: $regent-st-blue;
   }
 
