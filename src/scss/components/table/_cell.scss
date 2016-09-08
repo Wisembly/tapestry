@@ -1,15 +1,44 @@
 @if $import-table {
 
+  .Table-head {
+    padding: 0;
+  }
+
   .Table-cell {
     display: table-cell;
     padding: $table-pdv $table-pdh;
     font-size: $fz--m;
     line-height: $base-lh;
     text-align: center;
-    border-left: 1px solid $base-border-color;
+    border: 1px solid $base-border-color;
 
     [aria-disabled=true] & {
       color: $table-disabled-cell-color;
+    }
+
+    &.has-table {
+      padding: 0;
+      border: 1px solid $base-border-color;
+
+      .Table-cell {
+        border: 1px solid $base-border-color;
+
+        &:first-child {
+          border-left: 0;
+        }
+
+        &:last-child {
+          border-right: 0;
+        }
+      }
+
+      .Table-head .Table-cell {
+        border-top: 0;
+      }
+
+      .Table-row:last-child .Table-cell {
+        border-bottom: 0;
+      }
     }
   }
 
@@ -17,5 +46,4 @@
     font-weight: $fw--semi-bold;
     color: $table-important-cell-color;
   }
-
 }

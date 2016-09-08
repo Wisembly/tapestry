@@ -2,8 +2,9 @@
 
   .Table-row {
     position: relative;
+    padding: 0;
     font-weight: $base-fw;
-    border-bottom: 1px solid $base-border-color;
+    border-spacing: 0;
   }
 
 }
