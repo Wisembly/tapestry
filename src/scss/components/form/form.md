@@ -3,22 +3,22 @@
 ```html
 <fieldset class="Fieldset">
   <legend class="Legend">Shipping Information</legend>
-  <label class="Label">Title</label>
+  <label class="Label Label--block">Title</label>
   <div class="Grid u-mgb--m">
     <div class="Grid-cell Grid-cell--12">
-      <div class="Radio">
+      <div class="Radio Radio--inline">
         <input name="title" id="mr" type="radio" class="Radio-input" id="radioInput">
         <label for="mr" class="Radio-label" for="radioInput">Mr</label>
       </div>
-      <div class="Radio">
+      <div class="Radio Radio--inline">
         <input name="title" id="mrs" type="radio" class="Radio-input" id="radioInput">
         <label for="mrs" class="Radio-label" for="radioInput">Mrs</label>
       </div>
-      <div class="Radio">
+      <div class="Radio Radio--inline">
         <input name="title" id="ms" type="radio" class="Radio-input" id="radioInput">
         <label for="ms" class="Radio-label" for="radioInput">Ms</label>
       </div>
-      <div class="Radio">
+      <div class="Radio Radio--inline">
         <input name="title" id="mx" type="radio" class="Radio-input" id="radioInput">
         <label for="mx" class="Radio-label" for="radioInput">Mx</label>
       </div>
