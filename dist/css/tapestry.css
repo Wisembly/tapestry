@@ -1979,6 +1979,7 @@ a {
   display: inline-block;
   padding: 0 0.71429rem;
   font-size: 0.83333rem;
+  font-weight: 600;
   line-height: 1.42857rem;
   color: #fff;
   background: #a1a9ae;
@@ -1987,6 +1988,13 @@ a {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
+}
+
+.Badge--outline {
+  line-height: 1.35714rem;
+  color: #708189;
+  background: transparent;
+  border: 1px solid #d5d9da;
 }
 
 .List {
