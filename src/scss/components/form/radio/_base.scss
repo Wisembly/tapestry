@@ -23,6 +23,7 @@
 
   .Radio-label {
     @include Label;
+    width: 100%;
     line-height: $radio-height;
 
     @if $import-icons {

@@ -3082,6 +3082,7 @@ a {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
+  width: 100%;
   line-height: 1.42857rem;
 }
 
@@ -3389,6 +3390,7 @@ a {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
+  width: 100%;
   line-height: 1.42857rem;
 }
 

@@ -23,6 +23,7 @@
 
   .Checkbox-label {
     @include Label;
+    width: 100%;
     line-height: $checkbox-height;
 
     @if $import-icons {
