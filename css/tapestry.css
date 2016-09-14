@@ -975,7 +975,7 @@ strong {
 
 ul {
   margin: 0;
-  padding: 0;
+  padding: 0 0 0 1.42857rem;
   list-style: disc;
 }
 
@@ -986,7 +986,7 @@ ul + ol {
 
 ol {
   margin: 0;
-  padding: 0;
+  padding: 0 0 0 1.42857rem;
   list-style: decimal;
 }
 
