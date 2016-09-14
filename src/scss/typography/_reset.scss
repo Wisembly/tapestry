@@ -86,7 +86,7 @@
 
   ul {
     margin: 0;
-    padding: 0;
+    padding: 0 0 0 $pd--m;
     list-style: disc;
 
     + ul,
@@ -97,7 +97,7 @@
 
   ol {
     margin: 0;
-    padding: 0;
+    padding: 0 0 0 $pd--m;
     list-style: decimal;
 
     + ul,
