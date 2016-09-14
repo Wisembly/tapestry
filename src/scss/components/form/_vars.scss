@@ -1,7 +1,11 @@
-$form-base-color: $limed-spruce !default;
-$form-bg: $white !default;
-$form-disabled-color: $gray-chateau !default;
-$form-disabled-bg: $alabaster !default;
-$form-hover-border-color: $gray-chateau !default;
-$form-focus-border-color: $gray-chateau !default;
-$form-focus-color: $limed-spruce !default;
+$form-base-color: $outer-space !default;
+$form-placeholder-color: $slate-gray !default;
+$form-focus-color: $outer-space !default;
+$form-disabled-color: $slate-gray !default;
+
+$form-base-bg: $white !default;
+$form-disabled-bg: $porcelain !default;
+
+$form-base-border-color: $iron !default;
+$form-hover-border-color: $slate-gray !default;
+$form-focus-border-color: $slate-gray !default;

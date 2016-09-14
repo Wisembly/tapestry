@@ -1,0 +1,9 @@
+@if $import-badge {
+
+  .Badge--outline {
+    line-height: rb(4);
+    color: $badge-outline-color;
+    background: $badge-outline-bg;
+    border: 1px solid $badge-outline-border-color;
+  }
+}

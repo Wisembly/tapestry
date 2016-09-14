@@ -1,0 +1,16 @@
+@if $import-animations and $import-loading-states and $import-spinner {
+
+  .Loader-label {
+    padding-left: $loader-inner-space;
+
+    #{$loader-failed-class} & {
+      display: none;
+    }
+
+    .Loader--stacked & {
+      padding-top: $loader-inner-space;
+      padding-left: 0;
+    }
+  }
+
+}

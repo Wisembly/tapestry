@@ -18,23 +18,13 @@
 ```esc
 
 <div class="s-Icon">
-  <i class="Icon Icon--actionItem"></i>
-  actionItem
-</div>
-
-<div class="s-Icon">
-  <i class="Icon Icon--add"></i>
-  add
+  <i class="Icon Icon--academicHat"></i>
+  academicHat
 </div>
 
 <div class="s-Icon">
   <i class="Icon Icon--addUser"></i>
   addUser
-</div>
-
-<div class="s-Icon">
-  <i class="Icon Icon--agendaItem"></i>
-  agendaItem
 </div>
 
 <div class="s-Icon">
@@ -68,11 +58,6 @@
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--arrowBack"></i>
-  arrowBack
-</div>
-
-<div class="s-Icon">
   <i class="Icon Icon--arrowDown"></i>
   arrowDown
 </div>
@@ -88,8 +73,13 @@
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--arrowNext"></i>
-  arrowNext
+  <i class="Icon Icon--arrowLeft"></i>
+  arrowLeft
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--arrowRight"></i>
+  arrowRight
 </div>
 
 <div class="s-Icon">
@@ -123,6 +113,11 @@
 </div>
 
 <div class="s-Icon">
+  <i class="Icon Icon--barDiagram"></i>
+  barDiagram
+</div>
+
+<div class="s-Icon">
   <i class="Icon Icon--bell"></i>
   bell
 </div>
@@ -133,8 +128,8 @@
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--bulletDay"></i>
-  bulletDay
+  <i class="Icon Icon--bulb"></i>
+  bulb
 </div>
 
 <div class="s-Icon">
@@ -145,16 +140,6 @@
 <div class="s-Icon">
   <i class="Icon Icon--checkbox"></i>
   checkbox
-</div>
-
-<div class="s-Icon">
-  <i class="Icon Icon--checked"></i>
-  checked
-</div>
-
-<div class="s-Icon">
-  <i class="Icon Icon--checkedActionItem"></i>
-  checkedActionItem
 </div>
 
 <div class="s-Icon">
@@ -198,23 +183,58 @@
 </div>
 
 <div class="s-Icon">
+  <i class="Icon Icon--comment"></i>
+  comment
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--company"></i>
+  company
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--copy"></i>
+  copy
+</div>
+
+<div class="s-Icon">
   <i class="Icon Icon--cross"></i>
   cross
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--decision"></i>
-  decision
+  <i class="Icon Icon--dashboard"></i>
+  dashboard
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--diagram"></i>
-  diagram
+  <i class="Icon Icon--deleteUser"></i>
+  deleteUser
 </div>
 
 <div class="s-Icon">
   <i class="Icon Icon--document"></i>
   document
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--documentFull"></i>
+  documentFull
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--donutDot"></i>
+  donutDot
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--door"></i>
+  door
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--dot"></i>
+  dot
 </div>
 
 <div class="s-Icon">
@@ -233,8 +253,13 @@
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--dumbell"></i>
-  dumbell
+  <i class="Icon Icon--dropbox"></i>
+  dropbox
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--dropboxLink"></i>
+  dropboxLink
 </div>
 
 <div class="s-Icon">
@@ -268,6 +293,16 @@
 </div>
 
 <div class="s-Icon">
+  <i class="Icon Icon--flag"></i>
+  flag
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--folder"></i>
+  folder
+</div>
+
+<div class="s-Icon">
   <i class="Icon Icon--form"></i>
   form
 </div>
@@ -293,6 +328,16 @@
 </div>
 
 <div class="s-Icon">
+  <i class="Icon Icon--googleDrive"></i>
+  googleDrive
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--googleDriveLink"></i>
+  googleDriveLink
+</div>
+
+<div class="s-Icon">
   <i class="Icon Icon--grid"></i>
   grid
 </div>
@@ -303,8 +348,13 @@
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--groupRounded"></i>
-  groupRounded
+  <i class="Icon Icon--heading1"></i>
+  heading1
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--heading2"></i>
+  heading2
 </div>
 
 <div class="s-Icon">
@@ -328,6 +378,16 @@
 </div>
 
 <div class="s-Icon">
+  <i class="Icon Icon--insights"></i>
+  insights
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--integrations"></i>
+  integrations
+</div>
+
+<div class="s-Icon">
   <i class="Icon Icon--label"></i>
   label
 </div>
@@ -343,18 +403,13 @@
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--linkDropbox"></i>
-  linkDropbox
-</div>
-
-<div class="s-Icon">
-  <i class="Icon Icon--linkGoogle"></i>
-  linkGoogle
-</div>
-
-<div class="s-Icon">
   <i class="Icon Icon--linkedin"></i>
   linkedin
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--list"></i>
+  list
 </div>
 
 <div class="s-Icon">
@@ -365,6 +420,11 @@
 <div class="s-Icon">
   <i class="Icon Icon--listExpand"></i>
   listExpand
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--listPlain"></i>
+  listPlain
 </div>
 
 <div class="s-Icon">
@@ -380,11 +440,6 @@
 <div class="s-Icon">
   <i class="Icon Icon--mail"></i>
   mail
-</div>
-
-<div class="s-Icon">
-  <i class="Icon Icon--meetingList"></i>
-  meetingList
 </div>
 
 <div class="s-Icon">
@@ -408,21 +463,6 @@
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--note"></i>
-  note
-</div>
-
-<div class="s-Icon">
-  <i class="Icon Icon--openIssue"></i>
-  openIssue
-</div>
-
-<div class="s-Icon">
-  <i class="Icon Icon--openQuestion"></i>
-  openQuestion
-</div>
-
-<div class="s-Icon">
   <i class="Icon Icon--openedEye"></i>
   openedEye
 </div>
@@ -430,11 +470,6 @@
 <div class="s-Icon">
   <i class="Icon Icon--options"></i>
   options
-</div>
-
-<div class="s-Icon">
-  <i class="Icon Icon--optionsRounded"></i>
-  optionsRounded
 </div>
 
 <div class="s-Icon">
@@ -455,6 +490,11 @@
 <div class="s-Icon">
   <i class="Icon Icon--pellet"></i>
   pellet
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--pelletAdd"></i>
+  pelletAdd
 </div>
 
 <div class="s-Icon">
@@ -493,6 +533,11 @@
 </div>
 
 <div class="s-Icon">
+  <i class="Icon Icon--pieDiagram"></i>
+  pieDiagram
+</div>
+
+<div class="s-Icon">
   <i class="Icon Icon--play"></i>
   play
 </div>
@@ -518,23 +563,23 @@
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--privateNote"></i>
-  privateNote
+  <i class="Icon Icon--private"></i>
+  private
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--public"></i>
-  public
+  <i class="Icon Icon--projector"></i>
+  projector
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--quotes"></i>
+  quotes
 </div>
 
 <div class="s-Icon">
   <i class="Icon Icon--radio"></i>
   radio
-</div>
-
-<div class="s-Icon">
-  <i class="Icon Icon--recurring"></i>
-  recurring
 </div>
 
 <div class="s-Icon">
@@ -553,13 +598,13 @@
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--resetRounded"></i>
-  resetRounded
+  <i class="Icon Icon--results"></i>
+  results
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--results"></i>
-  results
+  <i class="Icon Icon--rss"></i>
+  rss
 </div>
 
 <div class="s-Icon">
@@ -618,11 +663,6 @@
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--statsRounded"></i>
-  statsRounded
-</div>
-
-<div class="s-Icon">
   <i class="Icon Icon--stop"></i>
   stop
 </div>
@@ -630,6 +670,11 @@
 <div class="s-Icon">
   <i class="Icon Icon--subtitle"></i>
   subtitle
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--summary"></i>
+  summary
 </div>
 
 <div class="s-Icon">
@@ -648,18 +693,8 @@
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--themes"></i>
-  themes
-</div>
-
-<div class="s-Icon">
-  <i class="Icon Icon--title--1"></i>
-  title--1
-</div>
-
-<div class="s-Icon">
-  <i class="Icon Icon--title--2"></i>
-  title--2
+  <i class="Icon Icon--timeline"></i>
+  timeline
 </div>
 
 <div class="s-Icon">
@@ -683,6 +718,16 @@
 </div>
 
 <div class="s-Icon">
+  <i class="Icon Icon--triangleLeft"></i>
+  triangleLeft
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--triangleRight"></i>
+  triangleRight
+</div>
+
+<div class="s-Icon">
   <i class="Icon Icon--triangleUp"></i>
   triangleUp
 </div>
@@ -690,16 +735,6 @@
 <div class="s-Icon">
   <i class="Icon Icon--twitter"></i>
   twitter
-</div>
-
-<div class="s-Icon">
-  <i class="Icon Icon--typeAdd"></i>
-  typeAdd
-</div>
-
-<div class="s-Icon">
-  <i class="Icon Icon--typeParagraph"></i>
-  typeParagraph
 </div>
 
 <div class="s-Icon">
@@ -723,18 +758,18 @@
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--voice"></i>
-  voice
+  <i class="Icon Icon--warning"></i>
+  warning
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--vote"></i>
-  vote
+  <i class="Icon Icon--warningSign"></i>
+  warningSign
 </div>
 
 <div class="s-Icon">
-  <i class="Icon Icon--wiFi"></i>
-  wiFi
+  <i class="Icon Icon--wifi"></i>
+  wifi
 </div>
 
 <div class="s-Icon">
@@ -745,6 +780,11 @@
 <div class="s-Icon">
   <i class="Icon Icon--wisemblyFull"></i>
   wisemblyFull
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--youtube"></i>
+  youtube
 </div>
 
 ```

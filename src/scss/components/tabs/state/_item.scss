@@ -1,7 +1,9 @@
 @if $import-tabs and $import-pseudo-classes {
 
-  .Tab-item {
+  .Tab {
     &:hover {
+      color: $tab-selected-color;
+
       &:after {
         height: $tab-underline-size;
       }

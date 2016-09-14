@@ -8,8 +8,22 @@
     }
   }
 
+  .Checkbox--inline {
+    display: inline-block;
+    margin-right: $checkbox-space-between;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    +.Checkbox--inline {
+      margin-top: 0;
+    }
+  }
+
   .Checkbox-label {
     @include Label;
+    width: 100%;
     line-height: $checkbox-height;
 
     @if $import-icons {

@@ -4,10 +4,12 @@
     display: inline-block;
     padding: 0 $pd--s;
     font-size: $fz--s;
-    line-height: $base-lh;
+    font-weight: $fw--semi-bold;
+    line-height: r(4);
     color: $badge-color;
     background: $badge-bg;
     border-radius: $base-lh;
+    user-select: none;
   }
 
 }

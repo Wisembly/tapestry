@@ -1,12 +1,15 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <!-- Generator: Sketch 3.4.2 (15857) - http://www.bohemiancoding.com/sketch -->
-    <title>wisembly</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="wisembly" sketch:type="MSArtboardGroup" transform="translate(-6.000000, -6.000000)" fill="#3A434C">
-            <path d="M19.9266844,15.2006634 L19.9248769,15.1998234 L19.9274611,15.1952832 L19.9214313,15.1944577 L19.9227234,15.1870281 L24.9269972,17.5120587 L18.3321577,26.2041975 L19.9214313,15.1944577 L19.9274611,15.1952832 L19.9248769,15.1998234 L19.9274611,15.1952832 L19.9330601,15.1956959 L19.9327641,15.197747 L19.9274611,15.1952832 L19.9266844,15.2006634 Z M11.5529796,19.7648576 L6.08527529,9.96241667 L6.08182971,20.7088209 L11.5564252,19.7714617 L11.5529796,19.7648576 Z M17.4643023,20.3934785 L6.04651252,22.3474453 L16.7105817,25.6717477 L17.4720548,20.3922403 L17.4643023,20.3934785 Z M19.3628167,7.50076531 L15.5089358,11.3430712 L15.515827,11.3463732 L25.9520572,16.1974444 L19.3628167,7.50076531 Z M18.355846,6.17087922 L7.71761868,9.47990989 L7.7141731,9.4832119 L7.7146038,9.48775217 L10.3297988,14.1753736 L10.3341058,14.1782629 L10.3388434,14.1766119 L18.3618758,6.17954701 L18.3627372,6.17294298 L18.355846,6.17087922 Z" sketch:type="MSShapeGroup"></path>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 20 20" style="enable-background:new 0 0 20 20;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#3A434C;}
+</style>
+<g>
+	<polygon class="st0" points="12.4,0 12.4,0 1.7,3.3 1.7,3.3 1.7,3.3 4.3,8 4.3,8 4.3,8 12.4,0 	"/>
+	<polygon class="st0" points="0.1,14.5 5.6,13.6 5.6,13.6 0.1,3.8 	"/>
+	<polygon class="st0" points="9.5,5.2 9.5,5.2 19.9,10 13.4,1.3 	"/>
+	<polygon class="st0" points="11.5,14.2 11.5,14.2 0.1,16.1 10.7,19.5 	"/>
+	<path class="st0" d="M13.9,9L13.9,9l-1.6,11l6.6-8.7L13.9,9z M13.9,9L13.9,9L13.9,9L13.9,9L13.9,9L13.9,9L13.9,9z"/>
+</g>
 </svg>

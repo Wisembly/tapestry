@@ -1,11 +1,40 @@
-$btn-pdv: $pd--s !default;
-$btn-pdh: $pd--m !default;
-$btn-pdv--s: $pd--xs !default;
-$btn-pdh--s: $pd--s !default;
+$btn-pdv: r(2) !default;
+$btn-pdh: r(3) !default;
+$btn-pdv--s: r(1) !default;
+$btn-pdh--s: r(2) !default;
 
 $btn-fixed-unit: r(8) !default;
 $btn-fixed-unit--s: r(6) !default;
 
 $btn-name-colors: "-primary" "-alt" "-validate" "-info" "-error";
-$btn-base-colors: $venice-blue $curious-blue $mint $saffron $mandy;
-$btn-hover-colors: $atoll $eastern-blue $ocean-green $galliano $fuzzy-wuzzy-brown;
+
+$btn-base-colors: $venice-blue $boston-blue $mint $saffron $mandy;
+$btn-hover-colors: $atoll $jelly-bean $ocean-green $galliano $fuzzy-wuzzy-brown;
+
+$btn-outline-base-color: $slate-gray !default;
+$btn-outline-base-border-color: $silver-sand !default;
+
+$btn-outline-hover-color: $shuttle-gray !default;
+$btn-outline-hover-border-color: $shuttle-gray !default;
+
+$btn-group-space-between: $mg--s !default;
+$btn-group-selected-color: $mint !default;
+$btn-group-selected-item-selector: ".is-selected" !default;
+
+
+$btn-loading-selector: ".is-loading >" !default;
+$btn-loading-spinner-primary-color: $white !default;
+$btn-loading-spinner-outline-color: $slate-gray !default;
+$btn-loading-spinner-secondary-color: rgba($outer-space, .3) !default;
+$btn-loading-duration: 1s !default;
+$btn-loading-spinner-thickness: 2px !default;
+
+$btn-failed-selector: ".has-failed >" !default;
+$btn-failed-bg: $mandy !default;
+$btn-failed-color: $white !default;
+
+$btn-completed-selector: ".has-completed >" !default;
+$btn-completed-bg: $mint !default;
+$btn-completed-color: $white !default;
+
+$btn-end-animation-duration: .5s !default;

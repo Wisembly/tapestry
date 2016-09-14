@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 19.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Calque_1" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 22 20"
-	 style="enable-background:new 0 0 22 20;" xml:space="preserve">
-<title>fullscreen</title>
-<desc>Created with Sketch.</desc>
-<path id="Fill-1" sketch:type="MSShapeGroup" d="M19.3,0H2.7C1.2,0,0,1.2,0,2.7v14.6C0,18.8,1.2,20,2.7,20h16.5
-	c1.5,0,2.7-1.2,2.7-2.7V2.7C22,1.2,20.8,0,19.3,0L19.3,0z M20.1,17.3c0,0.4-0.4,0.8-0.8,0.8H2.7c-0.4,0-0.8-0.4-0.8-0.8V2.7
-	c0-0.4,0.4-0.8,0.8-0.8h16.5c0.4,0,0.8,0.4,0.8,0.8V17.3L20.1,17.3z"/>
-<path id="Fill-2" sketch:type="MSShapeGroup" class="st0" d="M17.6,9.3h-1.9v-3h-3.1V4.4h4.9V9.3z M6.3,13.7h3.1v1.8H4.4v-4.8h1.9
-	V13.7z"/>
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 20 20" style="enable-background:new 0 0 20 20;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#3A434C;}
+</style>
+<polygon class="st0" points="3.8,9.7 5.8,9.7 5.8,6.9 8.4,6.9 8.4,4.9 3.8,4.9 "/>
+<path class="st0" d="M17.7,1H2.3C1,1,0,2,0,3.3v13.4C0,18,1,19,2.3,19h15.4c1.3,0,2.3-1,2.3-2.3V3.3C20,2,19,1,17.7,1z M18,16.7
+	l-0.1,0.2L17.7,17H2.3l-0.2-0.1L2,16.7V3.3l0.1-0.2L2.3,3h15.4l0.2,0.1L18,3.3V16.7z"/>
+<polygon class="st0" points="14.2,13 11.5,13 11.5,15 16.2,15 16.2,10.3 14.2,10.3 "/>
 </svg>

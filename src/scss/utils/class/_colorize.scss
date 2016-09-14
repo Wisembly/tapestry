@@ -8,6 +8,10 @@
     @include bg($primary, true, true);
   }
 
+  .u-alt {
+    @include bg($alt, true, true);
+  }
+
   .u-validate {
     @include bg($validate, true, true);
   }

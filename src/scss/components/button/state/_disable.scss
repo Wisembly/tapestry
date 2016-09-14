@@ -1,14 +1,18 @@
 @if $import-button and $import-pseudo-classes {
 
-  .Btn[disabled],
-  .Btn[aria-disabled="true"] {
-    &:hover {
-      color: $gray-chateau;
-      background: $iron;
-    }
+  .Btn {
+    &.Btn[disabled] {
+      &:hover,
+      &:focus {
+        color: $gray-chateau;
+        background-color: $iron;
+        border-color: $iron;
+        border-radius: $base-radius;
+      }
 
-    &:active {
-      box-shadow: inset 0 0 0 0 $transparent;
+      &:active {
+        box-shadow: none;
+      }
     }
   }
 

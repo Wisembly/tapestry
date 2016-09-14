@@ -1,142 +1,117 @@
 # Buttons
-```esc
-<ul class="u-mgb--m">
-  <li><strong>Outline:</strong> transparent button with borders</li>
-  <li><strong>Raw:</strong> transparent button without borders</li>
-  <li><strong>Inverted:</strong> white button without borders</li>
-</ul>
-```
+
+## Types
+
+| Type           | desc.                              |
+|----------------|------------------------------------|
+| ** outline **  | transparent button with borders    |
+| ** raw **      | transparent button without borders |
+| ** inverted ** | white button without borders       |
 
 ```html
-<button class="Btn">default button</button>
-<button class="Btn Btn--outline">Outlined button</button>
-<button class="Btn" aria-disabled="true" disabled>Disabled button</button>
-<button class="Btn Btn--raw">Raw button</button>
-<button class="Btn Btn--inverted">Inverted button</button>
+<button type="button" class="Btn">default button</button>
+<button type="button" class="Btn Btn--outline">Outlined button</button>
+<button type="button" class="Btn" disabled>Disabled button</button>
+<button type="button" class="Btn Btn--raw">Raw button</button>
+<button type="button" class="Btn Btn--inverted">Inverted button</button>
 ```
+
+
 
 ## Variables
-```esc
-<table class="Table">
-  <thead class="Table-head">
-    <th class="Table-cell Table-cell--header u-tal" style="width: 25%;">Name</th>
-    <th class="Table-cell Table-cell--header" style="width: 10%;">Type</th>
-    <th class="Table-cell Table-cell--header">Description</th>
-  </thead>
-  <tbody class="Table-body">
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal" style="width: 25%;">$btn-pdv</td>
-      <td class="Table-cell">padding</td>
-      <td class="Table-cell">vertical padding for regular buttons<br><code>$pd--s</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal" style="width: 25%;">$btn-pdv--s</td>
-      <td class="Table-cell">padding</td>
-      <td class="Table-cell">vertical padding for small buttons<br><code>$pd--xs</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal" style="width: 25%;">$btn-pdh</td>
-      <td class="Table-cell">padding</td>
-      <td class="Table-cell">horizontal padding for regular buttons<br><code>$pd--s</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal" style="width: 25%;">$btn-pdh--s</td>
-      <td class="Table-cell">padding</td>
-      <td class="Table-cell">horizontal padding for small buttons<br><code>$pd--xs</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$btn-fixed-unit</td>
-      <td class="Table-cell">size</td>
-      <td class="Table-cell">squared and circle button size<br><code>r(8)</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$btn-fixed-unit--s</td>
-      <td class="Table-cell">size</td>
-      <td class="Table-cell">small squared and circle button size<br><code>r(6)</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$btn-name-colors</td>
-      <td class="Table-cell">list</td>
-      <td class="Table-cell">button classnames<br><code>"-primary" "-alt" "-validate" "-info" "-error"</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$btn-base-colors</td>
-      <td class="Table-cell">list</td>
-      <td class="Table-cell">button default colors<br><code>$venice-blue $curious-blue $mint $saffron $mandy</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$btn-hover-colors</td>
-      <td class="Table-cell">list</td>
-      <td class="Table-cell">button hover colors<br><code>$atoll $eastern-blue $ocean-green $galliano $fuzzy-wuzzy-brown</code></td>
-    </tr>
-  </tbody>
-</table>
-```
 
+| Variable                                   | property         | value                                                          | desc.                                   |
+|--------------------------------------------|------------------|----------------------------------------------------------------|-----------------------------------------|
+| ** $btn-pdv **                             | padding          | `$pd--s`                                                       | vertical padding for regular buttons    |
+| ** $btn-pdv--s **                          | padding          | `$pd--xs`                                                      | vertical padding for small buttons      |
+| ** $btn-pdh **                             | padding          | `$pd--s`                                                       | horizontal padding for regular buttons  |
+| ** $btn-pdh--s **                          | padding          | `$pd--xs`                                                      | horizontal padding for small buttons    |
+| ** $btn-fixed-unit **                      | size             | `r(8)`                                                         | squared button size                     |
+| ** $btn-fixed-unit--s **                   | size             | `r(6)`                                                         | small squared button size               |
+| ** $btn-name-colors **                     | list             | `"-primary" "-alt" "-validate" "-info" "-error"`               | button classnames                       |
+| ** $btn-base-colors **                     | list             | `$venice-blue $boston-blue $mint $saffron $mandy`              | button default colors                   |
+| ** $btn-hover-colors **                    | list             | `$atoll $jelly-bean $ocean-green $galliano $fuzzy-wuzzy-brown` | button hover colors                     |
+| ** $btn-outline-base-color **              | color            | `$slate-gray`                                                  | outline button base color               |
+| ** $btn-outline-base-border-color **       | border-color     | `$base-border-color`                                           | outline button base border-color        |
+| ** $btn-outline-hover-color **             | color            | `$shuttle-gray`                                                | outline button hover color              |
+| ** $btn-outline-hover-border-color **      | border-color     | `$shuttle-gray`                                                | outline button hover border-color       |
+| ** $btn-group-space-between **             | margin           | `$pd--s`                                                       | space between button-groups             |
+| ** $btn-group-selected-color **            | color            | `$mint`                                                        | selected color for button-group item    |
+| ** $btn-group-selected-item-selector **    | selector         | `".is-selected"`                                               | selector for selected button-group item |
+| ** $btn-loading-selector **                | selector         | `".is-loading >"`                                              | loading button selector                 |
+| ** $btn-loading-spinner-primary-color **   | color            | `$white`                                                       | button-spinner color                    |
+| ** $btn-loading-spinner-secondary-color ** | color            | `$deep-sea-green`                                              | button-spinner container color          |
+| ** $btn-loading-spinner-outline-color **   | color            | `$slate-gray`                                                  | button-outline spinner color            |
+| ** $btn-loading-duration **                | time             | `1s`                                                           | button-spinner duration                 |
+| ** $btn-loading-spinner-thickness **       | size             | `2px`                                                          | button-spinner thickness                |
+| ** $btn-failed-selector **                 | selector         | `".has-failed >"`                                              | failing button selector                 |
+| ** $btn-failed-bg **                       | background-color | `$mandy`                                                       | failing button background               |
+| ** $btn-failed-color **                    | background-color | `$white`                                                       | failing button label color              |
+| ** $btn-completed-selector **              | selector         | `".has-completed >"`                                           | completed button selector               |
+| ** $btn-completed-bg **                    | background-color | `$mint`                                                        | completed button background             |
+| ** $btn-completed-color **                 | background-color | `$white`                                                       | completed button label color            |
+| ** $btn-end-animation-duration **          | time             | `.5s`                                                          | button end animation duration           |
 
 
 ## Sizes
 
 ```html
-<button class="Btn Btn--s">Small button</button>
-<button class="Btn Btn--outline Btn--s">Small outlined button</button>
-<button class="Btn Btn--s" aria-disabled="true" disabled>Small disabled button</button>
-<button class="Btn Btn--raw Btn--s">Small raw button</button>
-<button class="Btn Btn--inverted Btn--s">Small inverted button</button>
+<button type="button" class="Btn Btn--s">Small button</button>
+<button type="button" class="Btn Btn--outline Btn--s">Small outlined button</button>
+<button type="button" class="Btn Btn--s" disabled>Small disabled button</button>
+<button type="button" class="Btn Btn--raw Btn--s">Small raw button</button>
+<button type="button" class="Btn Btn--inverted Btn--s">Small inverted button</button>
 ```
+
+
 
 ## Block
 ```html
-<button class="Btn Btn--alt Btn--block">Block button</button>
+<button type="button" class="Btn Btn--alt Btn--block">Block button</button>
 ```
+
+
 
 ## Expand
 ```html
-<div class="BtnGroup Btn-expandContainer">
-  <button class="Btn Btn--expand">Expanded button</button>
-  <button class="Btn Btn--validate">Button</button>
+<div class="BtnContainer">
+  <button type="button" class="Btn Btn--expand">Expanded button</button>
+  <button type="button" class="Btn Btn--validate">Button</button>
 </div>
 ```
 
+
+
 ## Squared
 ```html
-<button class="Btn Btn--squared">
+<button type="button" class="Btn Btn--squared">
   <i class="Icon Icon--like"></i>
 </button>
-<button class="Btn Btn--s Btn--outline Btn--squared">
+<button type="button" class="Btn Btn--s Btn--outline Btn--squared">
   <i class="Icon Icon--trash"></i>
 </button>
 ```
 
 
-## Circle
-```html
-<button class="Btn Btn--circle">
-  <i class="Icon Icon--like"></i>
-</button>
-<button class="Btn Btn--s Btn--outline Btn--circle">
-  <i class="Icon Icon--options"></i>
-</button>
-```
 
 ## Types
 
 ```html
-<button class="Btn Btn--raw">Raw button</button>
+<button type="button" class="Btn Btn--raw">Raw button</button>
 ```
 
 ```html
-<button class="Btn">
+<button type="button" class="Btn">
   <i class="Btn-icon Icon Icon--like"></i>
   Button with icon
 </button>
 
-<button class="Btn Btn--s">
+<button type="button" class="Btn Btn--s">
   <i class="Btn-icon Icon Icon--like Icon--s"></i>
   Button with icon
 </button>
 
-<button class="Btn has-icon">
+<button type="button" class="Btn has-icon">
   <i class="Btn-icon Icon Icon--like"></i>
   Button with icon
 </button>
@@ -147,85 +122,110 @@
 </button>
 ```
 
+
+
 ## Colors
 
 ```html
-<button class="Btn Btn--primary">primary button</button>
-<button class="Btn Btn--alt">alt button</button>
-<button class="Btn Btn--validate">validate button</button>
-<button class="Btn Btn--info">info button</button>
-<button class="Btn Btn--error">error button</button>
+<button type="button" class="Btn Btn--primary">primary button</button>
+<button type="button" class="Btn Btn--alt">alt button</button>
+<button type="button" class="Btn Btn--validate">validate button</button>
+<button type="button" class="Btn Btn--info">info button</button>
+<button type="button" class="Btn Btn--error">error button</button>
 ```
 ```html
-<button class="Btn Btn--primary Btn--outline">primary button</button>
-<button class="Btn Btn--alt Btn--outline">alt button</button>
-<button class="Btn Btn--validate Btn--outline">validate button</button>
-<button class="Btn Btn--info Btn--outline">info button</button>
-<button class="Btn Btn--error Btn--outline">error button</button>
+<button type="button" class="Btn Btn--primary Btn--outline">primary button</button>
+<button type="button" class="Btn Btn--alt Btn--outline">alt button</button>
+<button type="button" class="Btn Btn--validate Btn--outline">validate button</button>
+<button type="button" class="Btn Btn--info Btn--outline">info button</button>
+<button type="button" class="Btn Btn--error Btn--outline">error button</button>
 ```
 ```html
-<button class="Btn Btn--primary Btn--raw">primary button</button>
-<button class="Btn Btn--alt Btn--raw">alt button</button>
-<button class="Btn Btn--validate Btn--raw">validate button</button>
-<button class="Btn Btn--info Btn--raw">info button</button>
-<button class="Btn Btn--error Btn--raw">error button</button>
+<button type="button" class="Btn Btn--primary Btn--raw">primary button</button>
+<button type="button" class="Btn Btn--alt Btn--raw">alt button</button>
+<button type="button" class="Btn Btn--validate Btn--raw">validate button</button>
+<button type="button" class="Btn Btn--info Btn--raw">info button</button>
+<button type="button" class="Btn Btn--error Btn--raw">error button</button>
 ```
 ```html
 <div class="u-primary u-pd--m">
-  <button class="Btn Btn--primary Btn--inverted">primary button</button>
-  <button class="Btn Btn--alt Btn--inverted">alt button</button>
-  <button class="Btn Btn--validate Btn--inverted">validate button</button>
-  <button class="Btn Btn--info Btn--inverted">info button</button>
-  <button class="Btn Btn--error Btn--inverted">error button</button>
+  <button type="button" class="Btn Btn--primary Btn--inverted">primary button</button>
+  <button type="button" class="Btn Btn--alt Btn--inverted">alt button</button>
+  <button type="button" class="Btn Btn--validate Btn--inverted">validate button</button>
+  <button type="button" class="Btn Btn--info Btn--inverted">info button</button>
+  <button type="button" class="Btn Btn--error Btn--inverted">error button</button>
 </div>
 ```
+
+
 
 ## Isolated cases
 ```html
 <div class="u-primary u-pd--m">
-  <button class="Btn Btn--inverted Btn--outline">Inverted&outlined button</button>
-  <button class="Btn Btn--inverted Btn--raw">Inverted&raw button</button>
+  <button type="button" class="Btn Btn--inverted Btn--outline">Inverted&outlined button</button>
+  <button type="button" class="Btn Btn--inverted Btn--raw">Inverted&raw button</button>
 </div>
 ```
+
 
 
 ## Button group
 
 ```html
 <div class="BtnGroup">
-  <button class="Btn">Button A</button>
-  <div class="Dropdown BtnGroup-dropdown" data-tapestry="dropdown">
-    <button type="button" class="Dropdown-toggle Btn" aria-controls="dropdownDividerExample" aria-expanded="false">Button B</button>
-    <ul id="dropdownDividerExample" class="Dropdown-list" aria-labelledby="dropdownMenuDivider">
-      <li class="Dropdown-item">
-        Simple label 1
-      </li>
-      <li class="Dropdown-item">
-        Simple label 2
-      </li>
-    </ul>
-  </div>
-  <button class="Btn">Button C</button>
+  <button class="Btn BtnGroup-item is-selected">Button A</button>
+  <button class="Btn BtnGroup-item">Button B</button>
+  <button class="Btn BtnGroup-item" disabled>Button C</button>
 </div>
 <div class="BtnGroup">
-  <div class="Dropdown BtnGroup-dropdown" data-tapestry="dropdown">
-    <button type="button" class="Dropdown-toggle Btn Btn--outline" aria-controls="dropdownDividerExample" aria-expanded="false">Button A</button>
-    <ul id="dropdownDividerExample" class="Dropdown-list" aria-labelledby="dropdownMenuDivider">
-      <li class="Dropdown-item">
-        Simple label 1
-      </li>
-      <li class="Dropdown-item">
-        Simple label 2
-      </li>
-    </ul>
-  </div>
-  <button class="Btn Btn--outline">Button B</button>
-  <button class="Btn Btn--outline">Button C</button>
+  <button class="Btn BtnGroup-item BtnGroup-item--s">Button A</button>
+  <button class="Btn BtnGroup-item BtnGroup-item--s">Button B</button>
+  <button class="Btn BtnGroup-item BtnGroup-item--s is-selected">Button C</button>
 </div>
-<div class="BtnGroup">
-  <button class="Btn Btn--s Btn--primary Btn--outline" disabled>Button A</button>
-  <button class="Btn Btn--s Btn--primary Btn--outline" disabled>Button B</button>
-  <button class="Btn Btn--s Btn--primary Btn--outline" disabled>Button C</button>
+```
+
+
+## Buttons with statuses
+
+```html
+<div class="js-BtnComplete" style="display: inline-block; margin-right: 1rem;">
+  <button type="button" class="Btn Btn--block Btn--validate has-icon Btn--status js-BtnStatus" data-oauth="google_light">
+          <i class="Btn-icon Icon Icon--google"></i>
+          Se connecter avec Google
+        </button>
+</div>
+<div class="js-BtnFail" style="display: inline-block; margin-right: 1rem;">
+  <button type="button" class="Btn Btn--status js-BtnStatus">I'm a loser, baby!</button>
 </div>
 
+<div class="js-BtnComplete" style="display: inline-block; margin-right: 1rem;">
+  <button type="button" class="Btn Btn--outline Btn--status js-BtnStatus">Great success!</button>
+</div>
+<div class="js-BtnFail" style="display: inline-block; margin-right: 1rem;">
+  <button type="button" class="Btn Btn--outline Btn--status js-BtnStatus">I'm a loser, baby!</button>
+</div>
+
+<div class="js-BtnComplete" style="display: inline-block; margin-right: 1rem;">
+  <button type="button" class="Btn Btn--s Btn--status js-BtnStatus">Great success!</button>
+</div>
+<div class="js-BtnFail" style="display: inline-block;">
+  <button type="button" class="Btn Btn--s Btn--status js-BtnStatus">I'm a loser, baby!</button>
+</div>
+```
+
+```esc
+<script>
+  $(document).ready(function(){
+    $('.js-BtnStatus').on('click', function (event) {
+      var $parent = $(event.currentTarget).parent();
+      var shoudComplete = $parent.hasClass('js-BtnComplete');
+
+      $parent.removeClass('is-loading has-failed has-completed').addClass('is-loading');
+
+      setTimeout(function () {
+        $parent.removeClass('is-loading has-failed').addClass(shoudComplete ? 'has-completed' : 'has-failed');
+      }, 3000);
+    })
+  });
+</script>
 ```

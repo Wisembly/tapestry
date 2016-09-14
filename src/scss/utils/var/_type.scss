@@ -1,6 +1,6 @@
 // Font
 
-$ff--ss-serif: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif !default;
+$ff--ss-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif !default;
 $ff--serif: Georgia, Cambria, "Times New Roman", Times, serif !default;
 $f-path: if($use-webpack-config, unquote("~node_modules/tapestry-css/dist/fonts") , unquote("../fonts")) !default;
 
@@ -9,14 +9,13 @@ $f-path: if($use-webpack-config, unquote("~node_modules/tapestry-css/dist/fonts"
 // Base font-sizes
 
 $base-fz: 14px !default;
-$base-fz--stripped: $base-fz / ($base-fz * 0 + 1);
 $base-fz--rem: rem($base-fz);
 
 
 
 // Vertical unit
 
-$base-vu: 5.5px !default;
+$base-vu: 5px !default;
 
 
 
@@ -37,6 +36,7 @@ $ms-ratio: 1.2 !default;
 $base-lh: rem($base-vu * $base-lhm) !default;
 
 $lh--s: r(3);
+$lh--m: $base-lh;
 $lh--l: r(6);
 $lh--xl: r(8);
 

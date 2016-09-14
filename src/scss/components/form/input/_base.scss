@@ -8,11 +8,15 @@
     line-height: $base-lh;
     vertical-align: middle;
     color: $form-base-color;
-    background: $form-bg;
-    border: 1px solid $base-border-color;
+    background: $form-base-bg;
+    border: 1px solid $form-base-border-color;
     border-radius: $base-radius;
     transition: border .2s ease-in-out;
     appearance: none;
+
+    &::placeholder {
+      color: $form-placeholder-color;
+    }
 
     &:focus {
       color: $form-focus-color;
@@ -20,10 +24,16 @@
       outline: none;
     }
 
-    &[disabled],
+    &[disabled] {
+      color: $form-disabled-color;
+      background: $form-disabled-bg;
+    }
+
     &[readonly] {
       color: $form-disabled-color;
       background: $form-disabled-bg;
+      cursor: text;
+      user-select: all;
     }
 
     + .Input,

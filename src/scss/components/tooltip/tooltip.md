@@ -2,57 +2,20 @@
 
 ## Variables
 
-```esc
-<table class="Table">
-  <thead class="Table-head">
-    <th class="Table-cell Table-cell--header u-tal" style="width: 25%;">Name</th>
-    <th class="Table-cell Table-cell--header" style="width: 10%;">Type</th>
-    <th class="Table-cell Table-cell--header">Description</th>
-  </thead>
-  <tbody class="Table-body">
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$tooltip-arrow-size</td>
-      <td class="Table-cell">size</td>
-      <td class="Table-cell">tooltip arrow size<br><code>rem(5px)</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$tooltip-bg</td>
-      <td class="Table-cell">background-color</td>
-      <td class="Table-cell">tooltip background-color<br><code>rgba($black, .8)</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$tooltip-color</td>
-      <td class="Table-cell">color</td>
-      <td class="Table-cell">tooltip color<br><code>$white</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$tooltip-space-between-content</td>
-      <td class="Table-cell">size</td>
-      <td class="Table-cell">space between tooltip and content<br><code>$mg--xs</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$tooltip-width</td>
-      <td class="Table-cell">width</td>
-      <td class="Table-cell">tooltip width<br><code>10rem</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$tooltip-large-width</td>
-      <td class="Table-cell">width</td>
-      <td class="Table-cell">large tooltip width<br><code>20rem</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$tooltip-pd</td>
-      <td class="Table-cell">padding</td>
-      <td class="Table-cell">tooltip padding<br><code>$pd--s</code></td>
-    </tr>
-  </tbody>
-</table>
-```
+| Variable                             | property         | value              | desc.                             |
+|--------------------------------------|------------------|--------------------|-----------------------------------|
+| ** $tooltip-arrow-size **            | size             | `rem(5px)`         | tooltip arrow size                |
+| ** $tooltip-bg **                    | background-color | `rgba($black, .8)` | tooltip background-color          |
+| ** $tooltip-color **                 | color            | `$white`           | tooltip color                     |
+| ** $tooltip-space-between-content ** | size             | `$mg--xs`          | space between tooltip and content |
+| ** $tooltip-width **                 | width            | `10rem`            | tooltip width                     |
+| ** $tooltip-large-width **           | width            | `20rem`            | large tooltip width               |
+| ** $tooltip-pd **                    | padding          | `$pd--s`           | tooltip padding                   |
 
 
 
 ```html
-<p>Default <span class="has-tooltip" aria-label="Classic tooltip" style="font-weight: bold;">tooltip</span></p>
+<p>Default <strong class="has-tooltip" aria-label="Classic tooltip">tooltip</strong></p>
 ```
 
 
@@ -60,19 +23,19 @@
 ## Directions
 
 ```html
-<p>Tooltip <span class="has-tooltip has-tooltip--top" aria-label="Tooltip on the top" style="font-weight: bold;">on the top</span></p>
+<p>Tooltip <strong class="has-tooltip has-tooltip--top" aria-label="Tooltip on the top">on the top</strong></p>
 ```
 
 ```html
-<p>Tooltip <span class="has-tooltip has-tooltip--right" aria-label="Tooltip on the right" style="font-weight: bold;">on the right</span></p>
+<p>Tooltip <strong class="has-tooltip has-tooltip--right" aria-label="Tooltip on the right">on the right</strong></p>
 ```
 
 ```html
-<p>Tooltip <span class="has-tooltip has-tooltip--bottom" aria-label="Tooltip on the bottom" style="font-weight: bold;">on the bottom</span></p>
+<p>Tooltip <strong class="has-tooltip has-tooltip--bottom" aria-label="Tooltip on the bottom">on the bottom</strong></p>
 ```
 
 ```html
-<p>Tooltip <span class="has-tooltip" aria-label="Tooltip on the left" style="font-weight: bold;">on the left</span></p>
+<p>Tooltip <strong class="has-tooltip" aria-label="Tooltip on the left">on the left</strong></p>
 ```
 
 
@@ -80,5 +43,5 @@
 ## Sizes
 
 ```html
-<p>Bigger <span class="has-tooltip has-tooltip--l has-tooltip--right" aria-label="Bigger tooltip for longer text, you know. Because longer text are more significants, because they contains more words, because they're more significants" style="font-weight: bold;">tooltip</span></p>
+<p>Bigger <strong class="has-tooltip has-tooltip--l has-tooltip--right" aria-label="Bigger tooltip for longer text, you know. Because longer text are more significants, because they contains more words, because they're more significants">tooltip</strong></p>
 ```

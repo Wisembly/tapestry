@@ -1,0 +1,15 @@
+@if $import-spinner {
+
+  .Spinner--s {
+    width: $small-spinner-size;
+    height: $small-spinner-size;
+    border-width: $small-spinner-thickness;
+  }
+
+  .Spinner--l {
+    width: $large-spinner-size;
+    height: $large-spinner-size;
+    border-width: $large-spinner-thickness;
+  }
+
+}

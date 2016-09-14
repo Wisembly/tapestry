@@ -10,6 +10,7 @@
     color: $notification-base-color;
     background: $notification-base-bg;
     border-radius: $base-radius;
+    user-select: none;
   }
 
 }

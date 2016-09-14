@@ -1,12 +1,14 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <!-- Generator: Sketch 3.4.2 (15857) - http://www.bohemiancoding.com/sketch -->
-    <title>starOutlined</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="starOutlined" sketch:type="MSArtboardGroup" transform="translate(-6.000000, -6.000000)" fill="#3A434C">
-            <path d="M26.0090625,13.7358125 L21.6699375,13.3683125 L18.812625,13.1255 L16.003875,6.5 L13.1964375,13.1255 L10.339125,13.3683125 L6,13.7358125 L11.4613125,18.467375 L9.8206875,25.502375 L16.003875,21.769625 L22.188375,25.502375 L20.54775,18.467375 L26.0090625,13.7358125 L26.0090625,13.7358125 Z M18.5068125,17.805875 L19.4098125,21.6790625 L16.003875,19.6236875 L12.59925,21.6790625 L13.50225,17.805875 L10.494,15.19925 L14.4564375,14.86325 L16.003875,11.20925 L17.552625,14.86325 L21.5150625,15.19925 L18.5068125,17.805875 L18.5068125,17.805875 Z" sketch:type="MSShapeGroup"></path>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 20 20" style="enable-background:new 0 0 20 20;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#3A434C;}
+</style>
+<path class="st0" d="M20,7.5c-0.1-0.4-0.5-0.6-0.9-0.7l-3.9-0.3l-2-0.2l-0.8-1.9l-1.5-3.8C10.8,0.2,10.4,0,10,0S9.2,0.2,9.1,0.6
+	L7.6,4.4L6.8,6.3l-2,0.2L0.9,6.9C0.5,6.9,0.2,7.2,0,7.5s0,0.8,0.3,1.1l3,2.7l1.5,1.4l-0.5,2.1l-0.9,4c-0.1,0.4,0.1,0.8,0.4,1
+	c0.3,0.2,0.8,0.2,1.1,0l3.3-2.1l1.7-1.1l1.7,1.1l3.4,2.1c0.3,0.2,0.8,0.2,1.1,0c0.3-0.2,0.5-0.6,0.4-1l-0.9-4l-0.5-2.1l1.5-1.4
+	l3-2.7C20,8.3,20.1,7.9,20,7.5z M13.4,11.6c-0.3,0.2-0.4,0.6-0.3,1l0.6,2.7l0.4,1.7L12.8,16l-2.2-1.4c-0.3-0.2-0.7-0.2-1.1,0L7.3,16
+	l-1.3,0.8l0.4-1.7l0.6-2.7c0.1-0.4,0-0.7-0.3-1l-2-1.8L3.3,8.6L5,8.5l2.6-0.2c0.4,0,0.7-0.3,0.8-0.6l1-2.5L10,3.7l0.6,1.5l1,2.5
+	c0.1,0.3,0.5,0.6,0.8,0.6L15,8.5l1.6,0.1l-1.3,1.2L13.4,11.6z"/>
 </svg>

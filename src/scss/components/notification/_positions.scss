@@ -2,30 +2,46 @@
 
   .Notification--tc {
     top: $notification-outer-space;
-    right: auto;
     left: 50%;
-    transform: translate3d(-50%, 0, 0);
+    transform: translateX(-50%);
   }
 
   .Notification--tr {
     top: $notification-outer-space;
     right: $notification-outer-space;
-    bottom: auto;
-    left: auto;
-    margin-left: $notification-outer-space;
   }
 
-  .Notification--bl {
-    right: auto;
-    bottom: $notification-outer-space;
-    left: $notification-outer-space;
-    margin-right: $notification-outer-space;
+  .Notification--rc {
+    top: 50%;
+    right: $notification-outer-space;
+    transform: translateY(-50%);
   }
 
   .Notification--br {
     right: $notification-outer-space;
     bottom: $notification-outer-space;
-    left: auto;
+  }
+
+  .Notification--bc {
+    bottom: $notification-outer-space;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .Notification--bl {
+    bottom: $notification-outer-space;
+    left: $notification-outer-space;
+  }
+
+  .Notification--lc {
+    top: 50%;
+    left: $notification-outer-space;
+    transform: translateY(-50%);
+  }
+
+  .Notification--tl {
+    top: $notification-outer-space;
+    left: $notification-outer-space;
   }
 
 }

@@ -1,0 +1,31 @@
+@if $import-animations and $import-loading-states and $import-spinner {
+
+  .Btn--status.Btn--outline {
+    #{$btn-loading-selector} & {
+      background: $transparent;
+
+      &:after {
+        border-top-color: $btn-loading-spinner-outline-color;
+      }
+    }
+
+    #{$btn-failed-selector} & {
+      background: $white;
+      border-color: $btn-failed-bg;
+
+      &:after {
+        color: $mandy;
+      }
+    }
+
+    #{$btn-completed-selector} & {
+      background: $white;
+      border-color: $btn-completed-bg;
+
+      &:after {
+        color: $mint;
+      }
+    }
+  }
+
+}

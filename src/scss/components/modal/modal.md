@@ -1,37 +1,13 @@
 # Modal
 
 ## Variables
-```esc
-<table class="Table">
-  <thead class="Table-head">
-    <th class="Table-cell Table-cell--header u-tal" style="width: 25%;">Name</th>
-    <th class="Table-cell Table-cell--header" style="width: 10%;">Type</th>
-    <th class="Table-cell Table-cell--header">Description</th>
-  </thead>
-  <tbody class="Table-body">
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$modal-header-btn-width</td>
-      <td class="Table-cell">height</td>
-      <td class="Table-cell">modal header button width<br><code>$fz--m + ($base-mg * 2)</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$modal-width</td>
-      <td class="Table-cell">width</td>
-      <td class="Table-cell">modal width (small devices)<br><code>90%</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$modal-max-width</td>
-      <td class="Table-cell">max-width</td>
-      <td class="Table-cell">modal max-width (large devices)<br><code>r(80)</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$modal-max-width</td>
-      <td class="Table-cell">max-width</td>
-      <td class="Table-cell">modal max-height<br><code>calc(100vh - #{2 * $mg--m})</code></td>
-    </tr>
-  </tbody>
-</table>
-```
+
+| Variable                      | property   | value                         | desc.                           |
+|-------------------------------|------------|-------------------------------|---------------------------------|
+| ** $modal-header-btn-width ** | width      | `$fz--m + ($base-mg * 2)`     | modal header button width       |
+| ** $modal-width **            | width      | `90%`                         | modal width (small devices)     |
+| ** $modal-max-width **        | max-width  | `r(80)`                       | modal max-width (large devices) |
+| ** $modal-max-height **       | max-height | `calc(100vh - #{2 * $mg--m})` | modal max-height                |
 
 
 
@@ -45,19 +21,19 @@ Aims at including a simple caption or call-to-action.
 ```html
 <div class="Modal-wrapper" aria-hidden="true" id="js-ModalSimple">
   <div class="Modal">
-    <div class="Modal-header">
+    <header class="Modal-header">
       <h3 class="Modal-title">Modal title</h3>
       <button type="button" id="js-CloseModalSimple" class="Btn Btn--raw ModalHeader-btn">
         <i class="Icon Icon--cross"></i>
       </button>
-    </div>
-    <div class="Modal-content">
+    </header>
+    <div class="Modal-content u-pd--m u-pdb--0">
       <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?</p>
     </div>
-    <div class="Modal-footer">
+    <footer class="Modal-footer">
       <button type="button" class="Btn Btn--expand">Cancel</button>
       <button type="button" class="Btn Btn--expand Btn--validate">OK</button>
-    </div>
+    </footer>
   </div>
 </div>
 ```
@@ -74,7 +50,7 @@ Wraps a list.
 ```html
 <div class="Modal-wrapper" aria-hidden="true" id="js-ModalMenu">
   <div class="Modal">
-    <div class="Modal-header">
+    <header class="Modal-header">
       <button type="button" class="Btn Btn--raw ModalHeader-btn">
         <i class="Icon Icon--arrowBack"></i>
       </button>
@@ -82,8 +58,8 @@ Wraps a list.
       <button type="button" id="js-CloseModalMenu" class="Btn Btn--raw ModalHeader-btn">
         <i class="Icon Icon--cross"></i>
       </button>
-    </div>
-    <div class="Modal-content has-list">
+    </header>
+    <div class="Modal-content">
       <ul class="List">
         <li class="List-item">A</li>
         <li>
@@ -99,10 +75,10 @@ Wraps a list.
         </li>
       </ul>
     </div>
-    <div class="Modal-footer">
+    <footer class="Modal-footer">
       <button type="button" class="Btn Btn--expand">Cancel</button>
       <button type="button" class="Btn Btn--expand Btn--validate">OK</button>
-    </div>
+    </footer>
   </div>
 </div>
 ```

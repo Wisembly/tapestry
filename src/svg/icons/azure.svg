@@ -1,12 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <!-- Generator: Sketch 3.4.2 (15857) - http://www.bohemiancoding.com/sketch -->
-    <title>azure</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="azure" sketch:type="MSArtboardGroup" transform="translate(-6.000000, -6.000000)" fill="#3A434C">
-            <path d="M8,10.0956214 L18.911587,6 L25,7.7922341 L25,24.2765237 L18.9824272,26 L8.0568369,22.0935959 L18.9470071,23.5860139 L18.9470071,9.24147856 L11.6996156,10.8964635 L11.6996156,20.6206327 L8.00466776,22.0688111 L8,10.0956214" sketch:type="MSShapeGroup"></path>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
+<g>
+	<polygon fill="#3A434C" points="1.56,16.09 12.48,20 18.5,18.28 18.5,1.79 12.41,0 1.5,4.1 1.5,16.07 5.2,14.62 5.2,4.9 
+		12.45,3.24 12.45,17.59 	"/>
+</g>
 </svg>

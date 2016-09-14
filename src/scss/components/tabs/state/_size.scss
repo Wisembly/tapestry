@@ -1,7 +1,7 @@
 @if $import-tabs and $import-pseudo-classes {
 
   .Tabs--s {
-    .Tab-item:hover {
+    .Tab:hover {
       &:after {
         height: $small-tab-underline-size;
       }

@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <!-- Generator: Sketch 3.4.2 (15857) - http://www.bohemiancoding.com/sketch -->
-    <title>paragraph</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="paragraph" sketch:type="MSArtboardGroup" transform="translate(-6.000000, -6.000000)" fill="#3A434C">
-            <path d="M22.88525,6 L14.045375,6 L13.20525,6.026125 L13.20525,6.028875 C9.84475,6.04675 7.125,8.772 7.125,12.136625 C7.125,15.510875 9.86125,18.24575 13.2355,18.247125 L14.664125,18.247125 L14.664125,25.18125 C14.664125,25.712 15.095875,26.14375 15.626625,26.14375 C16.15875,26.14375 16.589125,25.712 16.589125,25.18125 L16.589125,7.925 L18.56225,7.925 L18.56225,25.18125 C18.56225,25.712 18.992625,26.14375 19.52475,26.14375 C20.0555,26.14375 20.48725,25.712 20.48725,25.18125 L20.48725,7.925 L22.88525,7.925 C23.417375,7.925 23.84775,7.49325 23.84775,6.9625 C23.84775,6.430375 23.417375,6 22.88525,6 L22.88525,6 Z M14.664125,16.322125 L13.2355,16.32075 C10.924125,16.316625 9.054125,14.446625 9.05,12.136625 C9.054125,9.82525 10.924125,7.95525 13.2355,7.951125 L13.26575,7.951125 L14.092125,7.925 L14.664125,7.925 L14.664125,16.322125 L14.664125,16.322125 Z" sketch:type="MSShapeGroup"></path>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 20 20" style="enable-background:new 0 0 20 20;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#3A434C;}
+</style>
+<path class="st0" d="M14,20c0.6,0,1-0.5,1-1V2h2.3c0.5,0,1-0.5,1-1s-0.5-1-1-1H8.6h0L7.7,0l0,0c-3.3,0-6,2.7-6,6.1
+	c0,3.4,2.7,6.1,6.1,6.1h1.4V19c0,0.5,0.4,1,1,1s1-0.5,1-1V2H13v17C13,19.5,13.4,20,14,20z M9.1,10.2H7.8c-1.1,0-2.2-0.5-2.9-1.2
+	S3.7,7.2,3.7,6.1S4.2,4,4.9,3.2S6.7,2,7.8,2h0l0.8,0h0.5C9.1,2,9.1,10.2,9.1,10.2z"/>
 </svg>

@@ -1,7 +1,8 @@
 @if $import-form and $import-fieldset {
 
   .Fieldset {
-    padding: 0 0 $pd--s;
+    margin: 0;
+    padding: 0 0 $pd--m;
     font-size: 0;
     border: 0;
   }

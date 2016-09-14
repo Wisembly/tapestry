@@ -6,13 +6,17 @@
     $hover-color: nth($btn-hover-colors, $i);
 
     .Btn-#{$color-name} {
-      &:hover {
+      &:hover,
+      &:active,
+      &:focus {
         background-color: $hover-color;
       }
     }
 
-    .Btn--outline.Btn-#{$color-name}:not([disabled]) {
-      &:hover {
+    .Btn--outline.Btn-#{$color-name} {
+      &:hover,
+      &:active,
+      &:focus {
         color: $hover-color;
         border-color: $hover-color;
       }
@@ -20,7 +24,9 @@
 
     .Btn--inverted.Btn-#{$color-name},
     .Btn--raw.Btn-#{$color-name} {
-      &:hover {
+      &:hover,
+      &:active,
+      &:focus {
         color: $hover-color;
       }
     }

@@ -2,30 +2,26 @@
 
 ## Variables
 
-```esc
-<table class="Table">
-  <thead class="Table-head">
-    <th class="Table-cell Table-cell--header u-tal" style="width: 25%;">Name</th>
-    <th class="Table-cell Table-cell--header" style="width: 10%;">Type</th>
-    <th class="Table-cell Table-cell--header">Description</th>
-  </thead>
-  <tbody class="Table-body">
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$badge-color</td>
-      <td class="Table-cell">color</td>
-      <td class="Table-cell">badge color<br><code>$white</code></td>
-    </tr>
-    <tr class="Table-row">
-      <td class="Table-cell Table-cell--important u-tal">$badge-bg</td>
-      <td class="Table-cell">background-color</td>
-      <td class="Table-cell">badge background color<br><code>$gray-chateau</code></td>
-    </tr>
-  </tbody>
-</table>
-```
+| Variable                          | property         | value                | desc.                          |
+|-----------------------------------|------------------|----------------------|--------------------------------|
+| ** $badge-color **                | color            | `$white`             | badge color                    |
+| ** $badge-bg **                   | background-color | `$gray-chateau`      | badge background-color         |
+| ** $badge-outline-color **        | color            | `$slate-gray`        | outline badge color            |
+| ** $badge-outline-bg **           | background-color | `$transparent`       | outline badge background-color |
+| ** $badge-outline-border-color ** | border-color     | `$base-border-color` | outline badge border-color     |
 
-## Example
+
+
+## Basic
 
 ```html
 Any content <span class="Badge">100</span>
+```
+
+
+
+## Type
+
+```html
+Any content <span class="Badge Badge--outline">200</span>
 ```

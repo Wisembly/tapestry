@@ -5,31 +5,32 @@
     align-items: center;
     justify-content: space-between;
     flex-shrink: 0;
-    padding: 0;
-    background: $deep-sea-green;
+    background: $venice-blue;
+    user-select: none;
   }
 
   .PanelHeader-btn {
-    margin-left: auto;
-    padding: r(2) $pd--m;
-    line-height: $panel-header-height;
+    width: $modal-header-btn-width;
+    align-self: stretch;
+    padding: r(4) 0;
     color: $regent-st-blue;
-
-    .Icon {
-      vertical-align: middle;
-    }
   }
 
   .Panel-title {
     @include ellipsis;
     flex-grow: 1;
     margin: 0;
-    padding: r(2) $base-pd;
-    font-size: $fz--l;
+    padding: r(4) 0 r(4) $modal-header-btn-width;
+    font-size: $fz--m;
     font-weight: $fw--semi-bold;
-    line-height: $panel-header-height;
-    text-align: left;
+    line-height: $base-lh;
+    text-align: center;
     color: $white;
+
+    .PanelHeader-btn + & {
+      padding-left: 0;
+    }
   }
+
 
 }

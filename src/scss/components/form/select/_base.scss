@@ -8,12 +8,12 @@
     line-height: $base-lh;
     text-align: left;
     vertical-align: middle;
-    color: $limed-spruce;
+    color: $outer-space;
     background-color: $white;
     background-image: url("#{$select-bg-path}");
     background-position: center right;
     background-repeat: no-repeat;
-    border: 1px solid $base-border-color;
+    border: 1px solid $form-base-border-color;
     border-radius: $base-radius;
     cursor: pointer;
     outline: 0;
@@ -21,7 +21,6 @@
     appearance: none;
 
     &:focus {
-      color: $limed-spruce;
       border-color: $gray-chateau;
       outline: none;
     }

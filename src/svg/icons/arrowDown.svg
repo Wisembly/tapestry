@@ -1,12 +1,10 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <!-- Generator: Sketch 3.4.2 (15857) - http://www.bohemiancoding.com/sketch -->
-    <title>arrowDown</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="arrowDown" sketch:type="MSArtboardGroup" transform="translate(-6.000000, -6.000000)" fill="#3A434C">
-            <path d="M6.25066082,11.7037223 L15.0267124,21.8531778 C15.2217357,22.0784161 15.5074038,22.2088894 15.8054324,22.2088894 L16.1941058,22.2088894 C16.4921344,22.2088894 16.7778025,22.0784161 16.9728258,21.8531778 L25.7488774,11.7037223 C26.1210699,11.2738468 26.0743741,10.6228533 25.6431253,10.2506608 C25.2132498,9.87846834 24.5622563,9.92653748 24.1900639,10.3564129 L24.1900639,10.3564129 L15.9990824,19.8287803 L7.80947436,10.3564129 C7.43728187,9.92653748 6.78628838,9.87846834 6.35641293,10.2506608 C5.92653748,10.6228533 5.87846834,11.2738468 6.25066082,11.7037223" sketch:type="MSShapeGroup"></path>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 20 20" style="enable-background:new 0 0 20 20;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#3A434C;}
+</style>
+<path class="st0" d="M19.7,4.4c-0.4-0.4-1-0.3-1.4,0.1L10,13.4L1.7,4.4c-0.4-0.4-1-0.4-1.4,0c-0.4,0.4-0.4,1,0,1.4l9,9.7
+	c0.2,0.2,0.5,0.3,0.7,0.3c0.3,0,0.6-0.1,0.7-0.3l9-9.7C20.1,5.4,20.1,4.8,19.7,4.4z"/>
 </svg>

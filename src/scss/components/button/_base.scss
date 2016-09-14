@@ -1,43 +1,15 @@
 @if $import-button {
 
   .Btn {
-    display: inline-block;
-    padding: $btn-pdv $btn-pdh;
-    font-size: $fz--m;
-    font-weight: $fw--semi-bold;
-    line-height: $base-lh;
-    text-align: center;
-    text-decoration: none;
-    vertical-align: middle;
-    color: $white;
-    background-color: $gray-chateau;
-    border: 0;
-    border-radius: $base-radius;
-    cursor: pointer;
-    user-select: none;
-    outline: 0;
-    transition: background-color .2s ease-out, box-shadow .05s ease-out, color .1s ease-out;
-    appearance: none;
-
-    &[disabled],
-    &[aria-disabled="true"] {
-      color: $gray-chateau;
-      background-color: $iron;
-    }
-
-    .Icon {
-      display: inline-block;
-      line-height: $base-lh;
-      vertical-align: middle;
-    }
-
-    .Icon--s {
-      line-height: $lh--s;
-    }
+    @include Button;
 
     + .Btn {
       margin-left: $mg--s;
     }
+  }
+
+  .Btn-icon {
+    flex: 0 0 auto;
   }
 
 }
