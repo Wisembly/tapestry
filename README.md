@@ -82,7 +82,8 @@ git ci -nm "My commit message"
 
 ### Tests
 
-Tests are run with Travis and have to be updated before branch merges. They can be run locally with these following commands.
+[Tests are disabled at the moment.](https://github.com/Wisembly/tapestry/issues/313)
+~~Tests are run with Travis and have to be updated before branch merges. They can be run locally with these following commands.~~
 
 ```js
 npm run lint // linter
