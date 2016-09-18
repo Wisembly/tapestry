@@ -1,0 +1,19 @@
+/* BEGIN Regular */
+@font-face {
+  font-family: 'Open Sans';
+  src: url("./Regular/OpenSans-Regular.eot?v=1.1.0");
+  src: url("./Regular/OpenSans-Regular.eot?#iefix&v=1.1.0") format("embedded-opentype"), url("./Regular/OpenSans-Regular.woff?v=1.1.0") format("woff"), url("./Regular/OpenSans-Regular.ttf?v=1.1.0") format("truetype"), url("./Regular/OpenSans-Regular.svg?v=1.1.0#OpenSansBold") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+/* END Regular */
+
+/* BEGIN Semibold */
+@font-face {
+  font-family: 'Open Sans';
+  src: url("./Semibold/OpenSans-Semibold.eot?v=1.1.0");
+  src: url("./Semibold/OpenSans-Semibold.eot?#iefix&v=1.1.0") format("embedded-opentype"), url("./Semibold/OpenSans-Semibold.woff?v=1.1.0") format("woff"), url("./Semibold/OpenSans-Semibold.ttf?v=1.1.0") format("truetype"), url("./Semibold/OpenSans-Semibold.svg?v=1.1.0#OpenSansBold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+/* END Semibold */

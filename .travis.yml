@@ -1,4 +1,9 @@
-language: javascript
+language: node_js
+node_js:
+  - 5.1
+
+os: osx
+osx_image: xcode8
 
 env:
 
@@ -6,13 +11,8 @@ env:
   - CXX=g++-4.8
 
 before_install:
-
-  # Set correct node version
-  - nvm install 5.1
-  - nvm use 5.1
-
   # Install the build dependencies
-  - npm install -g gulp@3.9.0
+  - npm install -g gulp@3.9.1
   - npm install -g garris/backstopjs#version_2_0
   - npm install
 

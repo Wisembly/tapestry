@@ -896,6 +896,7 @@ html,
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
   line-height: 1.42857rem;
   color: #515f65;
   -moz-osx-font-smoothing: grayscale;
@@ -4102,7 +4103,6 @@ a {
   top: 0.71429rem;
   left: 50%;
   -webkit-transform: translateX(-50%);
-      -ms-transform: translateX(-50%);
           transform: translateX(-50%);
 }
 
@@ -4115,7 +4115,6 @@ a {
   top: 50%;
   right: 0.71429rem;
   -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
           transform: translateY(-50%);
 }
 
@@ -4128,7 +4127,6 @@ a {
   bottom: 0.71429rem;
   left: 50%;
   -webkit-transform: translateX(-50%);
-      -ms-transform: translateX(-50%);
           transform: translateX(-50%);
 }
 
@@ -4141,7 +4139,6 @@ a {
   top: 50%;
   left: 0.71429rem;
   -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
           transform: translateY(-50%);
 }
 
@@ -4836,7 +4833,6 @@ input:checked + .Switch--s:after,
 .has-tooltip--right:after {
   top: 50%;
   -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
           transform: translateY(-50%);
 }
 
@@ -4846,7 +4842,6 @@ input:checked + .Switch--s:after,
   top: auto;
   left: 50%;
   -webkit-transform: translateX(-50%);
-      -ms-transform: translateX(-50%);
           transform: translateX(-50%);
 }
 

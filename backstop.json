@@ -38,7 +38,7 @@
       ],
       "readyEvent": null,
       "delay": 1000,
-      "misMatchThreshold": 0.5
+      "misMatchThreshold": 0.1
     },
     {
       "label": "Badge",
@@ -51,7 +51,7 @@
       ],
       "readyEvent": null,
       "delay": 1000,
-      "misMatchThreshold": 0.5
+      "misMatchThreshold": 0.1
     },
     {
       "label": "Box",
@@ -65,7 +65,7 @@
       ],
       "readyEvent": null,
       "delay": 1000,
-      "misMatchThreshold": 0.5
+      "misMatchThreshold": 0.1
     },
     {
       "label": "Button",
@@ -86,7 +86,7 @@
       ],
       "readyEvent": null,
       "delay": 1000,
-      "misMatchThreshold": 0.5
+      "misMatchThreshold": 0.1
     },
     {
       "label": "Form",
@@ -103,7 +103,7 @@
       ],
       "readyEvent": null,
       "delay": 1000,
-      "misMatchThreshold": 0.5
+      "misMatchThreshold": 0.1
     },
     {
       "label": "Input",
@@ -136,7 +136,7 @@
       ],
       "readyEvent": null,
       "delay": 1000,
-      "misMatchThreshold": 0.5
+      "misMatchThreshold": 0.1
     },
     {
       "label": "Icons",
@@ -301,7 +301,7 @@
       ],
       "readyEvent": null,
       "delay": 1000,
-      "misMatchThreshold": 0.5
+      "misMatchThreshold": 0.1
     },
     {
       "label": "Grid",
@@ -320,7 +320,7 @@
       ],
       "readyEvent": null,
       "delay": 1000,
-      "misMatchThreshold": 0.5
+      "misMatchThreshold": 0.1
     },
     {
       "label": "List",
@@ -333,7 +333,7 @@
       ],
       "readyEvent": null,
       "delay": 1000,
-      "misMatchThreshold": 0.5
+      "misMatchThreshold": 0.1
     },
     {
       "label": "Media",
@@ -348,7 +348,7 @@
       ],
       "readyEvent": null,
       "delay": 1000,
-      "misMatchThreshold": 0.5
+      "misMatchThreshold": 0.1
     },
     {
       "label": "Meter",
@@ -360,7 +360,7 @@
       ],
       "readyEvent": null,
       "delay": 1000,
-      "misMatchThreshold": 0.5
+      "misMatchThreshold": 0.1
     },
     {
       "label": "Notification",
@@ -376,7 +376,7 @@
       ],
       "readyEvent": null,
       "delay": 1000,
-      "misMatchThreshold": 0.5
+      "misMatchThreshold": 0.1
     },
     {
       "label": "Pellet",
@@ -391,7 +391,7 @@
       ],
       "readyEvent": null,
       "delay": 1000,
-      "misMatchThreshold": 0.5
+      "misMatchThreshold": 0.1
     },
     {
       "label": "Switch",
@@ -404,7 +404,7 @@
       ],
       "readyEvent": null,
       "delay": 1000,
-      "misMatchThreshold": 0.5
+      "misMatchThreshold": 0.1
     },
     {
       "label": "Table",
@@ -417,7 +417,7 @@
       ],
       "readyEvent": null,
       "delay": 1000,
-      "misMatchThreshold": 0.5
+      "misMatchThreshold": 0.1
     },
     {
       "label": "Tabs",
@@ -430,7 +430,7 @@
       ],
       "readyEvent": null,
       "delay": 1000,
-      "misMatchThreshold": 0.5
+      "misMatchThreshold": 0.1
     }
   ],
   "paths": {
