@@ -32,8 +32,6 @@
     "uo-node-utils": "^0.1.1"
   },
   "scripts": {
-    "vt:refs": "cd ./node_modules/backstopjs && gulp reference && cd ../../",
-    "vt:compare": "cd ./node_modules/backstopjs && gulp test && cd ../../",
     "lint": "$(npm bin)/sass-lint -v -q",
     "pre-commit": "cp pre-commit.sh .git/hooks/pre-commit && chmod 777 .git/hooks/pre-commit",
     "icons": "gulp icons && gulp",

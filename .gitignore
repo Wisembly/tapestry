@@ -3,7 +3,8 @@ website/components
 dist/stats
 dist/css
 dist/js
-visual-tests/tests/**/
+backstop_data/bitmaps_test/
+backstop_data/html_report/
 
 env.js
 npm-debug.log
