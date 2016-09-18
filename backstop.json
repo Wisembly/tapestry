@@ -37,7 +37,8 @@
         ".Avatar--xl.Avatar--squared"
       ],
       "readyEvent": null,
-      "delay": 500
+      "delay": 1000,
+      "misMatchThreshold": 0.5
     },
     {
       "label": "Badge",
@@ -49,7 +50,8 @@
         ".Badge--outline"
       ],
       "readyEvent": null,
-      "delay": 500
+      "delay": 1000,
+      "misMatchThreshold": 0.5
     },
     {
       "label": "Box",
@@ -62,7 +64,8 @@
         ".Box--raw"
       ],
       "readyEvent": null,
-      "delay": 500
+      "delay": 1000,
+      "misMatchThreshold": 0.5
     },
     {
       "label": "Button",
@@ -82,7 +85,8 @@
         ".BtnGroup"
       ],
       "readyEvent": null,
-      "delay": 500
+      "delay": 1000,
+      "misMatchThreshold": 0.5
     },
     {
       "label": "Form",
@@ -98,7 +102,8 @@
         ".Select"
       ],
       "readyEvent": null,
-      "delay": 500
+      "delay": 1000,
+      "misMatchThreshold": 0.5
     },
     {
       "label": "Input",
@@ -130,7 +135,8 @@
         ".Input.is-invalid"
       ],
       "readyEvent": null,
-      "delay": 500
+      "delay": 1000,
+      "misMatchThreshold": 0.5
     },
     {
       "label": "Icons",
@@ -294,7 +300,8 @@
         ".Icon--youtube"
       ],
       "readyEvent": null,
-      "delay": 500
+      "delay": 1000,
+      "misMatchThreshold": 0.5
     },
     {
       "label": "Grid",
@@ -312,7 +319,8 @@
         "#centered-grid-cells ~ .Grid + .Grid"
       ],
       "readyEvent": null,
-      "delay": 500
+      "delay": 1000,
+      "misMatchThreshold": 0.5
     },
     {
       "label": "List",
@@ -324,7 +332,8 @@
         "#basic-list-box + .Box"
       ],
       "readyEvent": null,
-      "delay": 500
+      "delay": 1000,
+      "misMatchThreshold": 0.5
     },
     {
       "label": "Media",
@@ -338,7 +347,8 @@
         ".Media--b"
       ],
       "readyEvent": null,
-      "delay": 500
+      "delay": 1000,
+      "misMatchThreshold": 0.5
     },
     {
       "label": "Meter",
@@ -349,7 +359,8 @@
         ".Meter"
       ],
       "readyEvent": null,
-      "delay": 500
+      "delay": 1000,
+      "misMatchThreshold": 0.5
     },
     {
       "label": "Notification",
@@ -364,7 +375,8 @@
         ".Notification--error"
       ],
       "readyEvent": null,
-      "delay": 500
+      "delay": 1000,
+      "misMatchThreshold": 0.5
     },
     {
       "label": "Pellet",
@@ -378,7 +390,8 @@
         ".Pellet--error"
       ],
       "readyEvent": null,
-      "delay": 500
+      "delay": 1000,
+      "misMatchThreshold": 0.5
     },
     {
       "label": "Switch",
@@ -390,7 +403,8 @@
         ".Switch--s"
       ],
       "readyEvent": null,
-      "delay": 500
+      "delay": 1000,
+      "misMatchThreshold": 0.5
     },
     {
       "label": "Table",
@@ -402,7 +416,8 @@
         ".Table--actionable"
       ],
       "readyEvent": null,
-      "delay": 500
+      "delay": 1000,
+      "misMatchThreshold": 0.5
     },
     {
       "label": "Tabs",
@@ -414,7 +429,8 @@
         ".Tabs--s"
       ],
       "readyEvent": null,
-      "delay": 500
+      "delay": 1000,
+      "misMatchThreshold": 0.5
     }
   ],
   "paths": {
