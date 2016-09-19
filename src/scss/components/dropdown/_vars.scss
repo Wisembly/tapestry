@@ -4,7 +4,10 @@ $dropdown-small-fz: $fz--s !default;
 $dropdown-min-width: r(56) !default;
 $dropdown-max-height: r(30) !default;
 
-$dropdown-toggle-padding: r(1) r(2) !default;
+$dropdown-toggle-pdv: r(1) !default;
+$dropdown-toggle-pdh: r(2) !default;
+$dropdown-toggle-array-width: r(6) !default;
+$small-dropdown-toggle-array-width: r(5) !default;
 $dropdown-toggle-bg: $transparent !default;
 $dropdown-toggle-color: $outer-space !default;
 $dropdown-toggle-hover-color: $outer-space !default;
@@ -23,3 +26,6 @@ $dropdown-item-selected-bg: $porcelain !default;
 
 $dropdown-item-mg: $mg--xs !default;
 $dropdown-item-pd: $pd--xs !default;
+
+$dropdown-select-pdv: rb(2) !default;
+$dropdown-select-pdh: rb(2) !default;

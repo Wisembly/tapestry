@@ -2,22 +2,32 @@
 
   .Dropdown-toggle {
     @include Button;
-    padding: $dropdown-toggle-padding;
+    position: relative;
+    padding: $dropdown-toggle-pdv $dropdown-toggle-array-width $dropdown-toggle-pdv $dropdown-toggle-pdh;
     font-size: inherit;
     color: $dropdown-toggle-color;
     background: $dropdown-toggle-bg;
     border-radius: 0;
     cursor: pointer;
 
+    .Dropdown--s & {
+      padding-right: $small-dropdown-toggle-array-width;
+    }
+
     &:after {
       @include Icon--triangleDown;
-      padding-left: r(2);
+      @include pos(a 0 0 null null);
+      display: inline-block;
+      width: $dropdown-toggle-array-width;
+      padding: $dropdown-toggle-pdv 0;
       font-family: "tapestry-icons";
       font-size: r(2);
       font-weight: $base-fw;
+      text-align: center;
       color: $gray-chateau;
 
       .Dropdown--s & {
+        width: $small-dropdown-toggle-array-width;
         font-size: r(1);
       }
     }

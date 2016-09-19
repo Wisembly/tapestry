@@ -2142,15 +2142,7 @@ a {
 }
 
 .Btn {
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  display: inline-block;
   position: relative;
   padding: 0.71429rem 1.07143rem;
   font-size: 1rem;
@@ -2843,15 +2835,7 @@ a {
 }
 
 .Dropdown-toggle {
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  display: inline-block;
   position: relative;
   padding: 0.71429rem 1.07143rem;
   font-size: 1rem;
@@ -2874,7 +2858,8 @@ a {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-  padding: 0.35714rem 0.71429rem;
+  position: relative;
+  padding: 0.35714rem 2.14286rem 0.35714rem 0.71429rem;
   font-size: inherit;
   color: #394246;
   background: transparent;
@@ -2882,16 +2867,27 @@ a {
   cursor: pointer;
 }
 
+.Dropdown--s .Dropdown-toggle {
+  padding-right: 1.78571rem;
+}
+
 .Dropdown-toggle:after {
   content: "\ea8c";
-  padding-left: 0.71429rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: inline-block;
+  width: 2.14286rem;
+  padding: 0.35714rem 0;
   font-family: "tapestry-icons";
   font-size: 0.71429rem;
   font-weight: 400;
+  text-align: center;
   color: #a1a9ae;
 }
 
 .Dropdown--s .Dropdown-toggle:after {
+  width: 1.78571rem;
   font-size: 0.35714rem;
 }
 
@@ -2900,7 +2896,7 @@ a {
 }
 
 .Dropdown-selectInput {
-  padding: 0.64286rem;
+  padding: 0.64286rem 2.14286rem 0.64286rem 0.64286rem;
   font-weight: 400;
   text-align: left;
   vertical-align: middle;
@@ -2915,10 +2911,14 @@ a {
 }
 
 .Dropdown-selectInput.Dropdown-selectInput[disabled] {
-  padding: 0.71429rem;
+  padding: 0.64286rem 2.14286rem 0.64286rem 0.64286rem;
   color: #a1a9ae;
   background: #d5d9da;
-  border: 0;
+  border: 1px solid #d5d9da;
+}
+
+.Dropdown-selectInput:after {
+  padding: 0.64286rem 0.64286rem;
 }
 
 .Dropdown-selectInput:hover {
@@ -2934,12 +2934,7 @@ a {
 }
 
 .Dropdown--block .Dropdown-selectInput {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  display: block;
   width: 100%;
 }
 

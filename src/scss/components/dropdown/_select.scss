@@ -1,7 +1,7 @@
 @if $import-dropdown {
 
   .Dropdown-selectInput {
-    padding: rb(2);
+    padding: $dropdown-select-pdv $dropdown-toggle-array-width $dropdown-select-pdv $dropdown-select-pdv;
     font-weight: $base-fw;
     text-align: left;
     vertical-align: middle;
@@ -15,10 +15,14 @@
     }
 
     &.Dropdown-selectInput[disabled] {
-      padding: r(2);
+      padding: $dropdown-select-pdv $dropdown-toggle-array-width $dropdown-select-pdv $dropdown-select-pdv;
       color: $gray-chateau;
       background: $iron;
-      border: 0;
+      border: 1px solid $iron;
+    }
+
+    &:after {
+      padding: $dropdown-select-pdv $dropdown-select-pdh;
     }
 
     &:hover {
@@ -34,8 +38,7 @@
     }
 
     .Dropdown--block & {
-      display: flex;
-      justify-content: space-between;
+      display: block;
       width: 100%;
     }
   }
