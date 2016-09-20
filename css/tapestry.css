@@ -2591,6 +2591,11 @@ a {
   border-color: #515f65;
 }
 
+.BtnGroup > .BtnGroup-item:hover.is-selected, .BtnGroup > .BtnGroup-item:focus.is-selected, .BtnGroup > .BtnGroup-item:active.is-selected {
+  color: #46b489;
+  border-color: #46b489;
+}
+
 .BtnGroup > .BtnGroup-item:hover[disabled] {
   border-radius: 0;
 }
