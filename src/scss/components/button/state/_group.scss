@@ -10,7 +10,13 @@
         color: $slate-gray;
         background-color: $white;
         border-color: $btn-outline-hover-border-color;
+
+        &#{$btn-group-selected-item-selector} {
+          color: $btn-group-selected-color;
+          border-color: $btn-group-selected-color;
+        }
       }
+
 
       &:hover[disabled] {
         border-radius: 0;
