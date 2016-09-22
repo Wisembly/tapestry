@@ -13,7 +13,7 @@ module.exports = function () {
         extensions: ['svg'],
       }))
     .pipe(prefix({
-      browsers: ['last 3 versions']
+      browsers: ['Safari 7', 'last 2 versions']
     }))
     .pipe(rename('tapestry.css'))
     .pipe(gulp.dest('dist/css'));

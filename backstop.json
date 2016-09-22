@@ -1,4 +1,5 @@
 {
+  "id": "tapestry-css",
   "viewports": [
     {
       "name": "desktop",
@@ -36,7 +37,8 @@
         ".Avatar--xl.Avatar--squared"
       ],
       "readyEvent": null,
-      "delay": 500
+      "delay": 1000,
+      "misMatchThreshold": 0.1
     },
     {
       "label": "Badge",
@@ -48,7 +50,8 @@
         ".Badge--outline"
       ],
       "readyEvent": null,
-      "delay": 500
+      "delay": 1000,
+      "misMatchThreshold": 0.1
     },
     {
       "label": "Box",
@@ -61,7 +64,8 @@
         ".Box--raw"
       ],
       "readyEvent": null,
-      "delay": 500
+      "delay": 1000,
+      "misMatchThreshold": 0.1
     },
     {
       "label": "Button",
@@ -81,7 +85,8 @@
         ".BtnGroup"
       ],
       "readyEvent": null,
-      "delay": 500
+      "delay": 1000,
+      "misMatchThreshold": 0.1
     },
     {
       "label": "Form",
@@ -97,7 +102,8 @@
         ".Select"
       ],
       "readyEvent": null,
-      "delay": 500
+      "delay": 1000,
+      "misMatchThreshold": 0.1
     },
     {
       "label": "Input",
@@ -129,7 +135,8 @@
         ".Input.is-invalid"
       ],
       "readyEvent": null,
-      "delay": 500
+      "delay": 1000,
+      "misMatchThreshold": 0.1
     },
     {
       "label": "Icons",
@@ -293,7 +300,8 @@
         ".Icon--youtube"
       ],
       "readyEvent": null,
-      "delay": 500
+      "delay": 1000,
+      "misMatchThreshold": 0.1
     },
     {
       "label": "Grid",
@@ -311,7 +319,8 @@
         "#centered-grid-cells ~ .Grid + .Grid"
       ],
       "readyEvent": null,
-      "delay": 500
+      "delay": 1000,
+      "misMatchThreshold": 0.1
     },
     {
       "label": "List",
@@ -323,7 +332,8 @@
         "#basic-list-box + .Box"
       ],
       "readyEvent": null,
-      "delay": 500
+      "delay": 1000,
+      "misMatchThreshold": 0.1
     },
     {
       "label": "Media",
@@ -337,7 +347,8 @@
         ".Media--b"
       ],
       "readyEvent": null,
-      "delay": 500
+      "delay": 1000,
+      "misMatchThreshold": 0.1
     },
     {
       "label": "Meter",
@@ -348,7 +359,8 @@
         ".Meter"
       ],
       "readyEvent": null,
-      "delay": 500
+      "delay": 1000,
+      "misMatchThreshold": 0.1
     },
     {
       "label": "Notification",
@@ -363,7 +375,8 @@
         ".Notification--error"
       ],
       "readyEvent": null,
-      "delay": 500
+      "delay": 1000,
+      "misMatchThreshold": 0.1
     },
     {
       "label": "Pellet",
@@ -377,7 +390,8 @@
         ".Pellet--error"
       ],
       "readyEvent": null,
-      "delay": 500
+      "delay": 1000,
+      "misMatchThreshold": 0.1
     },
     {
       "label": "Switch",
@@ -389,7 +403,8 @@
         ".Switch--s"
       ],
       "readyEvent": null,
-      "delay": 500
+      "delay": 1000,
+      "misMatchThreshold": 0.1
     },
     {
       "label": "Table",
@@ -401,7 +416,8 @@
         ".Table--actionable"
       ],
       "readyEvent": null,
-      "delay": 500
+      "delay": 1000,
+      "misMatchThreshold": 0.1
     },
     {
       "label": "Tabs",
@@ -413,14 +429,20 @@
         ".Tabs--s"
       ],
       "readyEvent": null,
-      "delay": 500
+      "delay": 1000,
+      "misMatchThreshold": 0.1
     }
   ],
   "paths": {
-    "bitmaps_reference": "../../visual-tests/reference",
-    "bitmaps_test": "../../visual-tests/tests",
-    "compare_data": "../../visual-tests/tests/compare.json"
+    "bitmaps_reference": "backstop_data/bitmaps_reference",
+    "bitmaps_test": "backstop_data/bitmaps_test",
+    "casper_scripts": "backstop_data/casper_scripts",
+    "html_report": "backstop_data/html_report",
+    "ci_report": "backstop_data/ci_report"
   },
+  "casperFlags": [],
+  "engine": "phantomjs",
+  "report": ["CLI"],
   "cliExitOnFail": true,
-  "report": ["CLI"]
+  "debug": false
 }

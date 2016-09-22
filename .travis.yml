@@ -1,0 +1,35 @@
+language: node_js
+node_js:
+  - 5.1
+
+os: osx
+osx_image: xcode8
+
+notifications:
+  email: false
+
+env:
+
+  # Required for building Node.js native modules (g++ 4.8+ or clang 3.5+)
+  - CXX=g++-4.8
+
+before_install:
+  # Install the build dependencies
+  - npm install -g gulp@3.9.1
+  - npm install -g garris/backstopjs#version_2_0
+  - npm install
+
+
+before_script:
+
+  # Start server
+  - gulp icons
+  - gulp &
+  - until curl -s -I -f http://localhost:3000 >& /dev/null; do echo .; sleep 1; done
+
+
+script:
+
+  # Run the tests
+  - npm run lint
+  - backstop test

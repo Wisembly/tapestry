@@ -49,8 +49,7 @@
 
 ```
 npm install
-npm install -g phantomjs
-npm install -g casperjs
+npm install -g garris/backstopjs#version_2_0
 ```
 
 ### Run
@@ -82,11 +81,10 @@ git ci -nm "My commit message"
 
 ### Tests
 
-[Tests are disabled at the moment.](https://github.com/Wisembly/tapestry/issues/313)
-~~Tests are run with Travis and have to be updated before branch merges. They can be run locally with these following commands.~~
+Tests are run with Travis and have to be updated before branch merges. They can be run locally with these following commands.
 
 ```js
 npm run lint // linter
-npm run vt:refs // visual tests: builds references
-npm run vt:compare // visual tests: compares references with actual HEAD
+backstop reference // visual tests: builds references
+backstop test // visual tests: compares references with actual HEAD
 ```
