@@ -5,6 +5,9 @@ node_js:
 os: osx
 osx_image: xcode8
 
+notifications:
+  email: false
+
 env:
 
   # Required for building Node.js native modules (g++ 4.8+ or clang 3.5+)
