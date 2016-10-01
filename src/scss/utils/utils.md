@@ -47,6 +47,20 @@ Utility classes help you to add some common behaviors to elements. We decided to
 
 
 
+## Flex
+
+| Class     | property       | value  | desc.                                          |
+|-----------|----------------|--------|------------------------------------------------|
+| .u-fl     | display        | flex   | sets flex display on element                   |
+| .u-fld--r | flex-direction | row    | sets row flex-direction on element             |
+| .u-fld--c | flex-direction | column | sets column flex-direction on element          |
+| .u-flw    | flex-wrap      | wrap   | allows children wrapping                       |
+| .u-flw--n | flex-wrap      | nowrap | disables children wrapping                     |
+| .u-fl--n  | flex           | none   | flex-grow: 0, flex-shrink: 0, flex-basis: auto |
+| .u-fl--a  | flex           | auto   | flex-grow: 1, flex-shrink: 1, flex-basis: auto |
+
+
+
 ## Hide
 
 * .is-hidden

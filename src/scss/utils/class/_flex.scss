@@ -1,0 +1,31 @@
+@if $import-utility-classes {
+
+  .u-fl {
+    display: flex !important;
+  }
+
+  .u-fld--r {
+    flex-direction: row !important;
+  }
+
+  .u-fld--c {
+    flex-direction: column !important;
+  }
+
+  .u-flw {
+    flex-wrap: wrap !important;
+  }
+
+  .u-flw--n {
+    flex-wrap: nowrap !important;
+  }
+
+  .u-fl--n {
+    flex: none !important;
+  }
+
+  .u-fl--a {
+    flex: auto !important;
+  }
+
+}
