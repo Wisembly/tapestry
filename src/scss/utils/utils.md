@@ -2,6 +2,8 @@
 
 Utility classes help you to add some common behaviors to elements. We decided to used [Emmet syntax](http://docs.emmet.io/abbreviations/syntax/) to make them shorter and accessible. They are prefixed with <code>u-</code> to make them more readable.
 
+
+
 ## Text alignment
 
 | Class  | value  | desc.                    |
@@ -18,6 +20,38 @@ Utility classes help you to add some common behaviors to elements. We decided to
 |---------|--------|---------------------|
 | .u-push | right  | floats to the right |
 | .u-pull | left   | floats to the left  |
+
+
+
+## Clearfix
+
+| Class   | desc.                            |
+|---------|----------------------------------|
+| .u-cf   | applies clearfix hack on element |
+
+
+
+## Clearfix
+
+| Class         | desc.                       |
+|---------------|-----------------------------|
+| .u-ellipsis   | applies ellipsis on element |
+
+
+
+## Overflow
+
+| Class    | desc.         |
+|----------|---------------|
+| .u-ovh   | hide overflow |
+
+
+
+## Hide
+
+* .is-hidden
+* .u-hidden
+* .u-vhidden
 
 
 
