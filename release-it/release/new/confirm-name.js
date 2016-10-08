@@ -1,10 +1,9 @@
+var chalk = require('chalk');
 var opts = require('../../opts');
 
 module.exports = function (cb) {
-  var question = 'Confirm that "' + opts.nextRelease.name + '" will be the name of the next release? (y/n)'[opts.env.promptColor];
+  var question = chalk[opts.env.promptColor]('Confirm that ' + opts.nextRelease.name + ' will be the name of the next release? (y/n)');
   var choice;
-
-  question = question[opts.env.promptColor];
 
   prompt.get(question, function (err, data) {
     if (err) return false;

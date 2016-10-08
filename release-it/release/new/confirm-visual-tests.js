@@ -1,11 +1,10 @@
+var chalk = require('chalk');
 var log = require('../../tools/log');
 var opts = require('../../opts');
 
 module.exports = function (cb) {
-  var question = 'Confirm that visual tests have been updated? (y/n)'[opts.env.promptColor];
+  var question = chalk[opts.env.promptColor]('Confirm that visual tests have been updated? (y/n)');
   var choice;
-
-  question = question[opts.env.promptColor];
 
   prompt.get(question, function (err, data) {
     if (err) return false;

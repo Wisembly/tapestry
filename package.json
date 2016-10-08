@@ -23,7 +23,7 @@
     "gulp-stylestats": "2.0.1",
     "gulp-uglify": "2.0.0",
     "lodash": "4.15.0",
-    "prompt": "0.3.0",
+    "prompt": "1.0.0",
     "pug": "2.0.0-beta6",
     "run-sequence": "1.2.2",
     "sass-lint": "1.9.1",
