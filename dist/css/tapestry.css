@@ -1094,15 +1094,9 @@ a {
 }
 
 .t-link {
-  font-size: 1rem;
-  line-height: 1.42857rem;
   font-weight: 600;
   color: #708189;
   cursor: pointer;
-}
-
-.t-link--s {
-  font-size: 0.83333rem;
 }
 
 .t-link--alt {

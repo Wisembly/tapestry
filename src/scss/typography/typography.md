@@ -91,7 +91,7 @@ Reset list are detailed in Utility classes.
 <a class="t-link" href="#">Link</a>
 <a class="t-link t-validate" href="#">Link</a>
 <a class="t-link t-link--alt" href="#">Link</a>
-<a class="t-link t-link--s" href="#">Link</a>
-<a class="t-link t-validate t-link--s" href="#">Link</a>
-<a class="t-link t-link--alt t-link--s" href="#">Link</a>
+<a class="t-link" href="#"><small>Link</small></a>
+<a class="t-link t-validate" href="#"><small>Link</small></a>
+<a class="t-link t-link--alt" href="#"><small>Link</small></a>
 ```

@@ -1,15 +1,9 @@
 @if $import-typography {
 
   .t-link {
-    font-size: $fz--m;
-    line-height: $base-lh;
     font-weight: $fw--semi-bold;
     color: $slate-gray;
     cursor: pointer;
-  }
-
-  .t-link--s {
-    font-size: $fz--s;
   }
 
   .t-link--alt {
