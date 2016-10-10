@@ -49,7 +49,7 @@
 
 ```
 npm install
-npm install -g garris/backstopjs#version_2_0
+npm install -g gulp backstopjs
 ```
 
 ### Run

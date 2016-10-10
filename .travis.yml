@@ -16,7 +16,7 @@ env:
 before_install:
   # Install the build dependencies
   - npm install -g gulp@3.9.1
-  - npm install -g garris/backstopjs#version_2_0
+  - npm install -g backstopjs@2.0.4
   - npm install
 
 
