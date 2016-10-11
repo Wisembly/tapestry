@@ -19,9 +19,11 @@
 | ** $dropdown-list-bg **                  | background-color | `$white`        | dropdown-list background                   |
 | ** $dropdown-list-border-color **        | background-color | `$iron`         | dropdown-list border-color                 |
 | ** $dropdown-item-base-color **          | color            | `$shuttle-gray` | dropdown-item color                        |
+| ** $dropdown-item-disabled-color **      | color            | `$gray-chateau` | disabled dropdown-item color               |
 | ** $dropdown-item-hover-color **         | color            | `$white`        | dropdown-item color on :hover              |
 | ** $dropdown-item-focus-color **         | color            | `$shuttle-gray` | dropdown-item color on :focus              |
 | ** $dropdown-item-base-bg **             | background-color | `$transparent`  | dropdown-item background                   |
+| ** $dropdown-item-disabled-bg **         | background-color | `$iron`         | disabled dropdown-item background          |
 | ** $dropdown-item-hover-bg **            | background-color | `$gray-chateau` | dropdown-item background on: hover         |
 | ** $dropdown-item-selected-bg **         | background-color | `$porcelain`    | selected dropdown-item background          |
 | ** $dropdown-item-mg **                  | margin           | `$mg--xs`       | dropdown-item margin                       |
