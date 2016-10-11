@@ -226,6 +226,7 @@
             var $item = $('<li/>');
             $item.addClass(classNames.item);
             $item.attr('aria-selected', $option.is(':selected'));
+            $item.attr('aria-disabled', $option.is(':disabled'));
             $item.attr('data-label', $option.attr('data-label'));
             $item.attr('data-value', value);
             $item.html($option.html());
@@ -283,6 +284,11 @@
     selectItem: function (item) {
       var $item = $(item),
           value = $item.attr('data-value') || null;
+
+      // prevent selecting disabled item
+      if ($item.attr('aria-disabled')) {
+        return;
+      }
 
       // update value label
       this.$value.html($item.attr('data-label') || $item.html() || this.options.placeholder);

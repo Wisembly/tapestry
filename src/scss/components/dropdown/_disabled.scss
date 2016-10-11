@@ -1,0 +1,12 @@
+@if $import-dropdown {
+
+  .Dropdown-item {
+    &.Dropdown-item:disabled,
+    &.Dropdown-item[aria-disabled="true"] {
+      color: $dropdown-item-disabled-color;
+      background-color: $dropdown-item-disabled-bg;
+      cursor: not-allowed;
+    }
+  }
+
+}

@@ -19,9 +19,11 @@
 | ** $dropdown-list-bg **                  | background-color | `$white`        | dropdown-list background                   |
 | ** $dropdown-list-border-color **        | background-color | `$iron`         | dropdown-list border-color                 |
 | ** $dropdown-item-base-color **          | color            | `$shuttle-gray` | dropdown-item color                        |
+| ** $dropdown-item-disabled-color **      | color            | `$gray-chateau` | disabled dropdown-item color               |
 | ** $dropdown-item-hover-color **         | color            | `$white`        | dropdown-item color on :hover              |
 | ** $dropdown-item-focus-color **         | color            | `$shuttle-gray` | dropdown-item color on :focus              |
 | ** $dropdown-item-base-bg **             | background-color | `$transparent`  | dropdown-item background                   |
+| ** $dropdown-item-disabled-bg **         | background-color | `$iron`         | disabled dropdown-item background          |
 | ** $dropdown-item-hover-bg **            | background-color | `$gray-chateau` | dropdown-item background on: hover         |
 | ** $dropdown-item-selected-bg **         | background-color | `$porcelain`    | selected dropdown-item background          |
 | ** $dropdown-item-mg **                  | margin           | `$mg--xs`       | dropdown-item margin                       |
@@ -39,6 +41,9 @@
       <a href="#" class="Dropdown-item">
         Linked label
       </a>
+    </li>
+    <li class="Dropdown-item" aria-disabled="true">
+      Disabled label
     </li>
   </ul>
 </div>
@@ -138,6 +143,9 @@ In the other hand, if the classic `<select`> does not suit you, if you need to c
     </li>
     <li class="Dropdown-item" data-value="baz" data-label="Custom label 3">
       Simple label 3
+    </li>
+    <li class="Dropdown-item" data-value="foobar" aria-disabled="true">
+      Disabled label
     </li>
   </ul>
 </div>
