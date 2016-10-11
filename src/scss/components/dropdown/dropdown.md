@@ -40,6 +40,9 @@
         Linked label
       </a>
     </li>
+    <li class="Dropdown-item" aria-disabled="true">
+      Disabled label
+    </li>
   </ul>
 </div>
 <div class="Dropdown Dropdown--s" data-tapestry="dropdown">
@@ -138,6 +141,9 @@ In the other hand, if the classic `<select`> does not suit you, if you need to c
     </li>
     <li class="Dropdown-item" data-value="baz" data-label="Custom label 3">
       Simple label 3
+    </li>
+    <li class="Dropdown-item" data-value="foobar" aria-disabled="true">
+      Disabled label
     </li>
   </ul>
 </div>
