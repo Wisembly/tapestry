@@ -328,7 +328,11 @@
       "hideSelectors": [],
       "removeSelectors": [],
       "selectors": [
-        ".List",
+        "#basic-list + .List",
+        "#list-with-items-checkbable + .List",
+        "#list-with-switches-checkbox + .List",
+        "#list-with-switches-radio + .List",
+        "#list-with-menu + .List",
         "#basic-list-box + .Box"
       ],
       "readyEvent": null,
