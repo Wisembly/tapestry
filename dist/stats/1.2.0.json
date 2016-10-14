@@ -1,0 +1,131 @@
+{
+  "published": "2016-10-14T14:22:38.545Z",
+  "paths": [
+    "/Users/gabrielcousin/Sites/tapestry/dist/css/tapestry.css"
+  ],
+  "stylesheets": 1,
+  "styleElements": 0,
+  "size": 88366,
+  "dataUriSize": 2854,
+  "ratioOfDataUriSize": 0.032297489984835795,
+  "gzippedSize": 14088,
+  "rules": 842,
+  "selectors": 1003,
+  "declarations": 2083,
+  "simplicity": 0.839481555333998,
+  "averageOfIdentifier": 1.8135593220338984,
+  "mostIdentifier": 5,
+  "mostIdentifierSelector": ".Box > .List:first-child .List-item:first-child",
+  "averageOfCohesion": 2.510688836104513,
+  "lowestCohesion": 30,
+  "lowestCohesionSelector": [
+    ".Dropdown-toggle"
+  ],
+  "totalUniqueFontSizes": 19,
+  "uniqueFontSizes": [
+    "inherit",
+    "0",
+    "0.35714rem",
+    "0.69444rem",
+    "0.71429rem",
+    "0.83333rem",
+    "1rem",
+    "1.2rem",
+    "1.42857rem",
+    "1.44rem",
+    "1.728rem",
+    "2.0736rem",
+    "2.48832rem",
+    "1em",
+    "2em",
+    "14px",
+    "75%",
+    "80%",
+    "87.5%"
+  ],
+  "totalUniqueFontFamilies": 4,
+  "uniqueFontFamilies": [
+    "\"tapestry-icons\"",
+    "-apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Roboto\", \"Oxygen\", \"Ubuntu\", \"Cantarell\", \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+    "monospace, monospace",
+    "sans-serif"
+  ],
+  "totalUniqueColors": 20,
+  "uniqueColors": [
+    "#000000",
+    "#07698D",
+    "#0D5C7C",
+    "#2485A7",
+    "#2F99BA",
+    "#394246",
+    "#41A07A",
+    "#46B489",
+    "#515F65",
+    "#708189",
+    "#A1A9AE",
+    "#AED7E8",
+    "#BAC1C3",
+    "#C55752",
+    "#D5A82D",
+    "#D5D9DA",
+    "#E25C5B",
+    "#F1BC33",
+    "#FFFFFF",
+    "RGBA(255, 255, 255, 0.8)"
+  ],
+  "totalUniqueBackgroundImages": 3,
+  "uniqueBackgroundImages": [
+    "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJzZWxlY3QiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCAzMyA0NCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1heFlNaWQiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMzIDQ0OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+Cgk8Zz4KCQk8cGF0aCBmaWxsPSIjQTFBOUFFIiBkPSJNMTkuOCwxOS43aC02LjZjLTAuMiwwLTAuNS0wLjItMC42LTAuNGMtMC4xLTAuMi0wLjEtMC41LDAuMS0wLjdsMy4zLTMuOGMwLjEtMC4xLDAuMy0wLjIsMC41LTAuMgoJCQljMC4yLDAsMC4zLDAuMSwwLjUsMC4ybDMuNCwzLjhjMC4yLDAuMiwwLjIsMC41LDAuMSwwLjdDMjAuMiwxOS41LDIwLjEsMTkuNywxOS44LDE5Ljd6Ii8+CgkJPHBhdGggZmlsbD0iI0ExQTlBRSIgZD0iTTE5LjgsMjQuM2gtNi42Yy0wLjIsMC0wLjUsMC4yLTAuNiwwLjRjLTAuMSwwLjItMC4xLDAuNSwwLjEsMC43bDMuMywzLjhjMC4xLDAuMSwwLjMsMC4yLDAuNSwwLjIKCQkJYzAuMiwwLDAuMy0wLjEsMC41LTAuMmwzLjQtMy44YzAuMi0wLjIsMC4yLTAuNSwwLjEtMC43QzIwLjIsMjQuNSwyMC4xLDI0LjMsMTkuOCwyNC4zeiIvPgoJPC9nPgoJPHJlY3QgeT0iMCIgZmlsbD0iI0Q1RDlEQSIgd2lkdGg9IjEiIGhlaWdodD0iNDQiLz4KPC9zdmc+Cg==",
+    "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCA0NCA0NCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1heFlNaWQiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDQ0IDQ0OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+Cgk8ZyBpZD0iY2hlY2ttYXJrIiBmaWxsPSIjNDZCNDg5IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMi4wMDAwMDAsIDE0LjAwMDAwMCkiPgoJCTxwYXRoIGQ9Ik03LjcsMTQuM2MwLjgsMC44LDEuNSwwLDIuMi0wLjZjMC43LTAuOCwxLjUtMS41LDIuMy0yLjRjMS45LTIsMy44LTQsNS43LTZjMC41LTAuNSwxLTEsMS41LTEuNQoJCQljMS0xLjMtMC41LTIuNS0xLjYtMS41Yy0xLjYsMS41LTMsMy4yLTQuNSw0LjdjLTEuNSwxLjYtMy4yLDMuMy00LjcsNC45Yy0xLjUtMS41LTMuMS0zLjMtNC44LTQuN2MtMC43LTAuNS0xLjgtMC40LTIsMC42CgkJCWMwLDAuNiwwLjMsMC45LDAuNiwxLjNjMSwxLDIsMS45LDIuOSwyLjlDNi4xLDEyLjcsNi45LDEzLjYsNy43LDE0LjN6Ii8+Cgk8L2c+Cjwvc3ZnPgo=",
+    "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCA0NCA0NCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1heFlNaWQiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDQ0IDQ0OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+Cgk8ZyBpZD0iY3Jvc3MiIGZpbGw9IiNFMjVDNUIiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC02LjAwMDAwMCwgLTYuMDAwMDAwKSI+CgkJPHBhdGggZD0iTTM1LjcsMjEuNWMwLjQtMC40LDAuNC0wLjksMC0xLjNjLTAuNC0wLjQtMC45LTAuNC0xLjMsMEwyOCwyNi43bC02LjUtNi41CgkJCWMtMC40LTAuNC0wLjktMC40LTEuMywwYy0wLjQsMC40LTAuNCwwLjksMCwxLjNsNi41LDYuNWwtNi41LDYuNWMtMC40LDAuNC0wLjQsMC45LDAsMS4zYzAuNCwwLjQsMC45LDAuNCwxLjMsMGw2LjUtNi41bDYuNSw2LjUKCQkJYzAuNCwwLjQsMC45LDAuNCwxLjMsMGMwLjQtMC40LDAuNC0wLjksMC0xLjNMMjkuMywyOEwzNS43LDIxLjV6Ii8+Cgk8L2c+Cjwvc3ZnPgo="
+  ],
+  "idSelectors": 0,
+  "universalSelectors": 3,
+  "unqualifiedAttributeSelectors": 29,
+  "javascriptSpecificSelectors": 0,
+  "importantKeywords": 171,
+  "floatProperties": 2,
+  "propertiesCount": [
+    {
+      "property": "content",
+      "count": 173
+    },
+    {
+      "property": "color",
+      "count": 146
+    },
+    {
+      "property": "display",
+      "count": 142
+    },
+    {
+      "property": "width",
+      "count": 98
+    },
+    {
+      "property": "padding",
+      "count": 69
+    },
+    {
+      "property": "font-size",
+      "count": 65
+    },
+    {
+      "property": "background",
+      "count": 61
+    },
+    {
+      "property": "background-color",
+      "count": 56
+    },
+    {
+      "property": "line-height",
+      "count": 51
+    },
+    {
+      "property": "position",
+      "count": 43
+    }
+  ],
+  "mediaQueries": 11
+}
