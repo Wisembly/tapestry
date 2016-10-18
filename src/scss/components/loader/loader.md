@@ -27,38 +27,40 @@
 ## List
 
 ```html
-<ul class="List is-loading">
-  <li class="List-item">A</li>
-  <li class="List-item">B</li>
-  <li>
-    <a href="#foo" class="List-item List-item--link is-actionable">D</a>
-  </li>
-  <li class="List-item Loader">
-    <div class="Loader-spinner Spinner Spinner--s"></div>
-    <div class="Loader-label">Loading…</div>
-  </li>
-</ul>
+<div class="List">
+  <ul class="List-content is-loading">
+    <li class="List-item">A</li>
+    <li class="List-item">B</li>
+    <li class="List-itemWrapper">
+      <a href="#foo" class="List-item is-actionable">D</a>
+    </li>
+    <li class="List-item Loader">
+      <div class="Loader-spinner Spinner Spinner--s"></div>
+      <div class="Loader-label">Loading…</div>
+    </li>
+  </ul>
+</div>
 ```
 
 ## Errors
 
 ```html
-<div class="has-failed">
-  <ul class="List">
+<div class="List">
+  <ul class="List-content has-failed">
     <li class="List-item">A</li>
     <li class="List-item">B</li>
-    <li>
-      <a href="#foo" class="List-item List-item--link is-actionable">D</a>
+    <li class="List-itemWrapper">
+      <a href="#foo" class="List-item is-actionable">D</a>
+    </li>
+    <li class="List-item Loader">
+      <div class="Loader-spinner Spinner Spinner--s"></div>
+      <div class="Loader-label">Loading…</div>
+      <div class="Loader-error">
+        <i class="Icon Icon--xl Icon--alert"></i>
+        Could not load API
+      </div>
     </li>
   </ul>
-  <div class="Loader">
-    <div class="Loader-spinner Spinner Spinner--s"></div>
-    <div class="Loader-label">Loading…</div>
-    <div class="Loader-error">
-      <i class="Icon Icon--xl Icon--alert"></i>
-      Could not load API
-    </div>
-  </div>
 </div>
 ```
 
@@ -114,20 +116,22 @@ Those modes can be combined as followed examples.
     </div>
   </div>
 </div>
-<ul class="List is-loading" style="height: 400px; width: 33%; border: 1px solid #d5d9da; border-top: 0; overflow: hidden; display: inline-block;">
-  <li class="List-item">A</li>
-  <li class="List-item">B</li>
-  <li class="List-item">C</li>
-  <li class="List-item">D</li>
-  <li class="List-item">E</li>
-  <li class="List-item">F</li>
-  <li class="List-item Loader Loader--stacked">
-    <div class="Loader-spinner Spinner"></div>
-    <div class="Loader-label">Loading…</div>
-    <div class="Loader-error">
-      <i class="Icon Icon--xl Icon--alert"></i>
-      Could not load API
-    </div>
-  </li>
-</ul>
+<div class="List" style="height: 400px; width: 33%; border: 1px solid #d5d9da; overflow: hidden; display: inline-block;">
+  <ul class="List-content is-loading">
+    <li class="List-item">A</li>
+    <li class="List-item">B</li>
+    <li class="List-item">C</li>
+    <li class="List-item">D</li>
+    <li class="List-item">E</li>
+    <li class="List-item">F</li>
+    <li class="List-item Loader Loader--stacked">
+      <div class="Loader-spinner Spinner"></div>
+      <div class="Loader-label">Loading…</div>
+      <div class="Loader-error">
+        <i class="Icon Icon--xl Icon--alert"></i>
+        Could not load API
+      </div>
+    </li>
+  </ul>
+</div>
 ```
