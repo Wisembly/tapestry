@@ -6,11 +6,11 @@
   }
 
   .Panel-footerBtn {
-    flex: 1 1 auto;
+    flex: 1;
     padding: r(4);
     border-radius: 0;
 
-    +.Panel-footerBtn {
+    + .Panel-footerBtn {
       margin-left: 0;
     }
 
