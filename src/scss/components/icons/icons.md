@@ -123,6 +123,11 @@
 </div>
 
 <div class="s-Icon">
+  <i class="Icon Icon--bill"></i>
+  bill
+</div>
+
+<div class="s-Icon">
   <i class="Icon Icon--brush"></i>
   brush
 </div>
@@ -610,6 +615,11 @@
 <div class="s-Icon">
   <i class="Icon Icon--section"></i>
   section
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--shield"></i>
+  shield
 </div>
 
 <div class="s-Icon">
