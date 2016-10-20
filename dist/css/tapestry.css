@@ -4816,6 +4816,7 @@ input:checked + .Switch--s:after,
   font-weight: bold;
   line-height: 1.07143rem;
   text-align: center;
+  text-transform: none;
   white-space: normal;
   color: #fff;
   background-color: rgba(0, 0, 0, 0.8);
