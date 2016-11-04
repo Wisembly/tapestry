@@ -143,6 +143,11 @@
 </div>
 
 <div class="s-Icon">
+  <i class="Icon Icon--camera"></i>
+  camera
+</div>
+
+<div class="s-Icon">
   <i class="Icon Icon--checkbox"></i>
   checkbox
 </div>
@@ -273,6 +278,11 @@
 </div>
 
 <div class="s-Icon">
+  <i class="Icon Icon--ensign"></i>
+  ensign
+</div>
+
+<div class="s-Icon">
   <i class="Icon Icon--evernote"></i>
   evernote
 </div>
@@ -378,6 +388,11 @@
 </div>
 
 <div class="s-Icon">
+  <i class="Icon Icon--importDocument"></i>
+  importDocument
+</div>
+
+<div class="s-Icon">
   <i class="Icon Icon--info"></i>
   info
 </div>
@@ -443,6 +458,11 @@
 </div>
 
 <div class="s-Icon">
+  <i class="Icon Icon--magicWand"></i>
+  magicWand
+</div>
+
+<div class="s-Icon">
   <i class="Icon Icon--mail"></i>
   mail
 </div>
@@ -460,6 +480,11 @@
 <div class="s-Icon">
   <i class="Icon Icon--more"></i>
   more
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--mouse"></i>
+  mouse
 </div>
 
 <div class="s-Icon">
@@ -615,11 +640,6 @@
 <div class="s-Icon">
   <i class="Icon Icon--section"></i>
   section
-</div>
-
-<div class="s-Icon">
-  <i class="Icon Icon--shield"></i>
-  shield
 </div>
 
 <div class="s-Icon">
