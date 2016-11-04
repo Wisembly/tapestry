@@ -190,7 +190,15 @@ rules:
         - border-bottom-color
         - border-left-color
         - border-style
+        - border-top-style
+        - border-right-style
+        - border-bottom-style
+        - border-left-style
         - border-radius
+        - border-top-left-radius
+        - border-top-right-radius
+        - border-bottom-right-radius
+        - border-bottom-left-radius
         - box-shadow
         - text-shadow
         - opacity
