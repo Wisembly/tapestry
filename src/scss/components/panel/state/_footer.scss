@@ -1,0 +1,9 @@
+@if $import-panel and $import-pseudo-classes {
+
+  .Panel-footerBtn.Btn[disabled] {
+    &:hover {
+      border-radius: 0;
+    }
+  }
+
+}

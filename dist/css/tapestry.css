@@ -4412,6 +4412,10 @@ a {
   color: #fff;
 }
 
+.Panel-footerBtn.Btn[disabled]:hover {
+  border-radius: 0;
+}
+
 .Pellet {
   display: inline-block;
   width: 0.71429rem;
