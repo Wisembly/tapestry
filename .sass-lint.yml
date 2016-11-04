@@ -231,7 +231,7 @@ rules:
   quotes:
     - 2
     - style: double
-  shorthand-values: 3
+  shorthand-values: 2
   single-line-per-selector: 2
   space-after-bang:
     - 2
