@@ -1,0 +1,10 @@
+node_modules
+website/components
+dist/stats
+backstop_data/bitmaps_test/
+backstop_data/html_report/
+
+env.js
+npm-debug.log
+**/.DS_Store
+*.swp
