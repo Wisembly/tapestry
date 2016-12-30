@@ -285,11 +285,6 @@
       var $item = $(item),
           value = $item.attr('data-value') || null;
 
-      // prevent selecting disabled item
-      if ($item.attr('aria-disabled')) {
-        return;
-      }
-
       // update value label
       this.$value.html($item.attr('data-label') || $item.html() || this.options.placeholder);
 
@@ -354,6 +349,12 @@
 
     onSelect: function (event) {
       event.stopPropagation();
+
+      if ($(event.currentTarget).attr('aria-disabled') === "true") {
+        this.close();
+        return;
+      }
+
       this.selectItem(event.currentTarget);
     },
 
