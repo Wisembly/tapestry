@@ -188,6 +188,11 @@
 </div>
 
 <div class="s-Icon">
+  <i class="Icon Icon--code"></i>
+  code
+</div>
+
+<div class="s-Icon">
   <i class="Icon Icon--cog"></i>
   cog
 </div>
