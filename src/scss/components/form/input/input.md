@@ -4,38 +4,38 @@ Input is displayed as a 100% width by default.
 
 ## Variables
 
-| Variable                       | property         | value                                         | desc.                                                           |
-|--------------------------------|------------------|-----------------------------------------------|-----------------------------------------------------------------|
-| ** $form-base-color **         | color            | `$shuttle-gray`                               | default form text color                                         |
-| ** $form-placeholder-color **  | color            | `$shuttle-gray`                               | form placeholder text color                                     |
-| ** $form-focus-color **        | color            | `$shuttle-gray`                               | default focus form item color                                   |
-| ** $form-disabled-color **     | color            | `$gray-chateau`                               | default disabled form item color                                |
-| ** $form-base-bg **            | background-color | `$white`                                      | default form background-color                                   |
-| ** $form-disabled-bg **        | background-color | `$porcelain`                                  | default disabled form background-color                          |
-| ** $form-base-border-color **  | color            | `$iron`                                       | default form border-color                                       |
-| ** $form-focus-border-color ** | color            | `$gray-chateau`                               | default focus form border-color                                 |
-| ** $form-hover-border-color ** | color            | `$gray-chateau`                               | default hover form item border-color                            |
-| ** $input-pdv **               | padding          | `rb(2)`                                       | input vertical padding                                          |
-| ** $input-pdh **               | padding          | `$pd--s`                                      | input horizontal padding                                        |
-| ** $input-valid-class **       | class name       | `".is-valid"`                                 | class for valid inputs                                          |
-| ** $input-valid-bg-path **     | path             | `"/src/svg/backgrounds/inputBg--valid.svg"`   | background location for valid inputs (will be base64 encoded)   |
-| ** $input-invalid-class **     | class name       | `".is-invalid"`                               | class for invalid inputs                                        |
-| ** $input-invalid-bg-path **   | path             | `"/src/svg/backgrounds/inputBg--invalid.svg"` | background location for invalid inputs (will be base64 encoded) |
-| ** $input-group-icon-color **  | color            | `$iron`                                       | icon color for prefixed/suffixed input                          |
-| ** $input-group-icon-width **  | width            | `r(6)`                                        | icon width for prefixed/suffixed input                          |
-| ** $textarea-height **         | height           | `$base-pd + ($base-lh * 2) + rem(2px)`        | textarea height                                                 |
-| ** $checkbox-height **         | height           | `r(4)`                                        | checkbox height                                                 |
-| ** $checkbox-base-color **     | color            | `$iron`                                       | checkbox base color                                             |
-| ** $checkbox-hover-color **    | color            | `$mint`                                       | checkbox hover color                                            |
-| ** $checkbox-checked-color **  | color            | `$mint`                                       | checkbox checked color                                          |
-| ** $checkbox-inner-space **    | size             | `$mg--s`                                      | space between checkbox and label                                |
-| ** $checkbox-space-between **  | size             | `r(2)`                                        | space between checkboxes                                        |
-| ** $radio-height **            | height           | `r(4)`                                        | radio height                                                    |
-| ** $radio-base-color **        | color            | `$iron`                                       | radio base color                                                |
-| ** $radio-hover-color **       | color            | `$mint`                                       | radio hover color                                               |
-| ** $radio-checked-color **     | color            | `$mint`                                       | radio checked color                                             |
-| ** $radio-inner-space **       | size             | `$mg--s`                                      | space between radio and label                                   |
-| ** $radio-space-between **     | size             | `r(2)`                                        | space between radios                                            |
+| Variable                       | property         | value                                            | desc.                                                                    |
+|--------------------------------|------------------|--------------------------------------------------|--------------------------------------------------------------------------|
+| ** $form-base-color **         | color            | `$shuttle-gray`                                  | default form text color                                                  |
+| ** $form-placeholder-color **  | color            | `$shuttle-gray`                                  | form placeholder text color                                              |
+| ** $form-focus-color **        | color            | `$shuttle-gray`                                  | default focus form item color                                            |
+| ** $form-disabled-color **     | color            | `$gray-chateau`                                  | default disabled form item color                                         |
+| ** $form-base-bg **            | background-color | `$white`                                         | default form background-color                                            |
+| ** $form-disabled-bg **        | background-color | `$porcelain`                                     | default disabled form background-color                                   |
+| ** $form-base-border-color **  | color            | `$iron`                                          | default form border-color                                                |
+| ** $form-focus-border-color ** | color            | `$gray-chateau`                                  | default focus form border-color                                          |
+| ** $form-hover-border-color ** | color            | `$gray-chateau`                                  | default hover form item border-color                                     |
+| ** $input-pdv **               | padding          | `rb(2)`                                          | input vertical padding                                                   |
+| ** $input-pdh **               | padding          | `$pd--s`                                         | input horizontal padding                                                 |
+| ** $input-valid-class **       | class name       | `".is-valid"`                                    | class for valid inputs                                                   |
+| ** $input-valid-bg-path **     | path             | `"[…]/src/svg/backgrounds/inputBg--valid.svg"`   | background location for valid inputs (base64 encoded or Webpack ready)   |
+| ** $input-invalid-class **     | class name       | `".is-invalid"`                                  | class for invalid inputs                                                 |
+| ** $input-invalid-bg-path **   | path             | `"[…]/src/svg/backgrounds/inputBg--invalid.svg"` | background location for invalid inputs (base64 encoded or Webpack ready) |
+| ** $input-group-icon-color **  | color            | `$iron`                                          | icon color for prefixed/suffixed input                                   |
+| ** $input-group-icon-width **  | width            | `r(6)`                                           | icon width for prefixed/suffixed input                                   |
+| ** $textarea-height **         | height           | `$base-pd + ($base-lh * 2) + rem(2px)`           | textarea height                                                          |
+| ** $checkbox-height **         | height           | `r(4)`                                           | checkbox height                                                          |
+| ** $checkbox-base-color **     | color            | `$iron`                                          | checkbox base color                                                      |
+| ** $checkbox-hover-color **    | color            | `$mint`                                          | checkbox hover color                                                     |
+| ** $checkbox-checked-color **  | color            | `$mint`                                          | checkbox checked color                                                   |
+| ** $checkbox-inner-space **    | size             | `$mg--s`                                         | space between checkbox and label                                         |
+| ** $checkbox-space-between **  | size             | `r(2)`                                           | space between checkboxes                                                 |
+| ** $radio-height **            | height           | `r(4)`                                           | radio height                                                             |
+| ** $radio-base-color **        | color            | `$iron`                                          | radio base color                                                         |
+| ** $radio-hover-color **       | color            | `$mint`                                          | radio hover color                                                        |
+| ** $radio-checked-color **     | color            | `$mint`                                          | radio checked color                                                      |
+| ** $radio-inner-space **       | size             | `$mg--s`                                         | space between radio and label                                            |
+| ** $radio-space-between **     | size             | `r(2)`                                           | space between radios                                                     |
 
 
 
