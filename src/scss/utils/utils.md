@@ -71,11 +71,12 @@ Utility classes help you to add some common behaviors to elements. We decided to
 
 ## Vertical alignment
 
-| Class  | value  | desc.                                 |
-|--------|--------|---------------------------------------|
-| .u-vam | middle | sets vertical alignment in the middle |
-| .u-vat | top    | sets vertical alignment at the top    |
-| .u-vab | bottom | sets vertical alignment at the bottom |
+| Class   | value    | desc.                                   |
+|---------|----------|-----------------------------------------|
+| .u-vam  | middle   | sets vertical alignment in the middle   |
+| .u-vat  | top      | sets vertical alignment at the top      |
+| .u-vabl | baseline | sets vertical alignment at the baseline |
+| .u-vab  | bottom   | sets vertical alignment at the bottom   |
 
 
 
