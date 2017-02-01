@@ -19,13 +19,23 @@
     position: relative;
   }
 
+  @else if $type == s {
+    position: sticky;
+  }
+
   @else {
     @warn "Position not valid.";
   }
 
 
+  @if $count == 2 and $type == "s" {
+    $value: nth($args, 2);
 
-  @if $count == 2 {
+    top: $value;
+  }
+
+
+  @else if $count == 2 {
     $value: nth($args, 2);
 
     top: $value;
