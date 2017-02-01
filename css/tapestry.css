@@ -2941,6 +2941,10 @@ a {
   display: block;
 }
 
+.Dropdown-list--stretched {
+  max-height: none;
+}
+
 .Dropdown-item {
   white-space: nowrap;
   overflow: hidden;
