@@ -3,7 +3,7 @@
   .Tab {
     display: inline-block;
     position: relative;
-    padding: $tab-pdv $tab-pdh;
+    padding: $tab-pdv 0;
     font-size: $tab-fz;
     font-weight: $fw--semi-bold;
     line-height: $tab-lh;
@@ -26,6 +26,10 @@
       &:after {
         height: $tab-underline-size;
       }
+    }
+
+    + .Tab {
+      margin-left: $tab-space-between;
     }
   }
 

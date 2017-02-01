@@ -10,8 +10,8 @@
 | ** $tab-underline-size **       | size        | `rem(3px)`                 | tab underline size            |
 | ** $insert-tab-border-color **  | color       | `$silver-sand`             | insert-tab border-color       |
 | ** $small-tab-underline-size ** | size        | `rem(2px)`                 | small tab underline size      |
-| ** $tab-pdv **                  | padding     | `r(3)`                     | tab-link vertical padding     |
-| ** $tab-pdh **                  | padding     | `r(2)`                     | tab-link horizontal padding   |
+| ** $tab-pdv **                  | padding     | `r(2)`                     | tab-link vertical padding     |
+| ** $tab-space-between **        | margin      | `r(4)`                     | space between tabs            |
 | ** $insert-tab-pdv **           | padding     | `r(4)`                     | insert-tab vertical padding   |
 | ** $insert-tab-pdh **           | padding     | `r(2)`                     | insert-tab horizontal padding |
 | ** $tab-fz **                   | font-size   | `$base-fz--rem`            | tab font-size                 |
