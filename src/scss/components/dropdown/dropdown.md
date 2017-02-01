@@ -7,7 +7,7 @@
 | ** $dropdown-base-fz **                  | font-size        | `$fz--m`        | dropdown font-size                         |
 | ** $dropdown-small-fz **                 | font-size        | `$fz--s`        | small dropdown font-size                   |
 | ** $dropdown-min-width **                | min-width        | `r(56)`         | dropdown min-width                         |
-| ** $dropdown-max-height **               | max-height       | `r(30)`         | dropdown max-height                        |
+| ** $dropdown-max-height **               | max-height       | `r(25)`         | dropdown max-height                        |
 | ** $dropdown-toggle-pdv **               | padding          | `r(1)`          | dropdown-toggle vertical padding           |
 | ** $dropdown-toggle-pdh **               | padding          | `r(2)`          | dropdown-toggle horizontal padding         |
 | ** $dropdown-toggle-array-width **       | width            | `r(6)`          | dropdown-toggle array width                |
