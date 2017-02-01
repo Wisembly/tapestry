@@ -62,6 +62,8 @@
 </div>
 ```
 
+## Modifiers
+Add `.Dropdown-list--stretched` disables list max-height.
 
 
 ## Positions
