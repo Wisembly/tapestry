@@ -7,6 +7,11 @@
   line-height: $base-lh;
   background: $list-header-bg;
   border-bottom: 1px solid $list-border-color;
+
+  @supports (position: sticky) {
+    @include pos(s 0);
+    z-index: zi("base");
+  }
 }
 
 .List-title {
