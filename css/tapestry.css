@@ -4849,7 +4849,7 @@ input:checked + .Switch--s:after,
 .Tab {
   display: inline-block;
   position: relative;
-  padding: 1.07143rem 0.71429rem;
+  padding: 0.71429rem 0;
   font-size: 1rem;
   font-weight: 600;
   line-height: 1.42857rem;
@@ -4876,6 +4876,10 @@ input:checked + .Switch--s:after,
 
 .Tab[aria-selected=true]:after {
   height: 0.21429rem;
+}
+
+.Tab + .Tab {
+  margin-left: 1.42857rem;
 }
 
 .Tabs--s .Tab {
