@@ -46,8 +46,8 @@
       "hideSelectors": [],
       "removeSelectors": [],
       "selectors": [
-        ".Badge",
-        ".Badge--outline"
+        "#s-badge .Badge",
+        "#s-badge .Badge--outline"
       ],
       "readyEvent": null,
       "delay": 1000,
