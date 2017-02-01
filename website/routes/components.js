@@ -10,6 +10,12 @@ module.exports = function (app) {
       )
     ).components;
 
+    var version = JSON.parse(
+      utils.read.file(
+        path.join(__dirname, '../../package.json')
+      )
+    ).version;
+
     var component = componentName ? components.filter(function (_component) {
       return componentName.toLowerCase() === _component.name.toLowerCase();
     })[0] : components[0];
@@ -20,7 +26,8 @@ module.exports = function (app) {
     return res.render('components', {
       currentPage: 'components',
       components: components,
-      component: component
+      component: component,
+      version: version
     });
   });
 };
