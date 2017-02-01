@@ -3,6 +3,8 @@ var express = require('express');
 var compression = require('compression');
 var app = express();
 
+var package = require('../package.json');
+
 app.set('views', __dirname + '/views')
 app.set('view engine', 'pug');
 
