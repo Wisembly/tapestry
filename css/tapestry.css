@@ -2165,6 +2165,15 @@ a {
   border-bottom: 1px solid #d5d9da;
 }
 
+@supports ((position: -webkit-sticky) or (position: sticky)) {
+  .List-header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+}
+
 .List-title {
   margin: 0;
   font-size: 14px;
