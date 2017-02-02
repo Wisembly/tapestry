@@ -18,12 +18,10 @@ body.s-App {
   max-width: 850px;
   margin: 0 auto;
   padding: 2rem;
-  overflow: hidden;
 }
 
 .s-Container {
   padding-left: 250px;
-  overflow: hidden;
 }
 
 
