@@ -133,6 +133,11 @@
 </div>
 
 <div class="s-Icon">
+  <i class="Icon Icon--bug"></i>
+  bug
+</div>
+
+<div class="s-Icon">
   <i class="Icon Icon--bulb"></i>
   bulb
 </div>
