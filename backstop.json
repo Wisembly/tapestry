@@ -117,6 +117,7 @@
         "#inlinedInputWrapper2",
         "#textareaWrapper1",
         "#textareaWrapper2",
+        "#textareaWrapper3",
         ".Checkbox",
         ".Checkbox + .Checkbox",
         ".Checkbox-input:disabled + .Checkbox-label",

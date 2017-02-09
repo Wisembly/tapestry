@@ -3,7 +3,7 @@
   .Textarea {
     display: block;
     width: 100%;
-    height: $textarea-height;
+    min-height: $textarea-min-height;
     padding: $textarea-pd;
     font-size: $fz--m;
     line-height: $base-lh;
