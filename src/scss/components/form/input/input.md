@@ -67,6 +67,11 @@ Input is displayed as a 100% width by default.
   <label class="Label Label--block" for="textarea2">Disabled textarea</label>
   <textarea class="Textarea" placeholder="Disabled textarea" name="textarea2" id="textarea2" disabled></textarea>
 </div>
+
+<div id="textareaWrapper3" class="u-mgt--m">
+  <label class="Label Label--block" for="textarea3">Disabled textarea</label>
+  <textarea class="Textarea" placeholder="Disabled textarea" name="textarea3" id="textarea3" rows="4"></textarea>
+</div>
 ```
 
 
