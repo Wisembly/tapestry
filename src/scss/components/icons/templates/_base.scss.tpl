@@ -35,16 +35,37 @@
     @include <%= className %>;
   }
 
+  .Icon--symbol {
+    width: $fz--m;
+    height: $fz--m;
+    fill: currentColor;
+  }
+
   .<%= className %>--s {
     font-size: $fz--s;
+
+    &.Icon--symbol {
+      width: $fz--s;
+      height: $fz--s;
+    }
   }
 
   .<%= className %>--l {
     font-size: $fz--l;
+
+    &.Icon--symbol {
+      width: $fz--l;
+      height: $fz--l;
+    }
   }
 
   .<%= className %>--xl {
     font-size: $fz--xl;
+
+    &.Icon--symbol {
+      width: $fz--xl;
+      height: $fz--xl;
+    }
   }
 
   <% _.each(glyphs, function(glyph) { %>
