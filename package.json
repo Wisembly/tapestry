@@ -21,6 +21,8 @@
     "gulp-rename": "1.2.2",
     "gulp-sass": "2.3.2",
     "gulp-stylestats": "2.0.1",
+    "gulp-svgmin": "^1.2.3",
+    "gulp-svgstore": "^6.1.0",
     "gulp-uglify": "2.0.0",
     "lodash": "4.15.0",
     "prompt": "1.0.0",
