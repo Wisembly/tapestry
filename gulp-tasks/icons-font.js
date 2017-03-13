@@ -12,7 +12,7 @@ module.exports = function () {
       fontHeight: 100,
       formats: ['eot', 'ttf', 'woff', 'woff2']
     }))
-    .on('glyphs', function(glyphs, options) {
+    .on('glyphs', function (glyphs, options) {
       gulp.src('src/scss/components/icons/templates/_base.scss.tpl')
         .pipe(consolidate('lodash', {
           glyphs: glyphs,

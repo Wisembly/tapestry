@@ -834,3 +834,11 @@
 ```html
 <i class="Icon Icon--refresh is-spinning"></i>
 ```
+
+## [Experimental] Using svg-symbols
+
+```html
+<svg class="Icon Icon--xl Icon--symbol">
+  <use xlink:href="/fonts/tapestry-symbols.svg#like" />
+</svg>
+```

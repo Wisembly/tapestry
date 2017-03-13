@@ -171,6 +171,7 @@ rules:
         - list-style
         - list-style-inside
         - color
+        - fill
         - background
         - background-color
         - background-image
