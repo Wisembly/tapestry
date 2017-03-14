@@ -578,6 +578,11 @@
 </div>
 
 <div class="s-Icon">
+  <i class="Icon Icon--pin"></i>
+  pin
+</div>
+
+<div class="s-Icon">
   <i class="Icon Icon--play"></i>
   play
 </div>
