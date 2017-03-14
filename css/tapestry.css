@@ -1772,204 +1772,208 @@ a {
   content: "\ea70";
 }
 
-.Icon--play:before {
+.Icon--pin:before {
   content: "\ea71";
 }
 
-.Icon--plugged:before {
+.Icon--play:before {
   content: "\ea72";
 }
 
-.Icon--plus:before {
+.Icon--plugged:before {
   content: "\ea73";
 }
 
-.Icon--popup:before {
+.Icon--plus:before {
   content: "\ea74";
 }
 
-.Icon--presentation:before {
+.Icon--popup:before {
   content: "\ea75";
 }
 
-.Icon--private:before {
+.Icon--presentation:before {
   content: "\ea76";
 }
 
-.Icon--projector:before {
+.Icon--private:before {
   content: "\ea77";
 }
 
-.Icon--quotes:before {
+.Icon--projector:before {
   content: "\ea78";
 }
 
-.Icon--radio:before {
+.Icon--quotes:before {
   content: "\ea79";
 }
 
-.Icon--refresh:before {
+.Icon--radio:before {
   content: "\ea7a";
 }
 
-.Icon--reply:before {
+.Icon--refresh:before {
   content: "\ea7b";
 }
 
-.Icon--reset:before {
+.Icon--reply:before {
   content: "\ea7c";
 }
 
-.Icon--results:before {
+.Icon--reset:before {
   content: "\ea7d";
 }
 
-.Icon--rss:before {
+.Icon--results:before {
   content: "\ea7e";
 }
 
-.Icon--section:before {
+.Icon--rss:before {
   content: "\ea7f";
 }
 
-.Icon--singleChoice:before {
+.Icon--section:before {
   content: "\ea80";
 }
 
-.Icon--slack:before {
+.Icon--singleChoice:before {
   content: "\ea81";
 }
 
-.Icon--smile:before {
+.Icon--slack:before {
   content: "\ea82";
 }
 
-.Icon--solid:before {
+.Icon--smile:before {
   content: "\ea83";
 }
 
-.Icon--solidFull:before {
+.Icon--solid:before {
   content: "\ea84";
 }
 
-.Icon--spreadsheet:before {
+.Icon--solidFull:before {
   content: "\ea85";
 }
 
-.Icon--star:before {
+.Icon--spreadsheet:before {
   content: "\ea86";
 }
 
-.Icon--starHalf:before {
+.Icon--star:before {
   content: "\ea87";
 }
 
-.Icon--starOutlined:before {
+.Icon--starHalf:before {
   content: "\ea88";
 }
 
-.Icon--stats:before {
+.Icon--starOutlined:before {
   content: "\ea89";
 }
 
-.Icon--stop:before {
+.Icon--stats:before {
   content: "\ea8a";
 }
 
-.Icon--subtitle:before {
+.Icon--stop:before {
   content: "\ea8b";
 }
 
-.Icon--summary:before {
+.Icon--subtitle:before {
   content: "\ea8c";
 }
 
-.Icon--sunrise:before {
+.Icon--summary:before {
   content: "\ea8d";
 }
 
-.Icon--sunset:before {
+.Icon--sunrise:before {
   content: "\ea8e";
 }
 
-.Icon--target:before {
+.Icon--sunset:before {
   content: "\ea8f";
 }
 
-.Icon--timeline:before {
+.Icon--target:before {
   content: "\ea90";
 }
 
-.Icon--title:before {
+.Icon--timeline:before {
   content: "\ea91";
 }
 
-.Icon--titles:before {
+.Icon--title:before {
   content: "\ea92";
 }
 
-.Icon--trash:before {
+.Icon--titles:before {
   content: "\ea93";
 }
 
-.Icon--triangleDown:before {
+.Icon--trash:before {
   content: "\ea94";
 }
 
-.Icon--triangleLeft:before {
+.Icon--triangleDown:before {
   content: "\ea95";
 }
 
-.Icon--triangleRight:before {
+.Icon--triangleLeft:before {
   content: "\ea96";
 }
 
-.Icon--triangleUp:before {
+.Icon--triangleRight:before {
   content: "\ea97";
 }
 
-.Icon--twitter:before {
+.Icon--triangleUp:before {
   content: "\ea98";
 }
 
-.Icon--unlock:before {
+.Icon--twitter:before {
   content: "\ea99";
 }
 
-.Icon--unplugged:before {
+.Icon--unlock:before {
   content: "\ea9a";
 }
 
-.Icon--user:before {
+.Icon--unplugged:before {
   content: "\ea9b";
 }
 
-.Icon--video:before {
+.Icon--user:before {
   content: "\ea9c";
 }
 
-.Icon--warning:before {
+.Icon--video:before {
   content: "\ea9d";
 }
 
-.Icon--warningSign:before {
+.Icon--warning:before {
   content: "\ea9e";
 }
 
-.Icon--wifi:before {
+.Icon--warningSign:before {
   content: "\ea9f";
 }
 
-.Icon--wisembly:before {
+.Icon--wifi:before {
   content: "\eaa0";
 }
 
-.Icon--wisemblyFull:before {
+.Icon--wisembly:before {
   content: "\eaa1";
 }
 
-.Icon--youtube:before {
+.Icon--wisemblyFull:before {
   content: "\eaa2";
+}
+
+.Icon--youtube:before {
+  content: "\eaa3";
 }
 
 .Avatar {
@@ -3020,7 +3024,7 @@ a {
 }
 
 .Dropdown-toggle:after {
-  content: "\ea94";
+  content: "\ea95";
   position: absolute;
   top: 0;
   right: 0;
@@ -3544,7 +3548,7 @@ a {
 }
 
 .Radio-label:before {
-  content: "\ea79";
+  content: "\ea7a";
   margin-right: 0.71429rem;
   font-family: "tapestry-icons";
   font-size: 1.42857rem;
