@@ -258,6 +258,7 @@
         ".Icon--pictureInPicture",
         ".Icon--pieDiagram",
         ".Icon--pin",
+        ".Icon--pinOutlined",
         ".Icon--play",
         ".Icon--plugged",
         ".Icon--plus",
@@ -277,7 +278,6 @@
         ".Icon--slack",
         ".Icon--smile",
         ".Icon--solid",
-        ".Icon--solidFull",
         ".Icon--spreadsheet",
         ".Icon--star",
         ".Icon--starHalf",
@@ -306,7 +306,6 @@
         ".Icon--warningSign",
         ".Icon--wifi",
         ".Icon--wisembly",
-        ".Icon--wisemblyFull",
         ".Icon--youtube"
       ],
       "readyEvent": null,

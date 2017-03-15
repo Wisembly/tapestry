@@ -1,14 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 20 20" style="enable-background:new 0 0 20 20;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#3A434C;}
-</style>
-<path class="st0" d="M0,3.7c0,1,0.8,1.8,1.8,1.8h16.5c1,0,1.8-0.8,1.8-1.8v-2c0-1-0.8-1.8-1.8-1.8H1.8C0.8,0,0,0.8,0,1.8V3.7z
-	 M2,3.5V2h16v1.5H2z"/>
-<path class="st0" d="M0,11c0,1,0.8,1.8,1.8,1.8h16.5c1,0,1.8-0.8,1.8-1.8V9.1c0-1-0.8-1.8-1.8-1.8H1.8C0.8,7.3,0,8.1,0,9.1V11z
-	 M2,10.8V9.3h16v1.5H2z"/>
-<path class="st0" d="M0,18.2c0,1,0.8,1.8,1.8,1.8h16.5c1,0,1.8-0.8,1.8-1.8v-2c0-1-0.8-1.8-1.8-1.8H1.8c-1,0-1.8,0.8-1.8,1.8V18.2z
-	 M2,18v-1.5h16V18H2z"/>
-</svg>
+<svg viewBox="0 0 20 20"><path d="M0 3.7c0 1 .8 1.8 1.8 1.8h16.5c1 0 1.8-.8 1.8-1.8v-2c0-1-.8-1.8-1.8-1.8H1.8C.8 0 0 .8 0 1.8v1.9zm2-.2V2h16v1.5H2zM0 11c0 1 .8 1.8 1.8 1.8h16.5c1 0 1.8-.8 1.8-1.8V9.1c0-1-.8-1.8-1.8-1.8H1.8c-1 0-1.8.8-1.8 1.8V11zm2-.2V9.3h16v1.5H2zm-2 7.4c0 1 .8 1.8 1.8 1.8h16.5c1 0 1.8-.8 1.8-1.8v-2c0-1-.8-1.8-1.8-1.8H1.8c-1 0-1.8.8-1.8 1.8v2zm2-.2v-1.5h16V18H2z"/></svg>

@@ -467,83 +467,83 @@
   content: "\ea71";
 }
 
-@mixin Icon--play {
+@mixin Icon--pinOutlined {
   content: "\ea72";
 }
 
-@mixin Icon--plugged {
+@mixin Icon--play {
   content: "\ea73";
 }
 
-@mixin Icon--plus {
+@mixin Icon--plugged {
   content: "\ea74";
 }
 
-@mixin Icon--popup {
+@mixin Icon--plus {
   content: "\ea75";
 }
 
-@mixin Icon--presentation {
+@mixin Icon--popup {
   content: "\ea76";
 }
 
-@mixin Icon--private {
+@mixin Icon--presentation {
   content: "\ea77";
 }
 
-@mixin Icon--projector {
+@mixin Icon--private {
   content: "\ea78";
 }
 
-@mixin Icon--quotes {
+@mixin Icon--projector {
   content: "\ea79";
 }
 
-@mixin Icon--radio {
+@mixin Icon--quotes {
   content: "\ea7a";
 }
 
-@mixin Icon--refresh {
+@mixin Icon--radio {
   content: "\ea7b";
 }
 
-@mixin Icon--reply {
+@mixin Icon--refresh {
   content: "\ea7c";
 }
 
-@mixin Icon--reset {
+@mixin Icon--reply {
   content: "\ea7d";
 }
 
-@mixin Icon--results {
+@mixin Icon--reset {
   content: "\ea7e";
 }
 
-@mixin Icon--rss {
+@mixin Icon--results {
   content: "\ea7f";
 }
 
-@mixin Icon--section {
+@mixin Icon--rss {
   content: "\ea80";
 }
 
-@mixin Icon--singleChoice {
+@mixin Icon--section {
   content: "\ea81";
 }
 
-@mixin Icon--slack {
+@mixin Icon--singleChoice {
   content: "\ea82";
 }
 
-@mixin Icon--smile {
+@mixin Icon--slack {
   content: "\ea83";
 }
 
-@mixin Icon--solid {
+@mixin Icon--smile {
   content: "\ea84";
 }
 
-@mixin Icon--solidFull {
+@mixin Icon--solid {
   content: "\ea85";
 }
 
@@ -659,12 +659,8 @@
   content: "\eaa1";
 }
 
-@mixin Icon--wisemblyFull {
-  content: "\eaa2";
-}
-
 @mixin Icon--youtube {
-  content: "\eaa3";
+  content: "\eaa2";
 }
 
 
@@ -1148,6 +1144,10 @@
     @include Icon--pin;
   }
   
+  .Icon--pinOutlined:before {
+    @include Icon--pinOutlined;
+  }
+  
   .Icon--play:before {
     @include Icon--play;
   }
@@ -1222,10 +1222,6 @@
   
   .Icon--solid:before {
     @include Icon--solid;
-  }
-  
-  .Icon--solidFull:before {
-    @include Icon--solidFull;
   }
   
   .Icon--spreadsheet:before {
@@ -1338,10 +1334,6 @@
   
   .Icon--wisembly:before {
     @include Icon--wisembly;
-  }
-  
-  .Icon--wisemblyFull:before {
-    @include Icon--wisemblyFull;
   }
   
   .Icon--youtube:before {
