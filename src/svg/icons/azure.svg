@@ -1,9 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
-<g>
-	<polygon fill="#3A434C" points="1.56,16.09 12.48,20 18.5,18.28 18.5,1.79 12.41,0 1.5,4.1 1.5,16.07 5.2,14.62 5.2,4.9 
-		12.45,3.24 12.45,17.59 	"/>
-</g>
-</svg>
+<svg viewBox="0 0 20 20"><path d="M1.56 16.09L12.48 20l6.02-1.72V1.79L12.41 0 1.5 4.1v11.97l3.7-1.45V4.9l7.25-1.66v14.35z"/></svg>

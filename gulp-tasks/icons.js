@@ -2,9 +2,19 @@ var gulp        = require('gulp');
 var rename      = require('gulp-rename');
 var iconfont    = require('gulp-iconfont');
 var consolidate = require('gulp-consolidate');
+var svgo        = require('gulp-svgo');
 
 module.exports = function () {
   return gulp.src('./src/svg/icons/*.svg')
+    .pipe(svgo({
+      plugins: [
+        { cleanupIDs: { remove: true } },
+        { removeStyleElement: true },
+        { removeXMLNS: true },
+        { convertStyleToAttrs: true }
+      ]
+    }))
+    .pipe(gulp.dest('./src/svg/icons'))
     .pipe(iconfont({
       fontName: 'tapestry-icons',
       normalize: true,

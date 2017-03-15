@@ -583,6 +583,11 @@
 </div>
 
 <div class="s-Icon">
+  <i class="Icon Icon--pinOutlined"></i>
+  pinOutlined
+</div>
+
+<div class="s-Icon">
   <i class="Icon Icon--play"></i>
   play
 </div>
@@ -675,11 +680,6 @@
 <div class="s-Icon">
   <i class="Icon Icon--solid"></i>
   solid
-</div>
-
-<div class="s-Icon">
-  <i class="Icon Icon--solidFull"></i>
-  solidFull
 </div>
 
 <div class="s-Icon">
@@ -820,11 +820,6 @@
 <div class="s-Icon">
   <i class="Icon Icon--wisembly"></i>
   wisembly
-</div>
-
-<div class="s-Icon">
-  <i class="Icon Icon--wisemblyFull"></i>
-  wisemblyFull
 </div>
 
 <div class="s-Icon">
