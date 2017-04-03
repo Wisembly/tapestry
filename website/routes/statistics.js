@@ -4,13 +4,15 @@ var path = require('path');
 module.exports = function (app) {
   var stats = getStats();
 
-  return app.get('/stats/:json?', function (req, res) {
-    var json = req.params.json;
-
-    return json ? res.json(stats) : res.render('stats', {
-      currentPage: 'stats',
+  app.get('/statistics', function (req, res) {
+    return res.render('statistics', {
+      currentPage: 'statistics',
       stats: stats
     });
+  })
+
+  app.get('/stats/:json?', function (req, res) {
+    return res.json(stats)
   });
 };
 

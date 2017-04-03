@@ -2,10 +2,11 @@ doctype html
 html
   head
     block head
+      meta(charset='utf-8')
       title Tapestry
       link(href='/css/tapestry.css', rel='stylesheet', type='text/css')
-      link(href='/css/styleguide.css', rel='stylesheet', type='text/css')
-      link(href='/fonts/open-sans.css', rel='stylesheet', type='text/css')
+      link(href='/assets/css/styleguide.css', rel='stylesheet', type='text/css')
+      link(href='/assets/fonts/open-sans.css', rel='stylesheet', type='text/css')
       script(async, src='http://localhost:4000/browser-sync/browser-sync-client.2.13.0.js')
       script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js')
       script(src='https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/highlight.min.js')
@@ -13,8 +14,13 @@ html
       script(src='/js/tapestry.js')
     block scripts
 
-  body(class="s-App s-Page s-Page--" + currentPage)
-    include nav
+  body(id="js-Page", class="s-App s-Page")
+    block nav
+      include nav
 
     .s-Container
       block content
+
+    block pageName
+      script if (!pageName) { var pageName = 'default' }
+      script document.getElementById('js-Page').classList.add('s-Page--' + pageName)
