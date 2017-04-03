@@ -1,0 +1,205 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Tapestry</title><link href="/css/tapestry.css" rel="stylesheet" type="text/css"><link href="/assets/css/styleguide.css" rel="stylesheet" type="text/css"><link href="/assets/fonts/open-sans.css" rel="stylesheet" type="text/css"><script async src="http://localhost:4000/browser-sync/browser-sync-client.2.13.0.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/highlight.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/languages/scss.min.js"></script><script src="/js/tapestry.js"></script><script src="/assets/js/cssinfo.js"></script></head><body class="s-App s-Page" id="js-Page"><nav class="s-Nav"><h1 class="s-Logo"><a class="s-Logo-link" href="/">Tapestry</a></h1><div class="s-Nav-section"><a class="s-Nav-title" href="/getting-started">Getting started</a></div><div class="s-Nav-section has-nav"><a class="s-Nav-title" href="/components/colors">Components<a class="s-Nav-link" href="/components/colors">Colors</a><a class="s-Nav-link" href="/components/animations">Animations</a><a class="s-Nav-link" href="/components/avatar">Avatar</a><a class="s-Nav-link" href="/components/badge">Badge</a><a class="s-Nav-link" href="/components/box">Box</a><a class="s-Nav-link" href="/components/button">Button</a><a class="s-Nav-link" href="/components/dropdown">Dropdown</a><a class="s-Nav-link" href="/components/form">Form</a><a class="s-Nav-link" href="/components/input">Input</a><a class="s-Nav-link" href="/components/grid">Grid</a><a class="s-Nav-link" href="/components/icons">Icons</a><a class="s-Nav-link" href="/components/list">List</a><a class="s-Nav-link" href="/components/loader">Loader</a><a class="s-Nav-link" href="/components/media">Media</a><a class="s-Nav-link" href="/components/meter">Meter</a><a class="s-Nav-link" href="/components/modal">Modal</a><a class="s-Nav-link" href="/components/notification">Notification</a><a class="s-Nav-link" href="/components/panel">Panel</a><a class="s-Nav-link" href="/components/pellet">Pellet</a><a class="s-Nav-link" href="/components/popovers">Popovers</a><a class="s-Nav-link" href="/components/spinner">Spinner</a><a class="s-Nav-link" href="/components/switch">Switch</a><a class="s-Nav-link" href="/components/table">Table</a><a class="s-Nav-link" href="/components/tabs">Tabs</a><a class="s-Nav-link" href="/components/tooltip">Tooltip</a><a class="s-Nav-link" href="/components/typography">Typography</a><a class="s-Nav-link" href="/components/utils">Utils</a></a></div><div class="s-Nav-section"><a class="s-Nav-title" href="/sass-utils">Sass Utils</a></div><div class="s-Nav-section"><a class="s-Nav-title" href="/statistics">Statistics</a></div></nav><div class="s-Container"><h1 class="s-Header"><span class="Badge u-validate u-push">Current version: 1.9.1</span><span>Components</span></h1><div class="s-App-content s-Modules-container"><div class="s-Module"><div id="s-utils" class="s-Module s-Module--utils"><h1 id="utility-classes" class="s-Title--1">Utility classes</h1><p class="s-Paragraph">Utility classes help you to add some common behaviors to elements. We decided to used <a href="http://docs.emmet.io/abbreviations/syntax/">Emmet syntax</a> to make them shorter and accessible. They are prefixed with <code>u-</code> to make them more readable.</p><h2 id="text-alignment" class="s-Title--2">Text alignment</h2><table class="s-Table"><tr>
+<th>Class</th>
+<th>value</th>
+<th>desc.</th>
+</tr>
+<tr>
+<td>.u-tac</td>
+<td>center</td>
+<td>centers text</td>
+</tr>
+<tr>
+<td>.u-tar</td>
+<td>right</td>
+<td>aligns text on the right</td>
+</tr>
+<tr>
+<td>.u-tal</td>
+<td>left</td>
+<td>aligns text on the left</td>
+</tr>
+</table><h2 id="floating" class="s-Title--2">Floating</h2><table class="s-Table"><tr>
+<th>Class</th>
+<th>value</th>
+<th>desc.</th>
+</tr>
+<tr>
+<td>.u-push</td>
+<td>right</td>
+<td>floats to the right</td>
+</tr>
+<tr>
+<td>.u-pull</td>
+<td>left</td>
+<td>floats to the left</td>
+</tr>
+</table><h2 id="clearfix" class="s-Title--2">Clearfix</h2><table class="s-Table"><tr>
+<th>Class</th>
+<th>desc.</th>
+</tr>
+<tr>
+<td>.u-cf</td>
+<td>applies clearfix hack on element</td>
+</tr>
+</table><h2 id="clearfix" class="s-Title--2">Clearfix</h2><table class="s-Table"><tr>
+<th>Class</th>
+<th>desc.</th>
+</tr>
+<tr>
+<td>.u-ellipsis</td>
+<td>applies ellipsis on element</td>
+</tr>
+</table><h2 id="overflow" class="s-Title--2">Overflow</h2><table class="s-Table"><tr>
+<th>Class</th>
+<th>desc.</th>
+</tr>
+<tr>
+<td>.u-ovh</td>
+<td>hide overflow</td>
+</tr>
+</table><h2 id="flex" class="s-Title--2">Flex</h2><table class="s-Table"><tr>
+<th>Class</th>
+<th>property</th>
+<th>value</th>
+<th>desc.</th>
+</tr>
+<tr>
+<td>.u-fl</td>
+<td>display</td>
+<td>flex</td>
+<td>sets flex display on element</td>
+</tr>
+<tr>
+<td>.u-fld--r</td>
+<td>flex-direction</td>
+<td>row</td>
+<td>sets row flex-direction on element</td>
+</tr>
+<tr>
+<td>.u-fld--c</td>
+<td>flex-direction</td>
+<td>column</td>
+<td>sets column flex-direction on element</td>
+</tr>
+<tr>
+<td>.u-flw</td>
+<td>flex-wrap</td>
+<td>wrap</td>
+<td>allows children wrapping</td>
+</tr>
+<tr>
+<td>.u-flw--n</td>
+<td>flex-wrap</td>
+<td>nowrap</td>
+<td>disables children wrapping</td>
+</tr>
+<tr>
+<td>.u-fl--n</td>
+<td>flex</td>
+<td>none</td>
+<td>flex-grow: 0, flex-shrink: 0, flex-basis: auto</td>
+</tr>
+<tr>
+<td>.u-fl--a</td>
+<td>flex</td>
+<td>auto</td>
+<td>flex-grow: 1, flex-shrink: 1, flex-basis: auto</td>
+</tr>
+</table><h2 id="hide" class="s-Title--2">Hide</h2><ul class="Styleguide-list"><li>.is-hidden</li>
+<li>.u-hidden</li>
+<li>.u-vhidden</li>
+</ul><h2 id="vertical-alignment" class="s-Title--2">Vertical alignment</h2><table class="s-Table"><tr>
+<th>Class</th>
+<th>value</th>
+<th>desc.</th>
+</tr>
+<tr>
+<td>.u-vam</td>
+<td>middle</td>
+<td>sets vertical alignment in the middle</td>
+</tr>
+<tr>
+<td>.u-vat</td>
+<td>top</td>
+<td>sets vertical alignment at the top</td>
+</tr>
+<tr>
+<td>.u-vabl</td>
+<td>baseline</td>
+<td>sets vertical alignment at the baseline</td>
+</tr>
+<tr>
+<td>.u-vab</td>
+<td>bottom</td>
+<td>sets vertical alignment at the bottom</td>
+</tr>
+</table><h2 id="reset-default-style" class="s-Title--2">Reset default style</h2><p class="s-Paragraph">You can reset styles for <code>&lt;ul&gt;</code></p><ul class="r-list">
+  <li>Foo</li>
+  <li>Bar</li>
+</ul>
+<ul class="r-list">
+  <li>Baz</li>
+  <li>Foobar</li>
+</ul>
+<pre class="code"><code class="html"><span class="hljs-tag">&lt;<span class="hljs-title">ul</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"r-list"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">li</span>&gt;</span>Foo<span class="hljs-tag">&lt;/<span class="hljs-title">li</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">li</span>&gt;</span>Bar<span class="hljs-tag">&lt;/<span class="hljs-title">li</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">ul</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">ul</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"r-list"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">li</span>&gt;</span>Baz<span class="hljs-tag">&lt;/<span class="hljs-title">li</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">li</span>&gt;</span>Foobar<span class="hljs-tag">&lt;/<span class="hljs-title">li</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">ul</span>&gt;</span></code></pre><h2 id="spacing" class="s-Title--2">Spacing</h2><ul class="Styleguide-list"><li>Size values: <code>0</code> | <code>xs</code> | <code>s</code> | <code>m</code> | <code>l</code> | <code>xl</code></li>
+<li>Direction values (optional): <code>t</code> (top) | <code>r</code> (right) | <code>b</code> (bottom) | <code>l</code> (left)</li>
+</ul><table class="s-Table"><tr>
+<th>Syntax/class</th>
+<th>desc.</th>
+</tr>
+<tr>
+<td>.u + -property (+ direction) + --size</td>
+<td>-</td>
+</tr>
+<tr>
+<td>.u-mg--0</td>
+<td>No margin</td>
+</tr>
+<tr>
+<td>.u-pdt--s</td>
+<td>Small padding-top</td>
+</tr>
+</table><h2 id="sass-helpers" class="s-Title--2">Sass helpers</h2><table class="s-Table"><tr>
+<th>Helper</th>
+<th>desc.</th>
+</tr>
+<tr>
+<td>r(x)</td>
+<td>to set vertical rhythm of a module, where X is an integer for vertical unit</td>
+</tr>
+<tr>
+<td>rb(x,y,z)</td>
+<td>to set vertical rhythm of a module if it has a border, where X is an integer for vertical unit, Y the border width and Z the font size</td>
+</tr>
+<tr>
+<td>fz(x)</td>
+<td>to set font size if $fz--modifiers are not enough and keep vertical rhythm</td>
+</tr>
+</table><h2 id="div-colorizers" class="s-Title--2">Div colorizers</h2><table class="s-Table"><tr>
+<th>Class</th>
+<th>desc.</th>
+</tr>
+<tr>
+<td>.u-neutral</td>
+<td>adds a neutral layout: white text, grey background</td>
+</tr>
+<tr>
+<td>.u-validate</td>
+<td>adds a validation-related layout: white text, green background</td>
+</tr>
+<tr>
+<td>.u-info</td>
+<td>adds a informative layout: white text, orange background</td>
+</tr>
+<tr>
+<td>.u-error</td>
+<td>adds a error-related layout: white text, red background</td>
+</tr>
+</table></div></div></div><script src="/assets/js/cssinfo.js"></script></div><script>if (!pageName) { var pageName = 'default' }</script><script>document.getElementById('js-Page').classList.add('s-Page--' + pageName)</script></body></html>

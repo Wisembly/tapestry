@@ -1,0 +1,167 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Tapestry</title><link href="/css/tapestry.css" rel="stylesheet" type="text/css"><link href="/assets/css/styleguide.css" rel="stylesheet" type="text/css"><link href="/assets/fonts/open-sans.css" rel="stylesheet" type="text/css"><script async src="http://localhost:4000/browser-sync/browser-sync-client.2.13.0.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/highlight.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/languages/scss.min.js"></script><script src="/js/tapestry.js"></script><script src="/assets/js/cssinfo.js"></script></head><body class="s-App s-Page" id="js-Page"><nav class="s-Nav"><h1 class="s-Logo"><a class="s-Logo-link" href="/">Tapestry</a></h1><div class="s-Nav-section"><a class="s-Nav-title" href="/getting-started">Getting started</a></div><div class="s-Nav-section has-nav"><a class="s-Nav-title" href="/components/colors">Components<a class="s-Nav-link" href="/components/colors">Colors</a><a class="s-Nav-link" href="/components/animations">Animations</a><a class="s-Nav-link" href="/components/avatar">Avatar</a><a class="s-Nav-link" href="/components/badge">Badge</a><a class="s-Nav-link" href="/components/box">Box</a><a class="s-Nav-link" href="/components/button">Button</a><a class="s-Nav-link" href="/components/dropdown">Dropdown</a><a class="s-Nav-link" href="/components/form">Form</a><a class="s-Nav-link" href="/components/input">Input</a><a class="s-Nav-link" href="/components/grid">Grid</a><a class="s-Nav-link" href="/components/icons">Icons</a><a class="s-Nav-link" href="/components/list">List</a><a class="s-Nav-link" href="/components/loader">Loader</a><a class="s-Nav-link" href="/components/media">Media</a><a class="s-Nav-link" href="/components/meter">Meter</a><a class="s-Nav-link" href="/components/modal">Modal</a><a class="s-Nav-link" href="/components/notification">Notification</a><a class="s-Nav-link" href="/components/panel">Panel</a><a class="s-Nav-link" href="/components/pellet">Pellet</a><a class="s-Nav-link" href="/components/popovers">Popovers</a><a class="s-Nav-link" href="/components/spinner">Spinner</a><a class="s-Nav-link" href="/components/switch">Switch</a><a class="s-Nav-link" href="/components/table">Table</a><a class="s-Nav-link" href="/components/tabs">Tabs</a><a class="s-Nav-link" href="/components/tooltip">Tooltip</a><a class="s-Nav-link" href="/components/typography">Typography</a><a class="s-Nav-link" href="/components/utils">Utils</a></a></div><div class="s-Nav-section"><a class="s-Nav-title" href="/sass-utils">Sass Utils</a></div><div class="s-Nav-section"><a class="s-Nav-title" href="/statistics">Statistics</a></div></nav><div class="s-Container"><h1 class="s-Header"><span class="Badge u-validate u-push">Current version: 1.9.1</span><span>Components</span></h1><div class="s-App-content s-Modules-container"><div class="s-Module"><div id="s-modal" class="s-Module s-Module--modal"><h1 id="modal" class="s-Title--1">Modal</h1><h2 id="variables" class="s-Title--2">Variables</h2><table class="s-Table"><tr>
+<th>Variable</th>
+<th>property</th>
+<th>value</th>
+<th>desc.</th>
+</tr>
+<tr>
+<td><strong> $modal-header-btn-width </strong></td>
+<td>width</td>
+<td><code>$fz--m + ($base-mg * 2)</code></td>
+<td>modal header button width</td>
+</tr>
+<tr>
+<td><strong> $modal-width </strong></td>
+<td>width</td>
+<td><code>90%</code></td>
+<td>modal width (small devices)</td>
+</tr>
+<tr>
+<td><strong> $modal-max-width </strong></td>
+<td>max-width</td>
+<td><code>r(80)</code></td>
+<td>modal max-width (large devices)</td>
+</tr>
+<tr>
+<td><strong> $modal-max-height </strong></td>
+<td>max-height</td>
+<td><code>calc(100vh - #{2 * $mg--m})</code></td>
+<td>modal max-height</td>
+</tr>
+</table><h2 id="modal-with-simple-message" class="s-Title--2">Modal with simple message</h2><p class="s-Paragraph">Aims at including a simple caption or call-to-action.</p><button class="Btn Btn--primary Btn--outline" id="js-LaunchModalSimple">Open Modal with simple message</button>
+<div class="Modal-wrapper" aria-hidden="true" id="js-ModalSimple">
+  <div class="Modal">
+    <header class="Modal-header">
+      <h3 class="Modal-title">Modal title</h3>
+      <button type="button" id="js-CloseModalSimple" class="Btn Btn--raw ModalHeader-btn">
+        <i class="Icon Icon--cross"></i>
+      </button>
+    </header>
+    <div class="Modal-content u-pd--m u-pdb--0">
+      <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?</p>
+    </div>
+    <footer class="Modal-footer">
+      <button type="button" class="Btn Btn--expand">Cancel</button>
+      <button type="button" class="Btn Btn--expand Btn--validate">OK</button>
+    </footer>
+  </div>
+</div>
+<pre class="code"><code class="html">&lt;div <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Modal-wrapper"</span> aria-hidden=<span class="hljs-string">"true"</span> id=<span class="hljs-string">"js-ModalSimple"</span>&gt;
+  &lt;div <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Modal"</span>&gt;
+    &lt;header <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Modal-header"</span>&gt;
+      &lt;h3 <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Modal-title"</span>&gt;<span class="hljs-type">Modal</span> title&lt;/h3&gt;
+      &lt;button <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"button"</span> id=<span class="hljs-string">"js-CloseModalSimple"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Btn Btn--raw ModalHeader-btn"</span>&gt;
+        &lt;i <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Icon Icon--cross"</span>&gt;&lt;/i&gt;
+      &lt;/button&gt;
+    &lt;/header&gt;
+    &lt;div <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Modal-content u-pd--m u-pdb--0"</span>&gt;
+      &lt;p&gt;<span class="hljs-type">Ut</span> enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;footer <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Modal-footer"</span>&gt;
+      &lt;button <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"button"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Btn Btn--expand"</span>&gt;<span class="hljs-type">Cancel</span>&lt;/button&gt;
+      &lt;button <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"button"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Btn Btn--expand Btn--validate"</span>&gt;<span class="hljs-type">OK</span>&lt;/button&gt;
+    &lt;/footer&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre><h2 id="modal-with-list" class="s-Title--2">Modal with list</h2><p class="s-Paragraph">Wraps a list.</p><button class="Btn Btn--primary Btn--outline" id="js-LaunchModalMenu">Open Modal with list</button>
+<div class="Modal-wrapper" aria-hidden="true" id="js-ModalMenu">
+  <div class="Modal">
+    <header class="Modal-header">
+      <button type="button" class="Btn Btn--raw ModalHeader-btn">
+        <i class="Icon Icon--arrowBack"></i>
+      </button>
+      <h3 class="Modal-title">Modal title</h3>
+      <button type="button" id="js-CloseModalMenu" class="Btn Btn--raw ModalHeader-btn">
+        <i class="Icon Icon--cross"></i>
+      </button>
+    </header>
+    <div class="Modal-content">
+      <div class="List">
+        <header class="List-header">
+          <h4 class="List-title">Items</h4>
+          <p class="List-count">(6)</p>
+        </header>
+        <ul class="List-content">
+          <li class="List-item">A</li>
+          <li class="List-itemWrapper">
+            <a href="#foo" class="List-item is-actionable">E</a>
+          </li>
+          <li class="List-item">I</li>
+          <li class="List-itemWrapper">
+            <a href="#foo" class="List-item is-actionable">O</a>
+          </li>
+          <li class="List-item">U</li>
+          <li class="List-itemWrapper">
+            <a href="#foo" class="List-item is-actionable">Y</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <footer class="Modal-footer">
+      <button type="button" class="Btn Btn--expand">Cancel</button>
+      <button type="button" class="Btn Btn--expand Btn--validate">OK</button>
+    </footer>
+  </div>
+</div>
+<pre class="code"><code class="html">&lt;div <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Modal-wrapper"</span> aria-hidden=<span class="hljs-string">"true"</span> id=<span class="hljs-string">"js-ModalMenu"</span>&gt;
+  &lt;div <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Modal"</span>&gt;
+    &lt;header <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Modal-header"</span>&gt;
+      &lt;button <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"button"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Btn Btn--raw ModalHeader-btn"</span>&gt;
+        &lt;i <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Icon Icon--arrowBack"</span>&gt;&lt;/i&gt;
+      &lt;/button&gt;
+      &lt;h3 <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Modal-title"</span>&gt;<span class="hljs-type">Modal</span> title&lt;/h3&gt;
+      &lt;button <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"button"</span> id=<span class="hljs-string">"js-CloseModalMenu"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Btn Btn--raw ModalHeader-btn"</span>&gt;
+        &lt;i <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Icon Icon--cross"</span>&gt;&lt;/i&gt;
+      &lt;/button&gt;
+    &lt;/header&gt;
+    &lt;div <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Modal-content"</span>&gt;
+      &lt;div <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"List"</span>&gt;
+        &lt;header <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"List-header"</span>&gt;
+          &lt;h4 <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"List-title"</span>&gt;<span class="hljs-type">Items</span>&lt;/h4&gt;
+          &lt;p <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"List-count"</span>&gt;(<span class="hljs-number">6</span>)&lt;/p&gt;
+        &lt;/header&gt;
+        &lt;ul <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"List-content"</span>&gt;
+          &lt;li <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"List-item"</span>&gt;<span class="hljs-type">A</span>&lt;/li&gt;
+          &lt;li <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"List-itemWrapper"</span>&gt;
+            &lt;a href=<span class="hljs-string">"#foo"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"List-item is-actionable"</span>&gt;<span class="hljs-type">E</span>&lt;/a&gt;
+          &lt;/li&gt;
+          &lt;li <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"List-item"</span>&gt;<span class="hljs-type">I</span>&lt;/li&gt;
+          &lt;li <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"List-itemWrapper"</span>&gt;
+            &lt;a href=<span class="hljs-string">"#foo"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"List-item is-actionable"</span>&gt;<span class="hljs-type">O</span>&lt;/a&gt;
+          &lt;/li&gt;
+          &lt;li <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"List-item"</span>&gt;<span class="hljs-type">U</span>&lt;/li&gt;
+          &lt;li <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"List-itemWrapper"</span>&gt;
+            &lt;a href=<span class="hljs-string">"#foo"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"List-item is-actionable"</span>&gt;<span class="hljs-type">Y</span>&lt;/a&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;footer <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Modal-footer"</span>&gt;
+      &lt;button <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"button"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Btn Btn--expand"</span>&gt;<span class="hljs-type">Cancel</span>&lt;/button&gt;
+      &lt;button <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"button"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Btn Btn--expand Btn--validate"</span>&gt;<span class="hljs-type">OK</span>&lt;/button&gt;
+    &lt;/footer&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre><h2 id="notes" class="s-Title--2">Notes</h2><ul class="Styleguide-list"><li>Height can&#39;t exceed ~100vh (vertical margins are already set),</li>
+<li>Header items are made to be justified whatever numbers they are,</li>
+<li>Content is automatically shrunk and scrollable.</li>
+</ul><script>
+  document.getElementById("js-LaunchModalSimple").onclick = function(){
+    document.getElementById("js-ModalSimple").setAttribute("aria-hidden","false");
+    document.body.classList.add("u-ovh");
+  }
+
+  document.getElementById("js-CloseModalSimple").onclick = function(){
+    document.getElementById("js-ModalSimple").setAttribute("aria-hidden","true");
+    document.body.classList.remove("u-ovh");
+  }
+
+  document.getElementById("js-LaunchModalMenu").onclick = function(){
+    document.getElementById("js-ModalMenu").setAttribute("aria-hidden","false");
+    document.body.classList.add("u-ovh");
+  }
+
+  document.getElementById("js-CloseModalMenu").onclick = function(){
+    document.getElementById("js-ModalMenu").setAttribute("aria-hidden","true");
+    document.body.classList.remove("u-ovh");
+  }
+</script>
+</div></div></div><script src="/assets/js/cssinfo.js"></script></div><script>if (!pageName) { var pageName = 'default' }</script><script>document.getElementById('js-Page').classList.add('s-Page--' + pageName)</script></body></html>

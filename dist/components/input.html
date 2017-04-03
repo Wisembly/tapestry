@@ -1,0 +1,467 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Tapestry</title><link href="/css/tapestry.css" rel="stylesheet" type="text/css"><link href="/assets/css/styleguide.css" rel="stylesheet" type="text/css"><link href="/assets/fonts/open-sans.css" rel="stylesheet" type="text/css"><script async src="http://localhost:4000/browser-sync/browser-sync-client.2.13.0.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/highlight.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/languages/scss.min.js"></script><script src="/js/tapestry.js"></script><script src="/assets/js/cssinfo.js"></script></head><body class="s-App s-Page" id="js-Page"><nav class="s-Nav"><h1 class="s-Logo"><a class="s-Logo-link" href="/">Tapestry</a></h1><div class="s-Nav-section"><a class="s-Nav-title" href="/getting-started">Getting started</a></div><div class="s-Nav-section has-nav"><a class="s-Nav-title" href="/components/colors">Components<a class="s-Nav-link" href="/components/colors">Colors</a><a class="s-Nav-link" href="/components/animations">Animations</a><a class="s-Nav-link" href="/components/avatar">Avatar</a><a class="s-Nav-link" href="/components/badge">Badge</a><a class="s-Nav-link" href="/components/box">Box</a><a class="s-Nav-link" href="/components/button">Button</a><a class="s-Nav-link" href="/components/dropdown">Dropdown</a><a class="s-Nav-link" href="/components/form">Form</a><a class="s-Nav-link" href="/components/input">Input</a><a class="s-Nav-link" href="/components/grid">Grid</a><a class="s-Nav-link" href="/components/icons">Icons</a><a class="s-Nav-link" href="/components/list">List</a><a class="s-Nav-link" href="/components/loader">Loader</a><a class="s-Nav-link" href="/components/media">Media</a><a class="s-Nav-link" href="/components/meter">Meter</a><a class="s-Nav-link" href="/components/modal">Modal</a><a class="s-Nav-link" href="/components/notification">Notification</a><a class="s-Nav-link" href="/components/panel">Panel</a><a class="s-Nav-link" href="/components/pellet">Pellet</a><a class="s-Nav-link" href="/components/popovers">Popovers</a><a class="s-Nav-link" href="/components/spinner">Spinner</a><a class="s-Nav-link" href="/components/switch">Switch</a><a class="s-Nav-link" href="/components/table">Table</a><a class="s-Nav-link" href="/components/tabs">Tabs</a><a class="s-Nav-link" href="/components/tooltip">Tooltip</a><a class="s-Nav-link" href="/components/typography">Typography</a><a class="s-Nav-link" href="/components/utils">Utils</a></a></div><div class="s-Nav-section"><a class="s-Nav-title" href="/sass-utils">Sass Utils</a></div><div class="s-Nav-section"><a class="s-Nav-title" href="/statistics">Statistics</a></div></nav><div class="s-Container"><h1 class="s-Header"><span class="Badge u-validate u-push">Current version: 1.9.1</span><span>Components</span></h1><div class="s-App-content s-Modules-container"><div class="s-Module"><div id="s-input" class="s-Module s-Module--input"><h1 id="inputs" class="s-Title--1">Inputs</h1><p class="s-Paragraph">Input is displayed as a 100% width by default.</p><h2 id="variables" class="s-Title--2">Variables</h2><table class="s-Table"><tr>
+<th>Variable</th>
+<th>property</th>
+<th>value</th>
+<th>desc.</th>
+</tr>
+<tr>
+<td><strong> $form-base-color </strong></td>
+<td>color</td>
+<td><code>$shuttle-gray</code></td>
+<td>default form text color</td>
+</tr>
+<tr>
+<td><strong> $form-placeholder-color </strong></td>
+<td>color</td>
+<td><code>$shuttle-gray</code></td>
+<td>form placeholder text color</td>
+</tr>
+<tr>
+<td><strong> $form-focus-color </strong></td>
+<td>color</td>
+<td><code>$shuttle-gray</code></td>
+<td>default focus form item color</td>
+</tr>
+<tr>
+<td><strong> $form-disabled-color </strong></td>
+<td>color</td>
+<td><code>$gray-chateau</code></td>
+<td>default disabled form item color</td>
+</tr>
+<tr>
+<td><strong> $form-base-bg </strong></td>
+<td>background-color</td>
+<td><code>$white</code></td>
+<td>default form background-color</td>
+</tr>
+<tr>
+<td><strong> $form-disabled-bg </strong></td>
+<td>background-color</td>
+<td><code>$porcelain</code></td>
+<td>default disabled form background-color</td>
+</tr>
+<tr>
+<td><strong> $form-base-border-color </strong></td>
+<td>color</td>
+<td><code>$iron</code></td>
+<td>default form border-color</td>
+</tr>
+<tr>
+<td><strong> $form-focus-border-color </strong></td>
+<td>color</td>
+<td><code>$gray-chateau</code></td>
+<td>default focus form border-color</td>
+</tr>
+<tr>
+<td><strong> $form-hover-border-color </strong></td>
+<td>color</td>
+<td><code>$gray-chateau</code></td>
+<td>default hover form item border-color</td>
+</tr>
+<tr>
+<td><strong> $input-pdv </strong></td>
+<td>padding</td>
+<td><code>rb(2)</code></td>
+<td>input vertical padding</td>
+</tr>
+<tr>
+<td><strong> $input-pdh </strong></td>
+<td>padding</td>
+<td><code>$pd--s</code></td>
+<td>input horizontal padding</td>
+</tr>
+<tr>
+<td><strong> $input-valid-class </strong></td>
+<td>class name</td>
+<td><code>&quot;.is-valid&quot;</code></td>
+<td>class for valid inputs</td>
+</tr>
+<tr>
+<td><strong> $input-valid-bg-path </strong></td>
+<td>path</td>
+<td><code>&quot;[…]/src/svg/backgrounds/inputBg--valid.svg&quot;</code></td>
+<td>background location for valid inputs (base64 encoded or Webpack ready)</td>
+</tr>
+<tr>
+<td><strong> $input-invalid-class </strong></td>
+<td>class name</td>
+<td><code>&quot;.is-invalid&quot;</code></td>
+<td>class for invalid inputs</td>
+</tr>
+<tr>
+<td><strong> $input-invalid-bg-path </strong></td>
+<td>path</td>
+<td><code>&quot;[…]/src/svg/backgrounds/inputBg--invalid.svg&quot;</code></td>
+<td>background location for invalid inputs (base64 encoded or Webpack ready)</td>
+</tr>
+<tr>
+<td><strong> $input-group-icon-color </strong></td>
+<td>color</td>
+<td><code>$iron</code></td>
+<td>icon color for prefixed/suffixed input</td>
+</tr>
+<tr>
+<td><strong> $input-group-icon-width </strong></td>
+<td>width</td>
+<td><code>r(6)</code></td>
+<td>icon width for prefixed/suffixed input</td>
+</tr>
+<tr>
+<td><strong> $textarea-height </strong></td>
+<td>height</td>
+<td><code>$base-pd + ($base-lh * 2) + rem(2px)</code></td>
+<td>textarea height</td>
+</tr>
+<tr>
+<td><strong> $checkbox-height </strong></td>
+<td>height</td>
+<td><code>r(4)</code></td>
+<td>checkbox height</td>
+</tr>
+<tr>
+<td><strong> $checkbox-base-color </strong></td>
+<td>color</td>
+<td><code>$iron</code></td>
+<td>checkbox base color</td>
+</tr>
+<tr>
+<td><strong> $checkbox-hover-color </strong></td>
+<td>color</td>
+<td><code>$mint</code></td>
+<td>checkbox hover color</td>
+</tr>
+<tr>
+<td><strong> $checkbox-checked-color </strong></td>
+<td>color</td>
+<td><code>$mint</code></td>
+<td>checkbox checked color</td>
+</tr>
+<tr>
+<td><strong> $checkbox-inner-space </strong></td>
+<td>size</td>
+<td><code>$mg--s</code></td>
+<td>space between checkbox and label</td>
+</tr>
+<tr>
+<td><strong> $checkbox-space-between </strong></td>
+<td>size</td>
+<td><code>r(2)</code></td>
+<td>space between checkboxes</td>
+</tr>
+<tr>
+<td><strong> $radio-height </strong></td>
+<td>height</td>
+<td><code>r(4)</code></td>
+<td>radio height</td>
+</tr>
+<tr>
+<td><strong> $radio-base-color </strong></td>
+<td>color</td>
+<td><code>$iron</code></td>
+<td>radio base color</td>
+</tr>
+<tr>
+<td><strong> $radio-hover-color </strong></td>
+<td>color</td>
+<td><code>$mint</code></td>
+<td>radio hover color</td>
+</tr>
+<tr>
+<td><strong> $radio-checked-color </strong></td>
+<td>color</td>
+<td><code>$mint</code></td>
+<td>radio checked color</td>
+</tr>
+<tr>
+<td><strong> $radio-inner-space </strong></td>
+<td>size</td>
+<td><code>$mg--s</code></td>
+<td>space between radio and label</td>
+</tr>
+<tr>
+<td><strong> $radio-space-between </strong></td>
+<td>size</td>
+<td><code>r(2)</code></td>
+<td>space between radios</td>
+</tr>
+</table><h2 id="basic" class="s-Title--2">Basic</h2><div id="basicInputWrapper1">
+  <label for="basicInput" class="Label Label--block">Foo</label>
+  <input id="basicInput" class="Input" type="text" placeholder="Basic input" aria-label="Input item">
+</div>
+
+<div id="basicInputWrapper2" class="u-mgt--m">
+  <label for="disabledInput" class="Label Label--block">Bar</label>
+  <input id="disabledInput" class="Input" type="text" placeholder="Disabled input" aria-label="Input item" disabled>
+</div>
+<pre class="code"><code class="html">&lt;div id=<span class="hljs-string">"basicInputWrapper1"</span>&gt;
+  &lt;<span class="hljs-keyword">label</span> <span class="hljs-keyword">for</span>=<span class="hljs-string">"basicInput"</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"Label Label--block"</span>&gt;Foo&lt;/<span class="hljs-keyword">label</span>&gt;
+  &lt;<span class="hljs-keyword">input</span> id=<span class="hljs-string">"basicInput"</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"Input"</span> <span class="hljs-keyword">type</span>=<span class="hljs-string">"text"</span> placeholder=<span class="hljs-string">"Basic input"</span> aria-<span class="hljs-keyword">label</span>=<span class="hljs-string">"Input item"</span>&gt;
+&lt;/div&gt;
+
+&lt;div id=<span class="hljs-string">"basicInputWrapper2"</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"u-mgt--m"</span>&gt;
+  &lt;<span class="hljs-keyword">label</span> <span class="hljs-keyword">for</span>=<span class="hljs-string">"disabledInput"</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"Label Label--block"</span>&gt;Bar&lt;/<span class="hljs-keyword">label</span>&gt;
+  &lt;<span class="hljs-keyword">input</span> id=<span class="hljs-string">"disabledInput"</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"Input"</span> <span class="hljs-keyword">type</span>=<span class="hljs-string">"text"</span> placeholder=<span class="hljs-string">"Disabled input"</span> aria-<span class="hljs-keyword">label</span>=<span class="hljs-string">"Input item"</span> disabled&gt;
+&lt;/div&gt;</code></pre><h2 id="textarea" class="s-Title--2">Textarea</h2><div id="textareaWrapper1">
+  <label class="Label Label--block" for="textarea1">Textarea</label>
+  <textarea class="Textarea" placeholder="Textarea" name="textarea1" id="textarea1"></textarea>
+</div>
+
+<div id="textareaWrapper2" class="u-mgt--m">
+  <label class="Label Label--block" for="textarea2">Disabled textarea</label>
+  <textarea class="Textarea" placeholder="Disabled textarea" name="textarea2" id="textarea2" disabled></textarea>
+</div>
+
+<div id="textareaWrapper3" class="u-mgt--m">
+  <label class="Label Label--block" for="textarea3">Disabled textarea</label>
+  <textarea class="Textarea" placeholder="Disabled textarea" name="textarea3" id="textarea3" rows="4"></textarea>
+</div>
+<pre class="code"><code class="html">&lt;<span class="hljs-keyword">div</span> <span class="hljs-property">id</span>=<span class="hljs-string">"textareaWrapper1"</span>&gt;
+  &lt;label <span class="hljs-type">class</span>=<span class="hljs-string">"Label Label--block"</span> <span class="hljs-keyword">for</span>=<span class="hljs-string">"textarea1"</span>&gt;Textarea&lt;/label&gt;
+  &lt;textarea <span class="hljs-type">class</span>=<span class="hljs-string">"Textarea"</span> placeholder=<span class="hljs-string">"Textarea"</span> <span class="hljs-property">name</span>=<span class="hljs-string">"textarea1"</span> <span class="hljs-property">id</span>=<span class="hljs-string">"textarea1"</span>&gt;&lt;/textarea&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+
+&lt;<span class="hljs-keyword">div</span> <span class="hljs-property">id</span>=<span class="hljs-string">"textareaWrapper2"</span> <span class="hljs-type">class</span>=<span class="hljs-string">"u-mgt--m"</span>&gt;
+  &lt;label <span class="hljs-type">class</span>=<span class="hljs-string">"Label Label--block"</span> <span class="hljs-keyword">for</span>=<span class="hljs-string">"textarea2"</span>&gt;Disabled textarea&lt;/label&gt;
+  &lt;textarea <span class="hljs-type">class</span>=<span class="hljs-string">"Textarea"</span> placeholder=<span class="hljs-string">"Disabled textarea"</span> <span class="hljs-property">name</span>=<span class="hljs-string">"textarea2"</span> <span class="hljs-property">id</span>=<span class="hljs-string">"textarea2"</span> disabled&gt;&lt;/textarea&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+
+&lt;<span class="hljs-keyword">div</span> <span class="hljs-property">id</span>=<span class="hljs-string">"textareaWrapper3"</span> <span class="hljs-type">class</span>=<span class="hljs-string">"u-mgt--m"</span>&gt;
+  &lt;label <span class="hljs-type">class</span>=<span class="hljs-string">"Label Label--block"</span> <span class="hljs-keyword">for</span>=<span class="hljs-string">"textarea3"</span>&gt;Disabled textarea&lt;/label&gt;
+  &lt;textarea <span class="hljs-type">class</span>=<span class="hljs-string">"Textarea"</span> placeholder=<span class="hljs-string">"Disabled textarea"</span> <span class="hljs-property">name</span>=<span class="hljs-string">"textarea3"</span> <span class="hljs-property">id</span>=<span class="hljs-string">"textarea3"</span> rows=<span class="hljs-string">"4"</span>&gt;&lt;/textarea&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;</code></pre><h2 id="checkbox" class="s-Title--2">Checkbox</h2><div class="Checkbox">
+  <input name="checkbox1" id="checkbox1" type="checkbox" class="Checkbox-input">
+  <label for="checkbox1" class="Checkbox-label">Would you like to receive our newsletter?</label>
+</div>
+<label class="Checkbox">
+  <input name="checkbox2" id="checkbox2" type="checkbox" class="Checkbox-input" checked>
+  <div class="Checkbox-label">I am a robot</div>
+</label>
+<div class="Checkbox">
+  <input name="checkbox3" id="checkbox3" type="checkbox" class="Checkbox-input" disabled>
+  <label for="checkbox3" class="Checkbox-label">I am disabled</label>
+</div>
+<div class="Checkbox">
+  <input name="checkbox4" id="checkbox4" type="checkbox" class="Checkbox-input" disabled checked>
+  <label for="checkbox4" class="Checkbox-label">I am disabled and checked!</label>
+</div>
+<pre class="code"><code class="html">&lt;div <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Checkbox"</span>&gt;
+  &lt;input name=<span class="hljs-string">"checkbox1"</span> id=<span class="hljs-string">"checkbox1"</span> <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"checkbox"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Checkbox-input"</span>&gt;
+  &lt;label <span class="hljs-keyword">for</span>=<span class="hljs-string">"checkbox1"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Checkbox-label"</span>&gt;<span class="hljs-type">Would</span> you like to receive our newsletter?&lt;/label&gt;
+&lt;/div&gt;
+&lt;label <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Checkbox"</span>&gt;
+  &lt;input name=<span class="hljs-string">"checkbox2"</span> id=<span class="hljs-string">"checkbox2"</span> <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"checkbox"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Checkbox-input"</span> checked&gt;
+  &lt;div <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Checkbox-label"</span>&gt;<span class="hljs-type">I</span> am a robot&lt;/div&gt;
+&lt;/label&gt;
+&lt;div <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Checkbox"</span>&gt;
+  &lt;input name=<span class="hljs-string">"checkbox3"</span> id=<span class="hljs-string">"checkbox3"</span> <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"checkbox"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Checkbox-input"</span> disabled&gt;
+  &lt;label <span class="hljs-keyword">for</span>=<span class="hljs-string">"checkbox3"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Checkbox-label"</span>&gt;<span class="hljs-type">I</span> am disabled&lt;/label&gt;
+&lt;/div&gt;
+&lt;div <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Checkbox"</span>&gt;
+  &lt;input name=<span class="hljs-string">"checkbox4"</span> id=<span class="hljs-string">"checkbox4"</span> <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"checkbox"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Checkbox-input"</span> disabled checked&gt;
+  &lt;label <span class="hljs-keyword">for</span>=<span class="hljs-string">"checkbox4"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Checkbox-label"</span>&gt;<span class="hljs-type">I</span> am disabled and checked!&lt;/label&gt;
+&lt;/div&gt;</code></pre><h2 id="radio" class="s-Title--2">Radio</h2><div class="Radio">
+  <input name="title" id="foo" type="radio" class="Radio-input" checked>
+  <label for="foo" class="Radio-label">Foo</label>
+</div>
+<label class="Radio">
+  <input name="title" id="bar" type="radio" class="Radio-input" />
+  <div class="Radio-label">Bar</div>
+</label>
+<div class="Radio">
+  <input name="title" id="baz" type="radio" class="Radio-input">
+  <label for="baz" class="Radio-label">Baz</label>
+</div>
+<pre class="code"><code class="html">&lt;div <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Radio"</span>&gt;
+  &lt;input name=<span class="hljs-string">"title"</span> id=<span class="hljs-string">"foo"</span> <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"radio"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Radio-input"</span> checked&gt;
+  &lt;label <span class="hljs-keyword">for</span>=<span class="hljs-string">"foo"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Radio-label"</span>&gt;<span class="hljs-type">Foo</span>&lt;/label&gt;
+&lt;/div&gt;
+&lt;label <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Radio"</span>&gt;
+  &lt;input name=<span class="hljs-string">"title"</span> id=<span class="hljs-string">"bar"</span> <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"radio"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Radio-input"</span> /&gt;
+  &lt;div <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Radio-label"</span>&gt;<span class="hljs-type">Bar</span>&lt;/div&gt;
+&lt;/label&gt;
+&lt;div <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Radio"</span>&gt;
+  &lt;input name=<span class="hljs-string">"title"</span> id=<span class="hljs-string">"baz"</span> <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"radio"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Radio-input"</span>&gt;
+  &lt;label <span class="hljs-keyword">for</span>=<span class="hljs-string">"baz"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Radio-label"</span>&gt;<span class="hljs-type">Baz</span>&lt;/label&gt;
+&lt;/div&gt;</code></pre><div class="Radio">
+  <input name="name" id="foobar" type="radio" class="Radio-input" disabled>
+  <label for="foobar" class="Radio-label">Foobar</label>
+</div>
+<div class="Radio">
+  <input name="name" id="foobaz" type="radio" class="Radio-input" checked disabled>
+  <label for="foobaz" class="Radio-label">Foobaz</label>
+</div>
+<pre class="code"><code class="html">&lt;div <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Radio"</span>&gt;
+  &lt;input name=<span class="hljs-string">"name"</span> id=<span class="hljs-string">"foobar"</span> <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"radio"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Radio-input"</span> disabled&gt;
+  &lt;label <span class="hljs-keyword">for</span>=<span class="hljs-string">"foobar"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Radio-label"</span>&gt;<span class="hljs-type">Foobar</span>&lt;/label&gt;
+&lt;/div&gt;
+&lt;div <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Radio"</span>&gt;
+  &lt;input name=<span class="hljs-string">"name"</span> id=<span class="hljs-string">"foobaz"</span> <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"radio"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Radio-input"</span> checked disabled&gt;
+  &lt;label <span class="hljs-keyword">for</span>=<span class="hljs-string">"foobaz"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Radio-label"</span>&gt;<span class="hljs-type">Foobaz</span>&lt;/label&gt;
+&lt;/div&gt;</code></pre><h2 id="prefixed-and-suffixed" class="s-Title--2">Prefixed and suffixed</h2><div class="InputGroup u-mgb--m">
+  <label for="prefixedInput" class="InputGroup-prefix Icon Icon--mail"></label>
+  <input id="prefixedInput" class="Input Input--prefixed" type="text" placeholder="Prefixed input" aria-label="Input item">
+</div>
+<div class="InputGroup">
+  <label for="suffixedInput" class="InputGroup-suffix Icon Icon--glass"></label>
+  <input id="suffixedInput" class="Input Input--suffixed" type="text" placeholder="Suffixed input" aria-label="Input item">
+</div>
+<pre class="code"><code class="html">&lt;div <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"InputGroup u-mgb--m"</span>&gt;
+  &lt;label <span class="hljs-keyword">for</span>=<span class="hljs-string">"prefixedInput"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"InputGroup-prefix Icon Icon--mail"</span>&gt;&lt;/label&gt;
+  &lt;input id=<span class="hljs-string">"prefixedInput"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Input Input--prefixed"</span> <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"text"</span> placeholder=<span class="hljs-string">"Prefixed input"</span> aria-label=<span class="hljs-string">"Input item"</span>&gt;
+&lt;/div&gt;
+&lt;div <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"InputGroup"</span>&gt;
+  &lt;label <span class="hljs-keyword">for</span>=<span class="hljs-string">"suffixedInput"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"InputGroup-suffix Icon Icon--glass"</span>&gt;&lt;/label&gt;
+  &lt;input id=<span class="hljs-string">"suffixedInput"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Input Input--suffixed"</span> <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"text"</span> placeholder=<span class="hljs-string">"Suffixed input"</span> aria-label=<span class="hljs-string">"Input item"</span>&gt;
+&lt;/div&gt;</code></pre><h2 id="addons" class="s-Title--2">Addons</h2><div class="InputGroup u-mgb--m">
+  <span class="InputGroup-item Input-addOn">@</span>
+  <input class="Input InputGroup-item" type="text" placeholder="Basic input with addon" aria-label="Input item">
+</div>
+<div class="InputGroup">
+  <input class="Input InputGroup-item" type="text" placeholder="Basic input with addon" aria-label="Input item">
+  <button class="Btn Btn--validate InputGroup-item Input-addOn">Add</button>
+</div>
+<pre class="code"><code class="html">&lt;div <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"InputGroup u-mgb--m"</span>&gt;
+  &lt;span <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"InputGroup-item Input-addOn"</span>&gt;@&lt;/span&gt;
+  &lt;input <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Input InputGroup-item"</span> <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"text"</span> placeholder=<span class="hljs-string">"Basic input with addon"</span> aria-label=<span class="hljs-string">"Input item"</span>&gt;
+&lt;/div&gt;
+&lt;div <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"InputGroup"</span>&gt;
+  &lt;input <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Input InputGroup-item"</span> <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"text"</span> placeholder=<span class="hljs-string">"Basic input with addon"</span> aria-label=<span class="hljs-string">"Input item"</span>&gt;
+  &lt;button <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Btn Btn--validate InputGroup-item Input-addOn"</span>&gt;<span class="hljs-type">Add</span>&lt;/button&gt;
+&lt;/div&gt;</code></pre><h2 id="input-group" class="s-Title--2">Input-group</h2><div class="InputGroup">
+  <input class="Input InputGroup-item" id="InputGrouped1" placeholder="input" aria-label="Input item 1">
+  <input class="Input InputGroup-item" id="InputGrouped2" placeholder="input" aria-label="Input item 2">
+  <input class="Input InputGroup-item" id="InputGrouped3" placeholder="input" aria-label="Input item 3">
+  <input class="Input InputGroup-item" id="InputGrouped4" placeholder="input" aria-label="Input item 4">
+</div>
+<pre class="code"><code class="html">&lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"InputGroup"</span>&gt;
+  &lt;<span class="hljs-keyword">input</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"Input InputGroup-item"</span> id=<span class="hljs-string">"InputGrouped1"</span> placeholder=<span class="hljs-string">"input"</span> aria-<span class="hljs-keyword">label</span>=<span class="hljs-string">"Input item 1"</span>&gt;
+  &lt;<span class="hljs-keyword">input</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"Input InputGroup-item"</span> id=<span class="hljs-string">"InputGrouped2"</span> placeholder=<span class="hljs-string">"input"</span> aria-<span class="hljs-keyword">label</span>=<span class="hljs-string">"Input item 2"</span>&gt;
+  &lt;<span class="hljs-keyword">input</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"Input InputGroup-item"</span> id=<span class="hljs-string">"InputGrouped3"</span> placeholder=<span class="hljs-string">"input"</span> aria-<span class="hljs-keyword">label</span>=<span class="hljs-string">"Input item 3"</span>&gt;
+  &lt;<span class="hljs-keyword">input</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"Input InputGroup-item"</span> id=<span class="hljs-string">"InputGrouped4"</span> placeholder=<span class="hljs-string">"input"</span> aria-<span class="hljs-keyword">label</span>=<span class="hljs-string">"Input item 4"</span>&gt;
+&lt;/div&gt;</code></pre><div class="InputGroup">
+  <input class="Input InputGroup-item" id="InputGrouped5" placeholder="Search…"/>
+  <button class="Btn Btn--outline InputGroup-item Input-addOn">Reset</button>
+  <button class="Btn Btn--validate InputGroup-item Input-addOn">Validate</button>
+</div>
+
+<div class="InputGroup">
+  <input class="Input InputGroup-item" id="InputGrouped6" placeholder="Search…" aria-label="Search aria label">
+  <select class="Select InputGroup-item" name="">
+    <option value="">Choose a foobar option</option>
+    <option value="foo" selected>foo</option>
+    <option value="bar" data-label="Foo Label">bar</option>
+    <option value="baz">baz</option>
+  </select>
+  <button class="Btn Input-addOn InputGroup-item" id="InputGrouped4" placeholder="input" aria-label="Input item 4">Search</button>
+</div>
+<pre class="code"><code class="html"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"InputGroup"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">input</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"Input InputGroup-item"</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">"InputGrouped5"</span> <span class="hljs-attribute">placeholder</span>=<span class="hljs-value">"Search…"</span>/&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">button</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"Btn Btn--outline InputGroup-item Input-addOn"</span>&gt;</span>Reset<span class="hljs-tag">&lt;/<span class="hljs-title">button</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">button</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"Btn Btn--validate InputGroup-item Input-addOn"</span>&gt;</span>Validate<span class="hljs-tag">&lt;/<span class="hljs-title">button</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"InputGroup"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">input</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"Input InputGroup-item"</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">"InputGrouped6"</span> <span class="hljs-attribute">placeholder</span>=<span class="hljs-value">"Search…"</span> <span class="hljs-attribute">aria-label</span>=<span class="hljs-value">"Search aria label"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">select</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"Select InputGroup-item"</span> <span class="hljs-attribute">name</span>=<span class="hljs-value">""</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">option</span> <span class="hljs-attribute">value</span>=<span class="hljs-value">""</span>&gt;</span>Choose a foobar option<span class="hljs-tag">&lt;/<span class="hljs-title">option</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">option</span> <span class="hljs-attribute">value</span>=<span class="hljs-value">"foo"</span> <span class="hljs-attribute">selected</span>&gt;</span>foo<span class="hljs-tag">&lt;/<span class="hljs-title">option</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">option</span> <span class="hljs-attribute">value</span>=<span class="hljs-value">"bar"</span> <span class="hljs-attribute">data-label</span>=<span class="hljs-value">"Foo Label"</span>&gt;</span>bar<span class="hljs-tag">&lt;/<span class="hljs-title">option</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">option</span> <span class="hljs-attribute">value</span>=<span class="hljs-value">"baz"</span>&gt;</span>baz<span class="hljs-tag">&lt;/<span class="hljs-title">option</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-title">select</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">button</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"Btn Input-addOn InputGroup-item"</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">"InputGrouped4"</span> <span class="hljs-attribute">placeholder</span>=<span class="hljs-value">"input"</span> <span class="hljs-attribute">aria-label</span>=<span class="hljs-value">"Input item 4"</span>&gt;</span>Search<span class="hljs-tag">&lt;/<span class="hljs-title">button</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre><h2 id="display-modes" class="s-Title--2">Display modes</h2><div id="inlinedInputWrapper1">
+  <label for="fooLabel" class="Label">Foo</label>
+  <input id="fooLabel" class="Input Input--inline" type="text" placeholder="" aria-label="Input item">
+</div>
+
+<div id="inlinedInputWrapper2" class="u-mgv--m">
+  <input id="barLabel" class="Input Input--inline" type="text" placeholder="" aria-label="Input item">
+  <label for="barLabel" class="Label">Bar</label>
+</div>
+
+<div class="Radio Radio--inline">
+  <input name="title" id="foo2" type="radio" class="Radio-input" checked>
+  <label for="foo2" class="Radio-label">Foo2</label>
+</div>
+<label class="Radio Radio--inline">
+  <input name="title" id="bar2" type="radio" class="Radio-input" />
+  <div class="Radio-label">Bar2</div>
+</label>
+
+<div class="Checkbox Checkbox--inline">
+  <input name="checkbox10" id="checkbox10" type="checkbox" class="Checkbox-input">
+  <label for="checkbox10" class="Checkbox-label">Chew</label>
+</div>
+<label class="Checkbox Checkbox--inline">
+  <input name="checkbox20" id="checkbox20" type="checkbox" class="Checkbox-input">
+  <div class="Checkbox-label">Bakka</div>
+</label>
+<pre class="code"><code class="html">&lt;div id=<span class="hljs-string">"inlinedInputWrapper1"</span>&gt;
+  &lt;label <span class="hljs-keyword">for</span>=<span class="hljs-string">"fooLabel"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Label"</span>&gt;<span class="hljs-type">Foo</span>&lt;/label&gt;
+  &lt;input id=<span class="hljs-string">"fooLabel"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Input Input--inline"</span> <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"text"</span> placeholder=<span class="hljs-string">""</span> aria-label=<span class="hljs-string">"Input item"</span>&gt;
+&lt;/div&gt;
+
+&lt;div id=<span class="hljs-string">"inlinedInputWrapper2"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"u-mgv--m"</span>&gt;
+  &lt;input id=<span class="hljs-string">"barLabel"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Input Input--inline"</span> <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"text"</span> placeholder=<span class="hljs-string">""</span> aria-label=<span class="hljs-string">"Input item"</span>&gt;
+  &lt;label <span class="hljs-keyword">for</span>=<span class="hljs-string">"barLabel"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Label"</span>&gt;<span class="hljs-type">Bar</span>&lt;/label&gt;
+&lt;/div&gt;
+
+&lt;div <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Radio Radio--inline"</span>&gt;
+  &lt;input name=<span class="hljs-string">"title"</span> id=<span class="hljs-string">"foo2"</span> <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"radio"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Radio-input"</span> checked&gt;
+  &lt;label <span class="hljs-keyword">for</span>=<span class="hljs-string">"foo2"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Radio-label"</span>&gt;<span class="hljs-type">Foo2</span>&lt;/label&gt;
+&lt;/div&gt;
+&lt;label <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Radio Radio--inline"</span>&gt;
+  &lt;input name=<span class="hljs-string">"title"</span> id=<span class="hljs-string">"bar2"</span> <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"radio"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Radio-input"</span> /&gt;
+  &lt;div <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Radio-label"</span>&gt;<span class="hljs-type">Bar2</span>&lt;/div&gt;
+&lt;/label&gt;
+
+&lt;div <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Checkbox Checkbox--inline"</span>&gt;
+  &lt;input name=<span class="hljs-string">"checkbox10"</span> id=<span class="hljs-string">"checkbox10"</span> <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"checkbox"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Checkbox-input"</span>&gt;
+  &lt;label <span class="hljs-keyword">for</span>=<span class="hljs-string">"checkbox10"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Checkbox-label"</span>&gt;<span class="hljs-type">Chew</span>&lt;/label&gt;
+&lt;/div&gt;
+&lt;label <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Checkbox Checkbox--inline"</span>&gt;
+  &lt;input name=<span class="hljs-string">"checkbox20"</span> id=<span class="hljs-string">"checkbox20"</span> <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"checkbox"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Checkbox-input"</span>&gt;
+  &lt;div <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Checkbox-label"</span>&gt;<span class="hljs-type">Bakka</span>&lt;/div&gt;
+&lt;/label&gt;</code></pre><h2 id="states" class="s-Title--2">States</h2><p class="s-Paragraph">Tapestry does not rely on neither :valid nor :invalid since those behaviors are quite random. When page is loaded, inputs are considered :valid even if their values are empty. Plus, it adds visual noise before you submit anything! We advise to use .is-valid and .is-invalid but classes are fully customizable. You can also consider giving a try to <a href="http://parsleyjs.org/">ParsleyJS</a>.</p><div id="validInputWrapper">
+  <label for="validInput" class="Label Label--block">Validated input</label>
+  <input id="validInput" class="Input is-valid" type="text" value="I am a correct value" placeholder="Valid input">
+</div>
+
+<div id="invalidInputWrapper" class="u-mgt--m">
+  <label for="invalidInput" class="Label Label--block">Errored input</label>
+  <input id="invalidInput" class="Input is-invalid" type="text" value="I am an incorrect value" placeholder="Invalid input">
+</div>
+<pre class="code"><code class="html">&lt;div id=<span class="hljs-string">"validInputWrapper"</span>&gt;
+  &lt;<span class="hljs-keyword">label</span> <span class="hljs-keyword">for</span>=<span class="hljs-string">"validInput"</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"Label Label--block"</span>&gt;Validated <span class="hljs-keyword">input</span>&lt;/<span class="hljs-keyword">label</span>&gt;
+  &lt;<span class="hljs-keyword">input</span> id=<span class="hljs-string">"validInput"</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"Input is-valid"</span> <span class="hljs-keyword">type</span>=<span class="hljs-string">"text"</span> value=<span class="hljs-string">"I am a correct value"</span> placeholder=<span class="hljs-string">"Valid input"</span>&gt;
+&lt;/div&gt;
+
+&lt;div id=<span class="hljs-string">"invalidInputWrapper"</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"u-mgt--m"</span>&gt;
+  &lt;<span class="hljs-keyword">label</span> <span class="hljs-keyword">for</span>=<span class="hljs-string">"invalidInput"</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"Label Label--block"</span>&gt;Errored <span class="hljs-keyword">input</span>&lt;/<span class="hljs-keyword">label</span>&gt;
+  &lt;<span class="hljs-keyword">input</span> id=<span class="hljs-string">"invalidInput"</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"Input is-invalid"</span> <span class="hljs-keyword">type</span>=<span class="hljs-string">"text"</span> value=<span class="hljs-string">"I am an incorrect value"</span> placeholder=<span class="hljs-string">"Invalid input"</span>&gt;
+&lt;/div&gt;</code></pre><h2 id="layout" class="s-Title--2">Layout</h2><form>
+  <legend class="Legend">My form is beautiful</legend>
+
+  <fieldset class="Fieldset">
+    <label for="layout_form_input" class="Label Label--block">Input</label>
+    <input type="text" id="layout_form_input" class="Input" placeholder="Your name" />
+  </fieldset>
+
+  <fieldset class="Fieldset">
+    <label for="layout_form_textarea" class="Label Label--block">Textarea</label>
+    <textarea id="layout_form_textarea" class="Textarea" placeholder="Your text here…"></textarea>
+  </fieldset>
+</form>
+<pre class="code"><code class="html">&lt;<span class="hljs-keyword">form</span>&gt;
+  &lt;legend <span class="hljs-keyword">class</span>=<span class="hljs-string">"Legend"</span>&gt;My <span class="hljs-keyword">form</span> is beautiful&lt;/legend&gt;
+
+  &lt;fieldset <span class="hljs-keyword">class</span>=<span class="hljs-string">"Fieldset"</span>&gt;
+    &lt;<span class="hljs-keyword">label</span> <span class="hljs-keyword">for</span>=<span class="hljs-string">"layout_form_input"</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"Label Label--block"</span>&gt;<span class="hljs-keyword">Input</span>&lt;/<span class="hljs-keyword">label</span>&gt;
+    &lt;<span class="hljs-keyword">input</span> <span class="hljs-keyword">type</span>=<span class="hljs-string">"text"</span> id=<span class="hljs-string">"layout_form_input"</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"Input"</span> placeholder=<span class="hljs-string">"Your name"</span> /&gt;
+  &lt;/fieldset&gt;
+
+  &lt;fieldset <span class="hljs-keyword">class</span>=<span class="hljs-string">"Fieldset"</span>&gt;
+    &lt;<span class="hljs-keyword">label</span> <span class="hljs-keyword">for</span>=<span class="hljs-string">"layout_form_textarea"</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"Label Label--block"</span>&gt;Textarea&lt;/<span class="hljs-keyword">label</span>&gt;
+    &lt;textarea id=<span class="hljs-string">"layout_form_textarea"</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"Textarea"</span> placeholder=<span class="hljs-string">"Your text here…"</span>&gt;&lt;/textarea&gt;
+  &lt;/fieldset&gt;
+&lt;/<span class="hljs-keyword">form</span>&gt;</code></pre></div></div></div><script src="/assets/js/cssinfo.js"></script></div><script>if (!pageName) { var pageName = 'default' }</script><script>document.getElementById('js-Page').classList.add('s-Page--' + pageName)</script></body></html>
