@@ -1,0 +1,397 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Tapestry</title><link href="/css/tapestry.css" rel="stylesheet" type="text/css"><link href="/assets/css/styleguide.css" rel="stylesheet" type="text/css"><link href="/assets/fonts/open-sans.css" rel="stylesheet" type="text/css"><script async src="http://localhost:4000/browser-sync/browser-sync-client.2.13.0.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/highlight.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/languages/scss.min.js"></script><script src="/js/tapestry.js"></script><script src="/assets/js/cssinfo.js"></script></head><body class="s-App s-Page" id="js-Page"><nav class="s-Nav"><h1 class="s-Logo"><a class="s-Logo-link" href="/">Tapestry</a></h1><div class="s-Nav-section"><a class="s-Nav-title" href="/getting-started">Getting started</a></div><div class="s-Nav-section has-nav"><a class="s-Nav-title" href="/components/colors">Components<a class="s-Nav-link" href="/components/colors">Colors</a><a class="s-Nav-link" href="/components/animations">Animations</a><a class="s-Nav-link" href="/components/avatar">Avatar</a><a class="s-Nav-link" href="/components/badge">Badge</a><a class="s-Nav-link" href="/components/box">Box</a><a class="s-Nav-link" href="/components/button">Button</a><a class="s-Nav-link" href="/components/dropdown">Dropdown</a><a class="s-Nav-link" href="/components/form">Form</a><a class="s-Nav-link" href="/components/input">Input</a><a class="s-Nav-link" href="/components/grid">Grid</a><a class="s-Nav-link" href="/components/icons">Icons</a><a class="s-Nav-link" href="/components/list">List</a><a class="s-Nav-link" href="/components/loader">Loader</a><a class="s-Nav-link" href="/components/media">Media</a><a class="s-Nav-link" href="/components/meter">Meter</a><a class="s-Nav-link" href="/components/modal">Modal</a><a class="s-Nav-link" href="/components/notification">Notification</a><a class="s-Nav-link" href="/components/panel">Panel</a><a class="s-Nav-link" href="/components/pellet">Pellet</a><a class="s-Nav-link" href="/components/popovers">Popovers</a><a class="s-Nav-link" href="/components/spinner">Spinner</a><a class="s-Nav-link" href="/components/switch">Switch</a><a class="s-Nav-link" href="/components/table">Table</a><a class="s-Nav-link" href="/components/tabs">Tabs</a><a class="s-Nav-link" href="/components/tooltip">Tooltip</a><a class="s-Nav-link" href="/components/typography">Typography</a><a class="s-Nav-link" href="/components/utils">Utils</a></a></div><div class="s-Nav-section"><a class="s-Nav-title" href="/sass-utils">Sass Utils</a></div><div class="s-Nav-section"><a class="s-Nav-title" href="/statistics">Statistics</a></div></nav><div class="s-Container"><h1 class="s-Header"><span class="Badge u-validate u-push">Current version: 1.9.1</span><span>Components</span></h1><div class="s-App-content s-Modules-container"><div class="s-Module"><div id="s-button" class="s-Module s-Module--button"><h1 id="buttons" class="s-Title--1">Buttons</h1><h2 id="types" class="s-Title--2">Types</h2><table class="s-Table"><tr>
+<th>Type</th>
+<th>desc.</th>
+</tr>
+<tr>
+<td><strong> outline </strong></td>
+<td>transparent button with borders</td>
+</tr>
+<tr>
+<td><strong> raw </strong></td>
+<td>transparent button without borders</td>
+</tr>
+<tr>
+<td><strong> inverted </strong></td>
+<td>white button without borders</td>
+</tr>
+</table><button type="button" class="Btn">default button</button>
+<button type="button" class="Btn Btn--outline">Outlined button</button>
+<button type="button" class="Btn" disabled>Disabled button</button>
+<button type="button" class="Btn Btn--raw">Raw button</button>
+<button type="button" class="Btn Btn--inverted">Inverted button</button>
+<pre class="code"><code class="html">&lt;button <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"button"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Btn"</span>&gt;<span class="hljs-keyword">default</span> button&lt;/button&gt;
+&lt;button <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"button"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Btn Btn--outline"</span>&gt;<span class="hljs-type">Outlined</span> button&lt;/button&gt;
+&lt;button <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"button"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Btn"</span> disabled&gt;<span class="hljs-type">Disabled</span> button&lt;/button&gt;
+&lt;button <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"button"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Btn Btn--raw"</span>&gt;<span class="hljs-type">Raw</span> button&lt;/button&gt;
+&lt;button <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"button"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Btn Btn--inverted"</span>&gt;<span class="hljs-type">Inverted</span> button&lt;/button&gt;</code></pre><h2 id="variables" class="s-Title--2">Variables</h2><table class="s-Table"><tr>
+<th>Variable</th>
+<th>property</th>
+<th>value</th>
+<th>desc.</th>
+</tr>
+<tr>
+<td><strong> $btn-pdv </strong></td>
+<td>padding</td>
+<td><code>$pd--s</code></td>
+<td>vertical padding for regular buttons</td>
+</tr>
+<tr>
+<td><strong> $btn-pdv--s </strong></td>
+<td>padding</td>
+<td><code>$pd--xs</code></td>
+<td>vertical padding for small buttons</td>
+</tr>
+<tr>
+<td><strong> $btn-pdh </strong></td>
+<td>padding</td>
+<td><code>$pd--s</code></td>
+<td>horizontal padding for regular buttons</td>
+</tr>
+<tr>
+<td><strong> $btn-pdh--s </strong></td>
+<td>padding</td>
+<td><code>$pd--xs</code></td>
+<td>horizontal padding for small buttons</td>
+</tr>
+<tr>
+<td><strong> $btn-fixed-unit </strong></td>
+<td>size</td>
+<td><code>r(8)</code></td>
+<td>squared button size</td>
+</tr>
+<tr>
+<td><strong> $btn-fixed-unit--s </strong></td>
+<td>size</td>
+<td><code>r(6)</code></td>
+<td>small squared button size</td>
+</tr>
+<tr>
+<td><strong> $btn-name-colors </strong></td>
+<td>list</td>
+<td><code>&quot;-primary&quot; &quot;-alt&quot; &quot;-validate&quot; &quot;-info&quot; &quot;-error&quot;</code></td>
+<td>button classnames</td>
+</tr>
+<tr>
+<td><strong> $btn-base-colors </strong></td>
+<td>list</td>
+<td><code>$venice-blue $boston-blue $mint $saffron $mandy</code></td>
+<td>button default colors</td>
+</tr>
+<tr>
+<td><strong> $btn-hover-colors </strong></td>
+<td>list</td>
+<td><code>$atoll $jelly-bean $ocean-green $galliano $fuzzy-wuzzy-brown</code></td>
+<td>button hover colors</td>
+</tr>
+<tr>
+<td><strong> $btn-outline-base-color </strong></td>
+<td>color</td>
+<td><code>$slate-gray</code></td>
+<td>outline button base color</td>
+</tr>
+<tr>
+<td><strong> $btn-outline-base-border-color </strong></td>
+<td>border-color</td>
+<td><code>$base-border-color</code></td>
+<td>outline button base border-color</td>
+</tr>
+<tr>
+<td><strong> $btn-outline-hover-color </strong></td>
+<td>color</td>
+<td><code>$shuttle-gray</code></td>
+<td>outline button hover color</td>
+</tr>
+<tr>
+<td><strong> $btn-outline-hover-border-color </strong></td>
+<td>border-color</td>
+<td><code>$shuttle-gray</code></td>
+<td>outline button hover border-color</td>
+</tr>
+<tr>
+<td><strong> $btn-group-space-between </strong></td>
+<td>margin</td>
+<td><code>$pd--s</code></td>
+<td>space between button-groups</td>
+</tr>
+<tr>
+<td><strong> $btn-group-selected-color </strong></td>
+<td>color</td>
+<td><code>$mint</code></td>
+<td>selected color for button-group item</td>
+</tr>
+<tr>
+<td><strong> $btn-group-selected-item-selector </strong></td>
+<td>selector</td>
+<td><code>&quot;.is-selected&quot;</code></td>
+<td>selector for selected button-group item</td>
+</tr>
+<tr>
+<td><strong> $btn-loading-selector </strong></td>
+<td>selector</td>
+<td><code>&quot;.is-loading &gt;&quot;</code></td>
+<td>loading button selector</td>
+</tr>
+<tr>
+<td><strong> $btn-loading-spinner-primary-color </strong></td>
+<td>color</td>
+<td><code>$white</code></td>
+<td>button-spinner color</td>
+</tr>
+<tr>
+<td><strong> $btn-loading-spinner-secondary-color </strong></td>
+<td>color</td>
+<td><code>$deep-sea-green</code></td>
+<td>button-spinner container color</td>
+</tr>
+<tr>
+<td><strong> $btn-loading-spinner-outline-color </strong></td>
+<td>color</td>
+<td><code>$slate-gray</code></td>
+<td>button-outline spinner color</td>
+</tr>
+<tr>
+<td><strong> $btn-loading-duration </strong></td>
+<td>time</td>
+<td><code>1s</code></td>
+<td>button-spinner duration</td>
+</tr>
+<tr>
+<td><strong> $btn-loading-spinner-thickness </strong></td>
+<td>size</td>
+<td><code>2px</code></td>
+<td>button-spinner thickness</td>
+</tr>
+<tr>
+<td><strong> $btn-failed-selector </strong></td>
+<td>selector</td>
+<td><code>&quot;.has-failed &gt;&quot;</code></td>
+<td>failing button selector</td>
+</tr>
+<tr>
+<td><strong> $btn-failed-bg </strong></td>
+<td>background-color</td>
+<td><code>$mandy</code></td>
+<td>failing button background</td>
+</tr>
+<tr>
+<td><strong> $btn-failed-color </strong></td>
+<td>background-color</td>
+<td><code>$white</code></td>
+<td>failing button label color</td>
+</tr>
+<tr>
+<td><strong> $btn-completed-selector </strong></td>
+<td>selector</td>
+<td><code>&quot;.has-completed &gt;&quot;</code></td>
+<td>completed button selector</td>
+</tr>
+<tr>
+<td><strong> $btn-completed-bg </strong></td>
+<td>background-color</td>
+<td><code>$mint</code></td>
+<td>completed button background</td>
+</tr>
+<tr>
+<td><strong> $btn-completed-color </strong></td>
+<td>background-color</td>
+<td><code>$white</code></td>
+<td>completed button label color</td>
+</tr>
+<tr>
+<td><strong> $btn-end-animation-duration </strong></td>
+<td>time</td>
+<td><code>.5s</code></td>
+<td>button end animation duration</td>
+</tr>
+</table><h2 id="sizes" class="s-Title--2">Sizes</h2><button type="button" class="Btn Btn--s">Small button</button>
+<button type="button" class="Btn Btn--outline Btn--s">Small outlined button</button>
+<button type="button" class="Btn Btn--s" disabled>Small disabled button</button>
+<button type="button" class="Btn Btn--raw Btn--s">Small raw button</button>
+<button type="button" class="Btn Btn--inverted Btn--s">Small inverted button</button>
+<pre class="code"><code class="html">&lt;button <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"button"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Btn Btn--s"</span>&gt;<span class="hljs-type">Small</span> button&lt;/button&gt;
+&lt;button <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"button"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Btn Btn--outline Btn--s"</span>&gt;<span class="hljs-type">Small</span> outlined button&lt;/button&gt;
+&lt;button <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"button"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Btn Btn--s"</span> disabled&gt;<span class="hljs-type">Small</span> disabled button&lt;/button&gt;
+&lt;button <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"button"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Btn Btn--raw Btn--s"</span>&gt;<span class="hljs-type">Small</span> raw button&lt;/button&gt;
+&lt;button <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"button"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Btn Btn--inverted Btn--s"</span>&gt;<span class="hljs-type">Small</span> inverted button&lt;/button&gt;</code></pre><h2 id="block" class="s-Title--2">Block</h2><button type="button" class="Btn Btn--alt Btn--block">Block button</button>
+<pre class="code"><code class="html">&lt;button <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"button"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Btn Btn--alt Btn--block"</span>&gt;<span class="hljs-type">Block</span> button&lt;/button&gt;</code></pre><h2 id="expand" class="s-Title--2">Expand</h2><div class="BtnContainer">
+  <button type="button" class="Btn Btn--expand">Expanded button</button>
+  <button type="button" class="Btn Btn--validate">Button</button>
+</div>
+<pre class="code"><code class="html">&lt;div <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"BtnContainer"</span>&gt;
+  &lt;button <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"button"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Btn Btn--expand"</span>&gt;<span class="hljs-type">Expanded</span> button&lt;/button&gt;
+  &lt;button <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"button"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Btn Btn--validate"</span>&gt;<span class="hljs-type">Button</span>&lt;/button&gt;
+&lt;/div&gt;</code></pre><h2 id="squared" class="s-Title--2">Squared</h2><button type="button" class="Btn Btn--squared">
+  <i class="Icon Icon--like"></i>
+</button>
+<button type="button" class="Btn Btn--s Btn--outline Btn--squared">
+  <i class="Icon Icon--trash"></i>
+</button>
+<pre class="code"><code class="html">&lt;button <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"button"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Btn Btn--squared"</span>&gt;
+  &lt;i <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Icon Icon--like"</span>&gt;&lt;/i&gt;
+&lt;/button&gt;
+&lt;button <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"button"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Btn Btn--s Btn--outline Btn--squared"</span>&gt;
+  &lt;i <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Icon Icon--trash"</span>&gt;&lt;/i&gt;
+&lt;/button&gt;</code></pre><h2 id="types" class="s-Title--2">Types</h2><button type="button" class="Btn Btn--raw">Raw button</button>
+<pre class="code"><code class="html">&lt;button <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"button"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Btn Btn--raw"</span>&gt;<span class="hljs-type">Raw</span> button&lt;/button&gt;</code></pre><button type="button" class="Btn">
+  <i class="Btn-icon Icon Icon--like"></i>
+  Button with icon
+</button>
+
+<button type="button" class="Btn Btn--s">
+  <i class="Btn-icon Icon Icon--like Icon--s"></i>
+  Button with icon
+</button>
+
+<button type="button" class="Btn has-icon">
+  <i class="Btn-icon Icon Icon--like"></i>
+  Button with icon
+</button>
+
+<button class="Btn Btn--outline has-icon">
+  <i class="Btn-icon Icon Icon--like"></i>
+  Button with icon
+</button>
+<pre class="code"><code class="html">&lt;button <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"button"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Btn"</span>&gt;
+  &lt;i <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Btn-icon Icon Icon--like"</span>&gt;&lt;/i&gt;
+  <span class="hljs-type">Button</span> <span class="hljs-keyword">with</span> icon
+&lt;/button&gt;
+
+&lt;button <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"button"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Btn Btn--s"</span>&gt;
+  &lt;i <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Btn-icon Icon Icon--like Icon--s"</span>&gt;&lt;/i&gt;
+  <span class="hljs-type">Button</span> <span class="hljs-keyword">with</span> icon
+&lt;/button&gt;
+
+&lt;button <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"button"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Btn has-icon"</span>&gt;
+  &lt;i <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Btn-icon Icon Icon--like"</span>&gt;&lt;/i&gt;
+  <span class="hljs-type">Button</span> <span class="hljs-keyword">with</span> icon
+&lt;/button&gt;
+
+&lt;button <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Btn Btn--outline has-icon"</span>&gt;
+  &lt;i <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Btn-icon Icon Icon--like"</span>&gt;&lt;/i&gt;
+  <span class="hljs-type">Button</span> <span class="hljs-keyword">with</span> icon
+&lt;/button&gt;</code></pre><h2 id="colors" class="s-Title--2">Colors</h2><button type="button" class="Btn Btn--primary">primary button</button>
+<button type="button" class="Btn Btn--alt">alt button</button>
+<button type="button" class="Btn Btn--validate">validate button</button>
+<button type="button" class="Btn Btn--info">info button</button>
+<button type="button" class="Btn Btn--error">error button</button>
+<pre class="code"><code class="html">&lt;button <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"button"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Btn Btn--primary"</span>&gt;primary button&lt;/button&gt;
+&lt;button <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"button"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Btn Btn--alt"</span>&gt;alt button&lt;/button&gt;
+&lt;button <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"button"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Btn Btn--validate"</span>&gt;validate button&lt;/button&gt;
+&lt;button <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"button"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Btn Btn--info"</span>&gt;info button&lt;/button&gt;
+&lt;button <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"button"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Btn Btn--error"</span>&gt;error button&lt;/button&gt;</code></pre><button type="button" class="Btn Btn--primary Btn--outline">primary button</button>
+<button type="button" class="Btn Btn--alt Btn--outline">alt button</button>
+<button type="button" class="Btn Btn--validate Btn--outline">validate button</button>
+<button type="button" class="Btn Btn--info Btn--outline">info button</button>
+<button type="button" class="Btn Btn--error Btn--outline">error button</button>
+<pre class="code"><code class="html">&lt;button <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"button"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Btn Btn--primary Btn--outline"</span>&gt;primary button&lt;/button&gt;
+&lt;button <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"button"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Btn Btn--alt Btn--outline"</span>&gt;alt button&lt;/button&gt;
+&lt;button <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"button"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Btn Btn--validate Btn--outline"</span>&gt;validate button&lt;/button&gt;
+&lt;button <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"button"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Btn Btn--info Btn--outline"</span>&gt;info button&lt;/button&gt;
+&lt;button <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"button"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Btn Btn--error Btn--outline"</span>&gt;error button&lt;/button&gt;</code></pre><button type="button" class="Btn Btn--primary Btn--raw">primary button</button>
+<button type="button" class="Btn Btn--alt Btn--raw">alt button</button>
+<button type="button" class="Btn Btn--validate Btn--raw">validate button</button>
+<button type="button" class="Btn Btn--info Btn--raw">info button</button>
+<button type="button" class="Btn Btn--error Btn--raw">error button</button>
+<pre class="code"><code class="html">&lt;button <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"button"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Btn Btn--primary Btn--raw"</span>&gt;primary button&lt;/button&gt;
+&lt;button <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"button"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Btn Btn--alt Btn--raw"</span>&gt;alt button&lt;/button&gt;
+&lt;button <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"button"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Btn Btn--validate Btn--raw"</span>&gt;validate button&lt;/button&gt;
+&lt;button <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"button"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Btn Btn--info Btn--raw"</span>&gt;info button&lt;/button&gt;
+&lt;button <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"button"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Btn Btn--error Btn--raw"</span>&gt;error button&lt;/button&gt;</code></pre><div class="u-primary u-pd--m">
+  <button type="button" class="Btn Btn--primary Btn--inverted">primary button</button>
+  <button type="button" class="Btn Btn--alt Btn--inverted">alt button</button>
+  <button type="button" class="Btn Btn--validate Btn--inverted">validate button</button>
+  <button type="button" class="Btn Btn--info Btn--inverted">info button</button>
+  <button type="button" class="Btn Btn--error Btn--inverted">error button</button>
+</div>
+<pre class="code"><code class="html">&lt;div <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"u-primary u-pd--m"</span>&gt;
+  &lt;button <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"button"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Btn Btn--primary Btn--inverted"</span>&gt;primary button&lt;/button&gt;
+  &lt;button <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"button"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Btn Btn--alt Btn--inverted"</span>&gt;alt button&lt;/button&gt;
+  &lt;button <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"button"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Btn Btn--validate Btn--inverted"</span>&gt;validate button&lt;/button&gt;
+  &lt;button <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"button"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Btn Btn--info Btn--inverted"</span>&gt;info button&lt;/button&gt;
+  &lt;button <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"button"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Btn Btn--error Btn--inverted"</span>&gt;error button&lt;/button&gt;
+&lt;/div&gt;</code></pre><h2 id="isolated-cases" class="s-Title--2">Isolated cases</h2><div class="u-primary u-pd--m">
+  <button type="button" class="Btn Btn--inverted Btn--outline">Inverted&outlined button</button>
+  <button type="button" class="Btn Btn--inverted Btn--raw">Inverted&raw button</button>
+</div>
+<pre class="code"><code class="html">&lt;div <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"u-primary u-pd--m"</span>&gt;
+  &lt;button <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"button"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Btn Btn--inverted Btn--outline"</span>&gt;<span class="hljs-type">Inverted</span>&amp;outlined button&lt;/button&gt;
+  &lt;button <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"button"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Btn Btn--inverted Btn--raw"</span>&gt;<span class="hljs-type">Inverted</span>&amp;raw button&lt;/button&gt;
+&lt;/div&gt;</code></pre><h2 id="button-group" class="s-Title--2">Button group</h2><div class="BtnGroup">
+  <button class="Btn BtnGroup-item is-selected">Button A</button>
+  <button class="Btn BtnGroup-item">Button B</button>
+  <button class="Btn BtnGroup-item" disabled>Button C</button>
+</div>
+<div class="BtnGroup">
+  <button class="Btn BtnGroup-item BtnGroup-item--s">Button A</button>
+  <button class="Btn BtnGroup-item BtnGroup-item--s">Button B</button>
+  <button class="Btn BtnGroup-item BtnGroup-item--s is-selected">Button C</button>
+</div>
+<pre class="code"><code class="html">&lt;div class=<span class="hljs-string">"BtnGroup"</span>&gt;
+  &lt;<span class="hljs-keyword">button </span>class=<span class="hljs-string">"Btn BtnGroup-item is-selected"</span>&gt;<span class="hljs-keyword">Button </span>A&lt;/<span class="hljs-keyword">button&gt;
+</span>  &lt;<span class="hljs-keyword">button </span>class=<span class="hljs-string">"Btn BtnGroup-item"</span>&gt;<span class="hljs-keyword">Button </span><span class="hljs-keyword">B&lt;/button&gt;
+</span>  &lt;<span class="hljs-keyword">button </span>class=<span class="hljs-string">"Btn BtnGroup-item"</span> disabled&gt;<span class="hljs-keyword">Button </span>C&lt;/<span class="hljs-keyword">button&gt;
+</span>&lt;/div&gt;
+&lt;div class=<span class="hljs-string">"BtnGroup"</span>&gt;
+  &lt;<span class="hljs-keyword">button </span>class=<span class="hljs-string">"Btn BtnGroup-item BtnGroup-item--s"</span>&gt;<span class="hljs-keyword">Button </span>A&lt;/<span class="hljs-keyword">button&gt;
+</span>  &lt;<span class="hljs-keyword">button </span>class=<span class="hljs-string">"Btn BtnGroup-item BtnGroup-item--s"</span>&gt;<span class="hljs-keyword">Button </span><span class="hljs-keyword">B&lt;/button&gt;
+</span>  &lt;<span class="hljs-keyword">button </span>class=<span class="hljs-string">"Btn BtnGroup-item BtnGroup-item--s is-selected"</span>&gt;<span class="hljs-keyword">Button </span>C&lt;/<span class="hljs-keyword">button&gt;
+</span>&lt;/div&gt;</code></pre><h2 id="buttons-with-statuses" class="s-Title--2">Buttons with statuses</h2><div class="js-BtnComplete" style="display: inline-block; margin-right: 1rem;">
+  <button type="button" class="Btn Btn--block Btn--validate has-icon Btn--status js-BtnStatus" data-oauth="google_light">
+          <i class="Btn-icon Icon Icon--google"></i>
+          Se connecter avec Google
+        </button>
+</div>
+<div class="js-BtnFail" style="display: inline-block; margin-right: 1rem;">
+  <button type="button" class="Btn Btn--status js-BtnStatus">I'm a loser, baby!</button>
+</div>
+
+<div class="js-BtnComplete" style="display: inline-block; margin-right: 1rem;">
+  <button type="button" class="Btn Btn--outline Btn--status js-BtnStatus">Great success!</button>
+</div>
+<div class="js-BtnFail" style="display: inline-block; margin-right: 1rem;">
+  <button type="button" class="Btn Btn--outline Btn--status js-BtnStatus">I'm a loser, baby!</button>
+</div>
+
+<div class="js-BtnComplete" style="display: inline-block; margin-right: 1rem;">
+  <button type="button" class="Btn Btn--s Btn--status js-BtnStatus">Great success!</button>
+</div>
+<div class="js-BtnFail" style="display: inline-block;">
+  <button type="button" class="Btn Btn--s Btn--status js-BtnStatus">I'm a loser, baby!</button>
+</div>
+<pre class="code"><code class="html">&lt;div <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"js-BtnComplete"</span> style=<span class="hljs-string">"display: inline-block; margin-right: 1rem;"</span>&gt;
+  &lt;button <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"button"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Btn Btn--block Btn--validate has-icon Btn--status js-BtnStatus"</span> data-oauth=<span class="hljs-string">"google_light"</span>&gt;
+          &lt;i <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Btn-icon Icon Icon--google"</span>&gt;&lt;/i&gt;
+          <span class="hljs-type">Se</span> connecter avec <span class="hljs-type">Google</span>
+        &lt;/button&gt;
+&lt;/div&gt;
+&lt;div <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"js-BtnFail"</span> style=<span class="hljs-string">"display: inline-block; margin-right: 1rem;"</span>&gt;
+  &lt;button <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"button"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Btn Btn--status js-BtnStatus"</span>&gt;<span class="hljs-type">I</span><span class="hljs-symbol">'m</span> a loser, baby!&lt;/button&gt;
+&lt;/div&gt;
+
+&lt;div <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"js-BtnComplete"</span> style=<span class="hljs-string">"display: inline-block; margin-right: 1rem;"</span>&gt;
+  &lt;button <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"button"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Btn Btn--outline Btn--status js-BtnStatus"</span>&gt;<span class="hljs-type">Great</span> success!&lt;/button&gt;
+&lt;/div&gt;
+&lt;div <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"js-BtnFail"</span> style=<span class="hljs-string">"display: inline-block; margin-right: 1rem;"</span>&gt;
+  &lt;button <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"button"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Btn Btn--outline Btn--status js-BtnStatus"</span>&gt;<span class="hljs-type">I</span><span class="hljs-symbol">'m</span> a loser, baby!&lt;/button&gt;
+&lt;/div&gt;
+
+&lt;div <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"js-BtnComplete"</span> style=<span class="hljs-string">"display: inline-block; margin-right: 1rem;"</span>&gt;
+  &lt;button <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"button"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Btn Btn--s Btn--status js-BtnStatus"</span>&gt;<span class="hljs-type">Great</span> success!&lt;/button&gt;
+&lt;/div&gt;
+&lt;div <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"js-BtnFail"</span> style=<span class="hljs-string">"display: inline-block;"</span>&gt;
+  &lt;button <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"button"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Btn Btn--s Btn--status js-BtnStatus"</span>&gt;<span class="hljs-type">I</span><span class="hljs-symbol">'m</span> a loser, baby!&lt;/button&gt;
+&lt;/div&gt;</code></pre><script>
+  $(document).ready(function(){
+    $('.js-BtnStatus').on('click', function (event) {
+      var $parent = $(event.currentTarget).parent();
+      var shoudComplete = $parent.hasClass('js-BtnComplete');
+
+      $parent.removeClass('is-loading has-failed has-completed').addClass('is-loading');
+
+      setTimeout(function () {
+        $parent.removeClass('is-loading has-failed').addClass(shoudComplete ? 'has-completed' : 'has-failed');
+      }, 3000);
+    })
+  });
+</script>
+</div></div></div><script src="/assets/js/cssinfo.js"></script></div><script>if (!pageName) { var pageName = 'default' }</script><script>document.getElementById('js-Page').classList.add('s-Page--' + pageName)</script></body></html>

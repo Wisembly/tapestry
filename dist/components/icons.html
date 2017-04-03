@@ -1,0 +1,818 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Tapestry</title><link href="/css/tapestry.css" rel="stylesheet" type="text/css"><link href="/assets/css/styleguide.css" rel="stylesheet" type="text/css"><link href="/assets/fonts/open-sans.css" rel="stylesheet" type="text/css"><script async src="http://localhost:4000/browser-sync/browser-sync-client.2.13.0.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/highlight.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/languages/scss.min.js"></script><script src="/js/tapestry.js"></script><script src="/assets/js/cssinfo.js"></script></head><body class="s-App s-Page" id="js-Page"><nav class="s-Nav"><h1 class="s-Logo"><a class="s-Logo-link" href="/">Tapestry</a></h1><div class="s-Nav-section"><a class="s-Nav-title" href="/getting-started">Getting started</a></div><div class="s-Nav-section has-nav"><a class="s-Nav-title" href="/components/colors">Components<a class="s-Nav-link" href="/components/colors">Colors</a><a class="s-Nav-link" href="/components/animations">Animations</a><a class="s-Nav-link" href="/components/avatar">Avatar</a><a class="s-Nav-link" href="/components/badge">Badge</a><a class="s-Nav-link" href="/components/box">Box</a><a class="s-Nav-link" href="/components/button">Button</a><a class="s-Nav-link" href="/components/dropdown">Dropdown</a><a class="s-Nav-link" href="/components/form">Form</a><a class="s-Nav-link" href="/components/input">Input</a><a class="s-Nav-link" href="/components/grid">Grid</a><a class="s-Nav-link" href="/components/icons">Icons</a><a class="s-Nav-link" href="/components/list">List</a><a class="s-Nav-link" href="/components/loader">Loader</a><a class="s-Nav-link" href="/components/media">Media</a><a class="s-Nav-link" href="/components/meter">Meter</a><a class="s-Nav-link" href="/components/modal">Modal</a><a class="s-Nav-link" href="/components/notification">Notification</a><a class="s-Nav-link" href="/components/panel">Panel</a><a class="s-Nav-link" href="/components/pellet">Pellet</a><a class="s-Nav-link" href="/components/popovers">Popovers</a><a class="s-Nav-link" href="/components/spinner">Spinner</a><a class="s-Nav-link" href="/components/switch">Switch</a><a class="s-Nav-link" href="/components/table">Table</a><a class="s-Nav-link" href="/components/tabs">Tabs</a><a class="s-Nav-link" href="/components/tooltip">Tooltip</a><a class="s-Nav-link" href="/components/typography">Typography</a><a class="s-Nav-link" href="/components/utils">Utils</a></a></div><div class="s-Nav-section"><a class="s-Nav-title" href="/sass-utils">Sass Utils</a></div><div class="s-Nav-section"><a class="s-Nav-title" href="/statistics">Statistics</a></div></nav><div class="s-Container"><h1 class="s-Header"><span class="Badge u-validate u-push">Current version: 1.9.1</span><span>Components</span></h1><div class="s-App-content s-Modules-container"><div class="s-Module"><div id="s-icons" class="s-Module s-Module--icons"><h1 id="icons" class="s-Title--1">Icons</h1><h2 id="generic-syntax" class="s-Title--2">Generic syntax</h2><i class="Icon Icon--wisembly"></i>
+<pre class="code"><code class="html"><span class="hljs-tag">&lt;<span class="hljs-title">i</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"Icon Icon--wisembly"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">i</span>&gt;</span></code></pre><h2 id="sizes" class="s-Title--2">Sizes</h2><i class="Icon Icon--like Icon--s"></i>
+<i class="Icon Icon--like Icon--l"></i>
+<i class="Icon Icon--like Icon--xl"></i>
+<pre class="code"><code class="html"><span class="hljs-tag">&lt;<span class="hljs-title">i</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"Icon Icon--like Icon--s"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">i</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">i</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"Icon Icon--like Icon--l"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">i</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">i</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"Icon Icon--like Icon--xl"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">i</span>&gt;</span></code></pre><h2 id="list" class="s-Title--2">List</h2>
+<div class="s-Icon">
+  <i class="Icon Icon--academicHat"></i>
+  academicHat
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--addUser"></i>
+  addUser
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--alarmClock"></i>
+  alarmClock
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--alert"></i>
+  alert
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--altDragVertical"></i>
+  altDragVertical
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--appearIn"></i>
+  appearIn
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--apple"></i>
+  apple
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--archive"></i>
+  archive
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--arrowDown"></i>
+  arrowDown
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--arrowFirst"></i>
+  arrowFirst
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--arrowLast"></i>
+  arrowLast
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--arrowLeft"></i>
+  arrowLeft
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--arrowRight"></i>
+  arrowRight
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--arrowUp"></i>
+  arrowUp
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--aside"></i>
+  aside
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--audio"></i>
+  audio
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--azure"></i>
+  azure
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--badge"></i>
+  badge
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--bar"></i>
+  bar
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--barDiagram"></i>
+  barDiagram
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--bell"></i>
+  bell
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--bill"></i>
+  bill
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--brush"></i>
+  brush
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--bug"></i>
+  bug
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--bulb"></i>
+  bulb
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--calendar"></i>
+  calendar
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--camera"></i>
+  camera
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--checkbox"></i>
+  checkbox
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--checkedCheckbox"></i>
+  checkedCheckbox
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--checkedRadio"></i>
+  checkedRadio
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--checkmark"></i>
+  checkmark
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--chrome"></i>
+  chrome
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--clip"></i>
+  clip
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--clock"></i>
+  clock
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--closedEye"></i>
+  closedEye
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--code"></i>
+  code
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--cog"></i>
+  cog
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--comment"></i>
+  comment
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--company"></i>
+  company
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--copy"></i>
+  copy
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--cross"></i>
+  cross
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--dashboard"></i>
+  dashboard
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--deleteUser"></i>
+  deleteUser
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--document"></i>
+  document
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--documentFull"></i>
+  documentFull
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--donutDot"></i>
+  donutDot
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--door"></i>
+  door
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--dot"></i>
+  dot
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--download"></i>
+  download
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--dragHorizontal"></i>
+  dragHorizontal
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--dragVertical"></i>
+  dragVertical
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--dropbox"></i>
+  dropbox
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--dropboxLink"></i>
+  dropboxLink
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--duplicate"></i>
+  duplicate
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--ensign"></i>
+  ensign
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--evernote"></i>
+  evernote
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--externalLink"></i>
+  externalLink
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--facebook"></i>
+  facebook
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--file"></i>
+  file
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--filters"></i>
+  filters
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--flag"></i>
+  flag
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--folder"></i>
+  folder
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--form"></i>
+  form
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--fullscreen"></i>
+  fullscreen
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--github"></i>
+  github
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--glass"></i>
+  glass
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--google"></i>
+  google
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--googleDrive"></i>
+  googleDrive
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--googleDriveLink"></i>
+  googleDriveLink
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--grid"></i>
+  grid
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--group"></i>
+  group
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--heading1"></i>
+  heading1
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--heading2"></i>
+  heading2
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--help"></i>
+  help
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--home"></i>
+  home
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--image"></i>
+  image
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--importDocument"></i>
+  importDocument
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--info"></i>
+  info
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--insights"></i>
+  insights
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--integrations"></i>
+  integrations
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--label"></i>
+  label
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--like"></i>
+  like
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--link"></i>
+  link
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--linkedin"></i>
+  linkedin
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--list"></i>
+  list
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--listCollapse"></i>
+  listCollapse
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--listExpand"></i>
+  listExpand
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--listPlain"></i>
+  listPlain
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--live"></i>
+  live
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--lock"></i>
+  lock
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--magicWand"></i>
+  magicWand
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--mail"></i>
+  mail
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--message"></i>
+  message
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--minus"></i>
+  minus
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--more"></i>
+  more
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--mouse"></i>
+  mouse
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--multipleChoice"></i>
+  multipleChoice
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--openedEye"></i>
+  openedEye
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--options"></i>
+  options
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--paragraph"></i>
+  paragraph
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--participant"></i>
+  participant
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--pause"></i>
+  pause
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--pellet"></i>
+  pellet
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--pelletAdd"></i>
+  pelletAdd
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--pelletCheck"></i>
+  pelletCheck
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--pelletClose"></i>
+  pelletClose
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--pelletMinus"></i>
+  pelletMinus
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--pencil"></i>
+  pencil
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--phone"></i>
+  phone
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--picture"></i>
+  picture
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--pictureInPicture"></i>
+  pictureInPicture
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--pieDiagram"></i>
+  pieDiagram
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--pin"></i>
+  pin
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--pinOutlined"></i>
+  pinOutlined
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--play"></i>
+  play
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--plugged"></i>
+  plugged
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--plus"></i>
+  plus
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--popup"></i>
+  popup
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--presentation"></i>
+  presentation
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--private"></i>
+  private
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--projector"></i>
+  projector
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--quotes"></i>
+  quotes
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--radio"></i>
+  radio
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--refresh"></i>
+  refresh
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--reply"></i>
+  reply
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--reset"></i>
+  reset
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--results"></i>
+  results
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--rss"></i>
+  rss
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--section"></i>
+  section
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--singleChoice"></i>
+  singleChoice
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--slack"></i>
+  slack
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--smile"></i>
+  smile
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--solid"></i>
+  solid
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--spreadsheet"></i>
+  spreadsheet
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--star"></i>
+  star
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--starHalf"></i>
+  starHalf
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--starOutlined"></i>
+  starOutlined
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--stats"></i>
+  stats
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--stop"></i>
+  stop
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--subtitle"></i>
+  subtitle
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--summary"></i>
+  summary
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--sunrise"></i>
+  sunrise
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--sunset"></i>
+  sunset
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--target"></i>
+  target
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--timeline"></i>
+  timeline
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--title"></i>
+  title
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--titles"></i>
+  titles
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--trash"></i>
+  trash
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--triangleDown"></i>
+  triangleDown
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--triangleLeft"></i>
+  triangleLeft
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--triangleRight"></i>
+  triangleRight
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--triangleUp"></i>
+  triangleUp
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--twitter"></i>
+  twitter
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--unlock"></i>
+  unlock
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--unplugged"></i>
+  unplugged
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--user"></i>
+  user
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--video"></i>
+  video
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--warning"></i>
+  warning
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--warningSign"></i>
+  warningSign
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--wifi"></i>
+  wifi
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--wisembly"></i>
+  wisembly
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--youtube"></i>
+  youtube
+</div>
+<h2 id="animations" class="s-Title--2">Animations</h2><i class="Icon Icon--refresh is-spinning"></i>
+<pre class="code"><code class="html"><span class="hljs-tag">&lt;<span class="hljs-title">i</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"Icon Icon--refresh is-spinning"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">i</span>&gt;</span></code></pre></div></div></div><script src="/assets/js/cssinfo.js"></script></div><script>if (!pageName) { var pageName = 'default' }</script><script>document.getElementById('js-Page').classList.add('s-Page--' + pageName)</script></body></html>

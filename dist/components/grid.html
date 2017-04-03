@@ -1,0 +1,280 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Tapestry</title><link href="/css/tapestry.css" rel="stylesheet" type="text/css"><link href="/assets/css/styleguide.css" rel="stylesheet" type="text/css"><link href="/assets/fonts/open-sans.css" rel="stylesheet" type="text/css"><script async src="http://localhost:4000/browser-sync/browser-sync-client.2.13.0.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/highlight.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/languages/scss.min.js"></script><script src="/js/tapestry.js"></script><script src="/assets/js/cssinfo.js"></script></head><body class="s-App s-Page" id="js-Page"><nav class="s-Nav"><h1 class="s-Logo"><a class="s-Logo-link" href="/">Tapestry</a></h1><div class="s-Nav-section"><a class="s-Nav-title" href="/getting-started">Getting started</a></div><div class="s-Nav-section has-nav"><a class="s-Nav-title" href="/components/colors">Components<a class="s-Nav-link" href="/components/colors">Colors</a><a class="s-Nav-link" href="/components/animations">Animations</a><a class="s-Nav-link" href="/components/avatar">Avatar</a><a class="s-Nav-link" href="/components/badge">Badge</a><a class="s-Nav-link" href="/components/box">Box</a><a class="s-Nav-link" href="/components/button">Button</a><a class="s-Nav-link" href="/components/dropdown">Dropdown</a><a class="s-Nav-link" href="/components/form">Form</a><a class="s-Nav-link" href="/components/input">Input</a><a class="s-Nav-link" href="/components/grid">Grid</a><a class="s-Nav-link" href="/components/icons">Icons</a><a class="s-Nav-link" href="/components/list">List</a><a class="s-Nav-link" href="/components/loader">Loader</a><a class="s-Nav-link" href="/components/media">Media</a><a class="s-Nav-link" href="/components/meter">Meter</a><a class="s-Nav-link" href="/components/modal">Modal</a><a class="s-Nav-link" href="/components/notification">Notification</a><a class="s-Nav-link" href="/components/panel">Panel</a><a class="s-Nav-link" href="/components/pellet">Pellet</a><a class="s-Nav-link" href="/components/popovers">Popovers</a><a class="s-Nav-link" href="/components/spinner">Spinner</a><a class="s-Nav-link" href="/components/switch">Switch</a><a class="s-Nav-link" href="/components/table">Table</a><a class="s-Nav-link" href="/components/tabs">Tabs</a><a class="s-Nav-link" href="/components/tooltip">Tooltip</a><a class="s-Nav-link" href="/components/typography">Typography</a><a class="s-Nav-link" href="/components/utils">Utils</a></a></div><div class="s-Nav-section"><a class="s-Nav-title" href="/sass-utils">Sass Utils</a></div><div class="s-Nav-section"><a class="s-Nav-title" href="/statistics">Statistics</a></div></nav><div class="s-Container"><h1 class="s-Header"><span class="Badge u-validate u-push">Current version: 1.9.1</span><span>Components</span></h1><div class="s-App-content s-Modules-container"><div class="s-Module"><div id="s-grid" class="s-Module s-Module--grid"><h1 id="grid" class="s-Title--1">Grid</h1><h2 id="variables" class="s-Title--2">Variables</h2><table class="s-Table"><tr>
+<th>Variable</th>
+<th>property</th>
+<th>value</th>
+<th>desc.</th>
+</tr>
+<tr>
+<td><strong> $grid-column-number </strong></td>
+<td>number</td>
+<td><code>12</code></td>
+<td>grid column number</td>
+</tr>
+<tr>
+<td><strong> $grid-responsive-range </strong></td>
+<td>map</td>
+<td><code>(phablet, tablet, laptop)</code></td>
+<td>devices to generate responsive grid systems, matches with $breakpoints map</td>
+</tr>
+<tr>
+<td><strong> $grid-gutter-width </strong></td>
+<td>size</td>
+<td><code>r(4)</code></td>
+<td>gutter width</td>
+</tr>
+</table><div class="Grid">
+  <div class="Grid-cell Grid-cell--1">1</div>
+  <div class="Grid-cell Grid-cell--1">1</div>
+  <div class="Grid-cell Grid-cell--1">1</div>
+  <div class="Grid-cell Grid-cell--1">1</div>
+  <div class="Grid-cell Grid-cell--1">1</div>
+  <div class="Grid-cell Grid-cell--1">1</div>
+  <div class="Grid-cell Grid-cell--1">1</div>
+  <div class="Grid-cell Grid-cell--1">1</div>
+  <div class="Grid-cell Grid-cell--1">1</div>
+  <div class="Grid-cell Grid-cell--1">1</div>
+  <div class="Grid-cell Grid-cell--1">1</div>
+  <div class="Grid-cell Grid-cell--1">1</div>
+</div>
+<div class="Grid">
+  <div class="Grid-cell Grid-cell--2">2</div>
+  <div class="Grid-cell Grid-cell--2">2</div>
+  <div class="Grid-cell Grid-cell--2">2</div>
+  <div class="Grid-cell Grid-cell--2">2</div>
+  <div class="Grid-cell Grid-cell--2">2</div>
+  <div class="Grid-cell Grid-cell--2">2</div>
+</div>
+<div class="Grid">
+  <div class="Grid-cell Grid-cell--3">3</div>
+  <div class="Grid-cell Grid-cell--3">3</div>
+  <div class="Grid-cell Grid-cell--3">3</div>
+  <div class="Grid-cell Grid-cell--3">3</div>
+</div>
+<div class="Grid">
+  <div class="Grid-cell Grid-cell--4">4</div>
+  <div class="Grid-cell Grid-cell--4">4</div>
+  <div class="Grid-cell Grid-cell--4">4</div>
+</div>
+<div class="Grid">
+  <div class="Grid-cell Grid-cell--5">5</div>
+  <div class="Grid-cell Grid-cell--7">7</div>
+</div>
+<div class="Grid">
+  <div class="Grid-cell Grid-cell--6">6</div>
+  <div class="Grid-cell Grid-cell--6">6</div>
+</div>
+<div class="Grid">
+  <div class="Grid-cell Grid-cell--7">7</div>
+  <div class="Grid-cell Grid-cell--5">5</div>
+</div>
+<div class="Grid">
+  <div class="Grid-cell Grid-cell--8">8</div>
+  <div class="Grid-cell Grid-cell--4">4</div>
+</div>
+<div class="Grid">
+  <div class="Grid-cell Grid-cell--9">9</div>
+  <div class="Grid-cell Grid-cell--3">3</div>
+</div>
+<div class="Grid">
+  <div class="Grid-cell Grid-cell--10">10</div>
+  <div class="Grid-cell Grid-cell--2">2</div>
+</div>
+<div class="Grid">
+  <div class="Grid-cell Grid-cell--11">11</div>
+  <div class="Grid-cell Grid-cell--1">1</div>
+</div>
+<div class="Grid">
+  <div class="Grid-cell Grid-cell--12">12</div>
+</div>
+<pre class="code"><code class="html">&lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid"</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--1"</span>&gt;<span class="hljs-number">1</span>&lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--1"</span>&gt;<span class="hljs-number">1</span>&lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--1"</span>&gt;<span class="hljs-number">1</span>&lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--1"</span>&gt;<span class="hljs-number">1</span>&lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--1"</span>&gt;<span class="hljs-number">1</span>&lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--1"</span>&gt;<span class="hljs-number">1</span>&lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--1"</span>&gt;<span class="hljs-number">1</span>&lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--1"</span>&gt;<span class="hljs-number">1</span>&lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--1"</span>&gt;<span class="hljs-number">1</span>&lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--1"</span>&gt;<span class="hljs-number">1</span>&lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--1"</span>&gt;<span class="hljs-number">1</span>&lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--1"</span>&gt;<span class="hljs-number">1</span>&lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid"</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--2"</span>&gt;<span class="hljs-number">2</span>&lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--2"</span>&gt;<span class="hljs-number">2</span>&lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--2"</span>&gt;<span class="hljs-number">2</span>&lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--2"</span>&gt;<span class="hljs-number">2</span>&lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--2"</span>&gt;<span class="hljs-number">2</span>&lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--2"</span>&gt;<span class="hljs-number">2</span>&lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid"</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--3"</span>&gt;<span class="hljs-number">3</span>&lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--3"</span>&gt;<span class="hljs-number">3</span>&lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--3"</span>&gt;<span class="hljs-number">3</span>&lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--3"</span>&gt;<span class="hljs-number">3</span>&lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid"</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--4"</span>&gt;<span class="hljs-number">4</span>&lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--4"</span>&gt;<span class="hljs-number">4</span>&lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--4"</span>&gt;<span class="hljs-number">4</span>&lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid"</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--5"</span>&gt;<span class="hljs-number">5</span>&lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--7"</span>&gt;<span class="hljs-number">7</span>&lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid"</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--6"</span>&gt;<span class="hljs-number">6</span>&lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--6"</span>&gt;<span class="hljs-number">6</span>&lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid"</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--7"</span>&gt;<span class="hljs-number">7</span>&lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--5"</span>&gt;<span class="hljs-number">5</span>&lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid"</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--8"</span>&gt;<span class="hljs-number">8</span>&lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--4"</span>&gt;<span class="hljs-number">4</span>&lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid"</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--9"</span>&gt;<span class="hljs-number">9</span>&lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--3"</span>&gt;<span class="hljs-number">3</span>&lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid"</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--10"</span>&gt;<span class="hljs-number">10</span>&lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--2"</span>&gt;<span class="hljs-number">2</span>&lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid"</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--11"</span>&gt;<span class="hljs-number">11</span>&lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--1"</span>&gt;<span class="hljs-number">1</span>&lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid"</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--12"</span>&gt;<span class="hljs-number">12</span>&lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;</code></pre><h2 id="grid-with-gutters" class="s-Title--2">Grid with gutters</h2><div class="Grid Grid--gutters">
+  <div class="Grid-cell Grid-cell--1">1</div>
+  <div class="Grid-cell Grid-cell--1">1</div>
+  <div class="Grid-cell Grid-cell--1">1</div>
+  <div class="Grid-cell Grid-cell--1">1</div>
+  <div class="Grid-cell Grid-cell--1">1</div>
+  <div class="Grid-cell Grid-cell--1">1</div>
+  <div class="Grid-cell Grid-cell--1">1</div>
+  <div class="Grid-cell Grid-cell--1">1</div>
+  <div class="Grid-cell Grid-cell--1">1</div>
+  <div class="Grid-cell Grid-cell--1">1</div>
+  <div class="Grid-cell Grid-cell--1">1</div>
+  <div class="Grid-cell Grid-cell--1">1</div>
+</div>
+<div class="Grid Grid--gutters">
+  <div class="Grid-cell Grid-cell--9">9</div>
+  <div class="Grid-cell Grid-cell--3">3</div>
+</div>
+<div class="Grid Grid--gutters">
+  <div class="Grid-cell Grid-cell--4">4</div>
+  <div class="Grid-cell Grid-cell--4">4</div>
+  <div class="Grid-cell Grid-cell--4">4</div>
+</div>
+<div class="Grid Grid--gutters">
+  <div class="Grid-cell Grid-cell--5">5</div>
+  <div class="Grid-cell Grid-cell--7">7</div>
+</div>
+<pre class="code"><code class="html">&lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid Grid--gutters"</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--1"</span>&gt;<span class="hljs-number">1</span>&lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--1"</span>&gt;<span class="hljs-number">1</span>&lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--1"</span>&gt;<span class="hljs-number">1</span>&lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--1"</span>&gt;<span class="hljs-number">1</span>&lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--1"</span>&gt;<span class="hljs-number">1</span>&lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--1"</span>&gt;<span class="hljs-number">1</span>&lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--1"</span>&gt;<span class="hljs-number">1</span>&lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--1"</span>&gt;<span class="hljs-number">1</span>&lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--1"</span>&gt;<span class="hljs-number">1</span>&lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--1"</span>&gt;<span class="hljs-number">1</span>&lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--1"</span>&gt;<span class="hljs-number">1</span>&lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--1"</span>&gt;<span class="hljs-number">1</span>&lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid Grid--gutters"</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--9"</span>&gt;<span class="hljs-number">9</span>&lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--3"</span>&gt;<span class="hljs-number">3</span>&lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid Grid--gutters"</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--4"</span>&gt;<span class="hljs-number">4</span>&lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--4"</span>&gt;<span class="hljs-number">4</span>&lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--4"</span>&gt;<span class="hljs-number">4</span>&lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid Grid--gutters"</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--5"</span>&gt;<span class="hljs-number">5</span>&lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--7"</span>&gt;<span class="hljs-number">7</span>&lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;</code></pre><h2 id="centered-grid" class="s-Title--2">Centered Grid</h2><div class="Grid Grid--centered">
+  <div class="Grid-cell Grid-cell--1">1 centered</div>
+  <div class="Grid-cell Grid-cell--3">3 centered</div>
+</div>
+<div class="Grid Grid--centered">
+  <div class="Grid-cell Grid-cell--6">6 centered</div>
+</div>
+<pre class="code"><code class="html">&lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid Grid--centered"</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--1"</span>&gt;<span class="hljs-number">1</span> centered&lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--3"</span>&gt;<span class="hljs-number">3</span> centered&lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid Grid--centered"</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--6"</span>&gt;<span class="hljs-number">6</span> centered&lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;</code></pre><h2 id="flexible-grid-cells" class="s-Title--2">Flexible Grid-cells</h2><p class="s-Paragraph">.Grid-cell--fr uses the remaining space. Grid-cells can be set with fixed and fluid widths.</p><div class="Grid">
+  <div class="Grid-cell Grid-cell--2">2</div>
+  <div class="Grid-cell Grid-cell--fr">Remaining space</div>
+  <div class="Grid-cell" style="width: 100px;">100px</div>
+</div>
+<pre class="code"><code class="html">&lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid"</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--2"</span>&gt;<span class="hljs-number">2</span>&lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--fr"</span>&gt;Remaining <span class="hljs-constant">space</span>&lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell"</span> style=<span class="hljs-string">"width: 100px;"</span>&gt;<span class="hljs-number">100</span>px&lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;</code></pre><h2 id="stretched-grid-cells" class="s-Title--2">Stretched Grid-cells</h2><p class="s-Paragraph">.Grid-cell--stretched allow a cell to be as high as the highest cell of the row. Standard and stretched cells can be mixed up.</p><div class="Grid">
+  <div class="Grid-cell Grid-cell--1 Grid-cell--stretched">Lorem ipsum</div>
+  <div class="Grid-cell Grid-cell--4 Grid-cell--stretched">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+  <div class="Grid-cell Grid-cell--4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
+  <div class="Grid-cell Grid-cell--3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+</div>
+<div class="Grid Grid--centered">
+  <div class="Grid-cell Grid-cell--1">Lorem ipsum</div>
+  <div class="Grid-cell Grid-cell--4 Grid-cell--stretched">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
+  <div class="Grid-cell Grid-cell--3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+</div>
+<pre class="code"><code class="html">&lt;div class="Grid"&gt;
+  &lt;div class="Grid-cell Grid-cell--<span class="hljs-number">1</span> Grid-cell--stretched"&gt;Lo<span class="hljs-comment">rem ipsum&lt;/div&gt;</span>
+  &lt;div class="Grid-cell Grid-cell--<span class="hljs-number">4</span> Grid-cell--stretched"&gt;Lo<span class="hljs-comment">rem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/div&gt;</span>
+  &lt;div class="Grid-cell Grid-cell--<span class="hljs-number">4</span>"&gt;Lo<span class="hljs-comment">rem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. &lt;/div&gt;</span>
+  &lt;div class="Grid-cell Grid-cell--<span class="hljs-number">3</span>"&gt;Lo<span class="hljs-comment">rem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&lt;/div&gt;</span>
+&lt;/div&gt;
+&lt;div class="Grid Grid--centered"&gt;
+  &lt;div class="Grid-cell Grid-cell--<span class="hljs-number">1</span>"&gt;Lo<span class="hljs-comment">rem ipsum&lt;/div&gt;</span>
+  &lt;div class="Grid-cell Grid-cell--<span class="hljs-number">4</span> Grid-cell--stretched"&gt;Lo<span class="hljs-comment">rem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. &lt;/div&gt;</span>
+  &lt;div class="Grid-cell Grid-cell--<span class="hljs-number">3</span>"&gt;Lo<span class="hljs-comment">rem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&lt;/div&gt;</span>
+&lt;/div&gt;</code></pre><h2 id="centered-grid-cells" class="s-Title--2">Centered Grid-cells</h2><p class="s-Paragraph">.Grid-cell--centered centers itself thanks to flex.</p><div class="Grid">
+  <div class="Grid-cell Grid-cell--2">2</div>
+  <div class="Grid-cell Grid-cell--4 Grid-cell--centered">Remaining space</div>
+</div>
+<div class="Grid">
+  <div class="Grid-cell Grid-cell--3 Grid-cell--centered">3 centered</div>
+  <div class="Grid-cell Grid-cell--3 Grid-cell--centered">3 centered</div>
+</div>
+<pre class="code"><code class="html">&lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid"</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--2"</span>&gt;<span class="hljs-number">2</span>&lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--4 Grid-cell--centered"</span>&gt;Remaining <span class="hljs-constant">space</span>&lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid"</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--3 Grid-cell--centered"</span>&gt;<span class="hljs-number">3</span> centered&lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Grid-cell Grid-cell--3 Grid-cell--centered"</span>&gt;<span class="hljs-number">3</span> centered&lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;</code></pre><h2 id="responsive-grid-cells" class="s-Title--2">Responsive Grid-cells</h2><p class="s-Paragraph">Grid-cells width can change according to viewport. Use .Grid-cell--n@phablet for viewport greater than 414px, .Grid-cell--n@tablet for viewport greater than 768px and .Grid-cell--n@laptop for viewport greater than 1024px.</p><div class="Grid">
+  <div class="Grid-cell Grid-cell--12 Grid-cell--6@tablet Grid-cell--2@laptop">2 | 6@tablet | 12@laptop</div>
+  <div class="Grid-cell Grid-cell--12 Grid-cell--6@tablet Grid-cell--2@laptop">2 | 6@tablet | 12@laptop</div>
+  <div class="Grid-cell Grid-cell--12 Grid-cell--12@tablet Grid-cell--4@laptop">4 | 12@tablet | 12@laptop</div>
+  <div class="Grid-cell Grid-cell--6 Grid-cell--3@tablet Grid-cell--1@laptop">1 | 3@tablet | 6@laptop</div>
+  <div class="Grid-cell Grid-cell--6 Grid-cell--3@tablet Grid-cell--1@laptop">1 | 3@tablet | 6@laptop</div>
+  <div class="Grid-cell Grid-cell--6 Grid-cell--3@tablet Grid-cell--1@laptop">1 | 3@tablet | 6@laptop</div>
+  <div class="Grid-cell Grid-cell--6 Grid-cell--3@tablet Grid-cell--1@laptop">1 | 3@tablet | 6@laptop</div>
+</div>
+<pre class="code"><code class="html">&lt;div <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Grid"</span>&gt;
+  &lt;div <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Grid-cell Grid-cell--12 Grid-cell--6@tablet Grid-cell--2@laptop"</span>&gt;<span class="hljs-number">2</span> | <span class="hljs-number">6</span><span class="hljs-annotation">@tablet</span> | <span class="hljs-number">12</span><span class="hljs-annotation">@laptop</span>&lt;/div&gt;
+  &lt;div <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Grid-cell Grid-cell--12 Grid-cell--6@tablet Grid-cell--2@laptop"</span>&gt;<span class="hljs-number">2</span> | <span class="hljs-number">6</span><span class="hljs-annotation">@tablet</span> | <span class="hljs-number">12</span><span class="hljs-annotation">@laptop</span>&lt;/div&gt;
+  &lt;div <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Grid-cell Grid-cell--12 Grid-cell--12@tablet Grid-cell--4@laptop"</span>&gt;<span class="hljs-number">4</span> | <span class="hljs-number">12</span><span class="hljs-annotation">@tablet</span> | <span class="hljs-number">12</span><span class="hljs-annotation">@laptop</span>&lt;/div&gt;
+  &lt;div <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Grid-cell Grid-cell--6 Grid-cell--3@tablet Grid-cell--1@laptop"</span>&gt;<span class="hljs-number">1</span> | <span class="hljs-number">3</span><span class="hljs-annotation">@tablet</span> | <span class="hljs-number">6</span><span class="hljs-annotation">@laptop</span>&lt;/div&gt;
+  &lt;div <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Grid-cell Grid-cell--6 Grid-cell--3@tablet Grid-cell--1@laptop"</span>&gt;<span class="hljs-number">1</span> | <span class="hljs-number">3</span><span class="hljs-annotation">@tablet</span> | <span class="hljs-number">6</span><span class="hljs-annotation">@laptop</span>&lt;/div&gt;
+  &lt;div <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Grid-cell Grid-cell--6 Grid-cell--3@tablet Grid-cell--1@laptop"</span>&gt;<span class="hljs-number">1</span> | <span class="hljs-number">3</span><span class="hljs-annotation">@tablet</span> | <span class="hljs-number">6</span><span class="hljs-annotation">@laptop</span>&lt;/div&gt;
+  &lt;div <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Grid-cell Grid-cell--6 Grid-cell--3@tablet Grid-cell--1@laptop"</span>&gt;<span class="hljs-number">1</span> | <span class="hljs-number">3</span><span class="hljs-annotation">@tablet</span> | <span class="hljs-number">6</span><span class="hljs-annotation">@laptop</span>&lt;/div&gt;
+&lt;/div&gt;</code></pre></div></div></div><script src="/assets/js/cssinfo.js"></script></div><script>if (!pageName) { var pageName = 'default' }</script><script>document.getElementById('js-Page').classList.add('s-Page--' + pageName)</script></body></html>

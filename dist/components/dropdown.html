@@ -1,0 +1,361 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Tapestry</title><link href="/css/tapestry.css" rel="stylesheet" type="text/css"><link href="/assets/css/styleguide.css" rel="stylesheet" type="text/css"><link href="/assets/fonts/open-sans.css" rel="stylesheet" type="text/css"><script async src="http://localhost:4000/browser-sync/browser-sync-client.2.13.0.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/highlight.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/languages/scss.min.js"></script><script src="/js/tapestry.js"></script><script src="/assets/js/cssinfo.js"></script></head><body class="s-App s-Page" id="js-Page"><nav class="s-Nav"><h1 class="s-Logo"><a class="s-Logo-link" href="/">Tapestry</a></h1><div class="s-Nav-section"><a class="s-Nav-title" href="/getting-started">Getting started</a></div><div class="s-Nav-section has-nav"><a class="s-Nav-title" href="/components/colors">Components<a class="s-Nav-link" href="/components/colors">Colors</a><a class="s-Nav-link" href="/components/animations">Animations</a><a class="s-Nav-link" href="/components/avatar">Avatar</a><a class="s-Nav-link" href="/components/badge">Badge</a><a class="s-Nav-link" href="/components/box">Box</a><a class="s-Nav-link" href="/components/button">Button</a><a class="s-Nav-link" href="/components/dropdown">Dropdown</a><a class="s-Nav-link" href="/components/form">Form</a><a class="s-Nav-link" href="/components/input">Input</a><a class="s-Nav-link" href="/components/grid">Grid</a><a class="s-Nav-link" href="/components/icons">Icons</a><a class="s-Nav-link" href="/components/list">List</a><a class="s-Nav-link" href="/components/loader">Loader</a><a class="s-Nav-link" href="/components/media">Media</a><a class="s-Nav-link" href="/components/meter">Meter</a><a class="s-Nav-link" href="/components/modal">Modal</a><a class="s-Nav-link" href="/components/notification">Notification</a><a class="s-Nav-link" href="/components/panel">Panel</a><a class="s-Nav-link" href="/components/pellet">Pellet</a><a class="s-Nav-link" href="/components/popovers">Popovers</a><a class="s-Nav-link" href="/components/spinner">Spinner</a><a class="s-Nav-link" href="/components/switch">Switch</a><a class="s-Nav-link" href="/components/table">Table</a><a class="s-Nav-link" href="/components/tabs">Tabs</a><a class="s-Nav-link" href="/components/tooltip">Tooltip</a><a class="s-Nav-link" href="/components/typography">Typography</a><a class="s-Nav-link" href="/components/utils">Utils</a></a></div><div class="s-Nav-section"><a class="s-Nav-title" href="/sass-utils">Sass Utils</a></div><div class="s-Nav-section"><a class="s-Nav-title" href="/statistics">Statistics</a></div></nav><div class="s-Container"><h1 class="s-Header"><span class="Badge u-validate u-push">Current version: 1.9.1</span><span>Components</span></h1><div class="s-App-content s-Modules-container"><div class="s-Module"><div id="s-dropdown" class="s-Module s-Module--dropdown"><h1 id="dropdown" class="s-Title--1">Dropdown</h1><h2 id="variables" class="s-Title--2">Variables</h2><table class="s-Table"><tr>
+<th>Variable</th>
+<th>property</th>
+<th>value</th>
+<th>desc.</th>
+</tr>
+<tr>
+<td><strong> $dropdown-base-fz </strong></td>
+<td>font-size</td>
+<td><code>$fz--m</code></td>
+<td>dropdown font-size</td>
+</tr>
+<tr>
+<td><strong> $dropdown-small-fz </strong></td>
+<td>font-size</td>
+<td><code>$fz--s</code></td>
+<td>small dropdown font-size</td>
+</tr>
+<tr>
+<td><strong> $dropdown-min-width </strong></td>
+<td>min-width</td>
+<td><code>r(56)</code></td>
+<td>dropdown min-width</td>
+</tr>
+<tr>
+<td><strong> $dropdown-max-height </strong></td>
+<td>max-height</td>
+<td><code>r(25)</code></td>
+<td>dropdown max-height</td>
+</tr>
+<tr>
+<td><strong> $dropdown-toggle-pdv </strong></td>
+<td>padding</td>
+<td><code>r(1)</code></td>
+<td>dropdown-toggle vertical padding</td>
+</tr>
+<tr>
+<td><strong> $dropdown-toggle-pdh </strong></td>
+<td>padding</td>
+<td><code>r(2)</code></td>
+<td>dropdown-toggle horizontal padding</td>
+</tr>
+<tr>
+<td><strong> $dropdown-toggle-array-width </strong></td>
+<td>width</td>
+<td><code>r(6)</code></td>
+<td>dropdown-toggle array width</td>
+</tr>
+<tr>
+<td><strong> $small-dropdown-toggle-array-width </strong></td>
+<td>width</td>
+<td><code>r(5)</code></td>
+<td>small dropdown-toggle array width</td>
+</tr>
+<tr>
+<td><strong> $dropdown-toggle-bg </strong></td>
+<td>background-color</td>
+<td><code>$transparent</code></td>
+<td>dropdown-toggle background</td>
+</tr>
+<tr>
+<td><strong> $dropdown-toggle-color </strong></td>
+<td>color</td>
+<td><code>$slate-gray</code></td>
+<td>dropdown-toggle color</td>
+</tr>
+<tr>
+<td><strong> $dropdown-toggle-hover-color </strong></td>
+<td>color</td>
+<td><code>$shuttle-gray</code></td>
+<td>dropdown-toggle color on :hover</td>
+</tr>
+<tr>
+<td><strong> $dropdown-toggle-expanded-color </strong></td>
+<td>color</td>
+<td><code>$shuttle-gray</code></td>
+<td>dropdown-toggle color on expanded dropdown</td>
+</tr>
+<tr>
+<td><strong> $dropdown-list-bg </strong></td>
+<td>background-color</td>
+<td><code>$white</code></td>
+<td>dropdown-list background</td>
+</tr>
+<tr>
+<td><strong> $dropdown-list-border-color </strong></td>
+<td>background-color</td>
+<td><code>$iron</code></td>
+<td>dropdown-list border-color</td>
+</tr>
+<tr>
+<td><strong> $dropdown-item-base-color </strong></td>
+<td>color</td>
+<td><code>$shuttle-gray</code></td>
+<td>dropdown-item color</td>
+</tr>
+<tr>
+<td><strong> $dropdown-item-disabled-color </strong></td>
+<td>color</td>
+<td><code>$gray-chateau</code></td>
+<td>disabled dropdown-item color</td>
+</tr>
+<tr>
+<td><strong> $dropdown-item-hover-color </strong></td>
+<td>color</td>
+<td><code>$white</code></td>
+<td>dropdown-item color on :hover</td>
+</tr>
+<tr>
+<td><strong> $dropdown-item-focus-color </strong></td>
+<td>color</td>
+<td><code>$shuttle-gray</code></td>
+<td>dropdown-item color on :focus</td>
+</tr>
+<tr>
+<td><strong> $dropdown-item-base-bg </strong></td>
+<td>background-color</td>
+<td><code>$transparent</code></td>
+<td>dropdown-item background</td>
+</tr>
+<tr>
+<td><strong> $dropdown-item-disabled-bg </strong></td>
+<td>background-color</td>
+<td><code>$iron</code></td>
+<td>disabled dropdown-item background</td>
+</tr>
+<tr>
+<td><strong> $dropdown-item-hover-bg </strong></td>
+<td>background-color</td>
+<td><code>$gray-chateau</code></td>
+<td>dropdown-item background on: hover</td>
+</tr>
+<tr>
+<td><strong> $dropdown-item-selected-bg </strong></td>
+<td>background-color</td>
+<td><code>$porcelain</code></td>
+<td>selected dropdown-item background</td>
+</tr>
+<tr>
+<td><strong> $dropdown-item-mg </strong></td>
+<td>margin</td>
+<td><code>$mg--xs</code></td>
+<td>dropdown-item margin</td>
+</tr>
+<tr>
+<td><strong> $dropdown-item-pd </strong></td>
+<td>padding</td>
+<td><code>$pd--xs</code></td>
+<td>dropdown-item padding</td>
+</tr>
+</table><div class="Dropdown" data-tapestry="dropdown">
+  <button type="button" class="Dropdown-toggle" aria-controls="" aria-expanded="false">Open dropdown</button>
+  <ul class="Dropdown-list">
+    <li class="Dropdown-item">
+      Simple label
+    </li>
+    <li>
+      <a href="#" class="Dropdown-item">
+        Linked label
+      </a>
+    </li>
+    <li class="Dropdown-item" aria-disabled="true">
+      Disabled label
+    </li>
+  </ul>
+</div>
+<div class="Dropdown Dropdown--s" data-tapestry="dropdown">
+  <button type="button" class="Dropdown-toggle" aria-controls="" aria-expanded="false">Open small dropdown</button>
+  <ul class="Dropdown-list">
+    <li class="Dropdown-item">
+      Simple label
+    </li>
+    <li>
+      <a href="#" class="Dropdown-item">
+        Linked label
+      </a>
+    </li>
+  </ul>
+</div>
+<pre class="code"><code class="html">&lt;<span class="hljs-tag">div</span> class=<span class="hljs-string">"Dropdown"</span> data-tapestry=<span class="hljs-string">"dropdown"</span>&gt;
+  &lt;<span class="hljs-tag">button</span> type=<span class="hljs-string">"button"</span> class=<span class="hljs-string">"Dropdown-toggle"</span> aria-controls=<span class="hljs-string">""</span> aria-expanded=<span class="hljs-string">"false"</span>&gt;Open dropdown&lt;/button&gt;
+  &lt;<span class="hljs-tag">ul</span> class=<span class="hljs-string">"Dropdown-list"</span>&gt;
+    &lt;<span class="hljs-tag">li</span> class=<span class="hljs-string">"Dropdown-item"</span>&gt;
+      Simple <span class="hljs-tag">label</span>
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;<span class="hljs-tag">a</span> href=<span class="hljs-string">"#"</span> class=<span class="hljs-string">"Dropdown-item"</span>&gt;
+        Linked <span class="hljs-tag">label</span>
+      &lt;/a&gt;
+    &lt;/li&gt;
+    &lt;<span class="hljs-tag">li</span> class=<span class="hljs-string">"Dropdown-item"</span> aria-disabled=<span class="hljs-string">"true"</span>&gt;
+      Disabled <span class="hljs-tag">label</span>
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+&lt;<span class="hljs-tag">div</span> class=<span class="hljs-string">"Dropdown Dropdown--s"</span> data-tapestry=<span class="hljs-string">"dropdown"</span>&gt;
+  &lt;<span class="hljs-tag">button</span> type=<span class="hljs-string">"button"</span> class=<span class="hljs-string">"Dropdown-toggle"</span> aria-controls=<span class="hljs-string">""</span> aria-expanded=<span class="hljs-string">"false"</span>&gt;Open small dropdown&lt;/button&gt;
+  &lt;<span class="hljs-tag">ul</span> class=<span class="hljs-string">"Dropdown-list"</span>&gt;
+    &lt;<span class="hljs-tag">li</span> class=<span class="hljs-string">"Dropdown-item"</span>&gt;
+      Simple <span class="hljs-tag">label</span>
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;<span class="hljs-tag">a</span> href=<span class="hljs-string">"#"</span> class=<span class="hljs-string">"Dropdown-item"</span>&gt;
+        Linked <span class="hljs-tag">label</span>
+      &lt;/a&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;</code></pre><h2 id="modifiers" class="s-Title--2">Modifiers</h2><p class="s-Paragraph">Add <code>.Dropdown-list--stretched</code> disables list max-height.</p><h2 id="positions" class="s-Title--2">Positions</h2><p class="s-Paragraph">Add those classes to position the <code>Dropdown-list</code> <br/>
+example: <code>&lt;ul id=&quot;dropdownTopLeft&quot; class=&quot;Dropdown-list Dropdown-list--tl&quot;&gt;∞&lt;/ul&gt;</code></p><p class="s-Paragraph">Modifiers available (starting points, Dropdown-list are never overlaying Dropdown-toggle, except in auto-scroll mode):</p><ul class="Styleguide-list"><li><code>-tl</code>: top-left,</li>
+<li><code>-tc</code>: top-center,</li>
+<li><code>-tr</code>: top-right,</li>
+<li><code>-bl</code>: [default] bottom-left,</li>
+<li><code>-bc</code>: bottom-center,</li>
+<li><code>-br</code>: bottom-right,</li>
+<li><code>-rt</code>: right-top,</li>
+<li><code>-rc</code>: right-center,</li>
+<li><code>-rb</code>: right-bottom,</li>
+<li><code>-lt</code>: left-top,</li>
+<li><code>-lc</code>: left-center,</li>
+<li><code>-lb</code>: left-bottom</li>
+</ul><h2 id="divider" class="s-Title--2">Divider</h2><div class="Dropdown" data-tapestry="dropdown">
+  <button type="button" class="Dropdown-toggle" aria-controls="dropdownDividerExample" aria-expanded="false">Call to action</button>
+  <ul id="dropdownDividerExample" class="Dropdown-list" aria-labelledby="dropdownMenuDivider">
+    <li class="Dropdown-item">
+      Simple label 1
+    </li>
+    <li class="Dropdown-item">
+      Simple label 2
+    </li>
+    <li class="Dropdown-item">
+      Simple label 3
+    </li>
+    <li role="separator" class="Dropdown-hr"></li>
+    <li class="Dropdown-item">
+      Apply
+    </li>
+    <li class="Dropdown-item">
+      Cancel
+    </li>
+  </ul>
+</div>
+<pre class="code"><code class="html">&lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"Dropdown"</span> data-tapestry=<span class="hljs-string">"dropdown"</span>&gt;
+  &lt;button <span class="hljs-keyword">type</span>=<span class="hljs-string">"button"</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"Dropdown-toggle"</span> aria-controls=<span class="hljs-string">"dropdownDividerExample"</span> aria-expanded=<span class="hljs-string">"false"</span>&gt;Call to action&lt;/button&gt;
+  &lt;ul id=<span class="hljs-string">"dropdownDividerExample"</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"Dropdown-list"</span> aria-labelledby=<span class="hljs-string">"dropdownMenuDivider"</span>&gt;
+    &lt;<span class="hljs-keyword">li</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"Dropdown-item"</span>&gt;
+      Simple <span class="hljs-keyword">label</span> 1
+    &lt;/<span class="hljs-keyword">li</span>&gt;
+    &lt;<span class="hljs-keyword">li</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"Dropdown-item"</span>&gt;
+      Simple <span class="hljs-keyword">label</span> 2
+    &lt;/<span class="hljs-keyword">li</span>&gt;
+    &lt;<span class="hljs-keyword">li</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"Dropdown-item"</span>&gt;
+      Simple <span class="hljs-keyword">label</span> 3
+    &lt;/<span class="hljs-keyword">li</span>&gt;
+    &lt;<span class="hljs-keyword">li</span> role=<span class="hljs-string">"separator"</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"Dropdown-hr"</span>&gt;&lt;/<span class="hljs-keyword">li</span>&gt;
+    &lt;<span class="hljs-keyword">li</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"Dropdown-item"</span>&gt;
+      Apply
+    &lt;/<span class="hljs-keyword">li</span>&gt;
+    &lt;<span class="hljs-keyword">li</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"Dropdown-item"</span>&gt;
+      Cancel
+    &lt;/<span class="hljs-keyword">li</span>&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;</code></pre><h2 id="dropdown-select" class="s-Title--2">Dropdown Select</h2><p class="s-Paragraph">The easiest way to create a <code>&lt;select&gt;</code> is, indeed, to use the classic <code>&lt;select&gt;</code> with the attribute <code>data-tapestry=&quot;dropdown-select&quot;</code>. It will be transformed into a custom select with the Tapestry look &amp; feel.<br>
+The <code>data-label</code> attribute will display a custom value.
+You can also use an <code>&lt;option&gt;</code> to create a placeholder.</p><select name="" data-tapestry="dropdown-select">
+  <option value="">Choose a foobar option</option>
+  <option value="foo" selected>foo</option>
+  <option value="bar" data-label="Foo Label">bar</option>
+  <option value="baz">baz</option>
+</select>
+<pre class="code"><code class="html">&lt;select name=<span class="hljs-string">""</span> data-tapestry=<span class="hljs-string">"dropdown-select"</span>&gt;
+  &lt;<span class="hljs-keyword">option</span> <span class="hljs-keyword">value</span>=<span class="hljs-string">""</span>&gt;Choose a foobar <span class="hljs-keyword">option</span>&lt;/<span class="hljs-keyword">option</span>&gt;
+  &lt;<span class="hljs-keyword">option</span> <span class="hljs-keyword">value</span>=<span class="hljs-string">"foo"</span> selected&gt;foo&lt;/<span class="hljs-keyword">option</span>&gt;
+  &lt;<span class="hljs-keyword">option</span> <span class="hljs-keyword">value</span>=<span class="hljs-string">"bar"</span> data-label=<span class="hljs-string">"Foo Label"</span>&gt;bar&lt;/<span class="hljs-keyword">option</span>&gt;
+  &lt;<span class="hljs-keyword">option</span> <span class="hljs-keyword">value</span>=<span class="hljs-string">"baz"</span>&gt;baz&lt;/<span class="hljs-keyword">option</span>&gt;
+&lt;/select&gt;</code></pre><p class="s-Paragraph">In the other hand, if the classic <code>&lt;select</code>&gt; does not suit you, if you need to create complexe dropdowns, you can use the following code, it uses the same options, the only thing you will need to do is add an HTML element with the following class <code>.Dropdown-value</code>.</p><div class="Dropdown" data-tapestry="dropdown-select">
+  <input name="" value="bar" hidden>
+  <button type="button" class="Dropdown-toggle Dropdown-selectInput" aria-controls="dropdownSelectExample" aria-expanded="false">
+    <span class="Dropdown-value"></span>
+  </button>
+  <ul id="dropdownSelectExample" class="Dropdown-list">
+    <li class="Dropdown-item" data-value="">
+      Simple label 1
+    </li>
+    <li class="Dropdown-item" data-value="bar" aria-selected="true">
+      Simple label 2
+    </li>
+    <li class="Dropdown-item" data-value="baz" data-label="Custom label 3">
+      Simple label 3
+    </li>
+    <li class="Dropdown-item" data-value="foobar" aria-disabled="true">
+      Disabled label
+    </li>
+  </ul>
+</div>
+<pre class="code"><code class="html">&lt;<span class="hljs-tag">div</span> class=<span class="hljs-string">"Dropdown"</span> data-tapestry=<span class="hljs-string">"dropdown-select"</span>&gt;
+  &lt;<span class="hljs-tag">input</span> name=<span class="hljs-string">""</span> value=<span class="hljs-string">"bar"</span> hidden&gt;
+  &lt;<span class="hljs-tag">button</span> type=<span class="hljs-string">"button"</span> class=<span class="hljs-string">"Dropdown-toggle Dropdown-selectInput"</span> aria-controls=<span class="hljs-string">"dropdownSelectExample"</span> aria-expanded=<span class="hljs-string">"false"</span>&gt;
+    &lt;<span class="hljs-tag">span</span> class=<span class="hljs-string">"Dropdown-value"</span>&gt;&lt;/span&gt;
+  &lt;/button&gt;
+  &lt;<span class="hljs-tag">ul</span> id=<span class="hljs-string">"dropdownSelectExample"</span> class=<span class="hljs-string">"Dropdown-list"</span>&gt;
+    &lt;<span class="hljs-tag">li</span> class=<span class="hljs-string">"Dropdown-item"</span> data-value=<span class="hljs-string">""</span>&gt;
+      Simple <span class="hljs-tag">label</span> <span class="hljs-number">1</span>
+    &lt;/li&gt;
+    &lt;<span class="hljs-tag">li</span> class=<span class="hljs-string">"Dropdown-item"</span> data-value=<span class="hljs-string">"bar"</span> aria-selected=<span class="hljs-string">"true"</span>&gt;
+      Simple <span class="hljs-tag">label</span> <span class="hljs-number">2</span>
+    &lt;/li&gt;
+    &lt;<span class="hljs-tag">li</span> class=<span class="hljs-string">"Dropdown-item"</span> data-value=<span class="hljs-string">"baz"</span> data-label=<span class="hljs-string">"Custom label 3"</span>&gt;
+      Simple <span class="hljs-tag">label</span> <span class="hljs-number">3</span>
+    &lt;/li&gt;
+    &lt;<span class="hljs-tag">li</span> class=<span class="hljs-string">"Dropdown-item"</span> data-value=<span class="hljs-string">"foobar"</span> aria-disabled=<span class="hljs-string">"true"</span>&gt;
+      Disabled <span class="hljs-tag">label</span>
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;</code></pre><h2 id="options" class="s-Title--2">Options</h2><table class="s-Table"><tr>
+<th>Name</th>
+<th>Type</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><code>placeholder</code></td>
+<td>String</td>
+<td>&quot;&quot;</td>
+<td>Display a placeholder when needed.</td>
+</tr>
+<tr>
+<td><code>scroll</code></td>
+<td>Boolean</td>
+<td>false</td>
+<td>auto-scroll list to the selected item.</td>
+</tr>
+<tr>
+<td><code>keyboard</code></td>
+<td>Boolean</td>
+<td>true</td>
+<td>Enable keyboard controls.</td>
+</tr>
+<tr>
+<td><code>wheel</code></td>
+<td>Boolean</td>
+<td>false</td>
+<td>Enable mouse wheel controls. (Experimental)</td>
+</tr>
+</table><p class="s-Paragraph">Options can be set both using <code>data-xxx</code> attributes or through <code>$.fn.dropddownSelect</code>
+Update: &#39;data-value&#39; can be null.</p>  <div class="Dropdown" data-keyboard="true" data-placeholder="My Placeholder"></div>
+<pre class="code"><code class="html">  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Dropdown"</span> data-keyboard=<span class="hljs-string">"true"</span> data-placeholder=<span class="hljs-string">"My Placeholder"</span>&gt;&lt;/<span class="hljs-keyword">div</span>&gt;</code></pre>  <script>
+    $(".my-dropdown-select").dropdownSelect({
+      placeholder: "My Placeholder",
+      keyboard: true,
+      wheel: true,
+      scroll: true
+    });
+  </script>
+<pre class="code"><code class="javascript">  <span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">
+    $(<span class="hljs-string">".my-dropdown-select"</span>).dropdownSelect({
+      placeholder: <span class="hljs-string">"My Placeholder"</span>,
+      keyboard: <span class="hljs-literal">true</span>,
+      wheel: <span class="hljs-literal">true</span>,
+      scroll: <span class="hljs-literal">true</span>
+    });
+  </span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span></code></pre></div></div></div><script src="/assets/js/cssinfo.js"></script></div><script>if (!pageName) { var pageName = 'default' }</script><script>document.getElementById('js-Page').classList.add('s-Page--' + pageName)</script></body></html>
