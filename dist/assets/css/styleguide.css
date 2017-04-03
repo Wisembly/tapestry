@@ -20,13 +20,6 @@ body.s-App {
   padding: 2rem;
 }
 
-.s-Container {
-  padding-left: 250px;
-}
-
-
-
-
 
 
 /*
@@ -334,14 +327,6 @@ body.s-App {
    color: #3a434c;
 }
 
-.s-Page--about
-  .s-Paragraph {
-    font-size: 1.3rem;
-    color: #666;
-  }
-
-
-
 
 
 /*
@@ -442,20 +427,15 @@ body.s-App {
 
 
 
-.s-Page--index
-  .s-Nav {
-    display: none;
-  }
-
-.s-Page--index
+.s-Page--default
   .s-Container {
-    padding-left: 0;
+    padding-left: 250px;
   }
 
 
 .github-corner:hover
 .octo-arm {
-  animation: octocat-wave 560ms ease-in-out
+  animation: octocat-wave .56s ease-in-out
 }
 
 @keyframes octocat-wave {
@@ -544,7 +524,7 @@ body.s-App {
   text-align: center;
 }
 
-.s-Page--getting-started
+.s-Page--gettingStarted
   .s-wTitle-1 {
     text-align: left;
   }
