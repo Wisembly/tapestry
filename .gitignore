@@ -1,10 +1,8 @@
 node_modules
 website/components
-dist/stats
-dist/css
-dist/js
 backstop_data/bitmaps_test/
 backstop_data/html_report/
+temp
 
 env.js
 npm-debug.log
