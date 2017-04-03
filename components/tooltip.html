@@ -1,0 +1,55 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Tapestry</title><link href="/css/tapestry.css" rel="stylesheet" type="text/css"><link href="/assets/css/styleguide.css" rel="stylesheet" type="text/css"><link href="/assets/fonts/open-sans.css" rel="stylesheet" type="text/css"><script async src="http://localhost:4000/browser-sync/browser-sync-client.2.13.0.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/highlight.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/languages/scss.min.js"></script><script src="/js/tapestry.js"></script><script src="/assets/js/cssinfo.js"></script></head><body class="s-App s-Page" id="js-Page"><nav class="s-Nav"><h1 class="s-Logo"><a class="s-Logo-link" href="/">Tapestry</a></h1><div class="s-Nav-section"><a class="s-Nav-title" href="/getting-started">Getting started</a></div><div class="s-Nav-section has-nav"><a class="s-Nav-title" href="/components/colors">Components<a class="s-Nav-link" href="/components/colors">Colors</a><a class="s-Nav-link" href="/components/animations">Animations</a><a class="s-Nav-link" href="/components/avatar">Avatar</a><a class="s-Nav-link" href="/components/badge">Badge</a><a class="s-Nav-link" href="/components/box">Box</a><a class="s-Nav-link" href="/components/button">Button</a><a class="s-Nav-link" href="/components/dropdown">Dropdown</a><a class="s-Nav-link" href="/components/form">Form</a><a class="s-Nav-link" href="/components/input">Input</a><a class="s-Nav-link" href="/components/grid">Grid</a><a class="s-Nav-link" href="/components/icons">Icons</a><a class="s-Nav-link" href="/components/list">List</a><a class="s-Nav-link" href="/components/loader">Loader</a><a class="s-Nav-link" href="/components/media">Media</a><a class="s-Nav-link" href="/components/meter">Meter</a><a class="s-Nav-link" href="/components/modal">Modal</a><a class="s-Nav-link" href="/components/notification">Notification</a><a class="s-Nav-link" href="/components/panel">Panel</a><a class="s-Nav-link" href="/components/pellet">Pellet</a><a class="s-Nav-link" href="/components/popovers">Popovers</a><a class="s-Nav-link" href="/components/spinner">Spinner</a><a class="s-Nav-link" href="/components/switch">Switch</a><a class="s-Nav-link" href="/components/table">Table</a><a class="s-Nav-link" href="/components/tabs">Tabs</a><a class="s-Nav-link" href="/components/tooltip">Tooltip</a><a class="s-Nav-link" href="/components/typography">Typography</a><a class="s-Nav-link" href="/components/utils">Utils</a></a></div><div class="s-Nav-section"><a class="s-Nav-title" href="/sass-utils">Sass Utils</a></div><div class="s-Nav-section"><a class="s-Nav-title" href="/statistics">Statistics</a></div></nav><div class="s-Container"><h1 class="s-Header"><span class="Badge u-validate u-push">Current version: 1.9.1</span><span>Components</span></h1><div class="s-App-content s-Modules-container"><div class="s-Module"><div id="s-tooltip" class="s-Module s-Module--tooltip"><h1 id="tooltip" class="s-Title--1">Tooltip</h1><h2 id="variables" class="s-Title--2">Variables</h2><table class="s-Table"><tr>
+<th>Variable</th>
+<th>property</th>
+<th>value</th>
+<th>desc.</th>
+</tr>
+<tr>
+<td><strong> $tooltip-arrow-size </strong></td>
+<td>size</td>
+<td><code>rem(5px)</code></td>
+<td>tooltip arrow size</td>
+</tr>
+<tr>
+<td><strong> $tooltip-bg </strong></td>
+<td>background-color</td>
+<td><code>rgba($black, .8)</code></td>
+<td>tooltip background-color</td>
+</tr>
+<tr>
+<td><strong> $tooltip-color </strong></td>
+<td>color</td>
+<td><code>$white</code></td>
+<td>tooltip color</td>
+</tr>
+<tr>
+<td><strong> $tooltip-space-between-content </strong></td>
+<td>size</td>
+<td><code>$mg--xs</code></td>
+<td>space between tooltip and content</td>
+</tr>
+<tr>
+<td><strong> $tooltip-width </strong></td>
+<td>width</td>
+<td><code>10rem</code></td>
+<td>tooltip width</td>
+</tr>
+<tr>
+<td><strong> $tooltip-large-width </strong></td>
+<td>width</td>
+<td><code>20rem</code></td>
+<td>large tooltip width</td>
+</tr>
+<tr>
+<td><strong> $tooltip-pd </strong></td>
+<td>padding</td>
+<td><code>$pd--s</code></td>
+<td>tooltip padding</td>
+</tr>
+</table><p>Default <strong class="has-tooltip" aria-label="Classic tooltip">tooltip</strong></p>
+<pre class="code"><code class="html"><span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>Default <span class="hljs-tag">&lt;<span class="hljs-title">strong</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"has-tooltip"</span> <span class="hljs-attribute">aria-label</span>=<span class="hljs-value">"Classic tooltip"</span>&gt;</span>tooltip<span class="hljs-tag">&lt;/<span class="hljs-title">strong</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span></code></pre><h2 id="directions" class="s-Title--2">Directions</h2><p>Tooltip <strong class="has-tooltip has-tooltip--top" aria-label="Tooltip on the top">on the top</strong></p>
+<pre class="code"><code class="html"><span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>Tooltip <span class="hljs-tag">&lt;<span class="hljs-title">strong</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"has-tooltip has-tooltip--top"</span> <span class="hljs-attribute">aria-label</span>=<span class="hljs-value">"Tooltip on the top"</span>&gt;</span>on the top<span class="hljs-tag">&lt;/<span class="hljs-title">strong</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span></code></pre><p>Tooltip <strong class="has-tooltip has-tooltip--right" aria-label="Tooltip on the right">on the right</strong></p>
+<pre class="code"><code class="html"><span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>Tooltip <span class="hljs-tag">&lt;<span class="hljs-title">strong</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"has-tooltip has-tooltip--right"</span> <span class="hljs-attribute">aria-label</span>=<span class="hljs-value">"Tooltip on the right"</span>&gt;</span>on the right<span class="hljs-tag">&lt;/<span class="hljs-title">strong</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span></code></pre><p>Tooltip <strong class="has-tooltip has-tooltip--bottom" aria-label="Tooltip on the bottom">on the bottom</strong></p>
+<pre class="code"><code class="html"><span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>Tooltip <span class="hljs-tag">&lt;<span class="hljs-title">strong</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"has-tooltip has-tooltip--bottom"</span> <span class="hljs-attribute">aria-label</span>=<span class="hljs-value">"Tooltip on the bottom"</span>&gt;</span>on the bottom<span class="hljs-tag">&lt;/<span class="hljs-title">strong</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span></code></pre><p>Tooltip <strong class="has-tooltip" aria-label="Tooltip on the left">on the left</strong></p>
+<pre class="code"><code class="html"><span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>Tooltip <span class="hljs-tag">&lt;<span class="hljs-title">strong</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"has-tooltip"</span> <span class="hljs-attribute">aria-label</span>=<span class="hljs-value">"Tooltip on the left"</span>&gt;</span>on the left<span class="hljs-tag">&lt;/<span class="hljs-title">strong</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span></code></pre><h2 id="sizes" class="s-Title--2">Sizes</h2><p>Bigger <strong class="has-tooltip has-tooltip--l has-tooltip--right" aria-label="Bigger tooltip for longer text, you know. Because longer text are more significants, because they contains more words, because they're more significants">tooltip</strong></p>
+<pre class="code"><code class="html"><span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>Bigger <span class="hljs-tag">&lt;<span class="hljs-title">strong</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"has-tooltip has-tooltip--l has-tooltip--right"</span> <span class="hljs-attribute">aria-label</span>=<span class="hljs-value">"Bigger tooltip for longer text, you know. Because longer text are more significants, because they contains more words, because they're more significants"</span>&gt;</span>tooltip<span class="hljs-tag">&lt;/<span class="hljs-title">strong</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span></code></pre></div></div></div><script src="/assets/js/cssinfo.js"></script></div><script>if (!pageName) { var pageName = 'default' }</script><script>document.getElementById('js-Page').classList.add('s-Page--' + pageName)</script></body></html>

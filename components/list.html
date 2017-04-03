@@ -1,0 +1,337 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Tapestry</title><link href="/css/tapestry.css" rel="stylesheet" type="text/css"><link href="/assets/css/styleguide.css" rel="stylesheet" type="text/css"><link href="/assets/fonts/open-sans.css" rel="stylesheet" type="text/css"><script async src="http://localhost:4000/browser-sync/browser-sync-client.2.13.0.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/highlight.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/languages/scss.min.js"></script><script src="/js/tapestry.js"></script><script src="/assets/js/cssinfo.js"></script></head><body class="s-App s-Page" id="js-Page"><nav class="s-Nav"><h1 class="s-Logo"><a class="s-Logo-link" href="/">Tapestry</a></h1><div class="s-Nav-section"><a class="s-Nav-title" href="/getting-started">Getting started</a></div><div class="s-Nav-section has-nav"><a class="s-Nav-title" href="/components/colors">Components<a class="s-Nav-link" href="/components/colors">Colors</a><a class="s-Nav-link" href="/components/animations">Animations</a><a class="s-Nav-link" href="/components/avatar">Avatar</a><a class="s-Nav-link" href="/components/badge">Badge</a><a class="s-Nav-link" href="/components/box">Box</a><a class="s-Nav-link" href="/components/button">Button</a><a class="s-Nav-link" href="/components/dropdown">Dropdown</a><a class="s-Nav-link" href="/components/form">Form</a><a class="s-Nav-link" href="/components/input">Input</a><a class="s-Nav-link" href="/components/grid">Grid</a><a class="s-Nav-link" href="/components/icons">Icons</a><a class="s-Nav-link" href="/components/list">List</a><a class="s-Nav-link" href="/components/loader">Loader</a><a class="s-Nav-link" href="/components/media">Media</a><a class="s-Nav-link" href="/components/meter">Meter</a><a class="s-Nav-link" href="/components/modal">Modal</a><a class="s-Nav-link" href="/components/notification">Notification</a><a class="s-Nav-link" href="/components/panel">Panel</a><a class="s-Nav-link" href="/components/pellet">Pellet</a><a class="s-Nav-link" href="/components/popovers">Popovers</a><a class="s-Nav-link" href="/components/spinner">Spinner</a><a class="s-Nav-link" href="/components/switch">Switch</a><a class="s-Nav-link" href="/components/table">Table</a><a class="s-Nav-link" href="/components/tabs">Tabs</a><a class="s-Nav-link" href="/components/tooltip">Tooltip</a><a class="s-Nav-link" href="/components/typography">Typography</a><a class="s-Nav-link" href="/components/utils">Utils</a></a></div><div class="s-Nav-section"><a class="s-Nav-title" href="/sass-utils">Sass Utils</a></div><div class="s-Nav-section"><a class="s-Nav-title" href="/statistics">Statistics</a></div></nav><div class="s-Container"><h1 class="s-Header"><span class="Badge u-validate u-push">Current version: 1.9.1</span><span>Components</span></h1><div class="s-App-content s-Modules-container"><div class="s-Module"><div id="s-list" class="s-Module s-Module--list"><h1 id="list" class="s-Title--1">List</h1><h2 id="variables" class="s-Title--2">Variables</h2><table class="s-Table"><tr>
+<th>Variable</th>
+<th>property</th>
+<th>value</th>
+<th>desc.</th>
+</tr>
+<tr>
+<td><strong> $list-border-color </strong></td>
+<td>border-color</td>
+<td><code>$base-border-color</code></td>
+<td>list border-color</td>
+</tr>
+<tr>
+<td><strong> $list-space-between </strong></td>
+<td>space</td>
+<td><code>r(5)</code></td>
+<td>space between 2 lists</td>
+</tr>
+<tr>
+<td><strong> $list-header-bg </strong></td>
+<td>background-color</td>
+<td><code>$porcelain</code></td>
+<td>list-header background</td>
+</tr>
+<tr>
+<td><strong> $list-header-pdv </strong></td>
+<td>padding</td>
+<td><code>$pd--s</code></td>
+<td>list-header vertical padding</td>
+</tr>
+<tr>
+<td><strong> $list-header-pdh </strong></td>
+<td>padding</td>
+<td><code>$pd--m</code></td>
+<td>list-header horizontal padding</td>
+</tr>
+<tr>
+<td><strong> $list-item-pdv </strong></td>
+<td>padding</td>
+<td><code>$pd--s</code></td>
+<td>list-item vertical padding</td>
+</tr>
+<tr>
+<td><strong> $list-item-pdh </strong></td>
+<td>padding</td>
+<td><code>$pd--m</code></td>
+<td>list-item horizontal padding</td>
+</tr>
+<tr>
+<td><strong> $list-item-hover-bg </strong></td>
+<td>background-color</td>
+<td><code>$alabaster</code></td>
+<td>list-icon background on :hover</td>
+</tr>
+<tr>
+<td><strong> $list-item-color </strong></td>
+<td>color</td>
+<td><code>$shuttle-gray</code></td>
+<td>list-item color</td>
+</tr>
+<tr>
+<td><strong> $list-checkable-space </strong></td>
+<td>space</td>
+<td><code>r(8)</code></td>
+<td>hidden checkmark safe-space</td>
+</tr>
+<tr>
+<td><strong> $list-title-color </strong></td>
+<td>color</td>
+<td><code>$slate-gray</code></td>
+<td>list-title color</td>
+</tr>
+<tr>
+<td><strong> $list-count-color </strong></td>
+<td>color</td>
+<td><code>$gray-chateau</code></td>
+<td>list-count color</td>
+</tr>
+</table><h2 id="basic-list" class="s-Title--2">Basic list</h2><div class="List">
+  <header class="List-header">
+    <h4 class="List-title">Foo</h4>
+    <button type="button" class="Btn Btn--s Btn--validate">Do</button>
+  </header>
+  <ul class="List-content">
+    <li class="List-item">A</li>
+    <li class="List-item">B</li>
+    <li class="List-itemWrapper">
+      <a href="#foo" class="List-item is-actionable">C</a>
+    </li>
+  </ul>
+</div>
+<pre class="code"><code class="html">&lt;div <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"List"</span>&gt;
+  &lt;header <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"List-header"</span>&gt;
+    &lt;h4 <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"List-title"</span>&gt;<span class="hljs-type">Foo</span>&lt;/h4&gt;
+    &lt;button <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"button"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"Btn Btn--s Btn--validate"</span>&gt;<span class="hljs-type">Do</span>&lt;/button&gt;
+  &lt;/header&gt;
+  &lt;ul <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"List-content"</span>&gt;
+    &lt;li <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"List-item"</span>&gt;<span class="hljs-type">A</span>&lt;/li&gt;
+    &lt;li <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"List-item"</span>&gt;<span class="hljs-type">B</span>&lt;/li&gt;
+    &lt;li <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"List-itemWrapper"</span>&gt;
+      &lt;a href=<span class="hljs-string">"#foo"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"List-item is-actionable"</span>&gt;<span class="hljs-type">C</span>&lt;/a&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;</code></pre><h2 id="modifiers" class="s-Title--2">Modifiers</h2><ul class="Styleguide-list"><li><code>.List--raw</code> removes borders on <code>.List</code> but keeps borders on <code>.List-item</code></li>
+<li><code>.List--wrapped</code> adds right and left borders</li>
+</ul><h2 id="list-with-items-checkbable" class="s-Title--2">List with items checkbable</h2><div class="List">
+  <header class="List-header">
+    <h4 class="List-title">Items</h4>
+    <div class="List-count">(0)</div>
+  </header>
+  <ul class="List-content">
+    <li class="List-itemWrapper">
+      <input id="itemE" type="checkbox" class="List-itemInput">
+      <label for="itemE" class="List-item is-actionable">Item E</label>
+    </li>
+    <li class="List-itemWrapper">
+      <input id="itemF" type="checkbox" class="List-itemInput">
+      <label for="itemF" class="List-item is-actionable is-checkable">Item F</label>
+    </li>
+    <li class="List-itemWrapper">
+      <input id="itemG" type="checkbox" class="List-itemInput">
+      <label for="itemG" class="List-item is-actionable is-checkable">Item G</label>
+    </li>
+  </ul>
+</div>
+<pre class="code"><code class="html">&lt;div <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"List"</span>&gt;
+  &lt;header <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"List-header"</span>&gt;
+    &lt;h4 <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"List-title"</span>&gt;<span class="hljs-type">Items</span>&lt;/h4&gt;
+    &lt;div <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"List-count"</span>&gt;(<span class="hljs-number">0</span>)&lt;/div&gt;
+  &lt;/header&gt;
+  &lt;ul <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"List-content"</span>&gt;
+    &lt;li <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"List-itemWrapper"</span>&gt;
+      &lt;input id=<span class="hljs-string">"itemE"</span> <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"checkbox"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"List-itemInput"</span>&gt;
+      &lt;label <span class="hljs-keyword">for</span>=<span class="hljs-string">"itemE"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"List-item is-actionable"</span>&gt;<span class="hljs-type">Item</span> <span class="hljs-type">E</span>&lt;/label&gt;
+    &lt;/li&gt;
+    &lt;li <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"List-itemWrapper"</span>&gt;
+      &lt;input id=<span class="hljs-string">"itemF"</span> <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"checkbox"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"List-itemInput"</span>&gt;
+      &lt;label <span class="hljs-keyword">for</span>=<span class="hljs-string">"itemF"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"List-item is-actionable is-checkable"</span>&gt;<span class="hljs-type">Item</span> <span class="hljs-type">F</span>&lt;/label&gt;
+    &lt;/li&gt;
+    &lt;li <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"List-itemWrapper"</span>&gt;
+      &lt;input id=<span class="hljs-string">"itemG"</span> <span class="hljs-class"><span class="hljs-keyword">type</span>=</span><span class="hljs-string">"checkbox"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"List-itemInput"</span>&gt;
+      &lt;label <span class="hljs-keyword">for</span>=<span class="hljs-string">"itemG"</span> <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"List-item is-actionable is-checkable"</span>&gt;<span class="hljs-type">Item</span> <span class="hljs-type">G</span>&lt;/label&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;</code></pre><h2 id="list-with-switches-checkbox" class="s-Title--2">List with switches checkbox</h2><div class="List">
+  <ul class="List-content">
+    <li class="List-itemWrapper">
+      <label class="List-item is-actionable">
+        Switch 1
+        <input id="switch_example_checkbox_1" class="Switch-checkbox" type="checkbox" />
+        <label class="Switch" for="switch_example_checkbox_1"></label>
+      </label>
+    </li>
+    <li class="List-itemWrapper">
+      <label class="List-item is-actionable">
+        Switch 2
+        <input id="switch_example_checkbox_2" class="Switch-checkbox" type="checkbox" />
+        <label class="Switch" for="switch_example_checkbox_2"></label>
+      </label>
+    </li>
+    <li class="List-itemWrapper">
+      <label class="List-item is-actionable">
+        Switch 3
+        <input id="switch_example_checkbox_3" class="Switch-checkbox" type="checkbox" />
+        <label class="Switch" for="switch_example_checkbox_3"></label>
+      </label>
+    </li>
+  </ul>
+</div>
+<pre class="code"><code class="html">&lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"List"</span>&gt;
+  &lt;ul <span class="hljs-keyword">class</span>=<span class="hljs-string">"List-content"</span>&gt;
+    &lt;<span class="hljs-keyword">li</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"List-itemWrapper"</span>&gt;
+      &lt;<span class="hljs-keyword">label</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"List-item is-actionable"</span>&gt;
+        Switch 1
+        &lt;<span class="hljs-keyword">input</span> id=<span class="hljs-string">"switch_example_checkbox_1"</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"Switch-checkbox"</span> <span class="hljs-keyword">type</span>=<span class="hljs-string">"checkbox"</span> /&gt;
+        &lt;<span class="hljs-keyword">label</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"Switch"</span> <span class="hljs-keyword">for</span>=<span class="hljs-string">"switch_example_checkbox_1"</span>&gt;&lt;/<span class="hljs-keyword">label</span>&gt;
+      &lt;/<span class="hljs-keyword">label</span>&gt;
+    &lt;/<span class="hljs-keyword">li</span>&gt;
+    &lt;<span class="hljs-keyword">li</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"List-itemWrapper"</span>&gt;
+      &lt;<span class="hljs-keyword">label</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"List-item is-actionable"</span>&gt;
+        Switch 2
+        &lt;<span class="hljs-keyword">input</span> id=<span class="hljs-string">"switch_example_checkbox_2"</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"Switch-checkbox"</span> <span class="hljs-keyword">type</span>=<span class="hljs-string">"checkbox"</span> /&gt;
+        &lt;<span class="hljs-keyword">label</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"Switch"</span> <span class="hljs-keyword">for</span>=<span class="hljs-string">"switch_example_checkbox_2"</span>&gt;&lt;/<span class="hljs-keyword">label</span>&gt;
+      &lt;/<span class="hljs-keyword">label</span>&gt;
+    &lt;/<span class="hljs-keyword">li</span>&gt;
+    &lt;<span class="hljs-keyword">li</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"List-itemWrapper"</span>&gt;
+      &lt;<span class="hljs-keyword">label</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"List-item is-actionable"</span>&gt;
+        Switch 3
+        &lt;<span class="hljs-keyword">input</span> id=<span class="hljs-string">"switch_example_checkbox_3"</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"Switch-checkbox"</span> <span class="hljs-keyword">type</span>=<span class="hljs-string">"checkbox"</span> /&gt;
+        &lt;<span class="hljs-keyword">label</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"Switch"</span> <span class="hljs-keyword">for</span>=<span class="hljs-string">"switch_example_checkbox_3"</span>&gt;&lt;/<span class="hljs-keyword">label</span>&gt;
+      &lt;/<span class="hljs-keyword">label</span>&gt;
+    &lt;/<span class="hljs-keyword">li</span>&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;</code></pre><h2 id="list-with-switches-radio" class="s-Title--2">List with switches radio</h2><div class="List">
+  <ul class="List-content">
+    <li class="List-itemWrapper">
+      <label class="List-item is-actionable">
+        Radio 1
+        <input name="list_switch_example" id="switch_example_1" class="Switch-checkbox" type="radio" aria-checked="" />
+        <label for="switch_example_1" class="Switch"></label>
+      </label>
+    </li>
+    <li class="List-itemWrapper">
+      <label class="List-item is-actionable">
+        Radio 2
+        <input name="list_switch_example" id="switch_example_2" class="Switch-checkbox" type="radio" aria-checked="" />
+        <label for="switch_example_2" class="Switch"></label>
+      </label>
+    </li>
+    <li class="List-itemWrapper">
+      <label class="List-item is-actionable">
+        Radio 3
+        <input name="list_switch_example" id="switch_example_3" class="Switch-checkbox" type="radio" aria-checked="" />
+        <label for="switch_example_3" class="Switch"></label>
+      </label>
+    </li>
+  </ul>
+</div>
+<pre class="code"><code class="html">&lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"List"</span>&gt;
+  &lt;ul <span class="hljs-keyword">class</span>=<span class="hljs-string">"List-content"</span>&gt;
+    &lt;<span class="hljs-keyword">li</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"List-itemWrapper"</span>&gt;
+      &lt;<span class="hljs-keyword">label</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"List-item is-actionable"</span>&gt;
+        Radio 1
+        &lt;<span class="hljs-keyword">input</span> name=<span class="hljs-string">"list_switch_example"</span> id=<span class="hljs-string">"switch_example_1"</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"Switch-checkbox"</span> <span class="hljs-keyword">type</span>=<span class="hljs-string">"radio"</span> aria-checked=<span class="hljs-string">""</span> /&gt;
+        &lt;<span class="hljs-keyword">label</span> <span class="hljs-keyword">for</span>=<span class="hljs-string">"switch_example_1"</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"Switch"</span>&gt;&lt;/<span class="hljs-keyword">label</span>&gt;
+      &lt;/<span class="hljs-keyword">label</span>&gt;
+    &lt;/<span class="hljs-keyword">li</span>&gt;
+    &lt;<span class="hljs-keyword">li</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"List-itemWrapper"</span>&gt;
+      &lt;<span class="hljs-keyword">label</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"List-item is-actionable"</span>&gt;
+        Radio 2
+        &lt;<span class="hljs-keyword">input</span> name=<span class="hljs-string">"list_switch_example"</span> id=<span class="hljs-string">"switch_example_2"</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"Switch-checkbox"</span> <span class="hljs-keyword">type</span>=<span class="hljs-string">"radio"</span> aria-checked=<span class="hljs-string">""</span> /&gt;
+        &lt;<span class="hljs-keyword">label</span> <span class="hljs-keyword">for</span>=<span class="hljs-string">"switch_example_2"</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"Switch"</span>&gt;&lt;/<span class="hljs-keyword">label</span>&gt;
+      &lt;/<span class="hljs-keyword">label</span>&gt;
+    &lt;/<span class="hljs-keyword">li</span>&gt;
+    &lt;<span class="hljs-keyword">li</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"List-itemWrapper"</span>&gt;
+      &lt;<span class="hljs-keyword">label</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"List-item is-actionable"</span>&gt;
+        Radio 3
+        &lt;<span class="hljs-keyword">input</span> name=<span class="hljs-string">"list_switch_example"</span> id=<span class="hljs-string">"switch_example_3"</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"Switch-checkbox"</span> <span class="hljs-keyword">type</span>=<span class="hljs-string">"radio"</span> aria-checked=<span class="hljs-string">""</span> /&gt;
+        &lt;<span class="hljs-keyword">label</span> <span class="hljs-keyword">for</span>=<span class="hljs-string">"switch_example_3"</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"Switch"</span>&gt;&lt;/<span class="hljs-keyword">label</span>&gt;
+      &lt;/<span class="hljs-keyword">label</span>&gt;
+    &lt;/<span class="hljs-keyword">li</span>&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;</code></pre><h2 id="list-with-menu" class="s-Title--2">List with menu</h2><div class="List">
+  <ul class="List-content">
+    <li class="List-itemWrapper">
+      <a href="#" class="List-item is-actionable">
+        <div>Pork belly landjaeger venison corned</div>
+        <i class="Icon Icon--arrowRight t-neutral"></i>
+      </a>
+    </li>
+    <li class="List-itemWrapper">
+      <a href="#" class="List-item is-actionable">
+        <div>Pork belly landjaeger venison corned</div>
+        <i class="Icon Icon--arrowRight t-neutral"></i>
+      </a>
+    </li>
+    <li class="List-itemWrapper">
+      <a href="#" class="List-item is-actionable">
+        <div>Pork belly landjaeger venison corned</div>
+        <i class="Icon Icon--arrowRight t-neutral"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+<pre class="code"><code class="html"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"List"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">ul</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"List-content"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">li</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"List-itemWrapper"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"#"</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"List-item is-actionable"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-title">div</span>&gt;</span>Pork belly landjaeger venison corned<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-title">i</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"Icon Icon--arrowRight t-neutral"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">i</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">li</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">li</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"List-itemWrapper"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"#"</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"List-item is-actionable"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-title">div</span>&gt;</span>Pork belly landjaeger venison corned<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-title">i</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"Icon Icon--arrowRight t-neutral"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">i</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">li</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">li</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"List-itemWrapper"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"#"</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"List-item is-actionable"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-title">div</span>&gt;</span>Pork belly landjaeger venison corned<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-title">i</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"Icon Icon--arrowRight t-neutral"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">i</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">li</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-title">ul</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre><h2 id="basic-list-box" class="s-Title--2">Basic list + Box</h2><div class="Box">
+  <header class="Box-header">
+    <h1 class="Box-title">Leberkas ham meatball meatloaf brisket flank.</h1>
+  </header>
+  <div class="Box-content">
+    <p>Bacon ipsum dolor amet alcatra ham spare ribs jowl pastrami. Picanha rump pork belly, biltong pancetta beef corned beef short ribs cupim tri-tip shoulder shank. Meatloaf leberkas tenderloin landjaeger chuck.</p>
+  </div>
+  <div class="List">
+    <ul class="List-content">
+      <li class="List-item">Bacon ipsum dolor amet alcatra ham spare ribs jowl pastrami.</li>
+      <li class="List-item">Alcatra ribeye ham pork loin pork chop shankle t-bone chicken strip steak shoulder.</li>
+      <li class="List-item">Cupim turducken fatback venison, pancetta rump shankle.</li>
+      <li class="List-item">Capicola andouille tri-tip beef ribs ham picanha.</li>
+      <li class="List-item">Ribeye pig hamburger, tongue tri-tip bacon pastrami capicola.</li>
+    </ul>
+  </div>
+  <div class="List">
+    <ul class="List-content">
+      <li class="List-item">Bacon ipsum dolor amet alcatra ham spare ribs jowl pastrami.</li>
+      <li class="List-item">Alcatra ribeye ham pork loin pork chop shankle t-bone chicken strip steak shoulder.</li>
+      <li class="List-item">Cupim turducken fatback venison, pancetta rump shankle.</li>
+      <li class="List-item">Capicola andouille tri-tip beef ribs ham picanha.</li>
+      <li class="List-item">Ribeye pig hamburger, tongue tri-tip bacon pastrami capicola.</li>
+    </ul>
+  </div>
+</div>
+<pre class="code"><code class="html"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"Box"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">header</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"Box-header"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">h1</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"Box-title"</span>&gt;</span>Leberkas ham meatball meatloaf brisket flank.<span class="hljs-tag">&lt;/<span class="hljs-title">h1</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-title">header</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"Box-content"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>Bacon ipsum dolor amet alcatra ham spare ribs jowl pastrami. Picanha rump pork belly, biltong pancetta beef corned beef short ribs cupim tri-tip shoulder shank. Meatloaf leberkas tenderloin landjaeger chuck.<span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"List"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">ul</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"List-content"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">li</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"List-item"</span>&gt;</span>Bacon ipsum dolor amet alcatra ham spare ribs jowl pastrami.<span class="hljs-tag">&lt;/<span class="hljs-title">li</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">li</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"List-item"</span>&gt;</span>Alcatra ribeye ham pork loin pork chop shankle t-bone chicken strip steak shoulder.<span class="hljs-tag">&lt;/<span class="hljs-title">li</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">li</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"List-item"</span>&gt;</span>Cupim turducken fatback venison, pancetta rump shankle.<span class="hljs-tag">&lt;/<span class="hljs-title">li</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">li</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"List-item"</span>&gt;</span>Capicola andouille tri-tip beef ribs ham picanha.<span class="hljs-tag">&lt;/<span class="hljs-title">li</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">li</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"List-item"</span>&gt;</span>Ribeye pig hamburger, tongue tri-tip bacon pastrami capicola.<span class="hljs-tag">&lt;/<span class="hljs-title">li</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">ul</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"List"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">ul</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"List-content"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">li</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"List-item"</span>&gt;</span>Bacon ipsum dolor amet alcatra ham spare ribs jowl pastrami.<span class="hljs-tag">&lt;/<span class="hljs-title">li</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">li</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"List-item"</span>&gt;</span>Alcatra ribeye ham pork loin pork chop shankle t-bone chicken strip steak shoulder.<span class="hljs-tag">&lt;/<span class="hljs-title">li</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">li</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"List-item"</span>&gt;</span>Cupim turducken fatback venison, pancetta rump shankle.<span class="hljs-tag">&lt;/<span class="hljs-title">li</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">li</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"List-item"</span>&gt;</span>Capicola andouille tri-tip beef ribs ham picanha.<span class="hljs-tag">&lt;/<span class="hljs-title">li</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">li</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"List-item"</span>&gt;</span>Ribeye pig hamburger, tongue tri-tip bacon pastrami capicola.<span class="hljs-tag">&lt;/<span class="hljs-title">li</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">ul</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre></div></div></div><script src="/assets/js/cssinfo.js"></script></div><script>if (!pageName) { var pageName = 'default' }</script><script>document.getElementById('js-Page').classList.add('s-Page--' + pageName)</script></body></html>

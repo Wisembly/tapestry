@@ -1,0 +1,162 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Tapestry</title><link href="/css/tapestry.css" rel="stylesheet" type="text/css"><link href="/assets/css/styleguide.css" rel="stylesheet" type="text/css"><link href="/assets/fonts/open-sans.css" rel="stylesheet" type="text/css"><script async src="http://localhost:4000/browser-sync/browser-sync-client.2.13.0.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/highlight.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/languages/scss.min.js"></script><script src="/js/tapestry.js"></script><script src="/assets/js/cssinfo.js"></script></head><body class="s-App s-Page" id="js-Page"><nav class="s-Nav"><h1 class="s-Logo"><a class="s-Logo-link" href="/">Tapestry</a></h1><div class="s-Nav-section"><a class="s-Nav-title" href="/getting-started">Getting started</a></div><div class="s-Nav-section has-nav"><a class="s-Nav-title" href="/components/colors">Components<a class="s-Nav-link" href="/components/colors">Colors</a><a class="s-Nav-link" href="/components/animations">Animations</a><a class="s-Nav-link" href="/components/avatar">Avatar</a><a class="s-Nav-link" href="/components/badge">Badge</a><a class="s-Nav-link" href="/components/box">Box</a><a class="s-Nav-link" href="/components/button">Button</a><a class="s-Nav-link" href="/components/dropdown">Dropdown</a><a class="s-Nav-link" href="/components/form">Form</a><a class="s-Nav-link" href="/components/input">Input</a><a class="s-Nav-link" href="/components/grid">Grid</a><a class="s-Nav-link" href="/components/icons">Icons</a><a class="s-Nav-link" href="/components/list">List</a><a class="s-Nav-link" href="/components/loader">Loader</a><a class="s-Nav-link" href="/components/media">Media</a><a class="s-Nav-link" href="/components/meter">Meter</a><a class="s-Nav-link" href="/components/modal">Modal</a><a class="s-Nav-link" href="/components/notification">Notification</a><a class="s-Nav-link" href="/components/panel">Panel</a><a class="s-Nav-link" href="/components/pellet">Pellet</a><a class="s-Nav-link" href="/components/popovers">Popovers</a><a class="s-Nav-link" href="/components/spinner">Spinner</a><a class="s-Nav-link" href="/components/switch">Switch</a><a class="s-Nav-link" href="/components/table">Table</a><a class="s-Nav-link" href="/components/tabs">Tabs</a><a class="s-Nav-link" href="/components/tooltip">Tooltip</a><a class="s-Nav-link" href="/components/typography">Typography</a><a class="s-Nav-link" href="/components/utils">Utils</a></a></div><div class="s-Nav-section"><a class="s-Nav-title" href="/sass-utils">Sass Utils</a></div><div class="s-Nav-section"><a class="s-Nav-title" href="/statistics">Statistics</a></div></nav><div class="s-Container"><h1 class="s-Header"><span class="Badge u-validate u-push">Current version: 1.9.1</span><span>Components</span></h1><div class="s-App-content s-Modules-container"><div class="s-Module"><div id="s-tabs" class="s-Module s-Module--tabs"><h1 id="tabs" class="s-Title--1">Tabs</h1><h2 id="variables" class="s-Title--2">Variables</h2><table class="s-Table"><tr>
+<th>Variable</th>
+<th>property</th>
+<th>value</th>
+<th>desc.</th>
+</tr>
+<tr>
+<td><strong> $tab-base-color </strong></td>
+<td>color</td>
+<td><code>$slate-gray</code></td>
+<td>tab base color</td>
+</tr>
+<tr>
+<td><strong> $tab-selected-color </strong></td>
+<td>color</td>
+<td><code>$venice-blue</code></td>
+<td>tab selected color</td>
+</tr>
+<tr>
+<td><strong> $tab-hover-color </strong></td>
+<td>color</td>
+<td><code>$venice-blue</code></td>
+<td>tab hover color</td>
+</tr>
+<tr>
+<td><strong> $tab-underline-size </strong></td>
+<td>size</td>
+<td><code>rem(3px)</code></td>
+<td>tab underline size</td>
+</tr>
+<tr>
+<td><strong> $insert-tab-border-color </strong></td>
+<td>color</td>
+<td><code>$silver-sand</code></td>
+<td>insert-tab border-color</td>
+</tr>
+<tr>
+<td><strong> $small-tab-underline-size </strong></td>
+<td>size</td>
+<td><code>rem(2px)</code></td>
+<td>small tab underline size</td>
+</tr>
+<tr>
+<td><strong> $tab-pdv </strong></td>
+<td>padding</td>
+<td><code>r(2)</code></td>
+<td>tab-link vertical padding</td>
+</tr>
+<tr>
+<td><strong> $tab-space-between </strong></td>
+<td>margin</td>
+<td><code>r(4)</code></td>
+<td>space between tabs</td>
+</tr>
+<tr>
+<td><strong> $insert-tab-pdv </strong></td>
+<td>padding</td>
+<td><code>r(4)</code></td>
+<td>insert-tab vertical padding</td>
+</tr>
+<tr>
+<td><strong> $insert-tab-pdh </strong></td>
+<td>padding</td>
+<td><code>r(2)</code></td>
+<td>insert-tab horizontal padding</td>
+</tr>
+<tr>
+<td><strong> $tab-fz </strong></td>
+<td>font-size</td>
+<td><code>$base-fz--rem</code></td>
+<td>tab font-size</td>
+</tr>
+<tr>
+<td><strong> $tab-lh </strong></td>
+<td>line-height</td>
+<td><code>$base-lh</code></td>
+<td>tab line-height</td>
+</tr>
+<tr>
+<td><strong> $small-tab-fz </strong></td>
+<td>font-size</td>
+<td><code>$base-fz--rem</code></td>
+<td>small-tab font-size</td>
+</tr>
+<tr>
+<td><strong> $small-tab-lh </strong></td>
+<td>line-height</td>
+<td><code>$base-lh</code></td>
+<td>small-tab line-height</td>
+</tr>
+<tr>
+<td><strong> $selected-tab-selector </strong></td>
+<td>selector</td>
+<td><code>&quot;[aria-selected=&quot;true&quot;]&quot;</code></td>
+<td>selected tab selector</td>
+</tr>
+</table><div class="Tabs">
+  <a class="Tab" aria-selected="true" tabindex="0" href="#foo">
+    Foo selected
+  </a>
+  <a class="Tab" aria-selected="false" tabindex="-1" href="#bar">
+    Bar thing thing
+  </a>
+  <a class="Tab" aria-selected="false" tabindex="-1" href="#baz">
+    Baz thing thing
+  </a>
+</div>
+<pre class="code"><code class="html"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"Tabs"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"Tab"</span> <span class="hljs-attribute">aria-selected</span>=<span class="hljs-value">"true"</span> <span class="hljs-attribute">tabindex</span>=<span class="hljs-value">"0"</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"#foo"</span>&gt;</span>
+    Foo selected
+  <span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"Tab"</span> <span class="hljs-attribute">aria-selected</span>=<span class="hljs-value">"false"</span> <span class="hljs-attribute">tabindex</span>=<span class="hljs-value">"-1"</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"#bar"</span>&gt;</span>
+    Bar thing thing
+  <span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"Tab"</span> <span class="hljs-attribute">aria-selected</span>=<span class="hljs-value">"false"</span> <span class="hljs-attribute">tabindex</span>=<span class="hljs-value">"-1"</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"#baz"</span>&gt;</span>
+    Baz thing thing
+  <span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre><h2 id="small" class="s-Title--2">Small</h2><div class="Tabs Tabs--s">
+  <a class="Tab" aria-selected="true" tabindex="0" href="#foo">
+    Foo selected
+  </a>
+  <a class="Tab" aria-selected="false" tabindex="-1" href="#bar">
+    Bar thing thing
+  </a>
+  <a class="Tab" aria-selected="false" tabindex="-1" href="#baz">
+    Baz thing thing
+  </a>
+</div>
+<pre class="code"><code class="html"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"Tabs Tabs--s"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"Tab"</span> <span class="hljs-attribute">aria-selected</span>=<span class="hljs-value">"true"</span> <span class="hljs-attribute">tabindex</span>=<span class="hljs-value">"0"</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"#foo"</span>&gt;</span>
+    Foo selected
+  <span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"Tab"</span> <span class="hljs-attribute">aria-selected</span>=<span class="hljs-value">"false"</span> <span class="hljs-attribute">tabindex</span>=<span class="hljs-value">"-1"</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"#bar"</span>&gt;</span>
+    Bar thing thing
+  <span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"Tab"</span> <span class="hljs-attribute">aria-selected</span>=<span class="hljs-value">"false"</span> <span class="hljs-attribute">tabindex</span>=<span class="hljs-value">"-1"</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"#baz"</span>&gt;</span>
+    Baz thing thing
+  <span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre><h2 id="insert" class="s-Title--2">Insert</h2><p class="s-Paragraph">Alternative to use when you have two levels of tabs</p><div class="Tabs Tabs--insert">
+  <a class="Tab" aria-selected="false" tabindex="0" href="#foo">
+    Foo selected
+  </a>
+  <a class="Tab" aria-selected="true" tabindex="-1" href="#bar">
+    Bar thing thing
+  </a>
+  <a class="Tab" aria-selected="false" tabindex="-1" href="#baz">
+    Baz thing thing
+  </a>
+  <div class="Tab Tab--fr"></div>
+</div>
+<pre class="code"><code class="html"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"Tabs Tabs--insert"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"Tab"</span> <span class="hljs-attribute">aria-selected</span>=<span class="hljs-value">"false"</span> <span class="hljs-attribute">tabindex</span>=<span class="hljs-value">"0"</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"#foo"</span>&gt;</span>
+    Foo selected
+  <span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"Tab"</span> <span class="hljs-attribute">aria-selected</span>=<span class="hljs-value">"true"</span> <span class="hljs-attribute">tabindex</span>=<span class="hljs-value">"-1"</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"#bar"</span>&gt;</span>
+    Bar thing thing
+  <span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"Tab"</span> <span class="hljs-attribute">aria-selected</span>=<span class="hljs-value">"false"</span> <span class="hljs-attribute">tabindex</span>=<span class="hljs-value">"-1"</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"#baz"</span>&gt;</span>
+    Baz thing thing
+  <span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"Tab Tab--fr"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre></div></div></div><script src="/assets/js/cssinfo.js"></script></div><script>if (!pageName) { var pageName = 'default' }</script><script>document.getElementById('js-Page').classList.add('s-Page--' + pageName)</script></body></html>

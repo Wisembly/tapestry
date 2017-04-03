@@ -1,0 +1,105 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Tapestry</title><link href="/css/tapestry.css" rel="stylesheet" type="text/css"><link href="/assets/css/styleguide.css" rel="stylesheet" type="text/css"><link href="/assets/fonts/open-sans.css" rel="stylesheet" type="text/css"><script async src="http://localhost:4000/browser-sync/browser-sync-client.2.13.0.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/highlight.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/languages/scss.min.js"></script><script src="/js/tapestry.js"></script><script src="/assets/js/cssinfo.js"></script></head><body class="s-App s-Page" id="js-Page"><nav class="s-Nav"><h1 class="s-Logo"><a class="s-Logo-link" href="/">Tapestry</a></h1><div class="s-Nav-section"><a class="s-Nav-title" href="/getting-started">Getting started</a></div><div class="s-Nav-section has-nav"><a class="s-Nav-title" href="/components/colors">Components<a class="s-Nav-link" href="/components/colors">Colors</a><a class="s-Nav-link" href="/components/animations">Animations</a><a class="s-Nav-link" href="/components/avatar">Avatar</a><a class="s-Nav-link" href="/components/badge">Badge</a><a class="s-Nav-link" href="/components/box">Box</a><a class="s-Nav-link" href="/components/button">Button</a><a class="s-Nav-link" href="/components/dropdown">Dropdown</a><a class="s-Nav-link" href="/components/form">Form</a><a class="s-Nav-link" href="/components/input">Input</a><a class="s-Nav-link" href="/components/grid">Grid</a><a class="s-Nav-link" href="/components/icons">Icons</a><a class="s-Nav-link" href="/components/list">List</a><a class="s-Nav-link" href="/components/loader">Loader</a><a class="s-Nav-link" href="/components/media">Media</a><a class="s-Nav-link" href="/components/meter">Meter</a><a class="s-Nav-link" href="/components/modal">Modal</a><a class="s-Nav-link" href="/components/notification">Notification</a><a class="s-Nav-link" href="/components/panel">Panel</a><a class="s-Nav-link" href="/components/pellet">Pellet</a><a class="s-Nav-link" href="/components/popovers">Popovers</a><a class="s-Nav-link" href="/components/spinner">Spinner</a><a class="s-Nav-link" href="/components/switch">Switch</a><a class="s-Nav-link" href="/components/table">Table</a><a class="s-Nav-link" href="/components/tabs">Tabs</a><a class="s-Nav-link" href="/components/tooltip">Tooltip</a><a class="s-Nav-link" href="/components/typography">Typography</a><a class="s-Nav-link" href="/components/utils">Utils</a></a></div><div class="s-Nav-section"><a class="s-Nav-title" href="/sass-utils">Sass Utils</a></div><div class="s-Nav-section"><a class="s-Nav-title" href="/statistics">Statistics</a></div></nav><div class="s-Container"><h1 class="s-Header"><span class="Badge u-validate u-push">Current version: 1.9.1</span><span>Components</span></h1><div class="s-App-content s-Modules-container"><div class="s-Module"><div id="s-box" class="s-Module s-Module--box"><h1 id="box" class="s-Title--1">Box</h1><p class="s-Paragraph">A box is used to create a grouping of related content.
+Boxes do not have paddings by default. They are added while structuring it with .Box-header and/or .Box-content.</p><h2 id="variables" class="s-Title--2">Variables</h2><table class="s-Table"><tr>
+<th>Variable</th>
+<th>property</th>
+<th>value</th>
+<th>desc.</th>
+</tr>
+<tr>
+<td><strong> $box-space-between </strong></td>
+<td>margin</td>
+<td><code>$mg--m</code></td>
+<td>space between two boxes</td>
+</tr>
+<tr>
+<td><strong> $box-title-fz </strong></td>
+<td>font-size</td>
+<td><code>$fz--xl</code></td>
+<td>box title font-size</td>
+</tr>
+<tr>
+<td><strong> $box-title-lh </strong></td>
+<td>line-height</td>
+<td><code>$fz--xl</code></td>
+<td>box title line-height</td>
+</tr>
+<tr>
+<td><strong> $box-title-fw </strong></td>
+<td>font-weight</td>
+<td><code>$fw--semi-bold</code></td>
+<td>box title font-weight</td>
+</tr>
+</table><h2 id="examples" class="s-Title--2">Examples</h2><div class="Box">
+  <div class="Box-header">
+    <h4 class="Box-title">Box title</h4>
+  </div>
+  <p class="Box-content">Box content</p>
+</div>
+
+<div class="Box">
+  <div class="Box-content">Box content</div>
+</div>
+<pre class="code"><code class="html">&lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Box"</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Box-header"</span>&gt;
+    &lt;h4 <span class="hljs-type">class</span>=<span class="hljs-string">"Box-title"</span>&gt;Box title&lt;/h4&gt;
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;p <span class="hljs-type">class</span>=<span class="hljs-string">"Box-content"</span>&gt;Box content&lt;/p&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+
+&lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Box"</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Box-content"</span>&gt;Box content&lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;</code></pre><h2 id="horizontal-boxes" class="s-Title--2">Horizontal Boxes</h2><div class="Boxes">
+  <div class="Box">
+    <div class="Box-header">
+      <h4 class="Box-title">Title</h4>
+    </div>
+    <p class="Box-content">Box content</p>
+  </div>
+  <div class="Box">
+    <div class="Box-header">
+      <h4 class="Box-title">Title</h4>
+    </div>
+    <p class="Box-content">Box content</p>
+  </div>
+  <div class="Box">
+    <div class="Box-header">
+      <h4 class="Box-title">Title</h4>
+    </div>
+    <p class="Box-content">Bigger box content. Aenean lacinia bibendum nulla sed consectetur. Vestibulum id ligula porta felis euismod semper. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+  </div>
+</div>
+<pre class="code"><code class="html">&lt;<span class="hljs-tag">div</span> class=<span class="hljs-string">"Boxes"</span>&gt;
+  &lt;<span class="hljs-tag">div</span> class=<span class="hljs-string">"Box"</span>&gt;
+    &lt;<span class="hljs-tag">div</span> class=<span class="hljs-string">"Box-header"</span>&gt;
+      &lt;<span class="hljs-tag">h4</span> class=<span class="hljs-string">"Box-title"</span>&gt;Title&lt;/h4&gt;
+    &lt;/div&gt;
+    &lt;<span class="hljs-tag">p</span> class=<span class="hljs-string">"Box-content"</span>&gt;Box <span class="hljs-attribute">content</span>&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;<span class="hljs-tag">div</span> class=<span class="hljs-string">"Box"</span>&gt;
+    &lt;<span class="hljs-tag">div</span> class=<span class="hljs-string">"Box-header"</span>&gt;
+      &lt;<span class="hljs-tag">h4</span> class=<span class="hljs-string">"Box-title"</span>&gt;Title&lt;/h4&gt;
+    &lt;/div&gt;
+    &lt;<span class="hljs-tag">p</span> class=<span class="hljs-string">"Box-content"</span>&gt;Box <span class="hljs-attribute">content</span>&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;<span class="hljs-tag">div</span> class=<span class="hljs-string">"Box"</span>&gt;
+    &lt;<span class="hljs-tag">div</span> class=<span class="hljs-string">"Box-header"</span>&gt;
+      &lt;<span class="hljs-tag">h4</span> class=<span class="hljs-string">"Box-title"</span>&gt;Title&lt;/h4&gt;
+    &lt;/div&gt;
+    &lt;<span class="hljs-tag">p</span> class=<span class="hljs-string">"Box-content"</span>&gt;Bigger box <span class="hljs-attribute">content</span>. Aenean lacinia bibendum nulla sed consectetur. Vestibulum id ligula porta felis euismod semper. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre><h2 id="raw" class="s-Title--2">Raw</h2><p class="s-Paragraph">Use .Box--raw to remove box borders.</p><div class="Box Box--raw">
+  <div class="Box-content">
+    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+    Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.
+    Donec eu libero sit amet quam egestas semper.
+    Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+  </div>
+</div>
+<pre class="code"><code class="">&lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Box Box--raw"</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Box-content"</span>&gt;
+    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+    Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.
+    Donec eu libero sit amet quam egestas semper.
+    Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;</code></pre></div></div></div><script src="/assets/js/cssinfo.js"></script></div><script>if (!pageName) { var pageName = 'default' }</script><script>document.getElementById('js-Page').classList.add('s-Page--' + pageName)</script></body></html>

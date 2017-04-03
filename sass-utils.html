@@ -1,0 +1,29 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Tapestry</title><link href="/css/tapestry.css" rel="stylesheet" type="text/css"><link href="/assets/css/styleguide.css" rel="stylesheet" type="text/css"><link href="/assets/fonts/open-sans.css" rel="stylesheet" type="text/css"><script async src="http://localhost:4000/browser-sync/browser-sync-client.2.13.0.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/highlight.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/languages/scss.min.js"></script><script src="/js/tapestry.js"></script></head><body class="s-App s-Page" id="js-Page"><nav class="s-Nav"><h1 class="s-Logo"><a class="s-Logo-link" href="/">Tapestry</a></h1><div class="s-Nav-section"><a class="s-Nav-title" href="/getting-started">Getting started</a></div><div class="s-Nav-section"><a class="s-Nav-title" href="/components/colors">Components</a></div><div class="s-Nav-section"><a class="s-Nav-title" href="/sass-utils">Sass Utils</a></div><div class="s-Nav-section"><a class="s-Nav-title" href="/statistics">Statistics</a></div></nav><div class="s-Container"><h1 class="s-Header">Sass Utils</h1><div class="s-App-content s-Modules-container"><div class="s-Modules"></div><h2>Functions<h3 class="s-Title--2">Font-size calculation</h3><p class="s-Paragraph">Returns a font-size computed from <strong>$base-fz</strong> and a modular scale to the power of n (i.e $base-fz × 1.2<sup>n</sup>).</p><pre class="code"><code>p {
+  font-size: fz(1);
+}</code></pre><h3 class="s-Title--2">Rem-to-px conversion</h3><p class="s-Paragraph">Converting values from rems to pixels</p><pre class="code"><code>div {
+  height: px(2rem);
+}</code></pre><h3 class="s-Title--2">Px-to-rem conversion</h3><p class="s-Paragraph">Converting values from pixels to rems</p><pre class="code"><code>div {
+  border: rem(1px) solid $base-border-color;
+}</code></pre><h3 class="s-Title--2">Vertical-rythm units</h3><p class="s-Paragraph">Both of them return rem values computed from a quarter of line-height. <em>rb()</em> is an other function that also substracts the 2px added by a border.</p><pre class="code"><code>div {
+  height: r(4);
+}
+<br><br>
+span {
+  height: rb(4);
+}</code></pre><h3 class="s-Title--2">Z-index value</h3><p class="s-Paragraph">Returns a z-index value from the <a href="https://github.com/Wisembly/tapestry/blob/master/src/scss/utils/var/_zindexes.scss">z-index map</a></p><pre class="code"><code>.Overlay {
+  z-index: zi("Overlay");
+}
+<br><br>
+.Foo {
+  z-index: zi("Overlay") + 1;
+}</code></pre></h2><h2>Mixins<h3 class="s-Title--2">Clearfix</h3><p class="s-Paragraph">Includes clearfix hack (you can also use <a href="/components/utils">.u-cf utility class</a>)</p><pre class="code"><code>div {
+  @include cf;
+}</code></pre><h3 class="s-Title--2">Breakpoints</h3><p class="s-Paragraph">Includes breakpoint from values listed in the <a href="https://github.com/Wisembly/tapestry/blob/master/src/scss/utils/var/_breakpoints.scss">breakpoints map</a></p><pre class="code"><code>@include bp(min, max, orientation) {}
+@include bp(phablet) {}
+@include bp(phablet, desktop) {}
+@include bp(phablet, null, portrait) {}</code></pre><h3 class="s-Title--2">Positions</h3><p class="s-Paragraph">Includes position type (<strong>absolute</strong> or <strong>fixed</strong>) and position values</p><pre class="code"><code>@include pos(type top right bottom left);
+@include pos(a 0 0 0 0);
+@include pos(a 0);
+@include pos(a 0 null);</code></pre><h3 class="s-Title--2">Background</h3><p class="s-Paragraph">Sets some layout according to basic color-set (<strong class="t-neutral">$neutral</strong>, <strong class="t-primary">$primary</strong>, <strong class="t-error">$error</strong>, <strong class="t-info">$info</strong>, <strong class="t-validate">$validate</strong>). Add white color with <strong>$hasText</strong> and force <strong>!important</strong> with <strong>$important</strong>.</p><pre class="code"><code>@include bg($color, $hasText, $important);</code></pre><h3 class="s-Title--2">Ellipsis</h3><p class="s-Paragraph">Includes properties to create ellipsis: hidden overflow and dot dot dot.</p><pre class="code"><code>span {
+  @include ellispis;
+}</code></pre></h2></div></div><script>if (!pageName) { var pageName = 'default' }</script><script>document.getElementById('js-Page').classList.add('s-Page--' + pageName)</script></body></html>

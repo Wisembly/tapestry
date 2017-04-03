@@ -1,0 +1,106 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Tapestry</title><link href="/css/tapestry.css" rel="stylesheet" type="text/css"><link href="/assets/css/styleguide.css" rel="stylesheet" type="text/css"><link href="/assets/fonts/open-sans.css" rel="stylesheet" type="text/css"><script async src="http://localhost:4000/browser-sync/browser-sync-client.2.13.0.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/highlight.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/languages/scss.min.js"></script><script src="/js/tapestry.js"></script><script src="/assets/js/cssinfo.js"></script></head><body class="s-App s-Page" id="js-Page"><nav class="s-Nav"><h1 class="s-Logo"><a class="s-Logo-link" href="/">Tapestry</a></h1><div class="s-Nav-section"><a class="s-Nav-title" href="/getting-started">Getting started</a></div><div class="s-Nav-section has-nav"><a class="s-Nav-title" href="/components/colors">Components<a class="s-Nav-link" href="/components/colors">Colors</a><a class="s-Nav-link" href="/components/animations">Animations</a><a class="s-Nav-link" href="/components/avatar">Avatar</a><a class="s-Nav-link" href="/components/badge">Badge</a><a class="s-Nav-link" href="/components/box">Box</a><a class="s-Nav-link" href="/components/button">Button</a><a class="s-Nav-link" href="/components/dropdown">Dropdown</a><a class="s-Nav-link" href="/components/form">Form</a><a class="s-Nav-link" href="/components/input">Input</a><a class="s-Nav-link" href="/components/grid">Grid</a><a class="s-Nav-link" href="/components/icons">Icons</a><a class="s-Nav-link" href="/components/list">List</a><a class="s-Nav-link" href="/components/loader">Loader</a><a class="s-Nav-link" href="/components/media">Media</a><a class="s-Nav-link" href="/components/meter">Meter</a><a class="s-Nav-link" href="/components/modal">Modal</a><a class="s-Nav-link" href="/components/notification">Notification</a><a class="s-Nav-link" href="/components/panel">Panel</a><a class="s-Nav-link" href="/components/pellet">Pellet</a><a class="s-Nav-link" href="/components/popovers">Popovers</a><a class="s-Nav-link" href="/components/spinner">Spinner</a><a class="s-Nav-link" href="/components/switch">Switch</a><a class="s-Nav-link" href="/components/table">Table</a><a class="s-Nav-link" href="/components/tabs">Tabs</a><a class="s-Nav-link" href="/components/tooltip">Tooltip</a><a class="s-Nav-link" href="/components/typography">Typography</a><a class="s-Nav-link" href="/components/utils">Utils</a></a></div><div class="s-Nav-section"><a class="s-Nav-title" href="/sass-utils">Sass Utils</a></div><div class="s-Nav-section"><a class="s-Nav-title" href="/statistics">Statistics</a></div></nav><div class="s-Container"><h1 class="s-Header"><span class="Badge u-validate u-push">Current version: 1.9.1</span><span>Components</span></h1><div class="s-App-content s-Modules-container"><div class="s-Module"><div id="s-panel" class="s-Module s-Module--panel"><h1 id="panel" class="s-Title--1">Panel</h1><h2 id="variables" class="s-Title--2">Variables</h2><table class="s-Table"><tr>
+<th>Variable</th>
+<th>property</th>
+<th>value</th>
+<th>desc.</th>
+</tr>
+<tr>
+<td><strong> $panel-header-height </strong></td>
+<td>height</td>
+<td><code>r(8)</code></td>
+<td>panel header height</td>
+</tr>
+<tr>
+<td><strong> $panel-width </strong></td>
+<td>width</td>
+<td><code>100%</code></td>
+<td>panel width (small devices)</td>
+</tr>
+<tr>
+<td><strong> $panel-max-width </strong></td>
+<td>max-width</td>
+<td><code>r(100)</code></td>
+<td>panel max-width (large devices)</td>
+</tr>
+</table><button id="js-LaunchRightPanel" class="Btn Btn--primary Btn--outline">Launch panel on the right</button>
+<div class="Panel-wrapper" id="js-RightPanel" aria-hidden="true">
+  <div class="Panel">
+    <header class="Panel-header">
+      <h3 class="Panel-title">Panel on the right</h3>
+      <button id="js-CloseRightPanel" class="Btn Btn--raw PanelHeader-btn" aria-label="close">
+        <i class="Icon Icon--cross"></i>
+      </button>
+    </header>
+    <div class="Panel-content u-pd--m">
+      <p class="u-mgt--0">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.</p>
+    </div>
+    <footer class="Panel-footer">
+      <button class="Btn Panel-footerBtn">Cancel</button>
+      <button class="Btn Btn--validate Panel-footerBtn">Save</button>
+    </footer>
+  </div>
+</div>
+<pre class="code"><code class="html">&lt;<span class="hljs-tag">div</span> class=<span class="hljs-string">"Panel-wrapper"</span> id=<span class="hljs-string">"js-RightPanel"</span> aria-hidden=<span class="hljs-string">"true"</span>&gt;
+  &lt;<span class="hljs-tag">div</span> class=<span class="hljs-string">"Panel"</span>&gt;
+    &lt;<span class="hljs-tag">header</span> class=<span class="hljs-string">"Panel-header"</span>&gt;
+      &lt;<span class="hljs-tag">h3</span> class=<span class="hljs-string">"Panel-title"</span>&gt;Panel on the <span class="hljs-attribute">right</span>&lt;/h3&gt;
+      &lt;<span class="hljs-tag">button</span> id=<span class="hljs-string">"js-CloseRightPanel"</span> class=<span class="hljs-string">"Btn Btn--raw PanelHeader-btn"</span> aria-label=<span class="hljs-string">"close"</span>&gt;
+        &lt;<span class="hljs-tag">i</span> class=<span class="hljs-string">"Icon Icon--cross"</span>&gt;&lt;/i&gt;
+      &lt;/button&gt;
+    &lt;/header&gt;
+    &lt;<span class="hljs-tag">div</span> class=<span class="hljs-string">"Panel-content u-pd--m"</span>&gt;
+      &lt;<span class="hljs-tag">p</span> class=<span class="hljs-string">"u-mgt--0"</span>&gt;Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;<span class="hljs-tag">footer</span> class=<span class="hljs-string">"Panel-footer"</span>&gt;
+      &lt;<span class="hljs-tag">button</span> class=<span class="hljs-string">"Btn Panel-footerBtn"</span>&gt;Cancel&lt;/button&gt;
+      &lt;<span class="hljs-tag">button</span> class=<span class="hljs-string">"Btn Btn--validate Panel-footerBtn"</span>&gt;Save&lt;/button&gt;
+    &lt;/footer&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre><h2 id="positions" class="s-Title--2">Positions</h2><button id="js-LaunchLeftPanel" class="Btn Btn--primary Btn--outline">Launch panel on the left</button>
+<div class="Panel-wrapper" id="js-LeftPanel" aria-hidden="true">
+  <div class="Panel Panel--l">
+    <header class="Panel-header">
+      <h3 class="Panel-title">Panel on the left</h3>
+      <button id="js-CloseLeftPanel" class="Btn Btn--raw PanelHeader-btn" aria-label="close">
+        <i class="Icon Icon--cross"></i>
+      </button>
+    </header>
+    <div class="Panel-content u-pd--m">
+      <p class="u-mgt--0">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.</p>
+    </div>
+  </div>
+</div>
+<pre class="code"><code class="html">&lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Panel-wrapper"</span> <span class="hljs-property">id</span>=<span class="hljs-string">"js-LeftPanel"</span> aria-hidden=<span class="hljs-string">"true"</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Panel Panel--l"</span>&gt;
+    &lt;header <span class="hljs-type">class</span>=<span class="hljs-string">"Panel-header"</span>&gt;
+      &lt;h3 <span class="hljs-type">class</span>=<span class="hljs-string">"Panel-title"</span>&gt;Panel <span class="hljs-function_start"><span class="hljs-keyword">on</span></span> <span class="hljs-keyword">the</span> left&lt;/h3&gt;
+      &lt;button <span class="hljs-property">id</span>=<span class="hljs-string">"js-CloseLeftPanel"</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Btn Btn--raw PanelHeader-btn"</span> aria-label=<span class="hljs-string">"close"</span>&gt;
+        &lt;i <span class="hljs-type">class</span>=<span class="hljs-string">"Icon Icon--cross"</span>&gt;&lt;/i&gt;
+      &lt;/button&gt;
+    &lt;/header&gt;
+    &lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">"Panel-content u-pd--m"</span>&gt;
+      &lt;p <span class="hljs-type">class</span>=<span class="hljs-string">"u-mgt--0"</span>&gt;Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.&lt;/p&gt;
+    &lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;</code></pre><script>
+
+  document.getElementById("js-LaunchRightPanel").onclick = function () {
+    document.getElementById("js-RightPanel").setAttribute("aria-hidden", "false");
+    document.body.classList.add("u-ovh");
+  }
+  document.getElementById("js-CloseRightPanel").onclick = function(){
+    document.getElementById("js-RightPanel").setAttribute("aria-hidden", "true");
+    document.body.classList.remove("u-ovh");
+
+  }
+
+  document.getElementById("js-LaunchLeftPanel").onclick = function () {
+    document.getElementById("js-LeftPanel").setAttribute("aria-hidden", "false")
+    document.body.classList.add("u-ovh");
+  }
+  document.getElementById("js-CloseLeftPanel").onclick = function(){
+    document.getElementById("js-LeftPanel").setAttribute("aria-hidden", "true")
+    document.body.classList.remove("u-ovh");
+  }
+</script>
+</div></div></div><script src="/assets/js/cssinfo.js"></script></div><script>if (!pageName) { var pageName = 'default' }</script><script>document.getElementById('js-Page').classList.add('s-Page--' + pageName)</script></body></html>
