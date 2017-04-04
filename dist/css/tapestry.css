@@ -3305,10 +3305,6 @@ a {
   color: #708189;
 }
 
-.Input::-moz-placeholder {
-  color: #708189;
-}
-
 .Input:-ms-input-placeholder {
   color: #708189;
 }
@@ -3630,10 +3626,6 @@ a {
 }
 
 .Textarea::-webkit-input-placeholder {
-  color: #708189;
-}
-
-.Textarea::-moz-placeholder {
   color: #708189;
 }
 
