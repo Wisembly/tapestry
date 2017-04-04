@@ -25,7 +25,6 @@
     "gulp-uglify": "2.0.0",
     "prompt": "1.0.0",
     "pug": "2.0.0-beta6",
-    "pug-cli": "0.0.0",
     "run-sequence": "1.2.2",
     "sass-lint": "1.9.1",
     "styleguide-generator": "0.6.3",

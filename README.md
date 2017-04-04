@@ -49,7 +49,7 @@
 
 ```
 npm install
-npm install -g gulp backstopjs
+npm install -g gulp pug-cli backstopjs
 ```
 
 ### Run
