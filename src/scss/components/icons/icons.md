@@ -118,6 +118,11 @@
 </div>
 
 <div class="s-Icon">
+  <i class="Icon Icon--behance"></i>
+  behance
+</div>
+
+<div class="s-Icon">
   <i class="Icon Icon--bell"></i>
   bell
 </div>
