@@ -9,7 +9,9 @@ app.set('views', __dirname + '/views')
 app.set('view engine', 'pug');
 
 app.use(compression());
-app.use(express.static(path.join(__dirname, '../dist')));
+app.use(express.static(path.join(__dirname, '../dist'), {
+  index: false
+}));
 
 require('./routes/index')(app);
 require('./routes/getting-started')(app);
