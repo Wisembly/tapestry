@@ -78,6 +78,20 @@ git ci -n
 git ci -nm "My commit message"
 ```
 
+### Release
+
+```js
+npm run release // builds, commits, push, tags, publishes to Bower and NPM and deploys to GitHub Pages
+```
+
+### Deploying
+
+It can be run manually:
+
+```js
+npm run deploy
+```
+
 
 ### Tests
 

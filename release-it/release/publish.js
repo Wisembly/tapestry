@@ -15,7 +15,7 @@ module.exports = function (cb) {
     },
 
     function (_cb) {
-      exec('git subtree push --prefix dist origin gh-pages', function (err, data) {
+      exec('npm run deploy', function (err, data) {
         if (err) return false;
         log('Release deployed ✓');
         return _cb(null);

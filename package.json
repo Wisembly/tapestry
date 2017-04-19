@@ -34,6 +34,7 @@
     "lint": "$(npm bin)/sass-lint -v -q",
     "pre-commit": "cp pre-commit.sh .git/hooks/pre-commit && chmod 777 .git/hooks/pre-commit",
     "icons": "gulp icons && gulp",
+    "deploy": "git subtree push --prefix dist origin gh-pages",
     "release": "node release-it index.js"
   },
   "repository": {
