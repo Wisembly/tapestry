@@ -23,6 +23,15 @@
   }
 
   h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: $fw--semi-bold;
+  }
+
+  h1,
   h2 {
     line-height: $lh--xl;
   }
@@ -32,7 +41,6 @@
   h4 {
     margin-top: r(4);
     margin-bottom: r(4);
-    font-weight: $fw--semi-bold;
   }
 
   h3,
@@ -62,7 +70,6 @@
     margin-top: r(2);
     margin-bottom: r(2);
     font-size: fz(1);
-    font-weight: $fw--semi-bold;
     line-height: $base-lh;
   }
 
@@ -70,7 +77,6 @@
     margin-top: r(1);
     margin-bottom: r(1);
     font-size: $base-fz--rem;
-    font-weight: $fw--semi-bold;
     line-height: $base-lh;
   }
 
