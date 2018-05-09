@@ -93,6 +93,11 @@
 </div>
 
 <div class="s-Icon">
+  <i class="Icon Icon--atSign"></i>
+  atSign
+</div>
+
+<div class="s-Icon">
   <i class="Icon Icon--audio"></i>
   audio
 </div>
@@ -230,6 +235,11 @@
 <div class="s-Icon">
   <i class="Icon Icon--dashboard"></i>
   dashboard
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--decision"></i>
+  decision
 </div>
 
 <div class="s-Icon">
@@ -608,6 +618,11 @@
 </div>
 
 <div class="s-Icon">
+  <i class="Icon Icon--plusSquared"></i>
+  plusSquared
+</div>
+
+<div class="s-Icon">
   <i class="Icon Icon--popup"></i>
   popup
 </div>
@@ -750,6 +765,21 @@
 <div class="s-Icon">
   <i class="Icon Icon--title"></i>
   title
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--titleLarge"></i>
+  titleLarge
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--titleMedium"></i>
+  titleMedium
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--titleSmall"></i>
+  titleSmall
 </div>
 
 <div class="s-Icon">
