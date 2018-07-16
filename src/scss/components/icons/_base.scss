@@ -503,192 +503,196 @@
   content: "\ea7a";
 }
 
-@mixin Icon--presentation {
+@mixin Icon--present {
   content: "\ea7b";
 }
 
-@mixin Icon--private {
+@mixin Icon--presentation {
   content: "\ea7c";
 }
 
-@mixin Icon--projector {
+@mixin Icon--private {
   content: "\ea7d";
 }
 
-@mixin Icon--quotes {
+@mixin Icon--projector {
   content: "\ea7e";
 }
 
-@mixin Icon--radio {
+@mixin Icon--quotes {
   content: "\ea7f";
 }
 
-@mixin Icon--refresh {
+@mixin Icon--radio {
   content: "\ea80";
 }
 
-@mixin Icon--reply {
+@mixin Icon--refresh {
   content: "\ea81";
 }
 
-@mixin Icon--reset {
+@mixin Icon--reply {
   content: "\ea82";
 }
 
-@mixin Icon--results {
+@mixin Icon--reset {
   content: "\ea83";
 }
 
-@mixin Icon--rss {
+@mixin Icon--results {
   content: "\ea84";
 }
 
-@mixin Icon--section {
+@mixin Icon--rss {
   content: "\ea85";
 }
 
-@mixin Icon--singleChoice {
+@mixin Icon--section {
   content: "\ea86";
 }
 
-@mixin Icon--slack {
+@mixin Icon--singleChoice {
   content: "\ea87";
 }
 
-@mixin Icon--smile {
+@mixin Icon--slack {
   content: "\ea88";
 }
 
-@mixin Icon--solid {
+@mixin Icon--smile {
   content: "\ea89";
 }
 
-@mixin Icon--spreadsheet {
+@mixin Icon--solid {
   content: "\ea8a";
 }
 
-@mixin Icon--star {
+@mixin Icon--spreadsheet {
   content: "\ea8b";
 }
 
-@mixin Icon--starHalf {
+@mixin Icon--star {
   content: "\ea8c";
 }
 
-@mixin Icon--starOutlined {
+@mixin Icon--starHalf {
   content: "\ea8d";
 }
 
-@mixin Icon--stats {
+@mixin Icon--starOutlined {
   content: "\ea8e";
 }
 
-@mixin Icon--stop {
+@mixin Icon--stats {
   content: "\ea8f";
 }
 
-@mixin Icon--subtitle {
+@mixin Icon--stop {
   content: "\ea90";
 }
 
-@mixin Icon--summary {
+@mixin Icon--subtitle {
   content: "\ea91";
 }
 
-@mixin Icon--sunrise {
+@mixin Icon--summary {
   content: "\ea92";
 }
 
-@mixin Icon--sunset {
+@mixin Icon--sunrise {
   content: "\ea93";
 }
 
-@mixin Icon--target {
+@mixin Icon--sunset {
   content: "\ea94";
 }
 
-@mixin Icon--timeline {
+@mixin Icon--target {
   content: "\ea95";
 }
 
-@mixin Icon--title {
+@mixin Icon--timeline {
   content: "\ea96";
 }
 
-@mixin Icon--titleLarge {
+@mixin Icon--title {
   content: "\ea97";
 }
 
-@mixin Icon--titleMedium {
+@mixin Icon--titleLarge {
   content: "\ea98";
 }
 
-@mixin Icon--titleSmall {
+@mixin Icon--titleMedium {
   content: "\ea99";
 }
 
-@mixin Icon--titles {
+@mixin Icon--titleSmall {
   content: "\ea9a";
 }
 
-@mixin Icon--trash {
+@mixin Icon--titles {
   content: "\ea9b";
 }
 
-@mixin Icon--triangleDown {
+@mixin Icon--trash {
   content: "\ea9c";
 }
 
-@mixin Icon--triangleLeft {
+@mixin Icon--triangleDown {
   content: "\ea9d";
 }
 
-@mixin Icon--triangleRight {
+@mixin Icon--triangleLeft {
   content: "\ea9e";
 }
 
-@mixin Icon--triangleUp {
+@mixin Icon--triangleRight {
   content: "\ea9f";
 }
 
-@mixin Icon--twitter {
+@mixin Icon--triangleUp {
   content: "\eaa0";
 }
 
-@mixin Icon--unlock {
+@mixin Icon--twitter {
   content: "\eaa1";
 }
 
-@mixin Icon--unplugged {
+@mixin Icon--unlock {
   content: "\eaa2";
 }
 
-@mixin Icon--user {
+@mixin Icon--unplugged {
   content: "\eaa3";
 }
 
-@mixin Icon--video {
+@mixin Icon--user {
   content: "\eaa4";
 }
 
-@mixin Icon--warning {
+@mixin Icon--video {
   content: "\eaa5";
 }
 
-@mixin Icon--warningSign {
+@mixin Icon--warning {
   content: "\eaa6";
 }
 
-@mixin Icon--wifi {
+@mixin Icon--warningSign {
   content: "\eaa7";
 }
 
-@mixin Icon--wisembly {
+@mixin Icon--wifi {
   content: "\eaa8";
 }
 
-@mixin Icon--youtube {
+@mixin Icon--wisembly {
   content: "\eaa9";
+}
+
+@mixin Icon--youtube {
+  content: "\eaaa";
 }
 
 
@@ -1206,6 +1210,10 @@
   
   .Icon--popup:before {
     @include Icon--popup;
+  }
+  
+  .Icon--present:before {
+    @include Icon--present;
   }
   
   .Icon--presentation:before {

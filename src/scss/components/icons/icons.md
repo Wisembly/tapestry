@@ -628,6 +628,11 @@
 </div>
 
 <div class="s-Icon">
+  <i class="Icon Icon--present"></i>
+  present
+</div>
+
+<div class="s-Icon">
   <i class="Icon Icon--presentation"></i>
   presentation
 </div>
