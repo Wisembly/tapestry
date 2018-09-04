@@ -233,6 +233,61 @@
 </div>
 
 <div class="s-Icon">
+  <i class="Icon Icon--dacComment"></i>
+  dacComment
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--dacDocument"></i>
+  dacDocument
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--dacFavorite"></i>
+  dacFavorite
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--dacFavorites"></i>
+  dacFavorites
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--dacPin"></i>
+  dacPin
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--dacPoll"></i>
+  dacPoll
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--dacPopup"></i>
+  dacPopup
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--dacPresentation"></i>
+  dacPresentation
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--dacSurvey"></i>
+  dacSurvey
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--dacTag"></i>
+  dacTag
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--dacWorkshop"></i>
+  dacWorkshop
+</div>
+
+<div class="s-Icon">
   <i class="Icon Icon--dashboard"></i>
   dashboard
 </div>
