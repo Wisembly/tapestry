@@ -233,6 +233,11 @@
 </div>
 
 <div class="s-Icon">
+  <i class="Icon Icon--dacAnonymous"></i>
+  dacAnonymous
+</div>
+
+<div class="s-Icon">
   <i class="Icon Icon--dacComment"></i>
   dacComment
 </div>
