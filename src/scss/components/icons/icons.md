@@ -238,6 +238,11 @@
 </div>
 
 <div class="s-Icon">
+  <i class="Icon Icon--dacAudioVideo"></i>
+  dacAudioVideo
+</div>
+
+<div class="s-Icon">
   <i class="Icon Icon--dacComment"></i>
   dacComment
 </div>
@@ -255,6 +260,11 @@
 <div class="s-Icon">
   <i class="Icon Icon--dacFavorites"></i>
   dacFavorites
+</div>
+
+<div class="s-Icon">
+  <i class="Icon Icon--dacParticipants"></i>
+  dacParticipants
 </div>
 
 <div class="s-Icon">
