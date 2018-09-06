@@ -238,6 +238,11 @@
 </div>
 
 <div class="s-Icon">
+  <i class="Icon Icon--dacArchive"></i>
+  dacArchive
+</div>
+
+<div class="s-Icon">
   <i class="Icon Icon--dacAudioVideo"></i>
   dacAudioVideo
 </div>
