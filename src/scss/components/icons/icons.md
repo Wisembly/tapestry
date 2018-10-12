@@ -263,6 +263,11 @@
 </div>
 
 <div class="s-Icon">
+  <i class="Icon Icon--dacFavoriteFull"></i>
+  dacFavoriteFull
+</div>
+
+<div class="s-Icon">
   <i class="Icon Icon--dacFavorites"></i>
   dacFavorites
 </div>
