@@ -273,6 +273,11 @@
 </div>
 
 <div class="s-Icon">
+  <i class="Icon Icon--dacHome"></i>
+  dacHome
+</div>
+
+<div class="s-Icon">
   <i class="Icon Icon--dacParticipants"></i>
   dacParticipants
 </div>
